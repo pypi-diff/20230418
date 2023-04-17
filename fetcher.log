@@ -428,3 +428,84 @@
 [2023-04-18 00:29:47] INFO root fetch - main [MainThread]: End processing [futurejson]: success
 [2023-04-18 00:29:48] INFO root fetch - main [MainThread]: End processing [gpt4all-j]: success
 [2023-04-18 00:29:48] INFO root fetch - main [MainThread]: Store serial: [17745197]
+[2023-04-18 00:34:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17745197]
+[2023-04-18 00:34:56] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-18 00:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hordelib
+[2023-04-18 00:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-datamodel
+[2023-04-18 00:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-nightly-macos
+[2023-04-18 00:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: portmod
+[2023-04-18 00:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Turing-Pi-BMC
+[2023-04-18 00:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quantconnect-stubs
+[2023-04-18 00:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kiwigrad
+[2023-04-18 00:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: taskiq
+[2023-04-18 00:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: meshed
+[2023-04-18 00:34:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pysigma-backend-microsoft365defender
+[2023-04-18 00:34:56] INFO root fetch - processPackages [hordelib]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-18 00:34:56] INFO root fetch - processPackages [taskiq]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-18 00:34:56] INFO root fetch - processPackages [pysigma-backend-microsoft365defender]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-04-18 00:34:56] INFO root fetch - processPackages [Turing-Pi-BMC]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-18 00:34:56] INFO root fetch - processPackages [kiwigrad]: New version: [0.17] Old Version: [0.16]
+[2023-04-18 00:34:56] INFO root fetch - processPackages [portmod]: New version: [2.6.1] Old Version: [2.6.0]
+[2023-04-18 00:34:56] INFO root fetch - processPackages [python-datamodel]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-04-18 00:34:56] INFO root fetch - processPackages [meshed]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-04-18 00:34:56] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-04-18 00:34:56] INFO root fetch - processPackages [tf-nightly-macos]: New version: [2.13.0.dev20230417] Old Version: [2.13.0.dev20230413]
+[2023-04-18 00:34:56] INFO root fetch - processPackages [meshed]: executing diffoscope
+[2023-04-18 00:34:56] INFO root fetch - processPackages [meshed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meshed-0.1.98.tar.gz tmp/meshed-0.1.99.tar.gz --markdown 20230418/m/meshed/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-04-18 00:34:56] INFO root fetch - processPackages [taskiq]: Downloading https://files.pythonhosted.org/packages/c6/a8/d932cb4617a35b3e151a14c1e3eaf9005f2e2f3926ba80323977badd8fb9/taskiq-0.4.0.tar.gz
+[2023-04-18 00:34:56] INFO root fetch - processPackages [python-datamodel]: Downloading https://files.pythonhosted.org/packages/d6/f8/2d9131041ed9eba64506b3070b65a19a44bf10e4ba1562aa870ac3a70b06/python_datamodel-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-18 00:34:57] INFO root fetch - processPackages [kiwigrad]: Downloading https://files.pythonhosted.org/packages/26/24/800f323b08d210c4a71954efc602d883b6119edc73add9b84de8c194542e/kiwigrad-0.16.tar.gz
+[2023-04-18 00:34:57] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-04-18 00:34:57] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230418/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-04-18 00:34:57] INFO root fetch - processPackages [pysigma-backend-microsoft365defender]: Downloading https://files.pythonhosted.org/packages/a6/42/3615233cfa1c8ce2326c9c55c7f700ee04e092bebfc8ac610bcf012c3368/pysigma_backend_microsoft365defender-0.1.0.tar.gz
+[2023-04-18 00:34:57] INFO root fetch - processPackages [portmod]: Downloading https://files.pythonhosted.org/packages/99/c0/adc7a7b20f6fdf10656ea011999ad45fcc8cedec351c55c29fed2b0ca7f5/portmod-2.6.1.tar.gz
+[2023-04-18 00:34:57] INFO root fetch - processPackages [hordelib]: Downloading https://files.pythonhosted.org/packages/fd/a2/adcbb07401fbedfb5e142d1a138de62bf94227ad2e238ea5a5b6eb5033f4/hordelib-0.9.2.tar.gz
+[2023-04-18 00:34:57] INFO root fetch - processPackages [Turing-Pi-BMC]: Downloading https://files.pythonhosted.org/packages/56/1a/33ab9a1d9dbd08116ddbeca9b66163c2ca5635f680a9f3565f6e1d487ed4/Turing%20Pi%20BMC-0.3.0.tar.gz
+[2023-04-18 00:34:57] INFO root fetch - processPackages [tf-nightly-macos]: Downloading https://files.pythonhosted.org/packages/f6/cb/e6199b0712b75979dd13c1cc951236cdcb8694c731c220b9f5885f2593e2/tf_nightly_macos-2.13.0.dev20230413-cp39-cp39-macosx_12_0_arm64.whl
+[2023-04-18 00:34:57] INFO root fetch - processPackages [kiwigrad]: Downloading https://files.pythonhosted.org/packages/e3/59/8cb52582d33f32f0ef62b0c57e16d2035067b477926a9fb7392df4a167e9/kiwigrad-0.17.tar.gz
+[2023-04-18 00:34:57] WARNING root fetch - processPackages [tf-nightly-macos]: Skipping package: exceeds size limit 186484293>=10485760
+[2023-04-18 00:34:57] INFO root fetch - processPackages [tf-nightly-macos]: Start processing: arfindata
+[2023-04-18 00:34:57] INFO root fetch - main [MainThread]: End processing [tf-nightly-macos] error
+[2023-04-18 00:34:57] INFO root fetch - processPackages [Turing-Pi-BMC]: executing diffoscope
+[2023-04-18 00:34:57] INFO root fetch - processPackages [Turing-Pi-BMC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Turing Pi BMC-0.2.0.tar.gz tmp/Turing Pi BMC-0.3.0.tar.gz --markdown 20230418/T/Turing-Pi-BMC/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-18 00:34:57] INFO root fetch - processPackages [portmod]: executing diffoscope
+[2023-04-18 00:34:57] INFO root fetch - processPackages [portmod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/portmod-2.6.0-cp37-abi3-macosx_11_0_universal2.whl.zip tmp/portmod-2.6.1.tar.gz --markdown 20230418/p/portmod/2.6.0-2.6.1/diff.md --exclude *.pyd
+[2023-04-18 00:34:57] WARNING root fetch - processPackages [arfindata]: Skipping, unable to determine old version
+[2023-04-18 00:34:57] INFO root fetch - processPackages [arfindata]: Start processing: VodBot
+[2023-04-18 00:34:57] INFO root fetch - main [MainThread]: End processing [arfindata] error
+[2023-04-18 00:34:57] INFO root fetch - processPackages [VodBot]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-04-18 00:34:57] INFO root fetch - processPackages [taskiq]: Downloading https://files.pythonhosted.org/packages/4a/c6/8c33e02a6d398657ea855b1e4d23ec51a7884b523fd5580fe962f37c98af/taskiq-0.4.1.tar.gz
+[2023-04-18 00:34:57] INFO root fetch - processPackages [pysigma-backend-microsoft365defender]: Downloading https://files.pythonhosted.org/packages/f7/96/b81873286063967be53c9750f15de203705deb2a10c2786b6038ab892448/pysigma_backend_microsoft365defender-0.1.2.tar.gz
+[2023-04-18 00:34:57] INFO root fetch - processPackages [kiwigrad]: executing diffoscope
+[2023-04-18 00:34:57] INFO root fetch - processPackages [kiwigrad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiwigrad-0.16.tar.gz tmp/kiwigrad-0.17.tar.gz --markdown 20230418/k/kiwigrad/0.16-0.17/diff.md --exclude *.pyd
+[2023-04-18 00:34:57] INFO root fetch - processPackages [python-datamodel]: Downloading https://files.pythonhosted.org/packages/3d/a7/77778cb6167e9435119bc03f95bfd8855388e3f1f1e41a02ffe22df4c9a0/python_datamodel-0.3.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-18 00:34:57] INFO root fetch - processPackages [VodBot]: Downloading https://files.pythonhosted.org/packages/0e/27/232ca5bec6221f44d4b15a6963198ddeda90820245d86f1a889d940157af/VodBot-1.1.4.tar.gz
+[2023-04-18 00:34:57] INFO root fetch - processPackages [taskiq]: executing diffoscope
+[2023-04-18 00:34:57] INFO root fetch - processPackages [taskiq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskiq-0.4.0.tar.gz tmp/taskiq-0.4.1.tar.gz --markdown 20230418/t/taskiq/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-18 00:34:57] INFO root fetch - processPackages [pysigma-backend-microsoft365defender]: executing diffoscope
+[2023-04-18 00:34:57] INFO root fetch - processPackages [pysigma-backend-microsoft365defender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysigma_backend_microsoft365defender-0.1.0.tar.gz tmp/pysigma_backend_microsoft365defender-0.1.2.tar.gz --markdown 20230418/p/pysigma-backend-microsoft365defender/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-04-18 00:34:57] INFO root fetch - processPackages [VodBot]: Downloading https://files.pythonhosted.org/packages/37/ec/2d37e3066dc5ee077fb68c61902a27f468e02e16d2b0da0a46e6263681c0/VodBot-1.1.5.tar.gz
+[2023-04-18 00:34:57] INFO root fetch - processPackages [python-datamodel]: executing diffoscope
+[2023-04-18 00:34:57] INFO root fetch - processPackages [python-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_datamodel-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/python_datamodel-0.3.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230418/p/python-datamodel/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-04-18 00:34:57] INFO root fetch - processPackages [VodBot]: executing diffoscope
+[2023-04-18 00:34:57] INFO root fetch - processPackages [VodBot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VodBot-1.1.4.tar.gz tmp/VodBot-1.1.5.tar.gz --markdown 20230418/V/VodBot/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-04-18 00:34:58] INFO root fetch - processPackages [hordelib]: executing diffoscope
+[2023-04-18 00:34:58] INFO root fetch - processPackages [hordelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hordelib-0.9.1.tar.gz tmp/hordelib-0.9.2.tar.gz --markdown 20230418/h/hordelib/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-18 00:34:58] INFO root fetch - processPackages [Turing-Pi-BMC]: Start processing: measure-dist
+[2023-04-18 00:34:58] INFO root fetch - main [MainThread]: End processing [Turing-Pi-BMC]: success
+[2023-04-18 00:34:58] INFO root fetch - main [MainThread]: End processing [meshed]: success
+[2023-04-18 00:34:58] INFO root fetch - processPackages [measure-dist]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-04-18 00:34:58] INFO root fetch - main [MainThread]: End processing [kiwigrad]: success
+[2023-04-18 00:34:58] INFO root fetch - main [MainThread]: End processing [pysigma-backend-microsoft365defender]: success
+[2023-04-18 00:34:59] INFO root fetch - processPackages [measure-dist]: Downloading https://files.pythonhosted.org/packages/32/ae/ebcb831ade0f7d439aa3b6bc1d3df5b95e813e238f1d39de1d9260c13f7a/measure_dist-1.0.0.tar.gz
+[2023-04-18 00:34:59] INFO root fetch - processPackages [measure-dist]: Downloading https://files.pythonhosted.org/packages/01/b0/368531dbadd3bb140f141c7c54e09240449403e6a9b922d3e90672525890/measure_dist-1.1.0.tar.gz
+[2023-04-18 00:34:59] INFO root fetch - processPackages [measure-dist]: executing diffoscope
+[2023-04-18 00:34:59] INFO root fetch - processPackages [measure-dist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/measure_dist-1.0.0.tar.gz tmp/measure_dist-1.1.0.tar.gz --markdown 20230418/m/measure-dist/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-04-18 00:34:59] INFO root fetch - main [MainThread]: End processing [VodBot]: success
+[2023-04-18 00:35:00] INFO root fetch - main [MainThread]: End processing [taskiq]: success
+[2023-04-18 00:35:02] INFO root fetch - main [MainThread]: End processing [portmod]: success
+[2023-04-18 00:35:02] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-04-18 00:35:04] INFO root fetch - main [MainThread]: End processing [python-datamodel]: success
+[2023-04-18 00:35:06] INFO root fetch - main [MainThread]: End processing [hordelib]: success
+[2023-04-18 00:35:14] INFO root fetch - main [MainThread]: End processing [measure-dist]: success
+[2023-04-18 00:35:14] INFO root fetch - main [MainThread]: Store serial: [17745243]
