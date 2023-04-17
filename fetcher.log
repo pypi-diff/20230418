@@ -1302,3 +1302,68 @@
 [2023-04-18 01:37:34] INFO root fetch - main [MainThread]: End processing [pyutplugins]: success
 [2023-04-18 01:37:38] INFO root fetch - main [MainThread]: End processing [scaffoldmaker]: success
 [2023-04-18 01:37:38] INFO root fetch - main [MainThread]: Store serial: [17745678]
+[2023-04-18 01:42:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17745678]
+[2023-04-18 01:42:47] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-18 01:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pipen-board
+[2023-04-18 01:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: synthdid
+[2023-04-18 01:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pollev-history-compiler
+[2023-04-18 01:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hond
+[2023-04-18 01:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fieldfitter
+[2023-04-18 01:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kgx
+[2023-04-18 01:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: packagemernado
+[2023-04-18 01:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aws-ddk-core
+[2023-04-18 01:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sql2gpt
+[2023-04-18 01:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: returnn
+[2023-04-18 01:42:47] INFO root fetch - processPackages [pipen-board]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-18 01:42:47] INFO root fetch - processPackages [fieldfitter]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-18 01:42:47] INFO root fetch - processPackages [pollev-history-compiler]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-18 01:42:47] INFO root fetch - processPackages [synthdid]: New version: [0.9.1] Old Version: [0.9]
+[2023-04-18 01:42:47] WARNING root fetch - processPackages [packagemernado]: Skipping, unable to determine old version
+[2023-04-18 01:42:47] INFO root fetch - processPackages [packagemernado]: Start processing: charsi
+[2023-04-18 01:42:47] INFO root fetch - main [MainThread]: End processing [packagemernado] error
+[2023-04-18 01:42:47] INFO root fetch - processPackages [aws-ddk-core]: New version: [1.0.0b1] Old Version: [1.0.0b0]
+[2023-04-18 01:42:47] INFO root fetch - processPackages [hond]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-04-18 01:42:47] INFO root fetch - processPackages [sql2gpt]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-18 01:42:47] INFO root fetch - processPackages [kgx]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-04-18 01:42:47] INFO root fetch - processPackages [returnn]: New version: [1.20230418.5121] Old Version: [1.20230418.10737]
+[2023-04-18 01:42:47] INFO root fetch - processPackages [sql2gpt]: executing diffoscope
+[2023-04-18 01:42:47] INFO root fetch - processPackages [sql2gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql2gpt-0.2.0.tar.gz tmp/sql2gpt-0.3.0.tar.gz --markdown 20230418/s/sql2gpt/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-18 01:42:47] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-04-18 01:42:47] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230418.10737.tar.gz tmp/returnn-1.20230418.5121.tar.gz --markdown 20230418/r/returnn/1.20230418.10737-1.20230418.5121/diff.md --exclude *.pyd
+[2023-04-18 01:42:47] WARNING root fetch - processPackages [charsi]: Skipping, unable to determine old version
+[2023-04-18 01:42:47] INFO root fetch - main [MainThread]: End processing [charsi] error
+[2023-04-18 01:42:47] INFO root fetch - processPackages [pollev-history-compiler]: Downloading https://files.pythonhosted.org/packages/93/dc/6a309fba9c67a6467e79a012d6d83eb2ed009329cbc976dc456795e5c98b/pollev-history-compiler-1.0.0.tar.gz
+[2023-04-18 01:42:47] INFO root fetch - processPackages [fieldfitter]: Downloading https://files.pythonhosted.org/packages/8d/e1/30c9297fd5f7daf567fc056c8d283928ed8e2701adaa20a833a88a26d4e2/fieldfitter-0.2.0.tar.gz
+[2023-04-18 01:42:47] INFO root fetch - processPackages [pipen-board]: Downloading https://files.pythonhosted.org/packages/13/29/75255cace95639cd0db85086160cc4563eb502c1a51b3e3195fd13f4a4a6/pipen_board-0.0.1.tar.gz
+[2023-04-18 01:42:47] INFO root fetch - processPackages [hond]: Downloading https://files.pythonhosted.org/packages/c9/67/f0b088332851c9f7723ade6c5b8bddbf4607f97339727dee5b2c107de6cf/hond-2.0.4.tar.gz
+[2023-04-18 01:42:47] INFO root fetch - processPackages [synthdid]: Downloading https://files.pythonhosted.org/packages/ff/61/4044f1946e2792db4f0eca35510374191c651db7efb7c5fd98ec215215a7/synthdid-0.9.1.tar.gz
+[2023-04-18 01:42:47] INFO root fetch - processPackages [aws-ddk-core]: Downloading https://files.pythonhosted.org/packages/b6/2b/d51366002577b386cf34eaae28e9489fa918cd885a0abc0e617719e0d266/aws-ddk-core-1.0.0b0.tar.gz
+[2023-04-18 01:42:47] INFO root fetch - processPackages [kgx]: Downloading https://files.pythonhosted.org/packages/e0/e5/8f5e0c7d473ac038f50d77c27f66467fe7be4f3d2de651c2b14413d88989/kgx-2.0.5.tar.gz
+[2023-04-18 01:42:47] INFO root fetch - processPackages [hond]: executing diffoscope
+[2023-04-18 01:42:47] INFO root fetch - processPackages [hond]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hond-2.0.3.tar.gz tmp/hond-2.0.4.tar.gz --markdown 20230418/h/hond/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-04-18 01:42:47] INFO root fetch - processPackages [synthdid]: executing diffoscope
+[2023-04-18 01:42:47] INFO root fetch - processPackages [synthdid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synthdid-0.9.tar.gz tmp/synthdid-0.9.1.tar.gz --markdown 20230418/s/synthdid/0.9-0.9.1/diff.md --exclude *.pyd
+[2023-04-18 01:42:47] INFO root fetch - processPackages [fieldfitter]: Downloading https://files.pythonhosted.org/packages/fa/4b/6a0f5ee7da3838be32f0686f89e1286fbbd12eb8d55f7e0edbad7edbd465/fieldfitter-0.3.0.tar.gz
+[2023-04-18 01:42:47] INFO root fetch - processPackages [pollev-history-compiler]: Downloading https://files.pythonhosted.org/packages/1b/35/d3306c8aab5e181612905dd345d4d51ed2710b1bd32525cf878b139746bc/pollev-history-compiler-1.0.1.tar.gz
+[2023-04-18 01:42:47] INFO root fetch - processPackages [pipen-board]: Downloading https://files.pythonhosted.org/packages/96/d5/ffd693aeeb4b70ca042afe9c165abf79f9a9246e6fbb1420582949d451af/pipen_board-0.0.2.tar.gz
+[2023-04-18 01:42:47] INFO root fetch - processPackages [kgx]: executing diffoscope
+[2023-04-18 01:42:47] INFO root fetch - processPackages [kgx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kgx-2.0.4.tar.gz tmp/kgx-2.0.5.tar.gz --markdown 20230418/k/kgx/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-04-18 01:42:47] INFO root fetch - processPackages [aws-ddk-core]: Downloading https://files.pythonhosted.org/packages/b3/be/1ac935d09be18a315e90402ddb750f7e1c73f428cceee88de108834523c5/aws-ddk-core-1.0.0b1.tar.gz
+[2023-04-18 01:42:47] INFO root fetch - processPackages [fieldfitter]: executing diffoscope
+[2023-04-18 01:42:47] INFO root fetch - processPackages [fieldfitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fieldfitter-0.2.0.tar.gz tmp/fieldfitter-0.3.0.tar.gz --markdown 20230418/f/fieldfitter/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-18 01:42:47] INFO root fetch - processPackages [pollev-history-compiler]: executing diffoscope
+[2023-04-18 01:42:47] INFO root fetch - processPackages [pollev-history-compiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollev-history-compiler-1.0.0.tar.gz tmp/pollev-history-compiler-1.0.1.tar.gz --markdown 20230418/p/pollev-history-compiler/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-18 01:42:47] INFO root fetch - processPackages [pipen-board]: executing diffoscope
+[2023-04-18 01:42:47] INFO root fetch - processPackages [pipen-board]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_board-0.0.1.tar.gz tmp/pipen_board-0.0.2.tar.gz --markdown 20230418/p/pipen-board/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-18 01:42:48] INFO root fetch - processPackages [aws-ddk-core]: executing diffoscope
+[2023-04-18 01:42:48] INFO root fetch - processPackages [aws-ddk-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-ddk-core-1.0.0b0.tar.gz tmp/aws-ddk-core-1.0.0b1.tar.gz --markdown 20230418/a/aws-ddk-core/1.0.0b0-1.0.0b1/diff.md --exclude *.pyd
+[2023-04-18 01:42:48] INFO root fetch - main [MainThread]: End processing [sql2gpt]: success
+[2023-04-18 01:42:48] INFO root fetch - main [MainThread]: End processing [synthdid]: success
+[2023-04-18 01:42:49] INFO root fetch - main [MainThread]: End processing [hond]: success
+[2023-04-18 01:42:49] INFO root fetch - main [MainThread]: End processing [fieldfitter]: success
+[2023-04-18 01:42:49] INFO root fetch - main [MainThread]: End processing [kgx]: success
+[2023-04-18 01:42:49] INFO root fetch - main [MainThread]: End processing [pipen-board]: success
+[2023-04-18 01:42:49] INFO root fetch - main [MainThread]: End processing [pollev-history-compiler]: success
+[2023-04-18 01:42:49] INFO root fetch - main [MainThread]: End processing [aws-ddk-core]: success
+[2023-04-18 01:42:53] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-04-18 01:42:53] INFO root fetch - main [MainThread]: Store serial: [17745711]

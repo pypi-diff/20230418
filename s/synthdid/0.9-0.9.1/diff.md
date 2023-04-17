@@ -1,0 +1,135 @@
+# Comparing `tmp/synthdid-0.9.tar.gz` & `tmp/synthdid-0.9.1.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "dist\synthdid-0.9.tar", last modified: Tue Apr 18 01:24:56 2023, max compression
++gzip compressed data, was "dist\synthdid-0.9.1.tar", last modified: Tue Apr 18 01:37:06 2023, max compression
+```
+
+## Comparing `synthdid-0.9.tar` & `synthdid-0.9.1.tar`
+
+### file list
+
+```diff
+@@ -1,21 +1,21 @@
+-drwxrwxrwx   0        0        0        0 2023-04-18 01:24:56.255995 synthdid-0.9/
+--rw-rw-rw-   0        0        0      430 2023-04-18 01:24:56.255995 synthdid-0.9/PKG-INFO
+--rw-rw-rw-   0        0        0       42 2023-04-18 01:24:56.255995 synthdid-0.9/setup.cfg
+--rw-rw-rw-   0        0        0     1604 2023-04-18 00:46:12.000000 synthdid-0.9/setup.py
+-drwxrwxrwx   0        0        0        0 2023-04-18 01:24:56.245996 synthdid-0.9/synthdid/
+--rw-rw-rw-   0        0        0        0 2023-04-17 22:50:30.000000 synthdid-0.9/synthdid/__init__.py
+--rw-rw-rw-   0        0        0     1701 2023-04-17 22:50:30.000000 synthdid-0.9/synthdid/get_data.py
+--rw-rw-rw-   0        0        0     3520 2023-04-17 22:50:30.000000 synthdid-0.9/synthdid/placebo_simulations.py
+--rw-rw-rw-   0        0        0     6064 2023-04-17 22:50:30.000000 synthdid-0.9/synthdid/plots.py
+--rw-rw-rw-   0        0        0     9303 2023-04-17 22:50:30.000000 synthdid-0.9/synthdid/sdid.py
+--rw-rw-rw-   0        0        0     5439 2023-04-17 22:50:30.000000 synthdid-0.9/synthdid/solver.py
+--rw-rw-rw-   0        0        0      273 2023-04-18 01:20:15.000000 synthdid-0.9/synthdid/summary.py
+--rw-rw-rw-   0        0        0      774 2023-04-18 01:20:51.000000 synthdid-0.9/synthdid/synthdid.py
+--rw-rw-rw-   0        0        0     3610 2023-04-17 22:50:30.000000 synthdid-0.9/synthdid/utils.py
+--rw-rw-rw-   0        0        0     5043 2023-04-17 22:50:30.000000 synthdid-0.9/synthdid/vcov.py
+-drwxrwxrwx   0        0        0        0 2023-04-18 01:24:56.254995 synthdid-0.9/synthdid.egg-info/
+--rw-rw-rw-   0        0        0      430 2023-04-18 01:24:56.000000 synthdid-0.9/synthdid.egg-info/PKG-INFO
+--rw-rw-rw-   0        0        0      371 2023-04-18 01:24:56.000000 synthdid-0.9/synthdid.egg-info/SOURCES.txt
+--rw-rw-rw-   0        0        0        1 2023-04-18 01:24:56.000000 synthdid-0.9/synthdid.egg-info/dependency_links.txt
+--rw-rw-rw-   0        0        0      623 2023-04-18 01:24:56.000000 synthdid-0.9/synthdid.egg-info/requires.txt
+--rw-rw-rw-   0        0        0        9 2023-04-18 01:24:56.000000 synthdid-0.9/synthdid.egg-info/top_level.txt
++drwxrwxrwx   0        0        0        0 2023-04-18 01:37:06.364772 synthdid-0.9.1/
++-rw-rw-rw-   0        0        0      432 2023-04-18 01:37:06.364772 synthdid-0.9.1/PKG-INFO
++-rw-rw-rw-   0        0        0       42 2023-04-18 01:37:06.364772 synthdid-0.9.1/setup.cfg
++-rw-rw-rw-   0        0        0     1606 2023-04-18 01:36:54.000000 synthdid-0.9.1/setup.py
++drwxrwxrwx   0        0        0        0 2023-04-18 01:37:06.356771 synthdid-0.9.1/synthdid/
++-rw-rw-rw-   0        0        0        0 2023-04-17 22:50:30.000000 synthdid-0.9.1/synthdid/__init__.py
++-rw-rw-rw-   0        0        0     1701 2023-04-17 22:50:30.000000 synthdid-0.9.1/synthdid/get_data.py
++-rw-rw-rw-   0        0        0     3520 2023-04-17 22:50:30.000000 synthdid-0.9.1/synthdid/placebo_simulations.py
++-rw-rw-rw-   0        0        0     6064 2023-04-17 22:50:30.000000 synthdid-0.9.1/synthdid/plots.py
++-rw-rw-rw-   0        0        0     9303 2023-04-17 22:50:30.000000 synthdid-0.9.1/synthdid/sdid.py
++-rw-rw-rw-   0        0        0     5439 2023-04-17 22:50:30.000000 synthdid-0.9.1/synthdid/solver.py
++-rw-rw-rw-   0        0        0      410 2023-04-18 01:36:21.000000 synthdid-0.9.1/synthdid/summary.py
++-rw-rw-rw-   0        0        0      792 2023-04-18 01:32:26.000000 synthdid-0.9.1/synthdid/synthdid.py
++-rw-rw-rw-   0        0        0     3610 2023-04-17 22:50:30.000000 synthdid-0.9.1/synthdid/utils.py
++-rw-rw-rw-   0        0        0     5043 2023-04-17 22:50:30.000000 synthdid-0.9.1/synthdid/vcov.py
++drwxrwxrwx   0        0        0        0 2023-04-18 01:37:06.363771 synthdid-0.9.1/synthdid.egg-info/
++-rw-rw-rw-   0        0        0      432 2023-04-18 01:37:06.000000 synthdid-0.9.1/synthdid.egg-info/PKG-INFO
++-rw-rw-rw-   0        0        0      371 2023-04-18 01:37:06.000000 synthdid-0.9.1/synthdid.egg-info/SOURCES.txt
++-rw-rw-rw-   0        0        0        1 2023-04-18 01:37:06.000000 synthdid-0.9.1/synthdid.egg-info/dependency_links.txt
++-rw-rw-rw-   0        0        0      623 2023-04-18 01:37:06.000000 synthdid-0.9.1/synthdid.egg-info/requires.txt
++-rw-rw-rw-   0        0        0        9 2023-04-18 01:37:06.000000 synthdid-0.9.1/synthdid.egg-info/top_level.txt
+```
+
+### Comparing `synthdid-0.9/setup.py` & `synthdid-0.9.1/setup.py`
+
+ * *Files 2% similar despite different names*
+
+```diff
+@@ -28,15 +28,15 @@
+         "six==1.16.0",
+         "statsmodels==0.13.5",
+         "toml==0.10.0",
+         "zipp==3.15.0",
+     ],
+     name="synthdid",
+     author="D2CML",
+-    version="0.9",
++    version="0.9.1",
+     packages=find_packages(),
+     keywords="causal-inference",
+     url="https://github.com/d2cml-ai/synthdid.py",
+     license="MIT",
+     description="Synthdid",
+     classifiers=[
+         "Intended Audience :: Developers",
+```
+
+### Comparing `synthdid-0.9/synthdid/get_data.py` & `synthdid-0.9.1/synthdid/get_data.py`
+
+ * *Files identical despite different names*
+
+### Comparing `synthdid-0.9/synthdid/placebo_simulations.py` & `synthdid-0.9.1/synthdid/placebo_simulations.py`
+
+ * *Files identical despite different names*
+
+### Comparing `synthdid-0.9/synthdid/plots.py` & `synthdid-0.9.1/synthdid/plots.py`
+
+ * *Files identical despite different names*
+
+### Comparing `synthdid-0.9/synthdid/sdid.py` & `synthdid-0.9.1/synthdid/sdid.py`
+
+ * *Files identical despite different names*
+
+### Comparing `synthdid-0.9/synthdid/solver.py` & `synthdid-0.9.1/synthdid/solver.py`
+
+ * *Files identical despite different names*
+
+### Comparing `synthdid-0.9/synthdid/synthdid.py` & `synthdid-0.9.1/synthdid/synthdid.py`
+
+ * *Files 6% similar despite different names*
+
+```diff
+@@ -10,11 +10,12 @@
+ 
+ class Synthdid(SDID, Variance, Plots, Summary):
+ 	def __init__(self, data, unit="unit", time = "time", treatment="treatment", outcome="outcome", covariates = None):
+ 		self.data = data
+ 		self.unit, self.time = unit, time
+ 		self.treatment, self.outcome = treatment, outcome
+ 		self.covariates = covariates
++		self.se = None
+ 		self.data_ref, self.ttime = panel_matrices(data, unit, time, treatment, outcome, covariates=covariates)
+ 		# if covariates is not None:
+ 		# 	self.data_cov =
+```
+
+### Comparing `synthdid-0.9/synthdid/utils.py` & `synthdid-0.9.1/synthdid/utils.py`
+
+ * *Files identical despite different names*
+
+### Comparing `synthdid-0.9/synthdid/vcov.py` & `synthdid-0.9.1/synthdid/vcov.py`
+
+ * *Files identical despite different names*
+
+### Comparing `synthdid-0.9/synthdid.egg-info/requires.txt` & `synthdid-0.9.1/synthdid.egg-info/requires.txt`
+
+ * *Files identical despite different names*
+
