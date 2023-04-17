@@ -972,3 +972,73 @@
 [2023-04-18 01:13:10] INFO root fetch - main [MainThread]: End processing [pycrosskit]: success
 [2023-04-18 01:13:19] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
 [2023-04-18 01:13:19] INFO root fetch - main [MainThread]: Store serial: [17745517]
+[2023-04-18 01:18:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17745517]
+[2023-04-18 01:18:28] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-18 01:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cenao
+[2023-04-18 01:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastHDMI
+[2023-04-18 01:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: policyengine-canada
+[2023-04-18 01:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-04-18 01:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqlalchemy-sqlite-session
+[2023-04-18 01:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aws-lambda-builders
+[2023-04-18 01:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyrecdp
+[2023-04-18 01:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alacorder
+[2023-04-18 01:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: iloscar
+[2023-04-18 01:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aistac-foundation
+[2023-04-18 01:18:28] INFO root fetch - processPackages [fastHDMI]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-18 01:18:28] INFO root fetch - processPackages [pyrecdp]: New version: [1.0.1b202304142] Old Version: [1.0.1b202304141]
+[2023-04-18 01:18:28] INFO root fetch - processPackages [aws-lambda-builders]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-04-18 01:18:28] INFO root fetch - processPackages [policyengine-canada]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-18 01:18:28] INFO root fetch - processPackages [iloscar]: New version: [0.2.8b0] Old Version: [0.2.7b0]
+[2023-04-18 01:18:28] INFO root fetch - processPackages [cenao]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-18 01:18:28] INFO root fetch - processPackages [sqlalchemy-sqlite-session]: New version: [1.9.0] Old Version: [1.8.420]
+[2023-04-18 01:18:28] INFO root fetch - processPackages [aistac-foundation]: New version: [2.9.7] Old Version: [2.9.6]
+[2023-04-18 01:18:28] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.275] Old Version: [0.3.274]
+[2023-04-18 01:18:28] INFO root fetch - processPackages [alacorder]: New version: [79.4.1] Old Version: [79.4]
+[2023-04-18 01:18:28] INFO root fetch - processPackages [aistac-foundation]: executing diffoscope
+[2023-04-18 01:18:28] INFO root fetch - processPackages [aistac-foundation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aistac-foundation-2.9.6.tar.gz tmp/aistac-foundation-2.9.7.tar.gz --markdown 20230418/a/aistac-foundation/2.9.6-2.9.7/diff.md --exclude *.pyd
+[2023-04-18 01:18:29] INFO root fetch - processPackages [aws-lambda-builders]: Downloading https://files.pythonhosted.org/packages/e3/69/b30e6dd522093bda1a181f35238cc15adbccec6e37043e773b39ac03040e/aws_lambda_builders-1.8.1.tar.gz
+[2023-04-18 01:18:29] INFO root fetch - processPackages [sqlalchemy-sqlite-session]: Downloading https://files.pythonhosted.org/packages/3d/70/07dea09ce2d417979ef20088ae4483f710fc564353082797808d97d9aefd/sqlalchemy_sqlite_session-1.8.420.tar.gz
+[2023-04-18 01:18:29] INFO root fetch - processPackages [policyengine-canada]: Downloading https://files.pythonhosted.org/packages/28/4b/01a629b9dfc11172c45bc99a7aa9efe756417158eab74625e8861959eca2/policyengine-canada-0.8.0.tar.gz
+[2023-04-18 01:18:29] INFO root fetch - processPackages [iloscar]: Downloading https://files.pythonhosted.org/packages/b8/95/9784ee221cf0171671f7e2bc295a7fcb04c5cb51cdf4b92b1d5610b1c62c/iloscar-0.2.8b0.tar.gz
+[2023-04-18 01:18:29] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/61/30/8f8816f2f9400ab54cf3efa33d0ca28784712f361ec8837e691448969b2a/pepperize.cdk-ses-smtp-credentials-0.3.275.tar.gz
+[2023-04-18 01:18:29] INFO root fetch - processPackages [cenao]: Downloading https://files.pythonhosted.org/packages/95/e9/72b1a664edb2930bd951e0cea59d5781db6210573a74c71d1b8129ed4483/cenao-0.9.1.tar.gz
+[2023-04-18 01:18:29] INFO root fetch - processPackages [pyrecdp]: executing diffoscope
+[2023-04-18 01:18:29] INFO root fetch - processPackages [pyrecdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrecdp-1.0.1b202304141.tar.gz tmp/pyrecdp-1.0.1b202304142.tar.gz --markdown 20230418/p/pyrecdp/1.0.1b202304141-1.0.1b202304142/diff.md --exclude *.pyd
+[2023-04-18 01:18:29] INFO root fetch - processPackages [fastHDMI]: executing diffoscope
+[2023-04-18 01:18:29] INFO root fetch - processPackages [fastHDMI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastHDMI-1.2.8.tar.gz tmp/fastHDMI-1.2.9.tar.gz --markdown 20230418/f/fastHDMI/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-18 01:18:29] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/37/2b/ef8d8d544e1c16560c1acabe3ab37a2217ee9e6105112c15bab996491582/alacorder-79.4.1.tar.gz
+[2023-04-18 01:18:29] INFO root fetch - processPackages [sqlalchemy-sqlite-session]: Downloading https://files.pythonhosted.org/packages/9e/ab/e6c41d3402ae44a82148551804c99fb83be7884fe21f864f8e299792ad6f/sqlalchemy_sqlite_session-1.9.0.tar.gz
+[2023-04-18 01:18:29] INFO root fetch - processPackages [iloscar]: executing diffoscope
+[2023-04-18 01:18:29] INFO root fetch - processPackages [iloscar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iloscar-0.2.7b0.tar.gz tmp/iloscar-0.2.8b0.tar.gz --markdown 20230418/i/iloscar/0.2.7b0-0.2.8b0/diff.md --exclude *.pyd
+[2023-04-18 01:18:29] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-04-18 01:18:29] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.274.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.275.tar.gz --markdown 20230418/p/pepperize.cdk-ses-smtp-credentials/0.3.274-0.3.275/diff.md --exclude *.pyd
+[2023-04-18 01:18:29] INFO root fetch - processPackages [cenao]: executing diffoscope
+[2023-04-18 01:18:29] INFO root fetch - processPackages [cenao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cenao-0.9.0.tar.gz tmp/cenao-0.9.1.tar.gz --markdown 20230418/c/cenao/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-18 01:18:29] INFO root fetch - processPackages [sqlalchemy-sqlite-session]: executing diffoscope
+[2023-04-18 01:18:29] INFO root fetch - processPackages [sqlalchemy-sqlite-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_sqlite_session-1.8.420.tar.gz tmp/sqlalchemy_sqlite_session-1.9.0.tar.gz --markdown 20230418/s/sqlalchemy-sqlite-session/1.8.420-1.9.0/diff.md --exclude *.pyd
+[2023-04-18 01:18:29] INFO root fetch - processPackages [policyengine-canada]: Downloading https://files.pythonhosted.org/packages/40/22/555a719f4eeb35f27888de983fc27df67a98895889b7ce3bcef8998f9116/policyengine-canada-0.9.0.tar.gz
+[2023-04-18 01:18:29] INFO root fetch - processPackages [aws-lambda-builders]: Downloading https://files.pythonhosted.org/packages/e9/59/d34d362a4f20df6d878a4efa92f9ef96e556c2070f93b248df06a8eaa5fa/aws_lambda_builders-1.9.0.tar.gz
+[2023-04-18 01:18:29] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-04-18 01:18:29] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-79.4.tar.gz tmp/alacorder-79.4.1.tar.gz --markdown 20230418/a/alacorder/79.4-79.4.1/diff.md --exclude *.pyd
+[2023-04-18 01:18:29] INFO root fetch - processPackages [policyengine-canada]: executing diffoscope
+[2023-04-18 01:18:29] INFO root fetch - processPackages [policyengine-canada]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-canada-0.8.0.tar.gz tmp/policyengine-canada-0.9.0.tar.gz --markdown 20230418/p/policyengine-canada/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-18 01:18:29] INFO root fetch - processPackages [aws-lambda-builders]: executing diffoscope
+[2023-04-18 01:18:29] INFO root fetch - processPackages [aws-lambda-builders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_lambda_builders-1.8.1.tar.gz tmp/aws_lambda_builders-1.9.0.tar.gz --markdown 20230418/a/aws-lambda-builders/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-04-18 01:18:30] INFO root fetch - processPackages [aistac-foundation]: Start processing: tsml
+[2023-04-18 01:18:30] INFO root fetch - main [MainThread]: End processing [aistac-foundation]: success
+[2023-04-18 01:18:30] INFO root fetch - processPackages [tsml]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-18 01:18:30] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-04-18 01:18:30] INFO root fetch - main [MainThread]: End processing [sqlalchemy-sqlite-session]: success
+[2023-04-18 01:18:30] INFO root fetch - processPackages [tsml]: Downloading https://files.pythonhosted.org/packages/b7/fb/ce0e786327c7efc94a1d0495e62c10fb45ed45276510493163af0dee8c56/tsml-0.0.5.tar.gz
+[2023-04-18 01:18:30] INFO root fetch - main [MainThread]: End processing [pyrecdp]: success
+[2023-04-18 01:18:31] INFO root fetch - main [MainThread]: End processing [cenao]: success
+[2023-04-18 01:18:31] INFO root fetch - main [MainThread]: End processing [policyengine-canada]: success
+[2023-04-18 01:18:31] INFO root fetch - main [MainThread]: End processing [iloscar]: success
+[2023-04-18 01:18:31] INFO root fetch - main [MainThread]: End processing [fastHDMI]: success
+[2023-04-18 01:18:31] INFO root fetch - processPackages [tsml]: Downloading https://files.pythonhosted.org/packages/db/1a/ebdb8c87d849861d9b5c9d5985cda6e08ae470fceb2862f273f4ff51ba2f/tsml-0.0.6.tar.gz
+[2023-04-18 01:18:31] INFO root fetch - processPackages [tsml]: executing diffoscope
+[2023-04-18 01:18:31] INFO root fetch - processPackages [tsml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsml-0.0.5.tar.gz tmp/tsml-0.0.6.tar.gz --markdown 20230418/t/tsml/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-18 01:18:32] INFO root fetch - main [MainThread]: End processing [aws-lambda-builders]: success
+[2023-04-18 01:18:33] INFO root fetch - main [MainThread]: End processing [tsml]: success
+[2023-04-18 01:19:16] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-04-18 01:19:16] INFO root fetch - main [MainThread]: Store serial: [17745550]
