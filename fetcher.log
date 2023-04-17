@@ -711,3 +711,94 @@
 [2023-04-18 00:52:07] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
 [2023-04-18 00:52:08] INFO root fetch - main [MainThread]: End processing [aicspylibczi]: success
 [2023-04-18 00:52:08] INFO root fetch - main [MainThread]: Store serial: [17745377]
+[2023-04-18 00:57:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17745377]
+[2023-04-18 00:57:17] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-18 00:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cpg-utils
+[2023-04-18 00:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coiled
+[2023-04-18 00:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iloscar
+[2023-04-18 00:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: petab-select
+[2023-04-18 00:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: electrumsv-btchip-python
+[2023-04-18 00:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iloscar
+[2023-04-18 00:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: arfindata
+[2023-04-18 00:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gptcache
+[2023-04-18 00:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: headfuck
+[2023-04-18 00:57:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cenao
+[2023-04-18 00:57:17] INFO root fetch - processPackages [iloscar]: New version: [0.2.6b0] Old Version: [0.2.5b0]
+[2023-04-18 00:57:17] INFO root fetch - processPackages [petab-select]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-18 00:57:17] WARNING root fetch - processPackages [electrumsv-btchip-python]: Skipping, unable to determine old version
+[2023-04-18 00:57:17] INFO root fetch - processPackages [electrumsv-btchip-python]: Start processing: windmill-api
+[2023-04-18 00:57:17] INFO root fetch - main [MainThread]: End processing [electrumsv-btchip-python] error
+[2023-04-18 00:57:17] INFO root fetch - processPackages [arfindata]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-18 00:57:17] INFO root fetch - processPackages [cpg-utils]: New version: [4.9.4] Old Version: [4.9.3]
+[2023-04-18 00:57:17] INFO root fetch - processPackages [iloscar]: New version: [0.2.6b0] Old Version: [0.2.5b0]
+[2023-04-18 00:57:17] INFO root fetch - processPackages [cenao]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-18 00:57:17] INFO root fetch - processPackages [headfuck]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-18 00:57:17] INFO root fetch - processPackages [gptcache]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-18 00:57:17] INFO root fetch - processPackages [coiled]: New version: [0.5.9.post0.dev8] Old Version: [0.5.9.post0.dev7]
+[2023-04-18 00:57:17] INFO root fetch - processPackages [windmill-api]: New version: [1.88.0] Old Version: [1.87.0]
+[2023-04-18 00:57:17] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-04-18 00:57:17] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.5.9.post0.dev7.tar.gz tmp/coiled-0.5.9.post0.dev8.tar.gz --markdown 20230418/c/coiled/0.5.9.post0.dev7-0.5.9.post0.dev8/diff.md --exclude *.pyd
+[2023-04-18 00:57:17] INFO root fetch - processPackages [gptcache]: executing diffoscope
+[2023-04-18 00:57:17] INFO root fetch - processPackages [gptcache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptcache-0.1.8.tar.gz tmp/gptcache-0.1.9.tar.gz --markdown 20230418/g/gptcache/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-18 00:57:17] INFO root fetch - processPackages [iloscar]: Downloading https://files.pythonhosted.org/packages/75/75/e6c93694a343da4aa3d500016d5fa26615ea7c1352664cba8b47c0f2e0d0/iloscar-0.2.5b0.tar.gz
+[2023-04-18 00:57:17] INFO root fetch - processPackages [iloscar]: Downloading https://files.pythonhosted.org/packages/75/75/e6c93694a343da4aa3d500016d5fa26615ea7c1352664cba8b47c0f2e0d0/iloscar-0.2.5b0.tar.gz
+[2023-04-18 00:57:17] INFO root fetch - processPackages [arfindata]: Downloading https://files.pythonhosted.org/packages/7f/29/8375d01d4fe398c3d510501ab569917e8e2e55f2068ee1003afb2efc5251/arfindata-0.1.0.tar.gz
+[2023-04-18 00:57:17] INFO root fetch - processPackages [petab-select]: Downloading https://files.pythonhosted.org/packages/3d/3a/7065fe510b814c4eca1a2d28ceb13dcfb1276120dde5b9d3dd675804db87/petab_select-0.1.4.tar.gz
+[2023-04-18 00:57:17] INFO root fetch - processPackages [cenao]: Downloading https://files.pythonhosted.org/packages/1b/67/591dc5bd1e951dc2a8505a1a7466f01e8d840e9f20d1a828dbf37dd54272/cenao-0.8.0.tar.gz
+[2023-04-18 00:57:17] INFO root fetch - processPackages [cpg-utils]: Downloading https://files.pythonhosted.org/packages/32/f1/d04bb9132bf324be3a758832e63ba9d716258b71bb27f888abd45dc0ceac/cpg-utils-4.9.3.tar.gz
+[2023-04-18 00:57:17] INFO root fetch - processPackages [headfuck]: Downloading https://files.pythonhosted.org/packages/b3/c6/f456deb60490fe5c1c587b3c6b691f827c10159bf7bda65ebbdba1976f87/headfuck-1.0.2.tar.gz
+[2023-04-18 00:57:17] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/6b/39/e555bc460baf5f73055de3c7b365bc4371eeb23c709e779e25c0d6acd542/windmill_api-1.87.0.tar.gz
+[2023-04-18 00:57:17] INFO root fetch - processPackages [petab-select]: Downloading https://files.pythonhosted.org/packages/80/ee/8d7726efeac341ff04396486685247eff8d3708cd47a585ea061e5c94589/petab_select-0.1.5.tar.gz
+[2023-04-18 00:57:17] INFO root fetch - processPackages [cenao]: Downloading https://files.pythonhosted.org/packages/09/92/80051978c9311e1def3a366c897833ab079d0e9ccdefd9c8824b9bb72942/cenao-0.9.0.tar.gz
+[2023-04-18 00:57:17] INFO root fetch - processPackages [headfuck]: executing diffoscope
+[2023-04-18 00:57:17] INFO root fetch - processPackages [headfuck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/headfuck-1.0.1.tar.gz tmp/headfuck-1.0.2.tar.gz --markdown 20230418/h/headfuck/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-18 00:57:17] INFO root fetch - processPackages [arfindata]: Downloading https://files.pythonhosted.org/packages/b0/15/0742246b2701fb60d47dbed074e63793041ad21186fc97012334b4cd5637/arfindata-0.1.1-py3-none-any.whl
+[2023-04-18 00:57:17] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/64/1f/c46e892c78f056d19e4dc219bbc69be2203d863a2ef822433729bdb22f46/windmill_api-1.88.0.tar.gz
+[2023-04-18 00:57:17] INFO root fetch - processPackages [iloscar]: Downloading https://files.pythonhosted.org/packages/61/c1/5e557274ec3765fa7b1c8b929112a45e897d1960faef19cd25abd9b3548f/iloscar-0.2.6b0.tar.gz
+[2023-04-18 00:57:17] INFO root fetch - processPackages [iloscar]: Downloading https://files.pythonhosted.org/packages/61/c1/5e557274ec3765fa7b1c8b929112a45e897d1960faef19cd25abd9b3548f/iloscar-0.2.6b0.tar.gz
+[2023-04-18 00:57:17] INFO root fetch - processPackages [cpg-utils]: Downloading https://files.pythonhosted.org/packages/96/f7/3f4ff1940fe551a1650746dfd3913d16297c1713e428cae38a7e2a193c7b/cpg-utils-4.9.4.tar.gz
+[2023-04-18 00:57:17] INFO root fetch - processPackages [cenao]: executing diffoscope
+[2023-04-18 00:57:17] INFO root fetch - processPackages [cenao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cenao-0.8.0.tar.gz tmp/cenao-0.9.0.tar.gz --markdown 20230418/c/cenao/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-18 00:57:17] INFO root fetch - processPackages [arfindata]: executing diffoscope
+[2023-04-18 00:57:17] INFO root fetch - processPackages [arfindata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arfindata-0.1.0.tar.gz tmp/arfindata-0.1.1-py3-none-any.whl.zip --markdown 20230418/a/arfindata/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-18 00:57:17] INFO root fetch - processPackages [petab-select]: executing diffoscope
+[2023-04-18 00:57:17] INFO root fetch - processPackages [petab-select]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petab_select-0.1.4.tar.gz tmp/petab_select-0.1.5.tar.gz --markdown 20230418/p/petab-select/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-18 00:57:17] INFO root fetch - processPackages [iloscar]: executing diffoscope
+[2023-04-18 00:57:17] INFO root fetch - processPackages [iloscar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iloscar-0.2.5b0.tar.gz tmp/iloscar-0.2.6b0.tar.gz --markdown 20230418/i/iloscar/0.2.5b0-0.2.6b0/diff.md --exclude *.pyd
+[2023-04-18 00:57:18] INFO root fetch - processPackages [iloscar]: executing diffoscope
+[2023-04-18 00:57:18] INFO root fetch - processPackages [iloscar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iloscar-0.2.5b0.tar.gz tmp/iloscar-0.2.6b0.tar.gz --markdown 20230418/i/iloscar/0.2.5b0-0.2.6b0/diff.md --exclude *.pyd
+[2023-04-18 00:57:18] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2023-04-18 00:57:18] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.87.0.tar.gz tmp/windmill_api-1.88.0.tar.gz --markdown 20230418/w/windmill-api/1.87.0-1.88.0/diff.md --exclude *.pyd
+[2023-04-18 00:57:18] INFO root fetch - processPackages [cpg-utils]: executing diffoscope
+[2023-04-18 00:57:18] INFO root fetch - processPackages [cpg-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpg-utils-4.9.3.tar.gz tmp/cpg-utils-4.9.4.tar.gz --markdown 20230418/c/cpg-utils/4.9.3-4.9.4/diff.md --exclude *.pyd
+[2023-04-18 00:57:19] INFO root fetch - processPackages [headfuck]: Start processing: wmill
+[2023-04-18 00:57:19] INFO root fetch - main [MainThread]: End processing [headfuck]: success
+[2023-04-18 00:57:19] INFO root fetch - processPackages [wmill]: New version: [1.88.0] Old Version: [1.87.0]
+[2023-04-18 00:57:19] INFO root fetch - processPackages [arfindata]: Start processing: wmill-pg
+[2023-04-18 00:57:19] INFO root fetch - main [MainThread]: End processing [arfindata]: success
+[2023-04-18 00:57:19] INFO root fetch - processPackages [cenao]: Start processing: headfuck
+[2023-04-18 00:57:19] INFO root fetch - main [MainThread]: End processing [cenao]: success
+[2023-04-18 00:57:19] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/83/6d/84a1da8f736d4e524a18cde98c5c4eeb5746ea5c97ae220f1b74c2237b4e/wmill-1.87.0.tar.gz
+[2023-04-18 00:57:19] INFO root fetch - processPackages [headfuck]: New version: [1.1] Old Version: [1.0.2]
+[2023-04-18 00:57:19] INFO root fetch - processPackages [wmill-pg]: New version: [1.88.0] Old Version: [1.87.0]
+[2023-04-18 00:57:19] INFO root fetch - main [MainThread]: End processing [gptcache]: success
+[2023-04-18 00:57:19] INFO root fetch - processPackages [headfuck]: Downloading https://files.pythonhosted.org/packages/4d/e8/a75d5040ca7ccf7713b96094566f874d08745cc492cefd834d77ee49817b/headfuck-1.1.tar.gz
+[2023-04-18 00:57:19] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/9a/f1/93ed23d05e9976a4da535a995bff3456bbb5b3beaf522015ef9474ab9988/wmill-1.88.0.tar.gz
+[2023-04-18 00:57:19] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/50/1a/f01f1c29d3e38a05b6ec91b202e5133cac85ce8949e5cfc4c1fcdb098199/wmill_pg-1.87.0.tar.gz
+[2023-04-18 00:57:19] INFO root fetch - processPackages [headfuck]: executing diffoscope
+[2023-04-18 00:57:19] INFO root fetch - processPackages [headfuck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/headfuck-1.0.2.tar.gz tmp/headfuck-1.1.tar.gz --markdown 20230418/h/headfuck/1.0.2-1.1/diff.md --exclude *.pyd
+[2023-04-18 00:57:19] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2023-04-18 00:57:19] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.87.0.tar.gz tmp/wmill-1.88.0.tar.gz --markdown 20230418/w/wmill/1.87.0-1.88.0/diff.md --exclude *.pyd
+[2023-04-18 00:57:19] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/ea/0c/0c934c918da5439872b1255a3811dc4093e13761a02e12230839e77031db/wmill_pg-1.88.0.tar.gz
+[2023-04-18 00:57:19] INFO root fetch - main [MainThread]: End processing [petab-select]: success
+[2023-04-18 00:57:20] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2023-04-18 00:57:20] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.87.0.tar.gz tmp/wmill_pg-1.88.0.tar.gz --markdown 20230418/w/wmill-pg/1.87.0-1.88.0/diff.md --exclude *.pyd
+[2023-04-18 00:57:20] INFO root fetch - main [MainThread]: End processing [iloscar]: success
+[2023-04-18 00:57:20] INFO root fetch - main [MainThread]: End processing [headfuck]: success
+[2023-04-18 00:57:21] INFO root fetch - main [MainThread]: End processing [cpg-utils]: success
+[2023-04-18 00:57:21] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2023-04-18 00:57:21] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2023-04-18 00:57:21] INFO root fetch - main [MainThread]: End processing [iloscar]: success
+[2023-04-18 00:57:21] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-04-18 00:57:33] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2023-04-18 00:57:33] INFO root fetch - main [MainThread]: Store serial: [17745418]
