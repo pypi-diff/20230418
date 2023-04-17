@@ -345,3 +345,86 @@
 [2023-04-18 00:24:33] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-04-18 00:24:35] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-04-18 00:24:35] INFO root fetch - main [MainThread]: Store serial: [17745155]
+[2023-04-18 00:29:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17745155]
+[2023-04-18 00:29:44] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-18 00:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycti
+[2023-04-18 00:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: popari
+[2023-04-18 00:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TelegramNotificator
+[2023-04-18 00:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: readonly
+[2023-04-18 00:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: genomenotebook
+[2023-04-18 00:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hpr-scratcher
+[2023-04-18 00:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: album-sender
+[2023-04-18 00:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: notip
+[2023-04-18 00:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gpt4all-j
+[2023-04-18 00:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tada-qq
+[2023-04-18 00:29:44] INFO root fetch - processPackages [TelegramNotificator]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-18 00:29:44] INFO root fetch - processPackages [genomenotebook]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-04-18 00:29:44] INFO root fetch - processPackages [album-sender]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-18 00:29:44] INFO root fetch - processPackages [readonly]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-18 00:29:44] WARNING root fetch - processPackages [hpr-scratcher]: Skipping, unable to determine old version
+[2023-04-18 00:29:44] INFO root fetch - processPackages [hpr-scratcher]: Start processing: easyquery-query-builder
+[2023-04-18 00:29:44] INFO root fetch - processPackages [popari]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-18 00:29:44] INFO root fetch - processPackages [tada-qq]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-04-18 00:29:44] INFO root fetch - processPackages [gpt4all-j]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-18 00:29:44] INFO root fetch - main [MainThread]: End processing [hpr-scratcher] error
+[2023-04-18 00:29:44] INFO root fetch - processPackages [notip]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-18 00:29:44] INFO root fetch - processPackages [easyquery-query-builder]: New version: [2.0.0] Old Version: [0.1.1]
+[2023-04-18 00:29:44] INFO root fetch - processPackages [pycti]: New version: [5.7.post570] Old Version: [5.7.0]
+[2023-04-18 00:29:44] INFO root fetch - processPackages [genomenotebook]: Downloading https://files.pythonhosted.org/packages/8c/28/389da068c7a1e29ddfd2f33650acf2edd6f0ee866b4370a4941f3b46602b/genomenotebook-0.3.0.tar.gz
+[2023-04-18 00:29:44] INFO root fetch - processPackages [popari]: Downloading https://files.pythonhosted.org/packages/65/f5/68787d0eb687fa6534508cde4244cf24659ad0a55bb61543bda2f0768e5b/popari-0.0.8.tar.gz
+[2023-04-18 00:29:44] INFO root fetch - processPackages [gpt4all-j]: Downloading https://files.pythonhosted.org/packages/6d/71/f4693841296ccf432961705a38e8c8f1de7c31c869ef76ff337cc7c50f61/gpt4all-j-0.1.2.tar.gz
+[2023-04-18 00:29:44] INFO root fetch - processPackages [album-sender]: Downloading https://files.pythonhosted.org/packages/72/90/a5e804bd6c1ecf26050b552365080edb0ff4e57f9b474941d1b3e8c956f2/album_sender-0.0.8.tar.gz
+[2023-04-18 00:29:44] INFO root fetch - processPackages [tada-qq]: Downloading https://files.pythonhosted.org/packages/e2/66/58a325d1351b153fcb7bf136c950ea22fafd0b63db7e4806861f03cf2f53/tada-qq-2.3.0.tar.gz
+[2023-04-18 00:29:44] INFO root fetch - processPackages [notip]: Downloading https://files.pythonhosted.org/packages/fe/d3/180f6b40953e2c70ad3a7d1e57cd3be28062dadc4705a56374d045dbb489/notip-0.1.2.tar.gz
+[2023-04-18 00:29:44] INFO root fetch - processPackages [easyquery-query-builder]: Downloading https://files.pythonhosted.org/packages/16/f8/f2801ad03f4b7b3596c4b924198d204977d2f7a059f924719d85a5cf8fd7/easyquery_query_builder-0.1.1.tar.gz
+[2023-04-18 00:29:44] INFO root fetch - processPackages [readonly]: Downloading https://files.pythonhosted.org/packages/02/92/4ec1230d43fe7f93ef6dc00e5ecf33013e47875fa24fb4000de81b00c358/readonly-0.1.2.tar.gz
+[2023-04-18 00:29:44] INFO root fetch - processPackages [TelegramNotificator]: Downloading https://files.pythonhosted.org/packages/45/bd/fb1e451fc6f23666c080ae67d73f69b5a0dbdc2266276f1157fd4e047bc8/TelegramNotificator-1.0.6.tar.gz
+[2023-04-18 00:29:44] INFO root fetch - processPackages [genomenotebook]: executing diffoscope
+[2023-04-18 00:29:44] INFO root fetch - processPackages [genomenotebook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genomenotebook-0.2.1.tar.gz tmp/genomenotebook-0.3.0.tar.gz --markdown 20230418/g/genomenotebook/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-04-18 00:29:44] INFO root fetch - processPackages [pycti]: Downloading https://files.pythonhosted.org/packages/b7/61/096f1783c65659d17a8580aeafcfd21fba6f723c57b9aee594532ad6f890/pycti-5.7.post570.tar.gz
+[2023-04-18 00:29:44] INFO root fetch - processPackages [readonly]: executing diffoscope
+[2023-04-18 00:29:44] INFO root fetch - processPackages [readonly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readonly-0.1.1.tar.gz tmp/readonly-0.1.2.tar.gz --markdown 20230418/r/readonly/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-18 00:29:44] INFO root fetch - processPackages [gpt4all-j]: executing diffoscope
+[2023-04-18 00:29:44] INFO root fetch - processPackages [gpt4all-j]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt4all-j-0.1.1.tar.gz tmp/gpt4all-j-0.1.2.tar.gz --markdown 20230418/g/gpt4all-j/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-18 00:29:44] INFO root fetch - processPackages [TelegramNotificator]: executing diffoscope
+[2023-04-18 00:29:44] INFO root fetch - processPackages [TelegramNotificator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TelegramNotificator-1.0.5.tar.gz tmp/TelegramNotificator-1.0.6.tar.gz --markdown 20230418/T/TelegramNotificator/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-04-18 00:29:44] INFO root fetch - processPackages [easyquery-query-builder]: Downloading https://files.pythonhosted.org/packages/24/4f/d398056927aef0c61289eda36640fe5971ec90992b399ec1e26328c9b040/easyquery_query_builder-2.0.0.tar.gz
+[2023-04-18 00:29:44] INFO root fetch - processPackages [tada-qq]: Downloading https://files.pythonhosted.org/packages/68/b3/3f2fb57210495d21082d66b1c405e86d288c24301576d5c0bfd79427b6f0/tada-qq-2.3.1.tar.gz
+[2023-04-18 00:29:44] INFO root fetch - processPackages [notip]: Downloading https://files.pythonhosted.org/packages/53/9f/589a6de89e96b0bb60b5d3e4a136b3894f9060c4f72d4885baec003f063a/notip-0.1.3.tar.gz
+[2023-04-18 00:29:44] INFO root fetch - processPackages [album-sender]: Downloading https://files.pythonhosted.org/packages/a6/b0/b73dab7d1275705a49c4160beb9cf5cd8fb5aab7e889c7b606e81f425bac/album_sender-0.0.9.tar.gz
+[2023-04-18 00:29:44] INFO root fetch - processPackages [pycti]: executing diffoscope
+[2023-04-18 00:29:44] INFO root fetch - processPackages [pycti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycti-5.7.0.tar.gz tmp/pycti-5.7.post570.tar.gz --markdown 20230418/p/pycti/5.7.0-5.7.post570/diff.md --exclude *.pyd
+[2023-04-18 00:29:44] INFO root fetch - processPackages [easyquery-query-builder]: executing diffoscope
+[2023-04-18 00:29:44] INFO root fetch - processPackages [easyquery-query-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyquery_query_builder-0.1.1.tar.gz tmp/easyquery_query_builder-2.0.0.tar.gz --markdown 20230418/e/easyquery-query-builder/0.1.1-2.0.0/diff.md --exclude *.pyd
+[2023-04-18 00:29:44] INFO root fetch - processPackages [tada-qq]: executing diffoscope
+[2023-04-18 00:29:44] INFO root fetch - processPackages [tada-qq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tada-qq-2.3.0.tar.gz tmp/tada-qq-2.3.1.tar.gz --markdown 20230418/t/tada-qq/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-04-18 00:29:44] INFO root fetch - processPackages [notip]: executing diffoscope
+[2023-04-18 00:29:44] INFO root fetch - processPackages [notip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notip-0.1.2.tar.gz tmp/notip-0.1.3.tar.gz --markdown 20230418/n/notip/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-18 00:29:44] INFO root fetch - processPackages [album-sender]: executing diffoscope
+[2023-04-18 00:29:44] INFO root fetch - processPackages [album-sender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/album_sender-0.0.8.tar.gz tmp/album_sender-0.0.9.tar.gz --markdown 20230418/a/album-sender/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-18 00:29:45] INFO root fetch - processPackages [popari]: Downloading https://files.pythonhosted.org/packages/32/90/548a88df5e1bb4876e07dc08dd3a6dcdf5c38aa7475663db4eb10bb88caf/popari-0.0.9.tar.gz
+[2023-04-18 00:29:45] INFO root fetch - processPackages [popari]: executing diffoscope
+[2023-04-18 00:29:45] INFO root fetch - processPackages [popari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/popari-0.0.8.tar.gz tmp/popari-0.0.9.tar.gz --markdown 20230418/p/popari/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-18 00:29:46] INFO root fetch - processPackages [readonly]: Start processing: ovos-vad-plugin-precise
+[2023-04-18 00:29:46] INFO root fetch - main [MainThread]: End processing [readonly]: success
+[2023-04-18 00:29:46] INFO root fetch - processPackages [ovos-vad-plugin-precise]: New version: [0.0.1a6] Old Version: [0.0.1a5]
+[2023-04-18 00:29:46] INFO root fetch - processPackages [TelegramNotificator]: Start processing: futurejson
+[2023-04-18 00:29:46] INFO root fetch - main [MainThread]: End processing [TelegramNotificator]: success
+[2023-04-18 00:29:46] INFO root fetch - main [MainThread]: End processing [genomenotebook]: success
+[2023-04-18 00:29:46] INFO root fetch - processPackages [futurejson]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-04-18 00:29:46] INFO root fetch - processPackages [ovos-vad-plugin-precise]: Downloading https://files.pythonhosted.org/packages/49/36/63f384b444f9ed39da4abd6d0ba3c47d4b0aa9616b50abec7135c6ace89c/ovos-vad-plugin-precise-0.0.1a6.tar.gz
+[2023-04-18 00:29:46] INFO root fetch - processPackages [futurejson]: Downloading https://files.pythonhosted.org/packages/8b/2f/614a8b9997e72eb13bc066318366f065f6101b5ff6c76fb3cf31856d6fed/futurejson-0.5.0.tar.gz
+[2023-04-18 00:29:46] INFO root fetch - main [MainThread]: End processing [album-sender]: success
+[2023-04-18 00:29:46] INFO root fetch - processPackages [ovos-vad-plugin-precise]: executing diffoscope
+[2023-04-18 00:29:46] INFO root fetch - processPackages [ovos-vad-plugin-precise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos-vad-plugin-precise-0.0.1a5.tar.gz tmp/ovos-vad-plugin-precise-0.0.1a6.tar.gz --markdown 20230418/o/ovos-vad-plugin-precise/0.0.1a5-0.0.1a6/diff.md --exclude *.pyd
+[2023-04-18 00:29:46] INFO root fetch - main [MainThread]: End processing [notip]: success
+[2023-04-18 00:29:46] INFO root fetch - main [MainThread]: End processing [easyquery-query-builder]: success
+[2023-04-18 00:29:46] INFO root fetch - processPackages [futurejson]: executing diffoscope
+[2023-04-18 00:29:46] INFO root fetch - processPackages [futurejson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/futurejson-0.4.0.tar.gz tmp/futurejson-0.5.0.tar.gz --markdown 20230418/f/futurejson/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-04-18 00:29:46] INFO root fetch - main [MainThread]: End processing [tada-qq]: success
+[2023-04-18 00:29:46] INFO root fetch - main [MainThread]: End processing [popari]: success
+[2023-04-18 00:29:46] INFO root fetch - main [MainThread]: End processing [pycti]: success
+[2023-04-18 00:29:47] INFO root fetch - main [MainThread]: End processing [ovos-vad-plugin-precise]: success
+[2023-04-18 00:29:47] INFO root fetch - main [MainThread]: End processing [futurejson]: success
+[2023-04-18 00:29:48] INFO root fetch - main [MainThread]: End processing [gpt4all-j]: success
+[2023-04-18 00:29:48] INFO root fetch - main [MainThread]: Store serial: [17745197]
