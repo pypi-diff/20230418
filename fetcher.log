@@ -42,3 +42,85 @@
 [2023-04-18 00:03:19] INFO root fetch - main [MainThread]: End processing [unigui]: success
 [2023-04-18 00:03:20] INFO root fetch - main [MainThread]: End processing [querysource]: success
 [2023-04-18 00:03:20] INFO root fetch - main [MainThread]: Store serial: [17744970]
+[2023-04-18 00:08:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17744970]
+[2023-04-18 00:08:28] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-18 00:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: routingblocks
+[2023-04-18 00:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: murfey
+[2023-04-18 00:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lilyponddist
+[2023-04-18 00:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rummage
+[2023-04-18 00:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fuse-client
+[2023-04-18 00:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: telegram-bottools
+[2023-04-18 00:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oursin
+[2023-04-18 00:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pbsrollout
+[2023-04-18 00:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cmdify
+[2023-04-18 00:08:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gpt4all-j
+[2023-04-18 00:08:28] WARNING root fetch - processPackages [lilyponddist]: Skipping, unable to determine old version
+[2023-04-18 00:08:28] INFO root fetch - processPackages [lilyponddist]: Start processing: proxylists
+[2023-04-18 00:08:28] INFO root fetch - processPackages [fuse-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-18 00:08:28] INFO root fetch - main [MainThread]: End processing [lilyponddist] error
+[2023-04-18 00:08:28] INFO root fetch - processPackages [telegram-bottools]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-18 00:08:28] INFO root fetch - processPackages [gpt4all-j]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-18 00:08:28] INFO root fetch - processPackages [pbsrollout]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-18 00:08:28] INFO root fetch - processPackages [routingblocks]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-18 00:08:28] INFO root fetch - processPackages [rummage]: New version: [4.9] Old Version: [4.8]
+[2023-04-18 00:08:28] WARNING root fetch - processPackages [cmdify]: Skipping, unable to determine old version
+[2023-04-18 00:08:28] INFO root fetch - processPackages [proxylists]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-04-18 00:08:28] INFO root fetch - processPackages [murfey]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-04-18 00:08:28] INFO root fetch - processPackages [cmdify]: Start processing: podcast-api
+[2023-04-18 00:08:28] INFO root fetch - main [MainThread]: End processing [cmdify] error
+[2023-04-18 00:08:28] INFO root fetch - processPackages [oursin]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-04-18 00:08:28] INFO root fetch - processPackages [fuse-client]: executing diffoscope
+[2023-04-18 00:08:28] INFO root fetch - processPackages [fuse-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fuse-client-1.0.8.tar.gz tmp/fuse-client-1.0.9.tar.gz --markdown 20230418/f/fuse-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-18 00:08:28] INFO root fetch - processPackages [gpt4all-j]: Downloading https://files.pythonhosted.org/packages/24/b0/26ee59ab9b488181d883de070ee2e28fc0741ff3ec3d31a976649e395b79/gpt4all-j-0.1.0.tar.gz
+[2023-04-18 00:08:28] INFO root fetch - processPackages [telegram-bottools]: Downloading https://files.pythonhosted.org/packages/3a/2e/07c00723c899a80421d316a935708e157c127db6a38a5043c46753f53b80/telegram_bottools-0.1.1.tar.gz
+[2023-04-18 00:08:29] INFO root fetch - processPackages [podcast-api]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-04-18 00:08:29] INFO root fetch - processPackages [pbsrollout]: Downloading https://files.pythonhosted.org/packages/f6/8e/cf4939e7a12671230ef449cd7380e65571a6c61ae05d16945645f66bbc00/pbsrollout-0.3.1.tar.gz
+[2023-04-18 00:08:29] INFO root fetch - processPackages [proxylists]: Downloading https://files.pythonhosted.org/packages/c3/13/22e01f6efac5a100a39b7d5de410bb9c1e2801712f12b40da2be43291425/proxylists-0.8.2.tar.gz
+[2023-04-18 00:08:29] INFO root fetch - processPackages [rummage]: Downloading https://files.pythonhosted.org/packages/86/06/e901e277bc56a478f4f0e6667f2ae7170a24b73d32413e0d4acb3da6e5df/rummage-4.8.tar.gz
+[2023-04-18 00:08:29] INFO root fetch - processPackages [oursin]: Downloading https://files.pythonhosted.org/packages/6e/01/e3f3dfb2407c1320e166f969b57fde716137072bd8f895b69b888e78af5c/oursin-0.4.4.tar.gz
+[2023-04-18 00:08:29] INFO root fetch - processPackages [murfey]: Downloading https://files.pythonhosted.org/packages/0a/c9/6898f393e289d698facbadbebab5245125a8d1d0295976e78f4151f50e4c/murfey-0.7.9.tar.gz
+[2023-04-18 00:08:29] INFO root fetch - processPackages [pbsrollout]: executing diffoscope
+[2023-04-18 00:08:29] INFO root fetch - processPackages [pbsrollout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbsrollout-0.3.0.tar.gz tmp/pbsrollout-0.3.1.tar.gz --markdown 20230418/p/pbsrollout/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-18 00:08:29] INFO root fetch - processPackages [telegram-bottools]: Downloading https://files.pythonhosted.org/packages/71/df/430b5d57f8e783e883770503ceea1c94e99e6d02539d42595c3b0cfb6bf5/telegram_bottools-0.1.2.tar.gz
+[2023-04-18 00:08:29] INFO root fetch - processPackages [routingblocks]: Downloading https://files.pythonhosted.org/packages/34/47/f94ce4610171963bb9e45bf2155bc0d9610d7b90a95510df0b5195c30165/routingblocks-0.1.8.tar.gz
+[2023-04-18 00:08:29] INFO root fetch - processPackages [gpt4all-j]: Downloading https://files.pythonhosted.org/packages/21/f7/4678858c8b8f1d7f641dbf139e25df505a17dd5869f26f55fd479f7843bb/gpt4all-j-0.1.1.tar.gz
+[2023-04-18 00:08:29] INFO root fetch - processPackages [murfey]: executing diffoscope
+[2023-04-18 00:08:29] INFO root fetch - processPackages [murfey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/murfey-0.7.8.tar.gz tmp/murfey-0.7.9.tar.gz --markdown 20230418/m/murfey/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-04-18 00:08:29] INFO root fetch - processPackages [podcast-api]: Downloading https://files.pythonhosted.org/packages/07/e4/d776670f9222b3fda6519a068b9075355604d46ae04eabbda95ae8968c7f/podcast-api-1.1.4.zip
+[2023-04-18 00:08:29] INFO root fetch - processPackages [telegram-bottools]: executing diffoscope
+[2023-04-18 00:08:29] INFO root fetch - processPackages [telegram-bottools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_bottools-0.1.1.tar.gz tmp/telegram_bottools-0.1.2.tar.gz --markdown 20230418/t/telegram-bottools/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-18 00:08:29] INFO root fetch - processPackages [routingblocks]: executing diffoscope
+[2023-04-18 00:08:29] INFO root fetch - processPackages [routingblocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/routingblocks-0.1.7.tar.gz tmp/routingblocks-0.1.8.tar.gz --markdown 20230418/r/routingblocks/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-18 00:08:29] INFO root fetch - processPackages [oursin]: Downloading https://files.pythonhosted.org/packages/ee/cd/bde7f424c7ed8ef4961099ce3dcfb06f7e3415e56798120c978b381f6859/oursin-0.4.5.tar.gz
+[2023-04-18 00:08:29] INFO root fetch - processPackages [gpt4all-j]: executing diffoscope
+[2023-04-18 00:08:29] INFO root fetch - processPackages [gpt4all-j]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt4all-j-0.1.0.tar.gz tmp/gpt4all-j-0.1.1.tar.gz --markdown 20230418/g/gpt4all-j/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-18 00:08:29] INFO root fetch - processPackages [oursin]: executing diffoscope
+[2023-04-18 00:08:29] INFO root fetch - processPackages [oursin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oursin-0.4.4.tar.gz tmp/oursin-0.4.5.tar.gz --markdown 20230418/o/oursin/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-04-18 00:08:29] INFO root fetch - processPackages [podcast-api]: Downloading https://files.pythonhosted.org/packages/01/c4/2d6d27426a0ca9469d3e0ea731103bad749c495da73279c398a89bd9f4bc/podcast-api-1.1.5.zip
+[2023-04-18 00:08:29] INFO root fetch - processPackages [proxylists]: Downloading https://files.pythonhosted.org/packages/49/00/859f6e60ce9cd64e97e082e1fc9ef2d31aab36d49d7cd5cef8e914e15ac2/proxylists-0.9.0.tar.gz
+[2023-04-18 00:08:29] INFO root fetch - processPackages [proxylists]: executing diffoscope
+[2023-04-18 00:08:29] INFO root fetch - processPackages [proxylists]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proxylists-0.8.2.tar.gz tmp/proxylists-0.9.0.tar.gz --markdown 20230418/p/proxylists/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-04-18 00:08:29] INFO root fetch - processPackages [podcast-api]: executing diffoscope
+[2023-04-18 00:08:29] INFO root fetch - processPackages [podcast-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/podcast-api-1.1.4.zip tmp/podcast-api-1.1.5.zip --markdown 20230418/p/podcast-api/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-04-18 00:08:30] INFO root fetch - processPackages [rummage]: Downloading https://files.pythonhosted.org/packages/f8/de/8ec8a0f980ee9a9a083cd1e15048c294dc7a9ee1dfce878428498bc2d483/rummage-4.9.tar.gz
+[2023-04-18 00:08:30] INFO root fetch - processPackages [telegram-bottools]: Start processing: proxylists
+[2023-04-18 00:08:30] INFO root fetch - main [MainThread]: End processing [telegram-bottools]: success
+[2023-04-18 00:08:30] INFO root fetch - processPackages [proxylists]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-04-18 00:08:30] INFO root fetch - processPackages [proxylists]: executing diffoscope
+[2023-04-18 00:08:30] INFO root fetch - processPackages [proxylists]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proxylists-0.8.2.tar.gz tmp/proxylists-0.9.0.tar.gz --markdown 20230418/p/proxylists/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-04-18 00:08:30] INFO root fetch - processPackages [pbsrollout]: Start processing: futurejson
+[2023-04-18 00:08:30] INFO root fetch - main [MainThread]: End processing [pbsrollout]: success
+[2023-04-18 00:08:30] WARNING root fetch - processPackages [futurejson]: Skipping, unable to determine old version
+[2023-04-18 00:08:30] INFO root fetch - main [MainThread]: End processing [futurejson] error
+[2023-04-18 00:08:30] INFO root fetch - main [MainThread]: End processing [murfey]: success
+[2023-04-18 00:08:31] INFO root fetch - processPackages [rummage]: executing diffoscope
+[2023-04-18 00:08:31] INFO root fetch - processPackages [rummage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rummage-4.8.tar.gz tmp/rummage-4.9.tar.gz --markdown 20230418/r/rummage/4.8-4.9/diff.md --exclude *.pyd
+[2023-04-18 00:08:31] INFO root fetch - main [MainThread]: End processing [gpt4all-j]: success
+[2023-04-18 00:08:31] INFO root fetch - main [MainThread]: End processing [proxylists]: success
+[2023-04-18 00:08:31] INFO root fetch - main [MainThread]: End processing [oursin]: success
+[2023-04-18 00:08:31] INFO root fetch - main [MainThread]: End processing [proxylists]: success
+[2023-04-18 00:08:32] INFO root fetch - main [MainThread]: End processing [podcast-api]: success
+[2023-04-18 00:08:33] INFO root fetch - main [MainThread]: End processing [routingblocks]: success
+[2023-04-18 00:08:33] INFO root fetch - main [MainThread]: End processing [fuse-client]: success
+[2023-04-18 00:08:34] INFO root fetch - main [MainThread]: End processing [rummage]: success
+[2023-04-18 00:08:34] INFO root fetch - main [MainThread]: Store serial: [17745034]
