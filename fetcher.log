@@ -908,3 +908,67 @@
 [2023-04-18 01:07:57] INFO root fetch - main [MainThread]: End processing [returnn]: success
 [2023-04-18 01:07:59] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-04-18 01:07:59] INFO root fetch - main [MainThread]: Store serial: [17745477]
+[2023-04-18 01:13:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17745477]
+[2023-04-18 01:13:07] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-18 01:13:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BIDSit
+[2023-04-18 01:13:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rgcosm
+[2023-04-18 01:13:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rustimport
+[2023-04-18 01:13:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: waffle-hub
+[2023-04-18 01:13:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ota
+[2023-04-18 01:13:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ethyca-fides
+[2023-04-18 01:13:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-04-18 01:13:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bingbong
+[2023-04-18 01:13:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: iloscar
+[2023-04-18 01:13:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: codecov
+[2023-04-18 01:13:07] INFO root fetch - processPackages [ethyca-fides]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-04-18 01:13:07] INFO root fetch - processPackages [rgcosm]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-18 01:13:07] WARNING root fetch - processPackages [BIDSit]: Skipping, unable to determine old version
+[2023-04-18 01:13:07] INFO root fetch - processPackages [BIDSit]: Start processing: pycrosskit
+[2023-04-18 01:13:07] INFO root fetch - main [MainThread]: End processing [BIDSit] error
+[2023-04-18 01:13:07] INFO root fetch - processPackages [waffle-hub]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-04-18 01:13:07] INFO root fetch - processPackages [rustimport]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-04-18 01:13:07] WARNING root fetch - processPackages [codecov]: Skipping, unable to determine old version
+[2023-04-18 01:13:07] INFO root fetch - main [MainThread]: End processing [codecov] error
+[2023-04-18 01:13:07] INFO root fetch - processPackages [bingbong]: New version: [0.1.7] Old Version: [0.1.6.5]
+[2023-04-18 01:13:07] WARNING root fetch - processPackages [ota]: Skipping, unable to determine old version
+[2023-04-18 01:13:07] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.274] Old Version: [0.3.273]
+[2023-04-18 01:13:07] INFO root fetch - processPackages [iloscar]: New version: [0.2.7b0] Old Version: [0.2.6b0]
+[2023-04-18 01:13:07] INFO root fetch - main [MainThread]: End processing [ota] error
+[2023-04-18 01:13:07] INFO root fetch - processPackages [ethyca-fides]: executing diffoscope
+[2023-04-18 01:13:07] INFO root fetch - processPackages [ethyca-fides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethyca-fides-2.9.1.tar.gz tmp/ethyca-fides-2.9.2.tar.gz --markdown 20230418/e/ethyca-fides/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-04-18 01:13:07] INFO root fetch - processPackages [pycrosskit]: New version: [1.7.0] Old Version: [1.6.9]
+[2023-04-18 01:13:07] INFO root fetch - processPackages [rgcosm]: Downloading https://files.pythonhosted.org/packages/91/1c/f702d7f45280747474f1100e8d6aeb4723686c1d1ccab9656079c26710a4/rgcosm-0.0.5.tar.gz
+[2023-04-18 01:13:08] INFO root fetch - processPackages [rustimport]: Downloading https://files.pythonhosted.org/packages/ea/d1/a468a7c600d66b422193ba49cb7a0cdc01520cffe76c08f1fdd763a9d104/rustimport-1.2.4.tar.gz
+[2023-04-18 01:13:08] INFO root fetch - processPackages [bingbong]: Downloading https://files.pythonhosted.org/packages/5e/93/98ec8d225eb9c1a26f150e845e130c9ecc3c2e284b49b04f1d4a4aafe2f2/bingbong-0.1.6.5-py3-none-any.whl
+[2023-04-18 01:13:08] INFO root fetch - processPackages [iloscar]: Downloading https://files.pythonhosted.org/packages/72/8e/313e27d9ab372c0fa58db11dca22135450d05c65e525d18e791a5a547f7d/iloscar-0.2.7b0.tar.gz
+[2023-04-18 01:13:08] INFO root fetch - processPackages [waffle-hub]: Downloading https://files.pythonhosted.org/packages/47/ba/6050c5de7feac802264be4a1a3bcbf787421c150a2294818caf1eb23148a/waffle_hub-0.1.7.tar.gz
+[2023-04-18 01:13:08] INFO root fetch - processPackages [pycrosskit]: Downloading https://files.pythonhosted.org/packages/a1/67/75bf9b3b22556da0fad29d3558f1727dae8017c3b069d286f89f99589945/pycrosskit-1.6.9.tar.gz
+[2023-04-18 01:13:08] INFO root fetch - processPackages [rgcosm]: Downloading https://files.pythonhosted.org/packages/9c/d1/268de25fe949ecf4c8142a4a095b84ca3b045fa20fd09c240dc9c8c2129a/rgcosm-0.0.6.tar.gz
+[2023-04-18 01:13:08] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/34/50/7c7b20515ec63bae196a38a443b49756e7eaa18615c7d3a6346d8b7686b9/pepperize.cdk-ses-smtp-credentials-0.3.274.tar.gz
+[2023-04-18 01:13:08] INFO root fetch - processPackages [iloscar]: executing diffoscope
+[2023-04-18 01:13:08] INFO root fetch - processPackages [iloscar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iloscar-0.2.6b0.tar.gz tmp/iloscar-0.2.7b0.tar.gz --markdown 20230418/i/iloscar/0.2.6b0-0.2.7b0/diff.md --exclude *.pyd
+[2023-04-18 01:13:08] INFO root fetch - processPackages [rustimport]: Downloading https://files.pythonhosted.org/packages/fa/99/e3271a9ee1b342d564af5066dfa19cbc447b892908595cb7b7cd27a71005/rustimport-1.2.5.tar.gz
+[2023-04-18 01:13:08] INFO root fetch - processPackages [waffle-hub]: Downloading https://files.pythonhosted.org/packages/9d/8c/2c95ba70ef0600ceeaf57cdd50b70b306820d670fbba7f24bf8883dfd536/waffle_hub-0.1.8.tar.gz
+[2023-04-18 01:13:08] INFO root fetch - processPackages [bingbong]: Downloading https://files.pythonhosted.org/packages/df/d7/6c981ae8058721d806329240db08d6afe852df47cca273c298f6c363fa55/bingbong-0.1.7-py3-none-any.whl
+[2023-04-18 01:13:08] INFO root fetch - processPackages [rgcosm]: executing diffoscope
+[2023-04-18 01:13:08] INFO root fetch - processPackages [rgcosm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rgcosm-0.0.5.tar.gz tmp/rgcosm-0.0.6.tar.gz --markdown 20230418/r/rgcosm/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-18 01:13:08] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-04-18 01:13:08] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.273.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.274.tar.gz --markdown 20230418/p/pepperize.cdk-ses-smtp-credentials/0.3.273-0.3.274/diff.md --exclude *.pyd
+[2023-04-18 01:13:08] INFO root fetch - processPackages [waffle-hub]: executing diffoscope
+[2023-04-18 01:13:08] INFO root fetch - processPackages [waffle-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waffle_hub-0.1.7.tar.gz tmp/waffle_hub-0.1.8.tar.gz --markdown 20230418/w/waffle-hub/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-04-18 01:13:08] INFO root fetch - processPackages [rustimport]: executing diffoscope
+[2023-04-18 01:13:08] INFO root fetch - processPackages [rustimport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rustimport-1.2.4.tar.gz tmp/rustimport-1.2.5.tar.gz --markdown 20230418/r/rustimport/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-04-18 01:13:08] INFO root fetch - processPackages [bingbong]: executing diffoscope
+[2023-04-18 01:13:08] INFO root fetch - processPackages [bingbong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bingbong-0.1.6.5-py3-none-any.whl.zip tmp/bingbong-0.1.7-py3-none-any.whl.zip --markdown 20230418/b/bingbong/0.1.6.5-0.1.7/diff.md --exclude *.pyd
+[2023-04-18 01:13:08] INFO root fetch - processPackages [pycrosskit]: Downloading https://files.pythonhosted.org/packages/4e/c3/eba72b59b7b7c50c6e8bf58e5cc180acf44846b634a3d4e4d0b91373d034/pycrosskit-1.7.0.tar.gz
+[2023-04-18 01:13:08] INFO root fetch - processPackages [pycrosskit]: executing diffoscope
+[2023-04-18 01:13:08] INFO root fetch - processPackages [pycrosskit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycrosskit-1.6.9.tar.gz tmp/pycrosskit-1.7.0.tar.gz --markdown 20230418/p/pycrosskit/1.6.9-1.7.0/diff.md --exclude *.pyd
+[2023-04-18 01:13:09] INFO root fetch - main [MainThread]: End processing [iloscar]: success
+[2023-04-18 01:13:09] INFO root fetch - main [MainThread]: End processing [rgcosm]: success
+[2023-04-18 01:13:09] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-04-18 01:13:09] INFO root fetch - main [MainThread]: End processing [bingbong]: success
+[2023-04-18 01:13:09] INFO root fetch - main [MainThread]: End processing [rustimport]: success
+[2023-04-18 01:13:10] INFO root fetch - main [MainThread]: End processing [waffle-hub]: success
+[2023-04-18 01:13:10] INFO root fetch - main [MainThread]: End processing [pycrosskit]: success
+[2023-04-18 01:13:19] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
+[2023-04-18 01:13:19] INFO root fetch - main [MainThread]: Store serial: [17745517]
