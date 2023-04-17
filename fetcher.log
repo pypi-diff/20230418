@@ -509,3 +509,48 @@
 [2023-04-18 00:35:06] INFO root fetch - main [MainThread]: End processing [hordelib]: success
 [2023-04-18 00:35:14] INFO root fetch - main [MainThread]: End processing [measure-dist]: success
 [2023-04-18 00:35:14] INFO root fetch - main [MainThread]: Store serial: [17745243]
+[2023-04-18 00:40:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17745243]
+[2023-04-18 00:40:38] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-18 00:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: packagemernoda
+[2023-04-18 00:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chia-blockchain
+[2023-04-18 00:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wetterdienst
+[2023-04-18 00:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autonomi-nos
+[2023-04-18 00:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mkdocs-alias-plugin
+[2023-04-18 00:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: adnuntius
+[2023-04-18 00:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: packagemernoda
+[2023-04-18 00:40:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: querysource
+[2023-04-18 00:40:38] WARNING root fetch - processPackages [packagemernoda]: Skipping, unable to determine old version
+[2023-04-18 00:40:38] INFO root fetch - main [MainThread]: End processing [packagemernoda] error
+[2023-04-18 00:40:38] INFO root fetch - processPackages [wetterdienst]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-18 00:40:38] WARNING root fetch - processPackages [autonomi-nos]: Skipping, unable to determine old version
+[2023-04-18 00:40:38] INFO root fetch - main [MainThread]: End processing [autonomi-nos] error
+[2023-04-18 00:40:38] WARNING root fetch - processPackages [packagemernoda]: Skipping, unable to determine old version
+[2023-04-18 00:40:38] INFO root fetch - main [MainThread]: End processing [packagemernoda] error
+[2023-04-18 00:40:38] INFO root fetch - processPackages [mkdocs-alias-plugin]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-04-18 00:40:38] INFO root fetch - processPackages [adnuntius]: New version: [1.9] Old Version: [1.8]
+[2023-04-18 00:40:38] INFO root fetch - processPackages [querysource]: New version: [3.6.9] Old Version: [3.6.8]
+[2023-04-18 00:40:38] INFO root fetch - processPackages [chia-blockchain]: New version: [1.8.0b6] Old Version: [1.8.0b5]
+[2023-04-18 00:40:38] INFO root fetch - processPackages [wetterdienst]: Downloading https://files.pythonhosted.org/packages/78/63/b1277e512023f32d07e5f1100acb1a89b8df6544f68710d48e7c999ddfe7/wetterdienst-0.8.0.tar.gz
+[2023-04-18 00:40:38] INFO root fetch - processPackages [mkdocs-alias-plugin]: Downloading https://files.pythonhosted.org/packages/73/de/1107b959f488eac0edbb2351d26d52a28fc7cfd646ebf3ebbfac61657fa0/mkdocs-alias-plugin-0.5.0.tar.gz
+[2023-04-18 00:40:38] INFO root fetch - processPackages [adnuntius]: Downloading https://files.pythonhosted.org/packages/5a/3e/9012077474db43a0f62e6fc05f786ce927dd892377b95713413e92728ef6/adnuntius-1.8.tar.gz
+[2023-04-18 00:40:38] INFO root fetch - processPackages [chia-blockchain]: Downloading https://files.pythonhosted.org/packages/53/35/a8d33dc98b3741c6cefa52defe1ad14d48f6411598e62c922d02c97ad81f/chia-blockchain-1.8.0b5.tar.gz
+[2023-04-18 00:40:38] INFO root fetch - processPackages [querysource]: executing diffoscope
+[2023-04-18 00:40:38] INFO root fetch - processPackages [querysource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230418/q/querysource/3.6.8-3.6.9/diff.md --exclude *.pyd
+[2023-04-18 00:40:39] INFO root fetch - processPackages [mkdocs-alias-plugin]: Downloading https://files.pythonhosted.org/packages/75/dd/65a8e80f4b6f73dfca9628b43ae5be9073debcf9cb8fb607d3a6fd288f5e/mkdocs-alias-plugin-0.6.0.tar.gz
+[2023-04-18 00:40:39] INFO root fetch - processPackages [adnuntius]: Downloading https://files.pythonhosted.org/packages/82/88/5cc388342ae0a1ab0b55016b7972c6969ed66e149cdc355ddd477f8c86f9/adnuntius-1.9.tar.gz
+[2023-04-18 00:40:39] INFO root fetch - processPackages [mkdocs-alias-plugin]: executing diffoscope
+[2023-04-18 00:40:39] INFO root fetch - processPackages [mkdocs-alias-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-alias-plugin-0.5.0.tar.gz tmp/mkdocs-alias-plugin-0.6.0.tar.gz --markdown 20230418/m/mkdocs-alias-plugin/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-04-18 00:40:39] INFO root fetch - processPackages [wetterdienst]: Downloading https://files.pythonhosted.org/packages/93/c1/a193d03f936306ba30a17b6df7557fb21eb06ece6da61b94796737ad977a/wetterdienst-0.9.0.tar.gz
+[2023-04-18 00:40:39] INFO root fetch - processPackages [adnuntius]: executing diffoscope
+[2023-04-18 00:40:39] INFO root fetch - processPackages [adnuntius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adnuntius-1.8.tar.gz tmp/adnuntius-1.9.tar.gz --markdown 20230418/a/adnuntius/1.8-1.9/diff.md --exclude *.pyd
+[2023-04-18 00:40:39] INFO root fetch - processPackages [chia-blockchain]: Downloading https://files.pythonhosted.org/packages/38/3c/31872f40f581bfe4b3269d7222dd41cd42ee2f9f8db672c117071e4b25ea/chia-blockchain-1.8.0b6.tar.gz
+[2023-04-18 00:40:40] INFO root fetch - processPackages [wetterdienst]: executing diffoscope
+[2023-04-18 00:40:40] INFO root fetch - processPackages [wetterdienst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wetterdienst-0.8.0.tar.gz tmp/wetterdienst-0.9.0.tar.gz --markdown 20230418/w/wetterdienst/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-18 00:40:40] INFO root fetch - main [MainThread]: End processing [mkdocs-alias-plugin]: success
+[2023-04-18 00:40:40] INFO root fetch - main [MainThread]: End processing [adnuntius]: success
+[2023-04-18 00:40:40] INFO root fetch - processPackages [chia-blockchain]: executing diffoscope
+[2023-04-18 00:40:40] INFO root fetch - processPackages [chia-blockchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chia-blockchain-1.8.0b5.tar.gz tmp/chia-blockchain-1.8.0b6.tar.gz --markdown 20230418/c/chia-blockchain/1.8.0b5-1.8.0b6/diff.md --exclude *.pyd
+[2023-04-18 00:40:41] INFO root fetch - main [MainThread]: End processing [querysource]: success
+[2023-04-18 00:40:41] INFO root fetch - main [MainThread]: End processing [wetterdienst]: success
+[2023-04-18 00:40:55] INFO root fetch - main [MainThread]: End processing [chia-blockchain]: success
+[2023-04-18 00:40:55] INFO root fetch - main [MainThread]: Store serial: [17745272]
