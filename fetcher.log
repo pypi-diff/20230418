@@ -1464,3 +1464,52 @@
 [2023-04-18 01:53:22] INFO root fetch - main [MainThread]: End processing [pyplasm]: success
 [2023-04-18 01:53:31] INFO root fetch - main [MainThread]: End processing [zenoml]: success
 [2023-04-18 01:53:31] INFO root fetch - main [MainThread]: Store serial: [17745787]
+[2023-04-18 01:58:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17745787]
+[2023-04-18 01:58:40] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-18 01:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ota
+[2023-04-18 01:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-roborock
+[2023-04-18 01:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airunner
+[2023-04-18 01:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: suparunidic
+[2023-04-18 01:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-datamodel
+[2023-04-18 01:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pipen-board
+[2023-04-18 01:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tetra-hub
+[2023-04-18 01:58:40] INFO root fetch - processPackages [ota]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-04-18 01:58:40] INFO root fetch - processPackages [python-roborock]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-04-18 01:58:40] INFO root fetch - processPackages [suparunidic]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-04-18 01:58:40] INFO root fetch - processPackages [airunner]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-04-18 01:58:40] INFO root fetch - processPackages [pipen-board]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-18 01:58:40] INFO root fetch - processPackages [python-datamodel]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-04-18 01:58:40] INFO root fetch - processPackages [tetra-hub]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-04-18 01:58:40] INFO root fetch - processPackages [python-roborock]: Downloading https://files.pythonhosted.org/packages/ca/bb/441fd1c3eef5371827b8f1b912e69b3bda0e7c8364da0215de11f21900d5/python_roborock-0.6.5.tar.gz
+[2023-04-18 01:58:40] INFO root fetch - processPackages [pipen-board]: Downloading https://files.pythonhosted.org/packages/ed/53/64117a14c82e9f4def751a25af71fb1b48e3062106d02dcd5a2237457096/pipen_board-0.0.3.tar.gz
+[2023-04-18 01:58:40] INFO root fetch - processPackages [airunner]: Downloading https://files.pythonhosted.org/packages/02/04/8f50705e645e09f829179df2732c4c87430a6022212b2f8896c3d5670790/airunner-1.9.2.tar.gz
+[2023-04-18 01:58:40] INFO root fetch - processPackages [suparunidic]: Downloading https://files.pythonhosted.org/packages/3f/ff/0da3f99b0db9f3ff7927d228eb63bf86b72676bfd8aa7543be33ab11dc6c/suparunidic-1.3.8-py3-none-any.whl
+[2023-04-18 01:58:40] INFO root fetch - processPackages [python-datamodel]: Downloading https://files.pythonhosted.org/packages/6d/1d/882f081d1a1dcf76f28e21be3e087364607c36c6fcbfce45173d881b2cd1/python_datamodel-0.3.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-18 01:58:40] INFO root fetch - processPackages [tetra-hub]: Downloading https://files.pythonhosted.org/packages/27/70/f1cd817ae7c304156a7e3dc12fd0a1e52f97fcd6760dba02005052f17a9e/tetra_hub-0.5.0-py3-none-any.whl
+[2023-04-18 01:58:40] INFO root fetch - processPackages [ota]: Downloading https://files.pythonhosted.org/packages/89/40/790f0968613540e7297cc3d0d5cfdc6531c8a81d26d2c86cbff5a81b4e8f/ota-0.0.5.tar.gz
+[2023-04-18 01:58:40] INFO root fetch - processPackages [airunner]: executing diffoscope
+[2023-04-18 01:58:40] INFO root fetch - processPackages [airunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airunner-1.9.1.tar.gz tmp/airunner-1.9.2.tar.gz --markdown 20230418/a/airunner/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-04-18 01:58:40] INFO root fetch - processPackages [ota]: executing diffoscope
+[2023-04-18 01:58:40] INFO root fetch - processPackages [ota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ota-0.0.3.tar.gz tmp/ota-0.0.5.tar.gz --markdown 20230418/o/ota/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-04-18 01:58:40] INFO root fetch - processPackages [python-roborock]: Downloading https://files.pythonhosted.org/packages/f4/f7/7d513f722c0b5624af014de40a6dfc6f52e32373c56b8d6963dc04619a15/python_roborock-0.6.6.tar.gz
+[2023-04-18 01:58:40] INFO root fetch - processPackages [pipen-board]: Downloading https://files.pythonhosted.org/packages/d0/a9/207972421b9b4ceecfdb13bb5ac56bd6d3783e66e43164dc2212b87add51/pipen_board-0.0.4.tar.gz
+[2023-04-18 01:58:40] INFO root fetch - processPackages [tetra-hub]: Downloading https://files.pythonhosted.org/packages/61/00/936d782537aee5413333221face03208b9fd7558eaa177b2a21030f63440/tetra_hub-0.6.0-py3-none-any.whl
+[2023-04-18 01:58:40] INFO root fetch - processPackages [suparunidic]: Downloading https://files.pythonhosted.org/packages/22/9b/63482338a9b5e58350b56f8e5d3ec2b49dac346eb8d083f357dad80dc592/suparunidic-1.3.9-py3-none-any.whl
+[2023-04-18 01:58:40] INFO root fetch - processPackages [python-roborock]: executing diffoscope
+[2023-04-18 01:58:40] INFO root fetch - processPackages [python-roborock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_roborock-0.6.5.tar.gz tmp/python_roborock-0.6.6.tar.gz --markdown 20230418/p/python-roborock/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-04-18 01:58:40] INFO root fetch - processPackages [python-datamodel]: executing diffoscope
+[2023-04-18 01:58:40] INFO root fetch - processPackages [python-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_datamodel-0.3.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/python_datamodel-0.3.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230418/p/python-datamodel/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-04-18 01:58:40] INFO root fetch - processPackages [pipen-board]: executing diffoscope
+[2023-04-18 01:58:40] INFO root fetch - processPackages [pipen-board]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_board-0.0.3.tar.gz tmp/pipen_board-0.0.4.tar.gz --markdown 20230418/p/pipen-board/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-18 01:58:41] INFO root fetch - processPackages [suparunidic]: executing diffoscope
+[2023-04-18 01:58:41] INFO root fetch - processPackages [suparunidic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suparunidic-1.3.8-py3-none-any.whl.zip tmp/suparunidic-1.3.9-py3-none-any.whl.zip --markdown 20230418/s/suparunidic/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-04-18 01:58:41] INFO root fetch - processPackages [tetra-hub]: executing diffoscope
+[2023-04-18 01:58:41] INFO root fetch - processPackages [tetra-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tetra_hub-0.5.0-py3-none-any.whl.zip tmp/tetra_hub-0.6.0-py3-none-any.whl.zip --markdown 20230418/t/tetra-hub/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-04-18 01:58:42] INFO root fetch - main [MainThread]: End processing [python-roborock]: success
+[2023-04-18 01:58:42] INFO root fetch - main [MainThread]: End processing [pipen-board]: success
+[2023-04-18 01:58:42] INFO root fetch - main [MainThread]: End processing [ota]: success
+[2023-04-18 01:58:42] INFO root fetch - main [MainThread]: End processing [tetra-hub]: success
+[2023-04-18 01:58:42] INFO root fetch - main [MainThread]: End processing [airunner]: success
+[2023-04-18 01:58:42] INFO root fetch - main [MainThread]: End processing [suparunidic]: success
+[2023-04-18 01:58:47] INFO root fetch - main [MainThread]: End processing [python-datamodel]: success
+[2023-04-18 01:58:47] INFO root fetch - main [MainThread]: Store serial: [17745811]
