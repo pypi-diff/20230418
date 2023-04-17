@@ -1214,3 +1214,91 @@
 [2023-04-18 01:30:38] INFO root fetch - main [MainThread]: End processing [returnn]: success
 [2023-04-18 01:32:20] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
 [2023-04-18 01:32:20] INFO root fetch - main [MainThread]: Store serial: [17745635]
+[2023-04-18 01:37:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17745635]
+[2023-04-18 01:37:29] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-18 01:37:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dipdup
+[2023-04-18 01:37:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyutplugins
+[2023-04-18 01:37:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scaffoldmaker
+[2023-04-18 01:37:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sql2gpt
+[2023-04-18 01:37:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pipen-args
+[2023-04-18 01:37:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aistac-foundation
+[2023-04-18 01:37:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aiogram-ext
+[2023-04-18 01:37:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pollev-history-compiler
+[2023-04-18 01:37:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PyTDC
+[2023-04-18 01:37:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: block-recurrent-transformer-pytorch
+[2023-04-18 01:37:29] INFO root fetch - processPackages [scaffoldmaker]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-18 01:37:29] INFO root fetch - processPackages [aiogram-ext]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-18 01:37:29] INFO root fetch - processPackages [dipdup]: New version: [6.5.5] Old Version: [6.5.4]
+[2023-04-18 01:37:29] INFO root fetch - processPackages [sql2gpt]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-18 01:37:29] INFO root fetch - processPackages [pyutplugins]: New version: [0.8.50] Old Version: [0.8.42]
+[2023-04-18 01:37:29] INFO root fetch - processPackages [block-recurrent-transformer-pytorch]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-18 01:37:29] WARNING root fetch - processPackages [pollev-history-compiler]: Skipping, unable to determine old version
+[2023-04-18 01:37:29] INFO root fetch - processPackages [pollev-history-compiler]: Start processing: ignition-api-stubs
+[2023-04-18 01:37:29] INFO root fetch - main [MainThread]: End processing [pollev-history-compiler] error
+[2023-04-18 01:37:29] INFO root fetch - processPackages [pipen-args]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-04-18 01:37:29] INFO root fetch - processPackages [aistac-foundation]: New version: [2.9.7] Old Version: [2.9.6]
+[2023-04-18 01:37:29] INFO root fetch - processPackages [PyTDC]: New version: [0.4.0] Old Version: [0.3.9]
+[2023-04-18 01:37:29] INFO root fetch - processPackages [aiogram-ext]: Downloading https://files.pythonhosted.org/packages/99/7b/b19fcb736f18d9c8277988b88088cd2b6db748ef2b616a1e40b10e49194c/aiogram-ext-0.0.8.tar.gz
+[2023-04-18 01:37:29] INFO root fetch - processPackages [ignition-api-stubs]: New version: [8.1.26.post3] Old Version: [8.1.26.post2]
+[2023-04-18 01:37:29] INFO root fetch - processPackages [aistac-foundation]: executing diffoscope
+[2023-04-18 01:37:29] INFO root fetch - processPackages [aistac-foundation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aistac-foundation-2.9.6.tar.gz tmp/aistac-foundation-2.9.7.tar.gz --markdown 20230418/a/aistac-foundation/2.9.6-2.9.7/diff.md --exclude *.pyd
+[2023-04-18 01:37:29] INFO root fetch - processPackages [sql2gpt]: Downloading https://files.pythonhosted.org/packages/1a/f5/ee368dc7976e018ce2fed6e80cee24d610b3eb3a73133f270d61c1adb5aa/sql2gpt-0.2.0.tar.gz
+[2023-04-18 01:37:29] INFO root fetch - processPackages [pyutplugins]: Downloading https://files.pythonhosted.org/packages/c9/a2/60cc1cf45eaa464839ebe5055d80993efe9e203e95355a8240a5d27b457e/pyutplugins-0.8.42.tar.gz
+[2023-04-18 01:37:29] INFO root fetch - processPackages [scaffoldmaker]: Downloading https://files.pythonhosted.org/packages/1e/fc/331fe13f8c4da9bae65f05c24fc3018176bf89af611ae7c62f83dc30672c/scaffoldmaker-0.8.1.tar.gz
+[2023-04-18 01:37:29] INFO root fetch - processPackages [dipdup]: Downloading https://files.pythonhosted.org/packages/a7/c8/be2c7a588324c5b417fef2eaab241392abbef6a54d9e2e99a56aa9052aac/dipdup-6.5.4.tar.gz
+[2023-04-18 01:37:29] INFO root fetch - processPackages [aiogram-ext]: Downloading https://files.pythonhosted.org/packages/3a/f9/9ec16f66d208dfbbb4ae5b2ba970f15f6e0d0deca9bbc8a957213044f320/aiogram-ext-0.0.9.tar.gz
+[2023-04-18 01:37:29] INFO root fetch - processPackages [block-recurrent-transformer-pytorch]: Downloading https://files.pythonhosted.org/packages/0c/71/f5dedbf9ca70079404ce5d70a606bd1743975ccdb4f4a3610b07cee3a008/block-recurrent-transformer-pytorch-0.3.1.tar.gz
+[2023-04-18 01:37:29] INFO root fetch - processPackages [PyTDC]: Downloading https://files.pythonhosted.org/packages/28/8f/399b179d90f22ad1e2803b89c1b00ee7acd6d41ac28bc99ab627c3bda532/PyTDC-0.3.9.tar.gz
+[2023-04-18 01:37:29] INFO root fetch - processPackages [pipen-args]: Downloading https://files.pythonhosted.org/packages/b6/2c/e72d77d71ce3b66683828270ca8b231c893037ff2198d76a1db7abbcbc0e/pipen_args-0.9.6.tar.gz
+[2023-04-18 01:37:29] INFO root fetch - processPackages [ignition-api-stubs]: Downloading https://files.pythonhosted.org/packages/54/08/23fd618fa865890133b7ae9b8f00e99a8711592ac14057081f6598e5fda8/ignition_api_stubs-8.1.26.post2.tar.gz
+[2023-04-18 01:37:29] INFO root fetch - processPackages [aiogram-ext]: executing diffoscope
+[2023-04-18 01:37:29] INFO root fetch - processPackages [aiogram-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogram-ext-0.0.8.tar.gz tmp/aiogram-ext-0.0.9.tar.gz --markdown 20230418/a/aiogram-ext/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-18 01:37:29] INFO root fetch - processPackages [block-recurrent-transformer-pytorch]: executing diffoscope
+[2023-04-18 01:37:29] INFO root fetch - processPackages [block-recurrent-transformer-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/block-recurrent-transformer-pytorch-0.3.0.tar.gz tmp/block-recurrent-transformer-pytorch-0.3.1.tar.gz --markdown 20230418/b/block-recurrent-transformer-pytorch/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-18 01:37:29] INFO root fetch - processPackages [pipen-args]: executing diffoscope
+[2023-04-18 01:37:29] INFO root fetch - processPackages [pipen-args]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_args-0.9.5.tar.gz tmp/pipen_args-0.9.6.tar.gz --markdown 20230418/p/pipen-args/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-04-18 01:37:29] INFO root fetch - processPackages [sql2gpt]: Downloading https://files.pythonhosted.org/packages/ed/cc/a8ea26c5d9f3c23cd332aaac5cdcd3d7c1ca53b2f1dc0f481c8003f41ba7/sql2gpt-0.3.0.tar.gz
+[2023-04-18 01:37:29] INFO root fetch - processPackages [pyutplugins]: Downloading https://files.pythonhosted.org/packages/a9/8d/f17272a716e02040447866dedf0df976e4aa1076176178be70fa9e5b31cd/pyutplugins-0.8.50.tar.gz
+[2023-04-18 01:37:29] INFO root fetch - processPackages [PyTDC]: Downloading https://files.pythonhosted.org/packages/dc/97/9bd426c4cd40d3f13b0f40ad09db703144d276f656aa8ceeca3ea8066fc7/PyTDC-0.4.0.tar.gz
+[2023-04-18 01:37:30] INFO root fetch - processPackages [dipdup]: Downloading https://files.pythonhosted.org/packages/ee/4c/f526735da130c953a82999e619481b7c44dfe64fb316f184b978f556f269/dipdup-6.5.5.tar.gz
+[2023-04-18 01:37:30] INFO root fetch - processPackages [pyutplugins]: executing diffoscope
+[2023-04-18 01:37:30] INFO root fetch - processPackages [pyutplugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyutplugins-0.8.42.tar.gz tmp/pyutplugins-0.8.50.tar.gz --markdown 20230418/p/pyutplugins/0.8.42-0.8.50/diff.md --exclude *.pyd
+[2023-04-18 01:37:30] INFO root fetch - processPackages [sql2gpt]: executing diffoscope
+[2023-04-18 01:37:30] INFO root fetch - processPackages [sql2gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql2gpt-0.2.0.tar.gz tmp/sql2gpt-0.3.0.tar.gz --markdown 20230418/s/sql2gpt/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-18 01:37:30] INFO root fetch - processPackages [scaffoldmaker]: Downloading https://files.pythonhosted.org/packages/df/4e/5adfa05c43cad46d9d47f546523226383cd46b18516b700a2e698dad9385/scaffoldmaker-0.9.0.tar.gz
+[2023-04-18 01:37:30] INFO root fetch - processPackages [PyTDC]: executing diffoscope
+[2023-04-18 01:37:30] INFO root fetch - processPackages [PyTDC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyTDC-0.3.9.tar.gz tmp/PyTDC-0.4.0.tar.gz --markdown 20230418/P/PyTDC/0.3.9-0.4.0/diff.md --exclude *.pyd
+[2023-04-18 01:37:30] INFO root fetch - processPackages [dipdup]: executing diffoscope
+[2023-04-18 01:37:30] INFO root fetch - processPackages [dipdup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipdup-6.5.4.tar.gz tmp/dipdup-6.5.5.tar.gz --markdown 20230418/d/dipdup/6.5.4-6.5.5/diff.md --exclude *.pyd
+[2023-04-18 01:37:30] INFO root fetch - processPackages [ignition-api-stubs]: Downloading https://files.pythonhosted.org/packages/cd/aa/2818f279ae19a7c3e9a84e48ebe133700e7820a6d26fc01773136ed08fbb/ignition_api_stubs-8.1.26.post3.tar.gz
+[2023-04-18 01:37:30] INFO root fetch - processPackages [scaffoldmaker]: executing diffoscope
+[2023-04-18 01:37:30] INFO root fetch - processPackages [scaffoldmaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scaffoldmaker-0.8.1.tar.gz tmp/scaffoldmaker-0.9.0.tar.gz --markdown 20230418/s/scaffoldmaker/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-18 01:37:30] INFO root fetch - processPackages [ignition-api-stubs]: executing diffoscope
+[2023-04-18 01:37:30] INFO root fetch - processPackages [ignition-api-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ignition_api_stubs-8.1.26.post2.tar.gz tmp/ignition_api_stubs-8.1.26.post3.tar.gz --markdown 20230418/i/ignition-api-stubs/8.1.26.post2-8.1.26.post3/diff.md --exclude *.pyd
+[2023-04-18 01:37:31] INFO root fetch - processPackages [aistac-foundation]: Start processing: sql2gpt
+[2023-04-18 01:37:31] INFO root fetch - main [MainThread]: End processing [aistac-foundation]: success
+[2023-04-18 01:37:31] INFO root fetch - processPackages [sql2gpt]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-18 01:37:31] INFO root fetch - processPackages [pipen-args]: Start processing: sqlalchemy-extras
+[2023-04-18 01:37:31] INFO root fetch - main [MainThread]: End processing [pipen-args]: success
+[2023-04-18 01:37:31] INFO root fetch - processPackages [sqlalchemy-extras]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-04-18 01:37:31] INFO root fetch - processPackages [block-recurrent-transformer-pytorch]: Start processing: ignition-api-stubs
+[2023-04-18 01:37:31] INFO root fetch - main [MainThread]: End processing [block-recurrent-transformer-pytorch]: success
+[2023-04-18 01:37:31] INFO root fetch - processPackages [sql2gpt]: executing diffoscope
+[2023-04-18 01:37:31] INFO root fetch - processPackages [sql2gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql2gpt-0.2.0.tar.gz tmp/sql2gpt-0.3.0.tar.gz --markdown 20230418/s/sql2gpt/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-18 01:37:31] INFO root fetch - main [MainThread]: End processing [aiogram-ext]: success
+[2023-04-18 01:37:31] INFO root fetch - processPackages [ignition-api-stubs]: New version: [8.1.26.post3] Old Version: [8.1.26.post2]
+[2023-04-18 01:37:31] INFO root fetch - processPackages [ignition-api-stubs]: executing diffoscope
+[2023-04-18 01:37:31] INFO root fetch - processPackages [ignition-api-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ignition_api_stubs-8.1.26.post2.tar.gz tmp/ignition_api_stubs-8.1.26.post3.tar.gz --markdown 20230418/i/ignition-api-stubs/8.1.26.post2-8.1.26.post3/diff.md --exclude *.pyd
+[2023-04-18 01:37:31] INFO root fetch - processPackages [sqlalchemy-extras]: Downloading https://files.pythonhosted.org/packages/2a/bc/aef9fb3bbdf89ae25e68138a9e37d15dff5081d2517b9eb434ec38eb7636/sqlalchemy_extras-2.0.5.tar.gz
+[2023-04-18 01:37:31] INFO root fetch - processPackages [sqlalchemy-extras]: executing diffoscope
+[2023-04-18 01:37:31] INFO root fetch - processPackages [sqlalchemy-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_extras-2.0.4.tar.gz tmp/sqlalchemy_extras-2.0.5.tar.gz --markdown 20230418/s/sqlalchemy-extras/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-04-18 01:37:32] INFO root fetch - main [MainThread]: End processing [sql2gpt]: success
+[2023-04-18 01:37:32] INFO root fetch - main [MainThread]: End processing [sqlalchemy-extras]: success
+[2023-04-18 01:37:32] INFO root fetch - main [MainThread]: End processing [ignition-api-stubs]: success
+[2023-04-18 01:37:32] INFO root fetch - main [MainThread]: End processing [sql2gpt]: success
+[2023-04-18 01:37:33] INFO root fetch - main [MainThread]: End processing [ignition-api-stubs]: success
+[2023-04-18 01:37:33] INFO root fetch - main [MainThread]: End processing [PyTDC]: success
+[2023-04-18 01:37:34] INFO root fetch - main [MainThread]: End processing [dipdup]: success
+[2023-04-18 01:37:34] INFO root fetch - main [MainThread]: End processing [pyutplugins]: success
+[2023-04-18 01:37:38] INFO root fetch - main [MainThread]: End processing [scaffoldmaker]: success
+[2023-04-18 01:37:38] INFO root fetch - main [MainThread]: Store serial: [17745678]
