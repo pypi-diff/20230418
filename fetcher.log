@@ -124,3 +124,89 @@
 [2023-04-18 00:08:33] INFO root fetch - main [MainThread]: End processing [fuse-client]: success
 [2023-04-18 00:08:34] INFO root fetch - main [MainThread]: End processing [rummage]: success
 [2023-04-18 00:08:34] INFO root fetch - main [MainThread]: Store serial: [17745034]
+[2023-04-18 00:13:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17745034]
+[2023-04-18 00:13:43] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-18 00:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: detalog
+[2023-04-18 00:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: usa-net
+[2023-04-18 00:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: avsos
+[2023-04-18 00:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: update-pip-packages
+[2023-04-18 00:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-webapp-skeleton
+[2023-04-18 00:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nrel.hive
+[2023-04-18 00:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ctextlib
+[2023-04-18 00:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-04-18 00:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: arabica
+[2023-04-18 00:13:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: caikit
+[2023-04-18 00:13:43] WARNING root fetch - processPackages [detalog]: Skipping, unable to determine old version
+[2023-04-18 00:13:43] INFO root fetch - processPackages [detalog]: Start processing: futurejson
+[2023-04-18 00:13:43] INFO root fetch - main [MainThread]: End processing [detalog] error
+[2023-04-18 00:13:43] INFO root fetch - processPackages [update-pip-packages]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-18 00:13:43] INFO root fetch - processPackages [cdk-webapp-skeleton]: New version: [0.3.dev2] Old Version: [0.3.dev1]
+[2023-04-18 00:13:43] INFO root fetch - processPackages [nrel.hive]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-04-18 00:13:43] INFO root fetch - processPackages [usa-net]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-04-18 00:13:43] INFO root fetch - processPackages [avsos]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-18 00:13:43] INFO root fetch - processPackages [ctextlib]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-18 00:13:43] INFO root fetch - processPackages [arabica]: New version: [1.4.6] Old Version: [1.4.5]
+[2023-04-18 00:13:43] INFO root fetch - processPackages [futurejson]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-18 00:13:43] INFO root fetch - processPackages [caikit]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-18 00:13:43] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-18 00:13:43] INFO root fetch - processPackages [cdk-webapp-skeleton]: Downloading https://files.pythonhosted.org/packages/a8/68/d4e651d238c26c8735fad7c7d74297d1e5a3f47ff70752f0ac4900f2c6a1/cdk_webapp_skeleton-0.3.dev1.tar.gz
+[2023-04-18 00:13:43] INFO root fetch - processPackages [arabica]: Downloading https://files.pythonhosted.org/packages/fe/95/6b7a306e6ce6ace73d878559e149c52426aa139c5d70c829415da881400f/arabica-1.4.5.tar.gz
+[2023-04-18 00:13:43] INFO root fetch - processPackages [avsos]: Downloading https://files.pythonhosted.org/packages/c4/c6/6e095a425ec23d28aaf703e15438287fbc6c9642e21f1bc0c3c6b619e8e5/avsos-0.0.3.tar.gz
+[2023-04-18 00:13:43] INFO root fetch - processPackages [update-pip-packages]: Downloading https://files.pythonhosted.org/packages/a1/fa/50a24e0d744b195124d969d5874f5b050d6b6875865c773450a8c606c94f/update_pip_packages-0.1.2.tar.gz
+[2023-04-18 00:13:43] INFO root fetch - processPackages [futurejson]: Downloading https://files.pythonhosted.org/packages/c7/06/aab6984ee016bfd884ed7c29a5a4a18bfe1e6f7bbeb35a0a9b53c7a4868a/futurejson-0.2.0.tar.gz
+[2023-04-18 00:13:43] INFO root fetch - processPackages [caikit]: Downloading https://files.pythonhosted.org/packages/86/66/945e83bf2e751d1ccd8fecc654669bab2cc5d529848169376abb158573a5/caikit-0.1.2.tar.gz
+[2023-04-18 00:13:43] INFO root fetch - processPackages [nrel.hive]: Downloading https://files.pythonhosted.org/packages/59/ec/1405b0b9506217bbdc39bbcbd59ff3901a84d57203a5abc15b4bce66a272/nrel.hive-1.2.1.tar.gz
+[2023-04-18 00:13:43] INFO root fetch - processPackages [ctextlib]: Downloading https://files.pythonhosted.org/packages/88/a3/4768c5c10947b5ce1200474453eaf39bb405d0353d6d7b5d97994733f98d/ctextlib-1.0.8.tar.gz
+[2023-04-18 00:13:43] INFO root fetch - processPackages [usa-net]: Downloading https://files.pythonhosted.org/packages/38/f4/0398a36db5899b9e8df788622b89f122f70421cc05f629071e010f9c7a15/usa-net-0.0.1.tar.gz
+[2023-04-18 00:13:43] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/41/ed/5efe219dc09a3767781b18e59998e46265479245ef5e56798033e654efe2/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz
+[2023-04-18 00:13:43] INFO root fetch - processPackages [avsos]: executing diffoscope
+[2023-04-18 00:13:43] INFO root fetch - processPackages [avsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avsos-0.0.2.tar.gz tmp/avsos-0.0.3.tar.gz --markdown 20230418/a/avsos/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-18 00:13:43] INFO root fetch - processPackages [update-pip-packages]: executing diffoscope
+[2023-04-18 00:13:43] INFO root fetch - processPackages [update-pip-packages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/update_pip_packages-0.1.1.tar.gz tmp/update_pip_packages-0.1.2.tar.gz --markdown 20230418/u/update-pip-packages/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-18 00:13:43] INFO root fetch - processPackages [arabica]: Downloading https://files.pythonhosted.org/packages/66/1a/8ace83e401b31f29a8fae088e10e675bbe7325a9670609902c0dea0f9c3b/arabica-1.4.6.tar.gz
+[2023-04-18 00:13:44] INFO root fetch - processPackages [cdk-webapp-skeleton]: Downloading https://files.pythonhosted.org/packages/37/1b/b8fcf4f98c4ac9ea4f4fd3b26343899d8f5d7942d8ffe0fc8b076a4fd672/cdk_webapp_skeleton-0.3.dev2.tar.gz
+[2023-04-18 00:13:44] INFO root fetch - processPackages [arabica]: executing diffoscope
+[2023-04-18 00:13:44] INFO root fetch - processPackages [arabica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arabica-1.4.5.tar.gz tmp/arabica-1.4.6.tar.gz --markdown 20230418/a/arabica/1.4.5-1.4.6/diff.md --exclude *.pyd
+[2023-04-18 00:13:44] INFO root fetch - processPackages [futurejson]: Downloading https://files.pythonhosted.org/packages/e2/46/f8837c45d10599821123beca0ed23f115222b707bed97faaa7650532a1b7/futurejson-0.3.0.tar.gz
+[2023-04-18 00:13:44] INFO root fetch - processPackages [usa-net]: Downloading https://files.pythonhosted.org/packages/2f/90/5016b6678fdb314054c81a3e1343ea7a9735c203a3a641ad006507ab78ab/usa-net-0.0.3.tar.gz
+[2023-04-18 00:13:44] INFO root fetch - processPackages [caikit]: Downloading https://files.pythonhosted.org/packages/82/c2/0529506897a10718e5444a5beb96017891eb559a2ae20b3dc5340cd38aeb/caikit-0.1.3.tar.gz
+[2023-04-18 00:13:44] INFO root fetch - processPackages [futurejson]: executing diffoscope
+[2023-04-18 00:13:44] INFO root fetch - processPackages [futurejson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/futurejson-0.2.0.tar.gz tmp/futurejson-0.3.0.tar.gz --markdown 20230418/f/futurejson/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-18 00:13:44] INFO root fetch - processPackages [usa-net]: executing diffoscope
+[2023-04-18 00:13:44] INFO root fetch - processPackages [usa-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usa-net-0.0.1.tar.gz tmp/usa-net-0.0.3.tar.gz --markdown 20230418/u/usa-net/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-04-18 00:13:44] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/0a/e1/974dfac343666db334bd3dc6b819d5e46e3769ce75e9baccd0067702f4ad/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz
+[2023-04-18 00:13:44] INFO root fetch - processPackages [caikit]: executing diffoscope
+[2023-04-18 00:13:44] INFO root fetch - processPackages [caikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caikit-0.1.2.tar.gz tmp/caikit-0.1.3.tar.gz --markdown 20230418/c/caikit/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-18 00:13:44] INFO root fetch - processPackages [cdk-webapp-skeleton]: executing diffoscope
+[2023-04-18 00:13:44] INFO root fetch - processPackages [cdk-webapp-skeleton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_webapp_skeleton-0.3.dev1.tar.gz tmp/cdk_webapp_skeleton-0.3.dev2.tar.gz --markdown 20230418/c/cdk-webapp-skeleton/0.3.dev1-0.3.dev2/diff.md --exclude *.pyd
+[2023-04-18 00:13:44] INFO root fetch - processPackages [nrel.hive]: Downloading https://files.pythonhosted.org/packages/7d/ca/31cc3a8d11fc1408cc9979d4dd54a07f01fcd5980a45e6612689de0b73f7/nrel.hive-1.2.2.tar.gz
+[2023-04-18 00:13:44] INFO root fetch - processPackages [ctextlib]: Downloading https://files.pythonhosted.org/packages/53/9f/9b540fd6f7bb2eb4ea76ee9f2b2b1ca02bad65d70d77a5ec8453b8cf0fa2/ctextlib-1.0.9.tar.gz
+[2023-04-18 00:13:44] INFO root fetch - processPackages [nrel.hive]: executing diffoscope
+[2023-04-18 00:13:44] INFO root fetch - processPackages [nrel.hive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nrel.hive-1.2.1.tar.gz tmp/nrel.hive-1.2.2.tar.gz --markdown 20230418/n/nrel.hive/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-04-18 00:13:44] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-04-18 00:13:44] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230418/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-18 00:13:44] INFO root fetch - processPackages [ctextlib]: executing diffoscope
+[2023-04-18 00:13:44] INFO root fetch - processPackages [ctextlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctextlib-1.0.8.tar.gz tmp/ctextlib-1.0.9.tar.gz --markdown 20230418/c/ctextlib/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-18 00:13:45] INFO root fetch - processPackages [update-pip-packages]: Start processing: alpineer
+[2023-04-18 00:13:45] INFO root fetch - main [MainThread]: End processing [update-pip-packages]: success
+[2023-04-18 00:13:45] INFO root fetch - processPackages [alpineer]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-18 00:13:45] INFO root fetch - processPackages [avsos]: Start processing: gpt3discord
+[2023-04-18 00:13:45] INFO root fetch - main [MainThread]: End processing [avsos]: success
+[2023-04-18 00:13:45] INFO root fetch - processPackages [gpt3discord]: New version: [9.1] Old Version: [9.0.4]
+[2023-04-18 00:13:45] INFO root fetch - processPackages [alpineer]: Downloading https://files.pythonhosted.org/packages/37/15/e8462f15c0cbc5e959e937a552a43cafb6a130d1b0ba325f4ba8052d07d4/alpineer-0.1.5.tar.gz
+[2023-04-18 00:13:45] INFO root fetch - main [MainThread]: End processing [futurejson]: success
+[2023-04-18 00:13:45] INFO root fetch - processPackages [gpt3discord]: executing diffoscope
+[2023-04-18 00:13:45] INFO root fetch - processPackages [gpt3discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt3discord-9.0.4.tar.gz tmp/gpt3discord-9.1.tar.gz --markdown 20230418/g/gpt3discord/9.0.4-9.1/diff.md --exclude *.pyd
+[2023-04-18 00:13:45] INFO root fetch - main [MainThread]: End processing [arabica]: success
+[2023-04-18 00:13:45] INFO root fetch - main [MainThread]: End processing [cdk-webapp-skeleton]: success
+[2023-04-18 00:13:45] INFO root fetch - processPackages [alpineer]: Downloading https://files.pythonhosted.org/packages/4d/bb/d9df69add5819101e453d9813828d71a4a69913e343cdb968f4192b092b2/alpineer-0.1.6.tar.gz
+[2023-04-18 00:13:45] INFO root fetch - processPackages [alpineer]: executing diffoscope
+[2023-04-18 00:13:45] INFO root fetch - processPackages [alpineer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alpineer-0.1.5.tar.gz tmp/alpineer-0.1.6.tar.gz --markdown 20230418/a/alpineer/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-18 00:13:45] INFO root fetch - main [MainThread]: End processing [usa-net]: success
+[2023-04-18 00:13:46] INFO root fetch - main [MainThread]: End processing [ctextlib]: success
+[2023-04-18 00:13:46] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-04-18 00:13:46] INFO root fetch - main [MainThread]: End processing [gpt3discord]: success
+[2023-04-18 00:13:47] INFO root fetch - main [MainThread]: End processing [alpineer]: success
+[2023-04-18 00:13:47] INFO root fetch - main [MainThread]: End processing [nrel.hive]: success
+[2023-04-18 00:13:49] INFO root fetch - main [MainThread]: End processing [caikit]: success
+[2023-04-18 00:13:49] INFO root fetch - main [MainThread]: Store serial: [17745083]
