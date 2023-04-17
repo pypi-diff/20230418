@@ -845,3 +845,66 @@
 [2023-04-18 01:02:44] INFO root fetch - main [MainThread]: End processing [oglio]: success
 [2023-04-18 01:02:44] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
 [2023-04-18 01:02:44] INFO root fetch - main [MainThread]: Store serial: [17745445]
+[2023-04-18 01:07:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17745445]
+[2023-04-18 01:07:52] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-18 01:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oglio
+[2023-04-18 01:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flwr-nightly
+[2023-04-18 01:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arfindata
+[2023-04-18 01:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tmnt
+[2023-04-18 01:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: localstack-core
+[2023-04-18 01:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pipster
+[2023-04-18 01:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: headfuck
+[2023-04-18 01:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: service-configuration-lib
+[2023-04-18 01:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: returnn
+[2023-04-18 01:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: headfuck
+[2023-04-18 01:07:52] WARNING root fetch - processPackages [arfindata]: Skipping, unable to determine old version
+[2023-04-18 01:07:52] INFO root fetch - main [MainThread]: End processing [arfindata] error
+[2023-04-18 01:07:52] INFO root fetch - processPackages [oglio]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-04-18 01:07:52] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230417230346] Old Version: [2.0.3.dev20230417222144]
+[2023-04-18 01:07:52] INFO root fetch - processPackages [flwr-nightly]: New version: [1.4.0.dev20230416] Old Version: [1.4.0.dev20230414]
+[2023-04-18 01:07:52] INFO root fetch - processPackages [pipster]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-04-18 01:07:52] INFO root fetch - processPackages [headfuck]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-04-18 01:07:52] INFO root fetch - processPackages [headfuck]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-04-18 01:07:52] INFO root fetch - processPackages [service-configuration-lib]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-04-18 01:07:52] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230417] Old Version: [0.7.0b20230416]
+[2023-04-18 01:07:52] INFO root fetch - processPackages [returnn]: New version: [1.20230418.5121] Old Version: [1.20230417.223227]
+[2023-04-18 01:07:52] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2023-04-18 01:07:52] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.4.0.dev20230414.tar.gz tmp/flwr_nightly-1.4.0.dev20230416.tar.gz --markdown 20230418/f/flwr-nightly/1.4.0.dev20230414-1.4.0.dev20230416/diff.md --exclude *.pyd
+[2023-04-18 01:07:52] INFO root fetch - processPackages [headfuck]: Downloading https://files.pythonhosted.org/packages/c9/da/ecee2df68bfbc91b5cd468445240ad9493a799f0a3ff993c89003226c938/headfuck-1.1.1.tar.gz
+[2023-04-18 01:07:52] INFO root fetch - processPackages [headfuck]: Downloading https://files.pythonhosted.org/packages/c9/da/ecee2df68bfbc91b5cd468445240ad9493a799f0a3ff993c89003226c938/headfuck-1.1.1.tar.gz
+[2023-04-18 01:07:52] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/49/aa/dee3489bfd43a15394a6607ed42c41885cbafcc68e5493555673ce804dca/localstack-core-2.0.3.dev20230417230346.tar.gz
+[2023-04-18 01:07:52] INFO root fetch - processPackages [service-configuration-lib]: Downloading https://files.pythonhosted.org/packages/32/bc/50c0c486ef8868d70e1ede030d9152799090473991e4384059539a9b1e98/service-configuration-lib-2.8.0.tar.gz
+[2023-04-18 01:07:52] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/58/a4/0d4b8019ffd07f4a2180cac8766ea124b7ca4a1b5a31abe7554a0d988a6a/tmnt-0.7.0b20230416.tar.gz
+[2023-04-18 01:07:52] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/75/f2/a426d966c3f33bc069bc718551167e3759302184d13dc85e06aa20cbc043/returnn-1.20230418.5121.tar.gz
+[2023-04-18 01:07:52] INFO root fetch - processPackages [pipster]: Downloading https://files.pythonhosted.org/packages/a4/33/aec2e00bb89e805753d2dc701ddd72dec99439ae354bb0692f2b3839b100/pipster-0.0.7.tar.gz
+[2023-04-18 01:07:53] INFO root fetch - processPackages [oglio]: executing diffoscope
+[2023-04-18 01:07:53] INFO root fetch - processPackages [oglio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oglio-0.7.0.tar.gz tmp/oglio-0.7.1.tar.gz --markdown 20230418/o/oglio/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-04-18 01:07:53] INFO root fetch - processPackages [headfuck]: Downloading https://files.pythonhosted.org/packages/74/f9/b76e940f05818e4bcda0a26d918e8330aed6a5c79bb327497f8b157e575d/headfuck-1.1.2.tar.gz
+[2023-04-18 01:07:53] INFO root fetch - processPackages [headfuck]: Downloading https://files.pythonhosted.org/packages/74/f9/b76e940f05818e4bcda0a26d918e8330aed6a5c79bb327497f8b157e575d/headfuck-1.1.2.tar.gz
+[2023-04-18 01:07:53] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-04-18 01:07:53] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230417222144.tar.gz tmp/localstack-core-2.0.3.dev20230417230346.tar.gz --markdown 20230418/l/localstack-core/2.0.3.dev20230417222144-2.0.3.dev20230417230346/diff.md --exclude *.pyd
+[2023-04-18 01:07:53] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/a6/66/65d23b47a73b99045c1dfdb33306e001398bd53cf82fb0d3778c65bbf968/tmnt-0.7.0b20230417.tar.gz
+[2023-04-18 01:07:53] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-04-18 01:07:53] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230417.223227.tar.gz tmp/returnn-1.20230418.5121.tar.gz --markdown 20230418/r/returnn/1.20230417.223227-1.20230418.5121/diff.md --exclude *.pyd
+[2023-04-18 01:07:53] INFO root fetch - processPackages [pipster]: Downloading https://files.pythonhosted.org/packages/31/8d/9c14835f119b87bb52f335d3c69c503b6173fe2ec5bd9f00c7287d3d6048/pipster-0.0.9.tar.gz
+[2023-04-18 01:07:53] INFO root fetch - processPackages [headfuck]: executing diffoscope
+[2023-04-18 01:07:53] INFO root fetch - processPackages [headfuck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/headfuck-1.1.1.tar.gz tmp/headfuck-1.1.2.tar.gz --markdown 20230418/h/headfuck/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-04-18 01:07:53] INFO root fetch - processPackages [headfuck]: executing diffoscope
+[2023-04-18 01:07:53] INFO root fetch - processPackages [headfuck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/headfuck-1.1.1.tar.gz tmp/headfuck-1.1.2.tar.gz --markdown 20230418/h/headfuck/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-04-18 01:07:53] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-04-18 01:07:53] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230416.tar.gz tmp/tmnt-0.7.0b20230417.tar.gz --markdown 20230418/t/tmnt/0.7.0b20230416-0.7.0b20230417/diff.md --exclude *.pyd
+[2023-04-18 01:07:53] INFO root fetch - processPackages [service-configuration-lib]: Downloading https://files.pythonhosted.org/packages/08/ad/99858a3ee1fce3071381a61c7a2502b9fd908605783332e4af449df36153/service-configuration-lib-2.9.0.tar.gz
+[2023-04-18 01:07:53] INFO root fetch - processPackages [pipster]: executing diffoscope
+[2023-04-18 01:07:53] INFO root fetch - processPackages [pipster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipster-0.0.7.tar.gz tmp/pipster-0.0.9.tar.gz --markdown 20230418/p/pipster/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-04-18 01:07:54] INFO root fetch - processPackages [service-configuration-lib]: executing diffoscope
+[2023-04-18 01:07:54] INFO root fetch - processPackages [service-configuration-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/service-configuration-lib-2.8.0.tar.gz tmp/service-configuration-lib-2.9.0.tar.gz --markdown 20230418/s/service-configuration-lib/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-04-18 01:07:54] INFO root fetch - main [MainThread]: End processing [oglio]: success
+[2023-04-18 01:07:54] INFO root fetch - main [MainThread]: End processing [headfuck]: success
+[2023-04-18 01:07:54] INFO root fetch - main [MainThread]: End processing [headfuck]: success
+[2023-04-18 01:07:54] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-04-18 01:07:55] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2023-04-18 01:07:55] INFO root fetch - main [MainThread]: End processing [service-configuration-lib]: success
+[2023-04-18 01:07:55] INFO root fetch - main [MainThread]: End processing [pipster]: success
+[2023-04-18 01:07:57] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-04-18 01:07:59] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-04-18 01:07:59] INFO root fetch - main [MainThread]: Store serial: [17745477]
