@@ -13752,3 +13752,86 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 09:42:32] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-04-18 09:42:33] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
 [2023-04-18 09:42:33] INFO root fetch - main [MainThread]: Store serial: [17751743]
+[2023-04-18 09:47:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17751743]
+[2023-04-18 09:47:41] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-18 09:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bnipython
+[2023-04-18 09:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: support-hub
+[2023-04-18 09:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aruco-markers
+[2023-04-18 09:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-04-18 09:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: measure-dist
+[2023-04-18 09:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: digimat.bac0
+[2023-04-18 09:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: seven-cloudapp-frame
+[2023-04-18 09:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: i3dFeatureExtraction
+[2023-04-18 09:47:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: samna
+[2023-04-18 09:47:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: keras-nightly
+[2023-04-18 09:47:42] INFO root fetch - processPackages [measure-dist]: New version: [1.1.0.post1] Old Version: [1.1.0]
+[2023-04-18 09:47:42] INFO root fetch - processPackages [bnipython]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-04-18 09:47:42] INFO root fetch - processPackages [aruco-markers]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-04-18 09:47:42] INFO root fetch - processPackages [digimat.bac0]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-18 09:47:42] WARNING root fetch - processPackages [support-hub]: Skipping, unable to determine old version
+[2023-04-18 09:47:42] INFO root fetch - processPackages [support-hub]: Start processing: acc_provision
+[2023-04-18 09:47:42] INFO root fetch - main [MainThread]: End processing [support-hub] error
+[2023-04-18 09:47:42] INFO root fetch - processPackages [i3dFeatureExtraction]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-04-18 09:47:42] INFO root fetch - processPackages [keras-nightly]: New version: [2.9.0.dev2022033107] Old Version: [2.9.0.dev2022033007]
+[2023-04-18 09:47:42] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-04-18 09:47:42] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2023-04-18 09:47:42] INFO root fetch - processPackages [acc_provision]: New version: [5.2.3.6rc5] Old Version: [5.2.3.6rc4]
+[2023-04-18 09:47:42] INFO root fetch - processPackages [samna]: New version: [0.9.39.0] Old Version: [0.9.38.0]
+[2023-04-18 09:47:42] INFO root fetch - processPackages [aruco-markers]: Downloading https://files.pythonhosted.org/packages/f5/bc/56c8feabc3072bd0ed636c5ac11173b8f73b00ba44291105c0eaca383c57/aruco_markers-1.1.4.tar.gz
+[2023-04-18 09:47:42] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2023-04-18 09:47:42] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-2.9.0.dev2022033007-py2.py3-none-any.whl.zip tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip --markdown 20230418/k/keras-nightly/2.9.0.dev2022033007-2.9.0.dev2022033107/diff.md --exclude *.pyd
+[2023-04-18 09:47:42] INFO root fetch - processPackages [digimat.bac0]: executing diffoscope
+[2023-04-18 09:47:42] INFO root fetch - processPackages [digimat.bac0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digimat.bac0-0.0.7.tar.gz tmp/digimat.bac0-0.0.8.tar.gz --markdown 20230418/d/digimat.bac0/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-18 09:47:42] INFO root fetch - processPackages [i3dFeatureExtraction]: Downloading https://files.pythonhosted.org/packages/d3/96/77e7d607628de9d9961f23d7e51e15eee9da2d6a560fc96b2590e3300199/i3dFeatureExtraction-0.2.7.tar.gz
+[2023-04-18 09:47:42] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-04-18 09:47:42] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230418/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-04-18 09:47:42] INFO root fetch - processPackages [bnipython]: Downloading https://files.pythonhosted.org/packages/e3/ca/eabb7914e9f906538b5c3d337575f871ff4377a8c0d52322e7488a3705bf/bnipython-0.6.3.tar.gz
+[2023-04-18 09:47:42] INFO root fetch - processPackages [measure-dist]: Downloading https://files.pythonhosted.org/packages/87/c7/bf98fdecba38a8ce47d6f028e39e03f98543fb5b7844a994cb4604d7b77a/measure_dist-1.1.0.post1.tar.gz
+[2023-04-18 09:47:42] INFO root fetch - processPackages [acc_provision]: Downloading https://files.pythonhosted.org/packages/54/e8/534c5a4dd9bdd8be53c86d35a8d7e801b1550bf5077f1aadeda77bfc7e90/acc_provision-5.2.3.6rc4.tar.gz
+[2023-04-18 09:47:42] INFO root fetch - processPackages [samna]: executing diffoscope
+[2023-04-18 09:47:42] INFO root fetch - processPackages [samna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samna-0.9.38.0-py3-none-any.whl.zip tmp/samna-0.9.39.0-py3-none-any.whl.zip --markdown 20230418/s/samna/0.9.38.0-0.9.39.0/diff.md --exclude *.pyd
+[2023-04-18 09:47:42] INFO root fetch - processPackages [aruco-markers]: Downloading https://files.pythonhosted.org/packages/29/87/b8ec6e2a0928af5df8e45d7ece834abba0fab22c3b486c9a9cb7f12eeb0b/aruco_markers-1.1.5.tar.gz
+[2023-04-18 09:47:42] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-04-18 09:47:42] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.8.tar.gz tmp/seven_cloudapp_frame-1.0.9.9.tar.gz --markdown 20230418/s/seven-cloudapp-frame/1.0.9.8-1.0.9.9/diff.md --exclude *.pyd
+[2023-04-18 09:47:42] INFO root fetch - processPackages [bnipython]: executing diffoscope
+[2023-04-18 09:47:42] INFO root fetch - processPackages [bnipython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bnipython-0.6.2.tar.gz tmp/bnipython-0.6.3.tar.gz --markdown 20230418/b/bnipython/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-04-18 09:47:42] INFO root fetch - processPackages [i3dFeatureExtraction]: Downloading https://files.pythonhosted.org/packages/82/e3/64c64cca8f03354559554dc407ceb03b1694d215cfbbef8853bc743e41a3/i3dFeatureExtraction-0.2.8.tar.gz
+[2023-04-18 09:47:42] INFO root fetch - processPackages [aruco-markers]: executing diffoscope
+[2023-04-18 09:47:42] INFO root fetch - processPackages [aruco-markers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aruco_markers-1.1.4.tar.gz tmp/aruco_markers-1.1.5.tar.gz --markdown 20230418/a/aruco-markers/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-04-18 09:47:42] INFO root fetch - processPackages [measure-dist]: executing diffoscope
+[2023-04-18 09:47:42] INFO root fetch - processPackages [measure-dist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/measure_dist-1.1.0.tar.gz tmp/measure_dist-1.1.0.post1.tar.gz --markdown 20230418/m/measure-dist/1.1.0-1.1.0.post1/diff.md --exclude *.pyd
+[2023-04-18 09:47:42] INFO root fetch - processPackages [i3dFeatureExtraction]: executing diffoscope
+[2023-04-18 09:47:42] INFO root fetch - processPackages [i3dFeatureExtraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i3dFeatureExtraction-0.2.7.tar.gz tmp/i3dFeatureExtraction-0.2.8.tar.gz --markdown 20230418/i/i3dFeatureExtraction/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-04-18 09:47:43] INFO root fetch - processPackages [digimat.bac0]: Start processing: anticaptchaofficial
+[2023-04-18 09:47:43] INFO root fetch - main [MainThread]: End processing [digimat.bac0]: success
+[2023-04-18 09:47:43] INFO root fetch - processPackages [samna]: Start processing: inhandtest
+[2023-04-18 09:47:43] INFO root fetch - main [MainThread]: End processing [samna]: success
+[2023-04-18 09:47:43] INFO root fetch - processPackages [inhandtest]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-18 09:47:43] INFO root fetch - processPackages [anticaptchaofficial]: New version: [1.0.50] Old Version: [1.0.49]
+[2023-04-18 09:47:44] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Start processing: eodag
+[2023-04-18 09:47:44] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-04-18 09:47:44] INFO root fetch - processPackages [eodag]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-04-18 09:47:44] INFO root fetch - processPackages [anticaptchaofficial]: Downloading https://files.pythonhosted.org/packages/c7/f3/0a6d7fe9b2f6cb0902bc3430eb16e512f12d4af8354298a94bbc052772f3/anticaptchaofficial-1.0.49-py3-none-any.whl
+[2023-04-18 09:47:44] INFO root fetch - processPackages [inhandtest]: executing diffoscope
+[2023-04-18 09:47:44] INFO root fetch - processPackages [inhandtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inhandtest-0.0.4.tar.gz tmp/inhandtest-0.0.5.tar.gz --markdown 20230418/i/inhandtest/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-18 09:47:44] INFO root fetch - main [MainThread]: End processing [i3dFeatureExtraction]: success
+[2023-04-18 09:47:44] INFO root fetch - processPackages [eodag]: Downloading https://files.pythonhosted.org/packages/0f/66/73845926d69a1387db58b27d4295d9f9004a3f5783b3ee490813f3d0c40d/eodag-2.9.1.tar.gz
+[2023-04-18 09:47:44] INFO root fetch - processPackages [anticaptchaofficial]: Downloading https://files.pythonhosted.org/packages/f4/36/8542e8b40cd0d88b2a6b4c0ff0d412065162896101c710b33fd74826630f/anticaptchaofficial-1.0.50-py3-none-any.whl
+[2023-04-18 09:47:44] INFO root fetch - main [MainThread]: End processing [bnipython]: success
+[2023-04-18 09:47:44] INFO root fetch - main [MainThread]: End processing [measure-dist]: success
+[2023-04-18 09:47:44] INFO root fetch - processPackages [anticaptchaofficial]: executing diffoscope
+[2023-04-18 09:47:44] INFO root fetch - processPackages [anticaptchaofficial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anticaptchaofficial-1.0.49-py3-none-any.whl.zip tmp/anticaptchaofficial-1.0.50-py3-none-any.whl.zip --markdown 20230418/a/anticaptchaofficial/1.0.49-1.0.50/diff.md --exclude *.pyd
+[2023-04-18 09:47:44] INFO root fetch - main [MainThread]: End processing [aruco-markers]: success
+[2023-04-18 09:47:44] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-04-18 09:47:44] INFO root fetch - processPackages [acc_provision]: Downloading https://files.pythonhosted.org/packages/5e/cd/1ef9015a79df92d76ab07cb4263ca3e5fa335f4241b29cf208c2bc1a1a98/acc_provision-5.2.3.6rc5.tar.gz
+[2023-04-18 09:47:45] INFO root fetch - processPackages [acc_provision]: executing diffoscope
+[2023-04-18 09:47:45] INFO root fetch - processPackages [acc_provision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acc_provision-5.2.3.6rc4.tar.gz tmp/acc_provision-5.2.3.6rc5.tar.gz --markdown 20230418/a/acc_provision/5.2.3.6rc4-5.2.3.6rc5/diff.md --exclude *.pyd
+[2023-04-18 09:47:45] INFO root fetch - main [MainThread]: End processing [inhandtest]: success
+[2023-04-18 09:47:45] INFO root fetch - main [MainThread]: End processing [anticaptchaofficial]: success
+[2023-04-18 09:47:47] INFO root fetch - processPackages [eodag]: Downloading https://files.pythonhosted.org/packages/30/d0/cd44d7d8f1633e1bc1ef3bb5228fe999b33100b3f21de81023168e2698f5/eodag-2.9.2.tar.gz
+[2023-04-18 09:47:48] INFO root fetch - processPackages [eodag]: executing diffoscope
+[2023-04-18 09:47:48] INFO root fetch - processPackages [eodag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodag-2.9.1.tar.gz tmp/eodag-2.9.2.tar.gz --markdown 20230418/e/eodag/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-04-18 09:47:50] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2023-04-18 09:47:52] INFO root fetch - main [MainThread]: End processing [eodag]: success
+[2023-04-18 09:50:14] INFO root fetch - main [MainThread]: End processing [acc_provision]: success
+[2023-04-18 09:50:14] INFO root fetch - main [MainThread]: Store serial: [17751788]
