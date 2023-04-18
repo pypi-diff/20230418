@@ -19919,3 +19919,101 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 14:17:46] INFO root fetch - main [MainThread]: End processing [phidata]: success
 [2023-04-18 14:17:46] INFO root fetch - main [MainThread]: End processing [cgl-py]: success
 [2023-04-18 14:17:46] INFO root fetch - main [MainThread]: Store serial: [17755516]
+[2023-04-18 14:22:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17755516]
+[2023-04-18 14:22:55] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-18 14:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eindhoven
+[2023-04-18 14:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: extr
+[2023-04-18 14:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apiritif-no-codecov
+[2023-04-18 14:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: margsoft
+[2023-04-18 14:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: funcs
+[2023-04-18 14:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-opinionated-constructs
+[2023-04-18 14:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bridgecrew
+[2023-04-18 14:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ephemeris
+[2023-04-18 14:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: harborapi
+[2023-04-18 14:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pepperize.cdk-ssm-parameters-cross-region
+[2023-04-18 14:22:55] INFO root fetch - processPackages [extr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-18 14:22:55] WARNING root fetch - processPackages [apiritif-no-codecov]: Skipping, unable to determine old version
+[2023-04-18 14:22:55] INFO root fetch - processPackages [apiritif-no-codecov]: Start processing: phc-ingestion
+[2023-04-18 14:22:55] INFO root fetch - processPackages [funcs]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-18 14:22:55] INFO root fetch - main [MainThread]: End processing [apiritif-no-codecov] error
+[2023-04-18 14:22:55] INFO root fetch - processPackages [margsoft]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-18 14:22:55] INFO root fetch - processPackages [cdk-opinionated-constructs]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-04-18 14:22:55] INFO root fetch - processPackages [ephemeris]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-18 14:22:55] INFO root fetch - processPackages [harborapi]: New version: [0.9.0] Old Version: [0.8.6]
+[2023-04-18 14:22:55] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-18 14:22:55] INFO root fetch - processPackages [phc-ingestion]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-04-18 14:22:55] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-04-18 14:22:55] INFO root fetch - processPackages [eindhoven]: New version: [3.2.1] Old Version: [3.2.0]
+[2023-04-18 14:22:55] INFO root fetch - processPackages [funcs]: executing diffoscope
+[2023-04-18 14:22:55] INFO root fetch - processPackages [funcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcs-0.2.2.tar.gz tmp/funcs-0.2.3.tar.gz --markdown 20230418/f/funcs/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-18 14:22:55] INFO root fetch - processPackages [extr]: executing diffoscope
+[2023-04-18 14:22:55] INFO root fetch - processPackages [extr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-0.0.8.tar.gz tmp/extr-0.0.9.tar.gz --markdown 20230418/e/extr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-18 14:22:56] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-04-18 14:22:56] INFO root fetch - processPackages [margsoft]: Downloading https://files.pythonhosted.org/packages/ee/4b/d6d2ebbb9d6041942d8358a1cd04be02373c72e74a5a6075473b2a651de2/margsoft-0.0.8.tar.gz
+[2023-04-18 14:22:56] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230418/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-04-18 14:22:56] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: executing diffoscope
+[2023-04-18 14:22:56] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz --markdown 20230418/p/pepperize.cdk-ssm-parameters-cross-region/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-18 14:22:56] INFO root fetch - processPackages [cdk-opinionated-constructs]: Downloading https://files.pythonhosted.org/packages/cf/04/cf073f1f63b37bae11f246c5acd96e9874335fe5b9f0a8da4724775d2193/cdk-opinionated-constructs-1.9.0.tar.gz
+[2023-04-18 14:22:56] INFO root fetch - processPackages [ephemeris]: Downloading https://files.pythonhosted.org/packages/5a/5a/99d572f9117c69d25a668f9a8c40e7f35c0271c8aee6a1d0f6e7d821f516/ephemeris-0.8.0.tar.gz
+[2023-04-18 14:22:56] INFO root fetch - processPackages [phc-ingestion]: Downloading https://files.pythonhosted.org/packages/ba/d7/d30a97ba1c1906e904a2e5d4033532402e4b748a000e9a9122b11d984196/phc-ingestion-0.3.4.tar.gz
+[2023-04-18 14:22:56] INFO root fetch - processPackages [harborapi]: executing diffoscope
+[2023-04-18 14:22:56] INFO root fetch - processPackages [harborapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harborapi-0.8.6.tar.gz tmp/harborapi-0.9.0.tar.gz --markdown 20230418/h/harborapi/0.8.6-0.9.0/diff.md --exclude *.pyd
+[2023-04-18 14:22:56] INFO root fetch - processPackages [eindhoven]: Downloading https://files.pythonhosted.org/packages/7f/53/03a5960f2acec6ab7fa5521b9e77ada036a3ddfec28bf5e8ab695846d735/eindhoven-3.2.0.tar.gz
+[2023-04-18 14:22:56] INFO root fetch - processPackages [margsoft]: Downloading https://files.pythonhosted.org/packages/cd/ba/f56bd990e1b37ca65b9a04504b2b63e562cc7e1984a345cc5134d96bcfcf/margsoft-0.0.9.tar.gz
+[2023-04-18 14:22:56] INFO root fetch - processPackages [margsoft]: executing diffoscope
+[2023-04-18 14:22:56] INFO root fetch - processPackages [margsoft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/margsoft-0.0.8.tar.gz tmp/margsoft-0.0.9.tar.gz --markdown 20230418/m/margsoft/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-18 14:22:56] INFO root fetch - processPackages [cdk-opinionated-constructs]: Downloading https://files.pythonhosted.org/packages/ab/0f/1539806cf795f8ba646f198540afa6a761c6874fe9cc0730ed43b6051967/cdk-opinionated-constructs-1.9.1.tar.gz
+[2023-04-18 14:22:56] INFO root fetch - processPackages [ephemeris]: Downloading https://files.pythonhosted.org/packages/64/c7/4f129498ee63988ec4216c8973bd4ca6f6357b28c9601ba616d4db547b1e/ephemeris-0.9.0.tar.gz
+[2023-04-18 14:22:56] INFO root fetch - processPackages [eindhoven]: Downloading https://files.pythonhosted.org/packages/b6/97/29aec969787beb2ba103e369b737a7fe35c10fa0ac8cdfb7e8468d648a95/eindhoven-3.2.1.tar.gz
+[2023-04-18 14:22:56] INFO root fetch - processPackages [phc-ingestion]: Downloading https://files.pythonhosted.org/packages/d4/ed/e760ba8b4eb9fbb889463d6923cf898437bb0897c81a18c83c81fac672fb/phc-ingestion-0.3.5.tar.gz
+[2023-04-18 14:22:56] INFO root fetch - processPackages [cdk-opinionated-constructs]: executing diffoscope
+[2023-04-18 14:22:56] INFO root fetch - processPackages [cdk-opinionated-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-opinionated-constructs-1.9.0.tar.gz tmp/cdk-opinionated-constructs-1.9.1.tar.gz --markdown 20230418/c/cdk-opinionated-constructs/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-04-18 14:22:56] INFO root fetch - processPackages [ephemeris]: executing diffoscope
+[2023-04-18 14:22:56] INFO root fetch - processPackages [ephemeris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ephemeris-0.8.0.tar.gz tmp/ephemeris-0.9.0.tar.gz --markdown 20230418/e/ephemeris/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-18 14:22:56] INFO root fetch - processPackages [eindhoven]: executing diffoscope
+[2023-04-18 14:22:56] INFO root fetch - processPackages [eindhoven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eindhoven-3.2.0.tar.gz tmp/eindhoven-3.2.1.tar.gz --markdown 20230418/e/eindhoven/3.2.0-3.2.1/diff.md --exclude *.pyd
+[2023-04-18 14:22:56] INFO root fetch - processPackages [phc-ingestion]: executing diffoscope
+[2023-04-18 14:22:56] INFO root fetch - processPackages [phc-ingestion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phc-ingestion-0.3.4.tar.gz tmp/phc-ingestion-0.3.5.tar.gz --markdown 20230418/p/phc-ingestion/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-04-18 14:22:57] INFO root fetch - processPackages [margsoft]: Start processing: bigdl-dllib-spark3
+[2023-04-18 14:22:57] INFO root fetch - main [MainThread]: End processing [margsoft]: success
+[2023-04-18 14:22:57] INFO root fetch - processPackages [bigdl-dllib-spark3]: New version: [2.3.0b20230418] Old Version: [2.3.0b20230417]
+[2023-04-18 14:22:57] INFO root fetch - processPackages [bridgecrew]: Start processing: leetgo-py
+[2023-04-18 14:22:57] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-04-18 14:22:57] INFO root fetch - processPackages [leetgo-py]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-18 14:22:57] INFO root fetch - processPackages [funcs]: Start processing: numerous-html-report-generator
+[2023-04-18 14:22:57] INFO root fetch - main [MainThread]: End processing [funcs]: success
+[2023-04-18 14:22:57] INFO root fetch - processPackages [numerous-html-report-generator]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-04-18 14:22:57] INFO root fetch - processPackages [bigdl-dllib-spark3]: Downloading https://files.pythonhosted.org/packages/c9/b2/e1d0539847d0f72bba721cd1328a21f588785c6c9f164c3dea78f5a8dfc6/bigdl-dllib-spark3-2.3.0b20230417.tar.gz
+[2023-04-18 14:22:57] INFO root fetch - processPackages [extr]: Start processing: cohere
+[2023-04-18 14:22:57] INFO root fetch - main [MainThread]: End processing [extr]: success
+[2023-04-18 14:22:57] INFO root fetch - processPackages [leetgo-py]: Downloading https://files.pythonhosted.org/packages/bb/86/2b332215a396805a9119f30e7fc71b20e53de48c50bfd34d4eb514903506/leetgo-py-0.1.0.tar.gz
+[2023-04-18 14:22:57] INFO root fetch - processPackages [cohere]: New version: [4.1.5] Old Version: [4.1.4]
+[2023-04-18 14:22:57] WARNING root fetch - processPackages [bigdl-dllib-spark3]: Skipping package: exceeds size limit 61251713>=10485760
+[2023-04-18 14:22:57] INFO root fetch - processPackages [bigdl-dllib-spark3]: Start processing: python-outbreak-data
+[2023-04-18 14:22:57] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark3] error
+[2023-04-18 14:22:57] WARNING root fetch - processPackages [python-outbreak-data]: Skipping, unable to determine old version
+[2023-04-18 14:22:57] INFO root fetch - processPackages [python-outbreak-data]: Start processing: rustpyppr
+[2023-04-18 14:22:57] INFO root fetch - main [MainThread]: End processing [python-outbreak-data] error
+[2023-04-18 14:22:57] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ssm-parameters-cross-region]: success
+[2023-04-18 14:22:57] INFO root fetch - processPackages [numerous-html-report-generator]: Downloading https://files.pythonhosted.org/packages/91/9f/f5ab1d3ae52cfdbea0d7a0c9f96a24144c24f2a2f1d46d45553d64865f3a/numerous%20html-report-generator-1.0.3.tar.gz
+[2023-04-18 14:22:58] INFO root fetch - processPackages [leetgo-py]: Downloading https://files.pythonhosted.org/packages/60/5e/c0dc7987607b506665fb378c2c25c33d1f6dbb161c6246e13d79a0265d44/leetgo-py-0.2.0.tar.gz
+[2023-04-18 14:22:58] INFO root fetch - processPackages [cohere]: Downloading https://files.pythonhosted.org/packages/12/e1/4e8ddf5ca9fdab0422dd7ac84838feb4d35c8e786fa1d6c7e9dd9e646d9b/cohere-4.1.4.tar.gz
+[2023-04-18 14:22:58] WARNING root fetch - processPackages [rustpyppr]: Skipping, unable to determine old version
+[2023-04-18 14:22:58] INFO root fetch - main [MainThread]: End processing [rustpyppr] error
+[2023-04-18 14:22:58] INFO root fetch - main [MainThread]: End processing [eindhoven]: success
+[2023-04-18 14:22:58] INFO root fetch - main [MainThread]: End processing [cdk-opinionated-constructs]: success
+[2023-04-18 14:22:58] INFO root fetch - processPackages [leetgo-py]: executing diffoscope
+[2023-04-18 14:22:58] INFO root fetch - processPackages [leetgo-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leetgo-py-0.1.0.tar.gz tmp/leetgo-py-0.2.0.tar.gz --markdown 20230418/l/leetgo-py/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-18 14:22:58] INFO root fetch - processPackages [numerous-html-report-generator]: Downloading https://files.pythonhosted.org/packages/3d/a2/51da3cf481e98a72dc4b24b45a59878bebf7af2c7520b889d383ae678d99/numerous%20html-report-generator-1.1.0.tar.gz
+[2023-04-18 14:22:58] INFO root fetch - main [MainThread]: End processing [ephemeris]: success
+[2023-04-18 14:22:58] INFO root fetch - processPackages [numerous-html-report-generator]: executing diffoscope
+[2023-04-18 14:22:58] INFO root fetch - processPackages [numerous-html-report-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numerous html-report-generator-1.0.3.tar.gz tmp/numerous html-report-generator-1.1.0.tar.gz --markdown 20230418/n/numerous-html-report-generator/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-04-18 14:22:58] INFO root fetch - processPackages [cohere]: Downloading https://files.pythonhosted.org/packages/76/7a/e00a6c651927cc91ddc6be948a6f4cc5f3db39158003fa5da15bdb9afc6c/cohere-4.1.5.tar.gz
+[2023-04-18 14:22:58] INFO root fetch - processPackages [cohere]: executing diffoscope
+[2023-04-18 14:22:58] INFO root fetch - processPackages [cohere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cohere-4.1.4.tar.gz tmp/cohere-4.1.5.tar.gz --markdown 20230418/c/cohere/4.1.4-4.1.5/diff.md --exclude *.pyd
+[2023-04-18 14:22:59] INFO root fetch - main [MainThread]: End processing [leetgo-py]: success
+[2023-04-18 14:22:59] INFO root fetch - main [MainThread]: End processing [numerous-html-report-generator]: success
+[2023-04-18 14:22:59] INFO root fetch - main [MainThread]: End processing [cohere]: success
+[2023-04-18 14:22:59] INFO root fetch - main [MainThread]: End processing [harborapi]: success
+[2023-04-18 14:23:00] INFO root fetch - main [MainThread]: End processing [phc-ingestion]: success
+[2023-04-18 14:23:00] INFO root fetch - main [MainThread]: Store serial: [17755570]
