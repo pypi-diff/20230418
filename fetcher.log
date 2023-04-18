@@ -10186,3 +10186,55 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 07:31:09] INFO root fetch - main [MainThread]: End processing [turbo-chat]: success
 [2023-04-18 07:31:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-quality-control-oca]: success
 [2023-04-18 07:31:19] INFO root fetch - main [MainThread]: Store serial: [17750005]
+[2023-04-18 07:36:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17750005]
+[2023-04-18 07:36:27] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-18 07:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: windbg-copilot
+[2023-04-18 07:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yolov7x
+[2023-04-18 07:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: msaDocModels
+[2023-04-18 07:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fuse-client
+[2023-04-18 07:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: repairwheel
+[2023-04-18 07:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ExpdGetFolderFiles
+[2023-04-18 07:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-mapper
+[2023-04-18 07:36:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: OmniBridge
+[2023-04-18 07:36:27] INFO root fetch - processPackages [windbg-copilot]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-18 07:36:27] INFO root fetch - processPackages [django-mapper]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-04-18 07:36:27] INFO root fetch - processPackages [repairwheel]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-18 07:36:27] INFO root fetch - processPackages [msaDocModels]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-18 07:36:27] INFO root fetch - processPackages [fuse-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-18 07:36:27] INFO root fetch - processPackages [ExpdGetFolderFiles]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-04-18 07:36:27] INFO root fetch - processPackages [yolov7x]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-18 07:36:27] INFO root fetch - processPackages [OmniBridge]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-18 07:36:27] INFO root fetch - processPackages [windbg-copilot]: Downloading https://files.pythonhosted.org/packages/20/2c/5123d6e75014dc70f42026d69be66bbb04fbf743df8dda2fcedf713f5d16/windbg_copilot-1.0.0.tar.gz
+[2023-04-18 07:36:27] INFO root fetch - processPackages [OmniBridge]: executing diffoscope
+[2023-04-18 07:36:27] INFO root fetch - processPackages [OmniBridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OmniBridge-0.1.8.tar.gz tmp/OmniBridge-0.1.9.tar.gz --markdown 20230418/O/OmniBridge/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-18 07:36:27] INFO root fetch - processPackages [msaDocModels]: executing diffoscope
+[2023-04-18 07:36:27] INFO root fetch - processPackages [msaDocModels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msaDocModels-0.0.8.tar.gz tmp/msaDocModels-0.0.9.tar.gz --markdown 20230418/m/msaDocModels/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-18 07:36:27] INFO root fetch - processPackages [fuse-client]: executing diffoscope
+[2023-04-18 07:36:27] INFO root fetch - processPackages [fuse-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fuse-client-1.0.8.tar.gz tmp/fuse-client-1.0.9.tar.gz --markdown 20230418/f/fuse-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-18 07:36:27] INFO root fetch - processPackages [repairwheel]: Downloading https://files.pythonhosted.org/packages/f3/10/7c174ed037739e984c57a196b113b13dfed9510b09491648c9fddd598a56/repairwheel-0.1.0.tar.gz
+[2023-04-18 07:36:27] INFO root fetch - processPackages [yolov7x]: Downloading https://files.pythonhosted.org/packages/66/1f/e2027b5561e505d07b47030e6069a4c172e775d7fa9cf70db5d78d89f065/yolov7x-0.1.0.tar.gz
+[2023-04-18 07:36:27] INFO root fetch - processPackages [django-mapper]: Downloading https://files.pythonhosted.org/packages/3d/28/c7a96085253e605344c6e4b95d14557f24433e8510fb83d4ffd3d20502da/django-mapper-1.1.2.tar.gz
+[2023-04-18 07:36:27] INFO root fetch - processPackages [ExpdGetFolderFiles]: Downloading https://files.pythonhosted.org/packages/9e/55/5bf6e4a7c74d01d72e7f731bca0d57f5dce14e7dd3fdfbf34084bea30b61/ExpdGetFolderFiles-0.5.0.tar.gz
+[2023-04-18 07:36:28] INFO root fetch - main [MainThread]: End processing [msaDocModels]: success
+[2023-04-18 07:36:28] INFO root fetch - main [MainThread]: End processing [OmniBridge]: success
+[2023-04-18 07:36:29] INFO root fetch - processPackages [django-mapper]: executing diffoscope
+[2023-04-18 07:36:29] INFO root fetch - processPackages [django-mapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-mapper-1.1.1.tar.gz tmp/django-mapper-1.1.2.tar.gz --markdown 20230418/d/django-mapper/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-04-18 07:36:29] INFO root fetch - processPackages [ExpdGetFolderFiles]: Downloading https://files.pythonhosted.org/packages/7c/6d/2c846064ef0b698f966153bac0e4b76fdc9ec0d9bffddc0500401c994da6/ExpdGetFolderFiles-0.6.0.tar.gz
+[2023-04-18 07:36:29] INFO root fetch - processPackages [repairwheel]: Downloading https://files.pythonhosted.org/packages/fe/9f/2d9fac67a4c98932d54eff4870cd023f7daf60d927efc6e38d24684f7d5e/repairwheel-0.2.0.tar.gz
+[2023-04-18 07:36:29] INFO root fetch - processPackages [windbg-copilot]: Downloading https://files.pythonhosted.org/packages/67/a1/b745e198930b4072f1289d38de1623ead943a1363744fd5d380eeb289e45/windbg_copilot-1.0.1.tar.gz
+[2023-04-18 07:36:29] INFO root fetch - processPackages [yolov7x]: Downloading https://files.pythonhosted.org/packages/84/d4/164e5e1b6ed5e090eb81b4eb88eaaae9b780f45376cf7c127c3cc446d2da/yolov7x-0.1.1.tar.gz
+[2023-04-18 07:36:29] INFO root fetch - processPackages [ExpdGetFolderFiles]: executing diffoscope
+[2023-04-18 07:36:29] INFO root fetch - processPackages [ExpdGetFolderFiles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ExpdGetFolderFiles-0.5.0.tar.gz tmp/ExpdGetFolderFiles-0.6.0.tar.gz --markdown 20230418/E/ExpdGetFolderFiles/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-04-18 07:36:29] INFO root fetch - processPackages [repairwheel]: executing diffoscope
+[2023-04-18 07:36:29] INFO root fetch - processPackages [repairwheel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repairwheel-0.1.0.tar.gz tmp/repairwheel-0.2.0.tar.gz --markdown 20230418/r/repairwheel/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-18 07:36:29] INFO root fetch - processPackages [windbg-copilot]: executing diffoscope
+[2023-04-18 07:36:29] INFO root fetch - processPackages [windbg-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windbg_copilot-1.0.0.tar.gz tmp/windbg_copilot-1.0.1.tar.gz --markdown 20230418/w/windbg-copilot/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-18 07:36:29] INFO root fetch - processPackages [yolov7x]: executing diffoscope
+[2023-04-18 07:36:29] INFO root fetch - processPackages [yolov7x]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yolov7x-0.1.0.tar.gz tmp/yolov7x-0.1.1.tar.gz --markdown 20230418/y/yolov7x/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-18 07:36:30] INFO root fetch - main [MainThread]: End processing [fuse-client]: success
+[2023-04-18 07:36:30] INFO root fetch - main [MainThread]: End processing [django-mapper]: success
+[2023-04-18 07:36:30] INFO root fetch - main [MainThread]: End processing [ExpdGetFolderFiles]: success
+[2023-04-18 07:36:30] INFO root fetch - main [MainThread]: End processing [windbg-copilot]: success
+[2023-04-18 07:36:30] INFO root fetch - main [MainThread]: End processing [yolov7x]: success
+[2023-04-18 07:36:32] INFO root fetch - main [MainThread]: End processing [repairwheel]: success
+[2023-04-18 07:36:32] INFO root fetch - main [MainThread]: Store serial: [17750027]
