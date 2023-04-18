@@ -11737,3 +11737,203 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 08:27:35] INFO root fetch - main [MainThread]: End processing [open-clip-torch]: success
 [2023-04-18 08:27:37] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-04-18 08:27:37] INFO root fetch - main [MainThread]: Store serial: [17750606]
+[2023-04-18 08:32:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17750606]
+[2023-04-18 08:32:49] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-18 08:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: accera
+[2023-04-18 08:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: accera-compilers
+[2023-04-18 08:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: accera-gpu
+[2023-04-18 08:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: accera-llvm
+[2023-04-18 08:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-common-task-system
+[2023-04-18 08:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyxllib
+[2023-04-18 08:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo13-addon-kpi
+[2023-04-18 08:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jennifer-python
+[2023-04-18 08:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fastapi-mvc-framework
+[2023-04-18 08:32:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: libcnmc
+[2023-04-18 08:32:49] INFO root fetch - processPackages [accera-llvm]: New version: [15.0.101] Old Version: [14.0.602]
+[2023-04-18 08:32:49] INFO root fetch - processPackages [accera]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-18 08:32:49] INFO root fetch - processPackages [odoo13-addon-kpi]: New version: [13.0.1.0.2.dev3] Old Version: [13.0.1.0.2.dev2]
+[2023-04-18 08:32:49] INFO root fetch - processPackages [django-common-task-system]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-04-18 08:32:49] INFO root fetch - processPackages [jennifer-python]: New version: [5.6.1.9] Old Version: [5.6.1.8]
+[2023-04-18 08:32:49] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-04-18 08:32:49] INFO root fetch - processPackages [fastapi-mvc-framework]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-18 08:32:49] INFO root fetch - processPackages [accera-compilers]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-18 08:32:49] INFO root fetch - processPackages [pyxllib]: New version: [0.3.9] Old Version: [0.3.8.1]
+[2023-04-18 08:32:49] INFO root fetch - processPackages [accera-gpu]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-04-18 08:32:49] INFO root fetch - processPackages [jennifer-python]: Downloading https://files.pythonhosted.org/packages/84/e3/9c582270919735d5262b2290d99baeb712cc7d9389196c14973ee923780b/jennifer_python-5.6.1.8-py3-none-any.whl
+[2023-04-18 08:32:49] INFO root fetch - processPackages [django-common-task-system]: Downloading https://files.pythonhosted.org/packages/ec/02/0ede6e8ff921156c8679cf31a834bb0e983999f8e0d4161eead3fd9c56f4/django-common-task-system-1.1.8.tar.gz
+[2023-04-18 08:32:49] INFO root fetch - processPackages [accera]: Downloading https://files.pythonhosted.org/packages/fe/48/8a4629bd123a5ec496085d9d979cf60e5c5e4ebfa445a5a3b21699ea4085/accera-1.2.8-cp39-cp39-win_amd64.whl
+[2023-04-18 08:32:49] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/91/88/c28ff84568ef323398498b71d609a92ca287ddcdf8a851536ab656221bc4/libcnmc-23.9.0.tar.gz
+[2023-04-18 08:32:50] INFO root fetch - processPackages [fastapi-mvc-framework]: Downloading https://files.pythonhosted.org/packages/96/7e/589d9e3033be9efa5bea0798d75c8c5a20bbc26d135d138b5f2f20587588/fastapi_mvc_framework-1.1.8.tar.gz
+[2023-04-18 08:32:50] INFO root fetch - processPackages [accera-compilers]: Downloading https://files.pythonhosted.org/packages/01/62/6caf73eb6b4bb5bc4c3a24f42fc15362f0528c0344c9e290c2ba2e83e0b5/accera_compilers-1.2.8-cp39-cp39-win_amd64.whl
+[2023-04-18 08:32:50] INFO root fetch - processPackages [accera-llvm]: Downloading https://files.pythonhosted.org/packages/66/9c/6507d7ed9b2f06f0efdc23be77b5835d5ceaaeee9bb4321c023e0fa142c7/accera_llvm-14.0.602-cp39-cp39-win_amd64.whl
+[2023-04-18 08:32:50] INFO root fetch - processPackages [odoo13-addon-kpi]: Downloading https://files.pythonhosted.org/packages/19/1d/638ec78f586e301218b8124d6ad95f9005a29e3693d2c31a4f2fb64906ce/odoo13_addon_kpi-13.0.1.0.2.dev2-py3-none-any.whl
+[2023-04-18 08:32:50] INFO root fetch - processPackages [pyxllib]: Downloading https://files.pythonhosted.org/packages/92/b3/63c0f112ecbc647b12359588e1a5e43868ba4542e1fdb6d0f037c3b00b1f/pyxllib-0.3.8.1.tar.gz
+[2023-04-18 08:32:50] INFO root fetch - processPackages [accera-gpu]: Downloading https://files.pythonhosted.org/packages/1a/3d/94487efe2d244699dab4eb8ba1c274baf65083b5e25516d548f0f3ab83ce/accera_gpu-1.2.8-cp39-cp39-win_amd64.whl
+[2023-04-18 08:32:50] WARNING root fetch - processPackages [accera-llvm]: Skipping package: exceeds size limit 45175390>=10485760
+[2023-04-18 08:32:50] INFO root fetch - processPackages [accera-llvm]: Start processing: badi-users
+[2023-04-18 08:32:50] INFO root fetch - main [MainThread]: End processing [accera-llvm] error
+[2023-04-18 08:32:50] WARNING root fetch - processPackages [accera-compilers]: Skipping package: exceeds size limit 27649196>=10485760
+[2023-04-18 08:32:50] INFO root fetch - processPackages [accera-compilers]: Start processing: enum-properties
+[2023-04-18 08:32:50] INFO root fetch - main [MainThread]: End processing [accera-compilers] error
+[2023-04-18 08:32:50] INFO root fetch - processPackages [badi-users]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-18 08:32:50] INFO root fetch - processPackages [fastapi-mvc-framework]: Downloading https://files.pythonhosted.org/packages/bc/40/8338e4a7fd548063cdd793297eda92107ef592e8bf79c0f3ceab83271959/fastapi_mvc_framework-1.1.9.tar.gz
+[2023-04-18 08:32:50] INFO root fetch - processPackages [enum-properties]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-04-18 08:32:50] INFO root fetch - processPackages [django-common-task-system]: executing diffoscope
+[2023-04-18 08:32:50] INFO root fetch - processPackages [django-common-task-system]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-common-task-system-1.1.7.tar.gz tmp/django-common-task-system-1.1.8.tar.gz --markdown 20230418/d/django-common-task-system/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-04-18 08:32:50] INFO root fetch - processPackages [pyxllib]: Downloading https://files.pythonhosted.org/packages/13/39/f5a231f530fcc02e172ed8ed86feec98a3adf3989fabedaeb988e624cefa/pyxllib-0.3.9.tar.gz
+[2023-04-18 08:32:50] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/fc/9f/639d42b63484a91cf9f1c60f9bb709f1ed853240f45c2e02047054beffa6/libcnmc-23.9.1.tar.gz
+[2023-04-18 08:32:50] INFO root fetch - processPackages [odoo13-addon-kpi]: Downloading https://files.pythonhosted.org/packages/bb/db/ce5f6333f6e4cea689bfb453e9d9233c4e07511cbec340079d37cd1dc209/odoo13_addon_kpi-13.0.1.0.2.dev3-py3-none-any.whl
+[2023-04-18 08:32:50] WARNING root fetch - processPackages [accera]: Skipping package: exceeds size limit 24125897>=10485760
+[2023-04-18 08:32:50] INFO root fetch - processPackages [accera]: Start processing: libcnmc
+[2023-04-18 08:32:50] INFO root fetch - main [MainThread]: End processing [accera] error
+[2023-04-18 08:32:50] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-04-18 08:32:50] INFO root fetch - processPackages [fastapi-mvc-framework]: executing diffoscope
+[2023-04-18 08:32:50] INFO root fetch - processPackages [fastapi-mvc-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_mvc_framework-1.1.8.tar.gz tmp/fastapi_mvc_framework-1.1.9.tar.gz --markdown 20230418/f/fastapi-mvc-framework/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-18 08:32:50] INFO root fetch - processPackages [pyxllib]: executing diffoscope
+[2023-04-18 08:32:50] INFO root fetch - processPackages [pyxllib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxllib-0.3.8.1.tar.gz tmp/pyxllib-0.3.9.tar.gz --markdown 20230418/p/pyxllib/0.3.8.1-0.3.9/diff.md --exclude *.pyd
+[2023-04-18 08:32:50] INFO root fetch - processPackages [badi-users]: Downloading https://files.pythonhosted.org/packages/86/15/1d0d9a4f51bce9e6174b9f333a31cc4d68740311dd1fe3a67ec6d80ec832/badi_users-0.9.5.tar.gz
+[2023-04-18 08:32:50] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/fc/9f/639d42b63484a91cf9f1c60f9bb709f1ed853240f45c2e02047054beffa6/libcnmc-23.9.1.tar.gz
+[2023-04-18 08:32:50] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-04-18 08:32:50] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230418/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-04-18 08:32:50] INFO root fetch - processPackages [odoo13-addon-kpi]: executing diffoscope
+[2023-04-18 08:32:50] INFO root fetch - processPackages [odoo13-addon-kpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_kpi-13.0.1.0.2.dev2-py3-none-any.whl.zip tmp/odoo13_addon_kpi-13.0.1.0.2.dev3-py3-none-any.whl.zip --markdown 20230418/o/odoo13-addon-kpi/13.0.1.0.2.dev2-13.0.1.0.2.dev3/diff.md --exclude *.pyd
+[2023-04-18 08:32:50] INFO root fetch - processPackages [enum-properties]: Downloading https://files.pythonhosted.org/packages/89/e9/5db9459cde281510f76631fff87c45037561f2ec50dbafb5bf2a787b5c7e/enum_properties-1.5.1.tar.gz
+[2023-04-18 08:32:50] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-04-18 08:32:50] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230418/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-04-18 08:32:50] INFO root fetch - processPackages [badi-users]: executing diffoscope
+[2023-04-18 08:32:50] INFO root fetch - processPackages [badi-users]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/badi_users-0.9.4.tar.gz tmp/badi_users-0.9.5.tar.gz --markdown 20230418/b/badi-users/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-18 08:32:50] INFO root fetch - processPackages [enum-properties]: executing diffoscope
+[2023-04-18 08:32:50] INFO root fetch - processPackages [enum-properties]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enum_properties-1.5.0.tar.gz tmp/enum_properties-1.5.1.tar.gz --markdown 20230418/e/enum-properties/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-04-18 08:32:51] INFO root fetch - processPackages [accera-gpu]: Downloading https://files.pythonhosted.org/packages/c3/ef/3fb638fef56db0efe937081272113e7347b082a84b5664d60d8a28880d45/accera_gpu-1.2.9-cp39-cp39-win_amd64.whl
+[2023-04-18 08:32:51] INFO root fetch - processPackages [accera-gpu]: executing diffoscope
+[2023-04-18 08:32:51] INFO root fetch - processPackages [accera-gpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accera_gpu-1.2.8-cp39-cp39-win_amd64.whl.zip tmp/accera_gpu-1.2.9-cp39-cp39-win_amd64.whl.zip --markdown 20230418/a/accera-gpu/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-04-18 08:32:51] INFO root fetch - processPackages [jennifer-python]: Downloading https://files.pythonhosted.org/packages/07/a3/c5a6f754fe4a116f0f354d41ce768809ca3ec12d6a074d85545c82764e47/jennifer_python-5.6.1.9-py3-none-any.whl
+[2023-04-18 08:32:52] INFO root fetch - processPackages [django-common-task-system]: Start processing: rdkit-pypi
+[2023-04-18 08:32:52] INFO root fetch - main [MainThread]: End processing [django-common-task-system]: success
+[2023-04-18 08:32:52] INFO root fetch - processPackages [rdkit-pypi]: New version: [2023.3.1b1] Old Version: [2022.9.5]
+[2023-04-18 08:32:52] INFO root fetch - processPackages [rdkit-pypi]: Downloading https://files.pythonhosted.org/packages/12/0a/b2d244d5e590e0cddd7e65498d9c14251769b4142bca760f8d9d1151be2f/rdkit_pypi-2022.9.5-cp39-cp39-win_amd64.whl
+[2023-04-18 08:32:52] INFO root fetch - processPackages [fastapi-mvc-framework]: Start processing: windmill-api
+[2023-04-18 08:32:52] INFO root fetch - main [MainThread]: End processing [fastapi-mvc-framework]: success
+[2023-04-18 08:32:52] WARNING root fetch - processPackages [rdkit-pypi]: Skipping package: exceeds size limit 20455678>=10485760
+[2023-04-18 08:32:52] INFO root fetch - processPackages [rdkit-pypi]: Start processing: wmill
+[2023-04-18 08:32:52] INFO root fetch - main [MainThread]: End processing [rdkit-pypi] error
+[2023-04-18 08:32:52] INFO root fetch - processPackages [enum-properties]: Start processing: libcnmc
+[2023-04-18 08:32:52] INFO root fetch - main [MainThread]: End processing [enum-properties]: success
+[2023-04-18 08:32:52] INFO root fetch - processPackages [wmill]: New version: [1.88.0] Old Version: [1.87.0]
+[2023-04-18 08:32:52] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-04-18 08:32:52] INFO root fetch - processPackages [jennifer-python]: executing diffoscope
+[2023-04-18 08:32:52] INFO root fetch - processPackages [jennifer-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jennifer_python-5.6.1.8-py3-none-any.whl.zip tmp/jennifer_python-5.6.1.9-py3-none-any.whl.zip --markdown 20230418/j/jennifer-python/5.6.1.8-5.6.1.9/diff.md --exclude *.pyd
+[2023-04-18 08:32:52] INFO root fetch - processPackages [windmill-api]: New version: [1.88.1] Old Version: [1.88.0]
+[2023-04-18 08:32:52] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-04-18 08:32:52] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230418/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-04-18 08:32:52] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2023-04-18 08:32:52] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.87.0.tar.gz tmp/wmill-1.88.0.tar.gz --markdown 20230418/w/wmill/1.87.0-1.88.0/diff.md --exclude *.pyd
+[2023-04-18 08:32:52] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/d1/43/a9f73488014c8e565f5c00de9fc9de9f69c65a61d025d27f8ccc7da56924/windmill_api-1.88.1.tar.gz
+[2023-04-18 08:32:53] INFO root fetch - processPackages [odoo13-addon-kpi]: Start processing: wmill-pg
+[2023-04-18 08:32:53] INFO root fetch - main [MainThread]: End processing [odoo13-addon-kpi]: success
+[2023-04-18 08:32:53] INFO root fetch - processPackages [wmill-pg]: New version: [1.88.0] Old Version: [1.87.0]
+[2023-04-18 08:32:53] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2023-04-18 08:32:53] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.88.0.tar.gz tmp/windmill_api-1.88.1.tar.gz --markdown 20230418/w/windmill-api/1.88.0-1.88.1/diff.md --exclude *.pyd
+[2023-04-18 08:32:53] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2023-04-18 08:32:53] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.87.0.tar.gz tmp/wmill_pg-1.88.0.tar.gz --markdown 20230418/w/wmill-pg/1.87.0-1.88.0/diff.md --exclude *.pyd
+[2023-04-18 08:32:53] ERROR root fetch - processPackages [accera-gpu]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 127, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140434827386368)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/ar.py", line 71, in compare_details
+    Difference.from_text_readers(
+  File "/srv/diffoscope/diffoscope/difference.py", line 258, in from_text_readers
+    return Difference.from_feeder(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 127, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=140434961603936)
+
+[2023-04-18 08:32:53] INFO root fetch - main [MainThread]: End processing [accera-gpu] error
+[2023-04-18 08:32:54] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2023-04-18 08:32:54] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2023-04-18 08:32:54] INFO root fetch - main [MainThread]: End processing [pyxllib]: success
+[2023-04-18 08:32:55] INFO root fetch - main [MainThread]: End processing [badi-users]: success
+[2023-04-18 08:32:56] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-04-18 08:32:56] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-04-18 08:32:57] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-04-18 08:33:11] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2023-04-18 08:33:30] INFO root fetch - main [MainThread]: End processing [jennifer-python]: success
+[2023-04-18 08:33:30] INFO root fetch - main [MainThread]: Store serial: [17750665]
