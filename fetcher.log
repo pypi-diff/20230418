@@ -11937,3 +11937,52 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 08:33:11] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2023-04-18 08:33:30] INFO root fetch - main [MainThread]: End processing [jennifer-python]: success
 [2023-04-18 08:33:30] INFO root fetch - main [MainThread]: Store serial: [17750665]
+[2023-04-18 08:38:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17750665]
+[2023-04-18 08:38:47] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-18 08:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-rma
+[2023-04-18 08:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-rma
+[2023-04-18 08:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: msaBase
+[2023-04-18 08:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xj-user
+[2023-04-18 08:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scenariogeneration
+[2023-04-18 08:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: griffon
+[2023-04-18 08:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: snaptrade-python-sdk
+[2023-04-18 08:38:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo12-addon-sale-backorder
+[2023-04-18 08:38:47] INFO root fetch - processPackages [odoo14-addon-rma]: New version: [14.0.3.2.6.dev6] Old Version: [14.0.3.2.6.dev5]
+[2023-04-18 08:38:47] INFO root fetch - processPackages [odoo-addon-rma]: New version: [15.0.1.1.2.7] Old Version: [15.0.1.1.2.6]
+[2023-04-18 08:38:47] INFO root fetch - processPackages [scenariogeneration]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-04-18 08:38:47] INFO root fetch - processPackages [msaBase]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-18 08:38:47] INFO root fetch - processPackages [snaptrade-python-sdk]: New version: [9.0.0] Old Version: [8.4.0]
+[2023-04-18 08:38:47] INFO root fetch - processPackages [xj-user]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-04-18 08:38:47] INFO root fetch - processPackages [odoo12-addon-sale-backorder]: New version: [12.0.1.0.0.99.dev8] Old Version: [12.0.1.0.0.99.dev7]
+[2023-04-18 08:38:47] INFO root fetch - processPackages [griffon]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-18 08:38:47] INFO root fetch - processPackages [snaptrade-python-sdk]: executing diffoscope
+[2023-04-18 08:38:47] INFO root fetch - processPackages [snaptrade-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snaptrade-python-sdk-8.4.0.tar.gz tmp/snaptrade-python-sdk-9.0.0.tar.gz --markdown 20230418/s/snaptrade-python-sdk/8.4.0-9.0.0/diff.md --exclude *.pyd
+[2023-04-18 08:38:47] INFO root fetch - processPackages [scenariogeneration]: Downloading https://files.pythonhosted.org/packages/5b/97/272479d86c1fb39ae9f25422ae291c1a5426fd8f2578545ca045b947eb35/scenariogeneration-0.9.2.tar.gz
+[2023-04-18 08:38:47] INFO root fetch - processPackages [griffon]: executing diffoscope
+[2023-04-18 08:38:47] INFO root fetch - processPackages [griffon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griffon-0.1.8.tar.gz tmp/griffon-0.1.9.tar.gz --markdown 20230418/g/griffon/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-18 08:38:47] INFO root fetch - processPackages [odoo12-addon-sale-backorder]: Downloading https://files.pythonhosted.org/packages/19/55/31a3d0dd72ca4ea30be39ef67ef9076bea8234fe66663158f19dce2ab164/odoo12_addon_sale_backorder-12.0.1.0.0.99.dev7-py3-none-any.whl
+[2023-04-18 08:38:47] INFO root fetch - processPackages [msaBase]: executing diffoscope
+[2023-04-18 08:38:47] INFO root fetch - processPackages [msaBase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msaBase-0.0.8.tar.gz tmp/msaBase-0.0.9.tar.gz --markdown 20230418/m/msaBase/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-18 08:38:47] INFO root fetch - processPackages [odoo-addon-rma]: Downloading https://files.pythonhosted.org/packages/be/69/671962e8b7687007737670c775f729fc0fa0d35a3e0b724b2273497329a9/odoo_addon_rma-15.0.1.1.2.7-py3-none-any.whl
+[2023-04-18 08:38:47] INFO root fetch - processPackages [odoo14-addon-rma]: Downloading https://files.pythonhosted.org/packages/e8/a8/314d56459ac6ca1d0ac079ca527382542cb2df50fd2a081977cb2d4ecaa5/odoo14_addon_rma-14.0.3.2.6.dev6-py3-none-any.whl
+[2023-04-18 08:38:47] INFO root fetch - processPackages [xj-user]: executing diffoscope
+[2023-04-18 08:38:47] INFO root fetch - processPackages [xj-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_user-1.2.98.tar.gz tmp/xj_user-1.2.99.tar.gz --markdown 20230418/x/xj-user/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-04-18 08:38:47] INFO root fetch - processPackages [odoo14-addon-rma]: executing diffoscope
+[2023-04-18 08:38:47] INFO root fetch - processPackages [odoo14-addon-rma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_rma-14.0.3.2.6.dev5-py3-none-any.whl.zip tmp/odoo14_addon_rma-14.0.3.2.6.dev6-py3-none-any.whl.zip --markdown 20230418/o/odoo14-addon-rma/14.0.3.2.6.dev5-14.0.3.2.6.dev6/diff.md --exclude *.pyd
+[2023-04-18 08:38:47] INFO root fetch - processPackages [odoo-addon-rma]: executing diffoscope
+[2023-04-18 08:38:47] INFO root fetch - processPackages [odoo-addon-rma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_rma-15.0.1.1.2.6-py3-none-any.whl.zip tmp/odoo_addon_rma-15.0.1.1.2.7-py3-none-any.whl.zip --markdown 20230418/o/odoo-addon-rma/15.0.1.1.2.6-15.0.1.1.2.7/diff.md --exclude *.pyd
+[2023-04-18 08:38:48] INFO root fetch - processPackages [scenariogeneration]: Downloading https://files.pythonhosted.org/packages/0a/de/65b0ea40f2b370f99b2db18b1a8a83bb246791445448c8e281f65e7a8160/scenariogeneration-0.9.3.tar.gz
+[2023-04-18 08:38:48] INFO root fetch - processPackages [odoo12-addon-sale-backorder]: Downloading https://files.pythonhosted.org/packages/e2/31/5c5b6996b7fa6a8ab52fd959d2f17472deee37670cbfafc550c8eacc1920/odoo12_addon_sale_backorder-12.0.1.0.0.99.dev8-py3-none-any.whl
+[2023-04-18 08:38:48] INFO root fetch - processPackages [scenariogeneration]: executing diffoscope
+[2023-04-18 08:38:48] INFO root fetch - processPackages [scenariogeneration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scenariogeneration-0.9.2.tar.gz tmp/scenariogeneration-0.9.3.tar.gz --markdown 20230418/s/scenariogeneration/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-04-18 08:38:48] INFO root fetch - processPackages [odoo12-addon-sale-backorder]: executing diffoscope
+[2023-04-18 08:38:48] INFO root fetch - processPackages [odoo12-addon-sale-backorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_sale_backorder-12.0.1.0.0.99.dev7-py3-none-any.whl.zip tmp/odoo12_addon_sale_backorder-12.0.1.0.0.99.dev8-py3-none-any.whl.zip --markdown 20230418/o/odoo12-addon-sale-backorder/12.0.1.0.0.99.dev7-12.0.1.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-04-18 08:38:49] INFO root fetch - main [MainThread]: End processing [griffon]: success
+[2023-04-18 08:38:49] INFO root fetch - main [MainThread]: End processing [msaBase]: success
+[2023-04-18 08:38:49] INFO root fetch - main [MainThread]: End processing [xj-user]: success
+[2023-04-18 08:38:49] INFO root fetch - main [MainThread]: End processing [odoo12-addon-sale-backorder]: success
+[2023-04-18 08:38:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-rma]: success
+[2023-04-18 08:38:49] INFO root fetch - main [MainThread]: End processing [odoo14-addon-rma]: success
+[2023-04-18 08:38:51] INFO root fetch - main [MainThread]: End processing [scenariogeneration]: success
+[2023-04-18 08:38:55] INFO root fetch - main [MainThread]: End processing [snaptrade-python-sdk]: success
+[2023-04-18 08:38:55] INFO root fetch - main [MainThread]: Store serial: [17750685]
