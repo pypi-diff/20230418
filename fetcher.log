@@ -18944,3 +18944,36 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 100: invali
 [2023-04-18 13:28:04] INFO root fetch - main [MainThread]: End processing [auraboros]: success
 [2023-04-18 13:28:04] INFO root fetch - main [MainThread]: End processing [boxsdk]: success
 [2023-04-18 13:28:04] INFO root fetch - main [MainThread]: Store serial: [17754940]
+[2023-04-18 13:33:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17754940]
+[2023-04-18 13:33:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-18 13:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: th2-grpc-lw-data-provider
+[2023-04-18 13:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PRauto
+[2023-04-18 13:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: erscipcard
+[2023-04-18 13:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fabio
+[2023-04-18 13:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cc-py-commons
+[2023-04-18 13:33:13] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev4731797651]
+[2023-04-18 13:33:13] INFO root fetch - processPackages [PRauto]: New version: [0.111] Old Version: [0.11]
+[2023-04-18 13:33:13] INFO root fetch - processPackages [cc-py-commons]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-18 13:33:13] INFO root fetch - processPackages [erscipcard]: New version: [1.17.84] Old Version: [1.17.82]
+[2023-04-18 13:33:13] INFO root fetch - processPackages [fabio]: New version: [2023.4.1] Old Version: [2023.4.0]
+[2023-04-18 13:33:14] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/51/29/a85068a36ea55b9967c911ff93750d8509c11d4ef0513d397d9ef8cb8603/th2_grpc_lw_data_provider-2.0.0.dev4731797651.tar.gz
+[2023-04-18 13:33:14] INFO root fetch - processPackages [erscipcard]: Downloading https://files.pythonhosted.org/packages/31/ee/ebb0249630182d9939e24784e64983cd68395eecce202f10382edd0fc4ec/erscipcard-1.17.84.tar.gz
+[2023-04-18 13:33:14] INFO root fetch - processPackages [fabio]: Downloading https://files.pythonhosted.org/packages/63/6b/3b0c19b6e45e7e4796a1bf45d0d2d278306ae84f0cc6743e2e5e0074df28/fabio-2023.4.0.tar.gz
+[2023-04-18 13:33:14] INFO root fetch - processPackages [PRauto]: Downloading https://files.pythonhosted.org/packages/58/79/933443b79011e63c858315dd962fac10a0d8ea905beb7dc05ea027981b0a/PRauto-0.111.tar.gz
+[2023-04-18 13:33:14] INFO root fetch - processPackages [cc-py-commons]: executing diffoscope
+[2023-04-18 13:33:14] INFO root fetch - processPackages [cc-py-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc_py_commons-0.3.8.tar.gz tmp/cc_py_commons-0.3.9.tar.gz --markdown 20230418/c/cc-py-commons/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-18 13:33:14] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-04-18 13:33:14] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev4731797651.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230418/t/th2-grpc-lw-data-provider/2.0.0.dev4731797651-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-04-18 13:33:14] INFO root fetch - processPackages [erscipcard]: executing diffoscope
+[2023-04-18 13:33:14] INFO root fetch - processPackages [erscipcard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erscipcard-1.17.82.tar.gz tmp/erscipcard-1.17.84.tar.gz --markdown 20230418/e/erscipcard/1.17.82-1.17.84/diff.md --exclude *.pyd
+[2023-04-18 13:33:14] INFO root fetch - processPackages [PRauto]: executing diffoscope
+[2023-04-18 13:33:14] INFO root fetch - processPackages [PRauto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PRauto-0.11.tar.gz tmp/PRauto-0.111.tar.gz --markdown 20230418/P/PRauto/0.11-0.111/diff.md --exclude *.pyd
+[2023-04-18 13:33:14] INFO root fetch - processPackages [fabio]: Downloading https://files.pythonhosted.org/packages/15/ca/133a7a160a41401a54589c92cf10a052fa87cb5c92c2364c5ea2485c3176/fabio-2023.4.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-18 13:33:15] INFO root fetch - processPackages [fabio]: executing diffoscope
+[2023-04-18 13:33:15] INFO root fetch - processPackages [fabio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabio-2023.4.0.tar.gz tmp/fabio-2023.4.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230418/f/fabio/2023.4.0-2023.4.1/diff.md --exclude *.pyd
+[2023-04-18 13:33:15] INFO root fetch - main [MainThread]: End processing [cc-py-commons]: success
+[2023-04-18 13:33:15] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-04-18 13:33:15] INFO root fetch - main [MainThread]: End processing [PRauto]: success
+[2023-04-18 13:33:15] INFO root fetch - main [MainThread]: End processing [erscipcard]: success
+[2023-04-18 13:33:16] INFO root fetch - main [MainThread]: End processing [fabio]: success
+[2023-04-18 13:33:16] INFO root fetch - main [MainThread]: Store serial: [17754963]
