@@ -14046,3 +14046,55 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-18 09:55:30] INFO root fetch - main [MainThread]: End processing [nobuco]: success
 [2023-04-18 09:55:41] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-04-18 09:55:41] INFO root fetch - main [MainThread]: Store serial: [17751872]
+[2023-04-18 10:00:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17751872]
+[2023-04-18 10:00:49] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-18 10:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: multiversx-sdk-core
+[2023-04-18 10:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wodoo
+[2023-04-18 10:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rest-framework-redesign
+[2023-04-18 10:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qontract-reconcile
+[2023-04-18 10:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hymd
+[2023-04-18 10:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: planetmint
+[2023-04-18 10:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: robocorp-core
+[2023-04-18 10:00:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: discuit
+[2023-04-18 10:00:49] INFO root fetch - processPackages [rest-framework-redesign]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-18 10:00:49] INFO root fetch - processPackages [wodoo]: New version: [0.3.99] Old Version: [0.3.96]
+[2023-04-18 10:00:49] INFO root fetch - processPackages [robocorp-core]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-18 10:00:49] INFO root fetch - processPackages [multiversx-sdk-core]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-04-18 10:00:49] INFO root fetch - processPackages [discuit]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-18 10:00:49] INFO root fetch - processPackages [planetmint]: New version: [2.4.3] Old Version: [2.4.2]
+[2023-04-18 10:00:49] INFO root fetch - processPackages [hymd]: New version: [2.0.1] Old Version: [1.0.9]
+[2023-04-18 10:00:49] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-04-18 10:00:49] INFO root fetch - processPackages [wodoo]: executing diffoscope
+[2023-04-18 10:00:49] INFO root fetch - processPackages [wodoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wodoo-0.3.96.tar.gz tmp/wodoo-0.3.99.tar.gz --markdown 20230418/w/wodoo/0.3.96-0.3.99/diff.md --exclude *.pyd
+[2023-04-18 10:00:50] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-04-18 10:00:50] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230418/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-04-18 10:00:50] INFO root fetch - processPackages [hymd]: Downloading https://files.pythonhosted.org/packages/94/a3/5c47ec77843d8fc3af2ab436d962ccf3f007f55a69790787a2f5c9eb21bc/hymd-1.0.9.tar.gz
+[2023-04-18 10:00:50] INFO root fetch - processPackages [robocorp-core]: Downloading https://files.pythonhosted.org/packages/85/c2/03651bfda9de5894e4b7d93f6c24308a439e6fa4f498ee8409e4875c25b7/robocorp_core-0.1.2.tar.gz
+[2023-04-18 10:00:50] INFO root fetch - processPackages [rest-framework-redesign]: Downloading https://files.pythonhosted.org/packages/6d/9b/a9c87fd0e8e183acd85da744668da423bcd3c0081e77cf00b736101973e5/rest_framework_redesign-0.1.3.tar.gz
+[2023-04-18 10:00:50] INFO root fetch - processPackages [discuit]: Downloading https://files.pythonhosted.org/packages/f7/34/078ae91cb2415c79c021a8cb3c2238579b109d5281d2386719b178422cc4/discuit-0.2.1.tar.gz
+[2023-04-18 10:00:50] INFO root fetch - processPackages [multiversx-sdk-core]: Downloading https://files.pythonhosted.org/packages/87/d3/cef4abd0975fd279ed76b0c4774013d26892c11ff669ac0ce20e2d4d887c/multiversx_sdk_core-0.4.1.tar.gz
+[2023-04-18 10:00:50] INFO root fetch - processPackages [planetmint]: Downloading https://files.pythonhosted.org/packages/9c/5a/55ca8574756a2cb11f6795c5ca473d9a08f5bc465b58f2c4871af67a7e95/planetmint-2.4.3.tar.gz
+[2023-04-18 10:00:50] INFO root fetch - processPackages [rest-framework-redesign]: executing diffoscope
+[2023-04-18 10:00:50] INFO root fetch - processPackages [rest-framework-redesign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rest_framework_redesign-0.1.2.tar.gz tmp/rest_framework_redesign-0.1.3.tar.gz --markdown 20230418/r/rest-framework-redesign/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-18 10:00:50] INFO root fetch - processPackages [discuit]: executing diffoscope
+[2023-04-18 10:00:50] INFO root fetch - processPackages [discuit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discuit-0.2.0.tar.gz tmp/discuit-0.2.1.tar.gz --markdown 20230418/d/discuit/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-18 10:00:50] INFO root fetch - processPackages [robocorp-core]: Downloading https://files.pythonhosted.org/packages/90/56/d437856a03ec3f0c7bcc240d262d74c8532ef129a6620593dde773e6f6ad/robocorp_core-0.1.3.tar.gz
+[2023-04-18 10:00:50] INFO root fetch - processPackages [multiversx-sdk-core]: Downloading https://files.pythonhosted.org/packages/57/b1/d9e96864c64d2558ed844ae80a3c3bf5c266742ac05fec5707bbe0d56a43/multiversx_sdk_core-0.4.2.tar.gz
+[2023-04-18 10:00:50] INFO root fetch - processPackages [planetmint]: executing diffoscope
+[2023-04-18 10:00:50] INFO root fetch - processPackages [planetmint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planetmint-2.4.2.tar.gz tmp/planetmint-2.4.3.tar.gz --markdown 20230418/p/planetmint/2.4.2-2.4.3/diff.md --exclude *.pyd
+[2023-04-18 10:00:50] INFO root fetch - processPackages [hymd]: Downloading https://files.pythonhosted.org/packages/95/ee/5261f7a491b900159c0ed1cc5fc9d5f2cf7590c3b24aa26111c07103906f/hymd-2.0.1.tar.gz
+[2023-04-18 10:00:50] INFO root fetch - processPackages [hymd]: executing diffoscope
+[2023-04-18 10:00:50] INFO root fetch - processPackages [hymd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hymd-1.0.9.tar.gz tmp/hymd-2.0.1.tar.gz --markdown 20230418/h/hymd/1.0.9-2.0.1/diff.md --exclude *.pyd
+[2023-04-18 10:00:50] INFO root fetch - processPackages [robocorp-core]: executing diffoscope
+[2023-04-18 10:00:50] INFO root fetch - processPackages [robocorp-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robocorp_core-0.1.2.tar.gz tmp/robocorp_core-0.1.3.tar.gz --markdown 20230418/r/robocorp-core/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-18 10:00:50] INFO root fetch - processPackages [multiversx-sdk-core]: executing diffoscope
+[2023-04-18 10:00:50] INFO root fetch - processPackages [multiversx-sdk-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiversx_sdk_core-0.4.1.tar.gz tmp/multiversx_sdk_core-0.4.2.tar.gz --markdown 20230418/m/multiversx-sdk-core/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-04-18 10:00:51] INFO root fetch - main [MainThread]: End processing [discuit]: success
+[2023-04-18 10:00:51] INFO root fetch - main [MainThread]: End processing [wodoo]: success
+[2023-04-18 10:00:51] INFO root fetch - main [MainThread]: End processing [rest-framework-redesign]: success
+[2023-04-18 10:00:51] INFO root fetch - main [MainThread]: End processing [robocorp-core]: success
+[2023-04-18 10:00:52] INFO root fetch - main [MainThread]: End processing [planetmint]: success
+[2023-04-18 10:00:52] INFO root fetch - main [MainThread]: End processing [multiversx-sdk-core]: success
+[2023-04-18 10:00:53] INFO root fetch - main [MainThread]: End processing [hymd]: success
+[2023-04-18 10:00:56] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-04-18 10:00:56] INFO root fetch - main [MainThread]: Store serial: [17751894]
