@@ -17177,3 +17177,70 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 100: invali
 [2023-04-18 11:49:05] INFO root fetch - main [MainThread]: End processing [CTADIRAC]: success
 [2023-04-18 11:49:42] INFO root fetch - main [MainThread]: End processing [fastbt]: success
 [2023-04-18 11:49:42] INFO root fetch - main [MainThread]: Store serial: [17753818]
+[2023-04-18 11:54:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17753818]
+[2023-04-18 11:54:51] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-18 11:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: foxes
+[2023-04-18 11:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xplt
+[2023-04-18 11:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mercurial
+[2023-04-18 11:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: liblxml3
+[2023-04-18 11:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: instagrapi
+[2023-04-18 11:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qiskit-iqm
+[2023-04-18 11:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: imscript
+[2023-04-18 11:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pysqream-blue
+[2023-04-18 11:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: investor8-sdk
+[2023-04-18 11:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ariadne-codegen
+[2023-04-18 11:54:51] INFO root fetch - processPackages [foxes]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-04-18 11:54:51] INFO root fetch - processPackages [xplt]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-18 11:54:51] INFO root fetch - processPackages [imscript]: New version: [0.3] Old Version: [0.2]
+[2023-04-18 11:54:51] INFO root fetch - processPackages [ariadne-codegen]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-04-18 11:54:51] INFO root fetch - processPackages [liblxml3]: New version: [2.6] Old Version: [2.5]
+[2023-04-18 11:54:51] INFO root fetch - processPackages [pysqream-blue]: New version: [1.0.3] Old Version: [1.0.26]
+[2023-04-18 11:54:51] INFO root fetch - processPackages [qiskit-iqm]: New version: [7.9] Old Version: [7.8]
+[2023-04-18 11:54:51] INFO root fetch - processPackages [instagrapi]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-18 11:54:51] INFO root fetch - processPackages [investor8-sdk]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-18 11:54:51] INFO root fetch - processPackages [mercurial]: New version: [6.4rc0] Old Version: [6.4.2]
+[2023-04-18 11:54:51] INFO root fetch - processPackages [foxes]: Downloading https://files.pythonhosted.org/packages/68/54/8958062053f9f8edeb8b6a9f98b8348c0619c4408fa2d681581f9efdea57/foxes-0.3.3.tar.gz
+[2023-04-18 11:54:51] INFO root fetch - processPackages [qiskit-iqm]: executing diffoscope
+[2023-04-18 11:54:51] INFO root fetch - processPackages [qiskit-iqm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit-iqm-7.8.tar.gz tmp/qiskit-iqm-7.9.tar.gz --markdown 20230418/q/qiskit-iqm/7.8-7.9/diff.md --exclude *.pyd
+[2023-04-18 11:54:51] INFO root fetch - processPackages [pysqream-blue]: Downloading https://files.pythonhosted.org/packages/99/af/61751f93a4a5f81a0fa74d8a986add82e5a833410f255c8126917bf2f025/pysqream-blue-1.0.26.tar.gz
+[2023-04-18 11:54:51] INFO root fetch - processPackages [mercurial]: Downloading https://files.pythonhosted.org/packages/b7/70/bf6566c68773adb5e51aa6dce22f973e918653ccf367b45e70049bf3fba6/mercurial-6.4.2.tar.gz
+[2023-04-18 11:54:51] INFO root fetch - processPackages [xplt]: Downloading https://files.pythonhosted.org/packages/f4/8c/4ca835a6033152c15582484bf0a49b0a58011934c686b9012f35c91bc789/xplt-0.4.0.tar.gz
+[2023-04-18 11:54:51] INFO root fetch - processPackages [liblxml3]: Downloading https://files.pythonhosted.org/packages/47/dc/cee6d735c13b928439ef5586a546e529a0d00430f03a5a144d3ea69e7515/liblxml3-2.6.tar.gz
+[2023-04-18 11:54:51] INFO root fetch - processPackages [instagrapi]: Downloading https://files.pythonhosted.org/packages/76/d7/2e3379f2e2033e99f5743565c35eea3290a0d8c64d972b61d72a5f58d114/instagrapi-1.9.8.tar.gz
+[2023-04-18 11:54:51] INFO root fetch - processPackages [ariadne-codegen]: Downloading https://files.pythonhosted.org/packages/71/61/bcf0dcd70c10d121b0b515b3cae5aa74e49538645a4a67db311de0e4d1e8/ariadne_codegen-0.5.0.tar.gz
+[2023-04-18 11:54:51] INFO root fetch - processPackages [imscript]: Downloading https://files.pythonhosted.org/packages/af/95/fe2cd966c0ce968f4ca0459071d38d99835420e528b417dd926b800de883/imscript-0.3.tar.gz
+[2023-04-18 11:54:51] INFO root fetch - processPackages [liblxml3]: executing diffoscope
+[2023-04-18 11:54:51] INFO root fetch - processPackages [liblxml3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liblxml3-2.5.tar.gz tmp/liblxml3-2.6.tar.gz --markdown 20230418/l/liblxml3/2.5-2.6/diff.md --exclude *.pyd
+[2023-04-18 11:54:51] INFO root fetch - processPackages [investor8-sdk]: executing diffoscope
+[2023-04-18 11:54:51] INFO root fetch - processPackages [investor8-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/investor8-sdk-1.1.8.tar.gz tmp/investor8-sdk-1.1.9.tar.gz --markdown 20230418/i/investor8-sdk/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-18 11:54:51] INFO root fetch - processPackages [foxes]: Downloading https://files.pythonhosted.org/packages/a4/6e/e151fc7ad930c5d6f7a6a982e6ac2c16e082488694fb5017ab569c8a0f0c/foxes-0.3.4.tar.gz
+[2023-04-18 11:54:51] INFO root fetch - processPackages [ariadne-codegen]: Downloading https://files.pythonhosted.org/packages/bd/c0/e00d00ae411fa54ea7a250efe63672ccd9be5e092bb189d3f4a4b28ac7e2/ariadne_codegen-0.6.0.tar.gz
+[2023-04-18 11:54:52] INFO root fetch - processPackages [imscript]: executing diffoscope
+[2023-04-18 11:54:52] INFO root fetch - processPackages [imscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imscript-0.2.tar.gz tmp/imscript-0.3.tar.gz --markdown 20230418/i/imscript/0.2-0.3/diff.md --exclude *.pyd
+[2023-04-18 11:54:52] INFO root fetch - processPackages [pysqream-blue]: Downloading https://files.pythonhosted.org/packages/07/8a/1682c765da1564d49da4144b4c5ce03bac1d60c0379d33a352c682c9ab4c/pysqream-blue-1.0.3.tar.gz
+[2023-04-18 11:54:52] INFO root fetch - processPackages [instagrapi]: Downloading https://files.pythonhosted.org/packages/1a/d8/c991a85c48ec7f9c0e137bdaebffcfe17e3a14ceb51fbce4a4e3742df665/instagrapi-1.9.9.tar.gz
+[2023-04-18 11:54:52] INFO root fetch - processPackages [ariadne-codegen]: executing diffoscope
+[2023-04-18 11:54:52] INFO root fetch - processPackages [ariadne-codegen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ariadne_codegen-0.5.0.tar.gz tmp/ariadne_codegen-0.6.0.tar.gz --markdown 20230418/a/ariadne-codegen/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-04-18 11:54:52] INFO root fetch - processPackages [foxes]: executing diffoscope
+[2023-04-18 11:54:52] INFO root fetch - processPackages [foxes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foxes-0.3.3.tar.gz tmp/foxes-0.3.4.tar.gz --markdown 20230418/f/foxes/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-04-18 11:54:52] INFO root fetch - processPackages [pysqream-blue]: executing diffoscope
+[2023-04-18 11:54:52] INFO root fetch - processPackages [pysqream-blue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysqream-blue-1.0.26.tar.gz tmp/pysqream-blue-1.0.3.tar.gz --markdown 20230418/p/pysqream-blue/1.0.26-1.0.3/diff.md --exclude *.pyd
+[2023-04-18 11:54:52] INFO root fetch - processPackages [instagrapi]: executing diffoscope
+[2023-04-18 11:54:52] INFO root fetch - processPackages [instagrapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instagrapi-1.9.8.tar.gz tmp/instagrapi-1.9.9.tar.gz --markdown 20230418/i/instagrapi/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-18 11:54:52] INFO root fetch - processPackages [mercurial]: Downloading https://files.pythonhosted.org/packages/45/70/5868446eae400fb15aedb993cc232fab244cb976c86426a854d371c1010f/mercurial-6.4rc0.tar.gz
+[2023-04-18 11:54:52] INFO root fetch - processPackages [xplt]: Downloading https://files.pythonhosted.org/packages/eb/f6/34466e7713f8b20647a175bbd47108560be1d43aff648b3cb5ff5faca55d/xplt-0.4.1.tar.gz
+[2023-04-18 11:54:53] INFO root fetch - main [MainThread]: End processing [imscript]: success
+[2023-04-18 11:54:53] INFO root fetch - main [MainThread]: End processing [ariadne-codegen]: success
+[2023-04-18 11:54:53] INFO root fetch - main [MainThread]: End processing [pysqream-blue]: success
+[2023-04-18 11:54:53] INFO root fetch - processPackages [xplt]: executing diffoscope
+[2023-04-18 11:54:53] INFO root fetch - processPackages [xplt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xplt-0.4.0.tar.gz tmp/xplt-0.4.1.tar.gz --markdown 20230418/x/xplt/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-18 11:54:54] INFO root fetch - main [MainThread]: End processing [qiskit-iqm]: success
+[2023-04-18 11:54:54] INFO root fetch - main [MainThread]: End processing [foxes]: success
+[2023-04-18 11:54:54] INFO root fetch - processPackages [mercurial]: executing diffoscope
+[2023-04-18 11:54:54] INFO root fetch - processPackages [mercurial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercurial-6.4.2.tar.gz tmp/mercurial-6.4rc0.tar.gz --markdown 20230418/m/mercurial/6.4.2-6.4rc0/diff.md --exclude *.pyd
+[2023-04-18 11:54:55] INFO root fetch - main [MainThread]: End processing [instagrapi]: success
+[2023-04-18 11:54:55] INFO root fetch - main [MainThread]: End processing [xplt]: success
+[2023-04-18 11:54:55] INFO root fetch - main [MainThread]: End processing [liblxml3]: success
+[2023-04-18 11:54:58] INFO root fetch - main [MainThread]: End processing [investor8-sdk]: success
+[2023-04-18 11:55:54] INFO root fetch - main [MainThread]: End processing [mercurial]: success
+[2023-04-18 11:55:54] INFO root fetch - main [MainThread]: Store serial: [17753844]
