@@ -12332,3 +12332,70 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 08:54:50] INFO root fetch - main [MainThread]: End processing [cameralyze]: success
 [2023-04-18 08:54:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-user-role]: success
 [2023-04-18 08:54:51] INFO root fetch - main [MainThread]: Store serial: [17750878]
+[2023-04-18 08:59:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17750878]
+[2023-04-18 09:00:01] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-18 09:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yoctopuce
+[2023-04-18 09:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: calculation-mapilio
+[2023-04-18 09:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: liblxml3
+[2023-04-18 09:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: analyser-hj3415
+[2023-04-18 09:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyE2
+[2023-04-18 09:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: st-common-data
+[2023-04-18 09:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: klarna-orders
+[2023-04-18 09:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: labelu
+[2023-04-18 09:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: arm-gdb
+[2023-04-18 09:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xh-py-project-versioning
+[2023-04-18 09:00:01] INFO root fetch - processPackages [yoctopuce]: New version: [1.10.54070] Old Version: [1.10.54037]
+[2023-04-18 09:00:01] INFO root fetch - processPackages [PyE2]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-04-18 09:00:01] INFO root fetch - processPackages [analyser-hj3415]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-04-18 09:00:01] INFO root fetch - processPackages [calculation-mapilio]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-18 09:00:01] INFO root fetch - processPackages [liblxml3]: New version: [1.7] Old Version: [1.6]
+[2023-04-18 09:00:01] INFO root fetch - processPackages [klarna-orders]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-04-18 09:00:01] INFO root fetch - processPackages [st-common-data]: New version: [0.2.6.1] Old Version: [0.2.6.0]
+[2023-04-18 09:00:01] INFO root fetch - processPackages [xh-py-project-versioning]: New version: [0.0.2] Old Version: [0.0.0]
+[2023-04-18 09:00:01] INFO root fetch - processPackages [labelu]: New version: [0.5.5] Old Version: [0.5.4.2]
+[2023-04-18 09:00:01] INFO root fetch - processPackages [arm-gdb]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-04-18 09:00:01] INFO root fetch - processPackages [klarna-orders]: executing diffoscope
+[2023-04-18 09:00:01] INFO root fetch - processPackages [klarna-orders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klarna-orders-1.1.0.tar.gz tmp/klarna-orders-1.1.1.tar.gz --markdown 20230418/k/klarna-orders/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-04-18 09:00:01] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/a8/c0/0d9c13c6a4a4cab6cc97b3fe026be813d3ab737ead46358c87729e227825/pye2-0.3.5.tar.gz
+[2023-04-18 09:00:01] INFO root fetch - processPackages [yoctopuce]: Downloading https://files.pythonhosted.org/packages/10/a1/3957be2753d38f42ce92a3dc4f5eae3b4edf515f0e0895868a061d203a9f/yoctopuce-1.10.54037.tar.gz
+[2023-04-18 09:00:01] INFO root fetch - processPackages [liblxml3]: Downloading https://files.pythonhosted.org/packages/47/aa/2d3de8cb7341feb430057ebf76b47654f877fafea5674b3ffe0d544b9c12/liblxml3-1.7.tar.gz
+[2023-04-18 09:00:01] INFO root fetch - processPackages [labelu]: Downloading https://files.pythonhosted.org/packages/3f/a5/b448ba1d1fca30b523e08f3c7d577566836caabe915a03a1a6b647d3cbc4/labelu-0.5.4.2.tar.gz
+[2023-04-18 09:00:01] INFO root fetch - processPackages [calculation-mapilio]: Downloading https://files.pythonhosted.org/packages/5d/dc/767f2a4739bdd2e6ccaf4255b3302f2f92959929e61f93590ff2d8eb1d0c/calculation_mapilio-0.1.8.tar.gz
+[2023-04-18 09:00:01] INFO root fetch - processPackages [xh-py-project-versioning]: Downloading https://files.pythonhosted.org/packages/dc/9f/51ef2ab6a2058a2a432640e3ecf43559a6d84496cf0ba4bb768514fff258/xh-py-project-versioning-0.0.0.tar.gz
+[2023-04-18 09:00:01] INFO root fetch - processPackages [analyser-hj3415]: Downloading https://files.pythonhosted.org/packages/bd/36/cf23204221e6a9c229a0bdcba3eb95d89bfeac3f6baf1e49cfda17aa576a/analyser_hj3415-0.5.0.tar.gz
+[2023-04-18 09:00:01] INFO root fetch - processPackages [arm-gdb]: Downloading https://files.pythonhosted.org/packages/16/84/05e012e1d7212716c9dc2f975ec6a551e05b00e3e749901b55fc0724aa07/arm-gdb-0.9.6.tar.gz
+[2023-04-18 09:00:01] INFO root fetch - processPackages [st-common-data]: Downloading https://files.pythonhosted.org/packages/6c/2e/aeecd43286b75ead1fdcdd0eb6c33e0c70fc71272dd570f55434177cbdd2/st_common_data-0.2.6.0.tar.gz
+[2023-04-18 09:00:01] WARNING root fetch - processPackages [analyser-hj3415]: Skipping package: exceeds size limit 39827651>=10485760
+[2023-04-18 09:00:01] INFO root fetch - main [MainThread]: End processing [analyser-hj3415] error
+[2023-04-18 09:00:01] INFO root fetch - processPackages [PyE2]: executing diffoscope
+[2023-04-18 09:00:01] INFO root fetch - processPackages [PyE2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pye2-0.3.4.tar.gz tmp/pye2-0.3.5.tar.gz --markdown 20230418/P/PyE2/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-04-18 09:00:01] INFO root fetch - processPackages [liblxml3]: executing diffoscope
+[2023-04-18 09:00:01] INFO root fetch - processPackages [liblxml3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liblxml3-1.6.tar.gz tmp/liblxml3-1.7.tar.gz --markdown 20230418/l/liblxml3/1.6-1.7/diff.md --exclude *.pyd
+[2023-04-18 09:00:01] INFO root fetch - processPackages [st-common-data]: Downloading https://files.pythonhosted.org/packages/b3/e6/48020175705cfda63acf79feb0dafa02dee99041f8c4458099c97b34c820/st_common_data-0.2.6.1.tar.gz
+[2023-04-18 09:00:01] INFO root fetch - processPackages [xh-py-project-versioning]: Downloading https://files.pythonhosted.org/packages/10/66/4a7f5bb00381889f5e94483f5d771f1700f9d5c2bff8e7d7084c6250085f/xh-py-project-versioning-0.0.2.tar.gz
+[2023-04-18 09:00:01] INFO root fetch - processPackages [yoctopuce]: Downloading https://files.pythonhosted.org/packages/2e/61/f61139cc7e3cd75254acb8386e6670e108ca7201054d6b37ce913620ba81/yoctopuce-1.10.54070.tar.gz
+[2023-04-18 09:00:01] INFO root fetch - processPackages [arm-gdb]: Downloading https://files.pythonhosted.org/packages/c4/f3/bac4f02e8280b0502c570e95aa948a700ca78a4ce207867a4b9c39519152/arm-gdb-0.9.7.tar.gz
+[2023-04-18 09:00:01] INFO root fetch - processPackages [st-common-data]: executing diffoscope
+[2023-04-18 09:00:01] INFO root fetch - processPackages [st-common-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_common_data-0.2.6.0.tar.gz tmp/st_common_data-0.2.6.1.tar.gz --markdown 20230418/s/st-common-data/0.2.6.0-0.2.6.1/diff.md --exclude *.pyd
+[2023-04-18 09:00:01] INFO root fetch - processPackages [calculation-mapilio]: Downloading https://files.pythonhosted.org/packages/77/48/2234884414281ddbc2ed27b9e3b14a6d40610e0073a020758b7077d6ecb5/calculation_mapilio-0.1.9.tar.gz
+[2023-04-18 09:00:01] INFO root fetch - processPackages [xh-py-project-versioning]: executing diffoscope
+[2023-04-18 09:00:01] INFO root fetch - processPackages [xh-py-project-versioning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xh-py-project-versioning-0.0.0.tar.gz tmp/xh-py-project-versioning-0.0.2.tar.gz --markdown 20230418/x/xh-py-project-versioning/0.0.0-0.0.2/diff.md --exclude *.pyd
+[2023-04-18 09:00:01] INFO root fetch - processPackages [arm-gdb]: executing diffoscope
+[2023-04-18 09:00:01] INFO root fetch - processPackages [arm-gdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arm-gdb-0.9.6.tar.gz tmp/arm-gdb-0.9.7.tar.gz --markdown 20230418/a/arm-gdb/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-04-18 09:00:02] INFO root fetch - processPackages [calculation-mapilio]: executing diffoscope
+[2023-04-18 09:00:02] INFO root fetch - processPackages [calculation-mapilio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calculation_mapilio-0.1.8.tar.gz tmp/calculation_mapilio-0.1.9.tar.gz --markdown 20230418/c/calculation-mapilio/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-18 09:00:02] INFO root fetch - processPackages [yoctopuce]: executing diffoscope
+[2023-04-18 09:00:02] INFO root fetch - processPackages [yoctopuce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoctopuce-1.10.54037.tar.gz tmp/yoctopuce-1.10.54070.tar.gz --markdown 20230418/y/yoctopuce/1.10.54037-1.10.54070/diff.md --exclude *.pyd
+[2023-04-18 09:00:02] INFO root fetch - processPackages [labelu]: Downloading https://files.pythonhosted.org/packages/df/4c/8b5eebd03f5b63ca1b3ce2c809cbab336dc1bc04a3bb035edd1fd64465dd/labelu-0.5.5.tar.gz
+[2023-04-18 09:00:02] INFO root fetch - main [MainThread]: End processing [klarna-orders]: success
+[2023-04-18 09:00:03] INFO root fetch - main [MainThread]: End processing [PyE2]: success
+[2023-04-18 09:00:03] INFO root fetch - main [MainThread]: End processing [st-common-data]: success
+[2023-04-18 09:00:03] INFO root fetch - processPackages [labelu]: executing diffoscope
+[2023-04-18 09:00:03] INFO root fetch - processPackages [labelu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labelu-0.5.4.2.tar.gz tmp/labelu-0.5.5.tar.gz --markdown 20230418/l/labelu/0.5.4.2-0.5.5/diff.md --exclude *.pyd
+[2023-04-18 09:00:03] INFO root fetch - main [MainThread]: End processing [xh-py-project-versioning]: success
+[2023-04-18 09:00:03] INFO root fetch - main [MainThread]: End processing [arm-gdb]: success
+[2023-04-18 09:00:03] INFO root fetch - main [MainThread]: End processing [calculation-mapilio]: success
+[2023-04-18 09:00:04] INFO root fetch - main [MainThread]: End processing [liblxml3]: success
+[2023-04-18 09:00:32] INFO root fetch - main [MainThread]: End processing [labelu]: success
+[2023-04-18 09:00:38] INFO root fetch - main [MainThread]: End processing [yoctopuce]: success
+[2023-04-18 09:00:38] INFO root fetch - main [MainThread]: Store serial: [17750906]
