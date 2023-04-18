@@ -16623,3 +16623,62 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 100: invali
 [2023-04-18 11:22:46] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
 [2023-04-18 11:22:46] INFO root fetch - main [MainThread]: End processing [cellmap]: success
 [2023-04-18 11:22:46] INFO root fetch - main [MainThread]: Store serial: [17753451]
+[2023-04-18 11:27:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17753451]
+[2023-04-18 11:27:55] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-18 11:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pdal-parallelizer
+[2023-04-18 11:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-histories
+[2023-04-18 11:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: test-melih-mely
+[2023-04-18 11:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flask-url-shortener
+[2023-04-18 11:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: generic-crawler-sdk
+[2023-04-18 11:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cs-nds
+[2023-04-18 11:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nanoprep-ffm
+[2023-04-18 11:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: minder-downloader
+[2023-04-18 11:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: musical-notes
+[2023-04-18 11:27:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: waterpybal
+[2023-04-18 11:27:55] WARNING root fetch - processPackages [test-melih-mely]: Skipping, unable to determine old version
+[2023-04-18 11:27:55] INFO root fetch - processPackages [test-melih-mely]: Start processing: gov-uk-dashboards
+[2023-04-18 11:27:55] INFO root fetch - main [MainThread]: End processing [test-melih-mely] error
+[2023-04-18 11:27:55] INFO root fetch - processPackages [django-histories]: New version: [1.0.1] Old Version: [1]
+[2023-04-18 11:27:55] WARNING root fetch - processPackages [flask-url-shortener]: Skipping, unable to determine old version
+[2023-04-18 11:27:55] INFO root fetch - main [MainThread]: End processing [flask-url-shortener] error
+[2023-04-18 11:27:55] INFO root fetch - processPackages [pdal-parallelizer]: New version: [2.1.0] Old Version: [2.0.3]
+[2023-04-18 11:27:55] INFO root fetch - processPackages [minder-downloader]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-04-18 11:27:55] INFO root fetch - processPackages [nanoprep-ffm]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-18 11:27:55] INFO root fetch - processPackages [generic-crawler-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-18 11:27:55] INFO root fetch - processPackages [minder-downloader]: executing diffoscope
+[2023-04-18 11:27:55] INFO root fetch - processPackages [minder-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minder_downloader-0.1.6.tar.gz tmp/minder_downloader-0.1.7.tar.gz --markdown 20230418/m/minder-downloader/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-04-18 11:27:55] INFO root fetch - processPackages [nanoprep-ffm]: executing diffoscope
+[2023-04-18 11:27:55] INFO root fetch - processPackages [nanoprep-ffm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanoprep_ffm-0.0.5-py3-none-any.whl.zip tmp/nanoprep_ffm-0.0.6-py3-none-any.whl.zip --markdown 20230418/n/nanoprep-ffm/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-18 11:27:55] INFO root fetch - processPackages [cs-nds]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-18 11:27:55] WARNING root fetch - processPackages [waterpybal]: Skipping, unable to determine old version
+[2023-04-18 11:27:55] INFO root fetch - main [MainThread]: End processing [waterpybal] error
+[2023-04-18 11:27:55] WARNING root fetch - processPackages [musical-notes]: Skipping, unable to determine old version
+[2023-04-18 11:27:55] INFO root fetch - main [MainThread]: End processing [musical-notes] error
+[2023-04-18 11:27:55] INFO root fetch - processPackages [gov-uk-dashboards]: New version: [9.2.0] Old Version: [9.1.1]
+[2023-04-18 11:27:55] INFO root fetch - processPackages [django-histories]: Downloading https://files.pythonhosted.org/packages/f6/0b/ea143d45e500cdff53652fa1a7a64ea21aa9cae32115d27ba9b870865e8f/django_histories-1.tar.gz
+[2023-04-18 11:27:55] INFO root fetch - processPackages [generic-crawler-sdk]: Downloading https://files.pythonhosted.org/packages/ee/01/59afa4ae0d8300adeef312efa4f4e73df58597db08320c04807e5973db4f/generic-crawler-sdk-0.1.8.tar.gz
+[2023-04-18 11:27:55] INFO root fetch - processPackages [pdal-parallelizer]: Downloading https://files.pythonhosted.org/packages/79/10/3a4fe60c1f2a90b8d6871663000a8750929293f2adcdbf76c8b2a551e6b1/pdal-parallelizer-2.0.3.tar.gz
+[2023-04-18 11:27:55] INFO root fetch - processPackages [cs-nds]: Downloading https://files.pythonhosted.org/packages/7a/7b/0fd68778e8d848bc860891d3615b6a30bcb658e0154610f6347d2c638ded/cs-nds-0.2.0.tar.gz
+[2023-04-18 11:27:55] INFO root fetch - processPackages [pdal-parallelizer]: Downloading https://files.pythonhosted.org/packages/08/d5/9d6376a44394296c0c5979015cbf8e002634e70096c48c13d3e2f5ffb53f/pdal-parallelizer-2.1.0.tar.gz
+[2023-04-18 11:27:55] INFO root fetch - processPackages [generic-crawler-sdk]: Downloading https://files.pythonhosted.org/packages/75/94/220417a54e37b8848ec1b8a4ebbd5a15f6f7742b2bfd8c173e2bf8314a3a/generic-crawler-sdk-0.1.9.tar.gz
+[2023-04-18 11:27:55] INFO root fetch - processPackages [django-histories]: Downloading https://files.pythonhosted.org/packages/bc/02/431a986024cc2503f4f257bef6615387a3c6cd5bf26cdadc17b7682f4465/django_histories-1.0.1-py3-none-any.whl
+[2023-04-18 11:27:56] INFO root fetch - processPackages [gov-uk-dashboards]: Downloading https://files.pythonhosted.org/packages/a9/ea/159453a6548e6e3195810fb15987b314d7453861cd19b245ee9e67f52bc6/gov_uk_dashboards-9.2.0.tar.gz
+[2023-04-18 11:27:56] INFO root fetch - processPackages [cs-nds]: Downloading https://files.pythonhosted.org/packages/e9/a9/1c87cf17e523ccab2d30f074d956d49dd5853670bce80d4dc95d8ae6c4eb/cs-nds-0.3.0.tar.gz
+[2023-04-18 11:27:56] INFO root fetch - processPackages [pdal-parallelizer]: executing diffoscope
+[2023-04-18 11:27:56] INFO root fetch - processPackages [pdal-parallelizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdal-parallelizer-2.0.3.tar.gz tmp/pdal-parallelizer-2.1.0.tar.gz --markdown 20230418/p/pdal-parallelizer/2.0.3-2.1.0/diff.md --exclude *.pyd
+[2023-04-18 11:27:56] INFO root fetch - processPackages [generic-crawler-sdk]: executing diffoscope
+[2023-04-18 11:27:56] INFO root fetch - processPackages [generic-crawler-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/generic-crawler-sdk-0.1.8.tar.gz tmp/generic-crawler-sdk-0.1.9.tar.gz --markdown 20230418/g/generic-crawler-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-18 11:27:56] INFO root fetch - processPackages [django-histories]: executing diffoscope
+[2023-04-18 11:27:56] INFO root fetch - processPackages [django-histories]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_histories-1.tar.gz tmp/django_histories-1.0.1-py3-none-any.whl.zip --markdown 20230418/d/django-histories/1-1.0.1/diff.md --exclude *.pyd
+[2023-04-18 11:27:56] INFO root fetch - processPackages [cs-nds]: executing diffoscope
+[2023-04-18 11:27:56] INFO root fetch - processPackages [cs-nds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs-nds-0.2.0.tar.gz tmp/cs-nds-0.3.0.tar.gz --markdown 20230418/c/cs-nds/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-18 11:27:56] INFO root fetch - processPackages [gov-uk-dashboards]: executing diffoscope
+[2023-04-18 11:27:56] INFO root fetch - processPackages [gov-uk-dashboards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gov_uk_dashboards-9.1.1.tar.gz tmp/gov_uk_dashboards-9.2.0.tar.gz --markdown 20230418/g/gov-uk-dashboards/9.1.1-9.2.0/diff.md --exclude *.pyd
+[2023-04-18 11:27:56] INFO root fetch - main [MainThread]: End processing [minder-downloader]: success
+[2023-04-18 11:27:56] INFO root fetch - main [MainThread]: End processing [nanoprep-ffm]: success
+[2023-04-18 11:27:57] INFO root fetch - main [MainThread]: End processing [generic-crawler-sdk]: success
+[2023-04-18 11:27:57] INFO root fetch - main [MainThread]: End processing [cs-nds]: success
+[2023-04-18 11:27:57] INFO root fetch - main [MainThread]: End processing [django-histories]: success
+[2023-04-18 11:27:57] INFO root fetch - main [MainThread]: End processing [pdal-parallelizer]: success
+[2023-04-18 11:27:58] INFO root fetch - main [MainThread]: End processing [gov-uk-dashboards]: success
+[2023-04-18 11:27:58] INFO root fetch - main [MainThread]: Store serial: [17753486]
