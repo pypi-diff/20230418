@@ -12078,3 +12078,110 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 08:44:08] INFO root fetch - main [MainThread]: End processing [odoo13-addon-sale-order-line-description]: success
 [2023-04-18 08:44:10] INFO root fetch - main [MainThread]: End processing [ethome-ml]: success
 [2023-04-18 08:44:10] INFO root fetch - main [MainThread]: Store serial: [17750758]
+[2023-04-18 08:49:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17750758]
+[2023-04-18 08:49:18] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-18 08:49:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pygrnd
+[2023-04-18 08:49:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyscos2000
+[2023-04-18 08:49:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo13-addon-sale-order-lot-selection
+[2023-04-18 08:49:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Slim-TPCA
+[2023-04-18 08:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: klarna-orders
+[2023-04-18 08:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: entx-py
+[2023-04-18 08:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pfhedge
+[2023-04-18 08:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: liblxml3
+[2023-04-18 08:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo12-addon-sale-manual-delivery
+[2023-04-18 08:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: netbox-sp-addon
+[2023-04-18 08:49:19] INFO root fetch - processPackages [klarna-orders]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-04-18 08:49:19] INFO root fetch - processPackages [Slim-TPCA]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-04-18 08:49:19] INFO root fetch - processPackages [pygrnd]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-18 08:49:19] INFO root fetch - processPackages [odoo13-addon-sale-order-lot-selection]: New version: [13.0.2.1.1.dev2] Old Version: [13.0.2.1.1.dev1]
+[2023-04-18 08:49:19] INFO root fetch - processPackages [odoo12-addon-sale-manual-delivery]: New version: [12.0.2.0.2.99.dev4] Old Version: [12.0.2.0.2.99.dev3]
+[2023-04-18 08:49:19] INFO root fetch - processPackages [liblxml3]: New version: [1.6] Old Version: [1.5]
+[2023-04-18 08:49:19] INFO root fetch - processPackages [netbox-sp-addon]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-04-18 08:49:19] INFO root fetch - processPackages [pyscos2000]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-18 08:49:19] INFO root fetch - processPackages [pfhedge]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-04-18 08:49:19] ERROR root fetch - processPackages [entx-py]: Unable to get metadata: No such project 'entx-py'
+[2023-04-18 08:49:19] INFO root fetch - processPackages [entx-py]: Start processing: odoo13-addon-sale-order-price-recalculation
+[2023-04-18 08:49:19] INFO root fetch - main [MainThread]: End processing [entx-py] error
+[2023-04-18 08:49:19] INFO root fetch - processPackages [odoo13-addon-sale-order-price-recalculation]: New version: [13.0.1.1.1.dev2] Old Version: [13.0.1.1.1.dev1]
+[2023-04-18 08:49:19] INFO root fetch - processPackages [liblxml3]: Downloading https://files.pythonhosted.org/packages/32/ca/a69ebcca1284432972a257c2269a50e74eac79d2d249746b0f0a93bfeb39/liblxml3-1.5.tar.gz
+[2023-04-18 08:49:19] INFO root fetch - processPackages [klarna-orders]: Downloading https://files.pythonhosted.org/packages/c1/15/c5fdbb02636242da306b158616a750a6476b9cb2acd9cdb1cc6c314b3183/klarna-orders-1.1.1.tar.gz
+[2023-04-18 08:49:19] INFO root fetch - processPackages [pygrnd]: Downloading https://files.pythonhosted.org/packages/79/b1/c40f0cbb5c062f5c2563275fb552a230e754683351c2b7a44f3240acda41/pygrnd-0.1.4.tar.gz
+[2023-04-18 08:49:19] INFO root fetch - processPackages [netbox-sp-addon]: Downloading https://files.pythonhosted.org/packages/21/de/bae68f1bb7870817cedc4393f39def39a049b61e7d158512d2609615df33/netbox-sp-addon-0.6.0.tar.gz
+[2023-04-18 08:49:19] INFO root fetch - processPackages [pyscos2000]: Downloading https://files.pythonhosted.org/packages/d3/d8/957c2571775ceba5aa10c24c5a94ba74967386d255025eb6546318ccadd1/pyscos2000-0.1.0.tar.gz
+[2023-04-18 08:49:19] INFO root fetch - processPackages [odoo12-addon-sale-manual-delivery]: Downloading https://files.pythonhosted.org/packages/c0/10/005f3ce6ed40ea4ea16c14ab920fa899a1e5562749ced2b26f865cca5631/odoo12_addon_sale_manual_delivery-12.0.2.0.2.99.dev3-py3-none-any.whl
+[2023-04-18 08:49:19] INFO root fetch - processPackages [odoo13-addon-sale-order-lot-selection]: Downloading https://files.pythonhosted.org/packages/5b/74/636fdc25ac8529f234e91798b82b62be73a2fca6770ef6b30e051777218f/odoo13_addon_sale_order_lot_selection-13.0.2.1.1.dev1-py3-none-any.whl
+[2023-04-18 08:49:19] INFO root fetch - processPackages [odoo13-addon-sale-order-price-recalculation]: Downloading https://files.pythonhosted.org/packages/bf/d8/8ce252bf47eba2ee81fe312547093acee39045a0a09c97f144ffddef4418/odoo13_addon_sale_order_price_recalculation-13.0.1.1.1.dev1-py3-none-any.whl
+[2023-04-18 08:49:19] INFO root fetch - processPackages [pfhedge]: Downloading https://files.pythonhosted.org/packages/60/a6/7d0f6f7e20dad32ca914ec03972109011849b2980a61045688f8c8078218/pfhedge-0.8.1.tar.gz
+[2023-04-18 08:49:19] INFO root fetch - processPackages [Slim-TPCA]: Downloading https://files.pythonhosted.org/packages/6b/1e/9919f8254717ed01353afc8e1da211117aeb0c51ed504286b6c5776a6907/Slim-TPCA-0.0.4.tar.gz
+[2023-04-18 08:49:19] INFO root fetch - processPackages [klarna-orders]: executing diffoscope
+[2023-04-18 08:49:19] INFO root fetch - processPackages [klarna-orders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klarna-orders-1.1.0.tar.gz tmp/klarna-orders-1.1.1.tar.gz --markdown 20230418/k/klarna-orders/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-04-18 08:49:19] INFO root fetch - processPackages [liblxml3]: Downloading https://files.pythonhosted.org/packages/07/a8/e7d8bea356f02c64c98a8f36bfd5c6f9433644b5bbabf2a31e943cbe67f6/liblxml3-1.6.tar.gz
+[2023-04-18 08:49:19] INFO root fetch - processPackages [Slim-TPCA]: executing diffoscope
+[2023-04-18 08:49:19] INFO root fetch - processPackages [Slim-TPCA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Slim-TPCA-0.0.2.tar.gz tmp/Slim-TPCA-0.0.4.tar.gz --markdown 20230418/S/Slim-TPCA/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-04-18 08:49:19] INFO root fetch - processPackages [pygrnd]: Downloading https://files.pythonhosted.org/packages/a5/99/f1906e2915d26558dc07bc32fc19d2a6fb5ee92bfdbd99fbceb25a9d6de2/pygrnd-0.1.5.tar.gz
+[2023-04-18 08:49:19] INFO root fetch - processPackages [pyscos2000]: Downloading https://files.pythonhosted.org/packages/77/53/a959df1d636edcf90b82f9afdbd518d7201047c1ebbdecdce9472c3a7e20/pyscos2000-0.2.0.tar.gz
+[2023-04-18 08:49:19] INFO root fetch - processPackages [odoo12-addon-sale-manual-delivery]: Downloading https://files.pythonhosted.org/packages/c4/b8/ff139eebc2e2f1352e2c47c6fd74660921f81169eec4bf14042859573fdf/odoo12_addon_sale_manual_delivery-12.0.2.0.2.99.dev4-py3-none-any.whl
+[2023-04-18 08:49:19] INFO root fetch - processPackages [netbox-sp-addon]: Downloading https://files.pythonhosted.org/packages/0c/bc/117a91a3fa22bd7b6ce8ba963290d0bab4fe7a0de12565318830ae35dc0d/netbox_sp_addon-0.7.0.tar.gz
+[2023-04-18 08:49:19] INFO root fetch - processPackages [odoo13-addon-sale-order-lot-selection]: Downloading https://files.pythonhosted.org/packages/b5/37/c278fa48c24585c1b52239169643479358862030459d361e176b2b891011/odoo13_addon_sale_order_lot_selection-13.0.2.1.1.dev2-py3-none-any.whl
+[2023-04-18 08:49:19] INFO root fetch - processPackages [odoo13-addon-sale-order-price-recalculation]: Downloading https://files.pythonhosted.org/packages/3f/23/5bc61acffda4d57ebd69211d895119d97a99e9d97b9b230ba63bba274d21/odoo13_addon_sale_order_price_recalculation-13.0.1.1.1.dev2-py3-none-any.whl
+[2023-04-18 08:49:19] INFO root fetch - processPackages [pfhedge]: Downloading https://files.pythonhosted.org/packages/4b/63/47f86d318e3b7e8e94aab10ed8e48cd0b228a5756213e72757c806171e56/pfhedge-0.9.0.tar.gz
+[2023-04-18 08:49:19] INFO root fetch - processPackages [liblxml3]: executing diffoscope
+[2023-04-18 08:49:19] INFO root fetch - processPackages [liblxml3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liblxml3-1.5.tar.gz tmp/liblxml3-1.6.tar.gz --markdown 20230418/l/liblxml3/1.5-1.6/diff.md --exclude *.pyd
+[2023-04-18 08:49:19] INFO root fetch - processPackages [netbox-sp-addon]: executing diffoscope
+[2023-04-18 08:49:19] INFO root fetch - processPackages [netbox-sp-addon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-sp-addon-0.6.0.tar.gz tmp/netbox_sp_addon-0.7.0.tar.gz --markdown 20230418/n/netbox-sp-addon/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-04-18 08:49:19] INFO root fetch - processPackages [pygrnd]: executing diffoscope
+[2023-04-18 08:49:19] INFO root fetch - processPackages [pyscos2000]: executing diffoscope
+[2023-04-18 08:49:19] INFO root fetch - processPackages [pygrnd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygrnd-0.1.4.tar.gz tmp/pygrnd-0.1.5.tar.gz --markdown 20230418/p/pygrnd/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-18 08:49:19] INFO root fetch - processPackages [pyscos2000]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscos2000-0.1.0.tar.gz tmp/pyscos2000-0.2.0.tar.gz --markdown 20230418/p/pyscos2000/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-18 08:49:19] INFO root fetch - processPackages [odoo13-addon-sale-order-lot-selection]: executing diffoscope
+[2023-04-18 08:49:19] INFO root fetch - processPackages [odoo13-addon-sale-order-lot-selection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_sale_order_lot_selection-13.0.2.1.1.dev1-py3-none-any.whl.zip tmp/odoo13_addon_sale_order_lot_selection-13.0.2.1.1.dev2-py3-none-any.whl.zip --markdown 20230418/o/odoo13-addon-sale-order-lot-selection/13.0.2.1.1.dev1-13.0.2.1.1.dev2/diff.md --exclude *.pyd
+[2023-04-18 08:49:19] INFO root fetch - processPackages [odoo12-addon-sale-manual-delivery]: executing diffoscope
+[2023-04-18 08:49:19] INFO root fetch - processPackages [odoo12-addon-sale-manual-delivery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_sale_manual_delivery-12.0.2.0.2.99.dev3-py3-none-any.whl.zip tmp/odoo12_addon_sale_manual_delivery-12.0.2.0.2.99.dev4-py3-none-any.whl.zip --markdown 20230418/o/odoo12-addon-sale-manual-delivery/12.0.2.0.2.99.dev3-12.0.2.0.2.99.dev4/diff.md --exclude *.pyd
+[2023-04-18 08:49:20] INFO root fetch - processPackages [odoo13-addon-sale-order-price-recalculation]: executing diffoscope
+[2023-04-18 08:49:20] INFO root fetch - processPackages [odoo13-addon-sale-order-price-recalculation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_sale_order_price_recalculation-13.0.1.1.1.dev1-py3-none-any.whl.zip tmp/odoo13_addon_sale_order_price_recalculation-13.0.1.1.1.dev2-py3-none-any.whl.zip --markdown 20230418/o/odoo13-addon-sale-order-price-recalculation/13.0.1.1.1.dev1-13.0.1.1.1.dev2/diff.md --exclude *.pyd
+[2023-04-18 08:49:20] INFO root fetch - processPackages [pfhedge]: executing diffoscope
+[2023-04-18 08:49:20] INFO root fetch - processPackages [pfhedge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pfhedge-0.8.1.tar.gz tmp/pfhedge-0.9.0.tar.gz --markdown 20230418/p/pfhedge/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-04-18 08:49:21] INFO root fetch - processPackages [Slim-TPCA]: Start processing: miniopy-async
+[2023-04-18 08:49:21] INFO root fetch - main [MainThread]: End processing [Slim-TPCA]: success
+[2023-04-18 08:49:21] INFO root fetch - processPackages [miniopy-async]: New version: [1.9] Old Version: [1.8]
+[2023-04-18 08:49:21] INFO root fetch - processPackages [miniopy-async]: Downloading https://files.pythonhosted.org/packages/c5/51/2415ed0270c714d0cf4e691d68d8fe8403c91c2ed7b0dae46b7c7881da25/miniopy-async-1.8.tar.gz
+[2023-04-18 08:49:21] INFO root fetch - processPackages [netbox-sp-addon]: Start processing: riyazi
+[2023-04-18 08:49:21] INFO root fetch - main [MainThread]: End processing [netbox-sp-addon]: success
+[2023-04-18 08:49:21] INFO root fetch - processPackages [riyazi]: New version: [0.17] Old Version: [0.16]
+[2023-04-18 08:49:21] INFO root fetch - processPackages [miniopy-async]: Downloading https://files.pythonhosted.org/packages/ec/46/6b74791c04edd1250fb99fc95f343e75e38a7a919ae3b206023e827a0e89/miniopy-async-1.9.tar.gz
+[2023-04-18 08:49:21] INFO root fetch - processPackages [riyazi]: Downloading https://files.pythonhosted.org/packages/df/8f/add13eb0317b7316cd308e4f7fd7548b502f2c705a1be3fa472fef29a976/riyazi-0.16.tar.gz
+[2023-04-18 08:49:21] INFO root fetch - processPackages [odoo12-addon-sale-manual-delivery]: Start processing: odoo14-addon-sale-order-tag
+[2023-04-18 08:49:21] INFO root fetch - main [MainThread]: End processing [odoo12-addon-sale-manual-delivery]: success
+[2023-04-18 08:49:21] INFO root fetch - processPackages [miniopy-async]: executing diffoscope
+[2023-04-18 08:49:21] INFO root fetch - processPackages [miniopy-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniopy-async-1.8.tar.gz tmp/miniopy-async-1.9.tar.gz --markdown 20230418/m/miniopy-async/1.8-1.9/diff.md --exclude *.pyd
+[2023-04-18 08:49:21] INFO root fetch - processPackages [odoo14-addon-sale-order-tag]: New version: [14.0.1.0.2.dev5] Old Version: [14.0.1.0.2.dev4]
+[2023-04-18 08:49:21] INFO root fetch - processPackages [odoo14-addon-sale-order-tag]: Downloading https://files.pythonhosted.org/packages/50/ee/77acffc1dce1cd23f8748786014dcdab51ec94cd8a902b5175c7a233a1ed/odoo14_addon_sale_order_tag-14.0.1.0.2.dev4-py3-none-any.whl
+[2023-04-18 08:49:22] INFO root fetch - processPackages [riyazi]: Downloading https://files.pythonhosted.org/packages/f1/a7/29e103d2f951910062bb4edd628e72ccd4b8230b6c605c6c8638f1fd05d3/riyazi-0.17.tar.gz
+[2023-04-18 08:49:22] INFO root fetch - processPackages [pyscos2000]: Start processing: cameralyze
+[2023-04-18 08:49:22] INFO root fetch - main [MainThread]: End processing [pyscos2000]: success
+[2023-04-18 08:49:22] INFO root fetch - processPackages [cameralyze]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-04-18 08:49:22] INFO root fetch - processPackages [odoo13-addon-sale-order-price-recalculation]: Start processing: gpt-index
+[2023-04-18 08:49:22] INFO root fetch - main [MainThread]: End processing [odoo13-addon-sale-order-price-recalculation]: success
+[2023-04-18 08:49:22] INFO root fetch - processPackages [gpt-index]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-04-18 08:49:22] INFO root fetch - main [MainThread]: End processing [klarna-orders]: success
+[2023-04-18 08:49:22] INFO root fetch - main [MainThread]: End processing [odoo13-addon-sale-order-lot-selection]: success
+[2023-04-18 08:49:22] INFO root fetch - processPackages [riyazi]: executing diffoscope
+[2023-04-18 08:49:22] INFO root fetch - processPackages [riyazi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riyazi-0.16.tar.gz tmp/riyazi-0.17.tar.gz --markdown 20230418/r/riyazi/0.16-0.17/diff.md --exclude *.pyd
+[2023-04-18 08:49:22] INFO root fetch - processPackages [odoo14-addon-sale-order-tag]: Downloading https://files.pythonhosted.org/packages/93/36/4f41694a856fdb76bd70c1c9124b1d5ee82ad8350e43d766ee3596e960c8/odoo14_addon_sale_order_tag-14.0.1.0.2.dev5-py3-none-any.whl
+[2023-04-18 08:49:22] INFO root fetch - processPackages [cameralyze]: Downloading https://files.pythonhosted.org/packages/56/2c/befa8d016e583724137dacde881b9d496e5fa1910f2a568d9f512fe12242/cameralyze-1.4.3.tar.gz
+[2023-04-18 08:49:22] INFO root fetch - main [MainThread]: End processing [pfhedge]: success
+[2023-04-18 08:49:22] INFO root fetch - processPackages [gpt-index]: executing diffoscope
+[2023-04-18 08:49:22] INFO root fetch - processPackages [gpt-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_index-0.5.8.tar.gz tmp/gpt_index-0.5.9.tar.gz --markdown 20230418/g/gpt-index/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-04-18 08:49:22] INFO root fetch - processPackages [odoo14-addon-sale-order-tag]: executing diffoscope
+[2023-04-18 08:49:22] INFO root fetch - processPackages [odoo14-addon-sale-order-tag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_order_tag-14.0.1.0.2.dev4-py3-none-any.whl.zip tmp/odoo14_addon_sale_order_tag-14.0.1.0.2.dev5-py3-none-any.whl.zip --markdown 20230418/o/odoo14-addon-sale-order-tag/14.0.1.0.2.dev4-14.0.1.0.2.dev5/diff.md --exclude *.pyd
+[2023-04-18 08:49:22] INFO root fetch - processPackages [cameralyze]: Downloading https://files.pythonhosted.org/packages/61/55/c1c337a0beba59cd8131261bc81ea3d63df01ffbd27ec438850334aed003/cameralyze-1.4.4.tar.gz
+[2023-04-18 08:49:22] INFO root fetch - main [MainThread]: End processing [pygrnd]: success
+[2023-04-18 08:49:22] INFO root fetch - processPackages [cameralyze]: executing diffoscope
+[2023-04-18 08:49:22] INFO root fetch - processPackages [cameralyze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cameralyze-1.4.3.tar.gz tmp/cameralyze-1.4.4.tar.gz --markdown 20230418/c/cameralyze/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-04-18 08:49:23] INFO root fetch - main [MainThread]: End processing [miniopy-async]: success
+[2023-04-18 08:49:23] INFO root fetch - main [MainThread]: End processing [liblxml3]: success
+[2023-04-18 08:49:23] INFO root fetch - main [MainThread]: End processing [cameralyze]: success
+[2023-04-18 08:49:23] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-order-tag]: success
+[2023-04-18 08:49:25] INFO root fetch - main [MainThread]: End processing [gpt-index]: success
+[2023-04-18 08:49:35] INFO root fetch - main [MainThread]: End processing [riyazi]: success
+[2023-04-18 08:49:35] INFO root fetch - main [MainThread]: Store serial: [17750810]
