@@ -17599,3 +17599,74 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 100: invali
 [2023-04-18 12:11:54] INFO root fetch - main [MainThread]: End processing [CTADIRAC]: success
 [2023-04-18 12:11:55] INFO root fetch - main [MainThread]: End processing [fusesoc]: success
 [2023-04-18 12:11:55] INFO root fetch - main [MainThread]: Store serial: [17754157]
+[2023-04-18 12:16:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17754157]
+[2023-04-18 12:17:04] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-18 12:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openrl
+[2023-04-18 12:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inmanta-module-std
+[2023-04-18 12:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: liblxml3
+[2023-04-18 12:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: linktools
+[2023-04-18 12:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyNeFrauds
+[2023-04-18 12:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seo-position-tracker
+[2023-04-18 12:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: huble
+[2023-04-18 12:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cbig-network-correspondence
+[2023-04-18 12:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ada-py
+[2023-04-18 12:17:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nocv2easyocr
+[2023-04-18 12:17:04] INFO root fetch - processPackages [seo-position-tracker]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-04-18 12:17:04] INFO root fetch - processPackages [ada-py]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-18 12:17:04] INFO root fetch - processPackages [openrl]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-18 12:17:04] WARNING root fetch - processPackages [pyNeFrauds]: Skipping, unable to determine old version
+[2023-04-18 12:17:04] INFO root fetch - processPackages [pyNeFrauds]: Start processing: cgcsdk
+[2023-04-18 12:17:04] INFO root fetch - main [MainThread]: End processing [pyNeFrauds] error
+[2023-04-18 12:17:04] INFO root fetch - processPackages [liblxml3]: New version: [2.7] Old Version: [2.6]
+[2023-04-18 12:17:04] INFO root fetch - processPackages [huble]: New version: [0.2.288] Old Version: [0.2.287]
+[2023-04-18 12:17:04] INFO root fetch - processPackages [inmanta-module-std]: New version: [4.1.7] Old Version: [4.1.6]
+[2023-04-18 12:17:04] INFO root fetch - processPackages [cgcsdk]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-04-18 12:17:04] INFO root fetch - processPackages [linktools]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-04-18 12:17:04] INFO root fetch - processPackages [cbig-network-correspondence]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-18 12:17:04] WARNING root fetch - processPackages [nocv2easyocr]: Skipping, unable to determine old version
+[2023-04-18 12:17:04] INFO root fetch - processPackages [nocv2easyocr]: Start processing: ensembl-prodinf-core
+[2023-04-18 12:17:04] INFO root fetch - main [MainThread]: End processing [nocv2easyocr] error
+[2023-04-18 12:17:04] INFO root fetch - processPackages [ada-py]: executing diffoscope
+[2023-04-18 12:17:04] INFO root fetch - processPackages [ada-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ada-py-0.0.8.tar.gz tmp/ada-py-0.0.9.tar.gz --markdown 20230418/a/ada-py/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-18 12:17:04] INFO root fetch - processPackages [ensembl-prodinf-core]: New version: [2.0.5a2] Old Version: [2.0.5]
+[2023-04-18 12:17:04] INFO root fetch - processPackages [liblxml3]: Downloading https://files.pythonhosted.org/packages/3c/6f/a06e5aef99c1653602a0fba169c64cf4b3da114ca8a603cd6ef7219f2708/liblxml3-2.7.tar.gz
+[2023-04-18 12:17:04] INFO root fetch - processPackages [seo-position-tracker]: Downloading https://files.pythonhosted.org/packages/ad/54/fdebdfb9432a7577ec2f12ee975db25689c1c4ebb6b62646ca175d01e47c/seo_position_tracker-1.5.0.tar.gz
+[2023-04-18 12:17:04] INFO root fetch - processPackages [linktools]: Downloading https://files.pythonhosted.org/packages/57/1c/722df52b9e34ce7b003fd4b59d54af071bbbbf378ab7e59fd565b21ae1cf/linktools-0.7.8.tar.gz
+[2023-04-18 12:17:04] INFO root fetch - processPackages [inmanta-module-std]: Downloading https://files.pythonhosted.org/packages/82/ae/3695bb81128ad3733b8e70479822c5a6a13d51a92d5b93ec11f927a36720/inmanta_module_std-4.1.6-py3-none-any.whl
+[2023-04-18 12:17:04] INFO root fetch - processPackages [huble]: Downloading https://files.pythonhosted.org/packages/cb/0b/2760a129a8992725f6dc8e3c92c88c266dfa8eae8085ad16c9323d13de3c/huble-0.2.288.tar.gz
+[2023-04-18 12:17:04] INFO root fetch - processPackages [openrl]: Downloading https://files.pythonhosted.org/packages/90/90/de7e132b67746003c67f96cbc55e977b458c3e281ed56115f4473424f50e/openrl-0.0.3.tar.gz
+[2023-04-18 12:17:04] INFO root fetch - processPackages [liblxml3]: executing diffoscope
+[2023-04-18 12:17:04] INFO root fetch - processPackages [liblxml3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liblxml3-2.6.tar.gz tmp/liblxml3-2.7.tar.gz --markdown 20230418/l/liblxml3/2.6-2.7/diff.md --exclude *.pyd
+[2023-04-18 12:17:04] INFO root fetch - processPackages [huble]: executing diffoscope
+[2023-04-18 12:17:04] INFO root fetch - processPackages [huble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huble-0.2.287.tar.gz tmp/huble-0.2.288.tar.gz --markdown 20230418/h/huble/0.2.287-0.2.288/diff.md --exclude *.pyd
+[2023-04-18 12:17:04] INFO root fetch - processPackages [ensembl-prodinf-core]: Downloading https://files.pythonhosted.org/packages/9a/f5/b7f976698ab7a57e9593c8d8daf067e77a5d2e8ebcc4abb9f13fe2e90456/ensembl-prodinf-core-2.0.5.tar.gz
+[2023-04-18 12:17:04] INFO root fetch - processPackages [cbig-network-correspondence]: executing diffoscope
+[2023-04-18 12:17:04] INFO root fetch - processPackages [cbig-network-correspondence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbig_network_correspondence-0.0.8.tar.gz tmp/cbig_network_correspondence-0.0.9.tar.gz --markdown 20230418/c/cbig-network-correspondence/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-18 12:17:04] INFO root fetch - processPackages [cgcsdk]: Downloading https://files.pythonhosted.org/packages/da/ab/e315340fdf253464db41c88d5ba7531bc792a019c5b8410085d6d0c21e74/cgcsdk-0.8.2.tar.gz
+[2023-04-18 12:17:04] INFO root fetch - processPackages [openrl]: Downloading https://files.pythonhosted.org/packages/05/e3/e1b043eb0460635d0f92d44ae42347e890ef795dc3abd3087586a01a709a/openrl-0.0.4.tar.gz
+[2023-04-18 12:17:05] INFO root fetch - processPackages [cgcsdk]: executing diffoscope
+[2023-04-18 12:17:05] INFO root fetch - processPackages [cgcsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgcsdk-0.8.1.tar.gz tmp/cgcsdk-0.8.2.tar.gz --markdown 20230418/c/cgcsdk/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-04-18 12:17:05] INFO root fetch - processPackages [openrl]: executing diffoscope
+[2023-04-18 12:17:05] INFO root fetch - processPackages [openrl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openrl-0.0.3.tar.gz tmp/openrl-0.0.4.tar.gz --markdown 20230418/o/openrl/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-18 12:17:05] INFO root fetch - processPackages [seo-position-tracker]: Downloading https://files.pythonhosted.org/packages/e0/fc/1932a594cfe4e9d3bf27ccb625804a64a26f1ee564cbab9d48cccc987af0/seo_position_tracker-1.5.1.tar.gz
+[2023-04-18 12:17:05] INFO root fetch - processPackages [inmanta-module-std]: Downloading https://files.pythonhosted.org/packages/fd/a7/08272acfb27a04abe40baab65a8d2899c047805887b5426aa25212c8e59d/inmanta_module_std-4.1.7-py3-none-any.whl
+[2023-04-18 12:17:05] INFO root fetch - processPackages [seo-position-tracker]: executing diffoscope
+[2023-04-18 12:17:05] INFO root fetch - processPackages [seo-position-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seo_position_tracker-1.5.0.tar.gz tmp/seo_position_tracker-1.5.1.tar.gz --markdown 20230418/s/seo-position-tracker/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-04-18 12:17:05] INFO root fetch - processPackages [inmanta-module-std]: executing diffoscope
+[2023-04-18 12:17:05] INFO root fetch - processPackages [inmanta-module-std]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inmanta_module_std-4.1.6-py3-none-any.whl.zip tmp/inmanta_module_std-4.1.7-py3-none-any.whl.zip --markdown 20230418/i/inmanta-module-std/4.1.6-4.1.7/diff.md --exclude *.pyd
+[2023-04-18 12:17:05] INFO root fetch - processPackages [linktools]: Downloading https://files.pythonhosted.org/packages/96/b7/683cc32d55c92f93797e775d4512e034d0522cfb4e7436660973a5677326/linktools-0.7.9.tar.gz
+[2023-04-18 12:17:05] INFO root fetch - processPackages [ensembl-prodinf-core]: executing diffoscope
+[2023-04-18 12:17:05] INFO root fetch - processPackages [ensembl-prodinf-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ensembl-prodinf-core-2.0.5.tar.gz tmp/ensembl-prodinf-core-2.0.5a2.tar.gz --markdown 20230418/e/ensembl-prodinf-core/2.0.5-2.0.5a2/diff.md --exclude *.pyd
+[2023-04-18 12:17:05] INFO root fetch - processPackages [linktools]: executing diffoscope
+[2023-04-18 12:17:05] INFO root fetch - processPackages [linktools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linktools-0.7.8.tar.gz tmp/linktools-0.7.9.tar.gz --markdown 20230418/l/linktools/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-04-18 12:17:06] INFO root fetch - main [MainThread]: End processing [cbig-network-correspondence]: success
+[2023-04-18 12:17:06] INFO root fetch - main [MainThread]: End processing [inmanta-module-std]: success
+[2023-04-18 12:17:06] INFO root fetch - main [MainThread]: End processing [seo-position-tracker]: success
+[2023-04-18 12:17:07] INFO root fetch - main [MainThread]: End processing [huble]: success
+[2023-04-18 12:17:07] INFO root fetch - main [MainThread]: End processing [ensembl-prodinf-core]: success
+[2023-04-18 12:17:07] INFO root fetch - main [MainThread]: End processing [openrl]: success
+[2023-04-18 12:17:07] INFO root fetch - main [MainThread]: End processing [cgcsdk]: success
+[2023-04-18 12:17:08] INFO root fetch - main [MainThread]: End processing [liblxml3]: success
+[2023-04-18 12:17:09] INFO root fetch - main [MainThread]: End processing [ada-py]: success
+[2023-04-18 12:17:10] INFO root fetch - main [MainThread]: End processing [linktools]: success
+[2023-04-18 12:17:10] INFO root fetch - main [MainThread]: Store serial: [17754194]
