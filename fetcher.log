@@ -8146,3 +8146,98 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 05:05:48] INFO root fetch - main [MainThread]: End processing [robotnikmq]: success
 [2023-04-18 05:05:49] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-mass-reconcile]: success
 [2023-04-18 05:05:49] INFO root fetch - main [MainThread]: Store serial: [17748968]
+[2023-04-18 05:10:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17748968]
+[2023-04-18 05:10:58] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-18 05:10:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wenyue-first-package
+[2023-04-18 05:10:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: html4quiz
+[2023-04-18 05:10:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiofauna
+[2023-04-18 05:10:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dragonfile
+[2023-04-18 05:10:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-datamodel
+[2023-04-18 05:10:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: phope
+[2023-04-18 05:10:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pymilvus
+[2023-04-18 05:10:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo13-addon-account-banking-mandate
+[2023-04-18 05:10:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pymarkdownlnt
+[2023-04-18 05:10:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sourcery-nightly
+[2023-04-18 05:10:58] INFO root fetch - processPackages [aiofauna]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-18 05:10:58] INFO root fetch - processPackages [dragonfile]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-18 05:10:58] WARNING root fetch - processPackages [wenyue-first-package]: Skipping, unable to determine old version
+[2023-04-18 05:10:58] INFO root fetch - processPackages [html4quiz]: New version: [0.0.29] Old Version: [0.0.28]
+[2023-04-18 05:10:58] INFO root fetch - processPackages [wenyue-first-package]: Start processing: algokit-utils
+[2023-04-18 05:10:58] INFO root fetch - main [MainThread]: End processing [wenyue-first-package] error
+[2023-04-18 05:10:58] INFO root fetch - processPackages [phope]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-18 05:10:58] INFO root fetch - processPackages [odoo13-addon-account-banking-mandate]: New version: [13.0.1.3.1.dev9] Old Version: [13.0.1.3.1.dev8]
+[2023-04-18 05:10:58] INFO root fetch - processPackages [pymilvus]: New version: [2.3.0b1] Old Version: [2.2.7]
+[2023-04-18 05:10:58] INFO root fetch - processPackages [pymarkdownlnt]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-18 05:10:58] INFO root fetch - processPackages [python-datamodel]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-04-18 05:10:58] INFO root fetch - processPackages [algokit-utils]: New version: [1.0.3b2] Old Version: [1.0.3b1]
+[2023-04-18 05:10:58] INFO root fetch - processPackages [sourcery-nightly]: New version: [1.2.1b4] Old Version: [1.2.1b3]
+[2023-04-18 05:10:58] INFO root fetch - processPackages [aiofauna]: Downloading https://files.pythonhosted.org/packages/33/26/ccfa0ed1081e053e2c68708d1323e99b64c98ce86b668de1433ed0fba3e3/aiofauna-0.0.8.tar.gz
+[2023-04-18 05:10:58] INFO root fetch - processPackages [dragonfile]: Downloading https://files.pythonhosted.org/packages/01/05/33bcedb4c3c356d9a6b36d0ca933c3f904d7d4f435b191fc17bf39c65a98/dragonfile-0.1.0.tar.gz
+[2023-04-18 05:10:58] INFO root fetch - processPackages [pymilvus]: Downloading https://files.pythonhosted.org/packages/ca/4f/f91cc7a1a304dc5645d1d20d831ef7cede73494266a09ce56a53a124f334/pymilvus-2.2.7.tar.gz
+[2023-04-18 05:10:58] INFO root fetch - processPackages [phope]: Downloading https://files.pythonhosted.org/packages/b3/c7/cd40f5cb5989af570d0ad7f9fa358bed0913e2444fc0daa2cf3d73cbd516/phope-0.0.4.tar.gz
+[2023-04-18 05:10:58] INFO root fetch - processPackages [html4quiz]: Downloading https://files.pythonhosted.org/packages/b6/11/5ee32571dfcde3970bebee865d2080b651a92cb6c8fbc1fbdb8f91f0cdaa/html4quiz-0.0.29.tar.gz
+[2023-04-18 05:10:58] INFO root fetch - processPackages [python-datamodel]: executing diffoscope
+[2023-04-18 05:10:58] INFO root fetch - processPackages [python-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_datamodel-0.3.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/python_datamodel-0.3.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230418/p/python-datamodel/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-04-18 05:10:58] INFO root fetch - processPackages [sourcery-nightly]: Downloading https://files.pythonhosted.org/packages/bc/d0/26631f28e523e482dab63598dede3d5b819da3c074170c2ebc4cb2636322/sourcery_nightly-1.2.1b3-py2.py3-none-win_amd64.whl
+[2023-04-18 05:10:58] INFO root fetch - processPackages [html4quiz]: executing diffoscope
+[2023-04-18 05:10:58] INFO root fetch - processPackages [html4quiz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/html4quiz-0.0.28.tar.gz tmp/html4quiz-0.0.29.tar.gz --markdown 20230418/h/html4quiz/0.0.28-0.0.29/diff.md --exclude *.pyd
+[2023-04-18 05:10:58] INFO root fetch - processPackages [odoo13-addon-account-banking-mandate]: executing diffoscope
+[2023-04-18 05:10:58] INFO root fetch - processPackages [odoo13-addon-account-banking-mandate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_account_banking_mandate-13.0.1.3.1.dev8-py3-none-any.whl.zip tmp/odoo13_addon_account_banking_mandate-13.0.1.3.1.dev9-py3-none-any.whl.zip --markdown 20230418/o/odoo13-addon-account-banking-mandate/13.0.1.3.1.dev8-13.0.1.3.1.dev9/diff.md --exclude *.pyd
+[2023-04-18 05:10:58] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 58560212>=10485760
+[2023-04-18 05:10:58] INFO root fetch - processPackages [sourcery-nightly]: Start processing: legion-utils
+[2023-04-18 05:10:58] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
+[2023-04-18 05:10:58] INFO root fetch - processPackages [dragonfile]: Downloading https://files.pythonhosted.org/packages/0a/28/56661fc896ff8a69e26570b28ce2558aff575a99c9fc5c19ffb3f4b4565b/dragonfile-0.1.1-py3-none-any.whl
+[2023-04-18 05:10:58] INFO root fetch - processPackages [pymarkdownlnt]: executing diffoscope
+[2023-04-18 05:10:58] INFO root fetch - processPackages [pymarkdownlnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymarkdownlnt-0.9.8.tar.gz tmp/pymarkdownlnt-0.9.9.tar.gz --markdown 20230418/p/pymarkdownlnt/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-18 05:10:58] INFO root fetch - processPackages [legion-utils]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-18 05:10:58] INFO root fetch - processPackages [algokit-utils]: Downloading https://files.pythonhosted.org/packages/5f/1d/9fafeea09c81c48db6b411448aab51ea043106c91b79e1a08c98f4859f3e/algokit_utils-1.0.3b2-py3-none-any.whl
+[2023-04-18 05:10:58] INFO root fetch - processPackages [aiofauna]: Downloading https://files.pythonhosted.org/packages/69/14/730322d8d46afd19bf0948a35ba9fb3947464ec13df9f7d0cdd5f24fcd93/aiofauna-0.0.9.tar.gz
+[2023-04-18 05:10:58] INFO root fetch - processPackages [aiofauna]: executing diffoscope
+[2023-04-18 05:10:58] INFO root fetch - processPackages [aiofauna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiofauna-0.0.8.tar.gz tmp/aiofauna-0.0.9.tar.gz --markdown 20230418/a/aiofauna/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-18 05:10:58] INFO root fetch - processPackages [phope]: Downloading https://files.pythonhosted.org/packages/c1/e0/dc96168924db317b85c21d20de93a64533fc365c35aecdba62f08df7ef51/phope-0.0.5.tar.gz
+[2023-04-18 05:10:58] INFO root fetch - processPackages [pymilvus]: Downloading https://files.pythonhosted.org/packages/06/c8/17548136463c170e3cb532bee55f33d39c529cee88c93c5b974af521c524/pymilvus-2.3.0b1.tar.gz
+[2023-04-18 05:10:58] INFO root fetch - processPackages [dragonfile]: executing diffoscope
+[2023-04-18 05:10:58] INFO root fetch - processPackages [dragonfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfile-0.1.0.tar.gz tmp/dragonfile-0.1.1-py3-none-any.whl.zip --markdown 20230418/d/dragonfile/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-18 05:10:58] INFO root fetch - processPackages [algokit-utils]: executing diffoscope
+[2023-04-18 05:10:58] INFO root fetch - processPackages [algokit-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algokit_utils-1.0.3b1-py3-none-any.whl.zip tmp/algokit_utils-1.0.3b2-py3-none-any.whl.zip --markdown 20230418/a/algokit-utils/1.0.3b1-1.0.3b2/diff.md --exclude *.pyd
+[2023-04-18 05:10:58] INFO root fetch - processPackages [legion-utils]: Downloading https://files.pythonhosted.org/packages/71/5f/ea751ac90493e53a5c9e30d5971d2a7988d985268607ed23841177165269/legion-utils-0.2.8.tar.gz
+[2023-04-18 05:10:58] INFO root fetch - processPackages [phope]: executing diffoscope
+[2023-04-18 05:10:58] INFO root fetch - processPackages [phope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phope-0.0.4.tar.gz tmp/phope-0.0.5.tar.gz --markdown 20230418/p/phope/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-18 05:10:59] INFO root fetch - processPackages [pymilvus]: executing diffoscope
+[2023-04-18 05:10:59] INFO root fetch - processPackages [pymilvus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymilvus-2.2.7.tar.gz tmp/pymilvus-2.3.0b1.tar.gz --markdown 20230418/p/pymilvus/2.2.7-2.3.0b1/diff.md --exclude *.pyd
+[2023-04-18 05:10:59] INFO root fetch - processPackages [legion-utils]: Downloading https://files.pythonhosted.org/packages/26/32/171ec134b311691f95d3ab53528c0d8632169c867348371a877e7b205719/legion-utils-0.2.9.tar.gz
+[2023-04-18 05:10:59] INFO root fetch - processPackages [legion-utils]: executing diffoscope
+[2023-04-18 05:10:59] INFO root fetch - processPackages [legion-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/legion-utils-0.2.8.tar.gz tmp/legion-utils-0.2.9.tar.gz --markdown 20230418/l/legion-utils/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-18 05:11:00] INFO root fetch - processPackages [html4quiz]: Start processing: pepperize.cdk-autoscaling-gitlab-runner
+[2023-04-18 05:11:00] INFO root fetch - main [MainThread]: End processing [html4quiz]: success
+[2023-04-18 05:11:00] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-04-18 05:11:00] INFO root fetch - processPackages [aiofauna]: Start processing: odoo-addon-account-payment-sale
+[2023-04-18 05:11:00] INFO root fetch - main [MainThread]: End processing [aiofauna]: success
+[2023-04-18 05:11:00] INFO root fetch - processPackages [dragonfile]: Start processing: basicnanoclient
+[2023-04-18 05:11:00] INFO root fetch - main [MainThread]: End processing [dragonfile]: success
+[2023-04-18 05:11:00] INFO root fetch - processPackages [odoo-addon-account-payment-sale]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-04-18 05:11:00] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/20/7a/1cf95cd827a5bc2353d4a04fac9ad2282341306d1871323109bc1fcdc1bf/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz
+[2023-04-18 05:11:00] WARNING root fetch - processPackages [basicnanoclient]: Skipping, unable to determine old version
+[2023-04-18 05:11:00] INFO root fetch - processPackages [basicnanoclient]: Start processing: odoo14-addon-account-payment-order
+[2023-04-18 05:11:00] INFO root fetch - main [MainThread]: End processing [basicnanoclient] error
+[2023-04-18 05:11:00] INFO root fetch - processPackages [odoo14-addon-account-payment-order]: New version: [14.0.2.0.2.dev9] Old Version: [14.0.2.0.2.dev8]
+[2023-04-18 05:11:00] INFO root fetch - processPackages [odoo-addon-account-payment-sale]: Downloading https://files.pythonhosted.org/packages/16/a2/9a965b4cf90116b5d267d503f74980df292bcad900be119b7f1203620575/odoo_addon_account_payment_sale-16.0.1.0.0.8-py3-none-any.whl
+[2023-04-18 05:11:00] INFO root fetch - main [MainThread]: End processing [phope]: success
+[2023-04-18 05:11:00] INFO root fetch - processPackages [odoo14-addon-account-payment-order]: executing diffoscope
+[2023-04-18 05:11:00] INFO root fetch - processPackages [odoo14-addon-account-payment-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_payment_order-14.0.2.0.2.dev8-py3-none-any.whl.zip tmp/odoo14_addon_account_payment_order-14.0.2.0.2.dev9-py3-none-any.whl.zip --markdown 20230418/o/odoo14-addon-account-payment-order/14.0.2.0.2.dev8-14.0.2.0.2.dev9/diff.md --exclude *.pyd
+[2023-04-18 05:11:00] INFO root fetch - main [MainThread]: End processing [odoo13-addon-account-banking-mandate]: success
+[2023-04-18 05:11:00] INFO root fetch - main [MainThread]: End processing [algokit-utils]: success
+[2023-04-18 05:11:00] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/a1/02/a44f26db0508904ac5d6e70c575bf20e4f99ab1df68dad57967a57b3a117/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz
+[2023-04-18 05:11:01] INFO root fetch - processPackages [odoo-addon-account-payment-sale]: Downloading https://files.pythonhosted.org/packages/a0/bb/5695f0f194da6aa1b239af7cd0828491badb4deac8ec4dddd04cb72c185d/odoo_addon_account_payment_sale-16.0.1.0.0.9-py3-none-any.whl
+[2023-04-18 05:11:01] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: executing diffoscope
+[2023-04-18 05:11:01] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz --markdown 20230418/p/pepperize.cdk-autoscaling-gitlab-runner/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-04-18 05:11:01] INFO root fetch - processPackages [odoo-addon-account-payment-sale]: executing diffoscope
+[2023-04-18 05:11:01] INFO root fetch - processPackages [odoo-addon-account-payment-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_sale-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_account_payment_sale-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230418/o/odoo-addon-account-payment-sale/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-04-18 05:11:01] INFO root fetch - main [MainThread]: End processing [legion-utils]: success
+[2023-04-18 05:11:02] INFO root fetch - main [MainThread]: End processing [pymarkdownlnt]: success
+[2023-04-18 05:11:02] INFO root fetch - main [MainThread]: End processing [pymilvus]: success
+[2023-04-18 05:11:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-sale]: success
+[2023-04-18 05:11:02] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-autoscaling-gitlab-runner]: success
+[2023-04-18 05:11:02] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-payment-order]: success
+[2023-04-18 05:11:05] INFO root fetch - main [MainThread]: End processing [python-datamodel]: success
+[2023-04-18 05:11:05] INFO root fetch - main [MainThread]: Store serial: [17749019]
