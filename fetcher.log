@@ -9175,3 +9175,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 06:17:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-helpdesk-mgmt]: success
 [2023-04-18 06:17:24] INFO root fetch - main [MainThread]: End processing [odoo14-addon-helpdesk-mgmt]: success
 [2023-04-18 06:17:24] INFO root fetch - main [MainThread]: Store serial: [17749461]
+[2023-04-18 06:22:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17749461]
+[2023-04-18 06:22:33] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-18 06:22:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Lezargus
+[2023-04-18 06:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyllms
+[2023-04-18 06:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo12-addon-hr-payslip-change-state
+[2023-04-18 06:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo13-addon-hr-employee-identification
+[2023-04-18 06:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addons-oca-hr
+[2023-04-18 06:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addons-oca-hr
+[2023-04-18 06:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ByeByeLogger
+[2023-04-18 06:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: i3dFeatureExtraction
+[2023-04-18 06:22:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: seven-cloudapp-frame
+[2023-04-18 06:22:34] INFO root fetch - processPackages [odoo-addons-oca-hr]: New version: [16.0.20230418.0] Old Version: [16.0.20230220.1]
+[2023-04-18 06:22:34] INFO root fetch - processPackages [odoo-addons-oca-hr]: New version: [16.0.20230418.0] Old Version: [16.0.20230220.1]
+[2023-04-18 06:22:34] WARNING root fetch - processPackages [Lezargus]: Skipping, unable to determine old version
+[2023-04-18 06:22:34] INFO root fetch - main [MainThread]: End processing [Lezargus] error
+[2023-04-18 06:22:34] INFO root fetch - processPackages [pyllms]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-18 06:22:34] INFO root fetch - processPackages [odoo12-addon-hr-payslip-change-state]: New version: [12.0.1.0.0.99.dev8] Old Version: [12.0.1.0.0.99.dev7]
+[2023-04-18 06:22:34] INFO root fetch - processPackages [odoo13-addon-hr-employee-identification]: New version: [13.0.1.0.1.dev9] Old Version: [13.0.1.0.1.dev8]
+[2023-04-18 06:22:34] INFO root fetch - processPackages [i3dFeatureExtraction]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-18 06:22:34] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2023-04-18 06:22:34] INFO root fetch - processPackages [ByeByeLogger]: New version: [3.0.0] Old Version: [2.1.5]
+[2023-04-18 06:22:34] INFO root fetch - processPackages [i3dFeatureExtraction]: executing diffoscope
+[2023-04-18 06:22:34] INFO root fetch - processPackages [i3dFeatureExtraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i3dFeatureExtraction-0.2.3.tar.gz tmp/i3dFeatureExtraction-0.2.4.tar.gz --markdown 20230418/i/i3dFeatureExtraction/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-18 06:22:34] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-04-18 06:22:34] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.8.tar.gz tmp/seven_cloudapp_frame-1.0.9.9.tar.gz --markdown 20230418/s/seven-cloudapp-frame/1.0.9.8-1.0.9.9/diff.md --exclude *.pyd
+[2023-04-18 06:22:34] INFO root fetch - processPackages [odoo12-addon-hr-payslip-change-state]: Downloading https://files.pythonhosted.org/packages/9e/49/612d482665786dfe25a04aee36301deb70ae6da02420973b528a955ad15d/odoo12_addon_hr_payslip_change_state-12.0.1.0.0.99.dev7-py3-none-any.whl
+[2023-04-18 06:22:34] INFO root fetch - processPackages [odoo13-addon-hr-employee-identification]: Downloading https://files.pythonhosted.org/packages/5b/3a/97d90221177c1cde7bb8aa40cdfc1347664ce92c2e263669f3f96f27d0cf/odoo13_addon_hr_employee_identification-13.0.1.0.1.dev8-py3-none-any.whl
+[2023-04-18 06:22:34] INFO root fetch - processPackages [odoo-addons-oca-hr]: Downloading https://files.pythonhosted.org/packages/79/ef/35fcf82f47e322b01cacb5381642b2206e0bac1ec209837d59feb3dcf890/odoo_addons_oca_hr-16.0.20230220.1-py3-none-any.whl
+[2023-04-18 06:22:34] INFO root fetch - processPackages [odoo-addons-oca-hr]: Downloading https://files.pythonhosted.org/packages/79/ef/35fcf82f47e322b01cacb5381642b2206e0bac1ec209837d59feb3dcf890/odoo_addons_oca_hr-16.0.20230220.1-py3-none-any.whl
+[2023-04-18 06:22:34] INFO root fetch - processPackages [pyllms]: Downloading https://files.pythonhosted.org/packages/5a/71/8cd38b913db1100a2e25b28723b58169eb391b51648ec8ac3dd0e159e665/pyllms-0.1.4.tar.gz
+[2023-04-18 06:22:34] INFO root fetch - processPackages [odoo12-addon-hr-payslip-change-state]: Downloading https://files.pythonhosted.org/packages/92/6a/50d065a83fc4350a3e582178595d189e6aa70ea7d1cc4915979f728b6c94/odoo12_addon_hr_payslip_change_state-12.0.1.0.0.99.dev8-py3-none-any.whl
+[2023-04-18 06:22:34] INFO root fetch - processPackages [pyllms]: Downloading https://files.pythonhosted.org/packages/ee/e3/6c548b51bfdeff74860aa67210f6f682205f63bed72e542840e935b104dc/pyllms-0.1.5.tar.gz
+[2023-04-18 06:22:34] INFO root fetch - processPackages [odoo13-addon-hr-employee-identification]: Downloading https://files.pythonhosted.org/packages/a9/2f/e303e11d1ba942419a33fea0899cc01b02c6ff2578e75ed7ffd3802cd185/odoo13_addon_hr_employee_identification-13.0.1.0.1.dev9-py3-none-any.whl
+[2023-04-18 06:22:34] INFO root fetch - processPackages [pyllms]: executing diffoscope
+[2023-04-18 06:22:34] INFO root fetch - processPackages [pyllms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyllms-0.1.4.tar.gz tmp/pyllms-0.1.5.tar.gz --markdown 20230418/p/pyllms/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-18 06:22:34] INFO root fetch - processPackages [ByeByeLogger]: Downloading https://files.pythonhosted.org/packages/59/78/81eb8147ceccb0746fc7db06063ff4a2b8f01484dd5262a0687e0ceca452/ByeByeLogger-3.0.0.tar.gz
+[2023-04-18 06:22:34] INFO root fetch - processPackages [odoo-addons-oca-hr]: Downloading https://files.pythonhosted.org/packages/c1/0a/0a47ec1d61cb01edbdbf375a115e036c75925b444d9128489c35d1576ad8/odoo_addons_oca_hr-16.0.20230418.0-py3-none-any.whl
+[2023-04-18 06:22:34] INFO root fetch - processPackages [odoo-addons-oca-hr]: Downloading https://files.pythonhosted.org/packages/c1/0a/0a47ec1d61cb01edbdbf375a115e036c75925b444d9128489c35d1576ad8/odoo_addons_oca_hr-16.0.20230418.0-py3-none-any.whl
+[2023-04-18 06:22:34] INFO root fetch - processPackages [odoo12-addon-hr-payslip-change-state]: executing diffoscope
+[2023-04-18 06:22:34] INFO root fetch - processPackages [odoo12-addon-hr-payslip-change-state]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_hr_payslip_change_state-12.0.1.0.0.99.dev7-py3-none-any.whl.zip tmp/odoo12_addon_hr_payslip_change_state-12.0.1.0.0.99.dev8-py3-none-any.whl.zip --markdown 20230418/o/odoo12-addon-hr-payslip-change-state/12.0.1.0.0.99.dev7-12.0.1.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-04-18 06:22:34] INFO root fetch - processPackages [odoo-addons-oca-hr]: executing diffoscope
+[2023-04-18 06:22:34] INFO root fetch - processPackages [odoo-addons-oca-hr]: executing diffoscope
+[2023-04-18 06:22:34] INFO root fetch - processPackages [odoo-addons-oca-hr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_hr-16.0.20230220.1-py3-none-any.whl.zip tmp/odoo_addons_oca_hr-16.0.20230418.0-py3-none-any.whl.zip --markdown 20230418/o/odoo-addons-oca-hr/16.0.20230220.1-16.0.20230418.0/diff.md --exclude *.pyd
+[2023-04-18 06:22:34] INFO root fetch - processPackages [odoo-addons-oca-hr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_hr-16.0.20230220.1-py3-none-any.whl.zip tmp/odoo_addons_oca_hr-16.0.20230418.0-py3-none-any.whl.zip --markdown 20230418/o/odoo-addons-oca-hr/16.0.20230220.1-16.0.20230418.0/diff.md --exclude *.pyd
+[2023-04-18 06:22:34] INFO root fetch - processPackages [odoo13-addon-hr-employee-identification]: executing diffoscope
+[2023-04-18 06:22:34] INFO root fetch - processPackages [odoo13-addon-hr-employee-identification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_hr_employee_identification-13.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo13_addon_hr_employee_identification-13.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230418/o/odoo13-addon-hr-employee-identification/13.0.1.0.1.dev8-13.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-04-18 06:22:34] INFO root fetch - processPackages [ByeByeLogger]: executing diffoscope
+[2023-04-18 06:22:34] INFO root fetch - processPackages [ByeByeLogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ByeByeLogger-2.1.5.tar.gz tmp/ByeByeLogger-3.0.0.tar.gz --markdown 20230418/B/ByeByeLogger/2.1.5-3.0.0/diff.md --exclude *.pyd
+[2023-04-18 06:22:35] INFO root fetch - main [MainThread]: End processing [i3dFeatureExtraction]: success
+[2023-04-18 06:22:35] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-hr]: success
+[2023-04-18 06:22:36] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-hr]: success
+[2023-04-18 06:22:36] INFO root fetch - main [MainThread]: End processing [ByeByeLogger]: success
+[2023-04-18 06:22:36] INFO root fetch - main [MainThread]: End processing [pyllms]: success
+[2023-04-18 06:22:36] INFO root fetch - main [MainThread]: End processing [odoo12-addon-hr-payslip-change-state]: success
+[2023-04-18 06:22:36] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-04-18 06:22:36] INFO root fetch - main [MainThread]: End processing [odoo13-addon-hr-employee-identification]: success
+[2023-04-18 06:22:36] INFO root fetch - main [MainThread]: Store serial: [17749485]
