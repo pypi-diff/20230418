@@ -9232,3 +9232,39 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 06:22:36] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
 [2023-04-18 06:22:36] INFO root fetch - main [MainThread]: End processing [odoo13-addon-hr-employee-identification]: success
 [2023-04-18 06:22:36] INFO root fetch - main [MainThread]: Store serial: [17749485]
+[2023-04-18 06:27:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17749485]
+[2023-04-18 06:27:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-04-18 06:27:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DeepImageSearch
+[2023-04-18 06:27:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: n0struct
+[2023-04-18 06:27:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fenjing
+[2023-04-18 06:27:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rocm-docs-core
+[2023-04-18 06:27:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: proteinTools
+[2023-04-18 06:27:45] INFO root fetch - processPackages [fenjing]: New version: [0.2.0] Old Version: [0.1.7]
+[2023-04-18 06:27:45] INFO root fetch - processPackages [n0struct]: New version: [0.2.91] Old Version: [0.2.90]
+[2023-04-18 06:27:45] INFO root fetch - processPackages [DeepImageSearch]: New version: [2.5] Old Version: [2.1]
+[2023-04-18 06:27:45] INFO root fetch - processPackages [proteinTools]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-18 06:27:45] INFO root fetch - processPackages [rocm-docs-core]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-04-18 06:27:45] INFO root fetch - processPackages [n0struct]: Downloading https://files.pythonhosted.org/packages/9b/80/c83449e831632b6465c4bddfb82b55366d011da80626646042aa76c58e9f/n0struct-0.2.90.tar.gz
+[2023-04-18 06:27:45] INFO root fetch - processPackages [fenjing]: Downloading https://files.pythonhosted.org/packages/25/4b/d716ea9038cdd067fee5907d836bfb9c4b5fe6d7d3238970c76d65a048fb/fenjing-0.1.7.tar.gz
+[2023-04-18 06:27:45] INFO root fetch - processPackages [DeepImageSearch]: Downloading https://files.pythonhosted.org/packages/f0/8c/8daa346393088ba1d63db00da288e62691aadefa4fdc222ad8863dd4093a/DeepImageSearch-2.1.tar.gz
+[2023-04-18 06:27:45] INFO root fetch - processPackages [proteinTools]: Downloading https://files.pythonhosted.org/packages/f0/74/78a883db6e2a82f133f54cfd7a793d4a3a83be48ecc8c8fb69f8f68004fb/proteinTools-1.0.3.tar.gz
+[2023-04-18 06:27:45] INFO root fetch - processPackages [rocm-docs-core]: Downloading https://files.pythonhosted.org/packages/ec/2d/6bebfcfe3e8fc8b8d097017c574020f5e7bca449e32a95ee0da4bb015784/rocm-docs-core-0.6.0.tar.gz
+[2023-04-18 06:27:45] INFO root fetch - processPackages [n0struct]: Downloading https://files.pythonhosted.org/packages/69/f3/e314f4ccff22c3b65ae01c7b82c48c2992b937a715f7ef3eb8270c1930ce/n0struct-0.2.91.tar.gz
+[2023-04-18 06:27:45] INFO root fetch - processPackages [proteinTools]: executing diffoscope
+[2023-04-18 06:27:45] INFO root fetch - processPackages [proteinTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteinTools-1.0.2.tar.gz tmp/proteinTools-1.0.3.tar.gz --markdown 20230418/p/proteinTools/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-18 06:27:45] INFO root fetch - processPackages [rocm-docs-core]: executing diffoscope
+[2023-04-18 06:27:45] INFO root fetch - processPackages [rocm-docs-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rocm-docs-core-0.5.0.tar.gz tmp/rocm-docs-core-0.6.0.tar.gz --markdown 20230418/r/rocm-docs-core/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-04-18 06:27:45] INFO root fetch - processPackages [fenjing]: Downloading https://files.pythonhosted.org/packages/a5/f0/5a6f1b2a7fde8c224f17f3ed22ef4dc0e778a72611af4a44a31324d70e64/fenjing-0.2.0.tar.gz
+[2023-04-18 06:27:45] INFO root fetch - processPackages [DeepImageSearch]: Downloading https://files.pythonhosted.org/packages/af/56/9e61f13e55a4e0df6d5d44122a278b087fcad384a9063bba97c009b59cca/DeepImageSearch-2.5.tar.gz
+[2023-04-18 06:27:45] INFO root fetch - processPackages [n0struct]: executing diffoscope
+[2023-04-18 06:27:45] INFO root fetch - processPackages [n0struct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/n0struct-0.2.90.tar.gz tmp/n0struct-0.2.91.tar.gz --markdown 20230418/n/n0struct/0.2.90-0.2.91/diff.md --exclude *.pyd
+[2023-04-18 06:27:45] INFO root fetch - processPackages [DeepImageSearch]: executing diffoscope
+[2023-04-18 06:27:45] INFO root fetch - processPackages [DeepImageSearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DeepImageSearch-2.1.tar.gz tmp/DeepImageSearch-2.5.tar.gz --markdown 20230418/D/DeepImageSearch/2.1-2.5/diff.md --exclude *.pyd
+[2023-04-18 06:27:45] INFO root fetch - processPackages [fenjing]: executing diffoscope
+[2023-04-18 06:27:45] INFO root fetch - processPackages [fenjing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fenjing-0.1.7.tar.gz tmp/fenjing-0.2.0.tar.gz --markdown 20230418/f/fenjing/0.1.7-0.2.0/diff.md --exclude *.pyd
+[2023-04-18 06:27:47] INFO root fetch - main [MainThread]: End processing [proteinTools]: success
+[2023-04-18 06:27:47] INFO root fetch - main [MainThread]: End processing [DeepImageSearch]: success
+[2023-04-18 06:27:47] INFO root fetch - main [MainThread]: End processing [n0struct]: success
+[2023-04-18 06:27:47] INFO root fetch - main [MainThread]: End processing [fenjing]: success
+[2023-04-18 06:27:47] INFO root fetch - main [MainThread]: End processing [rocm-docs-core]: success
+[2023-04-18 06:27:47] INFO root fetch - main [MainThread]: Store serial: [17749500]
