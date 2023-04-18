@@ -9496,3 +9496,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 06:44:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-br-resource]: success
 [2023-04-18 06:44:01] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-account]: success
 [2023-04-18 06:44:01] INFO root fetch - main [MainThread]: Store serial: [17749665]
+[2023-04-18 06:49:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17749665]
+[2023-04-18 06:49:10] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-18 06:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scalene
+[2023-04-18 06:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sesg
+[2023-04-18 06:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deepdriver
+[2023-04-18 06:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-l10n-fr-ecotaxe
+[2023-04-18 06:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cellmap
+[2023-04-18 06:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flake8-checker
+[2023-04-18 06:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: html4quiz
+[2023-04-18 06:49:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torquepy
+[2023-04-18 06:49:10] INFO root fetch - processPackages [cellmap]: New version: [1.0.1.dev202304180446] Old Version: [1.0.1.dev202304170945]
+[2023-04-18 06:49:10] INFO root fetch - processPackages [torquepy]: New version: [0.3] Old Version: [0.2]
+[2023-04-18 06:49:10] INFO root fetch - processPackages [sesg]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-18 06:49:10] INFO root fetch - processPackages [deepdriver]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-18 06:49:10] INFO root fetch - processPackages [odoo-addon-l10n-fr-ecotaxe]: New version: [15.0.1.0.0.9] Old Version: [15.0.1.0.0.8]
+[2023-04-18 06:49:10] INFO root fetch - processPackages [scalene]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-04-18 06:49:10] INFO root fetch - processPackages [html4quiz]: New version: [0.0.30] Old Version: [0.0.29]
+[2023-04-18 06:49:10] INFO root fetch - processPackages [flake8-checker]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-18 06:49:10] INFO root fetch - processPackages [deepdriver]: executing diffoscope
+[2023-04-18 06:49:10] INFO root fetch - processPackages [deepdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepdriver-0.9.4.tar.gz tmp/deepdriver-0.9.5.tar.gz --markdown 20230418/d/deepdriver/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-18 06:49:10] INFO root fetch - processPackages [cellmap]: Downloading https://files.pythonhosted.org/packages/a4/ae/28360652326ce8484f13208457b0090951f72d7426c97b215329edfcca85/cellmap-1.0.1.dev202304180446-py3-none-any.whl
+[2023-04-18 06:49:10] INFO root fetch - processPackages [torquepy]: Downloading https://files.pythonhosted.org/packages/c6/26/9e6f526316d3a9a83da684fd1f63cd855b1ebf5014e0fae49669a1453f58/torquepy-0.2.tar.gz
+[2023-04-18 06:49:10] INFO root fetch - processPackages [sesg]: Downloading https://files.pythonhosted.org/packages/d1/40/edb4850724aa30cd791235741a3f968f515fe810266b98da3b4454291009/sesg-0.0.3.tar.gz
+[2023-04-18 06:49:10] INFO root fetch - processPackages [odoo-addon-l10n-fr-ecotaxe]: Downloading https://files.pythonhosted.org/packages/b1/0a/46837fa1fe2a0547045430f43669d5f65b452868630ff3f0643d7eda6d43/odoo_addon_l10n_fr_ecotaxe-15.0.1.0.0.8-py3-none-any.whl
+[2023-04-18 06:49:10] INFO root fetch - processPackages [sesg]: executing diffoscope
+[2023-04-18 06:49:10] INFO root fetch - processPackages [sesg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sesg-0.0.2.tar.gz tmp/sesg-0.0.3.tar.gz --markdown 20230418/s/sesg/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-18 06:49:10] INFO root fetch - processPackages [scalene]: executing diffoscope
+[2023-04-18 06:49:10] INFO root fetch - processPackages [scalene]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalene-1.5.8.tar.gz tmp/scalene-1.5.9.tar.gz --markdown 20230418/s/scalene/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-04-18 06:49:10] INFO root fetch - processPackages [html4quiz]: Downloading https://files.pythonhosted.org/packages/39/a2/c7797648ce24605a66e1366f30fba726bc735e9a5d7b6a65fa69af0965fe/html4quiz-0.0.30.tar.gz
+[2023-04-18 06:49:10] INFO root fetch - processPackages [html4quiz]: executing diffoscope
+[2023-04-18 06:49:10] INFO root fetch - processPackages [html4quiz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/html4quiz-0.0.29.tar.gz tmp/html4quiz-0.0.30.tar.gz --markdown 20230418/h/html4quiz/0.0.29-0.0.30/diff.md --exclude *.pyd
+[2023-04-18 06:49:10] INFO root fetch - processPackages [flake8-checker]: Downloading https://files.pythonhosted.org/packages/4a/d4/d7d5d2942f67363846c28fb97048eca27eef34c82a5fb84af4da18eee3dc/flake8-checker-0.0.3.tar.gz
+[2023-04-18 06:49:10] INFO root fetch - processPackages [torquepy]: Downloading https://files.pythonhosted.org/packages/2e/44/20b33be61bfc6880fd9c7f879938c95457792a369f803defc40aa16795c6/torquepy-0.3.tar.gz
+[2023-04-18 06:49:10] INFO root fetch - processPackages [flake8-checker]: executing diffoscope
+[2023-04-18 06:49:10] INFO root fetch - processPackages [flake8-checker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8-checker-0.0.2.tar.gz tmp/flake8-checker-0.0.3.tar.gz --markdown 20230418/f/flake8-checker/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-18 06:49:10] INFO root fetch - processPackages [torquepy]: executing diffoscope
+[2023-04-18 06:49:10] INFO root fetch - processPackages [torquepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torquepy-0.2.tar.gz tmp/torquepy-0.3.tar.gz --markdown 20230418/t/torquepy/0.2-0.3/diff.md --exclude *.pyd
+[2023-04-18 06:49:10] INFO root fetch - processPackages [odoo-addon-l10n-fr-ecotaxe]: Downloading https://files.pythonhosted.org/packages/0b/e4/5f522e94c6f51960cdeaa6255c79bc12db3f6893b1d47c58a82186e4b5d6/odoo_addon_l10n_fr_ecotaxe-15.0.1.0.0.9-py3-none-any.whl
+[2023-04-18 06:49:10] INFO root fetch - processPackages [cellmap]: executing diffoscope
+[2023-04-18 06:49:10] INFO root fetch - processPackages [cellmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmap-1.0.1.dev202304170945-py3-none-any.whl.zip tmp/cellmap-1.0.1.dev202304180446-py3-none-any.whl.zip --markdown 20230418/c/cellmap/1.0.1.dev202304170945-1.0.1.dev202304180446/diff.md --exclude *.pyd
+[2023-04-18 06:49:10] INFO root fetch - processPackages [odoo-addon-l10n-fr-ecotaxe]: executing diffoscope
+[2023-04-18 06:49:10] INFO root fetch - processPackages [odoo-addon-l10n-fr-ecotaxe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_fr_ecotaxe-15.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_l10n_fr_ecotaxe-15.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230418/o/odoo-addon-l10n-fr-ecotaxe/15.0.1.0.0.8-15.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-04-18 06:49:11] INFO root fetch - main [MainThread]: End processing [sesg]: success
+[2023-04-18 06:49:11] INFO root fetch - main [MainThread]: End processing [html4quiz]: success
+[2023-04-18 06:49:12] INFO root fetch - main [MainThread]: End processing [flake8-checker]: success
+[2023-04-18 06:49:12] INFO root fetch - main [MainThread]: End processing [torquepy]: success
+[2023-04-18 06:49:12] INFO root fetch - main [MainThread]: End processing [cellmap]: success
+[2023-04-18 06:49:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-fr-ecotaxe]: success
+[2023-04-18 06:49:12] INFO root fetch - main [MainThread]: End processing [deepdriver]: success
+[2023-04-18 06:49:14] INFO root fetch - main [MainThread]: End processing [scalene]: success
+[2023-04-18 06:49:14] INFO root fetch - main [MainThread]: Store serial: [17749688]
