@@ -8335,3 +8335,90 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 05:19:17] ERROR root fetch - processPackages [oci]: Timeout during execution of pkgdiff
 [2023-04-18 05:19:17] INFO root fetch - main [MainThread]: End processing [oci] error
 [2023-04-18 05:19:17] INFO root fetch - main [MainThread]: Store serial: [17749062]
+[2023-04-18 05:24:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17749062]
+[2023-04-18 05:24:26] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-18 05:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-autoscaling-gitlab-runner
+[2023-04-18 05:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: huscy.consents
+[2023-04-18 05:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: legion-cli
+[2023-04-18 05:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aa-structures
+[2023-04-18 05:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pr-review-bot
+[2023-04-18 05:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdktf-cdktf-provider-okta
+[2023-04-18 05:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ColabGeek
+[2023-04-18 05:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo12-addon-sale-commission
+[2023-04-18 05:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo13-addon-sale-commission
+[2023-04-18 05:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kindenty-base
+[2023-04-18 05:24:26] INFO root fetch - processPackages [legion-cli]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-04-18 05:24:26] INFO root fetch - processPackages [odoo13-addon-sale-commission]: New version: [13.0.1.8.1.dev5] Old Version: [13.0.1.8.1.dev4]
+[2023-04-18 05:24:26] INFO root fetch - processPackages [huscy.consents]: New version: [0.7.0a18] Old Version: [0.7.0a17]
+[2023-04-18 05:24:26] INFO root fetch - processPackages [aa-structures]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-04-18 05:24:26] INFO root fetch - processPackages [odoo12-addon-sale-commission]: New version: [12.0.3.3.2.99.dev4] Old Version: [12.0.3.3.2.99.dev3]
+[2023-04-18 05:24:26] INFO root fetch - processPackages [pr-review-bot]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-18 05:24:26] INFO root fetch - processPackages [ColabGeek]: New version: [1.1.1] Old Version: [1.0.2]
+[2023-04-18 05:24:26] INFO root fetch - processPackages [kindenty-base]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-18 05:24:26] INFO root fetch - processPackages [cdktf-cdktf-provider-okta]: New version: [6.0.0] Old Version: [5.0.5]
+[2023-04-18 05:24:26] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-04-18 05:24:26] INFO root fetch - processPackages [legion-cli]: Downloading https://files.pythonhosted.org/packages/0c/76/4f4ae91fd3a579286d1295ddf59dbb5a4d4bd6a94410ef811276299a26d4/legion-cli-0.2.6.tar.gz
+[2023-04-18 05:24:26] INFO root fetch - processPackages [huscy.consents]: Downloading https://files.pythonhosted.org/packages/5a/50/73c9b604b5ec4e647b93db5d3a7580e827b73c482332227feeb3a835b4a5/huscy.consents-0.7.0a17.tar.gz
+[2023-04-18 05:24:26] INFO root fetch - processPackages [cdktf-cdktf-provider-okta]: Downloading https://files.pythonhosted.org/packages/f3/6d/f1b340b686402c1644c1bf6efbaa7311e4affc234cf29aa648786fc3d062/cdktf-cdktf-provider-okta-5.0.5.tar.gz
+[2023-04-18 05:24:26] INFO root fetch - processPackages [kindenty-base]: Downloading https://files.pythonhosted.org/packages/d8/f1/25fd412ec34280da66e11935b1afdf4a96d789bb145544262bc9541d69e2/kindenty_base-0.1.8.tar.gz
+[2023-04-18 05:24:26] INFO root fetch - processPackages [aa-structures]: Downloading https://files.pythonhosted.org/packages/e5/c8/783dade1268ab76f75a47d70885c508966efee4e9ce3397857b747ea7cdb/aa-structures-2.1.0.tar.gz
+[2023-04-18 05:24:26] INFO root fetch - processPackages [ColabGeek]: Downloading https://files.pythonhosted.org/packages/e7/fd/484cf3bedc97222c9634c77db60fa40835790fe69d41fff2f7d05466df9d/ColabGeek-1.1.1.tar.gz
+[2023-04-18 05:24:26] INFO root fetch - processPackages [pr-review-bot]: Downloading https://files.pythonhosted.org/packages/32/6b/8c9b0f65513d99f385428c63abda696051d1636c3ec2398fef07998d3015/pr-review-bot-0.2.1.tar.gz
+[2023-04-18 05:24:26] INFO root fetch - processPackages [odoo12-addon-sale-commission]: Downloading https://files.pythonhosted.org/packages/ed/c8/4304e714be31e55e5bdca4ae561e3223d90ec2291676898a04795a555f52/odoo12_addon_sale_commission-12.0.3.3.2.99.dev4-py3-none-any.whl
+[2023-04-18 05:24:26] INFO root fetch - processPackages [odoo13-addon-sale-commission]: Downloading https://files.pythonhosted.org/packages/90/13/3bbd902bac8293a6beee83ec925fb2cdebbf1b5d4844561aaae30fcdf0b0/odoo13_addon_sale_commission-13.0.1.8.1.dev5-py3-none-any.whl
+[2023-04-18 05:24:26] INFO root fetch - processPackages [legion-cli]: Downloading https://files.pythonhosted.org/packages/4f/a0/2e066e244ce7a77cbd97600f2b9bded6d8a10636a514c1bd887696d39daf/legion-cli-0.2.7.tar.gz
+[2023-04-18 05:24:26] INFO root fetch - processPackages [ColabGeek]: executing diffoscope
+[2023-04-18 05:24:26] INFO root fetch - processPackages [ColabGeek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ColabGeek-1.0.2.tar.gz tmp/ColabGeek-1.1.1.tar.gz --markdown 20230418/C/ColabGeek/1.0.2-1.1.1/diff.md --exclude *.pyd
+[2023-04-18 05:24:26] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: executing diffoscope
+[2023-04-18 05:24:26] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz --markdown 20230418/p/pepperize.cdk-autoscaling-gitlab-runner/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-04-18 05:24:26] INFO root fetch - processPackages [aa-structures]: Downloading https://files.pythonhosted.org/packages/d8/d0/c7ed3cffc3edc2b8fb169ceb2fb9674c00170976a40f5325d22a32b24474/aa_structures-2.2.0.tar.gz
+[2023-04-18 05:24:26] INFO root fetch - processPackages [pr-review-bot]: executing diffoscope
+[2023-04-18 05:24:26] INFO root fetch - processPackages [pr-review-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pr-review-bot-0.2.0.tar.gz tmp/pr-review-bot-0.2.1.tar.gz --markdown 20230418/p/pr-review-bot/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-18 05:24:26] INFO root fetch - processPackages [kindenty-base]: Downloading https://files.pythonhosted.org/packages/7e/3a/fbcbd1cbd8d43f51b059906b8c8f55792fd62ddb6409cc657177f32ac622/kindenty_base-0.1.9.tar.gz
+[2023-04-18 05:24:26] INFO root fetch - processPackages [huscy.consents]: Downloading https://files.pythonhosted.org/packages/6a/5d/0f6603f7ccd69758aa7c11a10c0ce6a10e8cdddd1096815afb9fc4f397bc/huscy.consents-0.7.0a18.tar.gz
+[2023-04-18 05:24:26] INFO root fetch - processPackages [legion-cli]: executing diffoscope
+[2023-04-18 05:24:26] INFO root fetch - processPackages [legion-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/legion-cli-0.2.6.tar.gz tmp/legion-cli-0.2.7.tar.gz --markdown 20230418/l/legion-cli/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-04-18 05:24:26] INFO root fetch - processPackages [odoo12-addon-sale-commission]: executing diffoscope
+[2023-04-18 05:24:26] INFO root fetch - processPackages [odoo12-addon-sale-commission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_sale_commission-12.0.3.3.2.99.dev3-py3-none-any.whl.zip tmp/odoo12_addon_sale_commission-12.0.3.3.2.99.dev4-py3-none-any.whl.zip --markdown 20230418/o/odoo12-addon-sale-commission/12.0.3.3.2.99.dev3-12.0.3.3.2.99.dev4/diff.md --exclude *.pyd
+[2023-04-18 05:24:26] INFO root fetch - processPackages [kindenty-base]: executing diffoscope
+[2023-04-18 05:24:26] INFO root fetch - processPackages [kindenty-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kindenty_base-0.1.8.tar.gz tmp/kindenty_base-0.1.9.tar.gz --markdown 20230418/k/kindenty-base/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-18 05:24:26] INFO root fetch - processPackages [odoo13-addon-sale-commission]: executing diffoscope
+[2023-04-18 05:24:26] INFO root fetch - processPackages [odoo13-addon-sale-commission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_sale_commission-13.0.1.8.1.dev4-py3-none-any.whl.zip tmp/odoo13_addon_sale_commission-13.0.1.8.1.dev5-py3-none-any.whl.zip --markdown 20230418/o/odoo13-addon-sale-commission/13.0.1.8.1.dev4-13.0.1.8.1.dev5/diff.md --exclude *.pyd
+[2023-04-18 05:24:26] INFO root fetch - processPackages [aa-structures]: executing diffoscope
+[2023-04-18 05:24:26] INFO root fetch - processPackages [aa-structures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa-structures-2.1.0.tar.gz tmp/aa_structures-2.2.0.tar.gz --markdown 20230418/a/aa-structures/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-04-18 05:24:26] INFO root fetch - processPackages [cdktf-cdktf-provider-okta]: Downloading https://files.pythonhosted.org/packages/73/a4/8f98995f2c0801b53b1e7a424dfe61996a0059315d3a3476a792a17aedfe/cdktf-cdktf-provider-okta-6.0.0.tar.gz
+[2023-04-18 05:24:27] INFO root fetch - processPackages [huscy.consents]: executing diffoscope
+[2023-04-18 05:24:27] INFO root fetch - processPackages [huscy.consents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huscy.consents-0.7.0a17.tar.gz tmp/huscy.consents-0.7.0a18.tar.gz --markdown 20230418/h/huscy.consents/0.7.0a17-0.7.0a18/diff.md --exclude *.pyd
+[2023-04-18 05:24:28] INFO root fetch - processPackages [cdktf-cdktf-provider-okta]: executing diffoscope
+[2023-04-18 05:24:28] INFO root fetch - processPackages [cdktf-cdktf-provider-okta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-okta-5.0.5.tar.gz tmp/cdktf-cdktf-provider-okta-6.0.0.tar.gz --markdown 20230418/c/cdktf-cdktf-provider-okta/5.0.5-6.0.0/diff.md --exclude *.pyd
+[2023-04-18 05:24:28] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Start processing: Sajad-Alkwaz
+[2023-04-18 05:24:28] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-autoscaling-gitlab-runner]: success
+[2023-04-18 05:24:28] WARNING root fetch - processPackages [Sajad-Alkwaz]: Skipping, unable to determine old version
+[2023-04-18 05:24:28] INFO root fetch - processPackages [Sajad-Alkwaz]: Start processing: i3dFeatureExtraction
+[2023-04-18 05:24:28] INFO root fetch - main [MainThread]: End processing [Sajad-Alkwaz] error
+[2023-04-18 05:24:28] INFO root fetch - processPackages [i3dFeatureExtraction]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-18 05:24:28] INFO root fetch - processPackages [ColabGeek]: Start processing: sqlmesh
+[2023-04-18 05:24:28] INFO root fetch - main [MainThread]: End processing [ColabGeek]: success
+[2023-04-18 05:24:28] INFO root fetch - processPackages [sqlmesh]: New version: [0.4.2.dev9] Old Version: [0.4.2.dev10]
+[2023-04-18 05:24:28] INFO root fetch - processPackages [sqlmesh]: Downloading https://files.pythonhosted.org/packages/45/e8/2edbf4f137e8dd17ab20d980fe90aee62e7df33900eb34beeb7e7ff494ef/sqlmesh-0.4.2.dev10.tar.gz
+[2023-04-18 05:24:28] INFO root fetch - processPackages [i3dFeatureExtraction]: Downloading https://files.pythonhosted.org/packages/1a/fd/c5dd88310b4d917836747608280df9ad7eff4ec5677df68da0848922bf7c/i3dFeatureExtraction-0.2.4.tar.gz
+[2023-04-18 05:24:28] INFO root fetch - processPackages [pr-review-bot]: Start processing: pepperize.cdk-autoscaling-gitlab-runner
+[2023-04-18 05:24:28] INFO root fetch - main [MainThread]: End processing [pr-review-bot]: success
+[2023-04-18 05:24:28] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-04-18 05:24:28] INFO root fetch - main [MainThread]: End processing [legion-cli]: success
+[2023-04-18 05:24:28] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: executing diffoscope
+[2023-04-18 05:24:28] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz --markdown 20230418/p/pepperize.cdk-autoscaling-gitlab-runner/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-04-18 05:24:28] INFO root fetch - processPackages [i3dFeatureExtraction]: executing diffoscope
+[2023-04-18 05:24:28] INFO root fetch - processPackages [i3dFeatureExtraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i3dFeatureExtraction-0.2.3.tar.gz tmp/i3dFeatureExtraction-0.2.4.tar.gz --markdown 20230418/i/i3dFeatureExtraction/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-18 05:24:28] INFO root fetch - main [MainThread]: End processing [kindenty-base]: success
+[2023-04-18 05:24:28] INFO root fetch - main [MainThread]: End processing [odoo12-addon-sale-commission]: success
+[2023-04-18 05:24:28] INFO root fetch - main [MainThread]: End processing [odoo13-addon-sale-commission]: success
+[2023-04-18 05:24:29] INFO root fetch - main [MainThread]: End processing [huscy.consents]: success
+[2023-04-18 05:24:29] INFO root fetch - processPackages [sqlmesh]: executing diffoscope
+[2023-04-18 05:24:29] INFO root fetch - processPackages [sqlmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlmesh-0.4.2.dev10.tar.gz tmp/sqlmesh-0.4.2.dev9.tar.gz --markdown 20230418/s/sqlmesh/0.4.2.dev10-0.4.2.dev9/diff.md --exclude *.pyd
+[2023-04-18 05:24:29] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-autoscaling-gitlab-runner]: success
+[2023-04-18 05:24:29] INFO root fetch - main [MainThread]: End processing [i3dFeatureExtraction]: success
+[2023-04-18 05:24:31] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-okta]: success
+[2023-04-18 05:24:31] INFO root fetch - main [MainThread]: End processing [aa-structures]: success
+[2023-04-18 05:24:34] INFO root fetch - main [MainThread]: End processing [sqlmesh]: success
+[2023-04-18 05:24:34] INFO root fetch - main [MainThread]: Store serial: [17749110]
