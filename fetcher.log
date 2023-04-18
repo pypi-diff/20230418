@@ -9689,3 +9689,62 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 06:59:41] INFO root fetch - main [MainThread]: End processing [hugegraph-python]: success
 [2023-04-18 06:59:42] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-intrastat]: success
 [2023-04-18 06:59:42] INFO root fetch - main [MainThread]: Store serial: [17749759]
+[2023-04-18 07:04:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17749759]
+[2023-04-18 07:04:51] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-18 07:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flowclient
+[2023-04-18 07:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flowetl
+[2023-04-18 07:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flowmachine
+[2023-04-18 07:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flare-explorer-python
+[2023-04-18 07:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: roblox-py-wrapper
+[2023-04-18 07:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: plutous-trade-crypto
+[2023-04-18 07:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dask-cuda
+[2023-04-18 07:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: david-rust-bin-pypi-test
+[2023-04-18 07:04:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rapid-pe
+[2023-04-18 07:04:51] INFO root fetch - processPackages [roblox-py-wrapper]: New version: [2.0.7] Old Version: [2.0.5]
+[2023-04-18 07:04:51] INFO root fetch - processPackages [flare-explorer-python]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-18 07:04:51] INFO root fetch - processPackages [david-rust-bin-pypi-test]: New version: [2020.0.1] Old Version: [2020.0.0]
+[2023-04-18 07:04:51] INFO root fetch - processPackages [plutous-trade-crypto]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-18 07:04:51] INFO root fetch - processPackages [flowetl]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-04-18 07:04:51] INFO root fetch - processPackages [flowclient]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-04-18 07:04:51] INFO root fetch - processPackages [flowmachine]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-04-18 07:04:51] INFO root fetch - processPackages [dask-cuda]: New version: [23.6.0a230417] Old Version: [23.6.0a230328]
+[2023-04-18 07:04:51] INFO root fetch - processPackages [david-rust-bin-pypi-test]: Downloading https://files.pythonhosted.org/packages/f1/d7/5ff3ac74faa87276b84d3c785dc8befb6ac080dab34d510989958053da07/david-rust-bin-pypi-test-2020.0.0.tar.gz
+[2023-04-18 07:04:51] INFO root fetch - processPackages [roblox-py-wrapper]: Downloading https://files.pythonhosted.org/packages/f5/00/3227368905cf92b705bc25170e38642781b261c0fae429031f55bdc8c939/roblox-py-wrapper-2.0.5.tar.gz
+[2023-04-18 07:04:51] INFO root fetch - processPackages [flowmachine]: executing diffoscope
+[2023-04-18 07:04:51] INFO root fetch - processPackages [flowmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230418/f/flowmachine/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-04-18 07:04:51] INFO root fetch - processPackages [flare-explorer-python]: Downloading https://files.pythonhosted.org/packages/dd/a5/8e009f3e305182801dc00ddfb9240af730b2b0c15a4859c2f82d7c1989e3/flare_explorer_python-0.1.1.tar.gz
+[2023-04-18 07:04:51] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/bf/dd/f5ad3fb71cb852ae5c93371e17d0fa141b1880dae72761965c0053ad1cf0/plutous_trade_crypto-0.0.5.tar.gz
+[2023-04-18 07:04:51] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/a5/22/39d0a09d0b2377686423f31573e4eba7e8e4bb2b3380b91a5986f0ed5f9e/dask-cuda-23.6.0a230328.tar.gz
+[2023-04-18 07:04:51] INFO root fetch - processPackages [rapid-pe]: New version: [0.0.7.dev20230418] Old Version: [0.0.7.dev20230417]
+[2023-04-18 07:04:51] INFO root fetch - processPackages [flowetl]: executing diffoscope
+[2023-04-18 07:04:51] INFO root fetch - processPackages [flowetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230418/f/flowetl/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-04-18 07:04:51] INFO root fetch - processPackages [david-rust-bin-pypi-test]: Downloading https://files.pythonhosted.org/packages/0a/db/f1d7156e034da7c594dffa2c4584b64351ba88a85d763a2ec79a65492df2/david-rust-bin-pypi-test-2020.0.1.tar.gz
+[2023-04-18 07:04:51] INFO root fetch - processPackages [flowclient]: executing diffoscope
+[2023-04-18 07:04:51] INFO root fetch - processPackages [flowclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230418/f/flowclient/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-04-18 07:04:51] INFO root fetch - processPackages [roblox-py-wrapper]: Downloading https://files.pythonhosted.org/packages/43/29/a50f5c3117616b60ae217defd39861c5df76fc6d8f3849afc6e86424914f/roblox-py-wrapper-2.0.7.tar.gz
+[2023-04-18 07:04:51] INFO root fetch - processPackages [flare-explorer-python]: Downloading https://files.pythonhosted.org/packages/57/e5/75015af39fee1a88c8bdfd2951295719732447b46e8f6e2b2e87a1b9664d/flare_explorer_python-0.1.2.tar.gz
+[2023-04-18 07:04:51] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/29/23/ac3946023929c89e778a07e23e9246aa12d6ed6d3a0c469f87b9504febe2/plutous_trade_crypto-0.0.6.tar.gz
+[2023-04-18 07:04:51] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/44/58/2931e0676d126b67d8cc12cc74b8d80464540c2f801a32fcf8e9174b1906/dask-cuda-23.6.0a230417.tar.gz
+[2023-04-18 07:04:51] INFO root fetch - processPackages [david-rust-bin-pypi-test]: executing diffoscope
+[2023-04-18 07:04:51] INFO root fetch - processPackages [david-rust-bin-pypi-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/david-rust-bin-pypi-test-2020.0.0.tar.gz tmp/david-rust-bin-pypi-test-2020.0.1.tar.gz --markdown 20230418/d/david-rust-bin-pypi-test/2020.0.0-2020.0.1/diff.md --exclude *.pyd
+[2023-04-18 07:04:51] INFO root fetch - processPackages [flare-explorer-python]: executing diffoscope
+[2023-04-18 07:04:51] INFO root fetch - processPackages [flare-explorer-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flare_explorer_python-0.1.1.tar.gz tmp/flare_explorer_python-0.1.2.tar.gz --markdown 20230418/f/flare-explorer-python/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-18 07:04:51] INFO root fetch - processPackages [plutous-trade-crypto]: executing diffoscope
+[2023-04-18 07:04:51] INFO root fetch - processPackages [plutous-trade-crypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plutous_trade_crypto-0.0.5.tar.gz tmp/plutous_trade_crypto-0.0.6.tar.gz --markdown 20230418/p/plutous-trade-crypto/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-18 07:04:51] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-04-18 07:04:51] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.6.0a230328.tar.gz tmp/dask-cuda-23.6.0a230417.tar.gz --markdown 20230418/d/dask-cuda/23.6.0a230328-23.6.0a230417/diff.md --exclude *.pyd
+[2023-04-18 07:04:51] INFO root fetch - processPackages [roblox-py-wrapper]: executing diffoscope
+[2023-04-18 07:04:51] INFO root fetch - processPackages [roblox-py-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-py-wrapper-2.0.5.tar.gz tmp/roblox-py-wrapper-2.0.7.tar.gz --markdown 20230418/r/roblox-py-wrapper/2.0.5-2.0.7/diff.md --exclude *.pyd
+[2023-04-18 07:04:52] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/1e/03/5169098a585b054bfe87f6567e055a193578b078ab2b261b7620fd00ddff/rapid_pe-0.0.7.dev20230418-py3-none-any.whl
+[2023-04-18 07:04:52] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-04-18 07:04:52] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.0.7.dev20230417.tar.gz tmp/rapid_pe-0.0.7.dev20230418-py3-none-any.whl.zip --markdown 20230418/r/rapid-pe/0.0.7.dev20230417-0.0.7.dev20230418/diff.md --exclude *.pyd
+[2023-04-18 07:04:53] INFO root fetch - main [MainThread]: End processing [flowetl]: success
+[2023-04-18 07:04:53] INFO root fetch - main [MainThread]: End processing [flowclient]: success
+[2023-04-18 07:04:53] INFO root fetch - main [MainThread]: End processing [david-rust-bin-pypi-test]: success
+[2023-04-18 07:04:53] INFO root fetch - main [MainThread]: End processing [roblox-py-wrapper]: success
+[2023-04-18 07:04:53] INFO root fetch - main [MainThread]: End processing [flare-explorer-python]: success
+[2023-04-18 07:04:53] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-04-18 07:04:53] INFO root fetch - main [MainThread]: End processing [plutous-trade-crypto]: success
+[2023-04-18 07:04:53] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
+[2023-04-18 07:04:54] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-04-18 07:04:54] INFO root fetch - main [MainThread]: Store serial: [17749783]
