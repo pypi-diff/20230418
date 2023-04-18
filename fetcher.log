@@ -17509,3 +17509,93 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 100: invali
 [2023-04-18 12:06:38] INFO root fetch - main [MainThread]: End processing [aiofauna]: success
 [2023-04-18 12:06:40] INFO root fetch - main [MainThread]: End processing [returnn]: success
 [2023-04-18 12:06:40] INFO root fetch - main [MainThread]: Store serial: [17754079]
+[2023-04-18 12:11:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17754079]
+[2023-04-18 12:11:49] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-18 12:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easyvalid-data-validator
+[2023-04-18 12:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: docarray
+[2023-04-18 12:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fusesoc
+[2023-04-18 12:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: carefree-drawboard
+[2023-04-18 12:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fooder
+[2023-04-18 12:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ja2mqtt
+[2023-04-18 12:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pritunl-api
+[2023-04-18 12:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: arkitekt
+[2023-04-18 12:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-sale-coupon-partner
+[2023-04-18 12:11:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: numbers-c2pa
+[2023-04-18 12:11:49] INFO root fetch - processPackages [easyvalid-data-validator]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-04-18 12:11:49] INFO root fetch - processPackages [carefree-drawboard]: New version: [0.0.0a4] Old Version: [0.0.0a3]
+[2023-04-18 12:11:49] INFO root fetch - processPackages [fusesoc]: New version: [2.2] Old Version: [2.1]
+[2023-04-18 12:11:49] WARNING root fetch - processPackages [odoo14-addon-sale-coupon-partner]: Skipping, unable to determine old version
+[2023-04-18 12:11:49] WARNING root fetch - processPackages [numbers-c2pa]: Skipping, unable to determine old version
+[2023-04-18 12:11:49] INFO root fetch - processPackages [odoo14-addon-sale-coupon-partner]: Start processing: customized-chart
+[2023-04-18 12:11:49] INFO root fetch - processPackages [fooder]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-18 12:11:49] INFO root fetch - processPackages [numbers-c2pa]: Start processing: xlibs
+[2023-04-18 12:11:49] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-coupon-partner] error
+[2023-04-18 12:11:49] INFO root fetch - processPackages [pritunl-api]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-18 12:11:49] INFO root fetch - main [MainThread]: End processing [numbers-c2pa] error
+[2023-04-18 12:11:49] WARNING root fetch - processPackages [ja2mqtt]: Skipping, unable to determine old version
+[2023-04-18 12:11:49] INFO root fetch - processPackages [ja2mqtt]: Start processing: CTADIRAC
+[2023-04-18 12:11:49] INFO root fetch - main [MainThread]: End processing [ja2mqtt] error
+[2023-04-18 12:11:50] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-04-18 12:11:50] INFO root fetch - processPackages [arkitekt]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-18 12:11:50] INFO root fetch - processPackages [xlibs]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-18 12:11:50] INFO root fetch - processPackages [CTADIRAC]: New version: [2.2a3] Old Version: [2.2.9]
+[2023-04-18 12:11:50] INFO root fetch - processPackages [customized-chart]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-18 12:11:50] INFO root fetch - processPackages [arkitekt]: executing diffoscope
+[2023-04-18 12:11:50] INFO root fetch - processPackages [CTADIRAC]: executing diffoscope
+[2023-04-18 12:11:50] INFO root fetch - processPackages [arkitekt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkitekt-0.4.8.tar.gz tmp/arkitekt-0.4.9.tar.gz --markdown 20230418/a/arkitekt/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-18 12:11:50] INFO root fetch - processPackages [CTADIRAC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CTADIRAC-2.2.9.tar.gz tmp/CTADIRAC-2.2a3.tar.gz --markdown 20230418/C/CTADIRAC/2.2.9-2.2a3/diff.md --exclude *.pyd
+[2023-04-18 12:11:50] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-04-18 12:11:50] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230418/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-04-18 12:11:50] INFO root fetch - processPackages [fooder]: Downloading https://files.pythonhosted.org/packages/de/9e/deef0945e0fe63be75fb2a0ed2d9c7e7609cd715f3b98f49d71aab4821a3/fooder-0.0.1.tar.gz
+[2023-04-18 12:11:50] INFO root fetch - processPackages [fusesoc]: Downloading https://files.pythonhosted.org/packages/9f/df/6ac6839988731ec3a88219b63f16063529156aa7e04eb1b87a15b10100db/fusesoc-2.1.tar.gz
+[2023-04-18 12:11:50] INFO root fetch - processPackages [xlibs]: Downloading https://files.pythonhosted.org/packages/4c/88/bb78a3aeaba40887fb1591608e5bf7e69c71da28ffbc69d6047dfa31a977/xlibs-0.0.3-py3-none-any.whl
+[2023-04-18 12:11:50] INFO root fetch - processPackages [customized-chart]: Downloading https://files.pythonhosted.org/packages/30/cc/ccc12431f943b5dd6c9d8a043111f08ecead9a1329a2a3312642f7a20972/customized_chart-0.1.8.tar.gz
+[2023-04-18 12:11:50] INFO root fetch - processPackages [carefree-drawboard]: Downloading https://files.pythonhosted.org/packages/35/28/6add9b00a17f9c6d6ed2a85007279a406a9d98a697d01468a0a8965df6ed/carefree-drawboard-0.0.0a4.tar.gz
+[2023-04-18 12:11:50] INFO root fetch - processPackages [easyvalid-data-validator]: Downloading https://files.pythonhosted.org/packages/b6/26/4b4f2a3ffe8d371663c1382229520883b47c7f8bac3fbcbbc6bc436b1707/easyvalid_data_validator-2.0.1.tar.gz
+[2023-04-18 12:11:50] INFO root fetch - processPackages [pritunl-api]: Downloading https://files.pythonhosted.org/packages/44/8b/478c23e10d83f9375b994b6d60ae68e85efda2108021bf3dec9664c6fa74/pritunl_api-1.1.9.tar.gz
+[2023-04-18 12:11:50] INFO root fetch - processPackages [xlibs]: executing diffoscope
+[2023-04-18 12:11:50] INFO root fetch - processPackages [xlibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xlibs-0.0.2-py3-none-any.whl.zip tmp/xlibs-0.0.3-py3-none-any.whl.zip --markdown 20230418/x/xlibs/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-18 12:11:50] INFO root fetch - processPackages [carefree-drawboard]: executing diffoscope
+[2023-04-18 12:11:50] INFO root fetch - processPackages [carefree-drawboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carefree-drawboard-0.0.0a3.tar.gz tmp/carefree-drawboard-0.0.0a4.tar.gz --markdown 20230418/c/carefree-drawboard/0.0.0a3-0.0.0a4/diff.md --exclude *.pyd
+[2023-04-18 12:11:50] INFO root fetch - processPackages [fusesoc]: Downloading https://files.pythonhosted.org/packages/a2/41/05c52688dd08d4c0c61dc052ad3790346c7d3b97ccc4c2a1aa4281d65156/fusesoc-2.2.tar.gz
+[2023-04-18 12:11:50] INFO root fetch - processPackages [easyvalid-data-validator]: executing diffoscope
+[2023-04-18 12:11:50] INFO root fetch - processPackages [easyvalid-data-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyvalid_data_validator-2.0.0.tar.gz tmp/easyvalid_data_validator-2.0.1.tar.gz --markdown 20230418/e/easyvalid-data-validator/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-04-18 12:11:50] INFO root fetch - processPackages [fooder]: Downloading https://files.pythonhosted.org/packages/f7/cb/a4015eec509a604d84652dc10d4311101af1112f53140e60b083d0c81327/fooder-0.0.2.tar.gz
+[2023-04-18 12:11:50] INFO root fetch - processPackages [pritunl-api]: executing diffoscope
+[2023-04-18 12:11:50] INFO root fetch - processPackages [pritunl-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pritunl_api-1.1.8.tar.gz tmp/pritunl_api-1.1.9.tar.gz --markdown 20230418/p/pritunl-api/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-18 12:11:50] INFO root fetch - processPackages [customized-chart]: Downloading https://files.pythonhosted.org/packages/e1/66/ff97e25c15ad51dd82aea2033342b77df9f13ed226ec02d006ab123cfa52/customized_chart-0.1.9.tar.gz
+[2023-04-18 12:11:50] INFO root fetch - processPackages [fooder]: executing diffoscope
+[2023-04-18 12:11:50] INFO root fetch - processPackages [fooder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fooder-0.0.1.tar.gz tmp/fooder-0.0.2.tar.gz --markdown 20230418/f/fooder/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-18 12:11:50] INFO root fetch - processPackages [fusesoc]: executing diffoscope
+[2023-04-18 12:11:50] INFO root fetch - processPackages [fusesoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fusesoc-2.1.tar.gz tmp/fusesoc-2.2.tar.gz --markdown 20230418/f/fusesoc/2.1-2.2/diff.md --exclude *.pyd
+[2023-04-18 12:11:50] INFO root fetch - processPackages [customized-chart]: executing diffoscope
+[2023-04-18 12:11:50] INFO root fetch - processPackages [customized-chart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/customized_chart-0.1.8.tar.gz tmp/customized_chart-0.1.9.tar.gz --markdown 20230418/c/customized-chart/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-18 12:11:51] INFO root fetch - processPackages [xlibs]: Start processing: w2w-ecs-autopublish-dummy
+[2023-04-18 12:11:51] INFO root fetch - main [MainThread]: End processing [xlibs]: success
+[2023-04-18 12:11:51] INFO root fetch - processPackages [w2w-ecs-autopublish-dummy]: New version: [0.0.8] Old Version: [0.0.6]
+[2023-04-18 12:11:51] INFO root fetch - processPackages [arkitekt]: Start processing: lusid-configuration-sdk-preview
+[2023-04-18 12:11:51] INFO root fetch - main [MainThread]: End processing [arkitekt]: success
+[2023-04-18 12:11:52] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: New version: [0.1.429] Old Version: [0.1.428]
+[2023-04-18 12:11:52] INFO root fetch - processPackages [w2w-ecs-autopublish-dummy]: Downloading https://files.pythonhosted.org/packages/77/79/9e7b9732612d092e84e83852698df6aa71877e1432039fa71dfe15afa563/w2w_ecs_autopublish_dummy-0.0.8.tar.gz
+[2023-04-18 12:11:52] INFO root fetch - processPackages [pritunl-api]: Start processing: fwdviewpy
+[2023-04-18 12:11:52] INFO root fetch - main [MainThread]: End processing [pritunl-api]: success
+[2023-04-18 12:11:52] INFO root fetch - main [MainThread]: End processing [easyvalid-data-validator]: success
+[2023-04-18 12:11:52] INFO root fetch - processPackages [fwdviewpy]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-18 12:11:52] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: Downloading https://files.pythonhosted.org/packages/88/f4/ff7436e6596c7ffa0615b42aeb9b5f0e2e356516355deed7409b98b3a815/lusid-configuration-sdk-preview-0.1.428.tar.gz
+[2023-04-18 12:11:52] INFO root fetch - processPackages [w2w-ecs-autopublish-dummy]: executing diffoscope
+[2023-04-18 12:11:52] INFO root fetch - processPackages [w2w-ecs-autopublish-dummy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/w2w_ecs_autopublish_dummy-0.0.6.tar.gz tmp/w2w_ecs_autopublish_dummy-0.0.8.tar.gz --markdown 20230418/w/w2w-ecs-autopublish-dummy/0.0.6-0.0.8/diff.md --exclude *.pyd
+[2023-04-18 12:11:52] INFO root fetch - processPackages [fwdviewpy]: executing diffoscope
+[2023-04-18 12:11:52] INFO root fetch - processPackages [fwdviewpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fwdviewpy-0.1.2.tar.gz tmp/fwdviewpy-0.1.3.tar.gz --markdown 20230418/f/fwdviewpy/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-18 12:11:52] INFO root fetch - main [MainThread]: End processing [fooder]: success
+[2023-04-18 12:11:52] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: Downloading https://files.pythonhosted.org/packages/94/3e/d658d0a742ab450351521f027a65df11af026c5b991128c9b1bb0786e281/lusid-configuration-sdk-preview-0.1.429.tar.gz
+[2023-04-18 12:11:52] INFO root fetch - main [MainThread]: End processing [carefree-drawboard]: success
+[2023-04-18 12:11:52] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: executing diffoscope
+[2023-04-18 12:11:52] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-configuration-sdk-preview-0.1.428.tar.gz tmp/lusid-configuration-sdk-preview-0.1.429.tar.gz --markdown 20230418/l/lusid-configuration-sdk-preview/0.1.428-0.1.429/diff.md --exclude *.pyd
+[2023-04-18 12:11:53] INFO root fetch - main [MainThread]: End processing [fwdviewpy]: success
+[2023-04-18 12:11:53] INFO root fetch - main [MainThread]: End processing [w2w-ecs-autopublish-dummy]: success
+[2023-04-18 12:11:53] INFO root fetch - main [MainThread]: End processing [customized-chart]: success
+[2023-04-18 12:11:53] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-04-18 12:11:54] INFO root fetch - main [MainThread]: End processing [lusid-configuration-sdk-preview]: success
+[2023-04-18 12:11:54] INFO root fetch - main [MainThread]: End processing [CTADIRAC]: success
+[2023-04-18 12:11:55] INFO root fetch - main [MainThread]: End processing [fusesoc]: success
+[2023-04-18 12:11:55] INFO root fetch - main [MainThread]: Store serial: [17754157]
