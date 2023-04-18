@@ -9407,3 +9407,64 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 06:33:02] INFO root fetch - main [MainThread]: End processing [odoo14-addon-document-page]: success
 [2023-04-18 06:33:03] INFO root fetch - main [MainThread]: End processing [rabbitizer]: success
 [2023-04-18 06:33:03] INFO root fetch - main [MainThread]: Store serial: [17749607]
+[2023-04-18 06:38:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17749607]
+[2023-04-18 06:38:12] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-18 06:38:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lexica-arts
+[2023-04-18 06:38:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: network-scanner-kbk
+[2023-04-18 06:38:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-aws
+[2023-04-18 06:38:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: n0struct
+[2023-04-18 06:38:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bnipython
+[2023-04-18 06:38:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: geo-espresso
+[2023-04-18 06:38:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lexica-arts
+[2023-04-18 06:38:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lightningchart
+[2023-04-18 06:38:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ZenithCore
+[2023-04-18 06:38:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pipster
+[2023-04-18 06:38:12] INFO root fetch - processPackages [lexica-arts]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-18 06:38:12] INFO root fetch - processPackages [lexica-arts]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-18 06:38:12] INFO root fetch - processPackages [network-scanner-kbk]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-04-18 06:38:12] WARNING root fetch - processPackages [ZenithCore]: Skipping, unable to determine old version
+[2023-04-18 06:38:12] INFO root fetch - main [MainThread]: End processing [ZenithCore] error
+[2023-04-18 06:38:12] INFO root fetch - processPackages [lightningchart]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-04-18 06:38:12] INFO root fetch - processPackages [pipster]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-04-18 06:38:12] INFO root fetch - processPackages [bnipython]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-04-18 06:38:12] INFO root fetch - processPackages [n0struct]: New version: [0.2.92] Old Version: [0.2.91]
+[2023-04-18 06:38:12] INFO root fetch - processPackages [geo-espresso]: New version: [0.2.2.dev1] Old Version: [0.2.2.dev0]
+[2023-04-18 06:38:12] INFO root fetch - processPackages [pulumi-aws]: New version: [5.9.2] Old Version: [5.9.1]
+[2023-04-18 06:38:12] INFO root fetch - processPackages [network-scanner-kbk]: executing diffoscope
+[2023-04-18 06:38:12] INFO root fetch - processPackages [network-scanner-kbk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/network_scanner_kbk-0.0.7.tar.gz tmp/network_scanner_kbk-0.0.9.tar.gz --markdown 20230418/n/network-scanner-kbk/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-04-18 06:38:12] INFO root fetch - processPackages [lexica-arts]: Downloading https://files.pythonhosted.org/packages/68/59/50e2bdec7e4db1b762ce9bbf9a34ab06af0fa86386676c9314888532c69e/lexica_arts-0.1.0.tar.gz
+[2023-04-18 06:38:12] INFO root fetch - processPackages [lexica-arts]: Downloading https://files.pythonhosted.org/packages/68/59/50e2bdec7e4db1b762ce9bbf9a34ab06af0fa86386676c9314888532c69e/lexica_arts-0.1.0.tar.gz
+[2023-04-18 06:38:12] INFO root fetch - processPackages [pipster]: executing diffoscope
+[2023-04-18 06:38:12] INFO root fetch - processPackages [pipster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipster-0.0.7.tar.gz tmp/pipster-0.0.9.tar.gz --markdown 20230418/p/pipster/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-04-18 06:38:12] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2023-04-18 06:38:12] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-5.9.1.tar.gz tmp/pulumi_aws-5.9.2.tar.gz --markdown 20230418/p/pulumi-aws/5.9.1-5.9.2/diff.md --exclude *.pyd
+[2023-04-18 06:38:12] INFO root fetch - processPackages [geo-espresso]: Downloading https://files.pythonhosted.org/packages/69/a7/f9fc50ecc8852f914c88b3836e474c78dcf1906ec1f1f02f628b9ed6349f/geo-espresso-0.2.2.dev0.tar.gz
+[2023-04-18 06:38:12] INFO root fetch - processPackages [lightningchart]: Downloading https://files.pythonhosted.org/packages/12/84/903206c6d721cd85ed9c11a548d41b58b7c220c00f1a150bbc892fd5e698/lightningchart-0.3.5-py3-none-any.whl
+[2023-04-18 06:38:12] INFO root fetch - processPackages [bnipython]: Downloading https://files.pythonhosted.org/packages/fd/66/7b799e5422e68da62b6fe93962536a5c920def40b0521fa5eb9079adf19a/bnipython-0.6.2.tar.gz
+[2023-04-18 06:38:12] INFO root fetch - processPackages [n0struct]: Downloading https://files.pythonhosted.org/packages/db/04/f5333b300f19ef0197eb6c1051bac19f9f0eff5ab067ac11cf195639df7b/n0struct-0.2.92.tar.gz
+[2023-04-18 06:38:12] INFO root fetch - processPackages [bnipython]: executing diffoscope
+[2023-04-18 06:38:12] INFO root fetch - processPackages [bnipython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bnipython-0.6.1.tar.gz tmp/bnipython-0.6.2.tar.gz --markdown 20230418/b/bnipython/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-04-18 06:38:12] INFO root fetch - processPackages [n0struct]: executing diffoscope
+[2023-04-18 06:38:12] INFO root fetch - processPackages [n0struct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/n0struct-0.2.91.tar.gz tmp/n0struct-0.2.92.tar.gz --markdown 20230418/n/n0struct/0.2.91-0.2.92/diff.md --exclude *.pyd
+[2023-04-18 06:38:12] INFO root fetch - processPackages [lexica-arts]: Downloading https://files.pythonhosted.org/packages/3b/ca/6c829fca5eb2e7b7de599e9040dcf457e8fdcffe12f20bcaee9d3fc737cf/lexica_arts-0.1.1.tar.gz
+[2023-04-18 06:38:12] INFO root fetch - processPackages [lexica-arts]: Downloading https://files.pythonhosted.org/packages/3b/ca/6c829fca5eb2e7b7de599e9040dcf457e8fdcffe12f20bcaee9d3fc737cf/lexica_arts-0.1.1.tar.gz
+[2023-04-18 06:38:12] INFO root fetch - processPackages [lexica-arts]: executing diffoscope
+[2023-04-18 06:38:12] INFO root fetch - processPackages [lexica-arts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lexica_arts-0.1.0.tar.gz tmp/lexica_arts-0.1.1.tar.gz --markdown 20230418/l/lexica-arts/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-18 06:38:12] INFO root fetch - processPackages [lexica-arts]: executing diffoscope
+[2023-04-18 06:38:12] INFO root fetch - processPackages [lexica-arts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lexica_arts-0.1.0.tar.gz tmp/lexica_arts-0.1.1.tar.gz --markdown 20230418/l/lexica-arts/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-18 06:38:12] INFO root fetch - processPackages [geo-espresso]: Downloading https://files.pythonhosted.org/packages/b2/61/7ea1d29e9dbe7d5a0f90318a10d017bc78c61e245ed258d87391d44ba066/geo-espresso-0.2.2.dev1.tar.gz
+[2023-04-18 06:38:13] INFO root fetch - processPackages [geo-espresso]: executing diffoscope
+[2023-04-18 06:38:13] INFO root fetch - processPackages [geo-espresso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geo-espresso-0.2.2.dev0.tar.gz tmp/geo-espresso-0.2.2.dev1.tar.gz --markdown 20230418/g/geo-espresso/0.2.2.dev0-0.2.2.dev1/diff.md --exclude *.pyd
+[2023-04-18 06:38:13] INFO root fetch - processPackages [lightningchart]: Downloading https://files.pythonhosted.org/packages/87/f6/25e70ce6eb85e73e3b8e84ac52da75be1a0bf066f09cc2abba927e05e69b/lightningchart-0.3.6-py3-none-any.whl
+[2023-04-18 06:38:13] INFO root fetch - processPackages [lightningchart]: executing diffoscope
+[2023-04-18 06:38:13] INFO root fetch - processPackages [lightningchart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightningchart-0.3.5-py3-none-any.whl.zip tmp/lightningchart-0.3.6-py3-none-any.whl.zip --markdown 20230418/l/lightningchart/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-04-18 06:38:13] INFO root fetch - main [MainThread]: End processing [network-scanner-kbk]: success
+[2023-04-18 06:38:13] INFO root fetch - main [MainThread]: End processing [bnipython]: success
+[2023-04-18 06:38:14] INFO root fetch - main [MainThread]: End processing [lexica-arts]: success
+[2023-04-18 06:38:14] INFO root fetch - main [MainThread]: End processing [lexica-arts]: success
+[2023-04-18 06:38:14] INFO root fetch - main [MainThread]: End processing [n0struct]: success
+[2023-04-18 06:38:14] INFO root fetch - main [MainThread]: End processing [pipster]: success
+[2023-04-18 06:38:16] INFO root fetch - main [MainThread]: End processing [lightningchart]: success
+[2023-04-18 06:38:17] INFO root fetch - main [MainThread]: End processing [geo-espresso]: success
+[2023-04-18 06:38:50] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2023-04-18 06:38:50] INFO root fetch - main [MainThread]: Store serial: [17749656]
