@@ -18977,3 +18977,98 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 100: invali
 [2023-04-18 13:33:15] INFO root fetch - main [MainThread]: End processing [erscipcard]: success
 [2023-04-18 13:33:16] INFO root fetch - main [MainThread]: End processing [fabio]: success
 [2023-04-18 13:33:16] INFO root fetch - main [MainThread]: Store serial: [17754963]
+[2023-04-18 13:38:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17754963]
+[2023-04-18 13:38:25] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-18 13:38:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: docarray
+[2023-04-18 13:38:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: repository-service-tuf
+[2023-04-18 13:38:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyre-check-nightly
+[2023-04-18 13:38:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: so-vits-svc-fork
+[2023-04-18 13:38:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchrec-nightly
+[2023-04-18 13:38:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aiofauna
+[2023-04-18 13:38:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-account-payment-promissory-note
+[2023-04-18 13:38:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: divio-docs-gen
+[2023-04-18 13:38:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: edc-dx-review
+[2023-04-18 13:38:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: splinepy
+[2023-04-18 13:38:25] INFO root fetch - processPackages [repository-service-tuf]: New version: [0.1.1a3] Old Version: [0.1.1a2]
+[2023-04-18 13:38:25] INFO root fetch - processPackages [aiofauna]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-18 13:38:25] INFO root fetch - processPackages [divio-docs-gen]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-18 13:38:25] INFO root fetch - processPackages [odoo-addon-account-payment-promissory-note]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.1]
+[2023-04-18 13:38:25] INFO root fetch - processPackages [so-vits-svc-fork]: New version: [3.9.5] Old Version: [3.9.4]
+[2023-04-18 13:38:25] INFO root fetch - processPackages [edc-dx-review]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-18 13:38:25] INFO root fetch - processPackages [splinepy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-18 13:38:25] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-04-18 13:38:25] INFO root fetch - processPackages [aiofauna]: executing diffoscope
+[2023-04-18 13:38:25] INFO root fetch - processPackages [aiofauna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiofauna-0.0.8.tar.gz tmp/aiofauna-0.0.9.tar.gz --markdown 20230418/a/aiofauna/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-18 13:38:25] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101681816308] Old Version: [0.0.101681729968]
+[2023-04-18 13:38:25] INFO root fetch - processPackages [edc-dx-review]: executing diffoscope
+[2023-04-18 13:38:25] INFO root fetch - processPackages [edc-dx-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_dx_review-0.1.8-py3-none-any.whl.zip tmp/edc-dx-review-0.1.9.tar.gz --markdown 20230418/e/edc-dx-review/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-18 13:38:25] INFO root fetch - processPackages [torchrec-nightly]: New version: [2023.4.9] Old Version: [2023.4.7]
+[2023-04-18 13:38:25] INFO root fetch - processPackages [divio-docs-gen]: Downloading https://files.pythonhosted.org/packages/dd/2d/3e6b4ceb017b368842245860c74b1275b2502c81f9641e90e1fa1de3c9cf/divio_docs_gen-0.0.3.tar.gz
+[2023-04-18 13:38:25] INFO root fetch - processPackages [so-vits-svc-fork]: executing diffoscope
+[2023-04-18 13:38:25] INFO root fetch - processPackages [so-vits-svc-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/so_vits_svc_fork-3.9.4.tar.gz tmp/so_vits_svc_fork-3.9.5.tar.gz --markdown 20230418/s/so-vits-svc-fork/3.9.4-3.9.5/diff.md --exclude *.pyd
+[2023-04-18 13:38:25] INFO root fetch - processPackages [odoo-addon-account-payment-promissory-note]: Downloading https://files.pythonhosted.org/packages/d1/f9/603f0b2ca80f9ebf539f8b27873f22f878394ead9f4cd8bc132bc4b4eab4/odoo_addon_account_payment_promissory_note-15.0.1.0.1-py3-none-any.whl
+[2023-04-18 13:38:25] INFO root fetch - processPackages [splinepy]: Downloading https://files.pythonhosted.org/packages/bb/f9/449dc1918123e036b143d10967e10c2e9cf37b8ea4d1fc2f55c29b53f70c/splinepy-0.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-18 13:38:25] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/c6/b0/1b91ad0eaed70af090143a24e9ac2954e3e42fa71c64d375beb0e1167e7f/pyre-check-nightly-0.0.101681729968.tar.gz
+[2023-04-18 13:38:25] INFO root fetch - processPackages [repository-service-tuf]: Downloading https://files.pythonhosted.org/packages/26/82/4400e71f771d25b365c688d7ecd66888bdc13ac33daff17661e746dab17e/repository_service_tuf-0.1.1a3.tar.gz
+[2023-04-18 13:38:25] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23128571>=10485760
+[2023-04-18 13:38:25] INFO root fetch - processPackages [pyre-check-nightly]: Start processing: lndb_storage
+[2023-04-18 13:38:25] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-04-18 13:38:25] INFO root fetch - processPackages [lndb_storage]: New version: [0.2rc5] Old Version: [0.2rc4]
+[2023-04-18 13:38:25] INFO root fetch - processPackages [odoo-addon-account-payment-promissory-note]: executing diffoscope
+[2023-04-18 13:38:25] INFO root fetch - processPackages [odoo-addon-account-payment-promissory-note]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_promissory_note-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_account_payment_promissory_note-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230418/o/odoo-addon-account-payment-promissory-note/15.0.1.0.1-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-04-18 13:38:25] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-04-18 13:38:25] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230418/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-04-18 13:38:25] INFO root fetch - processPackages [divio-docs-gen]: Downloading https://files.pythonhosted.org/packages/b9/d9/cd26eda2a248644ccf98b09e4f46669f93f72b01a8d45010cb5c4bd1efcc/divio_docs_gen-0.0.4.tar.gz
+[2023-04-18 13:38:25] INFO root fetch - processPackages [repository-service-tuf]: executing diffoscope
+[2023-04-18 13:38:25] INFO root fetch - processPackages [repository-service-tuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repository_service_tuf-0.1.1a2.tar.gz tmp/repository_service_tuf-0.1.1a3.tar.gz --markdown 20230418/r/repository-service-tuf/0.1.1a2-0.1.1a3/diff.md --exclude *.pyd
+[2023-04-18 13:38:25] INFO root fetch - processPackages [torchrec-nightly]: executing diffoscope
+[2023-04-18 13:38:25] INFO root fetch - processPackages [torchrec-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrec_nightly-2023.4.7-py39-none-any.whl.zip tmp/torchrec_nightly-2023.4.9-py39-none-any.whl.zip --markdown 20230418/t/torchrec-nightly/2023.4.7-2023.4.9/diff.md --exclude *.pyd
+[2023-04-18 13:38:25] INFO root fetch - processPackages [lndb_storage]: Downloading https://files.pythonhosted.org/packages/08/8c/239b7baf39ea1d55c2acd20f5be7656aa2343c7a7232b19a3b96c235e632/lndb_storage-0.2rc5.tar.gz
+[2023-04-18 13:38:25] INFO root fetch - processPackages [divio-docs-gen]: executing diffoscope
+[2023-04-18 13:38:25] INFO root fetch - processPackages [divio-docs-gen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/divio_docs_gen-0.0.3.tar.gz tmp/divio_docs_gen-0.0.4.tar.gz --markdown 20230418/d/divio-docs-gen/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-18 13:38:26] INFO root fetch - processPackages [lndb_storage]: executing diffoscope
+[2023-04-18 13:38:26] INFO root fetch - processPackages [lndb_storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lndb_storage-0.2rc4.tar.gz tmp/lndb_storage-0.2rc5.tar.gz --markdown 20230418/l/lndb_storage/0.2rc4-0.2rc5/diff.md --exclude *.pyd
+[2023-04-18 13:38:26] WARNING root fetch - processPackages [splinepy]: Skipping package: exceeds size limit 12503999>=10485760
+[2023-04-18 13:38:26] INFO root fetch - processPackages [splinepy]: Start processing: fedml
+[2023-04-18 13:38:26] INFO root fetch - main [MainThread]: End processing [splinepy] error
+[2023-04-18 13:38:26] INFO root fetch - processPackages [fedml]: New version: [0.8.3a9] Old Version: [0.8.3a6]
+[2023-04-18 13:38:26] INFO root fetch - processPackages [fedml]: Downloading https://files.pythonhosted.org/packages/0f/e8/2d9508069e4b6e388c3b4fe360966e50f4fb6caa00ef8ddbe10aa3830177/fedml-0.8.3a9.tar.gz
+[2023-04-18 13:38:26] INFO root fetch - processPackages [edc-dx-review]: Start processing: mlrun
+[2023-04-18 13:38:26] INFO root fetch - main [MainThread]: End processing [edc-dx-review]: success
+[2023-04-18 13:38:26] INFO root fetch - processPackages [mlrun]: New version: [1.3.1rc3] Old Version: [1.3.1rc2]
+[2023-04-18 13:38:26] INFO root fetch - processPackages [fedml]: executing diffoscope
+[2023-04-18 13:38:26] INFO root fetch - processPackages [fedml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedml-0.8.3a6.tar.gz tmp/fedml-0.8.3a9.tar.gz --markdown 20230418/f/fedml/0.8.3a6-0.8.3a9/diff.md --exclude *.pyd
+[2023-04-18 13:38:26] INFO root fetch - processPackages [aiofauna]: Start processing: bigdl-dllib
+[2023-04-18 13:38:26] INFO root fetch - main [MainThread]: End processing [aiofauna]: success
+[2023-04-18 13:38:26] INFO root fetch - processPackages [bigdl-dllib]: New version: [2.3.0b20230417] Old Version: [2.3.0b20230416]
+[2023-04-18 13:38:27] INFO root fetch - processPackages [odoo-addon-account-payment-promissory-note]: Start processing: edc
+[2023-04-18 13:38:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-promissory-note]: success
+[2023-04-18 13:38:27] INFO root fetch - processPackages [mlrun]: Downloading https://files.pythonhosted.org/packages/5a/be/4802e093d4b4c11c6d684adaeb453631c145608ddf9d7003ee9aa7c622b3/mlrun-1.3.1rc3-py3-none-any.whl
+[2023-04-18 13:38:27] INFO root fetch - processPackages [edc]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-18 13:38:27] INFO root fetch - processPackages [edc]: executing diffoscope
+[2023-04-18 13:38:27] INFO root fetch - processPackages [edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-0.4.8.tar.gz tmp/edc-0.4.9.tar.gz --markdown 20230418/e/edc/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-18 13:38:27] INFO root fetch - processPackages [bigdl-dllib]: Downloading https://files.pythonhosted.org/packages/7e/e0/c226b0f9e30ce6bea44a6997e348aa7a1606ffe146c6ce354b60fc74dd3c/bigdl-dllib-2.3.0b20230416.tar.gz
+[2023-04-18 13:38:27] WARNING root fetch - processPackages [bigdl-dllib]: Skipping package: exceeds size limit 53560730>=10485760
+[2023-04-18 13:38:27] INFO root fetch - processPackages [bigdl-dllib]: Start processing: map-mapilio
+[2023-04-18 13:38:27] INFO root fetch - main [MainThread]: End processing [bigdl-dllib] error
+[2023-04-18 13:38:27] INFO root fetch - processPackages [mlrun]: executing diffoscope
+[2023-04-18 13:38:27] INFO root fetch - processPackages [mlrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlrun-1.3.1rc2-py3-none-any.whl.zip tmp/mlrun-1.3.1rc3-py3-none-any.whl.zip --markdown 20230418/m/mlrun/1.3.1rc2-1.3.1rc3/diff.md --exclude *.pyd
+[2023-04-18 13:38:27] INFO root fetch - processPackages [map-mapilio]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-18 13:38:27] INFO root fetch - processPackages [lndb_storage]: Start processing: pythonlogo
+[2023-04-18 13:38:27] INFO root fetch - main [MainThread]: End processing [lndb_storage]: success
+[2023-04-18 13:38:27] INFO root fetch - processPackages [map-mapilio]: Downloading https://files.pythonhosted.org/packages/d3/50/1fffbcd8571f07c348cba4b41d7ec80aacb4ea81563ecee690c7b710ae00/map-mapilio-0.0.8.tar.gz
+[2023-04-18 13:38:27] INFO root fetch - main [MainThread]: End processing [divio-docs-gen]: success
+[2023-04-18 13:38:27] WARNING root fetch - processPackages [pythonlogo]: Skipping, unable to determine old version
+[2023-04-18 13:38:27] INFO root fetch - main [MainThread]: End processing [pythonlogo] error
+[2023-04-18 13:38:27] INFO root fetch - main [MainThread]: End processing [torchrec-nightly]: success
+[2023-04-18 13:38:28] INFO root fetch - processPackages [map-mapilio]: Downloading https://files.pythonhosted.org/packages/c5/70/6ace03fd5cbfe4bb2b4ce61374849821f6d2ea8b52876df71b96450dc3b8/map-mapilio-0.0.9.tar.gz
+[2023-04-18 13:38:28] INFO root fetch - processPackages [map-mapilio]: executing diffoscope
+[2023-04-18 13:38:28] INFO root fetch - processPackages [map-mapilio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/map-mapilio-0.0.8.tar.gz tmp/map-mapilio-0.0.9.tar.gz --markdown 20230418/m/map-mapilio/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-18 13:38:28] INFO root fetch - main [MainThread]: End processing [edc]: success
+[2023-04-18 13:38:28] INFO root fetch - main [MainThread]: End processing [so-vits-svc-fork]: success
+[2023-04-18 13:38:29] INFO root fetch - main [MainThread]: End processing [repository-service-tuf]: success
+[2023-04-18 13:38:29] INFO root fetch - main [MainThread]: End processing [map-mapilio]: success
+[2023-04-18 13:38:29] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-04-18 13:38:32] INFO root fetch - main [MainThread]: End processing [mlrun]: success
+[2023-04-18 13:38:45] INFO root fetch - main [MainThread]: End processing [fedml]: success
+[2023-04-18 13:38:45] INFO root fetch - main [MainThread]: Store serial: [17755061]
