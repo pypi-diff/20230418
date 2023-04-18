@@ -19152,3 +19152,50 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 100: invali
 [2023-04-18 13:43:59] INFO root fetch - main [MainThread]: End processing [auraboros]: success
 [2023-04-18 13:43:59] INFO root fetch - main [MainThread]: End processing [idem-gcp]: success
 [2023-04-18 13:43:59] INFO root fetch - main [MainThread]: Store serial: [17755108]
+[2023-04-18 13:49:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17755108]
+[2023-04-18 13:49:09] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-18 13:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchzap
+[2023-04-18 13:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-breeze
+[2023-04-18 13:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamlit-component-dropfilltextarea
+[2023-04-18 13:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: myelectricaldatapy
+[2023-04-18 13:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pythologo
+[2023-04-18 13:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MailToolsBox
+[2023-04-18 13:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyticketswitch
+[2023-04-18 13:49:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: docarray
+[2023-04-18 13:49:09] INFO root fetch - processPackages [torchzap]: New version: [23.4.18.19] Old Version: [23.4.10.0]
+[2023-04-18 13:49:09] WARNING root fetch - processPackages [streamlit-component-dropfilltextarea]: Skipping, unable to determine old version
+[2023-04-18 13:49:09] INFO root fetch - main [MainThread]: End processing [streamlit-component-dropfilltextarea] error
+[2023-04-18 13:49:09] INFO root fetch - processPackages [myelectricaldatapy]: New version: [2.0.0] Old Version: [1.9.9]
+[2023-04-18 13:49:09] INFO root fetch - processPackages [MailToolsBox]: New version: [0.1.0.3] Old Version: [0.1.0.2]
+[2023-04-18 13:49:09] INFO root fetch - processPackages [django-breeze]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-18 13:49:09] WARNING root fetch - processPackages [pythologo]: Skipping, unable to determine old version
+[2023-04-18 13:49:09] INFO root fetch - main [MainThread]: End processing [pythologo] error
+[2023-04-18 13:49:09] INFO root fetch - processPackages [pyticketswitch]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-04-18 13:49:09] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-04-18 13:49:09] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-04-18 13:49:09] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230418/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-04-18 13:49:09] INFO root fetch - processPackages [torchzap]: Downloading https://files.pythonhosted.org/packages/13/22/4431973698227b213717ffa049da38f36383e14637910612f4527fdf6b98/torchzap-23.4.10.0.tar.gz
+[2023-04-18 13:49:09] INFO root fetch - processPackages [myelectricaldatapy]: Downloading https://files.pythonhosted.org/packages/80/7c/0aea09c711089352d1483cf38c91695e5d8f52c18cbf495f2d98e3aa1f81/myelectricaldatapy-2.0.0.tar.gz
+[2023-04-18 13:49:09] INFO root fetch - processPackages [pyticketswitch]: Downloading https://files.pythonhosted.org/packages/c2/f9/9026ca38c40e166e325365f75cc3836f5a33a70365127420a8e029e65d6e/pyticketswitch-2.9.0.tar.gz
+[2023-04-18 13:49:09] INFO root fetch - processPackages [django-breeze]: Downloading https://files.pythonhosted.org/packages/a4/32/46234f3ce282f325dbfcba8c00129434dde555b482bb710689ba321f8bb3/django_breeze-0.1.0.tar.gz
+[2023-04-18 13:49:09] INFO root fetch - processPackages [MailToolsBox]: Downloading https://files.pythonhosted.org/packages/30/ce/6f201a5193571a9925a3faf7c6db75e7aacba99d63548ebbb76695cc3794/MailToolsBox-0.1.0.3.tar.gz
+[2023-04-18 13:49:09] INFO root fetch - processPackages [myelectricaldatapy]: executing diffoscope
+[2023-04-18 13:49:09] INFO root fetch - processPackages [myelectricaldatapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myelectricaldatapy-1.9.9.tar.gz tmp/myelectricaldatapy-2.0.0.tar.gz --markdown 20230418/m/myelectricaldatapy/1.9.9-2.0.0/diff.md --exclude *.pyd
+[2023-04-18 13:49:09] INFO root fetch - processPackages [MailToolsBox]: executing diffoscope
+[2023-04-18 13:49:09] INFO root fetch - processPackages [MailToolsBox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MailToolsBox-0.1.0.2.tar.gz tmp/MailToolsBox-0.1.0.3.tar.gz --markdown 20230418/M/MailToolsBox/0.1.0.2-0.1.0.3/diff.md --exclude *.pyd
+[2023-04-18 13:49:09] INFO root fetch - processPackages [torchzap]: Downloading https://files.pythonhosted.org/packages/9b/15/3b7d68e45ddaff8e632a7eb3c865a91e61f745bd2047929ffd9ba08fbf0f/torchzap-23.4.18.19.tar.gz
+[2023-04-18 13:49:09] INFO root fetch - processPackages [django-breeze]: Downloading https://files.pythonhosted.org/packages/90/ba/fda21eade3d942aa1dc5d5976d8fa01437451c1df3aecbdcf8d2f7c96d1c/django_breeze-0.1.1.tar.gz
+[2023-04-18 13:49:09] INFO root fetch - processPackages [pyticketswitch]: Downloading https://files.pythonhosted.org/packages/75/b6/833e5711c5288880155fdc4a26084f5883144e03a34c9e9455b18c5dcac3/pyticketswitch-2.9.1.tar.gz
+[2023-04-18 13:49:09] INFO root fetch - processPackages [torchzap]: executing diffoscope
+[2023-04-18 13:49:09] INFO root fetch - processPackages [torchzap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchzap-23.4.10.0.tar.gz tmp/torchzap-23.4.18.19.tar.gz --markdown 20230418/t/torchzap/23.4.10.0-23.4.18.19/diff.md --exclude *.pyd
+[2023-04-18 13:49:09] INFO root fetch - processPackages [pyticketswitch]: executing diffoscope
+[2023-04-18 13:49:09] INFO root fetch - processPackages [pyticketswitch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyticketswitch-2.9.0.tar.gz tmp/pyticketswitch-2.9.1.tar.gz --markdown 20230418/p/pyticketswitch/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-04-18 13:49:10] INFO root fetch - processPackages [django-breeze]: executing diffoscope
+[2023-04-18 13:49:10] INFO root fetch - processPackages [django-breeze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_breeze-0.1.0.tar.gz tmp/django_breeze-0.1.1.tar.gz --markdown 20230418/d/django-breeze/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-18 13:49:10] INFO root fetch - main [MainThread]: End processing [MailToolsBox]: success
+[2023-04-18 13:49:10] INFO root fetch - main [MainThread]: End processing [myelectricaldatapy]: success
+[2023-04-18 13:49:10] INFO root fetch - main [MainThread]: End processing [torchzap]: success
+[2023-04-18 13:49:11] INFO root fetch - main [MainThread]: End processing [django-breeze]: success
+[2023-04-18 13:49:11] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-04-18 13:49:12] INFO root fetch - main [MainThread]: End processing [pyticketswitch]: success
+[2023-04-18 13:49:12] INFO root fetch - main [MainThread]: Store serial: [17755133]
