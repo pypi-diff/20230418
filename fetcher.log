@@ -6965,3 +6965,50 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 03:54:31] INFO root fetch - main [MainThread]: End processing [shillelagh]: success
 [2023-04-18 03:54:31] INFO root fetch - main [MainThread]: End processing [automation_rest_server]: success
 [2023-04-18 03:54:31] INFO root fetch - main [MainThread]: Store serial: [17748462]
+[2023-04-18 03:59:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17748462]
+[2023-04-18 03:59:40] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-18 03:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apache-airflow-providers-sktvane
+[2023-04-18 03:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: curveengine
+[2023-04-18 03:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: always-updates
+[2023-04-18 03:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: turbo-broccoli
+[2023-04-18 03:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xj-role
+[2023-04-18 03:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edc
+[2023-04-18 03:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: deepdriver
+[2023-04-18 03:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: python-roborock
+[2023-04-18 03:59:40] INFO root fetch - processPackages [edc]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-18 03:59:40] WARNING root fetch - processPackages [curveengine]: Skipping, unable to determine old version
+[2023-04-18 03:59:40] INFO root fetch - main [MainThread]: End processing [curveengine] error
+[2023-04-18 03:59:40] INFO root fetch - processPackages [deepdriver]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-18 03:59:40] INFO root fetch - processPackages [python-roborock]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-04-18 03:59:40] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-04-18 03:59:40] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-18 03:59:40] INFO root fetch - processPackages [edc]: executing diffoscope
+[2023-04-18 03:59:40] INFO root fetch - processPackages [edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-0.4.8.tar.gz tmp/edc-0.4.9.tar.gz --markdown 20230418/e/edc/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-18 03:59:40] INFO root fetch - processPackages [turbo-broccoli]: New version: [2.4.3] Old Version: [2.3.8]
+[2023-04-18 03:59:40] INFO root fetch - processPackages [xj-role]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-18 03:59:40] INFO root fetch - processPackages [deepdriver]: executing diffoscope
+[2023-04-18 03:59:40] INFO root fetch - processPackages [deepdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepdriver-0.9.4.tar.gz tmp/deepdriver-0.9.5.tar.gz --markdown 20230418/d/deepdriver/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-18 03:59:40] INFO root fetch - processPackages [python-roborock]: executing diffoscope
+[2023-04-18 03:59:40] INFO root fetch - processPackages [python-roborock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_roborock-0.6.8.tar.gz tmp/python_roborock-0.6.9.tar.gz --markdown 20230418/p/python-roborock/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-04-18 03:59:40] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-04-18 03:59:40] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230418/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-04-18 03:59:40] INFO root fetch - processPackages [xj-role]: Downloading https://files.pythonhosted.org/packages/6b/8b/97965272d3462d0f7d0a27d169efd5145a23039e46eb22ce86c516d7eb65/xj_role-1.0.8.tar.gz
+[2023-04-18 03:59:40] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: Downloading https://files.pythonhosted.org/packages/ce/12/e82b2aa77bfec23315a50847cc4ce8849dc2db0f4d0c8664c46ba7e45996/apache-airflow-providers-sktvane-0.0.8.tar.gz
+[2023-04-18 03:59:40] INFO root fetch - processPackages [turbo-broccoli]: Downloading https://files.pythonhosted.org/packages/b0/82/78fa5d8c1ac463423bf47c7764dc6a1ab449b8ae1c6ebc778a144ac4e8ea/turbo_broccoli-2.3.8.tar.gz
+[2023-04-18 03:59:41] INFO root fetch - processPackages [turbo-broccoli]: Downloading https://files.pythonhosted.org/packages/46/e6/4d30812885ccec5b03e91f4ac57bd889a4ddbb84340ad2246ca22d82e475/turbo_broccoli-2.4.3.tar.gz
+[2023-04-18 03:59:41] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: Downloading https://files.pythonhosted.org/packages/84/a7/8bd837b03bf534c44a412fefca1a5a1c4beb827bfc919b6054ec4cb728aa/apache-airflow-providers-sktvane-0.0.9.tar.gz
+[2023-04-18 03:59:41] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: executing diffoscope
+[2023-04-18 03:59:41] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-sktvane-0.0.8.tar.gz tmp/apache-airflow-providers-sktvane-0.0.9.tar.gz --markdown 20230418/a/apache-airflow-providers-sktvane/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-18 03:59:41] INFO root fetch - processPackages [turbo-broccoli]: executing diffoscope
+[2023-04-18 03:59:41] INFO root fetch - processPackages [turbo-broccoli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turbo_broccoli-2.3.8.tar.gz tmp/turbo_broccoli-2.4.3.tar.gz --markdown 20230418/t/turbo-broccoli/2.3.8-2.4.3/diff.md --exclude *.pyd
+[2023-04-18 03:59:41] INFO root fetch - processPackages [xj-role]: Downloading https://files.pythonhosted.org/packages/2c/77/ebb1d3254b61bd786e3aaebbd01dfa15310557c1a927f61995a6b9e0531e/xj_role-1.0.9.tar.gz
+[2023-04-18 03:59:41] INFO root fetch - processPackages [xj-role]: executing diffoscope
+[2023-04-18 03:59:41] INFO root fetch - processPackages [xj-role]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_role-1.0.8.tar.gz tmp/xj_role-1.0.9.tar.gz --markdown 20230418/x/xj-role/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-18 03:59:41] INFO root fetch - main [MainThread]: End processing [python-roborock]: success
+[2023-04-18 03:59:41] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-04-18 03:59:42] INFO root fetch - main [MainThread]: End processing [deepdriver]: success
+[2023-04-18 03:59:42] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-sktvane]: success
+[2023-04-18 03:59:42] INFO root fetch - main [MainThread]: End processing [turbo-broccoli]: success
+[2023-04-18 03:59:42] INFO root fetch - main [MainThread]: End processing [xj-role]: success
+[2023-04-18 03:59:43] INFO root fetch - main [MainThread]: End processing [edc]: success
+[2023-04-18 03:59:43] INFO root fetch - main [MainThread]: Store serial: [17748484]
