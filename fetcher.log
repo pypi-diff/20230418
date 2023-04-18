@@ -9828,3 +9828,57 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 07:10:08] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat]: success
 [2023-04-18 07:10:09] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
 [2023-04-18 07:10:09] INFO root fetch - main [MainThread]: Store serial: [17749827]
+[2023-04-18 07:15:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17749827]
+[2023-04-18 07:15:17] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-18 07:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-l10n-es-aeat-partner-check
+[2023-04-18 07:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: windbg-copilot
+[2023-04-18 07:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytest-homeassistant-custom-component
+[2023-04-18 07:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: megadata
+[2023-04-18 07:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chili
+[2023-04-18 07:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: common-task-system-client
+[2023-04-18 07:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: twitch-dl
+[2023-04-18 07:15:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: david-rust-bin-pypi-test
+[2023-04-18 07:15:17] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-partner-check]: New version: [16.0.1.0.1.1] Old Version: [16.0.1.0.1]
+[2023-04-18 07:15:17] INFO root fetch - processPackages [megadata]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-18 07:15:17] INFO root fetch - processPackages [twitch-dl]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-04-18 07:15:18] INFO root fetch - processPackages [chili]: New version: [2.0.0] Old Version: [1.8.0]
+[2023-04-18 07:15:18] INFO root fetch - processPackages [david-rust-bin-pypi-test]: New version: [2020.0.3] Old Version: [2020.0.2]
+[2023-04-18 07:15:18] INFO root fetch - processPackages [common-task-system-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-18 07:15:18] WARNING root fetch - processPackages [windbg-copilot]: Skipping, unable to determine old version
+[2023-04-18 07:15:18] INFO root fetch - main [MainThread]: End processing [windbg-copilot] error
+[2023-04-18 07:15:18] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-18 07:15:18] INFO root fetch - processPackages [common-task-system-client]: Downloading https://files.pythonhosted.org/packages/a5/43/bb488a982543180898d7eb4b958f0cb08f48e95682e417bc99532e9e6cb5/common-task-system-client-1.0.8.tar.gz
+[2023-04-18 07:15:18] INFO root fetch - processPackages [twitch-dl]: Downloading https://files.pythonhosted.org/packages/34/52/dd8aa0bc628742f4186847631b06e613af5ff54aaa1de940b82131145c5f/twitch-dl-2.1.1.tar.gz
+[2023-04-18 07:15:18] INFO root fetch - processPackages [david-rust-bin-pypi-test]: Downloading https://files.pythonhosted.org/packages/59/79/9dc0d8c6469b0dab5320ad1f503d6eba4170e64a6c2541aa1cc1c885bc81/david-rust-bin-pypi-test-2020.0.3.tar.gz
+[2023-04-18 07:15:18] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-partner-check]: Downloading https://files.pythonhosted.org/packages/12/d6/04beeb0b34feb8317cfa62504d2cff805d28fdbc8530fefe38c06265d8e4/odoo_addon_l10n_es_aeat_partner_check-16.0.1.0.1-py3-none-any.whl
+[2023-04-18 07:15:18] INFO root fetch - processPackages [megadata]: Downloading https://files.pythonhosted.org/packages/db/18/1acacd008c750e61bf570a49c63150ce5e2f6f63fc27290d33af9f68c426/megadata-0.0.8.tar.gz
+[2023-04-18 07:15:18] INFO root fetch - processPackages [chili]: Downloading https://files.pythonhosted.org/packages/8c/b8/3a2c6f845b99b1d772d337b8d97517a9a4fefdf6c3c221cc0534d3028eb8/chili-1.8.0.tar.gz
+[2023-04-18 07:15:18] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/8a/3b/b76075872ac35edad46a4fd3401c3faebda7af874b306526a1d7e1a4336a/pytest-homeassistant-custom-component-0.9.8.tar.gz
+[2023-04-18 07:15:18] INFO root fetch - processPackages [david-rust-bin-pypi-test]: executing diffoscope
+[2023-04-18 07:15:18] INFO root fetch - processPackages [david-rust-bin-pypi-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/david-rust-bin-pypi-test-2020.0.2.tar.gz tmp/david-rust-bin-pypi-test-2020.0.3.tar.gz --markdown 20230418/d/david-rust-bin-pypi-test/2020.0.2-2020.0.3/diff.md --exclude *.pyd
+[2023-04-18 07:15:18] INFO root fetch - processPackages [twitch-dl]: Downloading https://files.pythonhosted.org/packages/fa/c6/564aab91d9d45c5c277ab0c2df387264ca069d932617f461fe04551e592b/twitch-dl-2.1.2.tar.gz
+[2023-04-18 07:15:18] INFO root fetch - processPackages [common-task-system-client]: Downloading https://files.pythonhosted.org/packages/50/6d/f65ceaf9dc5a8e5a266f3ed055396d036f2b19bf767f39b38befacbe5d11/common-task-system-client-1.0.9.tar.gz
+[2023-04-18 07:15:18] INFO root fetch - processPackages [chili]: Downloading https://files.pythonhosted.org/packages/f8/34/06d669412b2f6e5e576d78e7c294b2ae7a743b7109fa6f8666bc40449e47/chili-2.0.0.tar.gz
+[2023-04-18 07:15:18] INFO root fetch - processPackages [megadata]: Downloading https://files.pythonhosted.org/packages/34/d3/1b1e3069204cfd5341c0be3bad7df7e60019431a6959b3182db14b874807/megadata-0.0.9.tar.gz
+[2023-04-18 07:15:18] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-partner-check]: Downloading https://files.pythonhosted.org/packages/af/02/b46ecacbf9e29fc56ee76da0f34a2065907f85d823ebb697671cfd9c110f/odoo_addon_l10n_es_aeat_partner_check-16.0.1.0.1.1-py3-none-any.whl
+[2023-04-18 07:15:18] INFO root fetch - processPackages [megadata]: executing diffoscope
+[2023-04-18 07:15:18] INFO root fetch - processPackages [megadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/megadata-0.0.8.tar.gz tmp/megadata-0.0.9.tar.gz --markdown 20230418/m/megadata/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-18 07:15:18] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/60/4e/ba1174db4b883610c2a5afba7a30857178ada41a2368936b2e3d764bfe6a/pytest-homeassistant-custom-component-0.9.9.tar.gz
+[2023-04-18 07:15:18] INFO root fetch - processPackages [twitch-dl]: executing diffoscope
+[2023-04-18 07:15:18] INFO root fetch - processPackages [twitch-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitch-dl-2.1.1.tar.gz tmp/twitch-dl-2.1.2.tar.gz --markdown 20230418/t/twitch-dl/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-04-18 07:15:18] INFO root fetch - processPackages [common-task-system-client]: executing diffoscope
+[2023-04-18 07:15:18] INFO root fetch - processPackages [common-task-system-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/common-task-system-client-1.0.8.tar.gz tmp/common-task-system-client-1.0.9.tar.gz --markdown 20230418/c/common-task-system-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-18 07:15:18] INFO root fetch - processPackages [chili]: executing diffoscope
+[2023-04-18 07:15:18] INFO root fetch - processPackages [chili]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chili-1.8.0.tar.gz tmp/chili-2.0.0.tar.gz --markdown 20230418/c/chili/1.8.0-2.0.0/diff.md --exclude *.pyd
+[2023-04-18 07:15:18] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-partner-check]: executing diffoscope
+[2023-04-18 07:15:18] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-partner-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_partner_check-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_partner_check-16.0.1.0.1.1-py3-none-any.whl.zip --markdown 20230418/o/odoo-addon-l10n-es-aeat-partner-check/16.0.1.0.1-16.0.1.0.1.1/diff.md --exclude *.pyd
+[2023-04-18 07:15:18] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: executing diffoscope
+[2023-04-18 07:15:18] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-homeassistant-custom-component-0.9.8.tar.gz tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz --markdown 20230418/p/pytest-homeassistant-custom-component/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-18 07:15:19] INFO root fetch - main [MainThread]: End processing [david-rust-bin-pypi-test]: success
+[2023-04-18 07:15:19] INFO root fetch - main [MainThread]: End processing [megadata]: success
+[2023-04-18 07:15:20] INFO root fetch - main [MainThread]: End processing [common-task-system-client]: success
+[2023-04-18 07:15:20] INFO root fetch - main [MainThread]: End processing [twitch-dl]: success
+[2023-04-18 07:15:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-partner-check]: success
+[2023-04-18 07:15:20] INFO root fetch - main [MainThread]: End processing [pytest-homeassistant-custom-component]: success
+[2023-04-18 07:15:20] INFO root fetch - main [MainThread]: End processing [chili]: success
+[2023-04-18 07:15:20] INFO root fetch - main [MainThread]: Store serial: [17749854]
