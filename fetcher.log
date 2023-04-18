@@ -18782,3 +18782,76 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 100: invali
 [2023-04-18 13:17:30] INFO root fetch - main [MainThread]: End processing [crate-docs-theme]: success
 [2023-04-18 13:17:31] INFO root fetch - main [MainThread]: End processing [csoundengine]: success
 [2023-04-18 13:17:31] INFO root fetch - main [MainThread]: Store serial: [17754854]
+[2023-04-18 13:22:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17754854]
+[2023-04-18 13:22:40] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-18 13:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stackdiac
+[2023-04-18 13:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli
+[2023-04-18 13:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: colabtunnel
+[2023-04-18 13:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: backtrader-contrib-lucidinvestor
+[2023-04-18 13:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tb-nightly
+[2023-04-18 13:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MeUtils
+[2023-04-18 13:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wtfl
+[2023-04-18 13:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-private-bucket
+[2023-04-18 13:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cybrid-api-bank-python
+[2023-04-18 13:22:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cybrid-api-id-python
+[2023-04-18 13:22:40] INFO root fetch - processPackages [colabtunnel]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-18 13:22:40] INFO root fetch - processPackages [backtrader-contrib-lucidinvestor]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-18 13:22:40] INFO root fetch - processPackages [stackdiac]: New version: [0.0.1.dev9] Old Version: [0.0.1.dev8]
+[2023-04-18 13:22:40] WARNING root fetch - processPackages [wtfl]: Skipping, unable to determine old version
+[2023-04-18 13:22:40] INFO root fetch - processPackages [wtfl]: Start processing: cybrid-api-organization-python
+[2023-04-18 13:22:40] INFO root fetch - main [MainThread]: End processing [wtfl] error
+[2023-04-18 13:22:40] INFO root fetch - processPackages [certora-cli]: New version: [3.6.8] Old Version: [3.6.6]
+[2023-04-18 13:22:40] INFO root fetch - processPackages [MeUtils]: New version: [2023.4.6.14.28.33] Old Version: [2023.4.6.14.19.58]
+[2023-04-18 13:22:40] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-18 13:22:40] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-18 13:22:40] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-18 13:22:40] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-18 13:22:41] INFO root fetch - processPackages [backtrader-contrib-lucidinvestor]: Downloading https://files.pythonhosted.org/packages/11/61/e942998e889a565a00a950eca66b2d58521ef02272c379852e59aec87666/backtrader_contrib-lucidinvestor-0.1.0.tar.gz
+[2023-04-18 13:22:41] INFO root fetch - processPackages [stackdiac]: Downloading https://files.pythonhosted.org/packages/dc/94/94084cb72519dcf0fa1bf5c24d767fce4e8fc419108c362c3884cce53693/stackdiac-0.0.1.dev8.tar.gz
+[2023-04-18 13:22:41] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-04-18 13:22:41] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.4.6.14.19.58.tar.gz tmp/MeUtils-2023.4.6.14.28.33.tar.gz --markdown 20230418/M/MeUtils/2023.4.6.14.19.58-2023.4.6.14.28.33/diff.md --exclude *.pyd
+[2023-04-18 13:22:41] INFO root fetch - processPackages [certora-cli]: Downloading https://files.pythonhosted.org/packages/34/90/5872c389b4290827b0837cfae4e94ccc29f21a2a3e5f3d48da80f0651927/certora-cli-3.6.6.tar.gz
+[2023-04-18 13:22:41] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-04-18 13:22:41] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230418/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-18 13:22:41] INFO root fetch - processPackages [colabtunnel]: Downloading https://files.pythonhosted.org/packages/88/31/284682f3d4918c9e2fc198c6fbbb3f2219659aae5bbb71dd53112d10857c/colabtunnel-0.0.4.tar.gz
+[2023-04-18 13:22:41] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: executing diffoscope
+[2023-04-18 13:22:41] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz --markdown 20230418/p/pepperize.cdk-private-bucket/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-18 13:22:41] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-04-18 13:22:41] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-04-18 13:22:41] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230418/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-18 13:22:41] WARNING root fetch - processPackages [certora-cli]: Skipping package: exceeds size limit 25737878>=10485760
+[2023-04-18 13:22:41] INFO root fetch - processPackages [certora-cli]: Start processing: birentechci
+[2023-04-18 13:22:41] INFO root fetch - main [MainThread]: End processing [certora-cli] error
+[2023-04-18 13:22:41] INFO root fetch - processPackages [colabtunnel]: executing diffoscope
+[2023-04-18 13:22:41] INFO root fetch - processPackages [colabtunnel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colabtunnel-0.0.3.tar.gz tmp/colabtunnel-0.0.4.tar.gz --markdown 20230418/c/colabtunnel/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-18 13:22:41] INFO root fetch - processPackages [birentechci]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-18 13:22:41] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-04-18 13:22:41] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230418/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-18 13:22:41] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2023-04-18 13:22:41] INFO root fetch - processPackages [birentechci]: executing diffoscope
+[2023-04-18 13:22:41] INFO root fetch - processPackages [birentechci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/birentechci-0.0.8.tar.gz tmp/birentechci-0.0.9.tar.gz --markdown 20230418/b/birentechci/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-18 13:22:41] INFO root fetch - processPackages [backtrader-contrib-lucidinvestor]: Downloading https://files.pythonhosted.org/packages/f0/a2/010888eac23bf074520b4a8587c0cb62d7d45f8242965ed8415c82c87069/backtrader_contrib-lucidinvestor-0.1.1.tar.gz
+[2023-04-18 13:22:41] INFO root fetch - processPackages [stackdiac]: Downloading https://files.pythonhosted.org/packages/65/2f/611431a65490020aabb8876306d33599cd75c049c5a7f95b9dc8df7b9919/stackdiac-0.0.1.dev9.tar.gz
+[2023-04-18 13:22:41] INFO root fetch - processPackages [backtrader-contrib-lucidinvestor]: executing diffoscope
+[2023-04-18 13:22:41] INFO root fetch - processPackages [backtrader-contrib-lucidinvestor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backtrader_contrib-lucidinvestor-0.1.0.tar.gz tmp/backtrader_contrib-lucidinvestor-0.1.1.tar.gz --markdown 20230418/b/backtrader-contrib-lucidinvestor/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-18 13:22:41] INFO root fetch - processPackages [stackdiac]: executing diffoscope
+[2023-04-18 13:22:41] INFO root fetch - processPackages [stackdiac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stackdiac-0.0.1.dev8.tar.gz tmp/stackdiac-0.0.1.dev9.tar.gz --markdown 20230418/s/stackdiac/0.0.1.dev8-0.0.1.dev9/diff.md --exclude *.pyd
+[2023-04-18 13:22:41] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2023-04-18 13:22:41] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-04-18 13:22:41] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230418/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-04-18 13:22:42] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Start processing: qontract-reconcile
+[2023-04-18 13:22:42] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-private-bucket]: success
+[2023-04-18 13:22:42] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-04-18 13:22:42] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-04-18 13:22:42] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230418/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-04-18 13:22:42] INFO root fetch - main [MainThread]: End processing [colabtunnel]: success
+[2023-04-18 13:22:42] INFO root fetch - main [MainThread]: End processing [birentechci]: success
+[2023-04-18 13:22:43] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-04-18 13:22:43] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-04-18 13:22:44] INFO root fetch - main [MainThread]: End processing [backtrader-contrib-lucidinvestor]: success
+[2023-04-18 13:22:44] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-04-18 13:22:45] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-04-18 13:22:46] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-04-18 13:22:46] INFO root fetch - main [MainThread]: End processing [stackdiac]: success
+[2023-04-18 13:22:49] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-04-18 13:22:49] INFO root fetch - main [MainThread]: Store serial: [17754894]
