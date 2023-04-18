@@ -18145,3 +18145,102 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 100: invali
 [2023-04-18 12:44:10] INFO root fetch - main [MainThread]: End processing [pycti]: success
 [2023-04-18 12:44:11] INFO root fetch - main [MainThread]: End processing [kallisti-core]: success
 [2023-04-18 12:44:11] INFO root fetch - main [MainThread]: Store serial: [17754492]
+[2023-04-18 12:49:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17754492]
+[2023-04-18 12:49:20] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-18 12:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-prose
+[2023-04-18 12:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: degtrig
+[2023-04-18 12:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: welltestpy
+[2023-04-18 12:49:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Video-Audio-Image-Downloader
+[2023-04-18 12:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kiauto
+[2023-04-18 12:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nlpaf
+[2023-04-18 12:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: boris-behav-obs
+[2023-04-18 12:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: strangeworks-vqe
+[2023-04-18 12:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bagbag
+[2023-04-18 12:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ml4qc
+[2023-04-18 12:49:21] WARNING root fetch - processPackages [degtrig]: Skipping, unable to determine old version
+[2023-04-18 12:49:21] INFO root fetch - processPackages [degtrig]: Start processing: yaost
+[2023-04-18 12:49:21] INFO root fetch - main [MainThread]: End processing [degtrig] error
+[2023-04-18 12:49:21] INFO root fetch - processPackages [django-prose]: New version: [1.2.2] Old Version: [1.2.0]
+[2023-04-18 12:49:21] INFO root fetch - processPackages [nlpaf]: New version: [2.8.8] Old Version: [2.8.7]
+[2023-04-18 12:49:21] INFO root fetch - processPackages [strangeworks-vqe]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-18 12:49:21] WARNING root fetch - processPackages [Video-Audio-Image-Downloader]: Skipping, unable to determine old version
+[2023-04-18 12:49:21] INFO root fetch - processPackages [Video-Audio-Image-Downloader]: Start processing: spaceone-api
+[2023-04-18 12:49:21] INFO root fetch - processPackages [boris-behav-obs]: New version: [8.9.8] Old Version: [8.9.6]
+[2023-04-18 12:49:21] INFO root fetch - main [MainThread]: End processing [Video-Audio-Image-Downloader] error
+[2023-04-18 12:49:21] INFO root fetch - processPackages [welltestpy]: New version: [1.2.0] Old Version: [1.1.0rc1]
+[2023-04-18 12:49:21] INFO root fetch - processPackages [ml4qc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-18 12:49:21] INFO root fetch - processPackages [yaost]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-04-18 12:49:21] INFO root fetch - processPackages [kiauto]: New version: [2.2.5] Old Version: [2.2.4]
+[2023-04-18 12:49:21] INFO root fetch - processPackages [bagbag]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-04-18 12:49:21] INFO root fetch - processPackages [spaceone-api]: New version: [1.9.7rc1] Old Version: [1.9.7.dev3]
+[2023-04-18 12:49:21] INFO root fetch - processPackages [django-prose]: Downloading https://files.pythonhosted.org/packages/2f/2c/730355d8c254e17323018d46c906558f6b2f18f895ad697a8162b2eda19e/django_prose-1.2.0.tar.gz
+[2023-04-18 12:49:21] INFO root fetch - processPackages [spaceone-api]: executing diffoscope
+[2023-04-18 12:49:21] INFO root fetch - processPackages [spaceone-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_api-1.9.7.dev3-py3-none-any.whl.zip tmp/spaceone_api-1.9.7rc1-py3-none-any.whl.zip --markdown 20230418/s/spaceone-api/1.9.7.dev3-1.9.7rc1/diff.md --exclude *.pyd
+[2023-04-18 12:49:21] INFO root fetch - processPackages [strangeworks-vqe]: Downloading https://files.pythonhosted.org/packages/e4/d6/4b043b3bbffb97dd59ac1b4f2d4b556edc1a57f46c8bcdd84d9f8e057448/strangeworks_vqe-0.1.0.tar.gz
+[2023-04-18 12:49:21] INFO root fetch - processPackages [nlpaf]: Downloading https://files.pythonhosted.org/packages/5d/da/1b92550f6bc1e7b62d9eca934cf2d4d57ebcc3fb29072424036f138d98af/nlpaf-2.8.7.tar.gz
+[2023-04-18 12:49:21] INFO root fetch - processPackages [yaost]: Downloading https://files.pythonhosted.org/packages/a3/b3/7e3da8b1c41e47444de0c36a033d2c852262702378b318151a39c83e5f0e/yaost-2.0.2.tar.gz
+[2023-04-18 12:49:21] INFO root fetch - processPackages [ml4qc]: Downloading https://files.pythonhosted.org/packages/6b/c5/c7630f29fcd4ea615865ef8ad7403be941a2caa89a08a07c39ba81fb0b9d/ml4qc-0.1.8.tar.gz
+[2023-04-18 12:49:21] WARNING root fetch - processPackages [nlpaf]: Skipping package: exceeds size limit 24324747>=10485760
+[2023-04-18 12:49:21] INFO root fetch - processPackages [nlpaf]: Start processing: hiddifypanel
+[2023-04-18 12:49:21] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/e2/03/a30481576c052c1eee23b42a7287d84bc2e1ac30d62805bb01e6cda8f97b/bagbag-0.9.5.tar.gz
+[2023-04-18 12:49:21] INFO root fetch - processPackages [kiauto]: Downloading https://files.pythonhosted.org/packages/aa/e6/d4cd8f9804d221e353ce44898a72bad44ac41762d6c3719d9550f29bd7b5/kiauto-2.2.4.tar.gz
+[2023-04-18 12:49:21] INFO root fetch - main [MainThread]: End processing [nlpaf] error
+[2023-04-18 12:49:21] INFO root fetch - processPackages [welltestpy]: Downloading https://files.pythonhosted.org/packages/f7/35/8c34d86ac14cdcfeec3cf27725180c0024e3a153f72e6ed6f71a541e53d0/welltestpy-1.1.0rc1.tar.gz
+[2023-04-18 12:49:21] INFO root fetch - processPackages [hiddifypanel]: New version: [4.0.0.dev6] Old Version: [4.0.0.dev5]
+[2023-04-18 12:49:21] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-04-18 12:49:21] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-4.0.0.dev5-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/hiddifypanel-4.0.0.dev6-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230418/h/hiddifypanel/4.0.0.dev5-4.0.0.dev6/diff.md --exclude *.pyd
+[2023-04-18 12:49:21] INFO root fetch - processPackages [django-prose]: Downloading https://files.pythonhosted.org/packages/50/52/de8523975a376f904d2fd1c8a6585a1eff36eb4d1b60c25e0be50e1e668d/django_prose-1.2.2.tar.gz
+[2023-04-18 12:49:21] INFO root fetch - processPackages [boris-behav-obs]: executing diffoscope
+[2023-04-18 12:49:21] INFO root fetch - processPackages [boris-behav-obs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boris-behav-obs-8.9.6.tar.gz tmp/boris-behav-obs-8.9.8.tar.gz --markdown 20230418/b/boris-behav-obs/8.9.6-8.9.8/diff.md --exclude *.pyd
+[2023-04-18 12:49:21] INFO root fetch - processPackages [kiauto]: Downloading https://files.pythonhosted.org/packages/37/db/5e0f95baf2b90f6d042ef58e2c52e912087585461c5832b9ae3159913c13/kiauto-2.2.5.tar.gz
+[2023-04-18 12:49:21] INFO root fetch - processPackages [django-prose]: executing diffoscope
+[2023-04-18 12:49:21] INFO root fetch - processPackages [django-prose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_prose-1.2.0.tar.gz tmp/django_prose-1.2.2.tar.gz --markdown 20230418/d/django-prose/1.2.0-1.2.2/diff.md --exclude *.pyd
+[2023-04-18 12:49:21] INFO root fetch - processPackages [strangeworks-vqe]: Downloading https://files.pythonhosted.org/packages/c7/47/8ae62eb01180d7e26f4caacaea5782e2f5c55df74d09b3421dc8306840a4/strangeworks_vqe-0.1.1.tar.gz
+[2023-04-18 12:49:21] INFO root fetch - processPackages [kiauto]: executing diffoscope
+[2023-04-18 12:49:21] INFO root fetch - processPackages [kiauto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiauto-2.2.4.tar.gz tmp/kiauto-2.2.5.tar.gz --markdown 20230418/k/kiauto/2.2.4-2.2.5/diff.md --exclude *.pyd
+[2023-04-18 12:49:21] INFO root fetch - processPackages [yaost]: Downloading https://files.pythonhosted.org/packages/c8/88/bf6060893e79a8e8303f494b34d4d9c54f3053e5be5c7a16a56a2fdfe39d/yaost-2.0.3-py3-none-any.whl
+[2023-04-18 12:49:21] INFO root fetch - processPackages [strangeworks-vqe]: executing diffoscope
+[2023-04-18 12:49:21] INFO root fetch - processPackages [welltestpy]: Downloading https://files.pythonhosted.org/packages/4c/42/0db3050977253eddc1107635d3f6b28ccfb3982c40a58415b3682e15c4e7/welltestpy-1.2.0.tar.gz
+[2023-04-18 12:49:21] INFO root fetch - processPackages [strangeworks-vqe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strangeworks_vqe-0.1.0.tar.gz tmp/strangeworks_vqe-0.1.1.tar.gz --markdown 20230418/s/strangeworks-vqe/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-18 12:49:21] INFO root fetch - processPackages [yaost]: executing diffoscope
+[2023-04-18 12:49:21] INFO root fetch - processPackages [yaost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yaost-2.0.2.tar.gz tmp/yaost-2.0.3-py3-none-any.whl.zip --markdown 20230418/y/yaost/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-04-18 12:49:21] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/c0/f0/43539427af63a4934a769a4339639a44b86197fd21bf3d7be9293c03c5c5/bagbag-0.9.6.tar.gz
+[2023-04-18 12:49:21] INFO root fetch - processPackages [welltestpy]: executing diffoscope
+[2023-04-18 12:49:21] INFO root fetch - processPackages [welltestpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/welltestpy-1.1.0rc1.tar.gz tmp/welltestpy-1.2.0.tar.gz --markdown 20230418/w/welltestpy/1.1.0rc1-1.2.0/diff.md --exclude *.pyd
+[2023-04-18 12:49:21] INFO root fetch - processPackages [ml4qc]: Downloading https://files.pythonhosted.org/packages/a2/3a/b2386a1395e22742b9c85362d8888e9e030e6ca7fbbb115cf6ff70c727bf/ml4qc-0.1.9.tar.gz
+[2023-04-18 12:49:21] INFO root fetch - processPackages [ml4qc]: executing diffoscope
+[2023-04-18 12:49:21] INFO root fetch - processPackages [ml4qc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml4qc-0.1.8.tar.gz tmp/ml4qc-0.1.9.tar.gz --markdown 20230418/m/ml4qc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-18 12:49:22] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-04-18 12:49:22] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.9.5.tar.gz tmp/bagbag-0.9.6.tar.gz --markdown 20230418/b/bagbag/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-04-18 12:49:23] INFO root fetch - processPackages [strangeworks-vqe]: Start processing: bionumpy
+[2023-04-18 12:49:23] INFO root fetch - main [MainThread]: End processing [strangeworks-vqe]: success
+[2023-04-18 12:49:23] INFO root fetch - processPackages [bionumpy]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-18 12:49:23] INFO root fetch - processPackages [django-prose]: Start processing: auto-py-to-exe
+[2023-04-18 12:49:23] INFO root fetch - main [MainThread]: End processing [django-prose]: success
+[2023-04-18 12:49:23] INFO root fetch - processPackages [auto-py-to-exe]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-04-18 12:49:23] INFO root fetch - processPackages [yaost]: Start processing: watchtower-logging
+[2023-04-18 12:49:23] INFO root fetch - main [MainThread]: End processing [yaost]: success
+[2023-04-18 12:49:23] INFO root fetch - main [MainThread]: End processing [ml4qc]: success
+[2023-04-18 12:49:23] INFO root fetch - processPackages [bionumpy]: Downloading https://files.pythonhosted.org/packages/69/15/88ddaee4b427070b0773236b8e363db02bd3676be45a4cc279a60cda8fc3/bionumpy-0.2.8.tar.gz
+[2023-04-18 12:49:23] INFO root fetch - processPackages [auto-py-to-exe]: Downloading https://files.pythonhosted.org/packages/cb/d2/fffcd0bfc3411155b1000afd947996f85877768ecda006433182a6393523/auto-py-to-exe-2.8.0.tar.gz
+[2023-04-18 12:49:23] INFO root fetch - processPackages [watchtower-logging]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-04-18 12:49:23] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-04-18 12:49:23] INFO root fetch - processPackages [watchtower-logging]: Downloading https://files.pythonhosted.org/packages/76/34/b8887e507a8d45063fd7cd740c8dac7dd345cd59a17a98aadf5a686e7f31/watchtower_logging-0.6.2.tar.gz
+[2023-04-18 12:49:23] INFO root fetch - processPackages [bionumpy]: Downloading https://files.pythonhosted.org/packages/4d/0e/e45afa648f3ea89445dc9c7abcb2923739bcc69b813fb48841eb2be6693a/bionumpy-0.2.9.tar.gz
+[2023-04-18 12:49:23] INFO root fetch - processPackages [auto-py-to-exe]: Downloading https://files.pythonhosted.org/packages/2c/2c/b21e9b1f7fc669a1c6e4d5f8861caafdf41408f004eb617df5d67bfc8b32/auto-py-to-exe-2.9.0.tar.gz
+[2023-04-18 12:49:23] INFO root fetch - processPackages [bionumpy]: executing diffoscope
+[2023-04-18 12:49:23] INFO root fetch - processPackages [bionumpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bionumpy-0.2.8.tar.gz tmp/bionumpy-0.2.9.tar.gz --markdown 20230418/b/bionumpy/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-18 12:49:23] INFO root fetch - processPackages [auto-py-to-exe]: executing diffoscope
+[2023-04-18 12:49:23] INFO root fetch - processPackages [auto-py-to-exe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-py-to-exe-2.8.0.tar.gz tmp/auto-py-to-exe-2.9.0.tar.gz --markdown 20230418/a/auto-py-to-exe/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-04-18 12:49:23] INFO root fetch - processPackages [watchtower-logging]: Downloading https://files.pythonhosted.org/packages/5e/dc/8ebcdea4ecaa4288ae31a2822d02602d321eb2c277932c188c4e12f30bb9/watchtower_logging-0.6.3.tar.gz
+[2023-04-18 12:49:23] INFO root fetch - main [MainThread]: End processing [kiauto]: success
+[2023-04-18 12:49:24] INFO root fetch - processPackages [watchtower-logging]: executing diffoscope
+[2023-04-18 12:49:24] INFO root fetch - processPackages [watchtower-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchtower_logging-0.6.2.tar.gz tmp/watchtower_logging-0.6.3.tar.gz --markdown 20230418/w/watchtower-logging/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-04-18 12:49:24] INFO root fetch - main [MainThread]: End processing [welltestpy]: success
+[2023-04-18 12:49:24] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
+[2023-04-18 12:49:25] INFO root fetch - main [MainThread]: End processing [boris-behav-obs]: success
+[2023-04-18 12:49:25] INFO root fetch - main [MainThread]: End processing [watchtower-logging]: success
+[2023-04-18 12:49:25] INFO root fetch - main [MainThread]: End processing [bionumpy]: success
+[2023-04-18 12:49:26] INFO root fetch - main [MainThread]: End processing [auto-py-to-exe]: success
+[2023-04-18 12:49:42] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-04-18 12:49:42] INFO root fetch - main [MainThread]: Store serial: [17754545]
