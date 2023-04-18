@@ -22172,3 +22172,116 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 16:05:52] INFO root fetch - main [MainThread]: End processing [playmolecule]: success
 [2023-04-18 16:05:53] INFO root fetch - main [MainThread]: End processing [toollib]: success
 [2023-04-18 16:05:53] INFO root fetch - main [MainThread]: Store serial: [17756770]
+[2023-04-18 16:10:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17756770]
+[2023-04-18 16:11:02] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-18 16:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: inels-mqtt-new
+[2023-04-18 16:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: real48
+[2023-04-18 16:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-custom-modal-admin
+[2023-04-18 16:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-webapp-skeleton
+[2023-04-18 16:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wizata-dsapi
+[2023-04-18 16:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dnxmy
+[2023-04-18 16:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kodekloud-downloader
+[2023-04-18 16:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torchfitter
+[2023-04-18 16:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qsc
+[2023-04-18 16:11:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: TheSilent
+[2023-04-18 16:11:02] WARNING root fetch - processPackages [real48]: Skipping, unable to determine old version
+[2023-04-18 16:11:02] INFO root fetch - processPackages [real48]: Start processing: sentry-relay
+[2023-04-18 16:11:02] INFO root fetch - main [MainThread]: End processing [real48] error
+[2023-04-18 16:11:02] INFO root fetch - processPackages [cdk-webapp-skeleton]: New version: [0.3.dev3] Old Version: [0.3.dev2]
+[2023-04-18 16:11:02] INFO root fetch - processPackages [qsc]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-18 16:11:02] INFO root fetch - processPackages [torchfitter]: New version: [4.2.2] Old Version: [4.2.1]
+[2023-04-18 16:11:02] INFO root fetch - processPackages [dnxmy]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-04-18 16:11:02] INFO root fetch - processPackages [django-custom-modal-admin]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-18 16:11:02] INFO root fetch - processPackages [kodekloud-downloader]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-18 16:11:02] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-18 16:11:02] INFO root fetch - processPackages [sentry-relay]: New version: [1.1.4] Old Version: [0.8.9]
+[2023-04-18 16:11:02] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-18 16:11:02] INFO root fetch - processPackages [inels-mqtt-new]: New version: [0.2.9a2] Old Version: [0.2.9a1]
+[2023-04-18 16:11:02] INFO root fetch - processPackages [kodekloud-downloader]: Downloading https://files.pythonhosted.org/packages/b9/d0/feec911fee4941d25f01c54536f767c492f72f2a40d814dd56759fad55d1/kodekloud-downloader-0.0.2.tar.gz
+[2023-04-18 16:11:02] INFO root fetch - processPackages [sentry-relay]: Downloading https://files.pythonhosted.org/packages/f6/e5/aa1ba95a9654dbeaec6ebc0fd3b439b4c7c406d9ef0b9592002f1e90b6eb/sentry-relay-0.8.9.zip
+[2023-04-18 16:11:02] INFO root fetch - processPackages [torchfitter]: Downloading https://files.pythonhosted.org/packages/00/f6/7d14adda07b8222b17aceac95c905abd62dbb4d46dd32c1c1fef5728024b/torchfitter-4.2.1.tar.gz
+[2023-04-18 16:11:02] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/57/07/ca5a89b7a2142120c33b178499a1bbb8a61eb50a14c7fb6bc872f7becf22/wizata-dsapi-0.1.8.tar.gz
+[2023-04-18 16:11:02] INFO root fetch - processPackages [inels-mqtt-new]: executing diffoscope
+[2023-04-18 16:11:02] INFO root fetch - processPackages [dnxmy]: Downloading https://files.pythonhosted.org/packages/73/7f/5b3a68124d73ddc74278c4265ebaaf7f1136aa83f3e1df0d3c4ee97ccb98/dnxmy-1.0.0.tar.gz
+[2023-04-18 16:11:02] INFO root fetch - processPackages [inels-mqtt-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inels-mqtt-new-0.2.9a1.tar.gz tmp/inels-mqtt-new-0.2.9a2.tar.gz --markdown 20230418/i/inels-mqtt-new/0.2.9a1-0.2.9a2/diff.md --exclude *.pyd
+[2023-04-18 16:11:02] INFO root fetch - processPackages [cdk-webapp-skeleton]: Downloading https://files.pythonhosted.org/packages/3c/ae/cfdd2a33b9c8bcc4efea2f9c9bdebff607d10f42e8fc11836e851be179be/cdk_webapp_skeleton-0.3.dev3.tar.gz
+[2023-04-18 16:11:02] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-04-18 16:11:02] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230418/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-18 16:11:02] INFO root fetch - processPackages [qsc]: Downloading https://files.pythonhosted.org/packages/53/29/8d4a99420bec17231ab6c4194e8dda9fdcfd69e232bf1d39936733adb67f/qsc-0.1.1.tar.gz
+[2023-04-18 16:11:02] INFO root fetch - processPackages [django-custom-modal-admin]: Downloading https://files.pythonhosted.org/packages/66/d7/7d8626f621872faa351c8f727b448e0256d4631475e862adfb8fe0914b95/django-custom-modal-admin-0.2.2.tar.gz
+[2023-04-18 16:11:03] INFO root fetch - processPackages [cdk-webapp-skeleton]: executing diffoscope
+[2023-04-18 16:11:03] INFO root fetch - processPackages [cdk-webapp-skeleton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_webapp_skeleton-0.3.dev2.tar.gz tmp/cdk_webapp_skeleton-0.3.dev3.tar.gz --markdown 20230418/c/cdk-webapp-skeleton/0.3.dev2-0.3.dev3/diff.md --exclude *.pyd
+[2023-04-18 16:11:03] INFO root fetch - processPackages [django-custom-modal-admin]: executing diffoscope
+[2023-04-18 16:11:03] INFO root fetch - processPackages [django-custom-modal-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-custom-modal-admin-0.2.1.tar.gz tmp/django-custom-modal-admin-0.2.2.tar.gz --markdown 20230418/d/django-custom-modal-admin/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-18 16:11:03] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/3d/8e/b370f42ec041b3e000ef226f2c1de276972a583145df6090c0be3bd6941d/wizata-dsapi-0.1.9.tar.gz
+[2023-04-18 16:11:03] INFO root fetch - processPackages [kodekloud-downloader]: Downloading https://files.pythonhosted.org/packages/03/5f/f3b0661a4f2f95a2cc9a0b47b411cde9ca6baf31031313a479db140a1366/kodekloud-downloader-0.0.3.tar.gz
+[2023-04-18 16:11:03] WARNING root fetch - processPackages [sentry-relay]: Skipping package: exceeds size limit 31231225>=10485760
+[2023-04-18 16:11:03] INFO root fetch - processPackages [sentry-relay]: Start processing: pyvast
+[2023-04-18 16:11:03] INFO root fetch - main [MainThread]: End processing [sentry-relay] error
+[2023-04-18 16:11:03] INFO root fetch - processPackages [dnxmy]: Downloading https://files.pythonhosted.org/packages/b5/5e/8076eba2a9716f8fbe4524970e47f73fb7463e37aa639e3f59153d74e0dd/dnxmy-1.0.1.tar.gz
+[2023-04-18 16:11:03] INFO root fetch - processPackages [torchfitter]: Downloading https://files.pythonhosted.org/packages/2a/f0/7c089c611eb35d5a2b7c4ec7edeb3019dbd6fbbe7a03803ed8e554e667f9/torchfitter-4.2.2.tar.gz
+[2023-04-18 16:11:03] INFO root fetch - processPackages [pyvast]: New version: [3.0.4] Old Version: [3.0.3]
+[2023-04-18 16:11:03] INFO root fetch - processPackages [qsc]: Downloading https://files.pythonhosted.org/packages/a1/fe/f8f0e50aa6ad416e04e46d85395ebd6550157c51e90e8591201eebee45ec/qsc-0.1.2.tar.gz
+[2023-04-18 16:11:03] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-04-18 16:11:03] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.1.8.tar.gz tmp/wizata-dsapi-0.1.9.tar.gz --markdown 20230418/w/wizata-dsapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-18 16:11:03] INFO root fetch - processPackages [kodekloud-downloader]: executing diffoscope
+[2023-04-18 16:11:03] INFO root fetch - processPackages [kodekloud-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodekloud-downloader-0.0.2.tar.gz tmp/kodekloud-downloader-0.0.3.tar.gz --markdown 20230418/k/kodekloud-downloader/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-18 16:11:03] INFO root fetch - processPackages [dnxmy]: executing diffoscope
+[2023-04-18 16:11:03] INFO root fetch - processPackages [dnxmy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dnxmy-1.0.0.tar.gz tmp/dnxmy-1.0.1.tar.gz --markdown 20230418/d/dnxmy/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-04-18 16:11:03] INFO root fetch - processPackages [torchfitter]: executing diffoscope
+[2023-04-18 16:11:03] INFO root fetch - processPackages [torchfitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchfitter-4.2.1.tar.gz tmp/torchfitter-4.2.2.tar.gz --markdown 20230418/t/torchfitter/4.2.1-4.2.2/diff.md --exclude *.pyd
+[2023-04-18 16:11:03] INFO root fetch - processPackages [qsc]: executing diffoscope
+[2023-04-18 16:11:03] INFO root fetch - processPackages [qsc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsc-0.1.1.tar.gz tmp/qsc-0.1.2.tar.gz --markdown 20230418/q/qsc/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-18 16:11:03] INFO root fetch - processPackages [pyvast]: Downloading https://files.pythonhosted.org/packages/fd/e2/ef4d398505655f5c25069176b0535cd48e2948a289c8aeac1bec3a6bc012/pyvast-3.0.3.tar.gz
+[2023-04-18 16:11:03] INFO root fetch - processPackages [pyvast]: Downloading https://files.pythonhosted.org/packages/c3/ad/b0b4a67403f9ea1d748095218779ca015651e4d16550fa2b8f2101985cea/pyvast-3.0.4.tar.gz
+[2023-04-18 16:11:04] INFO root fetch - processPackages [pyvast]: executing diffoscope
+[2023-04-18 16:11:04] INFO root fetch - processPackages [pyvast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvast-3.0.3.tar.gz tmp/pyvast-3.0.4.tar.gz --markdown 20230418/p/pyvast/3.0.3-3.0.4/diff.md --exclude *.pyd
+[2023-04-18 16:11:04] INFO root fetch - processPackages [inels-mqtt-new]: Start processing: pytest-alembic
+[2023-04-18 16:11:04] INFO root fetch - main [MainThread]: End processing [inels-mqtt-new]: success
+[2023-04-18 16:11:04] INFO root fetch - processPackages [pytest-alembic]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-18 16:11:04] INFO root fetch - processPackages [cdk-webapp-skeleton]: Start processing: pytest-alembic
+[2023-04-18 16:11:04] INFO root fetch - main [MainThread]: End processing [cdk-webapp-skeleton]: success
+[2023-04-18 16:11:04] INFO root fetch - processPackages [pytest-alembic]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-18 16:11:04] INFO root fetch - processPackages [TheSilent]: Start processing: kodekloud-downloader
+[2023-04-18 16:11:04] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-04-18 16:11:04] INFO root fetch - processPackages [pytest-alembic]: Downloading https://files.pythonhosted.org/packages/4a/2d/7980b69e96700a58268917d718ba1ebd4e2e06bd3b52abc22fa63028b7ac/pytest-alembic-0.9.0.tar.gz
+[2023-04-18 16:11:04] INFO root fetch - processPackages [pytest-alembic]: Downloading https://files.pythonhosted.org/packages/4a/2d/7980b69e96700a58268917d718ba1ebd4e2e06bd3b52abc22fa63028b7ac/pytest-alembic-0.9.0.tar.gz
+[2023-04-18 16:11:04] INFO root fetch - processPackages [kodekloud-downloader]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-18 16:11:04] INFO root fetch - processPackages [kodekloud-downloader]: executing diffoscope
+[2023-04-18 16:11:04] INFO root fetch - processPackages [kodekloud-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodekloud-downloader-0.0.2.tar.gz tmp/kodekloud-downloader-0.0.3.tar.gz --markdown 20230418/k/kodekloud-downloader/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-18 16:11:04] INFO root fetch - processPackages [torchfitter]: Start processing: delvewheel
+[2023-04-18 16:11:04] INFO root fetch - main [MainThread]: End processing [torchfitter]: success
+[2023-04-18 16:11:05] INFO root fetch - processPackages [delvewheel]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-04-18 16:11:05] INFO root fetch - processPackages [dnxmy]: Start processing: ds-caselaw-marklogic-api-client
+[2023-04-18 16:11:05] INFO root fetch - main [MainThread]: End processing [dnxmy]: success
+[2023-04-18 16:11:05] INFO root fetch - processPackages [kodekloud-downloader]: Start processing: strkit
+[2023-04-18 16:11:05] INFO root fetch - main [MainThread]: End processing [kodekloud-downloader]: success
+[2023-04-18 16:11:05] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: New version: [6.0.0] Old Version: [5.3.2]
+[2023-04-18 16:11:05] INFO root fetch - processPackages [strkit]: New version: [0.8.0a9] Old Version: [0.8.0a8]
+[2023-04-18 16:11:05] INFO root fetch - main [MainThread]: End processing [django-custom-modal-admin]: success
+[2023-04-18 16:11:05] INFO root fetch - processPackages [pytest-alembic]: Downloading https://files.pythonhosted.org/packages/1b/de/ed904bb6ea497afc41ef84a7fa5d81e87d8a62a3a862b1f4cf46dc1cde9f/pytest-alembic-0.9.1.tar.gz
+[2023-04-18 16:11:05] INFO root fetch - processPackages [pytest-alembic]: Downloading https://files.pythonhosted.org/packages/1b/de/ed904bb6ea497afc41ef84a7fa5d81e87d8a62a3a862b1f4cf46dc1cde9f/pytest-alembic-0.9.1.tar.gz
+[2023-04-18 16:11:05] INFO root fetch - processPackages [delvewheel]: Downloading https://files.pythonhosted.org/packages/a9/ef/e32535902c835e05b336652af8a6e6fbece3152ff3503e45a0bca6d007b0/delvewheel-1.3.5.tar.gz
+[2023-04-18 16:11:05] INFO root fetch - main [MainThread]: End processing [pyvast]: success
+[2023-04-18 16:11:05] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: Downloading https://files.pythonhosted.org/packages/23/7c/6eb586d31e3a13b34fb93640b62b10e807f2b0ac8e3e70954cf289ddd8d4/ds_caselaw_marklogic_api_client-5.3.2.tar.gz
+[2023-04-18 16:11:05] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-04-18 16:11:05] INFO root fetch - processPackages [pytest-alembic]: executing diffoscope
+[2023-04-18 16:11:05] INFO root fetch - processPackages [pytest-alembic]: executing diffoscope
+[2023-04-18 16:11:05] INFO root fetch - processPackages [pytest-alembic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-alembic-0.9.0.tar.gz tmp/pytest-alembic-0.9.1.tar.gz --markdown 20230418/p/pytest-alembic/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-18 16:11:05] INFO root fetch - processPackages [pytest-alembic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-alembic-0.9.0.tar.gz tmp/pytest-alembic-0.9.1.tar.gz --markdown 20230418/p/pytest-alembic/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-18 16:11:05] INFO root fetch - processPackages [strkit]: executing diffoscope
+[2023-04-18 16:11:05] INFO root fetch - processPackages [strkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strkit-0.8.0a8.tar.gz tmp/strkit-0.8.0a9.tar.gz --markdown 20230418/s/strkit/0.8.0a8-0.8.0a9/diff.md --exclude *.pyd
+[2023-04-18 16:11:05] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: Downloading https://files.pythonhosted.org/packages/02/fe/82458641092dd52ec944c09f9db6aa76ab433675d58092c76249fa2f22c4/ds_caselaw_marklogic_api_client-6.0.0.tar.gz
+[2023-04-18 16:11:05] INFO root fetch - main [MainThread]: End processing [qsc]: success
+[2023-04-18 16:11:05] INFO root fetch - processPackages [delvewheel]: Downloading https://files.pythonhosted.org/packages/e7/98/19f06fb23bdd3aaabae349db89116a28f5b6aea638eb800a5db7b3c909e5/delvewheel-1.3.6.tar.gz
+[2023-04-18 16:11:05] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: executing diffoscope
+[2023-04-18 16:11:05] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ds_caselaw_marklogic_api_client-5.3.2.tar.gz tmp/ds_caselaw_marklogic_api_client-6.0.0.tar.gz --markdown 20230418/d/ds-caselaw-marklogic-api-client/5.3.2-6.0.0/diff.md --exclude *.pyd
+[2023-04-18 16:11:05] INFO root fetch - processPackages [delvewheel]: executing diffoscope
+[2023-04-18 16:11:05] INFO root fetch - processPackages [delvewheel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delvewheel-1.3.5.tar.gz tmp/delvewheel-1.3.6.tar.gz --markdown 20230418/d/delvewheel/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-04-18 16:11:06] INFO root fetch - main [MainThread]: End processing [kodekloud-downloader]: success
+[2023-04-18 16:11:06] INFO root fetch - main [MainThread]: End processing [pytest-alembic]: success
+[2023-04-18 16:11:06] INFO root fetch - main [MainThread]: End processing [pytest-alembic]: success
+[2023-04-18 16:11:06] INFO root fetch - main [MainThread]: End processing [delvewheel]: success
+[2023-04-18 16:11:06] INFO root fetch - main [MainThread]: End processing [strkit]: success
+[2023-04-18 16:11:07] INFO root fetch - main [MainThread]: End processing [ds-caselaw-marklogic-api-client]: success
+[2023-04-18 16:11:07] INFO root fetch - main [MainThread]: Store serial: [17756832]
