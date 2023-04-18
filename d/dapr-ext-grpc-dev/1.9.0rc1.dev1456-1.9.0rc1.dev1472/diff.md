@@ -1,0 +1,202 @@
+# Comparing `tmp/dapr-ext-grpc-dev-1.9.0rc1.dev1456.tar.gz` & `tmp/dapr-ext-grpc-dev-1.9.0rc1.dev1472.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "dist/dapr-ext-grpc-dev-1.9.0rc1.dev1456.tar", last modified: Tue Apr 11 18:05:57 2023, max compression
++gzip compressed data, was "dist/dapr-ext-grpc-dev-1.9.0rc1.dev1472.tar", last modified: Tue Apr 18 17:05:12 2023, max compression
+```
+
+## Comparing `dapr-ext-grpc-dev-1.9.0rc1.dev1456.tar` & `dapr-ext-grpc-dev-1.9.0rc1.dev1472.tar`
+
+### file list
+
+```diff
+@@ -1,19 +1,19 @@
+-drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-04-11 18:05:57.000000 dapr-ext-grpc-dev-1.9.0rc1.dev1456/
+--rw-r--r--   0 runner    (1001) docker     (123)    11377 2023-04-11 18:05:37.000000 dapr-ext-grpc-dev-1.9.0rc1.dev1456/LICENSE
+--rw-r--r--   0 runner    (1001) docker     (123)      917 2023-04-11 18:05:57.000000 dapr-ext-grpc-dev-1.9.0rc1.dev1456/PKG-INFO
+--rw-r--r--   0 runner    (1001) docker     (123)      405 2023-04-11 18:05:37.000000 dapr-ext-grpc-dev-1.9.0rc1.dev1456/README.rst
+-drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-04-11 18:05:57.000000 dapr-ext-grpc-dev-1.9.0rc1.dev1456/dapr/
+-drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-04-11 18:05:57.000000 dapr-ext-grpc-dev-1.9.0rc1.dev1456/dapr/ext/
+-drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-04-11 18:05:57.000000 dapr-ext-grpc-dev-1.9.0rc1.dev1456/dapr/ext/grpc/
+--rw-r--r--   0 runner    (1001) docker     (123)      943 2023-04-11 18:05:37.000000 dapr-ext-grpc-dev-1.9.0rc1.dev1456/dapr/ext/grpc/__init__.py
+--rw-r--r--   0 runner    (1001) docker     (123)     9657 2023-04-11 18:05:37.000000 dapr-ext-grpc-dev-1.9.0rc1.dev1456/dapr/ext/grpc/_servicier.py
+--rw-r--r--   0 runner    (1001) docker     (123)     5640 2023-04-11 18:05:37.000000 dapr-ext-grpc-dev-1.9.0rc1.dev1456/dapr/ext/grpc/app.py
+--rw-r--r--   0 runner    (1001) docker     (123)      617 2023-04-11 18:05:37.000000 dapr-ext-grpc-dev-1.9.0rc1.dev1456/dapr/ext/grpc/version.py
+-drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-04-11 18:05:57.000000 dapr-ext-grpc-dev-1.9.0rc1.dev1456/dapr_ext_grpc_dev.egg-info/
+--rw-r--r--   0 runner    (1001) docker     (123)      917 2023-04-11 18:05:57.000000 dapr-ext-grpc-dev-1.9.0rc1.dev1456/dapr_ext_grpc_dev.egg-info/PKG-INFO
+--rw-r--r--   0 runner    (1001) docker     (123)      341 2023-04-11 18:05:57.000000 dapr-ext-grpc-dev-1.9.0rc1.dev1456/dapr_ext_grpc_dev.egg-info/SOURCES.txt
+--rw-r--r--   0 runner    (1001) docker     (123)        1 2023-04-11 18:05:57.000000 dapr-ext-grpc-dev-1.9.0rc1.dev1456/dapr_ext_grpc_dev.egg-info/dependency_links.txt
+--rw-r--r--   0 runner    (1001) docker     (123)       42 2023-04-11 18:05:57.000000 dapr-ext-grpc-dev-1.9.0rc1.dev1456/dapr_ext_grpc_dev.egg-info/requires.txt
+--rw-r--r--   0 runner    (1001) docker     (123)        5 2023-04-11 18:05:57.000000 dapr-ext-grpc-dev-1.9.0rc1.dev1456/dapr_ext_grpc_dev.egg-info/top_level.txt
+--rw-r--r--   0 runner    (1001) docker     (123)      869 2023-04-11 18:05:57.000000 dapr-ext-grpc-dev-1.9.0rc1.dev1456/setup.cfg
+--rw-r--r--   0 runner    (1001) docker     (123)     2141 2023-04-11 18:05:37.000000 dapr-ext-grpc-dev-1.9.0rc1.dev1456/setup.py
++drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-04-18 17:05:12.000000 dapr-ext-grpc-dev-1.9.0rc1.dev1472/
++-rw-r--r--   0 runner    (1001) docker     (123)    11377 2023-04-18 17:04:51.000000 dapr-ext-grpc-dev-1.9.0rc1.dev1472/LICENSE
++-rw-r--r--   0 runner    (1001) docker     (123)      917 2023-04-18 17:05:12.000000 dapr-ext-grpc-dev-1.9.0rc1.dev1472/PKG-INFO
++-rw-r--r--   0 runner    (1001) docker     (123)      405 2023-04-18 17:04:51.000000 dapr-ext-grpc-dev-1.9.0rc1.dev1472/README.rst
++drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-04-18 17:05:12.000000 dapr-ext-grpc-dev-1.9.0rc1.dev1472/dapr/
++drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-04-18 17:05:12.000000 dapr-ext-grpc-dev-1.9.0rc1.dev1472/dapr/ext/
++drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-04-18 17:05:12.000000 dapr-ext-grpc-dev-1.9.0rc1.dev1472/dapr/ext/grpc/
++-rw-r--r--   0 runner    (1001) docker     (123)      943 2023-04-18 17:04:51.000000 dapr-ext-grpc-dev-1.9.0rc1.dev1472/dapr/ext/grpc/__init__.py
++-rw-r--r--   0 runner    (1001) docker     (123)     9657 2023-04-18 17:04:51.000000 dapr-ext-grpc-dev-1.9.0rc1.dev1472/dapr/ext/grpc/_servicier.py
++-rw-r--r--   0 runner    (1001) docker     (123)     5640 2023-04-18 17:04:51.000000 dapr-ext-grpc-dev-1.9.0rc1.dev1472/dapr/ext/grpc/app.py
++-rw-r--r--   0 runner    (1001) docker     (123)      617 2023-04-18 17:04:51.000000 dapr-ext-grpc-dev-1.9.0rc1.dev1472/dapr/ext/grpc/version.py
++drwxr-xr-x   0 runner    (1001) docker     (123)        0 2023-04-18 17:05:12.000000 dapr-ext-grpc-dev-1.9.0rc1.dev1472/dapr_ext_grpc_dev.egg-info/
++-rw-r--r--   0 runner    (1001) docker     (123)      917 2023-04-18 17:05:12.000000 dapr-ext-grpc-dev-1.9.0rc1.dev1472/dapr_ext_grpc_dev.egg-info/PKG-INFO
++-rw-r--r--   0 runner    (1001) docker     (123)      341 2023-04-18 17:05:12.000000 dapr-ext-grpc-dev-1.9.0rc1.dev1472/dapr_ext_grpc_dev.egg-info/SOURCES.txt
++-rw-r--r--   0 runner    (1001) docker     (123)        1 2023-04-18 17:05:12.000000 dapr-ext-grpc-dev-1.9.0rc1.dev1472/dapr_ext_grpc_dev.egg-info/dependency_links.txt
++-rw-r--r--   0 runner    (1001) docker     (123)       42 2023-04-18 17:05:12.000000 dapr-ext-grpc-dev-1.9.0rc1.dev1472/dapr_ext_grpc_dev.egg-info/requires.txt
++-rw-r--r--   0 runner    (1001) docker     (123)        5 2023-04-18 17:05:12.000000 dapr-ext-grpc-dev-1.9.0rc1.dev1472/dapr_ext_grpc_dev.egg-info/top_level.txt
++-rw-r--r--   0 runner    (1001) docker     (123)      869 2023-04-18 17:05:12.000000 dapr-ext-grpc-dev-1.9.0rc1.dev1472/setup.cfg
++-rw-r--r--   0 runner    (1001) docker     (123)     2141 2023-04-18 17:04:51.000000 dapr-ext-grpc-dev-1.9.0rc1.dev1472/setup.py
+```
+
+### Comparing `dapr-ext-grpc-dev-1.9.0rc1.dev1456/LICENSE` & `dapr-ext-grpc-dev-1.9.0rc1.dev1472/LICENSE`
+
+ * *Files identical despite different names*
+
+### Comparing `dapr-ext-grpc-dev-1.9.0rc1.dev1456/PKG-INFO` & `dapr-ext-grpc-dev-1.9.0rc1.dev1472/PKG-INFO`
+
+ * *Files 2% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 1.2
+ Name: dapr-ext-grpc-dev
+-Version: 1.9.0rc1.dev1456
++Version: 1.9.0rc1.dev1472
+ Summary: The developmental release for Dapr gRPC AppCallback.
+ Home-page: https://dapr.io/
+ Author: Dapr Authors
+ Author-email: daprweb@microsoft.com
+ License: Apache
+ Project-URL: Documentation, https://github.com/dapr/docs
+ Project-URL: Source, https://github.com/dapr/python-sdk
+```
+
+### Comparing `dapr-ext-grpc-dev-1.9.0rc1.dev1456/dapr/ext/grpc/__init__.py` & `dapr-ext-grpc-dev-1.9.0rc1.dev1472/dapr/ext/grpc/__init__.py`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -1,11 +1,11 @@
+ # -*- coding: utf-8 -*-
+ 
+ """
+-Copyright 2021 The Dapr Authors
++Copyright 2023 The Dapr Authors
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+     http://www.apache.org/licenses/LICENSE-2.0
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+```
+
+### Comparing `dapr-ext-grpc-dev-1.9.0rc1.dev1456/dapr/ext/grpc/_servicier.py` & `dapr-ext-grpc-dev-1.9.0rc1.dev1472/dapr/ext/grpc/_servicier.py`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -1,11 +1,11 @@
+ # -*- coding: utf-8 -*-
+ 
+ """
+-Copyright 2021 The Dapr Authors
++Copyright 2023 The Dapr Authors
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+     http://www.apache.org/licenses/LICENSE-2.0
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+```
+
+### Comparing `dapr-ext-grpc-dev-1.9.0rc1.dev1456/dapr/ext/grpc/app.py` & `dapr-ext-grpc-dev-1.9.0rc1.dev1472/dapr/ext/grpc/app.py`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -1,11 +1,11 @@
+ # -*- coding: utf-8 -*-
+ 
+ """
+-Copyright 2021 The Dapr Authors
++Copyright 2023 The Dapr Authors
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+     http://www.apache.org/licenses/LICENSE-2.0
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+```
+
+### Comparing `dapr-ext-grpc-dev-1.9.0rc1.dev1456/dapr/ext/grpc/version.py` & `dapr-ext-grpc-dev-1.9.0rc1.dev1472/dapr/ext/grpc/version.py`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -1,11 +1,11 @@
+ # -*- coding: utf-8 -*-
+ 
+ """
+-Copyright 2021 The Dapr Authors
++Copyright 2023 The Dapr Authors
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+     http://www.apache.org/licenses/LICENSE-2.0
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+```
+
+### Comparing `dapr-ext-grpc-dev-1.9.0rc1.dev1456/dapr_ext_grpc_dev.egg-info/PKG-INFO` & `dapr-ext-grpc-dev-1.9.0rc1.dev1472/dapr_ext_grpc_dev.egg-info/PKG-INFO`
+
+ * *Files 2% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 1.2
+ Name: dapr-ext-grpc-dev
+-Version: 1.9.0rc1.dev1456
++Version: 1.9.0rc1.dev1472
+ Summary: The developmental release for Dapr gRPC AppCallback.
+ Home-page: https://dapr.io/
+ Author: Dapr Authors
+ Author-email: daprweb@microsoft.com
+ License: Apache
+ Project-URL: Documentation, https://github.com/dapr/docs
+ Project-URL: Source, https://github.com/dapr/python-sdk
+```
+
+### Comparing `dapr-ext-grpc-dev-1.9.0rc1.dev1456/setup.cfg` & `dapr-ext-grpc-dev-1.9.0rc1.dev1472/setup.cfg`
+
+ * *Files identical despite different names*
+
+### Comparing `dapr-ext-grpc-dev-1.9.0rc1.dev1456/setup.py` & `dapr-ext-grpc-dev-1.9.0rc1.dev1472/setup.py`
+
+ * *Files 5% similar despite different names*
+
+```diff
+@@ -1,11 +1,11 @@
+ # -*- coding: utf-8 -*-
+ 
+ """
+-Copyright 2021 The Dapr Authors
++Copyright 2023 The Dapr Authors
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+     http://www.apache.org/licenses/LICENSE-2.0
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+```
+
