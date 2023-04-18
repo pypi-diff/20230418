@@ -1554,3 +1554,107 @@
 [2023-04-18 02:04:00] INFO root fetch - main [MainThread]: End processing [standard-transform]: success
 [2023-04-18 02:04:02] INFO root fetch - main [MainThread]: End processing [e2eAIOK]: success
 [2023-04-18 02:04:02] INFO root fetch - main [MainThread]: Store serial: [17745835]
+[2023-04-18 02:09:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17745835]
+[2023-04-18 02:09:11] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-18 02:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: e2eAIOK-sda
+[2023-04-18 02:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AdvancedHTMLParser
+[2023-04-18 02:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mct-nightly
+[2023-04-18 02:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jaxkern-nightly
+[2023-04-18 02:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lusid-sdk
+[2023-04-18 02:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lusid-sdk-preview
+[2023-04-18 02:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hcs-cli
+[2023-04-18 02:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jaxutils-nightly
+[2023-04-18 02:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tccli
+[2023-04-18 02:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: edgedb-orm
+[2023-04-18 02:09:11] INFO root fetch - processPackages [e2eAIOK-sda]: New version: [1.0.1b2023041800] Old Version: [1.0.1b2023041400]
+[2023-04-18 02:09:11] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230417] Old Version: [0.0.8.dev20230416]
+[2023-04-18 02:09:11] INFO root fetch - processPackages [AdvancedHTMLParser]: New version: [9.0.2] Old Version: [9.0.1]
+[2023-04-18 02:09:11] INFO root fetch - processPackages [hcs-cli]: New version: [0.1.30] Old Version: [0.1.29]
+[2023-04-18 02:09:11] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-04-18 02:09:11] INFO root fetch - processPackages [edgedb-orm]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-18 02:09:11] INFO root fetch - processPackages [mct-nightly]: New version: [1.8.0.9042023.post411] Old Version: [1.8.0.9032023.post431]
+[2023-04-18 02:09:11] INFO root fetch - processPackages [tccli]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-04-18 02:09:11] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-18 02:09:11] INFO root fetch - processPackages [lusid-sdk]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-18 02:09:11] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-04-18 02:09:11] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230418/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-04-18 02:09:11] INFO root fetch - processPackages [tccli]: executing diffoscope
+[2023-04-18 02:09:11] INFO root fetch - processPackages [tccli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-3.0.98.1.tar.gz tmp/tccli-3.0.99.1.tar.gz --markdown 20230418/t/tccli/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-04-18 02:09:11] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-04-18 02:09:11] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.8.0.9032023.post431.tar.gz tmp/mct-nightly-1.8.0.9042023.post411.tar.gz --markdown 20230418/m/mct-nightly/1.8.0.9032023.post431-1.8.0.9042023.post411/diff.md --exclude *.pyd
+[2023-04-18 02:09:11] INFO root fetch - processPackages [e2eAIOK-sda]: Downloading https://files.pythonhosted.org/packages/7c/6b/8d40598a4e4e37a92b3ba0a0581ab093d231842b0e919d773c67c78d4792/e2eAIOK_sda-1.0.1b2023041400-py3-none-any.whl
+[2023-04-18 02:09:11] INFO root fetch - processPackages [hcs-cli]: Downloading https://files.pythonhosted.org/packages/8f/fe/9197dfc2eb36da47866495567315a21d1623d46727c5fcbe350efb18a832/hcs-cli-0.1.30.tar.gz
+[2023-04-18 02:09:11] INFO root fetch - processPackages [AdvancedHTMLParser]: Downloading https://files.pythonhosted.org/packages/bb/51/80d4d52c6d59fcd4e4ccefb221ec43277cb3ae05163d01cb6efe768788e9/AdvancedHTMLParser-9.0.1.tar.gz
+[2023-04-18 02:09:11] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2023-04-18 02:09:11] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-1.0.8.tar.gz tmp/lusid-sdk-1.0.9.tar.gz --markdown 20230418/l/lusid-sdk/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-18 02:09:11] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-04-18 02:09:11] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230416.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230417.tar.gz --markdown 20230418/j/jaxutils-nightly/0.0.8.dev20230416-0.0.8.dev20230417/diff.md --exclude *.pyd
+[2023-04-18 02:09:11] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2023-04-18 02:09:11] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.0.8.tar.gz tmp/lusid-sdk-preview-1.0.9.tar.gz --markdown 20230418/l/lusid-sdk-preview/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-18 02:09:11] INFO root fetch - processPackages [edgedb-orm]: Downloading https://files.pythonhosted.org/packages/22/8c/151e55e715bf1eddb3f361685ea2d0c0a99c94f60dac158086cae619fb39/edgedb_orm-1.0.8.tar.gz
+[2023-04-18 02:09:11] INFO root fetch - processPackages [hcs-cli]: executing diffoscope
+[2023-04-18 02:09:11] INFO root fetch - processPackages [hcs-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcs-cli-0.1.29.tar.gz tmp/hcs-cli-0.1.30.tar.gz --markdown 20230418/h/hcs-cli/0.1.29-0.1.30/diff.md --exclude *.pyd
+[2023-04-18 02:09:11] INFO root fetch - processPackages [e2eAIOK-sda]: Downloading https://files.pythonhosted.org/packages/6d/8b/31165e5a3545aab526acb1994383f6a3fc23f7ca91598d93b14eb959ce4c/e2eAIOK_sda-1.0.1b2023041800-py3-none-any.whl
+[2023-04-18 02:09:11] INFO root fetch - processPackages [edgedb-orm]: Downloading https://files.pythonhosted.org/packages/ef/e6/28923949c7b56bf40a0d273ce28e74afd2443cd52d8ce522b86e4adb9d9b/edgedb_orm-1.0.9.tar.gz
+[2023-04-18 02:09:11] INFO root fetch - processPackages [AdvancedHTMLParser]: Downloading https://files.pythonhosted.org/packages/58/90/9be5b3cf430c36b0ba27959aad24262be5494b4b9a2aa5a1c427b8391ef9/AdvancedHTMLParser-9.0.2.tar.gz
+[2023-04-18 02:09:12] INFO root fetch - processPackages [edgedb-orm]: executing diffoscope
+[2023-04-18 02:09:12] INFO root fetch - processPackages [edgedb-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgedb_orm-1.0.8.tar.gz tmp/edgedb_orm-1.0.9.tar.gz --markdown 20230418/e/edgedb-orm/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-18 02:09:12] INFO root fetch - processPackages [e2eAIOK-sda]: executing diffoscope
+[2023-04-18 02:09:12] INFO root fetch - processPackages [e2eAIOK-sda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2eAIOK_sda-1.0.1b2023041400-py3-none-any.whl.zip tmp/e2eAIOK_sda-1.0.1b2023041800-py3-none-any.whl.zip --markdown 20230418/e/e2eAIOK-sda/1.0.1b2023041400-1.0.1b2023041800/diff.md --exclude *.pyd
+[2023-04-18 02:09:12] INFO root fetch - processPackages [AdvancedHTMLParser]: executing diffoscope
+[2023-04-18 02:09:12] INFO root fetch - processPackages [AdvancedHTMLParser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AdvancedHTMLParser-9.0.1.tar.gz tmp/AdvancedHTMLParser-9.0.2.tar.gz --markdown 20230418/A/AdvancedHTMLParser/9.0.1-9.0.2/diff.md --exclude *.pyd
+[2023-04-18 02:09:13] INFO root fetch - processPackages [jaxkern-nightly]: Start processing: ota
+[2023-04-18 02:09:13] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-04-18 02:09:13] INFO root fetch - processPackages [ota]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-18 02:09:13] INFO root fetch - processPackages [ota]: Downloading https://files.pythonhosted.org/packages/ed/2e/2644b92a1f8ad9713723c6a8b2306278898721338bd21d8ebadbcdd17d18/ota-0.0.6.tar.gz
+[2023-04-18 02:09:13] INFO root fetch - processPackages [jaxutils-nightly]: Start processing: torchlayers-nightly
+[2023-04-18 02:09:13] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-04-18 02:09:13] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1681690032] Old Version: [1681603652]
+[2023-04-18 02:09:13] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/21/fb/3bc1492f1ec0b58c40837212ef016754df8aaccb3c06d287afcee0f33154/torchlayers-nightly-1681690032.tar.gz
+[2023-04-18 02:09:13] INFO root fetch - processPackages [ota]: Downloading https://files.pythonhosted.org/packages/6c/4b/5c83f863d1682062130d2dc592c0aa3559e75430a700b60a011ec22aa74a/ota-0.0.7.tar.gz
+[2023-04-18 02:09:13] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-04-18 02:09:13] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1681603652.tar.gz tmp/torchlayers-nightly-1681690032.tar.gz --markdown 20230418/t/torchlayers-nightly/1681603652-1681690032/diff.md --exclude *.pyd
+[2023-04-18 02:09:13] INFO root fetch - processPackages [ota]: executing diffoscope
+[2023-04-18 02:09:13] INFO root fetch - processPackages [ota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ota-0.0.6.tar.gz tmp/ota-0.0.7.tar.gz --markdown 20230418/o/ota/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-18 02:09:14] INFO root fetch - processPackages [edgedb-orm]: Start processing: ota
+[2023-04-18 02:09:14] INFO root fetch - main [MainThread]: End processing [edgedb-orm]: success
+[2023-04-18 02:09:14] INFO root fetch - processPackages [hcs-cli]: Start processing: klarna-orders
+[2023-04-18 02:09:14] INFO root fetch - main [MainThread]: End processing [hcs-cli]: success
+[2023-04-18 02:09:14] INFO root fetch - processPackages [ota]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-18 02:09:14] INFO root fetch - processPackages [klarna-orders]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-04-18 02:09:14] INFO root fetch - processPackages [e2eAIOK-sda]: Start processing: tfserver
+[2023-04-18 02:09:14] INFO root fetch - main [MainThread]: End processing [e2eAIOK-sda]: success
+[2023-04-18 02:09:14] INFO root fetch - processPackages [ota]: executing diffoscope
+[2023-04-18 02:09:14] INFO root fetch - processPackages [ota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ota-0.0.6.tar.gz tmp/ota-0.0.7.tar.gz --markdown 20230418/o/ota/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-18 02:09:14] INFO root fetch - processPackages [tfserver]: New version: [0.4b2] Old Version: [0.4b1]
+[2023-04-18 02:09:14] INFO root fetch - processPackages [klarna-orders]: Downloading https://files.pythonhosted.org/packages/ae/d0/e4e237c9d6d60069ede03ef3b636c909d7514a3571fdb67a6c775e10f961/klarna-orders-1.0.1.tar.gz
+[2023-04-18 02:09:14] INFO root fetch - processPackages [tfserver]: Downloading https://files.pythonhosted.org/packages/4c/1b/e8fe8a2fef9943a8c7f5393dea4603084766da8a2314c0e261316163bc67/tfserver-0.4b1-py3-none-any.whl
+[2023-04-18 02:09:14] INFO root fetch - processPackages [klarna-orders]: Downloading https://files.pythonhosted.org/packages/ae/0c/e5f0ceafa68f8dc3aabb1e9f59020b7d41092a66e9abb9f9ce1db007c3a3/klarna-orders-1.1.0.tar.gz
+[2023-04-18 02:09:14] INFO root fetch - processPackages [klarna-orders]: executing diffoscope
+[2023-04-18 02:09:14] INFO root fetch - processPackages [klarna-orders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klarna-orders-1.0.1.tar.gz tmp/klarna-orders-1.1.0.tar.gz --markdown 20230418/k/klarna-orders/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-04-18 02:09:14] INFO root fetch - processPackages [tfserver]: Downloading https://files.pythonhosted.org/packages/03/c7/ff47c38bf9da0171012f56cb33ff8a0329566876be0bab7cb254993fd8e8/tfserver-0.4b2-py3-none-any.whl
+[2023-04-18 02:09:15] INFO root fetch - processPackages [tfserver]: executing diffoscope
+[2023-04-18 02:09:15] INFO root fetch - processPackages [tfserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfserver-0.4b1-py3-none-any.whl.zip tmp/tfserver-0.4b2-py3-none-any.whl.zip --markdown 20230418/t/tfserver/0.4b1-0.4b2/diff.md --exclude *.pyd
+[2023-04-18 02:09:15] INFO root fetch - processPackages [AdvancedHTMLParser]: Start processing: receptorctl
+[2023-04-18 02:09:15] INFO root fetch - main [MainThread]: End processing [AdvancedHTMLParser]: success
+[2023-04-18 02:09:15] INFO root fetch - processPackages [receptorctl]: New version: [1.3.1] Old Version: [1.3.0.dev2]
+[2023-04-18 02:09:15] INFO root fetch - processPackages [receptorctl]: executing diffoscope
+[2023-04-18 02:09:15] INFO root fetch - processPackages [receptorctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/receptorctl-1.3.0.dev2.tar.gz tmp/receptorctl-1.3.1.tar.gz --markdown 20230418/r/receptorctl/1.3.0.dev2-1.3.1/diff.md --exclude *.pyd
+[2023-04-18 02:09:15] INFO root fetch - processPackages [torchlayers-nightly]: Start processing: pymultiastar
+[2023-04-18 02:09:15] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-04-18 02:09:15] INFO root fetch - processPackages [pymultiastar]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-04-18 02:09:15] INFO root fetch - main [MainThread]: End processing [ota]: success
+[2023-04-18 02:09:15] INFO root fetch - processPackages [pymultiastar]: Downloading https://files.pythonhosted.org/packages/33/40/75029356b3c7089e65b364b8a152b81d359998ecc6321b976982deea30fe/pymultiastar-0.0.1-cp310-cp310-win_amd64.whl
+[2023-04-18 02:09:16] INFO root fetch - main [MainThread]: End processing [ota]: success
+[2023-04-18 02:09:16] INFO root fetch - processPackages [pymultiastar]: Downloading https://files.pythonhosted.org/packages/90/7b/2962ce754dd3223335da83758ce1cfe0188246375f58f8a5a52d16d4d3da/pymultiastar-0.0.3-cp311-cp311-win_amd64.whl
+[2023-04-18 02:09:16] INFO root fetch - main [MainThread]: End processing [tfserver]: success
+[2023-04-18 02:09:16] INFO root fetch - processPackages [pymultiastar]: executing diffoscope
+[2023-04-18 02:09:16] INFO root fetch - processPackages [pymultiastar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymultiastar-0.0.1-cp310-cp310-win_amd64.whl.zip tmp/pymultiastar-0.0.3-cp311-cp311-win_amd64.whl.zip --markdown 20230418/p/pymultiastar/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-04-18 02:09:16] INFO root fetch - main [MainThread]: End processing [receptorctl]: success
+[2023-04-18 02:09:16] INFO root fetch - main [MainThread]: End processing [klarna-orders]: success
+[2023-04-18 02:09:17] INFO root fetch - main [MainThread]: End processing [tccli]: success
+[2023-04-18 02:09:17] INFO root fetch - main [MainThread]: End processing [pymultiastar]: success
+[2023-04-18 02:09:18] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-04-18 02:09:30] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2023-04-18 02:09:45] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2023-04-18 02:09:45] INFO root fetch - main [MainThread]: Store serial: [17745883]
