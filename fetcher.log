@@ -19789,3 +19789,133 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 14:11:33] INFO root fetch - main [MainThread]: End processing [mainnet]: success
 [2023-04-18 14:12:14] INFO root fetch - main [MainThread]: End processing [epam.indigo]: success
 [2023-04-18 14:12:14] INFO root fetch - main [MainThread]: Store serial: [17755439]
+[2023-04-18 14:17:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17755439]
+[2023-04-18 14:17:36] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-04-18 14:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ms-imputedhours-core
+[2023-04-18 14:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inspire-schemas
+[2023-04-18 14:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: one-api-tool
+[2023-04-18 14:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qontract-reconcile
+[2023-04-18 14:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: returnn
+[2023-04-18 14:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arlq
+[2023-04-18 14:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: colabtunnel
+[2023-04-18 14:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cqkit
+[2023-04-18 14:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: auraboros
+[2023-04-18 14:17:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jupyterlite-xeus-nelson
+[2023-04-18 14:17:36] INFO root fetch - processPackages [inspire-schemas]: New version: [9.0.0] Old Version: [8.0.0]
+[2023-04-18 14:17:36] INFO root fetch - processPackages [arlq]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-04-18 14:17:36] INFO root fetch - processPackages [one-api-tool]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-18 14:17:36] INFO root fetch - processPackages [ms-imputedhours-core]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-04-18 14:17:36] INFO root fetch - processPackages [jupyterlite-xeus-nelson]: New version: [0.1.4] Old Version: [0.1.2]
+[2023-04-18 14:17:36] INFO root fetch - processPackages [colabtunnel]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-18 14:17:36] INFO root fetch - processPackages [cqkit]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-04-18 14:17:36] INFO root fetch - processPackages [auraboros]: New version: [0.9.0a0] Old Version: [0.8.0a0]
+[2023-04-18 14:17:36] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-04-18 14:17:36] INFO root fetch - processPackages [returnn]: New version: [1.20230418.5121] Old Version: [1.20230418.140214]
+[2023-04-18 14:17:36] INFO root fetch - processPackages [auraboros]: executing diffoscope
+[2023-04-18 14:17:36] INFO root fetch - processPackages [auraboros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auraboros-0.8.0a0.tar.gz tmp/auraboros-0.9.0a0.tar.gz --markdown 20230418/a/auraboros/0.8.0a0-0.9.0a0/diff.md --exclude *.pyd
+[2023-04-18 14:17:36] INFO root fetch - processPackages [jupyterlite-xeus-nelson]: Downloading https://files.pythonhosted.org/packages/9c/39/242e5d1cffcc5c9c865f65a164c74d25b0bee7fdd9437385ff23554806a0/jupyterlite-xeus-nelson-0.1.2.tar.gz
+[2023-04-18 14:17:36] INFO root fetch - processPackages [cqkit]: Downloading https://files.pythonhosted.org/packages/26/a3/9d499aac0eb39f33385953af694538450cbd9a177fb6e2d68995cbf03c76/cqkit-0.5.0.tar.gz
+[2023-04-18 14:17:36] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/c0/c4/5ad9a34812e35daa9bec1dbbcaa6494868899a001c497e2665f0100ea1e7/returnn-1.20230418.140214.tar.gz
+[2023-04-18 14:17:36] INFO root fetch - processPackages [colabtunnel]: Downloading https://files.pythonhosted.org/packages/3d/4b/e6833c552265a65a5818d50e7fa5790308806b012d5c149d72ca0d1b07fe/colabtunnel-0.0.5.tar.gz
+[2023-04-18 14:17:36] INFO root fetch - processPackages [colabtunnel]: executing diffoscope
+[2023-04-18 14:17:36] INFO root fetch - processPackages [colabtunnel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colabtunnel-0.0.4.tar.gz tmp/colabtunnel-0.0.5.tar.gz --markdown 20230418/c/colabtunnel/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-18 14:17:36] INFO root fetch - processPackages [ms-imputedhours-core]: Downloading https://files.pythonhosted.org/packages/1b/0d/ef20adbf23d43b3a428aabdf95233d96d03040c04c3f5e1054010bbfbf70/ms_imputedhours_core-0.3.3.tar.gz
+[2023-04-18 14:17:36] INFO root fetch - processPackages [one-api-tool]: Downloading https://files.pythonhosted.org/packages/ff/8f/7d1e4b6ffedec5ce4d935d415d3671db2f449d525e96c673bf8382977ad0/one-api-tool-0.1.6.tar.gz
+[2023-04-18 14:17:36] INFO root fetch - processPackages [arlq]: Downloading https://files.pythonhosted.org/packages/b3/35/9f12a493e5db3b5973e42be50b8e351a292d7fbd0bd887742cc5561f9fb3/arlq-1.2.1.tar.gz
+[2023-04-18 14:17:36] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-04-18 14:17:36] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230418.140214.tar.gz tmp/returnn-1.20230418.5121.tar.gz --markdown 20230418/r/returnn/1.20230418.140214-1.20230418.5121/diff.md --exclude *.pyd
+[2023-04-18 14:17:36] INFO root fetch - processPackages [ms-imputedhours-core]: executing diffoscope
+[2023-04-18 14:17:36] INFO root fetch - processPackages [ms-imputedhours-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_imputedhours_core-0.3.2.tar.gz tmp/ms_imputedhours_core-0.3.3.tar.gz --markdown 20230418/m/ms-imputedhours-core/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-04-18 14:17:36] INFO root fetch - processPackages [inspire-schemas]: executing diffoscope
+[2023-04-18 14:17:36] INFO root fetch - processPackages [inspire-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inspire-schemas-8.0.0.tar.gz tmp/inspire-schemas-9.0.0.tar.gz --markdown 20230418/i/inspire-schemas/8.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-04-18 14:17:36] INFO root fetch - processPackages [one-api-tool]: executing diffoscope
+[2023-04-18 14:17:36] INFO root fetch - processPackages [one-api-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/one-api-tool-0.1.5.tar.gz tmp/one-api-tool-0.1.6.tar.gz --markdown 20230418/o/one-api-tool/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-18 14:17:36] INFO root fetch - processPackages [arlq]: executing diffoscope
+[2023-04-18 14:17:36] INFO root fetch - processPackages [arlq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arlq-1.2.0.tar.gz tmp/arlq-1.2.1.tar.gz --markdown 20230418/a/arlq/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-04-18 14:17:36] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-04-18 14:17:36] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230418/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-04-18 14:17:36] INFO root fetch - processPackages [cqkit]: Downloading https://files.pythonhosted.org/packages/9a/a0/d26113402a4f64f4b356cbb6d922ed58e2f415858089dab4b7ca700ba703/cqkit-0.5.1.tar.gz
+[2023-04-18 14:17:37] INFO root fetch - processPackages [cqkit]: executing diffoscope
+[2023-04-18 14:17:37] INFO root fetch - processPackages [cqkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cqkit-0.5.0.tar.gz tmp/cqkit-0.5.1.tar.gz --markdown 20230418/c/cqkit/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-04-18 14:17:37] INFO root fetch - processPackages [jupyterlite-xeus-nelson]: Downloading https://files.pythonhosted.org/packages/52/58/08770b38ecb38ca5ae57bd859db8baf88ac7868e3e5b711b28d610e74d9e/jupyterlite-xeus-nelson-0.1.4.tar.gz
+[2023-04-18 14:17:37] INFO root fetch - processPackages [jupyterlite-xeus-nelson]: executing diffoscope
+[2023-04-18 14:17:37] INFO root fetch - processPackages [jupyterlite-xeus-nelson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlite-xeus-nelson-0.1.2.tar.gz tmp/jupyterlite-xeus-nelson-0.1.4.tar.gz --markdown 20230418/j/jupyterlite-xeus-nelson/0.1.2-0.1.4/diff.md --exclude *.pyd
+[2023-04-18 14:17:38] INFO root fetch - processPackages [colabtunnel]: Start processing: newick-tree-builder
+[2023-04-18 14:17:38] INFO root fetch - main [MainThread]: End processing [colabtunnel]: success
+[2023-04-18 14:17:38] INFO root fetch - processPackages [newick-tree-builder]: New version: [0.4.7] Old Version: [0.4.6]
+[2023-04-18 14:17:38] INFO root fetch - processPackages [inspire-schemas]: Start processing: argus-toolbelt
+[2023-04-18 14:17:38] INFO root fetch - main [MainThread]: End processing [inspire-schemas]: success
+[2023-04-18 14:17:38] INFO root fetch - processPackages [one-api-tool]: Start processing: yellowdog-python-examples
+[2023-04-18 14:17:38] INFO root fetch - main [MainThread]: End processing [one-api-tool]: success
+[2023-04-18 14:17:38] INFO root fetch - processPackages [argus-toolbelt]: New version: [6.9.3] Old Version: [6.9.2]
+[2023-04-18 14:17:38] INFO root fetch - processPackages [yellowdog-python-examples]: New version: [5.0.5] Old Version: [5.0.4]
+[2023-04-18 14:17:38] INFO root fetch - processPackages [newick-tree-builder]: Downloading https://files.pythonhosted.org/packages/f5/b1/49c174dd96cbd5ee3f9e7b411dcda53f9b45d76c43f9dd9c62c657b7e5b3/newick-tree-builder-0.4.7.tar.gz
+[2023-04-18 14:17:38] INFO root fetch - processPackages [arlq]: Start processing: cgl-py
+[2023-04-18 14:17:38] INFO root fetch - main [MainThread]: End processing [arlq]: success
+[2023-04-18 14:17:38] INFO root fetch - processPackages [newick-tree-builder]: executing diffoscope
+[2023-04-18 14:17:38] INFO root fetch - processPackages [newick-tree-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newick-tree-builder-0.4.6.tar.gz tmp/newick-tree-builder-0.4.7.tar.gz --markdown 20230418/n/newick-tree-builder/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2023-04-18 14:17:38] INFO root fetch - processPackages [cgl-py]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-18 14:17:38] INFO root fetch - processPackages [argus-toolbelt]: Downloading https://files.pythonhosted.org/packages/5a/9b/9ffe0dedbbba053489bd0128af23ba436e9b4b4e790dc4523bd1c9150589/argus_toolbelt-6.9.2-py3-none-any.whl
+[2023-04-18 14:17:38] INFO root fetch - processPackages [yellowdog-python-examples]: Downloading https://files.pythonhosted.org/packages/5f/80/5f0a8e8d4eaee4bb0bf7141d578e1aabdf70ff8785d95f39d92a4dbb52b9/yellowdog-python-examples-5.0.4.tar.gz
+[2023-04-18 14:17:38] INFO root fetch - processPackages [cgl-py]: Downloading https://files.pythonhosted.org/packages/6d/d5/79edc4fa4b5051b1ecf499b5e37aad2e4510dba00da7b4b9fb3c15856534/cgl-py-0.0.3.tar.gz
+[2023-04-18 14:17:38] INFO root fetch - processPackages [cqkit]: Start processing: pepperize.cdk-ssm-parameters-cross-region
+[2023-04-18 14:17:38] INFO root fetch - main [MainThread]: End processing [cqkit]: success
+[2023-04-18 14:17:38] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-18 14:17:38] INFO root fetch - processPackages [cgl-py]: executing diffoscope
+[2023-04-18 14:17:38] INFO root fetch - processPackages [cgl-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgl-py-0.0.2.tar.gz tmp/cgl-py-0.0.3.tar.gz --markdown 20230418/c/cgl-py/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-18 14:17:39] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: executing diffoscope
+[2023-04-18 14:17:39] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz --markdown 20230418/p/pepperize.cdk-ssm-parameters-cross-region/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-18 14:17:39] INFO root fetch - processPackages [yellowdog-python-examples]: Downloading https://files.pythonhosted.org/packages/2a/e9/f8e7c83126b56a7db25bec82eafca5abab18fb7d9d3fad1b391414fee8a4/yellowdog-python-examples-5.0.5.tar.gz
+[2023-04-18 14:17:39] INFO root fetch - processPackages [argus-toolbelt]: Downloading https://files.pythonhosted.org/packages/b7/a1/72c8c4de737e233775d5d75822ec3082214447ad8159fa2f5cdbda5a25ae/argus_toolbelt-6.9.3-py3-none-any.whl
+[2023-04-18 14:17:39] INFO root fetch - processPackages [yellowdog-python-examples]: executing diffoscope
+[2023-04-18 14:17:39] INFO root fetch - processPackages [yellowdog-python-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yellowdog-python-examples-5.0.4.tar.gz tmp/yellowdog-python-examples-5.0.5.tar.gz --markdown 20230418/y/yellowdog-python-examples/5.0.4-5.0.5/diff.md --exclude *.pyd
+[2023-04-18 14:17:39] INFO root fetch - processPackages [argus-toolbelt]: executing diffoscope
+[2023-04-18 14:17:39] INFO root fetch - processPackages [argus-toolbelt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argus_toolbelt-6.9.2-py3-none-any.whl.zip tmp/argus_toolbelt-6.9.3-py3-none-any.whl.zip --markdown 20230418/a/argus-toolbelt/6.9.2-6.9.3/diff.md --exclude *.pyd
+[2023-04-18 14:17:39] INFO root fetch - processPackages [newick-tree-builder]: Start processing: jina
+[2023-04-18 14:17:39] INFO root fetch - main [MainThread]: End processing [newick-tree-builder]: success
+[2023-04-18 14:17:39] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2023-04-18 14:17:40] INFO root fetch - processPackages [jina]: executing diffoscope
+[2023-04-18 14:17:40] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20230418/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2023-04-18 14:17:40] INFO root fetch - processPackages [ms-imputedhours-core]: Start processing: google-api-python-client
+[2023-04-18 14:17:40] INFO root fetch - main [MainThread]: End processing [ms-imputedhours-core]: success
+[2023-04-18 14:17:40] INFO root fetch - processPackages [google-api-python-client]: New version: [2.9.0] Old Version: [2.86.0]
+[2023-04-18 14:17:40] INFO root fetch - processPackages [google-api-python-client]: Downloading https://files.pythonhosted.org/packages/35/2e/818e946a4ee38995acfcab5e0f7391bff313a3c24fefc7882c5e1c9fa580/google-api-python-client-2.86.0.tar.gz
+[2023-04-18 14:17:40] WARNING root fetch - processPackages [google-api-python-client]: Skipping package: exceeds size limit 10767816>=10485760
+[2023-04-18 14:17:40] INFO root fetch - processPackages [google-api-python-client]: Start processing: GooseHDF5
+[2023-04-18 14:17:40] INFO root fetch - main [MainThread]: End processing [google-api-python-client] error
+[2023-04-18 14:17:40] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Start processing: leetgo-py
+[2023-04-18 14:17:40] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ssm-parameters-cross-region]: success
+[2023-04-18 14:17:40] INFO root fetch - processPackages [GooseHDF5]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-04-18 14:17:40] WARNING root fetch - processPackages [leetgo-py]: Skipping, unable to determine old version
+[2023-04-18 14:17:40] INFO root fetch - processPackages [leetgo-py]: Start processing: phidata
+[2023-04-18 14:17:40] INFO root fetch - main [MainThread]: End processing [leetgo-py] error
+[2023-04-18 14:17:40] INFO root fetch - processPackages [phidata]: New version: [1.6.0] Old Version: [1.5.9]
+[2023-04-18 14:17:40] INFO root fetch - processPackages [GooseHDF5]: Downloading https://files.pythonhosted.org/packages/8a/b3/d391ec5c162f1b2821ca2905d81ed96f689168aad857d8186ba9848f496a/GooseHDF5-0.9.1.tar.gz
+[2023-04-18 14:17:40] INFO root fetch - processPackages [argus-toolbelt]: Start processing: pyunicoremanager
+[2023-04-18 14:17:40] INFO root fetch - main [MainThread]: End processing [argus-toolbelt]: success
+[2023-04-18 14:17:40] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/ff/4a/180ca00fdb1d742fd119596ab11af6bbc67422e4ca0a67786c82bda3cb3b/phidata-1.5.9.tar.gz
+[2023-04-18 14:17:40] INFO root fetch - processPackages [pyunicoremanager]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-18 14:17:41] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/73/bf/8a0157c33e975e904883c1de176718a877dabae47923bd0453f61563d8e9/phidata-1.6.0.tar.gz
+[2023-04-18 14:17:41] INFO root fetch - processPackages [jupyterlite-xeus-nelson]: Start processing: executor-http
+[2023-04-18 14:17:41] INFO root fetch - main [MainThread]: End processing [jupyterlite-xeus-nelson]: success
+[2023-04-18 14:17:41] INFO root fetch - processPackages [GooseHDF5]: Downloading https://files.pythonhosted.org/packages/66/90/0ca3fb5d8d84c81d4e05c276d39995e8e0238097a549716660a6e2ec401a/GooseHDF5-0.9.2.tar.gz
+[2023-04-18 14:17:41] INFO root fetch - processPackages [pyunicoremanager]: Downloading https://files.pythonhosted.org/packages/b0/be/62e71c25feabe680c404f66f5c1bff066158c5b681cc16a62dd3ea3eae4e/pyunicoremanager-0.0.4.tar.gz
+[2023-04-18 14:17:41] WARNING root fetch - processPackages [executor-http]: Skipping, unable to determine old version
+[2023-04-18 14:17:41] INFO root fetch - main [MainThread]: End processing [executor-http] error
+[2023-04-18 14:17:41] INFO root fetch - processPackages [phidata]: executing diffoscope
+[2023-04-18 14:17:41] INFO root fetch - processPackages [phidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phidata-1.5.9.tar.gz tmp/phidata-1.6.0.tar.gz --markdown 20230418/p/phidata/1.5.9-1.6.0/diff.md --exclude *.pyd
+[2023-04-18 14:17:41] INFO root fetch - processPackages [GooseHDF5]: executing diffoscope
+[2023-04-18 14:17:41] INFO root fetch - processPackages [GooseHDF5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GooseHDF5-0.9.1.tar.gz tmp/GooseHDF5-0.9.2.tar.gz --markdown 20230418/G/GooseHDF5/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-04-18 14:17:41] INFO root fetch - processPackages [pyunicoremanager]: Downloading https://files.pythonhosted.org/packages/e0/ca/40e314d3c65c0f597dda333c6d7d0f722a82a4f75070b70cde8b25d66d07/pyunicoremanager-0.0.5.tar.gz
+[2023-04-18 14:17:41] INFO root fetch - processPackages [pyunicoremanager]: executing diffoscope
+[2023-04-18 14:17:41] INFO root fetch - processPackages [pyunicoremanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyunicoremanager-0.0.4.tar.gz tmp/pyunicoremanager-0.0.5.tar.gz --markdown 20230418/p/pyunicoremanager/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-18 14:17:41] INFO root fetch - main [MainThread]: End processing [yellowdog-python-examples]: success
+[2023-04-18 14:17:42] INFO root fetch - main [MainThread]: End processing [auraboros]: success
+[2023-04-18 14:17:42] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2023-04-18 14:17:42] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-04-18 14:17:42] INFO root fetch - main [MainThread]: End processing [pyunicoremanager]: success
+[2023-04-18 14:17:42] INFO root fetch - main [MainThread]: End processing [GooseHDF5]: success
+[2023-04-18 14:17:43] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-04-18 14:17:46] INFO root fetch - main [MainThread]: End processing [phidata]: success
+[2023-04-18 14:17:46] INFO root fetch - main [MainThread]: End processing [cgl-py]: success
+[2023-04-18 14:17:46] INFO root fetch - main [MainThread]: Store serial: [17755516]
