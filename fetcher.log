@@ -12399,3 +12399,201 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 09:00:32] INFO root fetch - main [MainThread]: End processing [labelu]: success
 [2023-04-18 09:00:38] INFO root fetch - main [MainThread]: End processing [yoctopuce]: success
 [2023-04-18 09:00:38] INFO root fetch - main [MainThread]: Store serial: [17750906]
+[2023-04-18 09:05:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17750906]
+[2023-04-18 09:05:49] INFO root fetch - main [MainThread]: Found 34 changed packages
+[2023-04-18 09:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo12-addon-base-exception
+[2023-04-18 09:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: video2sub
+[2023-04-18 09:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: birenci-infra
+[2023-04-18 09:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libcnmc
+[2023-04-18 09:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo12-addon-excel-import-export
+[2023-04-18 09:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo13-addon-module-analysis
+[2023-04-18 09:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo12-addon-base-multi-image
+[2023-04-18 09:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo12-addon-database-cleanup
+[2023-04-18 09:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: opencmiss2cmlibs
+[2023-04-18 09:05:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo13-addon-database-cleanup
+[2023-04-18 09:05:49] INFO root fetch - processPackages [odoo12-addon-base-exception]: New version: [12.0.3.1.0.99.dev8] Old Version: [12.0.3.1.0.99.dev7]
+[2023-04-18 09:05:49] INFO root fetch - processPackages [birenci-infra]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-18 09:05:49] WARNING root fetch - processPackages [opencmiss2cmlibs]: Skipping, unable to determine old version
+[2023-04-18 09:05:49] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-04-18 09:05:49] WARNING root fetch - processPackages [video2sub]: Skipping, unable to determine old version
+[2023-04-18 09:05:49] INFO root fetch - processPackages [opencmiss2cmlibs]: Start processing: odoo12-addon-base-kanban-stage
+[2023-04-18 09:05:49] INFO root fetch - main [MainThread]: End processing [opencmiss2cmlibs] error
+[2023-04-18 09:05:49] INFO root fetch - processPackages [odoo12-addon-base-multi-image]: New version: [12.0.1.0.0.99.dev9] Old Version: [12.0.1.0.0.99.dev8]
+[2023-04-18 09:05:49] INFO root fetch - processPackages [odoo12-addon-excel-import-export]: New version: [12.0.1.0.6.99.dev9] Old Version: [12.0.1.0.6.99.dev8]
+[2023-04-18 09:05:49] INFO root fetch - processPackages [video2sub]: Start processing: mysql-connector-python
+[2023-04-18 09:05:49] INFO root fetch - main [MainThread]: End processing [video2sub] error
+[2023-04-18 09:05:49] INFO root fetch - processPackages [odoo12-addon-database-cleanup]: New version: [12.0.1.2.0.99.dev4] Old Version: [12.0.1.2.0.99.dev3]
+[2023-04-18 09:05:49] INFO root fetch - processPackages [odoo13-addon-module-analysis]: New version: [13.0.1.1.2.dev1] Old Version: [13.0.1.1.1.dev1]
+[2023-04-18 09:05:49] INFO root fetch - processPackages [odoo13-addon-database-cleanup]: New version: [13.0.1.0.2.dev4] Old Version: [13.0.1.0.2.dev3]
+[2023-04-18 09:05:49] INFO root fetch - processPackages [odoo12-addon-base-kanban-stage]: New version: [12.0.1.2.2.99.dev6] Old Version: [12.0.1.2.2.99.dev5]
+[2023-04-18 09:05:49] INFO root fetch - processPackages [mysql-connector-python]: New version: [8.0.6] Old Version: [8.0.5]
+[2023-04-18 09:05:49] INFO root fetch - processPackages [odoo12-addon-base-multi-image]: Downloading https://files.pythonhosted.org/packages/d3/b6/40af7c08066fe789c83199b4d972c0840688161c7a3a73b6633595079094/odoo12_addon_base_multi_image-12.0.1.0.0.99.dev8-py3-none-any.whl
+[2023-04-18 09:05:49] INFO root fetch - processPackages [odoo13-addon-module-analysis]: Downloading https://files.pythonhosted.org/packages/f2/e5/a2a0c57dd07c3697d9848641be957279ef2fc3aa8d83df6ae4919929865b/odoo13_addon_module_analysis-13.0.1.1.1.dev1-py3-none-any.whl
+[2023-04-18 09:05:49] INFO root fetch - processPackages [odoo12-addon-base-exception]: Downloading https://files.pythonhosted.org/packages/67/6e/a541415e1dc2250476dd976d681e3eee35216895bcf099bd6bbaa2ef5d87/odoo12_addon_base_exception-12.0.3.1.0.99.dev7-py3-none-any.whl
+[2023-04-18 09:05:49] INFO root fetch - processPackages [odoo13-addon-database-cleanup]: Downloading https://files.pythonhosted.org/packages/c0/d0/9fe2e5373f35821e48f9994c2b67b0ae080d67a3f97dbd2c64a1687cc5a6/odoo13_addon_database_cleanup-13.0.1.0.2.dev3-py3-none-any.whl
+[2023-04-18 09:05:49] INFO root fetch - processPackages [odoo12-addon-base-kanban-stage]: Downloading https://files.pythonhosted.org/packages/38/53/5367da2d0a8ba74bb2322ac75609a49cdd2dbdac90e818f8ba9753ad15a4/odoo12_addon_base_kanban_stage-12.0.1.2.2.99.dev5-py3-none-any.whl
+[2023-04-18 09:05:49] INFO root fetch - processPackages [odoo12-addon-database-cleanup]: Downloading https://files.pythonhosted.org/packages/68/3a/13cb0633d0c8dd5b7ab3a4dc347330d0f5d265ebf9ea018565e798a5ca98/odoo12_addon_database_cleanup-12.0.1.2.0.99.dev3-py3-none-any.whl
+[2023-04-18 09:05:49] INFO root fetch - processPackages [mysql-connector-python]: Downloading https://files.pythonhosted.org/packages/f9/a0/cd9a141b5803e175553245a5609d9af20f9f4740b6601637adef332900fe/mysql-connector-python-8.0.5.tar.gz
+[2023-04-18 09:05:49] INFO root fetch - processPackages [odoo12-addon-excel-import-export]: Downloading https://files.pythonhosted.org/packages/91/7c/40c8d8f9c2e608a1ab14df9cb347c810e32c00596cf18b4e3e6bbb3e614d/odoo12_addon_excel_import_export-12.0.1.0.6.99.dev8-py3-none-any.whl
+[2023-04-18 09:05:49] WARNING root fetch - processPackages [mysql-connector-python]: Skipping package: exceeds size limit 11901037>=10485760
+[2023-04-18 09:05:49] INFO root fetch - processPackages [mysql-connector-python]: Start processing: tf-models-nightly
+[2023-04-18 09:05:49] INFO root fetch - main [MainThread]: End processing [mysql-connector-python] error
+[2023-04-18 09:05:49] INFO root fetch - processPackages [tf-models-nightly]: New version: [2.9.0.dev20220920] Old Version: [2.9.0.dev20220919]
+[2023-04-18 09:05:49] INFO root fetch - processPackages [birenci-infra]: Downloading https://files.pythonhosted.org/packages/d1/2d/215aa4afce10959fe1a352252fed3623daa81ce08b0f83eb53cc396fa6a2/birenci-infra-0.0.6.tar.gz
+[2023-04-18 09:05:49] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-04-18 09:05:49] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230418/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-04-18 09:05:50] INFO root fetch - processPackages [tf-models-nightly]: executing diffoscope
+[2023-04-18 09:05:50] INFO root fetch - processPackages [tf-models-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip --markdown 20230418/t/tf-models-nightly/2.9.0.dev20220919-2.9.0.dev20220920/diff.md --exclude *.pyd
+[2023-04-18 09:05:50] INFO root fetch - processPackages [birenci-infra]: executing diffoscope
+[2023-04-18 09:05:50] INFO root fetch - processPackages [birenci-infra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/birenci-infra-0.0.5.tar.gz tmp/birenci-infra-0.0.6.tar.gz --markdown 20230418/b/birenci-infra/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-18 09:05:50] INFO root fetch - processPackages [odoo12-addon-base-kanban-stage]: Downloading https://files.pythonhosted.org/packages/ce/0d/b4a8983372f432f12842bc691bd7101bc2ff2e3fd412c152caf7a7d85293/odoo12_addon_base_kanban_stage-12.0.1.2.2.99.dev6-py3-none-any.whl
+[2023-04-18 09:05:50] INFO root fetch - processPackages [odoo12-addon-database-cleanup]: Downloading https://files.pythonhosted.org/packages/07/0d/6f90f7667e435b8a9b0d4ad7431c1a0e237ba41594052c30524ccaf024ab/odoo12_addon_database_cleanup-12.0.1.2.0.99.dev4-py3-none-any.whl
+[2023-04-18 09:05:50] INFO root fetch - processPackages [odoo13-addon-module-analysis]: Downloading https://files.pythonhosted.org/packages/8f/03/a6af3b858f00c465e270868cddc723f6a76baf8e8bcbfe368ae147f7a040/odoo13_addon_module_analysis-13.0.1.1.2.dev1-py3-none-any.whl
+[2023-04-18 09:05:50] INFO root fetch - processPackages [odoo13-addon-database-cleanup]: Downloading https://files.pythonhosted.org/packages/0a/ae/e768b44095c08c036a8c3ea47fb145fdc0d895f3c2cb3fb93ff9a4cf0978/odoo13_addon_database_cleanup-13.0.1.0.2.dev4-py3-none-any.whl
+[2023-04-18 09:05:50] INFO root fetch - processPackages [odoo12-addon-base-exception]: Downloading https://files.pythonhosted.org/packages/5b/28/d2487ca9bd7add04bf4b499889e9e7a5dbb121e38017f48cc314c93a36ec/odoo12_addon_base_exception-12.0.3.1.0.99.dev8-py3-none-any.whl
+[2023-04-18 09:05:50] INFO root fetch - processPackages [odoo12-addon-excel-import-export]: Downloading https://files.pythonhosted.org/packages/60/9d/0c62b5d1409fd1224ea1eb55c68d43012e5a0b6574d26ebd1f832ba582ef/odoo12_addon_excel_import_export-12.0.1.0.6.99.dev9-py3-none-any.whl
+[2023-04-18 09:05:50] INFO root fetch - processPackages [odoo13-addon-module-analysis]: executing diffoscope
+[2023-04-18 09:05:50] INFO root fetch - processPackages [odoo13-addon-module-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_module_analysis-13.0.1.1.1.dev1-py3-none-any.whl.zip tmp/odoo13_addon_module_analysis-13.0.1.1.2.dev1-py3-none-any.whl.zip --markdown 20230418/o/odoo13-addon-module-analysis/13.0.1.1.1.dev1-13.0.1.1.2.dev1/diff.md --exclude *.pyd
+[2023-04-18 09:05:50] INFO root fetch - processPackages [odoo12-addon-database-cleanup]: executing diffoscope
+[2023-04-18 09:05:50] INFO root fetch - processPackages [odoo12-addon-database-cleanup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_database_cleanup-12.0.1.2.0.99.dev3-py3-none-any.whl.zip tmp/odoo12_addon_database_cleanup-12.0.1.2.0.99.dev4-py3-none-any.whl.zip --markdown 20230418/o/odoo12-addon-database-cleanup/12.0.1.2.0.99.dev3-12.0.1.2.0.99.dev4/diff.md --exclude *.pyd
+[2023-04-18 09:05:50] INFO root fetch - processPackages [odoo12-addon-base-kanban-stage]: executing diffoscope
+[2023-04-18 09:05:50] INFO root fetch - processPackages [odoo12-addon-base-kanban-stage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_base_kanban_stage-12.0.1.2.2.99.dev5-py3-none-any.whl.zip tmp/odoo12_addon_base_kanban_stage-12.0.1.2.2.99.dev6-py3-none-any.whl.zip --markdown 20230418/o/odoo12-addon-base-kanban-stage/12.0.1.2.2.99.dev5-12.0.1.2.2.99.dev6/diff.md --exclude *.pyd
+[2023-04-18 09:05:50] INFO root fetch - processPackages [odoo13-addon-database-cleanup]: executing diffoscope
+[2023-04-18 09:05:50] INFO root fetch - processPackages [odoo13-addon-database-cleanup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_database_cleanup-13.0.1.0.2.dev3-py3-none-any.whl.zip tmp/odoo13_addon_database_cleanup-13.0.1.0.2.dev4-py3-none-any.whl.zip --markdown 20230418/o/odoo13-addon-database-cleanup/13.0.1.0.2.dev3-13.0.1.0.2.dev4/diff.md --exclude *.pyd
+[2023-04-18 09:05:50] INFO root fetch - processPackages [odoo12-addon-base-multi-image]: Downloading https://files.pythonhosted.org/packages/a0/60/44ea46eaba8e6452fc3807d675306b43cf985d3251a96351d8b5c8098f0b/odoo12_addon_base_multi_image-12.0.1.0.0.99.dev9-py3-none-any.whl
+[2023-04-18 09:05:50] INFO root fetch - processPackages [odoo12-addon-base-exception]: executing diffoscope
+[2023-04-18 09:05:50] INFO root fetch - processPackages [odoo12-addon-base-exception]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_base_exception-12.0.3.1.0.99.dev7-py3-none-any.whl.zip tmp/odoo12_addon_base_exception-12.0.3.1.0.99.dev8-py3-none-any.whl.zip --markdown 20230418/o/odoo12-addon-base-exception/12.0.3.1.0.99.dev7-12.0.3.1.0.99.dev8/diff.md --exclude *.pyd
+[2023-04-18 09:05:50] INFO root fetch - processPackages [odoo12-addon-excel-import-export]: executing diffoscope
+[2023-04-18 09:05:50] INFO root fetch - processPackages [odoo12-addon-excel-import-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_excel_import_export-12.0.1.0.6.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_excel_import_export-12.0.1.0.6.99.dev9-py3-none-any.whl.zip --markdown 20230418/o/odoo12-addon-excel-import-export/12.0.1.0.6.99.dev8-12.0.1.0.6.99.dev9/diff.md --exclude *.pyd
+[2023-04-18 09:05:50] INFO root fetch - processPackages [odoo12-addon-base-multi-image]: executing diffoscope
+[2023-04-18 09:05:50] INFO root fetch - processPackages [odoo12-addon-base-multi-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_base_multi_image-12.0.1.0.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_base_multi_image-12.0.1.0.0.99.dev9-py3-none-any.whl.zip --markdown 20230418/o/odoo12-addon-base-multi-image/12.0.1.0.0.99.dev8-12.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-04-18 09:05:51] INFO root fetch - processPackages [birenci-infra]: Start processing: checkov
+[2023-04-18 09:05:51] INFO root fetch - main [MainThread]: End processing [birenci-infra]: success
+[2023-04-18 09:05:51] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-04-18 09:05:52] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-04-18 09:05:52] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230418/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-04-18 09:05:52] INFO root fetch - processPackages [odoo13-addon-module-analysis]: Start processing: seqio-nightly
+[2023-04-18 09:05:52] INFO root fetch - main [MainThread]: End processing [odoo13-addon-module-analysis]: success
+[2023-04-18 09:05:52] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-04-18 09:05:52] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-04-18 09:05:52] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230418/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-04-18 09:05:52] INFO root fetch - processPackages [odoo12-addon-excel-import-export]: Start processing: odoo-addon-base-search-fuzzy
+[2023-04-18 09:05:52] INFO root fetch - main [MainThread]: End processing [odoo12-addon-excel-import-export]: success
+[2023-04-18 09:05:52] INFO root fetch - processPackages [odoo-addon-base-search-fuzzy]: New version: [16.0.1.0.0.7] Old Version: [16.0.1.0.0.6]
+[2023-04-18 09:05:53] INFO root fetch - processPackages [odoo-addon-base-search-fuzzy]: Downloading https://files.pythonhosted.org/packages/f5/22/b797ac1b512d3b718f9509668b0af3d95b13e4546e58912e21041dbea86a/odoo_addon_base_search_fuzzy-16.0.1.0.0.6-py3-none-any.whl
+[2023-04-18 09:05:53] INFO root fetch - processPackages [odoo12-addon-base-kanban-stage]: Start processing: odoo-addon-base-multi-image
+[2023-04-18 09:05:53] INFO root fetch - main [MainThread]: End processing [odoo12-addon-base-kanban-stage]: success
+[2023-04-18 09:05:53] INFO root fetch - processPackages [odoo-addon-base-multi-image]: New version: [15.0.1.0.0.6] Old Version: [15.0.1.0.0.5]
+[2023-04-18 09:05:53] INFO root fetch - processPackages [odoo12-addon-base-exception]: Start processing: docarray
+[2023-04-18 09:05:53] INFO root fetch - main [MainThread]: End processing [odoo12-addon-base-exception]: success
+[2023-04-18 09:05:53] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-04-18 09:05:53] INFO root fetch - processPackages [odoo-addon-base-multi-image]: Downloading https://files.pythonhosted.org/packages/16/e6/42c545ddf527e66ae150fad4061e796280135b0a4a5f801c2a4b6509af45/odoo_addon_base_multi_image-15.0.1.0.0.5-py3-none-any.whl
+[2023-04-18 09:05:53] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-04-18 09:05:53] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230418/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-04-18 09:05:53] INFO root fetch - processPackages [odoo12-addon-database-cleanup]: Start processing: Slim-TPCA
+[2023-04-18 09:05:53] INFO root fetch - main [MainThread]: End processing [odoo12-addon-database-cleanup]: success
+[2023-04-18 09:05:53] INFO root fetch - processPackages [Slim-TPCA]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-18 09:05:53] INFO root fetch - processPackages [odoo13-addon-database-cleanup]: Start processing: pycvc
+[2023-04-18 09:05:53] INFO root fetch - main [MainThread]: End processing [odoo13-addon-database-cleanup]: success
+[2023-04-18 09:05:53] INFO root fetch - processPackages [odoo-addon-base-search-fuzzy]: Downloading https://files.pythonhosted.org/packages/60/75/71ce31b4986497c210bb8eac25c0ba924955832b2bfd2f21813d57bee712/odoo_addon_base_search_fuzzy-16.0.1.0.0.7-py3-none-any.whl
+[2023-04-18 09:05:53] INFO root fetch - processPackages [pycvc]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-04-18 09:05:53] INFO root fetch - processPackages [odoo12-addon-base-multi-image]: Start processing: websockets
+[2023-04-18 09:05:53] INFO root fetch - main [MainThread]: End processing [odoo12-addon-base-multi-image]: success
+[2023-04-18 09:05:53] INFO root fetch - processPackages [websockets]: New version: [9.1] Old Version: [9.0.2]
+[2023-04-18 09:05:53] INFO root fetch - processPackages [Slim-TPCA]: Downloading https://files.pythonhosted.org/packages/07/3b/eaff6c7af09e26e5d641e8d11d91ac1bb6312710441a8e6fe5f8a2c34084/Slim-TPCA-0.0.5.tar.gz
+[2023-04-18 09:05:53] INFO root fetch - processPackages [pycvc]: Downloading https://files.pythonhosted.org/packages/e8/62/9bf65fc2a4d0e443c300c1a8cf3aaf80be741ea0f1b1481507795952540a/pycvc-1.2.3-py3-none-any.whl
+[2023-04-18 09:05:53] INFO root fetch - processPackages [odoo-addon-base-search-fuzzy]: executing diffoscope
+[2023-04-18 09:05:53] INFO root fetch - processPackages [odoo-addon-base-search-fuzzy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_search_fuzzy-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_base_search_fuzzy-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20230418/o/odoo-addon-base-search-fuzzy/16.0.1.0.0.6-16.0.1.0.0.7/diff.md --exclude *.pyd
+[2023-04-18 09:05:53] INFO root fetch - processPackages [odoo-addon-base-multi-image]: Downloading https://files.pythonhosted.org/packages/bb/30/07ad5931fecba993c1ef568cac2c6f8fb1840de5175b50f18b586d29e33c/odoo_addon_base_multi_image-15.0.1.0.0.6-py3-none-any.whl
+[2023-04-18 09:05:53] INFO root fetch - processPackages [websockets]: Downloading https://files.pythonhosted.org/packages/2c/6e/472fc01f721af829b07d1c13bb3b8e8df0a57ecb5e81b9fc5e76ce824583/websockets-9.0.2.tar.gz
+[2023-04-18 09:05:53] INFO root fetch - processPackages [Slim-TPCA]: executing diffoscope
+[2023-04-18 09:05:53] INFO root fetch - processPackages [Slim-TPCA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Slim-TPCA-0.0.4.tar.gz tmp/Slim-TPCA-0.0.5.tar.gz --markdown 20230418/S/Slim-TPCA/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-18 09:05:53] INFO root fetch - processPackages [pycvc]: executing diffoscope
+[2023-04-18 09:05:53] INFO root fetch - processPackages [pycvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycvc-1.2.2-py3-none-any.whl.zip tmp/pycvc-1.2.3-py3-none-any.whl.zip --markdown 20230418/p/pycvc/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-04-18 09:05:53] INFO root fetch - processPackages [odoo-addon-base-multi-image]: executing diffoscope
+[2023-04-18 09:05:53] INFO root fetch - processPackages [odoo-addon-base-multi-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_multi_image-15.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_base_multi_image-15.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230418/o/odoo-addon-base-multi-image/15.0.1.0.0.5-15.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-04-18 09:05:54] INFO root fetch - processPackages [websockets]: Downloading https://files.pythonhosted.org/packages/0d/bd/5262054455ab2067e51de331bfbc53a1dfa9071af7c424cf7c0793c4349a/websockets-9.1.tar.gz
+[2023-04-18 09:05:54] INFO root fetch - processPackages [websockets]: executing diffoscope
+[2023-04-18 09:05:54] INFO root fetch - processPackages [websockets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/websockets-9.0.2.tar.gz tmp/websockets-9.1.tar.gz --markdown 20230418/w/websockets/9.0.2-9.1/diff.md --exclude *.pyd
+[2023-04-18 09:05:55] INFO root fetch - processPackages [Slim-TPCA]: Start processing: django-user-notification
+[2023-04-18 09:05:55] INFO root fetch - main [MainThread]: End processing [Slim-TPCA]: success
+[2023-04-18 09:05:55] INFO root fetch - processPackages [django-user-notification]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-04-18 09:05:55] INFO root fetch - processPackages [pycvc]: Start processing: entxpy
+[2023-04-18 09:05:55] INFO root fetch - main [MainThread]: End processing [pycvc]: success
+[2023-04-18 09:05:55] INFO root fetch - processPackages [django-user-notification]: Downloading https://files.pythonhosted.org/packages/c0/87/6a4f015206664717891fa70ed2597b7ca130a2af7312eb0fd9bed2230d37/django_user_notification-0.8.0.tar.gz
+[2023-04-18 09:05:55] WARNING root fetch - processPackages [entxpy]: Skipping, unable to determine old version
+[2023-04-18 09:05:55] INFO root fetch - processPackages [entxpy]: Start processing: llama-index
+[2023-04-18 09:05:55] INFO root fetch - main [MainThread]: End processing [entxpy] error
+[2023-04-18 09:05:55] INFO root fetch - processPackages [llama-index]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-04-18 09:05:55] INFO root fetch - processPackages [odoo-addon-base-search-fuzzy]: Start processing: rapunzel
+[2023-04-18 09:05:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-search-fuzzy]: success
+[2023-04-18 09:05:55] INFO root fetch - processPackages [rapunzel]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-04-18 09:05:56] INFO root fetch - processPackages [docarray]: Start processing: odoo-addon-base-search-fuzzy
+[2023-04-18 09:05:56] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-04-18 09:05:56] INFO root fetch - processPackages [django-user-notification]: Downloading https://files.pythonhosted.org/packages/58/8f/6cb0b093a884511a97068390351026941850e5333f7ad518ad914a4f7fa0/django_user_notification-0.8.1.tar.gz
+[2023-04-18 09:05:56] INFO root fetch - processPackages [odoo-addon-base-search-fuzzy]: New version: [16.0.1.0.0.7] Old Version: [16.0.1.0.0.6]
+[2023-04-18 09:05:56] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2023-04-18 09:05:56] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.5.8.tar.gz tmp/llama_index-0.5.9.tar.gz --markdown 20230418/l/llama-index/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-04-18 09:05:56] INFO root fetch - processPackages [rapunzel]: Downloading https://files.pythonhosted.org/packages/de/c2/86e1513fa726ebf6f6ed180a18e6d976d061b08590d2cfc35e9b3a258b92/rapunzel-1.0.0a8.tar.gz
+[2023-04-18 09:05:56] INFO root fetch - processPackages [odoo-addon-base-search-fuzzy]: executing diffoscope
+[2023-04-18 09:05:56] INFO root fetch - processPackages [odoo-addon-base-search-fuzzy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_search_fuzzy-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_base_search_fuzzy-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20230418/o/odoo-addon-base-search-fuzzy/16.0.1.0.0.6-16.0.1.0.0.7/diff.md --exclude *.pyd
+[2023-04-18 09:05:56] INFO root fetch - processPackages [seqio-nightly]: Start processing: digimat.bac0
+[2023-04-18 09:05:56] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-04-18 09:05:56] INFO root fetch - processPackages [django-user-notification]: executing diffoscope
+[2023-04-18 09:05:56] INFO root fetch - processPackages [django-user-notification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_user_notification-0.8.0.tar.gz tmp/django_user_notification-0.8.1.tar.gz --markdown 20230418/d/django-user-notification/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-04-18 09:05:56] INFO root fetch - processPackages [digimat.bac0]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-18 09:05:56] INFO root fetch - processPackages [rapunzel]: Downloading https://files.pythonhosted.org/packages/77/22/06d8a6c065dcaed023ec0fe794a9f3c723f2396fc1d1da140b985e0e47ff/rapunzel-1.0.0a9.tar.gz
+[2023-04-18 09:05:56] INFO root fetch - processPackages [libcnmc]: Start processing: dank-mids
+[2023-04-18 09:05:56] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-04-18 09:05:56] INFO root fetch - processPackages [digimat.bac0]: executing diffoscope
+[2023-04-18 09:05:56] INFO root fetch - processPackages [digimat.bac0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digimat.bac0-0.0.6.tar.gz tmp/digimat.bac0-0.0.7.tar.gz --markdown 20230418/d/digimat.bac0/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-18 09:05:56] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.8]
+[2023-04-18 09:05:56] INFO root fetch - processPackages [odoo-addon-base-multi-image]: Start processing: 360monitoringcli
+[2023-04-18 09:05:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-multi-image]: success
+[2023-04-18 09:05:56] INFO root fetch - processPackages [360monitoringcli]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-18 09:05:56] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2023-04-18 09:05:56] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.8.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20230418/d/dank-mids/4.20.8-4.20.9/diff.md --exclude *.pyd
+[2023-04-18 09:05:56] INFO root fetch - processPackages [360monitoringcli]: executing diffoscope
+[2023-04-18 09:05:56] INFO root fetch - processPackages [360monitoringcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/360monitoringcli-1.0.8.tar.gz tmp/360monitoringcli-1.0.9.tar.gz --markdown 20230418/3/360monitoringcli/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-18 09:05:56] INFO root fetch - processPackages [rapunzel]: executing diffoscope
+[2023-04-18 09:05:56] INFO root fetch - processPackages [rapunzel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapunzel-1.0.0a8.tar.gz tmp/rapunzel-1.0.0a9.tar.gz --markdown 20230418/r/rapunzel/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-04-18 09:05:56] INFO root fetch - processPackages [websockets]: Start processing: odoo13-addon-base-tier-validation-forward
+[2023-04-18 09:05:56] INFO root fetch - main [MainThread]: End processing [websockets]: success
+[2023-04-18 09:05:56] INFO root fetch - processPackages [odoo13-addon-base-tier-validation-forward]: New version: [13.0.1.1.2.dev1] Old Version: [13.0.1.1.1]
+[2023-04-18 09:05:57] INFO root fetch - processPackages [odoo13-addon-base-tier-validation-forward]: Downloading https://files.pythonhosted.org/packages/07/f5/c30cc476811a9d431642ddbd97d4cf66ba2a438af523183a0ca44e7973b8/odoo13_addon_base_tier_validation_forward-13.0.1.1.1-py3-none-any.whl
+[2023-04-18 09:05:57] INFO root fetch - processPackages [odoo13-addon-base-tier-validation-forward]: Downloading https://files.pythonhosted.org/packages/67/f6/f062d012a47b3d4756dd923e507f1808f23a9e3ca9b97019921a1b0ff82e/odoo13_addon_base_tier_validation_forward-13.0.1.1.2.dev1-py3-none-any.whl
+[2023-04-18 09:05:57] INFO root fetch - processPackages [odoo13-addon-base-tier-validation-forward]: executing diffoscope
+[2023-04-18 09:05:57] INFO root fetch - processPackages [odoo13-addon-base-tier-validation-forward]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_base_tier_validation_forward-13.0.1.1.1-py3-none-any.whl.zip tmp/odoo13_addon_base_tier_validation_forward-13.0.1.1.2.dev1-py3-none-any.whl.zip --markdown 20230418/o/odoo13-addon-base-tier-validation-forward/13.0.1.1.1-13.0.1.1.2.dev1/diff.md --exclude *.pyd
+[2023-04-18 09:05:59] INFO root fetch - processPackages [digimat.bac0]: Start processing: odoo13-addon-base-tier-validation
+[2023-04-18 09:05:59] INFO root fetch - main [MainThread]: End processing [digimat.bac0]: success
+[2023-04-18 09:05:59] INFO root fetch - processPackages [odoo13-addon-base-tier-validation]: New version: [13.0.1.9.1.dev3] Old Version: [13.0.1.9.1.dev2]
+[2023-04-18 09:05:59] INFO root fetch - processPackages [django-user-notification]: Start processing: opensesame-core
+[2023-04-18 09:05:59] INFO root fetch - main [MainThread]: End processing [django-user-notification]: success
+[2023-04-18 09:05:59] INFO root fetch - processPackages [odoo13-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/2f/37/ab0c9dfb74cf367ec662cfec0d760dc210bf5999ec309a1c31c529784c6b/odoo13_addon_base_tier_validation-13.0.1.9.1.dev2-py3-none-any.whl
+[2023-04-18 09:05:59] INFO root fetch - processPackages [opensesame-core]: New version: [4.0.0a5] Old Version: [4.0.0a3]
+[2023-04-18 09:05:59] INFO root fetch - processPackages [dank-mids]: Start processing: odoo13-addon-base-search-custom-field-filter
+[2023-04-18 09:05:59] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2023-04-18 09:05:59] INFO root fetch - processPackages [360monitoringcli]: Start processing: handwriting-recognizer
+[2023-04-18 09:05:59] INFO root fetch - main [MainThread]: End processing [360monitoringcli]: success
+[2023-04-18 09:05:59] INFO root fetch - processPackages [opensesame-core]: Downloading https://files.pythonhosted.org/packages/42/3e/bd20b88d0e998c47d4cd4a8f5752d7147d28866434db727f275c00413e40/opensesame_core-4.0.0a3.tar.gz
+[2023-04-18 09:05:59] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-search-fuzzy]: success
+[2023-04-18 09:05:59] INFO root fetch - processPackages [odoo13-addon-base-search-custom-field-filter]: New version: [13.0.1.0.2.dev7] Old Version: [13.0.1.0.2.dev6]
+[2023-04-18 09:05:59] WARNING root fetch - processPackages [handwriting-recognizer]: Skipping, unable to determine old version
+[2023-04-18 09:05:59] INFO root fetch - main [MainThread]: End processing [handwriting-recognizer] error
+[2023-04-18 09:05:59] INFO root fetch - processPackages [odoo13-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/de/33/b8fdb23e009fd8ebced7d9f8389c8aa1a6adf7517750ffa87f92176adcd1/odoo13_addon_base_tier_validation-13.0.1.9.1.dev3-py3-none-any.whl
+[2023-04-18 09:05:59] INFO root fetch - main [MainThread]: End processing [odoo13-addon-base-tier-validation-forward]: success
+[2023-04-18 09:05:59] INFO root fetch - processPackages [odoo13-addon-base-search-custom-field-filter]: Downloading https://files.pythonhosted.org/packages/ae/c4/d5f3d0ecbb91939b8a4f74771ecd92d2eb2ad681c4f2a723f9397b487654/odoo13_addon_base_search_custom_field_filter-13.0.1.0.2.dev6-py3-none-any.whl
+[2023-04-18 09:05:59] INFO root fetch - processPackages [odoo13-addon-base-tier-validation]: executing diffoscope
+[2023-04-18 09:05:59] INFO root fetch - processPackages [odoo13-addon-base-tier-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_base_tier_validation-13.0.1.9.1.dev2-py3-none-any.whl.zip tmp/odoo13_addon_base_tier_validation-13.0.1.9.1.dev3-py3-none-any.whl.zip --markdown 20230418/o/odoo13-addon-base-tier-validation/13.0.1.9.1.dev2-13.0.1.9.1.dev3/diff.md --exclude *.pyd
+[2023-04-18 09:06:00] WARNING root fetch - processPackages [opensesame-core]: Skipping package: exceeds size limit 18335907>=10485760
+[2023-04-18 09:06:00] INFO root fetch - main [MainThread]: End processing [opensesame-core] error
+[2023-04-18 09:06:00] INFO root fetch - processPackages [odoo13-addon-base-search-custom-field-filter]: Downloading https://files.pythonhosted.org/packages/96/4e/bf1b503157c632791d95389a2363813c270b76265b7c321b02f07e90d98e/odoo13_addon_base_search_custom_field_filter-13.0.1.0.2.dev7-py3-none-any.whl
+[2023-04-18 09:06:00] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2023-04-18 09:06:00] INFO root fetch - processPackages [odoo13-addon-base-search-custom-field-filter]: executing diffoscope
+[2023-04-18 09:06:00] INFO root fetch - processPackages [odoo13-addon-base-search-custom-field-filter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_base_search_custom_field_filter-13.0.1.0.2.dev6-py3-none-any.whl.zip tmp/odoo13_addon_base_search_custom_field_filter-13.0.1.0.2.dev7-py3-none-any.whl.zip --markdown 20230418/o/odoo13-addon-base-search-custom-field-filter/13.0.1.0.2.dev6-13.0.1.0.2.dev7/diff.md --exclude *.pyd
+[2023-04-18 09:06:01] INFO root fetch - main [MainThread]: End processing [odoo13-addon-base-tier-validation]: success
+[2023-04-18 09:06:01] INFO root fetch - main [MainThread]: End processing [rapunzel]: success
+[2023-04-18 09:06:01] INFO root fetch - main [MainThread]: End processing [odoo13-addon-base-search-custom-field-filter]: success
+[2023-04-18 09:06:09] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
+[2023-04-18 09:06:46] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-04-18 09:06:46] INFO root fetch - main [MainThread]: Store serial: [17751070]
