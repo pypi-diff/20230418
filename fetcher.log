@@ -20017,3 +20017,164 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 14:22:59] INFO root fetch - main [MainThread]: End processing [harborapi]: success
 [2023-04-18 14:23:00] INFO root fetch - main [MainThread]: End processing [phc-ingestion]: success
 [2023-04-18 14:23:00] INFO root fetch - main [MainThread]: Store serial: [17755570]
+[2023-04-18 14:28:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17755570]
+[2023-04-18 14:28:09] INFO root fetch - main [MainThread]: Found 28 changed packages
+[2023-04-18 14:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-connector-ecommerce
+[2023-04-18 14:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bybitHTTPX
+[2023-04-18 14:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-excel-report
+[2023-04-18 14:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb
+[2023-04-18 14:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-client
+[2023-04-18 14:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-dataset
+[2023-04-18 14:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eaxml2code
+[2023-04-18 14:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-models
+[2023-04-18 14:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: iris-pex-embedded-python
+[2023-04-18 14:28:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-protos
+[2023-04-18 14:28:09] WARNING root fetch - processPackages [odoo-addon-connector-ecommerce]: Skipping, unable to determine old version
+[2023-04-18 14:28:09] INFO root fetch - processPackages [odoo-addon-connector-ecommerce]: Start processing: nucliadb-sdk
+[2023-04-18 14:28:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-connector-ecommerce] error
+[2023-04-18 14:28:09] INFO root fetch - processPackages [bybitHTTPX]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-18 14:28:09] INFO root fetch - processPackages [django-excel-report]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-18 14:28:09] INFO root fetch - processPackages [iris-pex-embedded-python]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-04-18 14:28:09] INFO root fetch - processPackages [nucliadb]: New version: [2.7.0.post176] Old Version: [2.7.0.post175]
+[2023-04-18 14:28:09] INFO root fetch - processPackages [eaxml2code]: New version: [0.8] Old Version: [0.7]
+[2023-04-18 14:28:09] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.7.0.post176] Old Version: [2.7.0.post175]
+[2023-04-18 14:28:09] INFO root fetch - processPackages [nucliadb-models]: New version: [2.7.0.post176] Old Version: [2.7.0.post175]
+[2023-04-18 14:28:09] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.7.0.post176] Old Version: [2.7.0.post175]
+[2023-04-18 14:28:09] INFO root fetch - processPackages [nucliadb-client]: New version: [2.7.0.post176] Old Version: [2.7.0.post175]
+[2023-04-18 14:28:09] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.7.0.post176] Old Version: [2.7.0.post175]
+[2023-04-18 14:28:10] INFO root fetch - processPackages [bybitHTTPX]: Downloading https://files.pythonhosted.org/packages/93/72/4bd9716b05298cf6af5e48c0c70264229c179a66749d76d0539e35d18ca5/bybitHTTPX-0.0.1.tar.gz
+[2023-04-18 14:28:10] INFO root fetch - processPackages [iris-pex-embedded-python]: Downloading https://files.pythonhosted.org/packages/4c/11/763c0d1582ccc6a7b3daa987ae160b67f6642164e6af73f669fda0efee73/iris_pex_embedded_python-2.0.3.tar.gz
+[2023-04-18 14:28:10] INFO root fetch - processPackages [eaxml2code]: Downloading https://files.pythonhosted.org/packages/5b/d7/e7cf1f6d0554de5a301a02bc3176d2bb8bafb2e314cc8cf6d2ed262438c7/eaxml2code-0.7.tar.gz
+[2023-04-18 14:28:10] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/93/ca/bf3a4a15c53f15896321e4d7cb2453cfcd8989fa3ba2605e04b6cfe37d57/nucliadb-2.7.0.post176-py3-none-any.whl
+[2023-04-18 14:28:10] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/00/34/682ccde530d43197a6399cce74503cae3a625f5027fd0928488faa6e52a0/nucliadb_protos-2.7.0.post176-py3-none-any.whl
+[2023-04-18 14:28:10] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/d9/5f/5191ef37b05f0946e9cae1f83b19d291aca33f2915b8cfde03dabaca9ad0/nucliadb_sdk-2.7.0.post176-py3-none-any.whl
+[2023-04-18 14:28:10] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/ed/69/3d9490ebc9f59de825442ffe2a17ca6dae899188427333cff215826073e7/nucliadb_dataset-2.7.0.post176-py3-none-any.whl
+[2023-04-18 14:28:10] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/db/bf/e50e720ab17de1ee0db3791b265e548b4317dcdbc733d8a77516df267d04/nucliadb_models-2.7.0.post176-py3-none-any.whl
+[2023-04-18 14:28:10] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-04-18 14:28:10] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.7.0.post175-py3-none-any.whl.zip tmp/nucliadb_protos-2.7.0.post176-py3-none-any.whl.zip --markdown 20230418/n/nucliadb-protos/2.7.0.post175-2.7.0.post176/diff.md --exclude *.pyd
+[2023-04-18 14:28:10] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-04-18 14:28:10] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.7.0.post175-py3-none-any.whl.zip tmp/nucliadb-2.7.0.post176-py3-none-any.whl.zip --markdown 20230418/n/nucliadb/2.7.0.post175-2.7.0.post176/diff.md --exclude *.pyd
+[2023-04-18 14:28:10] INFO root fetch - processPackages [iris-pex-embedded-python]: executing diffoscope
+[2023-04-18 14:28:10] INFO root fetch - processPackages [iris-pex-embedded-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iris_pex_embedded_python-2.0.2.tar.gz tmp/iris_pex_embedded_python-2.0.3.tar.gz --markdown 20230418/i/iris-pex-embedded-python/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-04-18 14:28:10] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-04-18 14:28:10] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.7.0.post175-py3-none-any.whl.zip tmp/nucliadb_dataset-2.7.0.post176-py3-none-any.whl.zip --markdown 20230418/n/nucliadb-dataset/2.7.0.post175-2.7.0.post176/diff.md --exclude *.pyd
+[2023-04-18 14:28:10] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-04-18 14:28:10] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.7.0.post175-py3-none-any.whl.zip tmp/nucliadb_sdk-2.7.0.post176-py3-none-any.whl.zip --markdown 20230418/n/nucliadb-sdk/2.7.0.post175-2.7.0.post176/diff.md --exclude *.pyd
+[2023-04-18 14:28:10] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-04-18 14:28:10] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.7.0.post175-py3-none-any.whl.zip tmp/nucliadb_models-2.7.0.post176-py3-none-any.whl.zip --markdown 20230418/n/nucliadb-models/2.7.0.post175-2.7.0.post176/diff.md --exclude *.pyd
+[2023-04-18 14:28:10] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/8c/09/778c142267d65516e8a8c9ec872bee3e1b0e5f25026d67478a046cb5fc14/nucliadb_client-2.7.0.post176-py3-none-any.whl
+[2023-04-18 14:28:10] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-04-18 14:28:10] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.7.0.post175-py3-none-any.whl.zip tmp/nucliadb_client-2.7.0.post176-py3-none-any.whl.zip --markdown 20230418/n/nucliadb-client/2.7.0.post175-2.7.0.post176/diff.md --exclude *.pyd
+[2023-04-18 14:28:10] INFO root fetch - processPackages [django-excel-report]: Downloading https://files.pythonhosted.org/packages/50/d3/f5fe91127924984d064fe03b81336b7d648cd2453dbf9e7379e104058eff/django_excel_report-0.0.4.tar.gz
+[2023-04-18 14:28:10] INFO root fetch - processPackages [eaxml2code]: Downloading https://files.pythonhosted.org/packages/5e/41/758e9c9e237f5a9045a635ce79978289eb84fc89057ec1fe384421cc654b/eaxml2code-0.8.tar.gz
+[2023-04-18 14:28:10] INFO root fetch - processPackages [bybitHTTPX]: Downloading https://files.pythonhosted.org/packages/d6/52/5457d0d8d98a1d248e0d72b01328e67e4f1ec7ed541b1d9c061e379d74af/bybitHTTPX-0.0.2.tar.gz
+[2023-04-18 14:28:10] INFO root fetch - processPackages [eaxml2code]: executing diffoscope
+[2023-04-18 14:28:10] INFO root fetch - processPackages [eaxml2code]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eaxml2code-0.7.tar.gz tmp/eaxml2code-0.8.tar.gz --markdown 20230418/e/eaxml2code/0.7-0.8/diff.md --exclude *.pyd
+[2023-04-18 14:28:10] INFO root fetch - processPackages [bybitHTTPX]: executing diffoscope
+[2023-04-18 14:28:10] INFO root fetch - processPackages [bybitHTTPX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bybitHTTPX-0.0.1.tar.gz tmp/bybitHTTPX-0.0.2.tar.gz --markdown 20230418/b/bybitHTTPX/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-18 14:28:10] INFO root fetch - processPackages [django-excel-report]: Downloading https://files.pythonhosted.org/packages/69/d5/c0c6b54993bb0f6c47960c92aa9b03337789f56b5b5db0b8f58652986e86/django_excel_report-0.0.5.tar.gz
+[2023-04-18 14:28:10] INFO root fetch - processPackages [django-excel-report]: executing diffoscope
+[2023-04-18 14:28:10] INFO root fetch - processPackages [django-excel-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_excel_report-0.0.4.tar.gz tmp/django_excel_report-0.0.5.tar.gz --markdown 20230418/d/django-excel-report/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-18 14:28:11] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: nucliadb-utils
+[2023-04-18 14:28:11] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-04-18 14:28:11] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.7.0.post176] Old Version: [2.7.0.post175]
+[2023-04-18 14:28:11] INFO root fetch - processPackages [nucliadb-models]: Start processing: cloud-governance
+[2023-04-18 14:28:11] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-04-18 14:28:11] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: dnslookup-module
+[2023-04-18 14:28:11] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-04-18 14:28:11] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.9] Old Version: [1.1.87]
+[2023-04-18 14:28:11] WARNING root fetch - processPackages [dnslookup-module]: Skipping, unable to determine old version
+[2023-04-18 14:28:11] INFO root fetch - processPackages [dnslookup-module]: Start processing: splunk-add-on-ucc-framework
+[2023-04-18 14:28:11] INFO root fetch - main [MainThread]: End processing [dnslookup-module] error
+[2023-04-18 14:28:11] INFO root fetch - processPackages [nucliadb-client]: Start processing: charsi
+[2023-04-18 14:28:11] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-04-18 14:28:11] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: New version: [6.0.0b2] Old Version: [6.0.0b1]
+[2023-04-18 14:28:11] INFO root fetch - processPackages [charsi]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-04-18 14:28:11] INFO root fetch - processPackages [nucliadb-protos]: Start processing: clear-skies
+[2023-04-18 14:28:11] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-04-18 14:28:11] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/b3/35/789058da191c48865be317d5cac0ef6ac47c579630a99e4e9b40f20fbc49/nucliadb_utils-2.7.0.post176-py3-none-any.whl
+[2023-04-18 14:28:11] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/88/18/a232f7b8a505099f457277d159a762d139a2d083ddb92ac770022063cabe/cloud-governance-1.1.87.tar.gz
+[2023-04-18 14:28:11] INFO root fetch - processPackages [clear-skies]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-04-18 14:28:12] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-04-18 14:28:12] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.7.0.post175-py3-none-any.whl.zip tmp/nucliadb_utils-2.7.0.post176-py3-none-any.whl.zip --markdown 20230418/n/nucliadb-utils/2.7.0.post175-2.7.0.post176/diff.md --exclude *.pyd
+[2023-04-18 14:28:12] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: Downloading https://files.pythonhosted.org/packages/78/eb/e017cbe06f19daeaed3e507943d6fdf8d5f8e9834542528c1a025b4596be/splunk_add_on_ucc_framework-6.0.0b1.tar.gz
+[2023-04-18 14:28:12] INFO root fetch - processPackages [charsi]: Downloading https://files.pythonhosted.org/packages/f5/b2/3145656c08a0136c224ebe4bf682e675405e4e53bd80050e355f8292a1d7/charsi-1.1.0.tar.gz
+[2023-04-18 14:28:12] INFO root fetch - processPackages [charsi]: executing diffoscope
+[2023-04-18 14:28:12] INFO root fetch - processPackages [charsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/charsi-1.0.0.tar.gz tmp/charsi-1.1.0.tar.gz --markdown 20230418/c/charsi/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-04-18 14:28:12] INFO root fetch - processPackages [eaxml2code]: Start processing: apiritif-no-codecov
+[2023-04-18 14:28:12] INFO root fetch - main [MainThread]: End processing [eaxml2code]: success
+[2023-04-18 14:28:12] WARNING root fetch - processPackages [apiritif-no-codecov]: Skipping, unable to determine old version
+[2023-04-18 14:28:12] INFO root fetch - processPackages [apiritif-no-codecov]: Start processing: genomenotebook
+[2023-04-18 14:28:12] INFO root fetch - main [MainThread]: End processing [apiritif-no-codecov] error
+[2023-04-18 14:28:12] INFO root fetch - processPackages [django-excel-report]: Start processing: turbo-chat
+[2023-04-18 14:28:12] INFO root fetch - main [MainThread]: End processing [django-excel-report]: success
+[2023-04-18 14:28:12] INFO root fetch - processPackages [genomenotebook]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-04-18 14:28:12] INFO root fetch - processPackages [bybitHTTPX]: Start processing: django-excel-report
+[2023-04-18 14:28:12] INFO root fetch - main [MainThread]: End processing [bybitHTTPX]: success
+[2023-04-18 14:28:12] INFO root fetch - processPackages [turbo-chat]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-18 14:28:12] INFO root fetch - processPackages [django-excel-report]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-18 14:28:12] INFO root fetch - processPackages [clear-skies]: executing diffoscope
+[2023-04-18 14:28:12] INFO root fetch - processPackages [clear-skies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clear-skies-1.8.0.tar.gz tmp/clear-skies-1.9.0.tar.gz --markdown 20230418/c/clear-skies/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-04-18 14:28:12] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/69/7d/2af3d1ff9de80efb4c3fbb6bc20c0d47043fd3a258363bb6ed4e4a5ad1e8/cloud-governance-1.1.9.tar.gz
+[2023-04-18 14:28:12] INFO root fetch - processPackages [django-excel-report]: executing diffoscope
+[2023-04-18 14:28:12] INFO root fetch - processPackages [django-excel-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_excel_report-0.0.4.tar.gz tmp/django_excel_report-0.0.5.tar.gz --markdown 20230418/d/django-excel-report/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-18 14:28:12] INFO root fetch - processPackages [genomenotebook]: Downloading https://files.pythonhosted.org/packages/53/b8/24e103da61307e0a2bdd22ba3f435e9ec7911887883a85551ae2c6126cac/genomenotebook-0.3.2.tar.gz
+[2023-04-18 14:28:12] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2023-04-18 14:28:12] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.87.tar.gz tmp/cloud-governance-1.1.9.tar.gz --markdown 20230418/c/cloud-governance/1.1.87-1.1.9/diff.md --exclude *.pyd
+[2023-04-18 14:28:12] INFO root fetch - processPackages [turbo-chat]: Downloading https://files.pythonhosted.org/packages/ef/f7/7e1724b71429c08279d0e48d4fe638edcc0dab93308d3d9503e1e65f5a11/turbo_chat-0.3.9.tar.gz
+[2023-04-18 14:28:12] INFO root fetch - processPackages [genomenotebook]: executing diffoscope
+[2023-04-18 14:28:12] INFO root fetch - processPackages [genomenotebook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genomenotebook-0.3.1.tar.gz tmp/genomenotebook-0.3.2.tar.gz --markdown 20230418/g/genomenotebook/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-04-18 14:28:12] INFO root fetch - processPackages [turbo-chat]: executing diffoscope
+[2023-04-18 14:28:12] INFO root fetch - processPackages [turbo-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turbo_chat-0.3.8.tar.gz tmp/turbo_chat-0.3.9.tar.gz --markdown 20230418/t/turbo-chat/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-18 14:28:12] INFO root fetch - processPackages [iris-pex-embedded-python]: Start processing: autoflake
+[2023-04-18 14:28:12] INFO root fetch - main [MainThread]: End processing [iris-pex-embedded-python]: success
+[2023-04-18 14:28:12] INFO root fetch - processPackages [autoflake]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-04-18 14:28:13] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: Downloading https://files.pythonhosted.org/packages/05/3f/3b6b317e7aef8128151e4751ee17636b01e39b3f95acb7e7c50789587dcf/splunk_add_on_ucc_framework-6.0.0b2.tar.gz
+[2023-04-18 14:28:13] INFO root fetch - processPackages [autoflake]: Downloading https://files.pythonhosted.org/packages/6d/13/c3a4676cd4af77440e86f928b80e777244f6e9f045143ac2ba42154318cf/autoflake-2.1.1.tar.gz
+[2023-04-18 14:28:13] INFO root fetch - processPackages [autoflake]: executing diffoscope
+[2023-04-18 14:28:13] INFO root fetch - processPackages [autoflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoflake-2.1.0.tar.gz tmp/autoflake-2.1.1.tar.gz --markdown 20230418/a/autoflake/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-04-18 14:28:13] INFO root fetch - processPackages [charsi]: Start processing: ChineseNumberUtils
+[2023-04-18 14:28:13] INFO root fetch - main [MainThread]: End processing [charsi]: success
+[2023-04-18 14:28:13] INFO root fetch - processPackages [ChineseNumberUtils]: New version: [1.1.1] Old Version: [1.0.3]
+[2023-04-18 14:28:13] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: executing diffoscope
+[2023-04-18 14:28:13] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splunk_add_on_ucc_framework-6.0.0b1.tar.gz tmp/splunk_add_on_ucc_framework-6.0.0b2.tar.gz --markdown 20230418/s/splunk-add-on-ucc-framework/6.0.0b1-6.0.0b2/diff.md --exclude *.pyd
+[2023-04-18 14:28:13] INFO root fetch - processPackages [ChineseNumberUtils]: Downloading https://files.pythonhosted.org/packages/5b/4b/051a0c4db9de41e374f8b7cd41ba335187552c021ef59d778340ca1d8a88/ChineseNumberUtils-1.0.3.tar.gz
+[2023-04-18 14:28:13] INFO root fetch - processPackages [nucliadb-utils]: Start processing: dm-cli
+[2023-04-18 14:28:13] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-04-18 14:28:13] INFO root fetch - processPackages [dm-cli]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-18 14:28:13] INFO root fetch - processPackages [dm-cli]: Downloading https://files.pythonhosted.org/packages/2d/fa/aabb6de8b1f25d86f6eecdf0bc3354a625fc3a7cea5998d6a10d04f40e5d/dm-cli-1.0.5.tar.gz
+[2023-04-18 14:28:13] INFO root fetch - processPackages [ChineseNumberUtils]: Downloading https://files.pythonhosted.org/packages/7f/ac/e071ca585cf5b2c6cbe1bdc92e9252facc7ec566d111b9f4e5761bb8b8d1/ChineseNumberUtils-1.1.1.tar.gz
+[2023-04-18 14:28:13] INFO root fetch - processPackages [django-excel-report]: Start processing: djlint
+[2023-04-18 14:28:13] INFO root fetch - main [MainThread]: End processing [django-excel-report]: success
+[2023-04-18 14:28:14] INFO root fetch - processPackages [ChineseNumberUtils]: executing diffoscope
+[2023-04-18 14:28:14] INFO root fetch - processPackages [ChineseNumberUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChineseNumberUtils-1.0.3.tar.gz tmp/ChineseNumberUtils-1.1.1.tar.gz --markdown 20230418/C/ChineseNumberUtils/1.0.3-1.1.1/diff.md --exclude *.pyd
+[2023-04-18 14:28:14] INFO root fetch - processPackages [djlint]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-04-18 14:28:14] INFO root fetch - processPackages [genomenotebook]: Start processing: talos-cli
+[2023-04-18 14:28:14] INFO root fetch - main [MainThread]: End processing [genomenotebook]: success
+[2023-04-18 14:28:14] ERROR root fetch - processPackages [talos-cli]: Unable to get metadata: No such project 'talos-cli'
+[2023-04-18 14:28:14] INFO root fetch - processPackages [talos-cli]: Start processing: th2-grpc-lw-data-provider
+[2023-04-18 14:28:14] INFO root fetch - main [MainThread]: End processing [talos-cli] error
+[2023-04-18 14:28:14] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev4731797651]
+[2023-04-18 14:28:14] INFO root fetch - processPackages [nucliadb]: Start processing: stringhandling
+[2023-04-18 14:28:14] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-04-18 14:28:14] INFO root fetch - processPackages [dm-cli]: Downloading https://files.pythonhosted.org/packages/79/a2/76086be54ce365909931a9d24ab9efdc1c8b3a9802949b2fca0aa895db6b/dm-cli-1.0.6.tar.gz
+[2023-04-18 14:28:14] INFO root fetch - processPackages [djlint]: Downloading https://files.pythonhosted.org/packages/f9/db/1d732492f0f364373f90898eb81fd25b7968fb75cb643ad2325972ed793e/djlint-1.9.4.tar.gz
+[2023-04-18 14:28:14] INFO root fetch - processPackages [dm-cli]: executing diffoscope
+[2023-04-18 14:28:14] INFO root fetch - processPackages [dm-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm-cli-1.0.5.tar.gz tmp/dm-cli-1.0.6.tar.gz --markdown 20230418/d/dm-cli/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-04-18 14:28:14] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-04-18 14:28:14] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev4731797651.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230418/t/th2-grpc-lw-data-provider/2.0.0.dev4731797651-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-04-18 14:28:14] ERROR root fetch - processPackages [stringhandling]: Unable to get metadata: No such project 'stringhandling'
+[2023-04-18 14:28:14] INFO root fetch - main [MainThread]: End processing [stringhandling] error
+[2023-04-18 14:28:14] INFO root fetch - main [MainThread]: End processing [clear-skies]: success
+[2023-04-18 14:28:14] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2023-04-18 14:28:15] INFO root fetch - main [MainThread]: End processing [ChineseNumberUtils]: success
+[2023-04-18 14:28:15] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-04-18 14:28:15] INFO root fetch - main [MainThread]: End processing [autoflake]: success
+[2023-04-18 14:28:15] INFO root fetch - main [MainThread]: End processing [dm-cli]: success
+[2023-04-18 14:28:15] INFO root fetch - main [MainThread]: End processing [splunk-add-on-ucc-framework]: success
+[2023-04-18 14:28:16] INFO root fetch - processPackages [djlint]: Downloading https://files.pythonhosted.org/packages/54/cf/8946f7940be9edeca23fba4ba04373985b2d027737d5ffa4a4bfec091740/djlint-1.9.5.tar.gz
+[2023-04-18 14:28:16] INFO root fetch - processPackages [djlint]: executing diffoscope
+[2023-04-18 14:28:16] INFO root fetch - processPackages [djlint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djlint-1.9.4.tar.gz tmp/djlint-1.9.5.tar.gz --markdown 20230418/d/djlint/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-04-18 14:28:16] INFO root fetch - main [MainThread]: End processing [turbo-chat]: success
+[2023-04-18 14:28:17] INFO root fetch - main [MainThread]: End processing [djlint]: success
+[2023-04-18 14:28:17] INFO root fetch - main [MainThread]: Store serial: [17755655]
