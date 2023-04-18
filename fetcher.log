@@ -21246,3 +21246,106 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 15:23:22] INFO root fetch - main [MainThread]: End processing [quarkstudio]: success
 [2023-04-18 15:23:27] INFO root fetch - main [MainThread]: End processing [plexorank]: success
 [2023-04-18 15:23:27] INFO root fetch - main [MainThread]: Store serial: [17756239]
+[2023-04-18 15:28:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17756239]
+[2023-04-18 15:28:39] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-18 15:28:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zeno-evals
+[2023-04-18 15:28:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fatld
+[2023-04-18 15:28:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coiled
+[2023-04-18 15:28:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ym-csv-pii-sanitizer
+[2023-04-18 15:28:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: syncdsgen
+[2023-04-18 15:28:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autoviz
+[2023-04-18 15:28:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flaskwebgui
+[2023-04-18 15:28:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odd-collector-sdk
+[2023-04-18 15:28:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PyOfficeRobot
+[2023-04-18 15:28:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ospd-openvas
+[2023-04-18 15:28:39] INFO root fetch - processPackages [autoviz]: New version: [0.1.601] Old Version: [0.1.600]
+[2023-04-18 15:28:39] INFO root fetch - processPackages [syncdsgen]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-18 15:28:39] INFO root fetch - processPackages [fatld]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-18 15:28:39] INFO root fetch - processPackages [ym-csv-pii-sanitizer]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-18 15:28:39] INFO root fetch - processPackages [zeno-evals]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-04-18 15:28:39] INFO root fetch - processPackages [PyOfficeRobot]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-18 15:28:39] INFO root fetch - processPackages [flaskwebgui]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-18 15:28:39] INFO root fetch - processPackages [odd-collector-sdk]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-18 15:28:39] INFO root fetch - processPackages [ospd-openvas]: New version: [22.5.0] Old Version: [22.4.6]
+[2023-04-18 15:28:39] INFO root fetch - processPackages [coiled]: New version: [0.5.9.post0.dev8] Old Version: [0.5.9.post0.dev7]
+[2023-04-18 15:28:39] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-04-18 15:28:39] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.5.9.post0.dev7.tar.gz tmp/coiled-0.5.9.post0.dev8.tar.gz --markdown 20230418/c/coiled/0.5.9.post0.dev7-0.5.9.post0.dev8/diff.md --exclude *.pyd
+[2023-04-18 15:28:39] INFO root fetch - processPackages [fatld]: Downloading https://files.pythonhosted.org/packages/a0/53/2c63dbb09f8f32cb9b10b5d632d171366aa97fe41130659f20a6d3eb7778/fatld-0.1.5.tar.gz
+[2023-04-18 15:28:39] INFO root fetch - processPackages [flaskwebgui]: Downloading https://files.pythonhosted.org/packages/aa/c8/24ab9be87acc520e2da2f103e99acebd1a7cd54e7551b4c8e94d30c69ebb/flaskwebgui-1.0.4.tar.gz
+[2023-04-18 15:28:39] INFO root fetch - processPackages [PyOfficeRobot]: Downloading https://files.pythonhosted.org/packages/cd/ee/c410d1dfa90362e7d4e814bcce74060cf0f8ffbb3c28b7fd51426d6dc88b/PyOfficeRobot-0.1.4.tar.gz
+[2023-04-18 15:28:39] INFO root fetch - processPackages [ym-csv-pii-sanitizer]: Downloading https://files.pythonhosted.org/packages/82/e1/3796a287e1dc97a3d59071f02dee5687f575a9947e999a2b70c606cdb622/ym_csv_pii_sanitizer-0.0.2.tar.gz
+[2023-04-18 15:28:39] INFO root fetch - processPackages [ospd-openvas]: Downloading https://files.pythonhosted.org/packages/3f/cf/c73c5a897ed5ff256198a42866bf0104671944b6829d515b29da256bd087/ospd_openvas-22.4.6.tar.gz
+[2023-04-18 15:28:39] INFO root fetch - processPackages [syncdsgen]: Downloading https://files.pythonhosted.org/packages/05/2e/f312a9b8d2f10920c08b73b987c14bbf2784dae9fdd159852e7d4126cf64/syncdsgen-0.0.3.tar.gz
+[2023-04-18 15:28:39] INFO root fetch - processPackages [odd-collector-sdk]: Downloading https://files.pythonhosted.org/packages/cf/ba/ce865f52258c39c0b1d62ee3998decaf12b77f41fc74cc29f739aef2418a/odd-collector-sdk-0.3.8.tar.gz
+[2023-04-18 15:28:39] INFO root fetch - processPackages [zeno-evals]: Downloading https://files.pythonhosted.org/packages/48/e1/b8eb4c34a946762188404eb1b0685335393d4888ec4680ca4415d2b89a60/zeno_evals-0.1.6.tar.gz
+[2023-04-18 15:28:39] INFO root fetch - processPackages [autoviz]: Downloading https://files.pythonhosted.org/packages/25/0d/80411d88a3fb86abcef81a594b37ae2c2749b9efa32c5067f94d6dea0e78/autoviz-0.1.601.tar.gz
+[2023-04-18 15:28:39] INFO root fetch - processPackages [fatld]: Downloading https://files.pythonhosted.org/packages/7a/a1/b75b249c77879b43eed1a988bb010f859dc23f6242fa35167bc3176ad8d9/fatld-0.1.6.tar.gz
+[2023-04-18 15:28:39] INFO root fetch - processPackages [flaskwebgui]: Downloading https://files.pythonhosted.org/packages/45/c6/ddfb6bf8d31967f85a26aaad8ccd3d299c552e34e983f9ee745d14b05f84/flaskwebgui-1.0.5.tar.gz
+[2023-04-18 15:28:39] INFO root fetch - processPackages [syncdsgen]: executing diffoscope
+[2023-04-18 15:28:39] INFO root fetch - processPackages [syncdsgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncdsgen-0.0.2.tar.gz tmp/syncdsgen-0.0.3.tar.gz --markdown 20230418/s/syncdsgen/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-18 15:28:39] INFO root fetch - processPackages [PyOfficeRobot]: executing diffoscope
+[2023-04-18 15:28:39] INFO root fetch - processPackages [PyOfficeRobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyOfficeRobot-0.1.3.tar.gz tmp/PyOfficeRobot-0.1.4.tar.gz --markdown 20230418/P/PyOfficeRobot/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-18 15:28:39] INFO root fetch - processPackages [zeno-evals]: executing diffoscope
+[2023-04-18 15:28:39] INFO root fetch - processPackages [zeno-evals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeno_evals-0.1.5.tar.gz tmp/zeno_evals-0.1.6.tar.gz --markdown 20230418/z/zeno-evals/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-18 15:28:39] INFO root fetch - processPackages [autoviz]: executing diffoscope
+[2023-04-18 15:28:39] INFO root fetch - processPackages [autoviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoviz-0.1.600.tar.gz tmp/autoviz-0.1.601.tar.gz --markdown 20230418/a/autoviz/0.1.600-0.1.601/diff.md --exclude *.pyd
+[2023-04-18 15:28:39] INFO root fetch - processPackages [ym-csv-pii-sanitizer]: Downloading https://files.pythonhosted.org/packages/5c/dc/03d8291ffccbcce7379eda33407eb66602cf022a0be4a8f8ef5d91af2f3a/ym_csv_pii_sanitizer-0.0.3.tar.gz
+[2023-04-18 15:28:39] INFO root fetch - processPackages [fatld]: executing diffoscope
+[2023-04-18 15:28:39] INFO root fetch - processPackages [fatld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fatld-0.1.5.tar.gz tmp/fatld-0.1.6.tar.gz --markdown 20230418/f/fatld/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-04-18 15:28:39] INFO root fetch - processPackages [odd-collector-sdk]: Downloading https://files.pythonhosted.org/packages/b7/09/a072e072a86ba00164c8e4095f66211981ce5e1276abb17076ff23854b5d/odd_collector_sdk-0.3.9.tar.gz
+[2023-04-18 15:28:40] INFO root fetch - processPackages [flaskwebgui]: executing diffoscope
+[2023-04-18 15:28:40] INFO root fetch - processPackages [flaskwebgui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flaskwebgui-1.0.4.tar.gz tmp/flaskwebgui-1.0.5.tar.gz --markdown 20230418/f/flaskwebgui/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-18 15:28:40] INFO root fetch - processPackages [ospd-openvas]: Downloading https://files.pythonhosted.org/packages/b7/56/3d275799be01242c34939b169dd602c0e284653bcff4ceca89136c500559/ospd_openvas-22.5.0.tar.gz
+[2023-04-18 15:28:40] INFO root fetch - processPackages [ym-csv-pii-sanitizer]: executing diffoscope
+[2023-04-18 15:28:40] INFO root fetch - processPackages [ym-csv-pii-sanitizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ym_csv_pii_sanitizer-0.0.2.tar.gz tmp/ym_csv_pii_sanitizer-0.0.3.tar.gz --markdown 20230418/y/ym-csv-pii-sanitizer/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-18 15:28:40] INFO root fetch - processPackages [odd-collector-sdk]: executing diffoscope
+[2023-04-18 15:28:40] INFO root fetch - processPackages [odd-collector-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odd-collector-sdk-0.3.8.tar.gz tmp/odd_collector_sdk-0.3.9.tar.gz --markdown 20230418/o/odd-collector-sdk/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-18 15:28:40] INFO root fetch - processPackages [ospd-openvas]: executing diffoscope
+[2023-04-18 15:28:40] INFO root fetch - processPackages [ospd-openvas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ospd_openvas-22.4.6.tar.gz tmp/ospd_openvas-22.5.0.tar.gz --markdown 20230418/o/ospd-openvas/22.4.6-22.5.0/diff.md --exclude *.pyd
+[2023-04-18 15:28:41] INFO root fetch - processPackages [zeno-evals]: Start processing: blossomai
+[2023-04-18 15:28:41] INFO root fetch - main [MainThread]: End processing [zeno-evals]: success
+[2023-04-18 15:28:41] WARNING root fetch - processPackages [blossomai]: Skipping, unable to determine old version
+[2023-04-18 15:28:41] INFO root fetch - processPackages [blossomai]: Start processing: pepperize.cdk-route53-health-check
+[2023-04-18 15:28:41] INFO root fetch - main [MainThread]: End processing [blossomai] error
+[2023-04-18 15:28:41] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-18 15:28:41] INFO root fetch - processPackages [syncdsgen]: Start processing: docarray
+[2023-04-18 15:28:41] INFO root fetch - main [MainThread]: End processing [syncdsgen]: success
+[2023-04-18 15:28:41] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-04-18 15:28:41] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-04-18 15:28:41] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230418/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-18 15:28:41] INFO root fetch - processPackages [flaskwebgui]: Start processing: cythonbiogeme
+[2023-04-18 15:28:41] INFO root fetch - main [MainThread]: End processing [flaskwebgui]: success
+[2023-04-18 15:28:41] WARNING root fetch - processPackages [cythonbiogeme]: Skipping, unable to determine old version
+[2023-04-18 15:28:41] INFO root fetch - processPackages [cythonbiogeme]: Start processing: rapids-singlecell
+[2023-04-18 15:28:41] INFO root fetch - main [MainThread]: End processing [cythonbiogeme] error
+[2023-04-18 15:28:41] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-04-18 15:28:41] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230418/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-04-18 15:28:41] INFO root fetch - processPackages [ym-csv-pii-sanitizer]: Start processing: syncdsgen
+[2023-04-18 15:28:41] INFO root fetch - main [MainThread]: End processing [ym-csv-pii-sanitizer]: success
+[2023-04-18 15:28:41] INFO root fetch - processPackages [syncdsgen]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-18 15:28:41] INFO root fetch - processPackages [rapids-singlecell]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-04-18 15:28:41] INFO root fetch - processPackages [fatld]: Start processing: hitac
+[2023-04-18 15:28:41] INFO root fetch - main [MainThread]: End processing [fatld]: success
+[2023-04-18 15:28:41] INFO root fetch - main [MainThread]: End processing [PyOfficeRobot]: success
+[2023-04-18 15:28:41] INFO root fetch - processPackages [hitac]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-04-18 15:28:41] INFO root fetch - processPackages [syncdsgen]: Downloading https://files.pythonhosted.org/packages/cb/8c/006a89f41ab68123e4829f87a33b7c5f0250e56430921f996cfa218bacba/syncdsgen-0.0.4.tar.gz
+[2023-04-18 15:28:41] INFO root fetch - processPackages [rapids-singlecell]: Downloading https://files.pythonhosted.org/packages/07/5d/2e8b0af1afdb7bb649dde02e809b474300c1727fa817459c259dab1d3f23/rapids_singlecell-0.5.1.tar.gz
+[2023-04-18 15:28:41] INFO root fetch - main [MainThread]: End processing [odd-collector-sdk]: success
+[2023-04-18 15:28:41] INFO root fetch - processPackages [hitac]: Downloading https://files.pythonhosted.org/packages/9b/8f/cbeba8b56c6baac43a01b52b5d05f6229a62d453a3b5fdeeadd5424e7785/hitac-2.0.8.tar.gz
+[2023-04-18 15:28:41] INFO root fetch - processPackages [syncdsgen]: executing diffoscope
+[2023-04-18 15:28:41] INFO root fetch - processPackages [syncdsgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncdsgen-0.0.3.tar.gz tmp/syncdsgen-0.0.4.tar.gz --markdown 20230418/s/syncdsgen/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-18 15:28:41] INFO root fetch - processPackages [rapids-singlecell]: Downloading https://files.pythonhosted.org/packages/4d/f9/ca9b016b6c8f990840d84b5ad3bbdcb4cec71ac18d8d357faecd45fc6121/rapids_singlecell-0.6.0.tar.gz
+[2023-04-18 15:28:42] INFO root fetch - processPackages [rapids-singlecell]: executing diffoscope
+[2023-04-18 15:28:42] INFO root fetch - processPackages [rapids-singlecell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapids_singlecell-0.5.1.tar.gz tmp/rapids_singlecell-0.6.0.tar.gz --markdown 20230418/r/rapids-singlecell/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-04-18 15:28:42] INFO root fetch - processPackages [hitac]: Downloading https://files.pythonhosted.org/packages/af/34/484ae2f1f2a2697bc44623af38f7ee03bda8054ecc5097a125f0bb46f934/hitac-2.0.9.tar.gz
+[2023-04-18 15:28:42] INFO root fetch - processPackages [hitac]: executing diffoscope
+[2023-04-18 15:28:42] INFO root fetch - processPackages [hitac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hitac-2.0.8.tar.gz tmp/hitac-2.0.9.tar.gz --markdown 20230418/h/hitac/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-04-18 15:28:42] INFO root fetch - main [MainThread]: End processing [syncdsgen]: success
+[2023-04-18 15:28:42] INFO root fetch - main [MainThread]: End processing [ospd-openvas]: success
+[2023-04-18 15:28:42] INFO root fetch - main [MainThread]: End processing [autoviz]: success
+[2023-04-18 15:28:43] INFO root fetch - main [MainThread]: End processing [rapids-singlecell]: success
+[2023-04-18 15:28:43] INFO root fetch - main [MainThread]: End processing [hitac]: success
+[2023-04-18 15:28:43] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-04-18 15:28:45] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-04-18 15:28:46] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-04-18 15:28:46] INFO root fetch - main [MainThread]: Store serial: [17756303]
