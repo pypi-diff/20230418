@@ -7565,3 +7565,79 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 04:34:15] INFO root fetch - main [MainThread]: End processing [hass-nabucasa]: success
 [2023-04-18 04:34:15] INFO root fetch - main [MainThread]: End processing [sqlglot]: success
 [2023-04-18 04:34:15] INFO root fetch - main [MainThread]: Store serial: [17748740]
+[2023-04-18 04:39:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17748740]
+[2023-04-18 04:39:24] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-18 04:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yog
+[2023-04-18 04:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metisse
+[2023-04-18 04:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo13-addon-account-budget-oca
+[2023-04-18 04:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo12-addon-account-budget-oca
+[2023-04-18 04:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: discordwrap
+[2023-04-18 04:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: waveforms
+[2023-04-18 04:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo12-addon-account-fiscal-year-closing
+[2023-04-18 04:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: network-scanner-kbk
+[2023-04-18 04:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: revChatGPT
+[2023-04-18 04:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: apache-airflow-providers-sktvane
+[2023-04-18 04:39:24] INFO root fetch - processPackages [odoo13-addon-account-budget-oca]: New version: [13.0.1.0.1.dev9] Old Version: [13.0.1.0.1.dev8]
+[2023-04-18 04:39:24] INFO root fetch - processPackages [yog]: New version: [2.1.5] Old Version: [2.1.4]
+[2023-04-18 04:39:24] INFO root fetch - processPackages [odoo12-addon-account-budget-oca]: New version: [12.0.1.1.0.99.dev9] Old Version: [12.0.1.1.0.99.dev8]
+[2023-04-18 04:39:24] INFO root fetch - processPackages [metisse]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-18 04:39:24] INFO root fetch - processPackages [network-scanner-kbk]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-04-18 04:39:24] INFO root fetch - processPackages [discordwrap]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-18 04:39:24] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-18 04:39:24] INFO root fetch - processPackages [odoo12-addon-account-fiscal-year-closing]: New version: [12.0.1.2.0.99.dev5] Old Version: [12.0.1.2.0.99.dev4]
+[2023-04-18 04:39:24] INFO root fetch - processPackages [waveforms]: New version: [1.5.86] Old Version: [1.5.85]
+[2023-04-18 04:39:24] INFO root fetch - processPackages [revChatGPT]: New version: [4.2.4] Old Version: [4.2.3]
+[2023-04-18 04:39:24] INFO root fetch - processPackages [network-scanner-kbk]: executing diffoscope
+[2023-04-18 04:39:24] INFO root fetch - processPackages [network-scanner-kbk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/network_scanner_kbk-0.0.7.tar.gz tmp/network_scanner_kbk-0.0.9.tar.gz --markdown 20230418/n/network-scanner-kbk/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-04-18 04:39:24] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: executing diffoscope
+[2023-04-18 04:39:24] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-airflow-providers-sktvane-0.0.8.tar.gz tmp/apache-airflow-providers-sktvane-0.0.9.tar.gz --markdown 20230418/a/apache-airflow-providers-sktvane/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-18 04:39:24] INFO root fetch - processPackages [yog]: Downloading https://files.pythonhosted.org/packages/56/0c/f02418e7deaf4e722603cbd1383941d30fcfcde27836b9bb048a13ec9060/yog-2.1.4.tar.gz
+[2023-04-18 04:39:24] INFO root fetch - processPackages [discordwrap]: Downloading https://files.pythonhosted.org/packages/4a/fc/8d2654e7d3b481e5fcf7ab327f8dfd3defb46bcec28f5beacd43870d94a7/discordwrap-0.8.0.tar.gz
+[2023-04-18 04:39:24] INFO root fetch - processPackages [metisse]: Downloading https://files.pythonhosted.org/packages/68/da/b2d6ea6d61b8a4993d316ee1c0685aaea61eef82375032abbe35ebd90031/metisse-0.0.5.tar.gz
+[2023-04-18 04:39:24] INFO root fetch - processPackages [odoo13-addon-account-budget-oca]: Downloading https://files.pythonhosted.org/packages/91/40/8cf5d9a544edcd02496b5658d8f4669e515463b73a8c0beb58b18f5a1216/odoo13_addon_account_budget_oca-13.0.1.0.1.dev8-py3-none-any.whl
+[2023-04-18 04:39:24] INFO root fetch - processPackages [odoo12-addon-account-fiscal-year-closing]: Downloading https://files.pythonhosted.org/packages/df/ec/0f912dc711b8916db540959e98fd00e803ea05c5c7d8c0487fabe27b31d6/odoo12_addon_account_fiscal_year_closing-12.0.1.2.0.99.dev4-py3-none-any.whl
+[2023-04-18 04:39:24] INFO root fetch - processPackages [odoo12-addon-account-budget-oca]: Downloading https://files.pythonhosted.org/packages/5d/24/890b2fba18d2a9cf58bbe662c9b9bf8a0abba4e5882af1ed7dc9d7712d3c/odoo12_addon_account_budget_oca-12.0.1.1.0.99.dev8-py3-none-any.whl
+[2023-04-18 04:39:24] INFO root fetch - processPackages [waveforms]: Downloading https://files.pythonhosted.org/packages/bb/29/3924d9785a2df7064822566ab899c59b939c5a1d03f17bfac57e2272aca0/waveforms-1.5.85.tar.gz
+[2023-04-18 04:39:25] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/24/4b/539de84e8639a7d012247723ea7f1e4c8351decfa16529c606f460ca2148/revChatGPT-4.2.4.tar.gz
+[2023-04-18 04:39:25] INFO root fetch - processPackages [discordwrap]: Downloading https://files.pythonhosted.org/packages/b8/f8/a490bc13276ce126ef15e7a5c84dd404d574dcad9ff96b36bb61efd293bb/discordwrap-0.9.0.tar.gz
+[2023-04-18 04:39:25] INFO root fetch - processPackages [yog]: Downloading https://files.pythonhosted.org/packages/38/5e/79c57ea869159fbcfd4128c3972ac415d754e583e33d457e5f6488090cec/yog-2.1.5.tar.gz
+[2023-04-18 04:39:25] INFO root fetch - processPackages [metisse]: Downloading https://files.pythonhosted.org/packages/67/f6/a737117cc81b3ce43bdd89a3a31b18b2c75a8cd8ca12d1ea589655538c0e/metisse-0.0.6.tar.gz
+[2023-04-18 04:39:25] INFO root fetch - processPackages [odoo12-addon-account-fiscal-year-closing]: Downloading https://files.pythonhosted.org/packages/83/f6/9a8e86e1a7a90b60b324015a057a272e33c6e20f699908be3ea4de82e2b1/odoo12_addon_account_fiscal_year_closing-12.0.1.2.0.99.dev5-py3-none-any.whl
+[2023-04-18 04:39:25] INFO root fetch - processPackages [yog]: executing diffoscope
+[2023-04-18 04:39:25] INFO root fetch - processPackages [yog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yog-2.1.4.tar.gz tmp/yog-2.1.5.tar.gz --markdown 20230418/y/yog/2.1.4-2.1.5/diff.md --exclude *.pyd
+[2023-04-18 04:39:25] INFO root fetch - processPackages [waveforms]: Downloading https://files.pythonhosted.org/packages/49/f6/310cbbd43b1726a6900d1255babd4f2ea031a9ddd13f5af874216cd9285e/waveforms-1.5.86.tar.gz
+[2023-04-18 04:39:25] INFO root fetch - processPackages [revChatGPT]: executing diffoscope
+[2023-04-18 04:39:25] INFO root fetch - processPackages [revChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revChatGPT-4.2.3.tar.gz tmp/revChatGPT-4.2.4.tar.gz --markdown 20230418/r/revChatGPT/4.2.3-4.2.4/diff.md --exclude *.pyd
+[2023-04-18 04:39:25] INFO root fetch - processPackages [odoo12-addon-account-fiscal-year-closing]: executing diffoscope
+[2023-04-18 04:39:25] INFO root fetch - processPackages [odoo12-addon-account-fiscal-year-closing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_account_fiscal_year_closing-12.0.1.2.0.99.dev4-py3-none-any.whl.zip tmp/odoo12_addon_account_fiscal_year_closing-12.0.1.2.0.99.dev5-py3-none-any.whl.zip --markdown 20230418/o/odoo12-addon-account-fiscal-year-closing/12.0.1.2.0.99.dev4-12.0.1.2.0.99.dev5/diff.md --exclude *.pyd
+[2023-04-18 04:39:25] INFO root fetch - processPackages [discordwrap]: executing diffoscope
+[2023-04-18 04:39:25] INFO root fetch - processPackages [discordwrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discordwrap-0.8.0.tar.gz tmp/discordwrap-0.9.0.tar.gz --markdown 20230418/d/discordwrap/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-18 04:39:25] INFO root fetch - processPackages [odoo12-addon-account-budget-oca]: Downloading https://files.pythonhosted.org/packages/c1/0f/9550125306f4dc4eb948ab6c4f263a1705e26b69923e824845cfdcd066e1/odoo12_addon_account_budget_oca-12.0.1.1.0.99.dev9-py3-none-any.whl
+[2023-04-18 04:39:25] INFO root fetch - processPackages [odoo13-addon-account-budget-oca]: Downloading https://files.pythonhosted.org/packages/d3/98/dd76629974600628869cadd6df2edca138b57eb130ff9462caa53f676bd5/odoo13_addon_account_budget_oca-13.0.1.0.1.dev9-py3-none-any.whl
+[2023-04-18 04:39:25] INFO root fetch - processPackages [waveforms]: executing diffoscope
+[2023-04-18 04:39:25] INFO root fetch - processPackages [waveforms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waveforms-1.5.85.tar.gz tmp/waveforms-1.5.86.tar.gz --markdown 20230418/w/waveforms/1.5.85-1.5.86/diff.md --exclude *.pyd
+[2023-04-18 04:39:25] INFO root fetch - processPackages [odoo12-addon-account-budget-oca]: executing diffoscope
+[2023-04-18 04:39:25] INFO root fetch - processPackages [odoo12-addon-account-budget-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_account_budget_oca-12.0.1.1.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_account_budget_oca-12.0.1.1.0.99.dev9-py3-none-any.whl.zip --markdown 20230418/o/odoo12-addon-account-budget-oca/12.0.1.1.0.99.dev8-12.0.1.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-04-18 04:39:25] INFO root fetch - processPackages [metisse]: executing diffoscope
+[2023-04-18 04:39:25] INFO root fetch - processPackages [metisse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metisse-0.0.5.tar.gz tmp/metisse-0.0.6.tar.gz --markdown 20230418/m/metisse/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-18 04:39:25] INFO root fetch - processPackages [odoo13-addon-account-budget-oca]: executing diffoscope
+[2023-04-18 04:39:25] INFO root fetch - processPackages [odoo13-addon-account-budget-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_account_budget_oca-13.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo13_addon_account_budget_oca-13.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230418/o/odoo13-addon-account-budget-oca/13.0.1.0.1.dev8-13.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-04-18 04:39:25] INFO root fetch - processPackages [network-scanner-kbk]: Start processing: laningfaiss
+[2023-04-18 04:39:25] INFO root fetch - main [MainThread]: End processing [network-scanner-kbk]: success
+[2023-04-18 04:39:25] INFO root fetch - processPackages [laningfaiss]: New version: [0.0.9] Old Version: [0.0.8a0]
+[2023-04-18 04:39:26] INFO root fetch - processPackages [laningfaiss]: executing diffoscope
+[2023-04-18 04:39:26] INFO root fetch - processPackages [laningfaiss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laningfaiss-0.0.8a0.tar.gz tmp/laningfaiss-0.0.9.tar.gz --markdown 20230418/l/laningfaiss/0.0.8a0-0.0.9/diff.md --exclude *.pyd
+[2023-04-18 04:39:26] INFO root fetch - processPackages [apache-airflow-providers-sktvane]: Start processing: cobaltyangpack
+[2023-04-18 04:39:26] INFO root fetch - main [MainThread]: End processing [apache-airflow-providers-sktvane]: success
+[2023-04-18 04:39:26] INFO root fetch - main [MainThread]: End processing [yog]: success
+[2023-04-18 04:39:26] WARNING root fetch - processPackages [cobaltyangpack]: Skipping, unable to determine old version
+[2023-04-18 04:39:26] INFO root fetch - main [MainThread]: End processing [cobaltyangpack] error
+[2023-04-18 04:39:26] INFO root fetch - main [MainThread]: End processing [discordwrap]: success
+[2023-04-18 04:39:27] INFO root fetch - main [MainThread]: End processing [odoo12-addon-account-fiscal-year-closing]: success
+[2023-04-18 04:39:27] INFO root fetch - main [MainThread]: End processing [revChatGPT]: success
+[2023-04-18 04:39:27] INFO root fetch - main [MainThread]: End processing [odoo12-addon-account-budget-oca]: success
+[2023-04-18 04:39:27] INFO root fetch - main [MainThread]: End processing [odoo13-addon-account-budget-oca]: success
+[2023-04-18 04:39:27] INFO root fetch - main [MainThread]: End processing [waveforms]: success
+[2023-04-18 04:39:29] INFO root fetch - main [MainThread]: End processing [metisse]: success
+[2023-04-18 04:39:37] INFO root fetch - main [MainThread]: End processing [laningfaiss]: success
+[2023-04-18 04:39:37] INFO root fetch - main [MainThread]: Store serial: [17748774]
