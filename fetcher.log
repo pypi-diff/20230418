@@ -18855,3 +18855,92 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 100: invali
 [2023-04-18 13:22:46] INFO root fetch - main [MainThread]: End processing [stackdiac]: success
 [2023-04-18 13:22:49] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-04-18 13:22:49] INFO root fetch - main [MainThread]: Store serial: [17754894]
+[2023-04-18 13:27:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17754894]
+[2023-04-18 13:27:59] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-18 13:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phdu
+[2023-04-18 13:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: charsi
+[2023-04-18 13:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchtnt-nightly
+[2023-04-18 13:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: solnlib
+[2023-04-18 13:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ecs-composex
+[2023-04-18 13:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: micromechanics-indentationGUI
+[2023-04-18 13:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wildlife-datasets
+[2023-04-18 13:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: compact-distillation
+[2023-04-18 13:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: auraboros
+[2023-04-18 13:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: micromechanics-indentationGUI
+[2023-04-18 13:27:59] INFO root fetch - processPackages [phdu]: New version: [1.7b9] Old Version: [1.7b8]
+[2023-04-18 13:27:59] INFO root fetch - processPackages [charsi]: New version: [1.0.0] Old Version: [0.3.0]
+[2023-04-18 13:27:59] INFO root fetch - processPackages [solnlib]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-04-18 13:27:59] INFO root fetch - processPackages [ecs-composex]: New version: [0.9.2] Old Version: [0.8.9]
+[2023-04-18 13:27:59] INFO root fetch - processPackages [micromechanics-indentationGUI]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-18 13:27:59] INFO root fetch - processPackages [micromechanics-indentationGUI]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-18 13:27:59] INFO root fetch - processPackages [compact-distillation]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-18 13:27:59] INFO root fetch - processPackages [wildlife-datasets]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-04-18 13:27:59] INFO root fetch - processPackages [auraboros]: New version: [0.9.0a0] Old Version: [0.8.0a0]
+[2023-04-18 13:27:59] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-18 13:27:59] INFO root fetch - processPackages [solnlib]: executing diffoscope
+[2023-04-18 13:27:59] INFO root fetch - processPackages [auraboros]: executing diffoscope
+[2023-04-18 13:27:59] INFO root fetch - processPackages [solnlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solnlib-4.9.0.tar.gz tmp/solnlib-4.9.1.tar.gz --markdown 20230418/s/solnlib/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-04-18 13:27:59] INFO root fetch - processPackages [auraboros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auraboros-0.8.0a0.tar.gz tmp/auraboros-0.9.0a0.tar.gz --markdown 20230418/a/auraboros/0.8.0a0-0.9.0a0/diff.md --exclude *.pyd
+[2023-04-18 13:27:59] INFO root fetch - processPackages [ecs-composex]: executing diffoscope
+[2023-04-18 13:27:59] INFO root fetch - processPackages [ecs-composex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecs_composex-0.8.9.tar.gz tmp/ecs_composex-0.9.2.tar.gz --markdown 20230418/e/ecs-composex/0.8.9-0.9.2/diff.md --exclude *.pyd
+[2023-04-18 13:27:59] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-04-18 13:27:59] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.4.8.tar.gz tmp/torchtnt-nightly-2023.4.9.tar.gz --markdown 20230418/t/torchtnt-nightly/2023.4.8-2023.4.9/diff.md --exclude *.pyd
+[2023-04-18 13:27:59] INFO root fetch - processPackages [phdu]: Downloading https://files.pythonhosted.org/packages/53/8f/982ffc30313637e6e2a7e84b14ce15313f45c550d14545f9754c3e040d0a/phdu-1.7b9.tar.gz
+[2023-04-18 13:27:59] INFO root fetch - processPackages [micromechanics-indentationGUI]: Downloading https://files.pythonhosted.org/packages/ab/4f/40d9256a1076ff26959f1405e06679d7dd82d6decc0bc1b83c187b33907d/micromechanics_indentationGUI-0.0.8-py3-none-any.whl
+[2023-04-18 13:27:59] INFO root fetch - processPackages [micromechanics-indentationGUI]: Downloading https://files.pythonhosted.org/packages/ab/4f/40d9256a1076ff26959f1405e06679d7dd82d6decc0bc1b83c187b33907d/micromechanics_indentationGUI-0.0.8-py3-none-any.whl
+[2023-04-18 13:27:59] INFO root fetch - processPackages [charsi]: Downloading https://files.pythonhosted.org/packages/54/ad/eb547de460039816475687453ec311bc1c041326640a6caf6e7e1442834b/charsi-1.0.0.tar.gz
+[2023-04-18 13:27:59] INFO root fetch - processPackages [charsi]: executing diffoscope
+[2023-04-18 13:27:59] INFO root fetch - processPackages [charsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/charsi-0.3.0.tar.gz tmp/charsi-1.0.0.tar.gz --markdown 20230418/c/charsi/0.3.0-1.0.0/diff.md --exclude *.pyd
+[2023-04-18 13:27:59] INFO root fetch - processPackages [phdu]: executing diffoscope
+[2023-04-18 13:27:59] INFO root fetch - processPackages [phdu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phdu-1.7b8.tar.gz tmp/phdu-1.7b9.tar.gz --markdown 20230418/p/phdu/1.7b8-1.7b9/diff.md --exclude *.pyd
+[2023-04-18 13:27:59] INFO root fetch - processPackages [wildlife-datasets]: Downloading https://files.pythonhosted.org/packages/7e/cc/104fc58dea0250f10ad1584cc05d2abe5e7d7b46d3b3329fc1d33166faf5/wildlife-datasets-0.3.2.tar.gz
+[2023-04-18 13:27:59] INFO root fetch - processPackages [compact-distillation]: executing diffoscope
+[2023-04-18 13:27:59] INFO root fetch - processPackages [compact-distillation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compact-distillation-0.0.8.tar.gz tmp/compact-distillation-0.0.9.tar.gz --markdown 20230418/c/compact-distillation/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-18 13:27:59] INFO root fetch - processPackages [wildlife-datasets]: executing diffoscope
+[2023-04-18 13:27:59] INFO root fetch - processPackages [wildlife-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wildlife-datasets-0.3.1.tar.gz tmp/wildlife-datasets-0.3.2.tar.gz --markdown 20230418/w/wildlife-datasets/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-04-18 13:27:59] INFO root fetch - processPackages [micromechanics-indentationGUI]: Downloading https://files.pythonhosted.org/packages/9a/91/9adf7c989a57f5f9818868a1f78f3046e4d716799c02e699c74d31c7eca7/micromechanics_indentationGUI-0.0.9-py3-none-any.whl
+[2023-04-18 13:27:59] INFO root fetch - processPackages [micromechanics-indentationGUI]: Downloading https://files.pythonhosted.org/packages/9a/91/9adf7c989a57f5f9818868a1f78f3046e4d716799c02e699c74d31c7eca7/micromechanics_indentationGUI-0.0.9-py3-none-any.whl
+[2023-04-18 13:28:00] INFO root fetch - processPackages [micromechanics-indentationGUI]: executing diffoscope
+[2023-04-18 13:28:00] INFO root fetch - processPackages [micromechanics-indentationGUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micromechanics_indentationGUI-0.0.8-py3-none-any.whl.zip tmp/micromechanics_indentationGUI-0.0.9-py3-none-any.whl.zip --markdown 20230418/m/micromechanics-indentationGUI/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-18 13:28:00] INFO root fetch - processPackages [micromechanics-indentationGUI]: executing diffoscope
+[2023-04-18 13:28:00] INFO root fetch - processPackages [micromechanics-indentationGUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micromechanics_indentationGUI-0.0.8-py3-none-any.whl.zip tmp/micromechanics_indentationGUI-0.0.9-py3-none-any.whl.zip --markdown 20230418/m/micromechanics-indentationGUI/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-18 13:28:01] INFO root fetch - processPackages [compact-distillation]: Start processing: wtfl
+[2023-04-18 13:28:01] INFO root fetch - main [MainThread]: End processing [compact-distillation]: success
+[2023-04-18 13:28:01] INFO root fetch - processPackages [wtfl]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-18 13:28:01] INFO root fetch - processPackages [phdu]: Start processing: boxsdk
+[2023-04-18 13:28:01] INFO root fetch - main [MainThread]: End processing [phdu]: success
+[2023-04-18 13:28:01] INFO root fetch - processPackages [boxsdk]: New version: [3.7.1] Old Version: [3.7.0]
+[2023-04-18 13:28:01] INFO root fetch - processPackages [charsi]: Start processing: torchserve-nightly
+[2023-04-18 13:28:01] INFO root fetch - main [MainThread]: End processing [charsi]: success
+[2023-04-18 13:28:01] INFO root fetch - processPackages [wtfl]: Downloading https://files.pythonhosted.org/packages/31/9c/8df246ba29a9cfbcca98c4aaac167a8e555019365a426ca5ec1a690a3b0c/wtfl-1.0.2.tar.gz
+[2023-04-18 13:28:01] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-18 13:28:01] INFO root fetch - processPackages [micromechanics-indentationGUI]: Start processing: torch-model-archiver-nightly
+[2023-04-18 13:28:01] INFO root fetch - main [MainThread]: End processing [micromechanics-indentationGUI]: success
+[2023-04-18 13:28:01] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/00/82/319f3c998c1b886c648e7560fce0ad6d68fa06b6b8807405ce7adbe77519/torchserve_nightly-2023.4.8-py3-none-any.whl
+[2023-04-18 13:28:01] INFO root fetch - processPackages [boxsdk]: Downloading https://files.pythonhosted.org/packages/97/6c/de95cdc73116d284104ef1bee970e79a2bb4ee168b4f5443d16de72db9bc/boxsdk-3.7.0.tar.gz
+[2023-04-18 13:28:01] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23695640>=10485760
+[2023-04-18 13:28:01] INFO root fetch - processPackages [torchserve-nightly]: Start processing: torch-workflow-archiver-nightly
+[2023-04-18 13:28:01] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-04-18 13:28:01] INFO root fetch - main [MainThread]: End processing [solnlib]: success
+[2023-04-18 13:28:01] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-18 13:28:01] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-18 13:28:01] INFO root fetch - processPackages [wtfl]: Downloading https://files.pythonhosted.org/packages/64/ee/c3d98c10e03765793e072752ae863a13a3b353c49d8e091e484d03d05ecb/wtfl-1.0.3.tar.gz
+[2023-04-18 13:28:01] INFO root fetch - processPackages [wtfl]: executing diffoscope
+[2023-04-18 13:28:01] INFO root fetch - processPackages [wtfl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wtfl-1.0.2.tar.gz tmp/wtfl-1.0.3.tar.gz --markdown 20230418/w/wtfl/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-18 13:28:01] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-04-18 13:28:01] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.4.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.4.9-py3-none-any.whl.zip --markdown 20230418/t/torch-model-archiver-nightly/2023.4.8-2023.4.9/diff.md --exclude *.pyd
+[2023-04-18 13:28:01] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-04-18 13:28:01] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.4.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.4.9-py3-none-any.whl.zip --markdown 20230418/t/torch-workflow-archiver-nightly/2023.4.8-2023.4.9/diff.md --exclude *.pyd
+[2023-04-18 13:28:01] INFO root fetch - main [MainThread]: End processing [wildlife-datasets]: success
+[2023-04-18 13:28:01] INFO root fetch - processPackages [boxsdk]: Downloading https://files.pythonhosted.org/packages/d1/7c/853bf10009610b50d8a150c1e9ebff1f4ba3891e808b7a8991ecf7d0f491/boxsdk-3.7.1.tar.gz
+[2023-04-18 13:28:02] INFO root fetch - processPackages [boxsdk]: executing diffoscope
+[2023-04-18 13:28:02] INFO root fetch - processPackages [boxsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boxsdk-3.7.0.tar.gz tmp/boxsdk-3.7.1.tar.gz --markdown 20230418/b/boxsdk/3.7.0-3.7.1/diff.md --exclude *.pyd
+[2023-04-18 13:28:02] INFO root fetch - main [MainThread]: End processing [micromechanics-indentationGUI]: success
+[2023-04-18 13:28:02] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-04-18 13:28:03] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-04-18 13:28:03] INFO root fetch - main [MainThread]: End processing [ecs-composex]: success
+[2023-04-18 13:28:03] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-04-18 13:28:03] INFO root fetch - main [MainThread]: End processing [wtfl]: success
+[2023-04-18 13:28:04] INFO root fetch - main [MainThread]: End processing [auraboros]: success
+[2023-04-18 13:28:04] INFO root fetch - main [MainThread]: End processing [boxsdk]: success
+[2023-04-18 13:28:04] INFO root fetch - main [MainThread]: Store serial: [17754940]
