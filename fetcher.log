@@ -20178,3 +20178,108 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 14:28:16] INFO root fetch - main [MainThread]: End processing [turbo-chat]: success
 [2023-04-18 14:28:17] INFO root fetch - main [MainThread]: End processing [djlint]: success
 [2023-04-18 14:28:17] INFO root fetch - main [MainThread]: Store serial: [17755655]
+[2023-04-18 14:33:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17755655]
+[2023-04-18 14:33:26] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-04-18 14:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stringhandling
+[2023-04-18 14:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-twingate
+[2023-04-18 14:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ramqp
+[2023-04-18 14:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: code-analyza
+[2023-04-18 14:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coiled
+[2023-04-18 14:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: charsi
+[2023-04-18 14:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: firepit
+[2023-04-18 14:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: unified-planning
+[2023-04-18 14:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: syncdsgen
+[2023-04-18 14:33:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: auraboros
+[2023-04-18 14:33:26] INFO root fetch - processPackages [pulumi-twingate]: New version: [0.0.9] Old Version: [0.0.5]
+[2023-04-18 14:33:26] INFO root fetch - processPackages [syncdsgen]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-18 14:33:26] INFO root fetch - processPackages [auraboros]: New version: [0.9.0a0] Old Version: [0.8.0a0]
+[2023-04-18 14:33:26] INFO root fetch - processPackages [ramqp]: New version: [8.2.0] Old Version: [8.1.2]
+[2023-04-18 14:33:26] INFO root fetch - processPackages [firepit]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-04-18 14:33:26] INFO root fetch - processPackages [charsi]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-04-18 14:33:26] INFO root fetch - processPackages [unified-planning]: New version: [0.5.0.93.dev1] Old Version: [0.5.0.7.dev1]
+[2023-04-18 14:33:26] INFO root fetch - processPackages [coiled]: New version: [0.5.9.post0.dev8] Old Version: [0.5.9.post0.dev7]
+[2023-04-18 14:33:26] WARNING root fetch - processPackages [stringhandling]: Skipping, unable to determine old version
+[2023-04-18 14:33:26] INFO root fetch - processPackages [stringhandling]: Start processing: kobject
+[2023-04-18 14:33:26] INFO root fetch - main [MainThread]: End processing [stringhandling] error
+[2023-04-18 14:33:26] INFO root fetch - processPackages [auraboros]: executing diffoscope
+[2023-04-18 14:33:26] INFO root fetch - processPackages [auraboros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auraboros-0.8.0a0.tar.gz tmp/auraboros-0.9.0a0.tar.gz --markdown 20230418/a/auraboros/0.8.0a0-0.9.0a0/diff.md --exclude *.pyd
+[2023-04-18 14:33:26] WARNING root fetch - processPackages [code-analyza]: Skipping, unable to determine old version
+[2023-04-18 14:33:26] INFO root fetch - processPackages [code-analyza]: Start processing: fdi
+[2023-04-18 14:33:26] INFO root fetch - main [MainThread]: End processing [code-analyza] error
+[2023-04-18 14:33:26] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-04-18 14:33:26] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.5.9.post0.dev7.tar.gz tmp/coiled-0.5.9.post0.dev8.tar.gz --markdown 20230418/c/coiled/0.5.9.post0.dev7-0.5.9.post0.dev8/diff.md --exclude *.pyd
+[2023-04-18 14:33:26] INFO root fetch - processPackages [fdi]: New version: [1.9.2] Old Version: [1.8.1]
+[2023-04-18 14:33:26] INFO root fetch - processPackages [kobject]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-18 14:33:26] INFO root fetch - processPackages [charsi]: Downloading https://files.pythonhosted.org/packages/99/ad/857d78c39e37704766a9eb99f83d2534fd566041b3094501e2f8b8dbecd9/charsi-1.2.0.tar.gz
+[2023-04-18 14:33:26] INFO root fetch - processPackages [syncdsgen]: Downloading https://files.pythonhosted.org/packages/4e/ae/23063da73eabd5d8e5a3f7b593ba6fd7a60c1b502ec2d20395e7a3563b75/syncdsgen-0.0.1.tar.gz
+[2023-04-18 14:33:26] INFO root fetch - processPackages [firepit]: Downloading https://files.pythonhosted.org/packages/e0/52/73f092229e3a98c36b2ed1a4a65fe35876022a722fbe73078eb97805e9bd/firepit-2.3.8.tar.gz
+[2023-04-18 14:33:26] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/ed/bf/612e76ee2bfaa2f76cf8b8cc8ec0bee709f3a467bda42105e8ab0c55a7e9/unified_planning-0.5.0.7.dev1.tar.gz
+[2023-04-18 14:33:26] INFO root fetch - processPackages [charsi]: executing diffoscope
+[2023-04-18 14:33:26] INFO root fetch - processPackages [charsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/charsi-1.1.0.tar.gz tmp/charsi-1.2.0.tar.gz --markdown 20230418/c/charsi/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-04-18 14:33:26] INFO root fetch - processPackages [fdi]: Downloading https://files.pythonhosted.org/packages/22/f2/c4af7e5cacb547020fa23511aa61d9ea4e8c8282c7bfaff6df3f8f9df58c/fdi-1.8.1.tar.gz
+[2023-04-18 14:33:26] INFO root fetch - processPackages [ramqp]: Downloading https://files.pythonhosted.org/packages/5d/06/0d063a91cdc657abbca73061909dbf3e9d68f3e7d41108ce48dc3b8aac6a/ramqp-8.2.0.tar.gz
+[2023-04-18 14:33:26] INFO root fetch - processPackages [ramqp]: executing diffoscope
+[2023-04-18 14:33:26] INFO root fetch - processPackages [ramqp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramqp-8.1.2.tar.gz tmp/ramqp-8.2.0.tar.gz --markdown 20230418/r/ramqp/8.1.2-8.2.0/diff.md --exclude *.pyd
+[2023-04-18 14:33:26] INFO root fetch - processPackages [kobject]: executing diffoscope
+[2023-04-18 14:33:26] INFO root fetch - processPackages [kobject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kobject-0.3.8.tar.gz tmp/kobject-0.3.9.tar.gz --markdown 20230418/k/kobject/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-18 14:33:26] INFO root fetch - processPackages [pulumi-twingate]: executing diffoscope
+[2023-04-18 14:33:26] INFO root fetch - processPackages [pulumi-twingate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_twingate-0.0.5.tar.gz tmp/pulumi_twingate-0.0.9.tar.gz --markdown 20230418/p/pulumi-twingate/0.0.5-0.0.9/diff.md --exclude *.pyd
+[2023-04-18 14:33:27] INFO root fetch - processPackages [syncdsgen]: Downloading https://files.pythonhosted.org/packages/c1/39/8f970cacff7a27861e6a3ca50c5f9c0bee980bb8b2976ae11362242d9b90/syncdsgen-0.0.2.tar.gz
+[2023-04-18 14:33:27] INFO root fetch - processPackages [unified-planning]: Downloading https://files.pythonhosted.org/packages/09/d2/9bd726f755ba02199119e216a044292029e40a47aeef35eb680e6d8ef57a/unified_planning-0.5.0.93.dev1.tar.gz
+[2023-04-18 14:33:27] INFO root fetch - processPackages [syncdsgen]: executing diffoscope
+[2023-04-18 14:33:27] INFO root fetch - processPackages [syncdsgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncdsgen-0.0.1.tar.gz tmp/syncdsgen-0.0.2.tar.gz --markdown 20230418/s/syncdsgen/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-18 14:33:27] INFO root fetch - processPackages [firepit]: Downloading https://files.pythonhosted.org/packages/04/53/698bd0b9c3e6424f439e58b7c0a9ea2a9f0db15f4a07f72cea4db27fb63b/firepit-2.3.9.tar.gz
+[2023-04-18 14:33:27] INFO root fetch - processPackages [unified-planning]: executing diffoscope
+[2023-04-18 14:33:27] INFO root fetch - processPackages [unified-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unified_planning-0.5.0.7.dev1.tar.gz tmp/unified_planning-0.5.0.93.dev1.tar.gz --markdown 20230418/u/unified-planning/0.5.0.7.dev1-0.5.0.93.dev1/diff.md --exclude *.pyd
+[2023-04-18 14:33:27] INFO root fetch - processPackages [firepit]: executing diffoscope
+[2023-04-18 14:33:27] INFO root fetch - processPackages [firepit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firepit-2.3.8.tar.gz tmp/firepit-2.3.9.tar.gz --markdown 20230418/f/firepit/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-04-18 14:33:27] WARNING root fetch - processPackages [fdi]: Skipping package: exceeds size limit 16444027>=10485760
+[2023-04-18 14:33:27] INFO root fetch - processPackages [fdi]: Start processing: jdDesktopEntryEdit
+[2023-04-18 14:33:27] INFO root fetch - main [MainThread]: End processing [fdi] error
+[2023-04-18 14:33:27] INFO root fetch - processPackages [jdDesktopEntryEdit]: New version: [1.1] Old Version: [1.0]
+[2023-04-18 14:33:27] INFO root fetch - processPackages [jdDesktopEntryEdit]: Downloading https://files.pythonhosted.org/packages/4c/d5/76a92a69a0e44d09ef52bf78baefcd9d4b96b1d67479754533c5a9e2c8f2/jdDesktopEntryEdit-1.0.tar.gz
+[2023-04-18 14:33:27] INFO root fetch - processPackages [jdDesktopEntryEdit]: Downloading https://files.pythonhosted.org/packages/7c/1b/11100eaeffcc8bffd585080cfd5801705e5ffdfa9f9b986044810f51d125/jdDesktopEntryEdit-1.1.tar.gz
+[2023-04-18 14:33:27] INFO root fetch - processPackages [jdDesktopEntryEdit]: executing diffoscope
+[2023-04-18 14:33:27] INFO root fetch - processPackages [jdDesktopEntryEdit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jdDesktopEntryEdit-1.0.tar.gz tmp/jdDesktopEntryEdit-1.1.tar.gz --markdown 20230418/j/jdDesktopEntryEdit/1.0-1.1/diff.md --exclude *.pyd
+[2023-04-18 14:33:28] INFO root fetch - processPackages [charsi]: Start processing: northgravity
+[2023-04-18 14:33:28] INFO root fetch - main [MainThread]: End processing [charsi]: success
+[2023-04-18 14:33:28] INFO root fetch - processPackages [northgravity]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-18 14:33:28] INFO root fetch - processPackages [kobject]: Start processing: aws-hexagonal-adapters
+[2023-04-18 14:33:28] INFO root fetch - main [MainThread]: End processing [kobject]: success
+[2023-04-18 14:33:28] INFO root fetch - processPackages [aws-hexagonal-adapters]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-18 14:33:28] INFO root fetch - processPackages [ramqp]: Start processing: tooz
+[2023-04-18 14:33:28] INFO root fetch - main [MainThread]: End processing [ramqp]: success
+[2023-04-18 14:33:28] INFO root fetch - processPackages [tooz]: New version: [4.0.0] Old Version: [3.2.0]
+[2023-04-18 14:33:28] INFO root fetch - processPackages [northgravity]: Downloading https://files.pythonhosted.org/packages/36/8a/e12beee2e75df9679b15063ec367109321095f59130f1546d3a5bc38c8cc/northgravity-0.1.4.tar.gz
+[2023-04-18 14:33:28] INFO root fetch - processPackages [aws-hexagonal-adapters]: Downloading https://files.pythonhosted.org/packages/fe/ae/277be7a44a9c1581f9029bea72a2ebe71837ad704eaca9436c3fffd06bc4/aws_hexagonal_adapters-0.0.6.tar.gz
+[2023-04-18 14:33:28] INFO root fetch - processPackages [pulumi-twingate]: Start processing: test-helper-gae3
+[2023-04-18 14:33:28] INFO root fetch - main [MainThread]: End processing [pulumi-twingate]: success
+[2023-04-18 14:33:28] WARNING root fetch - processPackages [test-helper-gae3]: Skipping, unable to determine old version
+[2023-04-18 14:33:28] INFO root fetch - processPackages [test-helper-gae3]: Start processing: syngen
+[2023-04-18 14:33:28] INFO root fetch - main [MainThread]: End processing [test-helper-gae3] error
+[2023-04-18 14:33:28] INFO root fetch - processPackages [tooz]: Downloading https://files.pythonhosted.org/packages/c7/08/0b6e1ecce62370d89a1be71fa8484569da87f730cb4ef1a135e5eabd2f63/tooz-3.2.0.tar.gz
+[2023-04-18 14:33:28] INFO root fetch - processPackages [syngen]: New version: [0.0.90] Old Version: [0.0.9]
+[2023-04-18 14:33:28] INFO root fetch - main [MainThread]: End processing [syncdsgen]: success
+[2023-04-18 14:33:28] INFO root fetch - processPackages [northgravity]: Downloading https://files.pythonhosted.org/packages/58/59/8c30ca7bdd65b73a1b17571e35dec1ffee7dd643db6b0aff85cecefaaf65/northgravity-0.1.5.tar.gz
+[2023-04-18 14:33:28] INFO root fetch - processPackages [aws-hexagonal-adapters]: Downloading https://files.pythonhosted.org/packages/39/86/8d6d0edb73da7d2fe3775db571ceaef906527b59e9e287cf8fb2d4883b54/aws_hexagonal_adapters-0.0.7.tar.gz
+[2023-04-18 14:33:28] INFO root fetch - processPackages [northgravity]: executing diffoscope
+[2023-04-18 14:33:28] INFO root fetch - processPackages [northgravity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/northgravity-0.1.4.tar.gz tmp/northgravity-0.1.5.tar.gz --markdown 20230418/n/northgravity/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-18 14:33:28] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/75/42/d76ea73d0ff6fbb5e01dec18cc3307a5844bfd7e298c487653393481d64a/syngen-0.0.9.tar.gz
+[2023-04-18 14:33:28] INFO root fetch - processPackages [aws-hexagonal-adapters]: executing diffoscope
+[2023-04-18 14:33:28] INFO root fetch - processPackages [aws-hexagonal-adapters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_hexagonal_adapters-0.0.6.tar.gz tmp/aws_hexagonal_adapters-0.0.7.tar.gz --markdown 20230418/a/aws-hexagonal-adapters/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-18 14:33:28] INFO root fetch - processPackages [tooz]: Downloading https://files.pythonhosted.org/packages/de/c4/0df504646a0dcd36cf6cda41ef6339ca279b11c96a738bb21b6492a1afac/tooz-4.0.0.tar.gz
+[2023-04-18 14:33:29] INFO root fetch - processPackages [tooz]: executing diffoscope
+[2023-04-18 14:33:29] INFO root fetch - processPackages [tooz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tooz-3.2.0.tar.gz tmp/tooz-4.0.0.tar.gz --markdown 20230418/t/tooz/3.2.0-4.0.0/diff.md --exclude *.pyd
+[2023-04-18 14:33:29] INFO root fetch - main [MainThread]: End processing [auraboros]: success
+[2023-04-18 14:33:29] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/08/64/dcc1f799ce353bd18a38492bd7e86b4bad0657461fa6299e598538ad5d58/syngen-0.0.90.tar.gz
+[2023-04-18 14:33:29] INFO root fetch - processPackages [syngen]: executing diffoscope
+[2023-04-18 14:33:29] INFO root fetch - processPackages [syngen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syngen-0.0.9.tar.gz tmp/syngen-0.0.90.tar.gz --markdown 20230418/s/syngen/0.0.9-0.0.90/diff.md --exclude *.pyd
+[2023-04-18 14:33:29] INFO root fetch - main [MainThread]: End processing [aws-hexagonal-adapters]: success
+[2023-04-18 14:33:30] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
+[2023-04-18 14:33:30] INFO root fetch - main [MainThread]: End processing [northgravity]: success
+[2023-04-18 14:33:30] INFO root fetch - main [MainThread]: End processing [tooz]: success
+[2023-04-18 14:33:30] INFO root fetch - main [MainThread]: End processing [jdDesktopEntryEdit]: success
+[2023-04-18 14:33:31] INFO root fetch - main [MainThread]: End processing [syngen]: success
+[2023-04-18 14:33:31] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-04-18 14:33:32] INFO root fetch - main [MainThread]: End processing [firepit]: success
+[2023-04-18 14:33:32] INFO root fetch - main [MainThread]: Store serial: [17755710]
