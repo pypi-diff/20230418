@@ -15891,3 +15891,117 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-18 10:50:08] INFO root fetch - main [MainThread]: End processing [annif]: success
 [2023-04-18 10:50:17] INFO root fetch - main [MainThread]: End processing [argus-api]: success
 [2023-04-18 10:50:17] INFO root fetch - main [MainThread]: Store serial: [17753078]
+[2023-04-18 10:55:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17753078]
+[2023-04-18 10:55:30] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-04-18 10:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: HassWS
+[2023-04-18 10:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfp-nightly
+[2023-04-18 10:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spaceone-api
+[2023-04-18 10:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jaquar
+[2023-04-18 10:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo13-addon-auditlog
+[2023-04-18 10:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hkkang-utils
+[2023-04-18 10:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nlptoolssna
+[2023-04-18 10:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oarepo-oai-pmh-harvester
+[2023-04-18 10:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kkutils
+[2023-04-18 10:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xlibs
+[2023-04-18 10:55:30] WARNING root fetch - processPackages [HassWS]: Skipping, unable to determine old version
+[2023-04-18 10:55:30] INFO root fetch - processPackages [HassWS]: Start processing: bw2parameters
+[2023-04-18 10:55:30] INFO root fetch - main [MainThread]: End processing [HassWS] error
+[2023-04-18 10:55:30] INFO root fetch - processPackages [spaceone-api]: New version: [1.9.7rc1] Old Version: [1.9.7.dev3]
+[2023-04-18 10:55:30] INFO root fetch - processPackages [odoo13-addon-auditlog]: New version: [13.0.1.1.0] Old Version: [13.0.1.0.5.dev1]
+[2023-04-18 10:55:30] INFO root fetch - processPackages [oarepo-oai-pmh-harvester]: New version: [4.0.5] Old Version: [4.0.4]
+[2023-04-18 10:55:30] INFO root fetch - processPackages [kkutils]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-04-18 10:55:30] INFO root fetch - processPackages [hkkang-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-18 10:55:30] INFO root fetch - processPackages [jaquar]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-04-18 10:55:30] INFO root fetch - processPackages [nlptoolssna]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-04-18 10:55:30] WARNING root fetch - processPackages [xlibs]: Skipping, unable to determine old version
+[2023-04-18 10:55:30] INFO root fetch - processPackages [xlibs]: Start processing: pandit
+[2023-04-18 10:55:30] INFO root fetch - main [MainThread]: End processing [xlibs] error
+[2023-04-18 10:55:30] INFO root fetch - processPackages [bw2parameters]: New version: [1.1.0] Old Version: [0.7]
+[2023-04-18 10:55:30] INFO root fetch - processPackages [pandit]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-18 10:55:30] INFO root fetch - processPackages [hkkang-utils]: executing diffoscope
+[2023-04-18 10:55:30] INFO root fetch - processPackages [hkkang-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hkkang_utils-0.1.8.tar.gz tmp/hkkang_utils-0.1.9.tar.gz --markdown 20230418/h/hkkang-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-18 10:55:30] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-04-18 10:55:30] INFO root fetch - processPackages [bw2parameters]: Downloading https://files.pythonhosted.org/packages/10/82/141bed7c68b88cc36dbd727c8dd9f8a26cbcc372227f673b27e5cac10416/bw2parameters-0.7.tar.gz
+[2023-04-18 10:55:30] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/a4/2e/3c2505b736f0001519b2af2f82bb0b59a92be1f52920841a70ed6130f95f/spaceone_api-1.9.7.dev3-py3-none-any.whl
+[2023-04-18 10:55:30] INFO root fetch - processPackages [jaquar]: Downloading https://files.pythonhosted.org/packages/be/9f/516100b3747e6f6273de76e324033e30bdfca72daf58ef7b1c15eeaf058e/jaquar-0.5.3.tar.gz
+[2023-04-18 10:55:30] INFO root fetch - processPackages [oarepo-oai-pmh-harvester]: Downloading https://files.pythonhosted.org/packages/8c/7a/34cbb3bad90b3c4102e9a652683e9ad13297d73ac86886c3d41fb0706b88/oarepo-oai-pmh-harvester-4.0.4.tar.gz
+[2023-04-18 10:55:30] INFO root fetch - processPackages [kkutils]: Downloading https://files.pythonhosted.org/packages/db/08/191bfd9a5577dfad4decc7e669bd5f8c872466a7bf2892963fecf1f9a3c4/kkutils-1.6.2.tar.gz
+[2023-04-18 10:55:30] INFO root fetch - processPackages [odoo13-addon-auditlog]: Downloading https://files.pythonhosted.org/packages/11/f4/32c4c0555c6db72719b11c241b587d1a221427c10fe742688fc3a6fd807e/odoo13_addon_auditlog-13.0.1.0.5.dev1-py3-none-any.whl
+[2023-04-18 10:55:30] INFO root fetch - processPackages [pandit]: Downloading https://files.pythonhosted.org/packages/b1/cc/0e441f6d55d40028bf6ac12ad440061e24a0c16eb5c8dc957c203a5aa4fc/pandit-0.0.7.tar.gz
+[2023-04-18 10:55:30] INFO root fetch - processPackages [nlptoolssna]: Downloading https://files.pythonhosted.org/packages/3d/73/023442f4e3018ae930f9f071aa282d7f48701fffb1945ab1552d69b8c059/nlptoolssna-0.2.4.tar.gz
+[2023-04-18 10:55:30] INFO root fetch - processPackages [jaquar]: executing diffoscope
+[2023-04-18 10:55:30] INFO root fetch - processPackages [jaquar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaquar-0.5.2.tar.gz tmp/jaquar-0.5.3.tar.gz --markdown 20230418/j/jaquar/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-04-18 10:55:30] INFO root fetch - processPackages [nlptoolssna]: executing diffoscope
+[2023-04-18 10:55:30] INFO root fetch - processPackages [nlptoolssna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlptoolssna-0.2.3.tar.gz tmp/nlptoolssna-0.2.4.tar.gz --markdown 20230418/n/nlptoolssna/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-04-18 10:55:30] INFO root fetch - processPackages [bw2parameters]: Downloading https://files.pythonhosted.org/packages/72/b6/c57ebdbe3026187e409aedf4903e8c5d2a17fd010f9cd093dd0fb791bb60/bw2parameters-1.1.0.tar.gz
+[2023-04-18 10:55:30] INFO root fetch - processPackages [oarepo-oai-pmh-harvester]: Downloading https://files.pythonhosted.org/packages/43/40/45feb651148f85b1de872839ce10441c78ddc702773c30e288983a6ab5c9/oarepo-oai-pmh-harvester-4.0.5.tar.gz
+[2023-04-18 10:55:30] INFO root fetch - processPackages [kkutils]: Downloading https://files.pythonhosted.org/packages/9d/7a/1fc30a126b31fc9221ca2f7243fb1aef8909cf9a07d19240e11c7fb9a1e7/kkutils-1.6.3.tar.gz
+[2023-04-18 10:55:31] INFO root fetch - processPackages [odoo13-addon-auditlog]: Downloading https://files.pythonhosted.org/packages/a4/3a/4d4b3ed328531b475d82dc6dbe4b485594b75e8202df660267cfb85cbf5a/odoo13_addon_auditlog-13.0.1.1.0-py3-none-any.whl
+[2023-04-18 10:55:31] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-04-18 10:55:31] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230418/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-04-18 10:55:31] INFO root fetch - processPackages [pandit]: Downloading https://files.pythonhosted.org/packages/a3/97/e4af6869987b458713d0e728dc42e883a059a76d6c8f37293c9b3b20f547/pandit-0.0.8.tar.gz
+[2023-04-18 10:55:31] INFO root fetch - processPackages [bw2parameters]: executing diffoscope
+[2023-04-18 10:55:31] INFO root fetch - processPackages [bw2parameters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bw2parameters-0.7.tar.gz tmp/bw2parameters-1.1.0.tar.gz --markdown 20230418/b/bw2parameters/0.7-1.1.0/diff.md --exclude *.pyd
+[2023-04-18 10:55:31] INFO root fetch - processPackages [kkutils]: executing diffoscope
+[2023-04-18 10:55:31] INFO root fetch - processPackages [kkutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kkutils-1.6.2.tar.gz tmp/kkutils-1.6.3.tar.gz --markdown 20230418/k/kkutils/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-04-18 10:55:31] INFO root fetch - processPackages [pandit]: executing diffoscope
+[2023-04-18 10:55:31] INFO root fetch - processPackages [pandit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandit-0.0.7.tar.gz tmp/pandit-0.0.8.tar.gz --markdown 20230418/p/pandit/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-18 10:55:31] INFO root fetch - processPackages [odoo13-addon-auditlog]: executing diffoscope
+[2023-04-18 10:55:31] INFO root fetch - processPackages [odoo13-addon-auditlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_auditlog-13.0.1.0.5.dev1-py3-none-any.whl.zip tmp/odoo13_addon_auditlog-13.0.1.1.0-py3-none-any.whl.zip --markdown 20230418/o/odoo13-addon-auditlog/13.0.1.0.5.dev1-13.0.1.1.0/diff.md --exclude *.pyd
+[2023-04-18 10:55:31] INFO root fetch - processPackages [oarepo-oai-pmh-harvester]: executing diffoscope
+[2023-04-18 10:55:31] INFO root fetch - processPackages [oarepo-oai-pmh-harvester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-oai-pmh-harvester-4.0.4.tar.gz tmp/oarepo-oai-pmh-harvester-4.0.5.tar.gz --markdown 20230418/o/oarepo-oai-pmh-harvester/4.0.4-4.0.5/diff.md --exclude *.pyd
+[2023-04-18 10:55:31] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/de/af/8e93fe948b2016f1ee538eb2313082d5abc623499eca64d48ae30013a5ad/spaceone_api-1.9.7rc1-py3-none-any.whl
+[2023-04-18 10:55:31] INFO root fetch - processPackages [hkkang-utils]: Start processing: poetry-git-version-plugin
+[2023-04-18 10:55:31] INFO root fetch - main [MainThread]: End processing [hkkang-utils]: success
+[2023-04-18 10:55:31] INFO root fetch - processPackages [poetry-git-version-plugin]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-18 10:55:32] INFO root fetch - processPackages [spaceone-api]: executing diffoscope
+[2023-04-18 10:55:32] INFO root fetch - processPackages [spaceone-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_api-1.9.7.dev3-py3-none-any.whl.zip tmp/spaceone_api-1.9.7rc1-py3-none-any.whl.zip --markdown 20230418/s/spaceone-api/1.9.7.dev3-1.9.7rc1/diff.md --exclude *.pyd
+[2023-04-18 10:55:32] INFO root fetch - processPackages [jaquar]: Start processing: idsred
+[2023-04-18 10:55:32] INFO root fetch - main [MainThread]: End processing [jaquar]: success
+[2023-04-18 10:55:32] WARNING root fetch - processPackages [idsred]: Skipping, unable to determine old version
+[2023-04-18 10:55:32] INFO root fetch - processPackages [idsred]: Start processing: orthoseg
+[2023-04-18 10:55:32] INFO root fetch - main [MainThread]: End processing [idsred] error
+[2023-04-18 10:55:32] INFO root fetch - processPackages [orthoseg]: New version: [0.4.2a1] Old Version: [0.4.1b4]
+[2023-04-18 10:55:32] INFO root fetch - processPackages [poetry-git-version-plugin]: Downloading https://files.pythonhosted.org/packages/e1/a8/341ac89f3264f00a55706d92fc1f4d4ec51a370a062ac4a3306268c14bcc/poetry_git_version_plugin-0.1.3.tar.gz
+[2023-04-18 10:55:32] INFO root fetch - processPackages [orthoseg]: Downloading https://files.pythonhosted.org/packages/0e/c6/c4ae376cc747eb5c4fab6c6bf3481dfc103beff3bb84625496f409d8ac5b/orthoseg-0.4.1b4.tar.gz
+[2023-04-18 10:55:32] INFO root fetch - processPackages [poetry-git-version-plugin]: executing diffoscope
+[2023-04-18 10:55:32] INFO root fetch - processPackages [poetry-git-version-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_git_version_plugin-0.1.2.tar.gz tmp/poetry_git_version_plugin-0.1.3.tar.gz --markdown 20230418/p/poetry-git-version-plugin/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-18 10:55:32] INFO root fetch - processPackages [orthoseg]: Downloading https://files.pythonhosted.org/packages/43/20/eb0e247ff81a90f5dbc7f8b1af27fa91a9419a6561a2f1b19e00e12da997/orthoseg-0.4.2a1.tar.gz
+[2023-04-18 10:55:32] INFO root fetch - processPackages [bw2parameters]: Start processing: jaquar
+[2023-04-18 10:55:32] INFO root fetch - main [MainThread]: End processing [bw2parameters]: success
+[2023-04-18 10:55:32] INFO root fetch - processPackages [jaquar]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-04-18 10:55:32] INFO root fetch - processPackages [orthoseg]: executing diffoscope
+[2023-04-18 10:55:32] INFO root fetch - processPackages [orthoseg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orthoseg-0.4.1b4.tar.gz tmp/orthoseg-0.4.2a1.tar.gz --markdown 20230418/o/orthoseg/0.4.1b4-0.4.2a1/diff.md --exclude *.pyd
+[2023-04-18 10:55:32] INFO root fetch - processPackages [nlptoolssna]: Start processing: cloud-asset
+[2023-04-18 10:55:32] INFO root fetch - main [MainThread]: End processing [nlptoolssna]: success
+[2023-04-18 10:55:32] INFO root fetch - processPackages [pandit]: Start processing: AliveHelper
+[2023-04-18 10:55:32] INFO root fetch - main [MainThread]: End processing [pandit]: success
+[2023-04-18 10:55:32] INFO root fetch - processPackages [AliveHelper]: New version: [1.1] Old Version: [1.0]
+[2023-04-18 10:55:33] INFO root fetch - processPackages [jaquar]: Downloading https://files.pythonhosted.org/packages/a0/35/c8a37f4d173050fdd21e4a42bd5a82f526cf58d0b083d19da06d11e05cce/jaquar-0.5.4.tar.gz
+[2023-04-18 10:55:33] INFO root fetch - processPackages [cloud-asset]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-18 10:55:33] INFO root fetch - processPackages [AliveHelper]: executing diffoscope
+[2023-04-18 10:55:33] INFO root fetch - processPackages [AliveHelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AliveHelper-1.0.tar.gz tmp/AliveHelper-1.1.tar.gz --markdown 20230418/A/AliveHelper/1.0-1.1/diff.md --exclude *.pyd
+[2023-04-18 10:55:33] INFO root fetch - processPackages [jaquar]: executing diffoscope
+[2023-04-18 10:55:33] INFO root fetch - processPackages [jaquar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaquar-0.5.3.tar.gz tmp/jaquar-0.5.4.tar.gz --markdown 20230418/j/jaquar/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-04-18 10:55:33] INFO root fetch - processPackages [cloud-asset]: Downloading https://files.pythonhosted.org/packages/f6/d4/a4329df19b5f7dbb597dc96f783f1f9e271e50678055ce2788265271a338/cloud_asset-0.0.1-py3-none-any.whl
+[2023-04-18 10:55:33] INFO root fetch - processPackages [odoo13-addon-auditlog]: Start processing: bitmovin-api-sdk
+[2023-04-18 10:55:33] INFO root fetch - main [MainThread]: End processing [odoo13-addon-auditlog]: success
+[2023-04-18 10:55:33] INFO root fetch - main [MainThread]: End processing [oarepo-oai-pmh-harvester]: success
+[2023-04-18 10:55:33] INFO root fetch - processPackages [bitmovin-api-sdk]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-04-18 10:55:33] INFO root fetch - main [MainThread]: End processing [kkutils]: success
+[2023-04-18 10:55:33] INFO root fetch - processPackages [cloud-asset]: Downloading https://files.pythonhosted.org/packages/8b/b1/7d014e1ac2b012868a51035955dcb763c3b33418286ea99b7b2ae925a9ed/cloud_asset-0.0.2-py3-none-any.whl
+[2023-04-18 10:55:33] INFO root fetch - processPackages [bitmovin-api-sdk]: Downloading https://files.pythonhosted.org/packages/99/5f/f312c7ae4e19c02c92be74787a5b90e06fd5c451af1d3ae05598ba30e3b1/bitmovin-api-sdk-1.98.0.tar.gz
+[2023-04-18 10:55:33] INFO root fetch - main [MainThread]: End processing [poetry-git-version-plugin]: success
+[2023-04-18 10:55:33] INFO root fetch - processPackages [cloud-asset]: executing diffoscope
+[2023-04-18 10:55:33] INFO root fetch - processPackages [cloud-asset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud_asset-0.0.1-py3-none-any.whl.zip tmp/cloud_asset-0.0.2-py3-none-any.whl.zip --markdown 20230418/c/cloud-asset/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-18 10:55:34] INFO root fetch - processPackages [bitmovin-api-sdk]: Downloading https://files.pythonhosted.org/packages/34/91/b3a6a32567ee1b2b10fdb861f77466abd3a7b2db538088f87351199da0bc/bitmovin-api-sdk-1.99.0.tar.gz
+[2023-04-18 10:55:34] INFO root fetch - main [MainThread]: End processing [AliveHelper]: success
+[2023-04-18 10:55:34] INFO root fetch - processPackages [bitmovin-api-sdk]: executing diffoscope
+[2023-04-18 10:55:34] INFO root fetch - processPackages [bitmovin-api-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitmovin-api-sdk-1.98.0.tar.gz tmp/bitmovin-api-sdk-1.99.0.tar.gz --markdown 20230418/b/bitmovin-api-sdk/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-04-18 10:55:34] INFO root fetch - main [MainThread]: End processing [jaquar]: success
+[2023-04-18 10:55:35] INFO root fetch - main [MainThread]: End processing [cloud-asset]: success
+[2023-04-18 10:55:35] INFO root fetch - main [MainThread]: End processing [orthoseg]: success
+[2023-04-18 10:55:35] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
+[2023-04-18 10:55:45] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-04-18 10:56:10] INFO root fetch - main [MainThread]: End processing [bitmovin-api-sdk]: success
+[2023-04-18 10:56:10] INFO root fetch - main [MainThread]: Store serial: [17753139]
