@@ -20692,3 +20692,82 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 14:56:08] INFO root fetch - main [MainThread]: End processing [manticore]: success
 [2023-04-18 14:56:37] INFO root fetch - main [MainThread]: End processing [feffery-antd-components]: success
 [2023-04-18 14:56:37] INFO root fetch - main [MainThread]: Store serial: [17755936]
+[2023-04-18 15:01:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17755936]
+[2023-04-18 15:01:48] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-18 15:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zou
+[2023-04-18 15:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bridgecrew
+[2023-04-18 15:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eotdl-cli
+[2023-04-18 15:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: structlog-sentry
+[2023-04-18 15:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mango
+[2023-04-18 15:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chdb
+[2023-04-18 15:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: markdown-exec
+[2023-04-18 15:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdktf
+[2023-04-18 15:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: EdgeGPT
+[2023-04-18 15:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: QuickStart-Rhy
+[2023-04-18 15:01:48] INFO root fetch - processPackages [eotdl-cli]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-18 15:01:48] INFO root fetch - processPackages [structlog-sentry]: New version: [2.0.1] Old Version: [2.0.0b2]
+[2023-04-18 15:01:48] INFO root fetch - processPackages [chdb]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-04-18 15:01:48] INFO root fetch - processPackages [mango]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-18 15:01:48] INFO root fetch - processPackages [markdown-exec]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-04-18 15:01:48] INFO root fetch - processPackages [EdgeGPT]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-18 15:01:48] INFO root fetch - processPackages [zou]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-18 15:01:48] INFO root fetch - processPackages [QuickStart-Rhy]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-04-18 15:01:48] INFO root fetch - processPackages [cdktf]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-04-18 15:01:48] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-04-18 15:01:48] INFO root fetch - processPackages [QuickStart-Rhy]: executing diffoscope
+[2023-04-18 15:01:48] INFO root fetch - processPackages [QuickStart-Rhy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuickStart_Rhy-0.6.8.tar.gz tmp/QuickStart_Rhy-0.6.9.tar.gz --markdown 20230418/Q/QuickStart-Rhy/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-04-18 15:01:48] INFO root fetch - processPackages [eotdl-cli]: Downloading https://files.pythonhosted.org/packages/8d/4d/d7c9faa397fe0e93f2e5a8fd53ede27576ccbb6edb78e501897c3d750315/eotdl-cli-0.0.1.tar.gz
+[2023-04-18 15:01:48] INFO root fetch - processPackages [cdktf]: executing diffoscope
+[2023-04-18 15:01:48] INFO root fetch - processPackages [cdktf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-0.9.3.tar.gz tmp/cdktf-0.9.4.tar.gz --markdown 20230418/c/cdktf/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-04-18 15:01:48] INFO root fetch - processPackages [chdb]: Downloading https://files.pythonhosted.org/packages/84/44/879ac4dd3425b444bc9d7d5cab9f9ad5f6e293527d9c40e7d57dfa1e1d8c/chdb-0.5.0-cp39-cp39-macosx_11_0_arm64.whl
+[2023-04-18 15:01:48] INFO root fetch - processPackages [mango]: Downloading https://files.pythonhosted.org/packages/73/08/cc0a7ad8f056717837259ec8b93b4a52d18bfd97f70070fae70fb8e0fb2e/mango-0.0.2.tar.gz
+[2023-04-18 15:01:48] INFO root fetch - processPackages [structlog-sentry]: Downloading https://files.pythonhosted.org/packages/5e/82/05bc3b2fa7918bbaec67956b9f81300b2fb38f72e621ce663bc30c4c0e56/structlog-sentry-2.0.0b2.tar.gz
+[2023-04-18 15:01:48] INFO root fetch - processPackages [markdown-exec]: Downloading https://files.pythonhosted.org/packages/19/11/db2a867ee125c050bd0a5d0a1027c737421163b7ce58c7038194f68d8de5/markdown_exec-1.5.3.tar.gz
+[2023-04-18 15:01:48] WARNING root fetch - processPackages [chdb]: Skipping package: exceeds size limit 65438764>=10485760
+[2023-04-18 15:01:48] INFO root fetch - processPackages [chdb]: Start processing: sdypy-EMA
+[2023-04-18 15:01:48] INFO root fetch - main [MainThread]: End processing [chdb] error
+[2023-04-18 15:01:48] INFO root fetch - processPackages [zou]: Downloading https://files.pythonhosted.org/packages/3d/26/8a5c822e737ac50a4f66516c5b80f6cb5a2ce0b5258e3c904aa5abae876c/zou-0.9.8-py2.py3-none-any.whl
+[2023-04-18 15:01:48] INFO root fetch - processPackages [sdypy-EMA]: New version: [0.27] Old Version: [0.26]
+[2023-04-18 15:01:48] INFO root fetch - processPackages [markdown-exec]: executing diffoscope
+[2023-04-18 15:01:48] INFO root fetch - processPackages [markdown-exec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdown_exec-1.5.2.tar.gz tmp/markdown_exec-1.5.3.tar.gz --markdown 20230418/m/markdown-exec/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-04-18 15:01:48] INFO root fetch - processPackages [EdgeGPT]: executing diffoscope
+[2023-04-18 15:01:48] INFO root fetch - processPackages [EdgeGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EdgeGPT-0.1.8.tar.gz tmp/EdgeGPT-0.1.9.tar.gz --markdown 20230418/E/EdgeGPT/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-18 15:01:48] INFO root fetch - processPackages [eotdl-cli]: Downloading https://files.pythonhosted.org/packages/9d/d0/24feda42d3ec716aa798e95e6bd26d67a31221c2ab4ad793cff4fa9fb2de/eotdl_cli-0.0.2.tar.gz
+[2023-04-18 15:01:48] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-04-18 15:01:48] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230418/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-04-18 15:01:48] INFO root fetch - processPackages [mango]: Downloading https://files.pythonhosted.org/packages/b0/db/4621c1ca62a69da129bf09c10b080f3f85c21a0238394c7b7ee5f54977cd/mango-0.0.3.tar.gz
+[2023-04-18 15:01:48] INFO root fetch - processPackages [structlog-sentry]: Downloading https://files.pythonhosted.org/packages/89/5a/5e37271cdbabf599790a62d6f69949bc17fa33a62939091620aadcae1b27/structlog_sentry-2.0.1.tar.gz
+[2023-04-18 15:01:48] INFO root fetch - processPackages [sdypy-EMA]: Downloading https://files.pythonhosted.org/packages/f3/ce/75f390f76672ccba52a33a11b3416a9f400d446f8de4c2770887c8c2084b/sdypy-EMA-0.26.tar.gz
+[2023-04-18 15:01:48] INFO root fetch - processPackages [eotdl-cli]: executing diffoscope
+[2023-04-18 15:01:48] INFO root fetch - processPackages [eotdl-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eotdl-cli-0.0.1.tar.gz tmp/eotdl_cli-0.0.2.tar.gz --markdown 20230418/e/eotdl-cli/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-18 15:01:48] INFO root fetch - processPackages [zou]: Downloading https://files.pythonhosted.org/packages/b4/cb/e536d9ca1d2e8c1820b5431cb69768c10b0f438a73bf846d3e2d008f896a/zou-0.9.9-py2.py3-none-any.whl
+[2023-04-18 15:01:48] INFO root fetch - processPackages [mango]: executing diffoscope
+[2023-04-18 15:01:48] INFO root fetch - processPackages [mango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mango-0.0.2.tar.gz tmp/mango-0.0.3.tar.gz --markdown 20230418/m/mango/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-18 15:01:48] INFO root fetch - processPackages [structlog-sentry]: executing diffoscope
+[2023-04-18 15:01:48] INFO root fetch - processPackages [structlog-sentry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structlog-sentry-2.0.0b2.tar.gz tmp/structlog_sentry-2.0.1.tar.gz --markdown 20230418/s/structlog-sentry/2.0.0b2-2.0.1/diff.md --exclude *.pyd
+[2023-04-18 15:01:49] INFO root fetch - processPackages [sdypy-EMA]: Downloading https://files.pythonhosted.org/packages/f1/5f/2f5b74dc5decdf61344182af9119a70b5b8e1a1bfcf24e4b9eb827e378d9/sdypy-EMA-0.27.tar.gz
+[2023-04-18 15:01:49] INFO root fetch - processPackages [zou]: executing diffoscope
+[2023-04-18 15:01:49] INFO root fetch - processPackages [zou]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zou-0.9.8-py2.py3-none-any.whl.zip tmp/zou-0.9.9-py2.py3-none-any.whl.zip --markdown 20230418/z/zou/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-18 15:01:49] INFO root fetch - processPackages [sdypy-EMA]: executing diffoscope
+[2023-04-18 15:01:49] INFO root fetch - processPackages [sdypy-EMA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdypy-EMA-0.26.tar.gz tmp/sdypy-EMA-0.27.tar.gz --markdown 20230418/s/sdypy-EMA/0.26-0.27/diff.md --exclude *.pyd
+[2023-04-18 15:01:50] INFO root fetch - processPackages [bridgecrew]: Start processing: aiofauna
+[2023-04-18 15:01:50] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-04-18 15:01:50] INFO root fetch - processPackages [aiofauna]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-18 15:01:50] INFO root fetch - processPackages [aiofauna]: executing diffoscope
+[2023-04-18 15:01:50] INFO root fetch - processPackages [aiofauna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiofauna-0.0.8.tar.gz tmp/aiofauna-0.0.9.tar.gz --markdown 20230418/a/aiofauna/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-18 15:01:50] INFO root fetch - processPackages [eotdl-cli]: Start processing: ramodels
+[2023-04-18 15:01:50] INFO root fetch - main [MainThread]: End processing [eotdl-cli]: success
+[2023-04-18 15:01:50] INFO root fetch - main [MainThread]: End processing [EdgeGPT]: success
+[2023-04-18 15:01:50] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-04-18 15:01:50] INFO root fetch - main [MainThread]: End processing [structlog-sentry]: success
+[2023-04-18 15:01:50] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-04-18 15:01:50] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230418/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-04-18 15:01:50] INFO root fetch - main [MainThread]: End processing [mango]: success
+[2023-04-18 15:01:50] INFO root fetch - main [MainThread]: End processing [markdown-exec]: success
+[2023-04-18 15:01:51] INFO root fetch - main [MainThread]: End processing [sdypy-EMA]: success
+[2023-04-18 15:01:51] INFO root fetch - main [MainThread]: End processing [aiofauna]: success
+[2023-04-18 15:01:51] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-04-18 15:01:51] INFO root fetch - main [MainThread]: End processing [zou]: success
+[2023-04-18 15:01:51] INFO root fetch - main [MainThread]: End processing [QuickStart-Rhy]: success
+[2023-04-18 15:01:52] INFO root fetch - main [MainThread]: End processing [cdktf]: success
+[2023-04-18 15:01:52] INFO root fetch - main [MainThread]: Store serial: [17755974]
