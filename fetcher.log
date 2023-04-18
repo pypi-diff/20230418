@@ -14098,3 +14098,76 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-18 10:00:53] INFO root fetch - main [MainThread]: End processing [hymd]: success
 [2023-04-18 10:00:56] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-04-18 10:00:56] INFO root fetch - main [MainThread]: Store serial: [17751894]
+[2023-04-18 10:06:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17751894]
+[2023-04-18 10:06:05] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-04-18 10:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-pos-partner-birthdate
+[2023-04-18 10:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyNuclei
+[2023-04-18 10:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scmrepo
+[2023-04-18 10:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aruco-markers
+[2023-04-18 10:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: liblxml3
+[2023-04-18 10:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: miniscutil
+[2023-04-18 10:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: codeSyncNet
+[2023-04-18 10:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: erazhan-utils
+[2023-04-18 10:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dxd
+[2023-04-18 10:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hkkang-utils
+[2023-04-18 10:06:05] INFO root fetch - processPackages [liblxml3]: New version: [2.1] Old Version: [2.0]
+[2023-04-18 10:06:05] INFO root fetch - processPackages [scmrepo]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-18 10:06:05] WARNING root fetch - processPackages [odoo-addon-pos-partner-birthdate]: Skipping, unable to determine old version
+[2023-04-18 10:06:05] INFO root fetch - processPackages [odoo-addon-pos-partner-birthdate]: Start processing: nx5d
+[2023-04-18 10:06:05] INFO root fetch - main [MainThread]: End processing [odoo-addon-pos-partner-birthdate] error
+[2023-04-18 10:06:05] INFO root fetch - processPackages [PyNuclei]: New version: [1.2] Old Version: [1.1]
+[2023-04-18 10:06:05] INFO root fetch - processPackages [erazhan-utils]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-18 10:06:05] WARNING root fetch - processPackages [codeSyncNet]: Skipping, unable to determine old version
+[2023-04-18 10:06:05] INFO root fetch - processPackages [miniscutil]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-18 10:06:05] INFO root fetch - processPackages [dxd]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-18 10:06:05] INFO root fetch - processPackages [codeSyncNet]: Start processing: birenci-infra
+[2023-04-18 10:06:05] INFO root fetch - main [MainThread]: End processing [codeSyncNet] error
+[2023-04-18 10:06:05] INFO root fetch - processPackages [hkkang-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-18 10:06:05] INFO root fetch - processPackages [nx5d]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-04-18 10:06:05] INFO root fetch - processPackages [aruco-markers]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-04-18 10:06:05] INFO root fetch - processPackages [birenci-infra]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-18 10:06:05] INFO root fetch - processPackages [scmrepo]: Downloading https://files.pythonhosted.org/packages/70/4c/9d97506be14608816cbb635cff8afff57f8654ed9c2b744c6a99b0245d3e/scmrepo-1.0.1.tar.gz
+[2023-04-18 10:06:05] INFO root fetch - processPackages [liblxml3]: Downloading https://files.pythonhosted.org/packages/97/98/7b1f3e412bbf3eed8610e606462a6a4dc29690b403a14f30349d265e7afb/liblxml3-2.1.tar.gz
+[2023-04-18 10:06:05] INFO root fetch - processPackages [PyNuclei]: Downloading https://files.pythonhosted.org/packages/3f/b2/be2b6a3cb1718958b5b2a7e65439e352182e01b00c54a27393621eef9af5/PyNuclei-1.1.tar.gz
+[2023-04-18 10:06:05] INFO root fetch - processPackages [erazhan-utils]: Downloading https://files.pythonhosted.org/packages/68/87/0f939bf82712d1e05e1fe17fbbc361eba5d848a9a5997235537b34cd0046/erazhan_utils-0.0.7.tar.gz
+[2023-04-18 10:06:05] INFO root fetch - processPackages [miniscutil]: Downloading https://files.pythonhosted.org/packages/7e/a5/0885bb1a31608e0e43ba8a72a039077b9e031ed2e6d391b7f99c84c8e27f/miniscutil-0.0.1.tar.gz
+[2023-04-18 10:06:05] INFO root fetch - processPackages [nx5d]: Downloading https://files.pythonhosted.org/packages/9f/8c/f6e36af778b2a8c2ba0caeb10b2f326c1d0ff9578a59577de714f4fc5b27/nx5d-0.3.2.tar.gz
+[2023-04-18 10:06:05] INFO root fetch - processPackages [aruco-markers]: Downloading https://files.pythonhosted.org/packages/3f/58/d1558dbac418ebfd6150804fd378425c3c194a869a151037de6eaa4cbb49/aruco_markers-1.1.6.tar.gz
+[2023-04-18 10:06:05] INFO root fetch - processPackages [dxd]: Downloading https://files.pythonhosted.org/packages/64/f6/6228db7db7621778dceeda6663a89b41a683d38e2651d7ee160c69967a11/dxd-0.0.3.tar.gz
+[2023-04-18 10:06:05] INFO root fetch - processPackages [birenci-infra]: Downloading https://files.pythonhosted.org/packages/b2/21/0bb7e756b28f37282cb973e439474784a9e8a193c4f6dbbd2336c239f6a7/birenci-infra-0.0.8.tar.gz
+[2023-04-18 10:06:05] INFO root fetch - processPackages [liblxml3]: executing diffoscope
+[2023-04-18 10:06:05] INFO root fetch - processPackages [scmrepo]: Downloading https://files.pythonhosted.org/packages/72/2b/1eb3f68b2cfdcfd6b3615b34cc0301748b9da5f5bb10e1c50c0069b07074/scmrepo-1.0.2.tar.gz
+[2023-04-18 10:06:05] INFO root fetch - processPackages [liblxml3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liblxml3-2.0.tar.gz tmp/liblxml3-2.1.tar.gz --markdown 20230418/l/liblxml3/2.0-2.1/diff.md --exclude *.pyd
+[2023-04-18 10:06:05] INFO root fetch - processPackages [hkkang-utils]: executing diffoscope
+[2023-04-18 10:06:05] INFO root fetch - processPackages [hkkang-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hkkang_utils-0.1.8.tar.gz tmp/hkkang_utils-0.1.9.tar.gz --markdown 20230418/h/hkkang-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-18 10:06:05] INFO root fetch - processPackages [birenci-infra]: executing diffoscope
+[2023-04-18 10:06:05] INFO root fetch - processPackages [birenci-infra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/birenci-infra-0.0.7.tar.gz tmp/birenci-infra-0.0.8.tar.gz --markdown 20230418/b/birenci-infra/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-18 10:06:05] INFO root fetch - processPackages [aruco-markers]: executing diffoscope
+[2023-04-18 10:06:05] INFO root fetch - processPackages [aruco-markers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aruco_markers-1.1.5.tar.gz tmp/aruco_markers-1.1.6.tar.gz --markdown 20230418/a/aruco-markers/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-04-18 10:06:05] INFO root fetch - processPackages [erazhan-utils]: Downloading https://files.pythonhosted.org/packages/1b/75/b19876f7f81ed83eca11cb2cf1a9bb9649901c29b3ef1ebff296fa40df49/erazhan_utils-0.0.8.tar.gz
+[2023-04-18 10:06:05] INFO root fetch - processPackages [PyNuclei]: Downloading https://files.pythonhosted.org/packages/eb/fb/025e6cc3b59b7790ac4737cbdfc2efd0de05ee893dc9202f07f1d6e50aab/PyNuclei-1.2.tar.gz
+[2023-04-18 10:06:05] INFO root fetch - processPackages [nx5d]: executing diffoscope
+[2023-04-18 10:06:05] INFO root fetch - processPackages [nx5d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nx5d-0.3.1.tar.gz tmp/nx5d-0.3.2.tar.gz --markdown 20230418/n/nx5d/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-04-18 10:06:05] INFO root fetch - processPackages [dxd]: Downloading https://files.pythonhosted.org/packages/c0/be/9727d17513775e4b97e12047010821a84e001b47f44d72d7bb45b794a2f0/dxd-0.0.4.tar.gz
+[2023-04-18 10:06:05] INFO root fetch - processPackages [miniscutil]: Downloading https://files.pythonhosted.org/packages/e3/6e/c507478f671504471d9467161fc29da5fa3ef281c10b0b6cc58ca947d37b/miniscutil-0.0.2.tar.gz
+[2023-04-18 10:06:06] INFO root fetch - processPackages [scmrepo]: executing diffoscope
+[2023-04-18 10:06:06] INFO root fetch - processPackages [scmrepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scmrepo-1.0.1.tar.gz tmp/scmrepo-1.0.2.tar.gz --markdown 20230418/s/scmrepo/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-18 10:06:06] INFO root fetch - processPackages [erazhan-utils]: executing diffoscope
+[2023-04-18 10:06:06] INFO root fetch - processPackages [erazhan-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erazhan_utils-0.0.7.tar.gz tmp/erazhan_utils-0.0.8.tar.gz --markdown 20230418/e/erazhan-utils/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-18 10:06:06] INFO root fetch - processPackages [PyNuclei]: executing diffoscope
+[2023-04-18 10:06:06] INFO root fetch - processPackages [PyNuclei]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyNuclei-1.1.tar.gz tmp/PyNuclei-1.2.tar.gz --markdown 20230418/P/PyNuclei/1.1-1.2/diff.md --exclude *.pyd
+[2023-04-18 10:06:06] INFO root fetch - processPackages [dxd]: executing diffoscope
+[2023-04-18 10:06:06] INFO root fetch - processPackages [dxd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxd-0.0.3.tar.gz tmp/dxd-0.0.4.tar.gz --markdown 20230418/d/dxd/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-18 10:06:06] INFO root fetch - processPackages [miniscutil]: executing diffoscope
+[2023-04-18 10:06:06] INFO root fetch - processPackages [miniscutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniscutil-0.0.1.tar.gz tmp/miniscutil-0.0.2.tar.gz --markdown 20230418/m/miniscutil/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-18 10:06:07] INFO root fetch - main [MainThread]: End processing [hkkang-utils]: success
+[2023-04-18 10:06:07] INFO root fetch - main [MainThread]: End processing [birenci-infra]: success
+[2023-04-18 10:06:07] INFO root fetch - main [MainThread]: End processing [dxd]: success
+[2023-04-18 10:06:07] INFO root fetch - main [MainThread]: End processing [PyNuclei]: success
+[2023-04-18 10:06:07] INFO root fetch - main [MainThread]: End processing [erazhan-utils]: success
+[2023-04-18 10:06:07] INFO root fetch - main [MainThread]: End processing [liblxml3]: success
+[2023-04-18 10:06:08] INFO root fetch - main [MainThread]: End processing [scmrepo]: success
+[2023-04-18 10:06:08] INFO root fetch - main [MainThread]: End processing [miniscutil]: success
+[2023-04-18 10:06:08] INFO root fetch - main [MainThread]: End processing [aruco-markers]: success
+[2023-04-18 10:06:10] INFO root fetch - main [MainThread]: End processing [nx5d]: success
+[2023-04-18 10:06:10] INFO root fetch - main [MainThread]: Store serial: [17751937]
