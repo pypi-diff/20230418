@@ -21898,3 +21898,116 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 15:50:04] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder]: success
 [2023-04-18 15:50:04] INFO root fetch - main [MainThread]: End processing [siat]: success
 [2023-04-18 15:50:04] INFO root fetch - main [MainThread]: Store serial: [17756602]
+[2023-04-18 15:55:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17756602]
+[2023-04-18 15:55:13] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-04-18 15:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alacorder
+[2023-04-18 15:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ytsaurus-spyt
+[2023-04-18 15:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prettyqt
+[2023-04-18 15:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: swdl
+[2023-04-18 15:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: searchkit
+[2023-04-18 15:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-breeze
+[2023-04-18 15:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-check-seo
+[2023-04-18 15:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mypylib
+[2023-04-18 15:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: coalestr
+[2023-04-18 15:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyqode.core
+[2023-04-18 15:55:13] INFO root fetch - processPackages [ytsaurus-spyt]: New version: [1.69.4b440.post24171855.dev2] Old Version: [1.69.4b440.post2193236.dev1]
+[2023-04-18 15:55:13] INFO root fetch - processPackages [django-breeze]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-18 15:55:13] INFO root fetch - processPackages [searchkit]: New version: [0.2.2.post1] Old Version: [0.2.1]
+[2023-04-18 15:55:13] INFO root fetch - processPackages [django-check-seo]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-04-18 15:55:13] INFO root fetch - processPackages [mypylib]: New version: [0.1.70] Old Version: [0.1.69]
+[2023-04-18 15:55:13] INFO root fetch - processPackages [coalestr]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-04-18 15:55:13] INFO root fetch - processPackages [pyqode.core]: New version: [4.0.7] Old Version: [4.0.5]
+[2023-04-18 15:55:13] INFO root fetch - processPackages [prettyqt]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-04-18 15:55:13] INFO root fetch - processPackages [swdl]: New version: [1.8.3] Old Version: [1.8.2]
+[2023-04-18 15:55:13] INFO root fetch - processPackages [alacorder]: New version: [79.4.5] Old Version: [79.4.4]
+[2023-04-18 15:55:14] INFO root fetch - processPackages [prettyqt]: executing diffoscope
+[2023-04-18 15:55:14] INFO root fetch - processPackages [prettyqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prettyqt-1.9.1.tar.gz tmp/prettyqt-1.9.2.tar.gz --markdown 20230418/p/prettyqt/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-04-18 15:55:14] INFO root fetch - processPackages [pyqode.core]: executing diffoscope
+[2023-04-18 15:55:14] INFO root fetch - processPackages [pyqode.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqode.core-4.0.5-py3-none-any.whl.zip tmp/pyqode.core-4.0.7-py3-none-any.whl.zip --markdown 20230418/p/pyqode.core/4.0.5-4.0.7/diff.md --exclude *.pyd
+[2023-04-18 15:55:14] INFO root fetch - processPackages [ytsaurus-spyt]: executing diffoscope
+[2023-04-18 15:55:14] INFO root fetch - processPackages [ytsaurus-spyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytsaurus-spyt-1.69.4b440.post2193236.dev1.tar.gz tmp/ytsaurus-spyt-1.69.4b440.post24171855.dev2.tar.gz --markdown 20230418/y/ytsaurus-spyt/1.69.4b440.post2193236.dev1-1.69.4b440.post24171855.dev2/diff.md --exclude *.pyd
+[2023-04-18 15:55:14] INFO root fetch - processPackages [mypylib]: Downloading https://files.pythonhosted.org/packages/af/f4/6471b847dee55ffa91523be9a02b60061dca21f7995cfd9faebb1d59eb49/mypylib-0.1.69.tar.gz
+[2023-04-18 15:55:14] INFO root fetch - processPackages [django-breeze]: Downloading https://files.pythonhosted.org/packages/9e/b0/bb663397cfb6ae86ef46c5a02d3a60eed5c007d6e6a49325787c683f0d84/django_breeze-0.1.4.tar.gz
+[2023-04-18 15:55:14] INFO root fetch - processPackages [coalestr]: Downloading https://files.pythonhosted.org/packages/74/30/ef17d861b5d8116eb01d4f93069acc0a73022188c0d58000ae15361ae7e7/coalestr-0.2.7.tar.gz
+[2023-04-18 15:55:14] INFO root fetch - processPackages [swdl]: Downloading https://files.pythonhosted.org/packages/ec/52/8e0b77c7410b44f369a83e5c3b472882ae4da393e327a17d28f06d0465b7/swdl-1.8.2-py3-none-any.whl
+[2023-04-18 15:55:14] INFO root fetch - processPackages [django-check-seo]: Downloading https://files.pythonhosted.org/packages/fa/77/e8cdd8cc59acfd8b39bd0c534f9e6c4ea5e0f8f613aa47b2bb0310b70ceb/django-check-seo-0.6.0.tar.gz
+[2023-04-18 15:55:14] INFO root fetch - processPackages [django-breeze]: executing diffoscope
+[2023-04-18 15:55:14] INFO root fetch - processPackages [django-breeze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_breeze-0.1.3.tar.gz tmp/django_breeze-0.1.4.tar.gz --markdown 20230418/d/django-breeze/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-18 15:55:14] INFO root fetch - processPackages [searchkit]: Downloading https://files.pythonhosted.org/packages/16/1d/39062fb9067183a79ee0de48d0cfed9dd7826d2b557f8bc6944fba541a2f/searchkit-0.2.2.post1.tar.gz
+[2023-04-18 15:55:14] INFO root fetch - processPackages [alacorder]: Downloading https://files.pythonhosted.org/packages/9f/cc/041ce6afebba3282b1515c5f6a1871eeb43ee947938f7fc0f5566bb4eb3f/alacorder-79.4.5.tar.gz
+[2023-04-18 15:55:14] INFO root fetch - processPackages [searchkit]: executing diffoscope
+[2023-04-18 15:55:14] INFO root fetch - processPackages [searchkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchkit-0.2.1.tar.gz tmp/searchkit-0.2.2.post1.tar.gz --markdown 20230418/s/searchkit/0.2.1-0.2.2.post1/diff.md --exclude *.pyd
+[2023-04-18 15:55:14] INFO root fetch - processPackages [mypylib]: Downloading https://files.pythonhosted.org/packages/41/5f/65dd51a6dcf42a87197430589c4f2f01bef252bf8ead68505c0aa7856ea2/mypylib-0.1.70.tar.gz
+[2023-04-18 15:55:14] INFO root fetch - processPackages [alacorder]: executing diffoscope
+[2023-04-18 15:55:14] INFO root fetch - processPackages [alacorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alacorder-79.4.4.tar.gz tmp/alacorder-79.4.5.tar.gz --markdown 20230418/a/alacorder/79.4.4-79.4.5/diff.md --exclude *.pyd
+[2023-04-18 15:55:14] INFO root fetch - processPackages [mypylib]: executing diffoscope
+[2023-04-18 15:55:14] INFO root fetch - processPackages [mypylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypylib-0.1.69.tar.gz tmp/mypylib-0.1.70.tar.gz --markdown 20230418/m/mypylib/0.1.69-0.1.70/diff.md --exclude *.pyd
+[2023-04-18 15:55:14] INFO root fetch - processPackages [django-check-seo]: Downloading https://files.pythonhosted.org/packages/a8/2e/40df4114584d5adacbea59592d595be27c4f4d9edfbd5e83a41e9d5af6f8/django-check-seo-0.6.1.tar.gz
+[2023-04-18 15:55:14] INFO root fetch - processPackages [swdl]: Downloading https://files.pythonhosted.org/packages/cb/1d/8c5454eaed8ae4b9ddade1b9899169c9d351283cbf730eb1e81f09a424c6/swdl-1.8.3-py3-none-any.whl
+[2023-04-18 15:55:14] INFO root fetch - processPackages [coalestr]: Downloading https://files.pythonhosted.org/packages/fc/d1/3bdf170865b8ea3deb33f6797076778721011fa44384753713dfbf407fc4/coalestr-0.2.9.tar.gz
+[2023-04-18 15:55:14] INFO root fetch - processPackages [django-check-seo]: executing diffoscope
+[2023-04-18 15:55:14] INFO root fetch - processPackages [django-check-seo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-check-seo-0.6.0.tar.gz tmp/django-check-seo-0.6.1.tar.gz --markdown 20230418/d/django-check-seo/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-04-18 15:55:14] INFO root fetch - processPackages [swdl]: executing diffoscope
+[2023-04-18 15:55:14] INFO root fetch - processPackages [swdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swdl-1.8.2-py3-none-any.whl.zip tmp/swdl-1.8.3-py3-none-any.whl.zip --markdown 20230418/s/swdl/1.8.2-1.8.3/diff.md --exclude *.pyd
+[2023-04-18 15:55:14] INFO root fetch - processPackages [coalestr]: executing diffoscope
+[2023-04-18 15:55:14] INFO root fetch - processPackages [coalestr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coalestr-0.2.7.tar.gz tmp/coalestr-0.2.9.tar.gz --markdown 20230418/c/coalestr/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-04-18 15:55:15] INFO root fetch - processPackages [searchkit]: Start processing: thrivve-core
+[2023-04-18 15:55:15] INFO root fetch - main [MainThread]: End processing [searchkit]: success
+[2023-04-18 15:55:15] INFO root fetch - processPackages [thrivve-core]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-18 15:55:15] INFO root fetch - processPackages [alacorder]: Start processing: spiakid-drs
+[2023-04-18 15:55:15] INFO root fetch - main [MainThread]: End processing [alacorder]: success
+[2023-04-18 15:55:15] INFO root fetch - processPackages [spiakid-drs]: New version: [0.11] Old Version: [0.1]
+[2023-04-18 15:55:15] INFO root fetch - processPackages [thrivve-core]: Downloading https://files.pythonhosted.org/packages/d4/95/6c23facf6f8417549da892422e5932a2de71f4a7f7be90b52637ac75f0fd/thrivve_core-0.0.9.tar.gz
+[2023-04-18 15:55:15] INFO root fetch - processPackages [mypylib]: Start processing: python-dlt
+[2023-04-18 15:55:15] INFO root fetch - main [MainThread]: End processing [mypylib]: success
+[2023-04-18 15:55:16] INFO root fetch - processPackages [python-dlt]: New version: [0.2.1] Old Version: [0.2.0a9]
+[2023-04-18 15:55:16] INFO root fetch - processPackages [spiakid-drs]: Downloading https://files.pythonhosted.org/packages/5b/9a/9cd7b3ed17f20d032705ce61c79ccaea9cc4a28d27ef65dcfdcacc19044e/spiakid-drs-0.1.tar.gz
+[2023-04-18 15:55:16] INFO root fetch - processPackages [django-breeze]: Start processing: odoo-addon-attachment-preview
+[2023-04-18 15:55:16] INFO root fetch - main [MainThread]: End processing [django-breeze]: success
+[2023-04-18 15:55:16] INFO root fetch - processPackages [swdl]: Start processing: opendal
+[2023-04-18 15:55:16] INFO root fetch - main [MainThread]: End processing [swdl]: success
+[2023-04-18 15:55:16] WARNING root fetch - processPackages [odoo-addon-attachment-preview]: Skipping, unable to determine old version
+[2023-04-18 15:55:16] INFO root fetch - processPackages [odoo-addon-attachment-preview]: Start processing: sparseprop
+[2023-04-18 15:55:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-attachment-preview] error
+[2023-04-18 15:55:16] INFO root fetch - processPackages [opendal]: New version: [0.32.0] Old Version: [0.31.1]
+[2023-04-18 15:55:16] INFO root fetch - processPackages [sparseprop]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-18 15:55:16] INFO root fetch - processPackages [thrivve-core]: executing diffoscope
+[2023-04-18 15:55:16] INFO root fetch - processPackages [thrivve-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thrivve_core-0.0.8.tar.gz tmp/thrivve_core-0.0.9.tar.gz --markdown 20230418/t/thrivve-core/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-18 15:55:16] INFO root fetch - processPackages [pyqode.core]: Start processing: real48
+[2023-04-18 15:55:16] INFO root fetch - main [MainThread]: End processing [pyqode.core]: success
+[2023-04-18 15:55:16] WARNING root fetch - processPackages [real48]: Skipping, unable to determine old version
+[2023-04-18 15:55:16] INFO root fetch - processPackages [real48]: Start processing: google-cloud-network-management
+[2023-04-18 15:55:16] INFO root fetch - main [MainThread]: End processing [real48] error
+[2023-04-18 15:55:16] INFO root fetch - processPackages [sparseprop]: executing diffoscope
+[2023-04-18 15:55:16] INFO root fetch - processPackages [sparseprop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparseprop-0.1.8.tar.gz tmp/sparseprop-0.1.9.tar.gz --markdown 20230418/s/sparseprop/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-18 15:55:16] INFO root fetch - processPackages [google-cloud-network-management]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-04-18 15:55:16] INFO root fetch - processPackages [python-dlt]: Downloading https://files.pythonhosted.org/packages/06/22/22462d1248a8de517f17f7c884fe8af29eed322da167eb3e86bab07aa68e/python-dlt-0.2.1.tar.gz
+[2023-04-18 15:55:16] INFO root fetch - processPackages [coalestr]: Start processing: mb-pytorch
+[2023-04-18 15:55:16] INFO root fetch - main [MainThread]: End processing [coalestr]: success
+[2023-04-18 15:55:16] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.202304181354] Old Version: [1.0.202304181331]
+[2023-04-18 15:55:16] INFO root fetch - processPackages [spiakid-drs]: Downloading https://files.pythonhosted.org/packages/ae/d0/7d34e0ae8168b2922bcd6c6ae6d5da7cc82989381a7bb27299c0fb678053/spiakid-drs-0.11.tar.gz
+[2023-04-18 15:55:16] INFO root fetch - processPackages [python-dlt]: executing diffoscope
+[2023-04-18 15:55:16] INFO root fetch - processPackages [python-dlt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_dlt-0.2.0a9.tar.gz tmp/python-dlt-0.2.1.tar.gz --markdown 20230418/p/python-dlt/0.2.0a9-0.2.1/diff.md --exclude *.pyd
+[2023-04-18 15:55:16] INFO root fetch - processPackages [google-cloud-network-management]: Downloading https://files.pythonhosted.org/packages/d1/91/f9220d57962a423576f2c584e2fbc78a075b7197fb0811f0992c1a63f989/google-cloud-network-management-1.8.1.tar.gz
+[2023-04-18 15:55:16] INFO root fetch - main [MainThread]: End processing [django-check-seo]: success
+[2023-04-18 15:55:16] INFO root fetch - processPackages [spiakid-drs]: executing diffoscope
+[2023-04-18 15:55:16] INFO root fetch - processPackages [spiakid-drs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiakid-drs-0.1.tar.gz tmp/spiakid-drs-0.11.tar.gz --markdown 20230418/s/spiakid-drs/0.1-0.11/diff.md --exclude *.pyd
+[2023-04-18 15:55:16] INFO root fetch - processPackages [opendal]: Downloading https://files.pythonhosted.org/packages/1b/b6/6082f55b66f6b599bde39f7f3f39e9d1e3ef06d449460deea60d4ccc87a0/opendal-0.32.0.tar.gz
+[2023-04-18 15:55:16] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/01/8a/4506bd5e3337a3876511c5f524f6185bde8f7cb0e13f92f1bde69a51b375/mb_pytorch-1.0.202304181354-py3-none-any.whl
+[2023-04-18 15:55:16] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2023-04-18 15:55:16] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.202304181331-py3-none-any.whl.zip tmp/mb_pytorch-1.0.202304181354-py3-none-any.whl.zip --markdown 20230418/m/mb-pytorch/1.0.202304181331-1.0.202304181354/diff.md --exclude *.pyd
+[2023-04-18 15:55:16] INFO root fetch - processPackages [google-cloud-network-management]: Downloading https://files.pythonhosted.org/packages/6c/49/da657dfed691e45f321b80f73c00b5f929fc9655ba3cb9af05d7d6e11e28/google-cloud-network-management-1.8.2.tar.gz
+[2023-04-18 15:55:16] INFO root fetch - processPackages [opendal]: executing diffoscope
+[2023-04-18 15:55:16] INFO root fetch - processPackages [opendal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendal-0.31.1.tar.gz tmp/opendal-0.32.0.tar.gz --markdown 20230418/o/opendal/0.31.1-0.32.0/diff.md --exclude *.pyd
+[2023-04-18 15:55:16] INFO root fetch - processPackages [google-cloud-network-management]: executing diffoscope
+[2023-04-18 15:55:16] INFO root fetch - processPackages [google-cloud-network-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-network-management-1.8.1.tar.gz tmp/google-cloud-network-management-1.8.2.tar.gz --markdown 20230418/g/google-cloud-network-management/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-04-18 15:55:17] INFO root fetch - main [MainThread]: End processing [sparseprop]: success
+[2023-04-18 15:55:17] INFO root fetch - main [MainThread]: End processing [ytsaurus-spyt]: success
+[2023-04-18 15:55:17] INFO root fetch - main [MainThread]: End processing [spiakid-drs]: success
+[2023-04-18 15:55:17] INFO root fetch - main [MainThread]: End processing [thrivve-core]: success
+[2023-04-18 15:55:17] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2023-04-18 15:55:18] INFO root fetch - main [MainThread]: End processing [google-cloud-network-management]: success
+[2023-04-18 15:55:18] INFO root fetch - main [MainThread]: End processing [python-dlt]: success
+[2023-04-18 15:55:20] INFO root fetch - main [MainThread]: End processing [opendal]: success
+[2023-04-18 15:55:25] INFO root fetch - main [MainThread]: End processing [prettyqt]: success
+[2023-04-18 15:55:25] INFO root fetch - main [MainThread]: Store serial: [17756675]
