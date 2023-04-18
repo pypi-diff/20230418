@@ -8422,3 +8422,61 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 05:24:31] INFO root fetch - main [MainThread]: End processing [aa-structures]: success
 [2023-04-18 05:24:34] INFO root fetch - main [MainThread]: End processing [sqlmesh]: success
 [2023-04-18 05:24:34] INFO root fetch - main [MainThread]: Store serial: [17749110]
+[2023-04-18 05:29:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17749110]
+[2023-04-18 05:29:42] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-18 05:29:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: birenci-infra
+[2023-04-18 05:29:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-base-bank-from-iban
+[2023-04-18 05:29:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spectrum-card
+[2023-04-18 05:29:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ema-pytorch
+[2023-04-18 05:29:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chunkdot
+[2023-04-18 05:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: persisty
+[2023-04-18 05:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Mensajes-jdjj43
+[2023-04-18 05:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: network-scanner-kbk
+[2023-04-18 05:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chunkdot
+[2023-04-18 05:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: commonX
+[2023-04-18 05:29:43] WARNING root fetch - processPackages [birenci-infra]: Skipping, unable to determine old version
+[2023-04-18 05:29:43] INFO root fetch - main [MainThread]: End processing [birenci-infra] error
+[2023-04-18 05:29:43] WARNING root fetch - processPackages [spectrum-card]: Skipping, unable to determine old version
+[2023-04-18 05:29:43] INFO root fetch - processPackages [odoo-addon-base-bank-from-iban]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.6]
+[2023-04-18 05:29:43] INFO root fetch - processPackages [persisty]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-04-18 05:29:43] INFO root fetch - main [MainThread]: End processing [spectrum-card] error
+[2023-04-18 05:29:43] WARNING root fetch - processPackages [Mensajes-jdjj43]: Skipping, unable to determine old version
+[2023-04-18 05:29:43] INFO root fetch - processPackages [ema-pytorch]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-18 05:29:43] INFO root fetch - main [MainThread]: End processing [Mensajes-jdjj43] error
+[2023-04-18 05:29:43] INFO root fetch - processPackages [chunkdot]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-04-18 05:29:43] INFO root fetch - processPackages [network-scanner-kbk]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-04-18 05:29:43] INFO root fetch - processPackages [chunkdot]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-04-18 05:29:43] INFO root fetch - processPackages [network-scanner-kbk]: executing diffoscope
+[2023-04-18 05:29:43] INFO root fetch - processPackages [network-scanner-kbk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/network_scanner_kbk-0.0.7.tar.gz tmp/network_scanner_kbk-0.0.9.tar.gz --markdown 20230418/n/network-scanner-kbk/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-04-18 05:29:43] INFO root fetch - processPackages [commonX]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-18 05:29:43] INFO root fetch - processPackages [ema-pytorch]: Downloading https://files.pythonhosted.org/packages/6d/cf/3f62572181c7446125b94a43cdcac00d431c64b14887a99f8d99c1d65814/ema-pytorch-0.2.2.tar.gz
+[2023-04-18 05:29:43] INFO root fetch - processPackages [persisty]: Downloading https://files.pythonhosted.org/packages/ee/5d/9d5a39d3771c8fe20453d072ef61a07c19f8411ed887261cc6171f03d46f/persisty-0.0.3.tar.gz
+[2023-04-18 05:29:43] INFO root fetch - processPackages [chunkdot]: Downloading https://files.pythonhosted.org/packages/67/39/c02acf19c45b3b2d5d921efb75edc9ef563417527b09906a539489155af3/chunkdot-0.1.5.tar.gz
+[2023-04-18 05:29:43] INFO root fetch - processPackages [chunkdot]: Downloading https://files.pythonhosted.org/packages/67/39/c02acf19c45b3b2d5d921efb75edc9ef563417527b09906a539489155af3/chunkdot-0.1.5.tar.gz
+[2023-04-18 05:29:43] INFO root fetch - processPackages [odoo-addon-base-bank-from-iban]: Downloading https://files.pythonhosted.org/packages/46/70/94ae082ab70f7f17dadb42a23de68db4292aac7c507604cd005b5125e8e3/odoo_addon_base_bank_from_iban-16.0.1.0.0.6-py3-none-any.whl
+[2023-04-18 05:29:43] INFO root fetch - processPackages [commonX]: Downloading https://files.pythonhosted.org/packages/91/77/d937d39096aa0c052e839c010fdb1587c1fa120454a7e0a528c47dacc95f/commonX-0.4.1.tar.gz
+[2023-04-18 05:29:43] INFO root fetch - processPackages [ema-pytorch]: Downloading https://files.pythonhosted.org/packages/cd/3a/a323d8659f65924c72beebd49c44655d94cb076a411cb08a9ab9b0c5ea1a/ema-pytorch-0.2.3.tar.gz
+[2023-04-18 05:29:43] INFO root fetch - processPackages [persisty]: Downloading https://files.pythonhosted.org/packages/fc/7c/22610cc9fc393acc292186303289229da0be52fac608a85e1462e12d5f2f/persisty-0.0.5.tar.gz
+[2023-04-18 05:29:43] INFO root fetch - processPackages [odoo-addon-base-bank-from-iban]: Downloading https://files.pythonhosted.org/packages/12/19/721ce874a2b87830fb39e076744cdd9594bf41886a74cb6a10b844fb8c98/odoo_addon_base_bank_from_iban-16.0.1.0.0.8-py3-none-any.whl
+[2023-04-18 05:29:43] INFO root fetch - processPackages [commonX]: executing diffoscope
+[2023-04-18 05:29:43] INFO root fetch - processPackages [commonX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commonX-0.4.0.tar.gz tmp/commonX-0.4.1.tar.gz --markdown 20230418/c/commonX/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-18 05:29:43] INFO root fetch - processPackages [chunkdot]: Downloading https://files.pythonhosted.org/packages/2d/74/08a0c25da8a1a0e7113d40c59f4f4e0267e1ff62d6b956b48229bcd5ba82/chunkdot-0.2.0.tar.gz
+[2023-04-18 05:29:43] INFO root fetch - processPackages [chunkdot]: Downloading https://files.pythonhosted.org/packages/2d/74/08a0c25da8a1a0e7113d40c59f4f4e0267e1ff62d6b956b48229bcd5ba82/chunkdot-0.2.0.tar.gz
+[2023-04-18 05:29:43] INFO root fetch - processPackages [ema-pytorch]: executing diffoscope
+[2023-04-18 05:29:43] INFO root fetch - processPackages [ema-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ema-pytorch-0.2.2.tar.gz tmp/ema-pytorch-0.2.3.tar.gz --markdown 20230418/e/ema-pytorch/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-18 05:29:43] INFO root fetch - processPackages [persisty]: executing diffoscope
+[2023-04-18 05:29:43] INFO root fetch - processPackages [persisty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/persisty-0.0.3.tar.gz tmp/persisty-0.0.5.tar.gz --markdown 20230418/p/persisty/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-04-18 05:29:43] INFO root fetch - processPackages [odoo-addon-base-bank-from-iban]: executing diffoscope
+[2023-04-18 05:29:43] INFO root fetch - processPackages [odoo-addon-base-bank-from-iban]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_bank_from_iban-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_base_bank_from_iban-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20230418/o/odoo-addon-base-bank-from-iban/16.0.1.0.0.6-16.0.1.0.0.8/diff.md --exclude *.pyd
+[2023-04-18 05:29:43] INFO root fetch - processPackages [chunkdot]: executing diffoscope
+[2023-04-18 05:29:43] INFO root fetch - processPackages [chunkdot]: executing diffoscope
+[2023-04-18 05:29:43] INFO root fetch - processPackages [chunkdot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chunkdot-0.1.5.tar.gz tmp/chunkdot-0.2.0.tar.gz --markdown 20230418/c/chunkdot/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-04-18 05:29:43] INFO root fetch - processPackages [chunkdot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chunkdot-0.1.5.tar.gz tmp/chunkdot-0.2.0.tar.gz --markdown 20230418/c/chunkdot/0.1.5-0.2.0/diff.md --exclude *.pyd
+[2023-04-18 05:29:44] INFO root fetch - main [MainThread]: End processing [network-scanner-kbk]: success
+[2023-04-18 05:29:44] INFO root fetch - main [MainThread]: End processing [ema-pytorch]: success
+[2023-04-18 05:29:45] INFO root fetch - main [MainThread]: End processing [commonX]: success
+[2023-04-18 05:29:45] INFO root fetch - main [MainThread]: End processing [chunkdot]: success
+[2023-04-18 05:29:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-bank-from-iban]: success
+[2023-04-18 05:29:45] INFO root fetch - main [MainThread]: End processing [chunkdot]: success
+[2023-04-18 05:29:45] INFO root fetch - main [MainThread]: End processing [persisty]: success
+[2023-04-18 05:29:45] INFO root fetch - main [MainThread]: Store serial: [17749149]
