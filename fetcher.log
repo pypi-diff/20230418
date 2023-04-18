@@ -8241,3 +8241,97 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 05:11:02] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-payment-order]: success
 [2023-04-18 05:11:05] INFO root fetch - main [MainThread]: End processing [python-datamodel]: success
 [2023-04-18 05:11:05] INFO root fetch - main [MainThread]: Store serial: [17749019]
+[2023-04-18 05:16:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17749019]
+[2023-04-18 05:16:14] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-18 05:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: multisimil
+[2023-04-18 05:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tuned-lens
+[2023-04-18 05:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GANDLF
+[2023-04-18 05:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlmesh
+[2023-04-18 05:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo13-addon-product-brand
+[2023-04-18 05:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oci
+[2023-04-18 05:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdktf-cdktf-provider-pagerduty
+[2023-04-18 05:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-product-brand
+[2023-04-18 05:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdktf-cdktf-provider-vault
+[2023-04-18 05:16:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: querysource
+[2023-04-18 05:16:14] INFO root fetch - processPackages [odoo13-addon-product-brand]: New version: [13.0.2.0.3.dev6] Old Version: [13.0.2.0.3.dev5]
+[2023-04-18 05:16:14] INFO root fetch - processPackages [sqlmesh]: New version: [0.4.2.dev9] Old Version: [0.4.1]
+[2023-04-18 05:16:14] WARNING root fetch - processPackages [multisimil]: Skipping, unable to determine old version
+[2023-04-18 05:16:14] INFO root fetch - processPackages [multisimil]: Start processing: amps-py
+[2023-04-18 05:16:14] INFO root fetch - main [MainThread]: End processing [multisimil] error
+[2023-04-18 05:16:14] INFO root fetch - processPackages [GANDLF]: New version: [0.0.16.dev20230418] Old Version: [0.0.16.dev20230417]
+[2023-04-18 05:16:14] INFO root fetch - processPackages [tuned-lens]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-18 05:16:14] INFO root fetch - processPackages [querysource]: New version: [3.6.9] Old Version: [3.6.8]
+[2023-04-18 05:16:14] INFO root fetch - processPackages [oci]: New version: [2.99.0] Old Version: [2.98.0]
+[2023-04-18 05:16:14] INFO root fetch - processPackages [querysource]: executing diffoscope
+[2023-04-18 05:16:14] INFO root fetch - processPackages [querysource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230418/q/querysource/3.6.8-3.6.9/diff.md --exclude *.pyd
+[2023-04-18 05:16:14] INFO root fetch - processPackages [odoo-addon-product-brand]: New version: [16.0.1.0.1.3] Old Version: [16.0.1.0.1.2]
+[2023-04-18 05:16:14] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: New version: [6.0.0] Old Version: [5.0.2]
+[2023-04-18 05:16:14] INFO root fetch - processPackages [amps-py]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-04-18 05:16:14] INFO root fetch - processPackages [odoo13-addon-product-brand]: Downloading https://files.pythonhosted.org/packages/95/0a/271e7ee7662ee43b2df789215340d6e14e27ca7cc08cd6663cdeb892050b/odoo13_addon_product_brand-13.0.2.0.3.dev5-py3-none-any.whl
+[2023-04-18 05:16:14] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/d1/4e/882ab4d12360152ff232a95037691158e893df684d2f9831f101f6aaceb9/GANDLF-0.0.16.dev20230418.tar.gz
+[2023-04-18 05:16:14] INFO root fetch - processPackages [tuned-lens]: Downloading https://files.pythonhosted.org/packages/1c/20/dfdacc5af9e30a1df0059b936bfc85c320a8b72f43e1094ea59fd1977d1c/tuned-lens-0.0.3.tar.gz
+[2023-04-18 05:16:14] INFO root fetch - processPackages [sqlmesh]: Downloading https://files.pythonhosted.org/packages/8b/b1/3843a090c229886603f2c56148f1889812a28733470ecae2a2e553573264/sqlmesh-0.4.1.tar.gz
+[2023-04-18 05:16:14] INFO root fetch - processPackages [oci]: Downloading https://files.pythonhosted.org/packages/12/b2/c2241bec60d913a5a1453a598a9b3a47ce4af59005b96932a330ce2c7385/oci-2.98.0.tar.gz
+[2023-04-18 05:16:14] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: New version: [6.0.4] Old Version: [6.0.3]
+[2023-04-18 05:16:14] INFO root fetch - processPackages [odoo-addon-product-brand]: Downloading https://files.pythonhosted.org/packages/93/80/fd88c98d787f648c8d4674b1915986692d4b710dfe07a4498c222749e66d/odoo_addon_product_brand-16.0.1.0.1.2-py3-none-any.whl
+[2023-04-18 05:16:14] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: Downloading https://files.pythonhosted.org/packages/18/0b/336b1b496465a50d1cb15c5aea27ec149f1ef6e1b0960ee1851c999e53b5/cdktf-cdktf-provider-vault-5.0.2.tar.gz
+[2023-04-18 05:16:14] INFO root fetch - processPackages [amps-py]: Downloading https://files.pythonhosted.org/packages/ed/c3/6ef79bf24570c14d064feb790275f7bb062c02e58ce69cf068a585f05529/amps-py-0.1.1.tar.gz
+[2023-04-18 05:16:14] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-04-18 05:16:14] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.16.dev20230417.tar.gz tmp/GANDLF-0.0.16.dev20230418.tar.gz --markdown 20230418/G/GANDLF/0.0.16.dev20230417-0.0.16.dev20230418/diff.md --exclude *.pyd
+[2023-04-18 05:16:14] INFO root fetch - processPackages [sqlmesh]: Downloading https://files.pythonhosted.org/packages/5c/46/705b193dce9848571c400bedd46e0fd21fed91a65347280b74f561d929ad/sqlmesh-0.4.2.dev9.tar.gz
+[2023-04-18 05:16:14] INFO root fetch - processPackages [odoo13-addon-product-brand]: Downloading https://files.pythonhosted.org/packages/b7/22/791668b2416fa59b378d581b2a24a56b395fe557d3c3eb2ed43b700f7d74/odoo13_addon_product_brand-13.0.2.0.3.dev6-py3-none-any.whl
+[2023-04-18 05:16:14] INFO root fetch - processPackages [tuned-lens]: Downloading https://files.pythonhosted.org/packages/1c/93/f76bbd5310fd29eb73d2bc3dacca50bf740b0b0f9e9c079739a93a3c01e9/tuned-lens-0.0.4.tar.gz
+[2023-04-18 05:16:14] INFO root fetch - processPackages [odoo-addon-product-brand]: Downloading https://files.pythonhosted.org/packages/12/ac/22ceef0578faf380ad26f22a838c8ad707b855eed52afe7756ee31446915/odoo_addon_product_brand-16.0.1.0.1.3-py3-none-any.whl
+[2023-04-18 05:16:14] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: Downloading https://files.pythonhosted.org/packages/61/a2/aca326ee49f7c6c1cc91a6b8cfb4710bf6cea2385b61714ebfe5b828370c/cdktf-cdktf-provider-pagerduty-6.0.4.tar.gz
+[2023-04-18 05:16:14] INFO root fetch - processPackages [amps-py]: Downloading https://files.pythonhosted.org/packages/b3/96/45cbaf4720c97f9d8780270a47ac6ae21c9aea0b2623b572db8a1f72e695/amps-py-0.1.3.tar.gz
+[2023-04-18 05:16:15] INFO root fetch - processPackages [odoo13-addon-product-brand]: executing diffoscope
+[2023-04-18 05:16:15] INFO root fetch - processPackages [odoo13-addon-product-brand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_product_brand-13.0.2.0.3.dev5-py3-none-any.whl.zip tmp/odoo13_addon_product_brand-13.0.2.0.3.dev6-py3-none-any.whl.zip --markdown 20230418/o/odoo13-addon-product-brand/13.0.2.0.3.dev5-13.0.2.0.3.dev6/diff.md --exclude *.pyd
+[2023-04-18 05:16:15] INFO root fetch - processPackages [tuned-lens]: executing diffoscope
+[2023-04-18 05:16:15] INFO root fetch - processPackages [tuned-lens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuned-lens-0.0.3.tar.gz tmp/tuned-lens-0.0.4.tar.gz --markdown 20230418/t/tuned-lens/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-18 05:16:15] INFO root fetch - processPackages [odoo-addon-product-brand]: executing diffoscope
+[2023-04-18 05:16:15] INFO root fetch - processPackages [odoo-addon-product-brand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_brand-16.0.1.0.1.2-py3-none-any.whl.zip tmp/odoo_addon_product_brand-16.0.1.0.1.3-py3-none-any.whl.zip --markdown 20230418/o/odoo-addon-product-brand/16.0.1.0.1.2-16.0.1.0.1.3/diff.md --exclude *.pyd
+[2023-04-18 05:16:15] INFO root fetch - processPackages [amps-py]: executing diffoscope
+[2023-04-18 05:16:15] INFO root fetch - processPackages [amps-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amps-py-0.1.1.tar.gz tmp/amps-py-0.1.3.tar.gz --markdown 20230418/a/amps-py/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-04-18 05:16:15] INFO root fetch - processPackages [sqlmesh]: executing diffoscope
+[2023-04-18 05:16:15] INFO root fetch - processPackages [sqlmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlmesh-0.4.1.tar.gz tmp/sqlmesh-0.4.2.dev9.tar.gz --markdown 20230418/s/sqlmesh/0.4.1-0.4.2.dev9/diff.md --exclude *.pyd
+[2023-04-18 05:16:15] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: executing diffoscope
+[2023-04-18 05:16:15] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-pagerduty-6.0.3.tar.gz tmp/cdktf-cdktf-provider-pagerduty-6.0.4.tar.gz --markdown 20230418/c/cdktf-cdktf-provider-pagerduty/6.0.3-6.0.4/diff.md --exclude *.pyd
+[2023-04-18 05:16:15] INFO root fetch - processPackages [oci]: Downloading https://files.pythonhosted.org/packages/b7/50/166794801e82f1f65176a501f1451e6c542bd24f1b9bc4cae6e79a4bcd64/oci-2.99.0.tar.gz
+[2023-04-18 05:16:16] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: Downloading https://files.pythonhosted.org/packages/6a/c4/07e4bbae92af5560bdd37506cd55bfe09676bfc4809ec523b73a88551baf/cdktf-cdktf-provider-vault-6.0.0.tar.gz
+[2023-04-18 05:16:16] INFO root fetch - processPackages [odoo13-addon-product-brand]: Start processing: network-scanner-kbk
+[2023-04-18 05:16:16] INFO root fetch - main [MainThread]: End processing [odoo13-addon-product-brand]: success
+[2023-04-18 05:16:16] INFO root fetch - processPackages [network-scanner-kbk]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-04-18 05:16:16] INFO root fetch - processPackages [network-scanner-kbk]: executing diffoscope
+[2023-04-18 05:16:16] INFO root fetch - processPackages [network-scanner-kbk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/network_scanner_kbk-0.0.7.tar.gz tmp/network_scanner_kbk-0.0.9.tar.gz --markdown 20230418/n/network-scanner-kbk/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-04-18 05:16:16] INFO root fetch - processPackages [odoo-addon-product-brand]: Start processing: odoo-addon-product-brand
+[2023-04-18 05:16:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-brand]: success
+[2023-04-18 05:16:16] INFO root fetch - processPackages [amps-py]: Start processing: basicnanoclient
+[2023-04-18 05:16:16] INFO root fetch - main [MainThread]: End processing [amps-py]: success
+[2023-04-18 05:16:16] INFO root fetch - processPackages [odoo-addon-product-brand]: New version: [16.0.1.0.1.3] Old Version: [16.0.1.0.1.2]
+[2023-04-18 05:16:16] WARNING root fetch - processPackages [basicnanoclient]: Skipping, unable to determine old version
+[2023-04-18 05:16:16] INFO root fetch - processPackages [basicnanoclient]: Start processing: cdktf-cdktf-provider-azuread
+[2023-04-18 05:16:16] INFO root fetch - main [MainThread]: End processing [basicnanoclient] error
+[2023-04-18 05:16:16] INFO root fetch - processPackages [odoo-addon-product-brand]: executing diffoscope
+[2023-04-18 05:16:16] INFO root fetch - processPackages [odoo-addon-product-brand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_brand-16.0.1.0.1.2-py3-none-any.whl.zip tmp/odoo_addon_product_brand-16.0.1.0.1.3-py3-none-any.whl.zip --markdown 20230418/o/odoo-addon-product-brand/16.0.1.0.1.2-16.0.1.0.1.3/diff.md --exclude *.pyd
+[2023-04-18 05:16:16] INFO root fetch - processPackages [cdktf-cdktf-provider-azuread]: New version: [6.0.1] Old Version: [6.0.0]
+[2023-04-18 05:16:16] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-04-18 05:16:17] INFO root fetch - processPackages [cdktf-cdktf-provider-azuread]: Downloading https://files.pythonhosted.org/packages/4b/54/8ff0bdeca03710fd1031cdec529db5df1f5a536cda306075f6665fd7029b/cdktf-cdktf-provider-azuread-6.0.0.tar.gz
+[2023-04-18 05:16:17] INFO root fetch - processPackages [oci]: executing diffoscope
+[2023-04-18 05:16:17] INFO root fetch - processPackages [oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oci-2.98.0.tar.gz tmp/oci-2.99.0.tar.gz --markdown 20230418/o/oci/2.98.0-2.99.0/diff.md --exclude *.pyd
+[2023-04-18 05:16:17] INFO root fetch - main [MainThread]: End processing [tuned-lens]: success
+[2023-04-18 05:16:17] INFO root fetch - processPackages [cdktf-cdktf-provider-azuread]: Downloading https://files.pythonhosted.org/packages/a7/d9/37eb13ddb9fbe3be150d9064ee0b3f0bc2d9a52a2c189791200c7c8ef297/cdktf-cdktf-provider-azuread-6.0.1.tar.gz
+[2023-04-18 05:16:17] INFO root fetch - main [MainThread]: End processing [network-scanner-kbk]: success
+[2023-04-18 05:16:17] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-pagerduty]: success
+[2023-04-18 05:16:17] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: executing diffoscope
+[2023-04-18 05:16:17] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-vault-5.0.2.tar.gz tmp/cdktf-cdktf-provider-vault-6.0.0.tar.gz --markdown 20230418/c/cdktf-cdktf-provider-vault/5.0.2-6.0.0/diff.md --exclude *.pyd
+[2023-04-18 05:16:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-brand]: success
+[2023-04-18 05:16:18] INFO root fetch - processPackages [cdktf-cdktf-provider-azuread]: executing diffoscope
+[2023-04-18 05:16:18] INFO root fetch - processPackages [cdktf-cdktf-provider-azuread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-azuread-6.0.0.tar.gz tmp/cdktf-cdktf-provider-azuread-6.0.1.tar.gz --markdown 20230418/c/cdktf-cdktf-provider-azuread/6.0.0-6.0.1/diff.md --exclude *.pyd
+[2023-04-18 05:16:18] INFO root fetch - main [MainThread]: End processing [querysource]: success
+[2023-04-18 05:16:20] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-azuread]: success
+[2023-04-18 05:16:20] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-vault]: success
+[2023-04-18 05:19:15] ERROR root fetch - processPackages [sqlmesh]: Timeout during execution of pkgdiff
+[2023-04-18 05:19:15] INFO root fetch - main [MainThread]: End processing [sqlmesh] error
+[2023-04-18 05:19:17] ERROR root fetch - processPackages [oci]: Timeout during execution of pkgdiff
+[2023-04-18 05:19:17] INFO root fetch - main [MainThread]: End processing [oci] error
+[2023-04-18 05:19:17] INFO root fetch - main [MainThread]: Store serial: [17749062]
