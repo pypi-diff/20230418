@@ -10238,3 +10238,61 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 07:36:30] INFO root fetch - main [MainThread]: End processing [yolov7x]: success
 [2023-04-18 07:36:32] INFO root fetch - main [MainThread]: End processing [repairwheel]: success
 [2023-04-18 07:36:32] INFO root fetch - main [MainThread]: Store serial: [17750027]
+[2023-04-18 07:41:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17750027]
+[2023-04-18 07:41:41] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-04-18 07:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: barriers
+[2023-04-18 07:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ExpdFtpService
+[2023-04-18 07:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zcatalyst-runtime-39
+[2023-04-18 07:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hagrid
+[2023-04-18 07:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pawnlib
+[2023-04-18 07:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: brightest-path-lib
+[2023-04-18 07:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: merlin-sdk
+[2023-04-18 07:41:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oci-cli
+[2023-04-18 07:41:41] INFO root fetch - processPackages [ExpdFtpService]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-04-18 07:41:41] INFO root fetch - processPackages [zcatalyst-runtime-39]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-18 07:41:41] INFO root fetch - processPackages [barriers]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-04-18 07:41:41] INFO root fetch - processPackages [brightest-path-lib]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-18 07:41:41] INFO root fetch - processPackages [merlin-sdk]: New version: [0.9.1] Old Version: [0.9.0.dev0]
+[2023-04-18 07:41:41] INFO root fetch - processPackages [hagrid]: New version: [0.3.1] Old Version: [0.2.99]
+[2023-04-18 07:41:41] INFO root fetch - processPackages [oci-cli]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-04-18 07:41:41] INFO root fetch - processPackages [pawnlib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-18 07:41:42] INFO root fetch - processPackages [zcatalyst-runtime-39]: Downloading https://files.pythonhosted.org/packages/0e/b0/aacdbf1a84ae71623404b853694709140da167570265f1bd2e2a2ec10b57/zcatalyst_runtime_39-0.0.3.tar.gz
+[2023-04-18 07:41:42] INFO root fetch - processPackages [pawnlib]: executing diffoscope
+[2023-04-18 07:41:42] INFO root fetch - processPackages [pawnlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pawnlib-0.1.8-py3-none-any.whl.zip tmp/pawnlib-0.1.9-py3-none-any.whl.zip --markdown 20230418/p/pawnlib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-18 07:41:42] INFO root fetch - processPackages [merlin-sdk]: Downloading https://files.pythonhosted.org/packages/a6/93/1ec49bc87e9c3783e78f1047b5a8045a37c626115351da0f603c1ae6a894/merlin-sdk-0.9.0.dev0.tar.gz
+[2023-04-18 07:41:42] INFO root fetch - processPackages [ExpdFtpService]: Downloading https://files.pythonhosted.org/packages/16/d2/540c66b4cea5aba3fcdc0725556bae921fa0f6b26645150b3c7f906990b4/ExpdFtpService-0.6.0.tar.gz
+[2023-04-18 07:41:42] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/44/7e/c72fe44c06d9008a60e34842b1382879bce7a98a54da73f13bae8db204fe/hagrid-0.2.99.tar.gz
+[2023-04-18 07:41:42] INFO root fetch - processPackages [brightest-path-lib]: Downloading https://files.pythonhosted.org/packages/7e/d7/bbec94b3b24d55651b071d8b24e5d719f29861828ad9a2c6ac0a020a35f1/brightest-path-lib-1.0.3.tar.gz
+[2023-04-18 07:41:42] INFO root fetch - processPackages [oci-cli]: Downloading https://files.pythonhosted.org/packages/28/26/9545f447fdb6b4a5f9a826926f2e62e7e1ab1ce79158df9f197679f1b25d/oci-cli-3.9.0.tar.gz
+[2023-04-18 07:41:42] INFO root fetch - processPackages [barriers]: Downloading https://files.pythonhosted.org/packages/af/41/700b4f08eda2c6c47bfbfef54ffd5d8f6466752769dfcd461fc283372449/barriers-1.0.0.tar.gz
+[2023-04-18 07:41:42] INFO root fetch - processPackages [zcatalyst-runtime-39]: Downloading https://files.pythonhosted.org/packages/2f/fa/a7702a115487a6de2aab5b255d342ddf29a57072c8b446ece2209f6c7c30/zcatalyst_runtime_39-0.0.4.tar.gz
+[2023-04-18 07:41:42] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/84/7d/6603e9df31a0078ccfc89abbcd1b17ae2d9aec80231ad39fc3d0beab6f94/hagrid-0.3.1.tar.gz
+[2023-04-18 07:41:42] INFO root fetch - processPackages [zcatalyst-runtime-39]: executing diffoscope
+[2023-04-18 07:41:42] INFO root fetch - processPackages [zcatalyst-runtime-39]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcatalyst_runtime_39-0.0.3.tar.gz tmp/zcatalyst_runtime_39-0.0.4.tar.gz --markdown 20230418/z/zcatalyst-runtime-39/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-18 07:41:42] INFO root fetch - processPackages [hagrid]: executing diffoscope
+[2023-04-18 07:41:42] INFO root fetch - processPackages [hagrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagrid-0.2.99.tar.gz tmp/hagrid-0.3.1.tar.gz --markdown 20230418/h/hagrid/0.2.99-0.3.1/diff.md --exclude *.pyd
+[2023-04-18 07:41:42] INFO root fetch - processPackages [brightest-path-lib]: Downloading https://files.pythonhosted.org/packages/cb/33/eb63403797fbc59b032a4313dc2b98b1f512ee5fefb2088bedf52d5a8d0a/brightest-path-lib-1.0.4.tar.gz
+[2023-04-18 07:41:42] INFO root fetch - processPackages [ExpdFtpService]: Downloading https://files.pythonhosted.org/packages/36/5e/29ba481ed658127dcc9c6c39845e85720a6d3523cc0c267caa746df5eaf9/ExpdFtpService-0.7.0.tar.gz
+[2023-04-18 07:41:42] INFO root fetch - processPackages [ExpdFtpService]: executing diffoscope
+[2023-04-18 07:41:42] INFO root fetch - processPackages [ExpdFtpService]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ExpdFtpService-0.6.0.tar.gz tmp/ExpdFtpService-0.7.0.tar.gz --markdown 20230418/E/ExpdFtpService/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-04-18 07:41:42] INFO root fetch - processPackages [brightest-path-lib]: executing diffoscope
+[2023-04-18 07:41:42] INFO root fetch - processPackages [brightest-path-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brightest-path-lib-1.0.3.tar.gz tmp/brightest-path-lib-1.0.4.tar.gz --markdown 20230418/b/brightest-path-lib/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-18 07:41:42] INFO root fetch - processPackages [barriers]: Downloading https://files.pythonhosted.org/packages/17/4c/1affe31e75b3a81918b13996e031fafd96056a3870708ee1a2b810abe901/barriers-1.1.0.tar.gz
+[2023-04-18 07:41:42] INFO root fetch - processPackages [merlin-sdk]: Downloading https://files.pythonhosted.org/packages/48/3b/5e6b41bed4feb59823f7fa8ccbf076c977df12a20955a3c783fab418f126/merlin-sdk-0.9.1.tar.gz
+[2023-04-18 07:41:42] INFO root fetch - processPackages [barriers]: executing diffoscope
+[2023-04-18 07:41:42] INFO root fetch - processPackages [barriers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/barriers-1.0.0.tar.gz tmp/barriers-1.1.0.tar.gz --markdown 20230418/b/barriers/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-04-18 07:41:42] INFO root fetch - processPackages [merlin-sdk]: executing diffoscope
+[2023-04-18 07:41:42] INFO root fetch - processPackages [merlin-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merlin-sdk-0.9.0.dev0.tar.gz tmp/merlin-sdk-0.9.1.tar.gz --markdown 20230418/m/merlin-sdk/0.9.0.dev0-0.9.1/diff.md --exclude *.pyd
+[2023-04-18 07:41:43] INFO root fetch - main [MainThread]: End processing [pawnlib]: success
+[2023-04-18 07:41:43] INFO root fetch - main [MainThread]: End processing [zcatalyst-runtime-39]: success
+[2023-04-18 07:41:43] INFO root fetch - main [MainThread]: End processing [ExpdFtpService]: success
+[2023-04-18 07:41:43] INFO root fetch - main [MainThread]: End processing [hagrid]: success
+[2023-04-18 07:41:43] INFO root fetch - main [MainThread]: End processing [brightest-path-lib]: success
+[2023-04-18 07:41:44] INFO root fetch - main [MainThread]: End processing [barriers]: success
+[2023-04-18 07:41:44] INFO root fetch - processPackages [oci-cli]: Downloading https://files.pythonhosted.org/packages/c1/02/2a386b82d70ada3a13133f3015b40f55f9b5b6d7b77baf7dc6f9d32e39ef/oci-cli-3.9.1.tar.gz
+[2023-04-18 07:41:46] INFO root fetch - main [MainThread]: End processing [merlin-sdk]: success
+[2023-04-18 07:41:47] INFO root fetch - processPackages [oci-cli]: executing diffoscope
+[2023-04-18 07:41:47] INFO root fetch - processPackages [oci-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oci-cli-3.9.0.tar.gz tmp/oci-cli-3.9.1.tar.gz --markdown 20230418/o/oci-cli/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-04-18 07:44:47] ERROR root fetch - processPackages [oci-cli]: Timeout during execution of pkgdiff
+[2023-04-18 07:44:47] INFO root fetch - main [MainThread]: End processing [oci-cli] error
+[2023-04-18 07:44:47] INFO root fetch - main [MainThread]: Store serial: [17750060]
