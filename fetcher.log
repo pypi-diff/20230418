@@ -6675,3 +6675,71 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 03:33:37] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
 [2023-04-18 03:33:38] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-zip]: success
 [2023-04-18 03:33:38] INFO root fetch - main [MainThread]: Store serial: [17748296]
+[2023-04-18 03:38:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17748296]
+[2023-04-18 03:38:46] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-18 03:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-numpy
+[2023-04-18 03:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-roborock
+[2023-04-18 03:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-pandas
+[2023-04-18 03:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-pytorch
+[2023-04-18 03:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: naver-net
+[2023-04-18 03:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: brainpy
+[2023-04-18 03:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mia-accounting
+[2023-04-18 03:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cbra
+[2023-04-18 03:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: edc-pdutils
+[2023-04-18 03:38:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbdev-scipy
+[2023-04-18 03:38:46] INFO root fetch - processPackages [python-roborock]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-04-18 03:38:46] INFO root fetch - processPackages [cbra]: New version: [3.0.0a7] Old Version: [2.0.0a89]
+[2023-04-18 03:38:46] INFO root fetch - processPackages [edc-pdutils]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-18 03:38:46] INFO root fetch - processPackages [brainpy]: New version: [2.4.0.0.1] Old Version: [2.4.0]
+[2023-04-18 03:38:46] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-18 03:38:46] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-18 03:38:46] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-18 03:38:46] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-18 03:38:46] INFO root fetch - processPackages [naver-net]: New version: [0.0.2.post2] Old Version: [0.0.2.post1]
+[2023-04-18 03:38:46] INFO root fetch - processPackages [mia-accounting]: New version: [1.4.0] Old Version: [1.3.3]
+[2023-04-18 03:38:46] INFO root fetch - processPackages [python-roborock]: Downloading https://files.pythonhosted.org/packages/c7/db/433e70001d88978241af1f3a5392c51ad5a3029508d00c85ca92aee20704/python_roborock-0.6.8.tar.gz
+[2023-04-18 03:38:46] INFO root fetch - processPackages [cbra]: Downloading https://files.pythonhosted.org/packages/6d/a4/38ac7defabdabaf4a24e46b5163bb13286b72e52afade837ec2558b6b1a1/cbra-2.0.0a89.tar.gz
+[2023-04-18 03:38:46] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-04-18 03:38:46] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230418/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-18 03:38:46] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-04-18 03:38:46] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230418/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-18 03:38:46] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-04-18 03:38:46] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230418/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-18 03:38:47] INFO root fetch - processPackages [naver-net]: Downloading https://files.pythonhosted.org/packages/ae/ab/434595f59399061006868ca4cc2ba16b510ab1deb6fcfaa3326ea8eef0c0/naver-net-0.0.2.post1.tar.gz
+[2023-04-18 03:38:47] INFO root fetch - processPackages [mia-accounting]: Downloading https://files.pythonhosted.org/packages/84/9b/f0fd63c3d74a97b960fc9d13e04c96dd6daa622319c3dceaa19004c834eb/mia-accounting-1.3.3.tar.gz
+[2023-04-18 03:38:47] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-04-18 03:38:47] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230418/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-18 03:38:47] INFO root fetch - processPackages [brainpy]: Downloading https://files.pythonhosted.org/packages/b8/2c/488b62a2871038c017c69fcf9aac3e1469c3252650154be33276464407aa/brainpy-2.4.0.0.1-py3-none-any.whl
+[2023-04-18 03:38:47] INFO root fetch - processPackages [edc-pdutils]: executing diffoscope
+[2023-04-18 03:38:47] INFO root fetch - processPackages [edc-pdutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-pdutils-0.3.8.tar.gz tmp/edc-pdutils-0.3.9.tar.gz --markdown 20230418/e/edc-pdutils/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-18 03:38:47] INFO root fetch - processPackages [python-roborock]: Downloading https://files.pythonhosted.org/packages/d4/9f/d11438580c6413e1ce9fbf47822ed8d69cb761be5aa463bf5ab41e8ce5e7/python_roborock-0.6.9.tar.gz
+[2023-04-18 03:38:47] INFO root fetch - processPackages [cbra]: executing diffoscope
+[2023-04-18 03:38:47] INFO root fetch - processPackages [cbra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbra-2.0.0a89.tar.gz tmp/cbra-3.0.0a7.tar.gz --markdown 20230418/c/cbra/2.0.0a89-3.0.0a7/diff.md --exclude *.pyd
+[2023-04-18 03:38:47] INFO root fetch - processPackages [mia-accounting]: Downloading https://files.pythonhosted.org/packages/a5/ef/8779848f4de7eff69259b1becc9132e2ef5f0bef8cabc60eb69d733cae4b/mia-accounting-1.4.0.tar.gz
+[2023-04-18 03:38:47] INFO root fetch - processPackages [naver-net]: Downloading https://files.pythonhosted.org/packages/a3/f7/ad1bd390e9ea4dbff4a3f8cc3b5127cb05a97d14b5ba8ac7bded4f1c2f38/naver-net-0.0.2.post2.tar.gz
+[2023-04-18 03:38:47] INFO root fetch - processPackages [python-roborock]: executing diffoscope
+[2023-04-18 03:38:47] INFO root fetch - processPackages [python-roborock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_roborock-0.6.8.tar.gz tmp/python_roborock-0.6.9.tar.gz --markdown 20230418/p/python-roborock/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-04-18 03:38:47] INFO root fetch - processPackages [mia-accounting]: executing diffoscope
+[2023-04-18 03:38:47] INFO root fetch - processPackages [mia-accounting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mia-accounting-1.3.3.tar.gz tmp/mia-accounting-1.4.0.tar.gz --markdown 20230418/m/mia-accounting/1.3.3-1.4.0/diff.md --exclude *.pyd
+[2023-04-18 03:38:47] INFO root fetch - processPackages [naver-net]: executing diffoscope
+[2023-04-18 03:38:47] INFO root fetch - processPackages [naver-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naver-net-0.0.2.post1.tar.gz tmp/naver-net-0.0.2.post2.tar.gz --markdown 20230418/n/naver-net/0.0.2.post1-0.0.2.post2/diff.md --exclude *.pyd
+[2023-04-18 03:38:47] INFO root fetch - processPackages [brainpy]: executing diffoscope
+[2023-04-18 03:38:47] INFO root fetch - processPackages [brainpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brainpy-2.4.0-py3-none-any.whl.zip tmp/brainpy-2.4.0.0.1-py3-none-any.whl.zip --markdown 20230418/b/brainpy/2.4.0-2.4.0.0.1/diff.md --exclude *.pyd
+[2023-04-18 03:38:48] INFO root fetch - processPackages [nbdev-numpy]: Start processing: headless
+[2023-04-18 03:38:48] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-04-18 03:38:48] INFO root fetch - processPackages [headless]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-04-18 03:38:48] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-04-18 03:38:48] INFO root fetch - processPackages [headless]: Downloading https://files.pythonhosted.org/packages/01/29/f491c1a0644d9df25cc0746859c9830d9b3f44d290ebd1e5de7b756b2490/headless-2.0.0a8.tar.gz
+[2023-04-18 03:38:48] INFO root fetch - main [MainThread]: End processing [edc-pdutils]: success
+[2023-04-18 03:38:49] INFO root fetch - processPackages [headless]: Downloading https://files.pythonhosted.org/packages/db/4e/49b62296a404c0b751546e8c9091d5f19f25932fffbf24e6927b8888f3d2/headless-2.0.0a9.tar.gz
+[2023-04-18 03:38:49] INFO root fetch - main [MainThread]: End processing [python-roborock]: success
+[2023-04-18 03:38:49] INFO root fetch - processPackages [headless]: executing diffoscope
+[2023-04-18 03:38:49] INFO root fetch - processPackages [headless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/headless-2.0.0a8.tar.gz tmp/headless-2.0.0a9.tar.gz --markdown 20230418/h/headless/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-04-18 03:38:49] INFO root fetch - main [MainThread]: End processing [naver-net]: success
+[2023-04-18 03:38:49] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-04-18 03:38:49] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-04-18 03:38:51] INFO root fetch - main [MainThread]: End processing [headless]: success
+[2023-04-18 03:38:51] INFO root fetch - main [MainThread]: End processing [cbra]: success
+[2023-04-18 03:38:53] INFO root fetch - main [MainThread]: End processing [mia-accounting]: success
+[2023-04-18 03:38:53] INFO root fetch - main [MainThread]: End processing [brainpy]: success
+[2023-04-18 03:38:53] INFO root fetch - main [MainThread]: Store serial: [17748326]
