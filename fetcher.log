@@ -20440,3 +20440,102 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 14:44:19] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-04-18 14:44:52] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-04-18 14:44:52] INFO root fetch - main [MainThread]: Store serial: [17755806]
+[2023-04-18 14:49:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17755806]
+[2023-04-18 14:50:02] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-18 14:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kaiju-auth
+[2023-04-18 14:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hkkang-utils
+[2023-04-18 14:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pysqream-blue-sqlalchemy
+[2023-04-18 14:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cookie-pbs-test
+[2023-04-18 14:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arkitekt
+[2023-04-18 14:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Thingy
+[2023-04-18 14:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PHX
+[2023-04-18 14:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kaiju-tools
+[2023-04-18 14:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: splight-lib
+[2023-04-18 14:50:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: unsupported-python
+[2023-04-18 14:50:02] INFO root fetch - processPackages [kaiju-auth]: New version: [2.0.13] Old Version: [2.0.12]
+[2023-04-18 14:50:02] INFO root fetch - processPackages [cookie-pbs-test]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-18 14:50:02] INFO root fetch - processPackages [PHX]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-04-18 14:50:02] INFO root fetch - processPackages [pysqream-blue-sqlalchemy]: New version: [0.3] Old Version: [0.2]
+[2023-04-18 14:50:02] INFO root fetch - processPackages [unsupported-python]: New version: [3.12] Old Version: [3.11]
+[2023-04-18 14:50:02] INFO root fetch - processPackages [hkkang-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-18 14:50:02] INFO root fetch - processPackages [Thingy]: New version: [0.9.0] Old Version: [0.8.5]
+[2023-04-18 14:50:02] INFO root fetch - processPackages [kaiju-tools]: New version: [2.0.45] Old Version: [2.0.44]
+[2023-04-18 14:50:02] INFO root fetch - processPackages [arkitekt]: New version: [0.4.9] Old Version: [0.4.80]
+[2023-04-18 14:50:02] INFO root fetch - processPackages [splight-lib]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-04-18 14:50:02] INFO root fetch - processPackages [PHX]: executing diffoscope
+[2023-04-18 14:50:02] INFO root fetch - processPackages [PHX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PHX-1.8.1.tar.gz tmp/PHX-1.9.0.tar.gz --markdown 20230418/P/PHX/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-04-18 14:50:02] INFO root fetch - processPackages [cookie-pbs-test]: Downloading https://files.pythonhosted.org/packages/bc/61/129fd22cec0642ce5b4e2023f9572afec5ff3b8276b136ee5c96642acc8f/cookie_pbs_test-0.0.2.tar.gz
+[2023-04-18 14:50:02] INFO root fetch - processPackages [unsupported-python]: Downloading https://files.pythonhosted.org/packages/5c/8e/24f8921c183fa6cfe2f8b4fb494155f259f62af094ba1b5a92b241f52b66/unsupported-python-3.11.tar.gz
+[2023-04-18 14:50:02] INFO root fetch - processPackages [arkitekt]: Downloading https://files.pythonhosted.org/packages/53/3b/f9055b35b22c0e6dfd48fac6539114a42ab74e158650b8f6f1575279589a/arkitekt-0.4.80.tar.gz
+[2023-04-18 14:50:02] INFO root fetch - processPackages [kaiju-auth]: Downloading https://files.pythonhosted.org/packages/68/03/56dd9e4d7360503a855f2f5e041fb04160861eb355de18a6b33515f9e20f/kaiju_auth-2.0.12-py3-none-any.whl
+[2023-04-18 14:50:02] INFO root fetch - processPackages [pysqream-blue-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/d2/85/737a3489daa389d0d535c4e1fe75c12a402608c2578a28a46dc81b5e057b/pysqream_blue_sqlalchemy-0.3.tar.gz
+[2023-04-18 14:50:02] INFO root fetch - processPackages [kaiju-tools]: Downloading https://files.pythonhosted.org/packages/e0/9f/6eff2e04218c5332d848c8e25201d223b75224b3ee5f259ce521d853869e/kaiju_tools-2.0.45-py3-none-any.whl
+[2023-04-18 14:50:02] INFO root fetch - processPackages [pysqream-blue-sqlalchemy]: executing diffoscope
+[2023-04-18 14:50:02] INFO root fetch - processPackages [pysqream-blue-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysqream_blue_sqlalchemy-0.2.tar.gz tmp/pysqream_blue_sqlalchemy-0.3.tar.gz --markdown 20230418/p/pysqream-blue-sqlalchemy/0.2-0.3/diff.md --exclude *.pyd
+[2023-04-18 14:50:02] INFO root fetch - processPackages [Thingy]: Downloading https://files.pythonhosted.org/packages/80/e7/ee5a018cb84dc36ee27d6f37ff170a907671966286a79a55f3c6b41580af/Thingy-0.8.5.tar.gz
+[2023-04-18 14:50:02] INFO root fetch - processPackages [kaiju-auth]: Downloading https://files.pythonhosted.org/packages/64/e3/177515705b73b9476e2d3b5b52ae50b0eb587146d14eb015966dbb24682e/kaiju_auth-2.0.13-py3-none-any.whl
+[2023-04-18 14:50:02] INFO root fetch - processPackages [hkkang-utils]: executing diffoscope
+[2023-04-18 14:50:02] INFO root fetch - processPackages [hkkang-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hkkang_utils-0.1.8.tar.gz tmp/hkkang_utils-0.1.9.tar.gz --markdown 20230418/h/hkkang-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-18 14:50:02] INFO root fetch - processPackages [splight-lib]: executing diffoscope
+[2023-04-18 14:50:02] INFO root fetch - processPackages [splight-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-lib-2.2.8.tar.gz tmp/splight-lib-2.2.9.tar.gz --markdown 20230418/s/splight-lib/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-04-18 14:50:02] INFO root fetch - processPackages [cookie-pbs-test]: Downloading https://files.pythonhosted.org/packages/e1/d2/4ae1112da7fb11d94e14893d1d5dc1e39511ed9238f313ae54b52270bd13/cookie_pbs_test-0.0.3.tar.gz
+[2023-04-18 14:50:02] INFO root fetch - processPackages [kaiju-tools]: executing diffoscope
+[2023-04-18 14:50:02] INFO root fetch - processPackages [kaiju-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaiju_tools-2.0.44-py3-none-any.whl.zip tmp/kaiju_tools-2.0.45-py3-none-any.whl.zip --markdown 20230418/k/kaiju-tools/2.0.44-2.0.45/diff.md --exclude *.pyd
+[2023-04-18 14:50:02] INFO root fetch - processPackages [arkitekt]: executing diffoscope
+[2023-04-18 14:50:02] INFO root fetch - processPackages [arkitekt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkitekt-0.4.80.tar.gz tmp/arkitekt-0.4.9.tar.gz --markdown 20230418/a/arkitekt/0.4.80-0.4.9/diff.md --exclude *.pyd
+[2023-04-18 14:50:02] INFO root fetch - processPackages [unsupported-python]: Downloading https://files.pythonhosted.org/packages/01/f3/2ec5909ac934a66840256331cfe0682ab4f608cc177163166969cfa9de6a/unsupported-python-3.12.tar.gz
+[2023-04-18 14:50:02] INFO root fetch - processPackages [kaiju-auth]: executing diffoscope
+[2023-04-18 14:50:02] INFO root fetch - processPackages [kaiju-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaiju_auth-2.0.12-py3-none-any.whl.zip tmp/kaiju_auth-2.0.13-py3-none-any.whl.zip --markdown 20230418/k/kaiju-auth/2.0.12-2.0.13/diff.md --exclude *.pyd
+[2023-04-18 14:50:02] INFO root fetch - processPackages [cookie-pbs-test]: executing diffoscope
+[2023-04-18 14:50:02] INFO root fetch - processPackages [cookie-pbs-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cookie_pbs_test-0.0.2.tar.gz tmp/cookie_pbs_test-0.0.3.tar.gz --markdown 20230418/c/cookie-pbs-test/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-18 14:50:02] INFO root fetch - processPackages [unsupported-python]: executing diffoscope
+[2023-04-18 14:50:02] INFO root fetch - processPackages [unsupported-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unsupported-python-3.11.tar.gz tmp/unsupported-python-3.12.tar.gz --markdown 20230418/u/unsupported-python/3.11-3.12/diff.md --exclude *.pyd
+[2023-04-18 14:50:03] INFO root fetch - processPackages [Thingy]: Downloading https://files.pythonhosted.org/packages/13/8a/d9237242cd8d3acb17ab8fd68397523d5c3be42f6dde0c792174d704918f/Thingy-0.9.0.tar.gz
+[2023-04-18 14:50:03] INFO root fetch - processPackages [Thingy]: executing diffoscope
+[2023-04-18 14:50:03] INFO root fetch - processPackages [Thingy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Thingy-0.8.5.tar.gz tmp/Thingy-0.9.0.tar.gz --markdown 20230418/T/Thingy/0.8.5-0.9.0/diff.md --exclude *.pyd
+[2023-04-18 14:50:04] INFO root fetch - processPackages [hkkang-utils]: Start processing: unsupported-python
+[2023-04-18 14:50:04] INFO root fetch - main [MainThread]: End processing [hkkang-utils]: success
+[2023-04-18 14:50:04] INFO root fetch - processPackages [unsupported-python]: New version: [3.12] Old Version: [3.11]
+[2023-04-18 14:50:04] INFO root fetch - processPackages [pysqream-blue-sqlalchemy]: Start processing: DLMS-SPODES
+[2023-04-18 14:50:04] INFO root fetch - main [MainThread]: End processing [pysqream-blue-sqlalchemy]: success
+[2023-04-18 14:50:04] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-04-18 14:50:04] INFO root fetch - processPackages [unsupported-python]: executing diffoscope
+[2023-04-18 14:50:04] INFO root fetch - processPackages [unsupported-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unsupported-python-3.11.tar.gz tmp/unsupported-python-3.12.tar.gz --markdown 20230418/u/unsupported-python/3.11-3.12/diff.md --exclude *.pyd
+[2023-04-18 14:50:04] INFO root fetch - processPackages [unsupported-python]: Start processing: unsupported-python
+[2023-04-18 14:50:04] INFO root fetch - main [MainThread]: End processing [unsupported-python]: success
+[2023-04-18 14:50:04] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2023-04-18 14:50:04] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20230418/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-04-18 14:50:04] INFO root fetch - processPackages [cookie-pbs-test]: Start processing: homeassistant-stubs
+[2023-04-18 14:50:04] INFO root fetch - main [MainThread]: End processing [cookie-pbs-test]: success
+[2023-04-18 14:50:04] INFO root fetch - processPackages [unsupported-python]: New version: [3.12] Old Version: [3.11]
+[2023-04-18 14:50:04] INFO root fetch - processPackages [homeassistant-stubs]: New version: [2023.4.5] Old Version: [2023.4.4]
+[2023-04-18 14:50:04] INFO root fetch - processPackages [arkitekt]: Start processing: charsi
+[2023-04-18 14:50:04] INFO root fetch - main [MainThread]: End processing [arkitekt]: success
+[2023-04-18 14:50:04] INFO root fetch - processPackages [charsi]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-04-18 14:50:04] INFO root fetch - processPackages [kaiju-auth]: Start processing: mb-pytorch
+[2023-04-18 14:50:04] INFO root fetch - main [MainThread]: End processing [kaiju-auth]: success
+[2023-04-18 14:50:04] INFO root fetch - processPackages [unsupported-python]: executing diffoscope
+[2023-04-18 14:50:04] INFO root fetch - processPackages [unsupported-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unsupported-python-3.11.tar.gz tmp/unsupported-python-3.12.tar.gz --markdown 20230418/u/unsupported-python/3.11-3.12/diff.md --exclude *.pyd
+[2023-04-18 14:50:04] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.202304181249] Old Version: [1.0.202304180821]
+[2023-04-18 14:50:04] INFO root fetch - main [MainThread]: End processing [Thingy]: success
+[2023-04-18 14:50:04] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/15/74/9ff41ad01c3c94f93f8bc3b20c9069c4f1cad94ab172de4b774f462d2b73/homeassistant_stubs-2023.4.4.tar.gz
+[2023-04-18 14:50:04] INFO root fetch - processPackages [charsi]: Downloading https://files.pythonhosted.org/packages/b3/61/8823044b6f40876563b7c8225555874185095b2d4736b640874170784d6f/charsi-1.3.0.tar.gz
+[2023-04-18 14:50:04] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/2a/1a/9ce79ebd1da2246f68d7b80ecce622bdf4a94f75649705b39f26be004cf8/mb_pytorch-1.0.202304180821-py3-none-any.whl
+[2023-04-18 14:50:04] INFO root fetch - processPackages [charsi]: executing diffoscope
+[2023-04-18 14:50:04] INFO root fetch - processPackages [charsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/charsi-1.2.0.tar.gz tmp/charsi-1.3.0.tar.gz --markdown 20230418/c/charsi/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-04-18 14:50:04] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/f9/23/5d0fed5f8f587fdad1c508d50916040cc78528cc5bbd41801481eab2155e/homeassistant_stubs-2023.4.5.tar.gz
+[2023-04-18 14:50:04] INFO root fetch - main [MainThread]: End processing [kaiju-tools]: success
+[2023-04-18 14:50:04] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/3f/25/9982b311acfd1a9e4060e6f476463162cd92575c8963b5e7283f85278dca/mb_pytorch-1.0.202304181249-py3-none-any.whl
+[2023-04-18 14:50:05] INFO root fetch - processPackages [homeassistant-stubs]: executing diffoscope
+[2023-04-18 14:50:05] INFO root fetch - processPackages [homeassistant-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeassistant_stubs-2023.4.4.tar.gz tmp/homeassistant_stubs-2023.4.5.tar.gz --markdown 20230418/h/homeassistant-stubs/2023.4.4-2023.4.5/diff.md --exclude *.pyd
+[2023-04-18 14:50:05] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2023-04-18 14:50:05] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.202304180821-py3-none-any.whl.zip tmp/mb_pytorch-1.0.202304181249-py3-none-any.whl.zip --markdown 20230418/m/mb-pytorch/1.0.202304180821-1.0.202304181249/diff.md --exclude *.pyd
+[2023-04-18 14:50:05] INFO root fetch - main [MainThread]: End processing [unsupported-python]: success
+[2023-04-18 14:50:05] INFO root fetch - main [MainThread]: End processing [splight-lib]: success
+[2023-04-18 14:50:05] INFO root fetch - main [MainThread]: End processing [unsupported-python]: success
+[2023-04-18 14:50:05] INFO root fetch - main [MainThread]: End processing [charsi]: success
+[2023-04-18 14:50:06] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2023-04-18 14:50:06] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2023-04-18 14:50:06] INFO root fetch - main [MainThread]: End processing [PHX]: success
+[2023-04-18 14:50:51] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
+[2023-04-18 14:50:51] INFO root fetch - main [MainThread]: Store serial: [17755854]
