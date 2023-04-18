@@ -21132,3 +21132,117 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 15:18:03] INFO root fetch - main [MainThread]: End processing [axion]: success
 [2023-04-18 15:18:03] INFO root fetch - main [MainThread]: End processing [voici]: success
 [2023-04-18 15:18:03] INFO root fetch - main [MainThread]: Store serial: [17756178]
+[2023-04-18 15:23:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17756178]
+[2023-04-18 15:23:13] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-04-18 15:23:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: axion
+[2023-04-18 15:23:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-apl
+[2023-04-18 15:23:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: untanglepyut
+[2023-04-18 15:23:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ntfy-lite
+[2023-04-18 15:23:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pysarcat
+[2023-04-18 15:23:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pymathematics
+[2023-04-18 15:23:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gpt4all-j
+[2023-04-18 15:23:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: conllup
+[2023-04-18 15:23:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qtdark
+[2023-04-18 15:23:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: quarkstudio
+[2023-04-18 15:23:13] INFO root fetch - processPackages [axion]: New version: [3.2.21] Old Version: [3.2.20]
+[2023-04-18 15:23:13] INFO root fetch - processPackages [untanglepyut]: New version: [0.6.6] Old Version: [0.6.56]
+[2023-04-18 15:23:13] INFO root fetch - processPackages [ntfy-lite]: New version: [1.0.11] Old Version: [1.0.1]
+[2023-04-18 15:23:13] INFO root fetch - processPackages [pysarcat]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-18 15:23:13] WARNING root fetch - processPackages [qtdark]: Skipping, unable to determine old version
+[2023-04-18 15:23:13] INFO root fetch - processPackages [qtdark]: Start processing: Askpyro
+[2023-04-18 15:23:13] INFO root fetch - main [MainThread]: End processing [qtdark] error
+[2023-04-18 15:23:13] INFO root fetch - processPackages [pymathematics]: New version: [2023.4.18] Old Version: [2023.4.17]
+[2023-04-18 15:23:13] INFO root fetch - processPackages [gpt4all-j]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-18 15:23:13] INFO root fetch - processPackages [quarkstudio]: New version: [6.5.0rc6] Old Version: [6.5.0rc5]
+[2023-04-18 15:23:13] INFO root fetch - processPackages [conllup]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-04-18 15:23:13] INFO root fetch - processPackages [Askpyro]: New version: [1.73.2] Old Version: [1.73.1]
+[2023-04-18 15:23:13] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.721] Old Version: [0.0.720]
+[2023-04-18 15:23:13] INFO root fetch - processPackages [axion]: executing diffoscope
+[2023-04-18 15:23:13] INFO root fetch - processPackages [axion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axion-3.2.20-cp311-cp311-win_amd64.whl.zip tmp/axion-3.2.21-cp311-cp311-macosx_10_9_universal2.whl.zip --markdown 20230418/a/axion/3.2.20-3.2.21/diff.md --exclude *.pyd
+[2023-04-18 15:23:13] INFO root fetch - processPackages [untanglepyut]: Downloading https://files.pythonhosted.org/packages/2b/37/a388455eea2ea6926b73624e4ab6f20c7ab5d37e794180c83834125a5713/untanglepyut-0.6.56.tar.gz
+[2023-04-18 15:23:13] INFO root fetch - processPackages [quarkstudio]: Downloading https://files.pythonhosted.org/packages/e1/91/96d21e1db03458da8725235d003f34aecc582167a4a337d63ca21d7a243e/quarkstudio-6.5.0rc5-cp311-cp311-win_amd64.whl
+[2023-04-18 15:23:13] INFO root fetch - processPackages [gpt4all-j]: Downloading https://files.pythonhosted.org/packages/5f/79/acbb48f62e703cce329620edb2f00bbc4d14994b2348b448e458d10fe07a/gpt4all-j-0.1.3.tar.gz
+[2023-04-18 15:23:13] INFO root fetch - processPackages [ntfy-lite]: Downloading https://files.pythonhosted.org/packages/48/d2/50586a3eca5688e4acdd56f67ce81f76e19f98a7cf0c2b9c3bf4c5e8af81/ntfy_lite-1.0.1.tar.gz
+[2023-04-18 15:23:13] INFO root fetch - processPackages [Askpyro]: Downloading https://files.pythonhosted.org/packages/78/d4/d45351013c6c93256f86ddb92f163a043b8e10eaed225b51935e5c08ff95/Askpyro-1.73.1.tar.gz
+[2023-04-18 15:23:13] INFO root fetch - processPackages [pysarcat]: Downloading https://files.pythonhosted.org/packages/07/16/263eeb629882bb1ccbd20135b342356b8df4e72e1e7981e2880dfcb1afd9/pysarcat-1.0.5-py3-none-any.whl
+[2023-04-18 15:23:13] INFO root fetch - processPackages [pymathematics]: Downloading https://files.pythonhosted.org/packages/f8/82/f2c1c15a1c1d098ad39738eb8ed27a80c929d3b6761557831bd33aaa1fdd/pymathematics-2023.4.18.tar.gz
+[2023-04-18 15:23:13] INFO root fetch - processPackages [conllup]: Downloading https://files.pythonhosted.org/packages/ac/40/66fb00ea8942383fe0fa1a375073b2cb80a1e5523d2ba12ae48e90d496bc/conllup-0.4.6.tar.gz
+[2023-04-18 15:23:13] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/8d/5d/d42e0eb392fb30c62f37d6e5f138b59a0cf9d4c1c9ea0180205c406fced6/nbdev-apl-0.0.721.tar.gz
+[2023-04-18 15:23:13] INFO root fetch - processPackages [ntfy-lite]: Downloading https://files.pythonhosted.org/packages/99/b7/3d4ba00ce80cf3adabeda18504018031c8000d35be6b0c28d4a20bc3fb19/ntfy_lite-1.0.11.tar.gz
+[2023-04-18 15:23:13] INFO root fetch - processPackages [gpt4all-j]: executing diffoscope
+[2023-04-18 15:23:13] INFO root fetch - processPackages [gpt4all-j]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt4all-j-0.1.2.tar.gz tmp/gpt4all-j-0.1.3.tar.gz --markdown 20230418/g/gpt4all-j/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-18 15:23:13] INFO root fetch - processPackages [untanglepyut]: executing diffoscope
+[2023-04-18 15:23:13] INFO root fetch - processPackages [untanglepyut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/untanglepyut-0.6.56.tar.gz tmp/untanglepyut-0.6.6.tar.gz --markdown 20230418/u/untanglepyut/0.6.56-0.6.6/diff.md --exclude *.pyd
+[2023-04-18 15:23:13] INFO root fetch - processPackages [pymathematics]: executing diffoscope
+[2023-04-18 15:23:13] INFO root fetch - processPackages [pymathematics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymathematics-2023.4.17.tar.gz tmp/pymathematics-2023.4.18.tar.gz --markdown 20230418/p/pymathematics/2023.4.17-2023.4.18/diff.md --exclude *.pyd
+[2023-04-18 15:23:13] INFO root fetch - processPackages [pysarcat]: Downloading https://files.pythonhosted.org/packages/b2/b3/74aa2928731ca2b0e0f2ffc4caf12098179562abf24c0a2ea7754d9f8a92/pysarcat-1.0.6-py3-none-any.whl
+[2023-04-18 15:23:13] INFO root fetch - processPackages [conllup]: executing diffoscope
+[2023-04-18 15:23:13] INFO root fetch - processPackages [conllup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conllup-0.4.5.tar.gz tmp/conllup-0.4.6.tar.gz --markdown 20230418/c/conllup/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-04-18 15:23:13] INFO root fetch - processPackages [Askpyro]: Downloading https://files.pythonhosted.org/packages/f1/a1/19120f150c460d239e1b73cb37efae187ed7f898b052913fe2ff0d5642a0/Askpyro-1.73.2.tar.gz
+[2023-04-18 15:23:13] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-04-18 15:23:13] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.720.tar.gz tmp/nbdev-apl-0.0.721.tar.gz --markdown 20230418/n/nbdev-apl/0.0.720-0.0.721/diff.md --exclude *.pyd
+[2023-04-18 15:23:13] INFO root fetch - processPackages [ntfy-lite]: executing diffoscope
+[2023-04-18 15:23:13] INFO root fetch - processPackages [ntfy-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ntfy_lite-1.0.1.tar.gz tmp/ntfy_lite-1.0.11.tar.gz --markdown 20230418/n/ntfy-lite/1.0.1-1.0.11/diff.md --exclude *.pyd
+[2023-04-18 15:23:14] INFO root fetch - processPackages [pysarcat]: executing diffoscope
+[2023-04-18 15:23:14] INFO root fetch - processPackages [pysarcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysarcat-1.0.5-py3-none-any.whl.zip tmp/pysarcat-1.0.6-py3-none-any.whl.zip --markdown 20230418/p/pysarcat/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-04-18 15:23:14] INFO root fetch - processPackages [Askpyro]: executing diffoscope
+[2023-04-18 15:23:14] INFO root fetch - processPackages [Askpyro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Askpyro-1.73.1.tar.gz tmp/Askpyro-1.73.2.tar.gz --markdown 20230418/A/Askpyro/1.73.1-1.73.2/diff.md --exclude *.pyd
+[2023-04-18 15:23:14] INFO root fetch - processPackages [quarkstudio]: Downloading https://files.pythonhosted.org/packages/b2/50/f1f5afc6a1cb598db12e1c6d70db9e4652db68cfcacdb2e96014317a9d4a/quarkstudio-6.5.0rc6-cp311-cp311-macosx_10_9_universal2.whl
+[2023-04-18 15:23:15] INFO root fetch - processPackages [nbdev-apl]: Start processing: proteinTools
+[2023-04-18 15:23:15] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-04-18 15:23:15] INFO root fetch - processPackages [proteinTools]: New version: [1.1.0] Old Version: [1.0.4]
+[2023-04-18 15:23:15] INFO root fetch - processPackages [pymathematics]: Start processing: BBFinance
+[2023-04-18 15:23:15] INFO root fetch - main [MainThread]: End processing [pymathematics]: success
+[2023-04-18 15:23:15] INFO root fetch - processPackages [BBFinance]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-04-18 15:23:15] INFO root fetch - processPackages [conllup]: Start processing: plexorank
+[2023-04-18 15:23:15] INFO root fetch - main [MainThread]: End processing [conllup]: success
+[2023-04-18 15:23:15] INFO root fetch - processPackages [quarkstudio]: executing diffoscope
+[2023-04-18 15:23:15] INFO root fetch - processPackages [quarkstudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quarkstudio-6.5.0rc5-cp311-cp311-win_amd64.whl.zip tmp/quarkstudio-6.5.0rc6-cp311-cp311-macosx_10_9_universal2.whl.zip --markdown 20230418/q/quarkstudio/6.5.0rc5-6.5.0rc6/diff.md --exclude *.pyd
+[2023-04-18 15:23:15] INFO root fetch - processPackages [ntfy-lite]: Start processing: pepperize.cdk-route53-health-check
+[2023-04-18 15:23:15] INFO root fetch - main [MainThread]: End processing [ntfy-lite]: success
+[2023-04-18 15:23:15] INFO root fetch - processPackages [plexorank]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-18 15:23:15] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-18 15:23:15] INFO root fetch - processPackages [Askpyro]: Start processing: strangeworks-vqe
+[2023-04-18 15:23:15] INFO root fetch - main [MainThread]: End processing [Askpyro]: success
+[2023-04-18 15:23:15] INFO root fetch - processPackages [proteinTools]: Downloading https://files.pythonhosted.org/packages/a6/9b/ef1d32e82a96a1ab894854d8ac97237d7bbbf6db41303af4c10087a14280/proteinTools-1.0.4.tar.gz
+[2023-04-18 15:23:15] INFO root fetch - processPackages [strangeworks-vqe]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-18 15:23:15] INFO root fetch - processPackages [pysarcat]: Start processing: bybitHTTPX
+[2023-04-18 15:23:15] INFO root fetch - main [MainThread]: End processing [pysarcat]: success
+[2023-04-18 15:23:15] INFO root fetch - processPackages [BBFinance]: Downloading https://files.pythonhosted.org/packages/89/01/76aba0a621d3e60af01f15ef8bd6eb490a341d5ff63fb519bae4f4772afd/BBFinance-1.4.9.tar.gz
+[2023-04-18 15:23:15] INFO root fetch - processPackages [bybitHTTPX]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-04-18 15:23:15] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-04-18 15:23:15] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230418/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-18 15:23:15] INFO root fetch - processPackages [plexorank]: Downloading https://files.pythonhosted.org/packages/a1/de/0ae956244f5607377aea22a3e6dc63ab7a1c945e7ab890bbaf2840bfa978/plexorank-0.0.6.tar.gz
+[2023-04-18 15:23:15] INFO root fetch - processPackages [untanglepyut]: Start processing: pysarcat
+[2023-04-18 15:23:15] INFO root fetch - main [MainThread]: End processing [untanglepyut]: success
+[2023-04-18 15:23:15] INFO root fetch - processPackages [strangeworks-vqe]: Downloading https://files.pythonhosted.org/packages/4a/e7/17f806d6849f6259277ba1be062126c8b857158d9cf224c526ae2b25b429/strangeworks_vqe-0.1.2.tar.gz
+[2023-04-18 15:23:15] INFO root fetch - processPackages [pysarcat]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-04-18 15:23:15] INFO root fetch - processPackages [pysarcat]: executing diffoscope
+[2023-04-18 15:23:15] INFO root fetch - processPackages [pysarcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysarcat-1.0.5-py3-none-any.whl.zip tmp/pysarcat-1.0.6-py3-none-any.whl.zip --markdown 20230418/p/pysarcat/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-04-18 15:23:15] INFO root fetch - processPackages [proteinTools]: Downloading https://files.pythonhosted.org/packages/bf/59/fd4a58192ee7551465e716fd2832076d280489d522e580ee4ef72770034e/proteinTools-1.1.0.tar.gz
+[2023-04-18 15:23:15] INFO root fetch - processPackages [plexorank]: Downloading https://files.pythonhosted.org/packages/39/4a/99bc3abf7e41a1b709daa86a3dc2fc6948bd338ca7b2ba65e0d509bb8a43/plexorank-0.0.7.tar.gz
+[2023-04-18 15:23:15] INFO root fetch - processPackages [strangeworks-vqe]: executing diffoscope
+[2023-04-18 15:23:15] INFO root fetch - processPackages [strangeworks-vqe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strangeworks_vqe-0.1.1.tar.gz tmp/strangeworks_vqe-0.1.2.tar.gz --markdown 20230418/s/strangeworks-vqe/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-18 15:23:15] INFO root fetch - processPackages [bybitHTTPX]: Downloading https://files.pythonhosted.org/packages/c1/75/f0104cd52481520c6df5e0a494122413df43a5c76d507f44c5d735130a15/bybitHTTPX-0.0.4.tar.gz
+[2023-04-18 15:23:15] INFO root fetch - processPackages [BBFinance]: executing diffoscope
+[2023-04-18 15:23:15] INFO root fetch - processPackages [BBFinance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BBFinance-1.4.8.tar.gz tmp/BBFinance-1.4.9.tar.gz --markdown 20230418/B/BBFinance/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-04-18 15:23:15] INFO root fetch - processPackages [proteinTools]: executing diffoscope
+[2023-04-18 15:23:15] INFO root fetch - processPackages [proteinTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteinTools-1.0.4.tar.gz tmp/proteinTools-1.1.0.tar.gz --markdown 20230418/p/proteinTools/1.0.4-1.1.0/diff.md --exclude *.pyd
+[2023-04-18 15:23:15] INFO root fetch - processPackages [plexorank]: executing diffoscope
+[2023-04-18 15:23:15] INFO root fetch - processPackages [plexorank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plexorank-0.0.6.tar.gz tmp/plexorank-0.0.7.tar.gz --markdown 20230418/p/plexorank/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-18 15:23:16] INFO root fetch - processPackages [bybitHTTPX]: executing diffoscope
+[2023-04-18 15:23:16] INFO root fetch - processPackages [bybitHTTPX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bybitHTTPX-0.0.2.tar.gz tmp/bybitHTTPX-0.0.4.tar.gz --markdown 20230418/b/bybitHTTPX/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-04-18 15:23:16] INFO root fetch - processPackages [pysarcat]: Start processing: bootstrapped-ng
+[2023-04-18 15:23:16] INFO root fetch - main [MainThread]: End processing [pysarcat]: success
+[2023-04-18 15:23:17] INFO root fetch - main [MainThread]: End processing [strangeworks-vqe]: success
+[2023-04-18 15:23:17] WARNING root fetch - processPackages [bootstrapped-ng]: Skipping, unable to determine old version
+[2023-04-18 15:23:17] INFO root fetch - main [MainThread]: End processing [bootstrapped-ng] error
+[2023-04-18 15:23:17] INFO root fetch - main [MainThread]: End processing [proteinTools]: success
+[2023-04-18 15:23:17] INFO root fetch - main [MainThread]: End processing [bybitHTTPX]: success
+[2023-04-18 15:23:17] INFO root fetch - main [MainThread]: End processing [BBFinance]: success
+[2023-04-18 15:23:17] INFO root fetch - main [MainThread]: End processing [axion]: success
+[2023-04-18 15:23:18] INFO root fetch - main [MainThread]: End processing [gpt4all-j]: success
+[2023-04-18 15:23:19] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-04-18 15:23:22] INFO root fetch - main [MainThread]: End processing [quarkstudio]: success
+[2023-04-18 15:23:27] INFO root fetch - main [MainThread]: End processing [plexorank]: success
+[2023-04-18 15:23:27] INFO root fetch - main [MainThread]: Store serial: [17756239]
