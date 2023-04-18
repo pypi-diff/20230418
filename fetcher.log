@@ -16005,3 +16005,136 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-18 10:55:45] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-04-18 10:56:10] INFO root fetch - main [MainThread]: End processing [bitmovin-api-sdk]: success
 [2023-04-18 10:56:10] INFO root fetch - main [MainThread]: Store serial: [17753139]
+[2023-04-18 11:01:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17753139]
+[2023-04-18 11:01:19] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-04-18 11:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nlptoolssna
+[2023-04-18 11:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: w2w-ecs-autopublish-dummy
+[2023-04-18 11:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PrSpiders
+[2023-04-18 11:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: primehub-python-sdk
+[2023-04-18 11:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: indykite-sdk-python
+[2023-04-18 11:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: napari-sam
+[2023-04-18 11:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rest-framework-redesign
+[2023-04-18 11:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gitfluencer
+[2023-04-18 11:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nlptoolssna
+[2023-04-18 11:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: HassWS
+[2023-04-18 11:01:19] INFO root fetch - processPackages [nlptoolssna]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-04-18 11:01:19] INFO root fetch - processPackages [indykite-sdk-python]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-04-18 11:01:19] INFO root fetch - processPackages [primehub-python-sdk]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-18 11:01:19] INFO root fetch - processPackages [rest-framework-redesign]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-18 11:01:19] WARNING root fetch - processPackages [w2w-ecs-autopublish-dummy]: Skipping, unable to determine old version
+[2023-04-18 11:01:19] INFO root fetch - processPackages [PrSpiders]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-04-18 11:01:19] INFO root fetch - processPackages [w2w-ecs-autopublish-dummy]: Start processing: twigs
+[2023-04-18 11:01:19] INFO root fetch - main [MainThread]: End processing [w2w-ecs-autopublish-dummy] error
+[2023-04-18 11:01:19] INFO root fetch - processPackages [napari-sam]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-18 11:01:19] INFO root fetch - processPackages [gitfluencer]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-18 11:01:19] INFO root fetch - processPackages [nlptoolssna]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-04-18 11:01:19] INFO root fetch - processPackages [twigs]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-18 11:01:19] WARNING root fetch - processPackages [HassWS]: Skipping, unable to determine old version
+[2023-04-18 11:01:19] INFO root fetch - processPackages [HassWS]: Start processing: griffon
+[2023-04-18 11:01:19] INFO root fetch - main [MainThread]: End processing [HassWS] error
+[2023-04-18 11:01:19] INFO root fetch - processPackages [griffon]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-18 11:01:20] INFO root fetch - processPackages [nlptoolssna]: Downloading https://files.pythonhosted.org/packages/88/04/0802577180028ba03800d090a5b12715e836b37eabe754aa5fcec8aeb45f/nlptoolssna-0.2.6.tar.gz
+[2023-04-18 11:01:20] INFO root fetch - processPackages [nlptoolssna]: Downloading https://files.pythonhosted.org/packages/88/04/0802577180028ba03800d090a5b12715e836b37eabe754aa5fcec8aeb45f/nlptoolssna-0.2.6.tar.gz
+[2023-04-18 11:01:20] INFO root fetch - processPackages [napari-sam]: Downloading https://files.pythonhosted.org/packages/8f/44/c76e81af1572c1d95ce0b70eb89131db9d15cfee7437d9b5ec93c5c2268a/napari-sam-0.3.9.tar.gz
+[2023-04-18 11:01:20] INFO root fetch - processPackages [rest-framework-redesign]: Downloading https://files.pythonhosted.org/packages/2d/73/7551bac69981902fbbcd16559442ca7b0e1bd46d4c959ddde3ecd8114365/rest_framework_redesign-0.1.5.tar.gz
+[2023-04-18 11:01:20] INFO root fetch - processPackages [twigs]: Downloading https://files.pythonhosted.org/packages/48/d4/68adcc842577341551e4f4268c3f78866b55de0c9e324483d9de1b666386/twigs-1.1.8.tar.gz
+[2023-04-18 11:01:20] INFO root fetch - processPackages [primehub-python-sdk]: Downloading https://files.pythonhosted.org/packages/44/be/407325e23c676e6301763da09e98d8d16996d2cc38bf773605934d3770a6/primehub-python-sdk-0.4.0.tar.gz
+[2023-04-18 11:01:20] INFO root fetch - processPackages [griffon]: executing diffoscope
+[2023-04-18 11:01:20] INFO root fetch - processPackages [griffon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griffon-0.1.8.tar.gz tmp/griffon-0.1.9.tar.gz --markdown 20230418/g/griffon/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-18 11:01:20] INFO root fetch - processPackages [PrSpiders]: Downloading https://files.pythonhosted.org/packages/d6/6c/06d32fe6cf0d104509268ea9bd6e826e78bbfc17a9328d1ba6c041d64125/PrSpiders-0.3.8.tar.gz
+[2023-04-18 11:01:20] INFO root fetch - processPackages [gitfluencer]: Downloading https://files.pythonhosted.org/packages/4f/83/be67946f2ed5c42215e3b6955b0787827985735ee4a0086a53d76d2a37cb/gitfluencer-0.1.3.tar.gz
+[2023-04-18 11:01:20] INFO root fetch - processPackages [napari-sam]: executing diffoscope
+[2023-04-18 11:01:20] INFO root fetch - processPackages [napari-sam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-sam-0.3.8.tar.gz tmp/napari-sam-0.3.9.tar.gz --markdown 20230418/n/napari-sam/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-18 11:01:20] INFO root fetch - processPackages [rest-framework-redesign]: executing diffoscope
+[2023-04-18 11:01:20] INFO root fetch - processPackages [rest-framework-redesign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rest_framework_redesign-0.1.4.tar.gz tmp/rest_framework_redesign-0.1.5.tar.gz --markdown 20230418/r/rest-framework-redesign/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-18 11:01:20] INFO root fetch - processPackages [indykite-sdk-python]: executing diffoscope
+[2023-04-18 11:01:20] INFO root fetch - processPackages [indykite-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indykite-sdk-python-1.8.0.tar.gz tmp/indykite-sdk-python-1.9.0.tar.gz --markdown 20230418/i/indykite-sdk-python/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-04-18 11:01:20] INFO root fetch - processPackages [nlptoolssna]: Downloading https://files.pythonhosted.org/packages/75/5d/7f73e462d774f802f85590f6f77b17a6d37ad5c7c863c61b07170c3cf947/nlptoolssna-0.2.7.tar.gz
+[2023-04-18 11:01:20] INFO root fetch - processPackages [nlptoolssna]: Downloading https://files.pythonhosted.org/packages/75/5d/7f73e462d774f802f85590f6f77b17a6d37ad5c7c863c61b07170c3cf947/nlptoolssna-0.2.7.tar.gz
+[2023-04-18 11:01:20] INFO root fetch - processPackages [PrSpiders]: executing diffoscope
+[2023-04-18 11:01:20] INFO root fetch - processPackages [PrSpiders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PrSpiders-0.3.7.tar.gz tmp/PrSpiders-0.3.8.tar.gz --markdown 20230418/P/PrSpiders/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-04-18 11:01:20] INFO root fetch - processPackages [primehub-python-sdk]: Downloading https://files.pythonhosted.org/packages/88/23/365d9228aa043926ba9c3b4d91be549212105a3b66ebc552c3c9e2a88805/primehub-python-sdk-0.4.1.tar.gz
+[2023-04-18 11:01:20] INFO root fetch - processPackages [gitfluencer]: executing diffoscope
+[2023-04-18 11:01:20] INFO root fetch - processPackages [gitfluencer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitfluencer-0.1.2.tar.gz tmp/gitfluencer-0.1.3.tar.gz --markdown 20230418/g/gitfluencer/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-18 11:01:20] INFO root fetch - processPackages [twigs]: Downloading https://files.pythonhosted.org/packages/87/16/2f49ac4cac24277167593805bf404e8590aaab1f2e1fa161752ff48a2074/twigs-1.1.9.tar.gz
+[2023-04-18 11:01:20] INFO root fetch - processPackages [nlptoolssna]: executing diffoscope
+[2023-04-18 11:01:20] INFO root fetch - processPackages [nlptoolssna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlptoolssna-0.2.6.tar.gz tmp/nlptoolssna-0.2.7.tar.gz --markdown 20230418/n/nlptoolssna/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-04-18 11:01:20] INFO root fetch - processPackages [primehub-python-sdk]: executing diffoscope
+[2023-04-18 11:01:20] INFO root fetch - processPackages [primehub-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/primehub-python-sdk-0.4.0.tar.gz tmp/primehub-python-sdk-0.4.1.tar.gz --markdown 20230418/p/primehub-python-sdk/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-18 11:01:20] INFO root fetch - processPackages [nlptoolssna]: executing diffoscope
+[2023-04-18 11:01:20] INFO root fetch - processPackages [nlptoolssna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlptoolssna-0.2.6.tar.gz tmp/nlptoolssna-0.2.7.tar.gz --markdown 20230418/n/nlptoolssna/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-04-18 11:01:20] INFO root fetch - processPackages [twigs]: executing diffoscope
+[2023-04-18 11:01:20] INFO root fetch - processPackages [twigs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twigs-1.1.8.tar.gz tmp/twigs-1.1.9.tar.gz --markdown 20230418/t/twigs/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-18 11:01:21] INFO root fetch - processPackages [gitfluencer]: Start processing: oarepo-model-builder
+[2023-04-18 11:01:21] INFO root fetch - main [MainThread]: End processing [gitfluencer]: success
+[2023-04-18 11:01:21] INFO root fetch - processPackages [oarepo-model-builder]: New version: [3.2.9] Old Version: [3.2.8]
+[2023-04-18 11:01:22] INFO root fetch - processPackages [nlptoolssna]: Start processing: jupyterlab-h5web
+[2023-04-18 11:01:22] INFO root fetch - main [MainThread]: End processing [nlptoolssna]: success
+[2023-04-18 11:01:22] INFO root fetch - processPackages [oarepo-model-builder]: executing diffoscope
+[2023-04-18 11:01:22] INFO root fetch - processPackages [oarepo-model-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-3.2.8.tar.gz tmp/oarepo-model-builder-3.2.9.tar.gz --markdown 20230418/o/oarepo-model-builder/3.2.8-3.2.9/diff.md --exclude *.pyd
+[2023-04-18 11:01:22] INFO root fetch - processPackages [jupyterlab-h5web]: New version: [7.1.0] Old Version: [7.0.0]
+[2023-04-18 11:01:22] INFO root fetch - processPackages [rest-framework-redesign]: Start processing: dataplaybook
+[2023-04-18 11:01:22] INFO root fetch - main [MainThread]: End processing [rest-framework-redesign]: success
+[2023-04-18 11:01:22] INFO root fetch - processPackages [PrSpiders]: Start processing: pharindoko.cdk-internal-gateway
+[2023-04-18 11:01:22] INFO root fetch - main [MainThread]: End processing [PrSpiders]: success
+[2023-04-18 11:01:22] INFO root fetch - processPackages [napari-sam]: Start processing: nlptoolssna
+[2023-04-18 11:01:22] INFO root fetch - main [MainThread]: End processing [napari-sam]: success
+[2023-04-18 11:01:22] INFO root fetch - processPackages [dataplaybook]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-18 11:01:22] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-04-18 11:01:22] INFO root fetch - processPackages [nlptoolssna]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-04-18 11:01:22] INFO root fetch - processPackages [jupyterlab-h5web]: Downloading https://files.pythonhosted.org/packages/07/1a/62391df9414c0cacbcdce81c97d7df4db9776716b438fa9ff07f864dd8af/jupyterlab_h5web-7.0.0.tar.gz
+[2023-04-18 11:01:22] INFO root fetch - processPackages [dataplaybook]: executing diffoscope
+[2023-04-18 11:01:22] INFO root fetch - processPackages [dataplaybook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataplaybook-1.0.8.tar.gz tmp/dataplaybook-1.0.9.tar.gz --markdown 20230418/d/dataplaybook/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-18 11:01:22] INFO root fetch - processPackages [nlptoolssna]: executing diffoscope
+[2023-04-18 11:01:22] INFO root fetch - processPackages [nlptoolssna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlptoolssna-0.2.6.tar.gz tmp/nlptoolssna-0.2.7.tar.gz --markdown 20230418/n/nlptoolssna/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-04-18 11:01:22] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: Downloading https://files.pythonhosted.org/packages/1c/6d/a448f7c06b6def5c8e66b24394235fcd3a3b2cb94fe8cf2fcc28b829f601/pharindoko.cdk-internal-gateway-1.1.6.tar.gz
+[2023-04-18 11:01:22] INFO root fetch - processPackages [primehub-python-sdk]: Start processing: bullmq
+[2023-04-18 11:01:22] INFO root fetch - main [MainThread]: End processing [primehub-python-sdk]: success
+[2023-04-18 11:01:22] INFO root fetch - processPackages [bullmq]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-18 11:01:22] INFO root fetch - processPackages [nlptoolssna]: Start processing: alphaz
+[2023-04-18 11:01:22] INFO root fetch - main [MainThread]: End processing [nlptoolssna]: success
+[2023-04-18 11:01:22] INFO root fetch - processPackages [jupyterlab-h5web]: Downloading https://files.pythonhosted.org/packages/c3/9c/49bba51e07c3655ce565299b0263566a4ce86b611d781f619214eea40843/jupyterlab_h5web-7.1.0.tar.gz
+[2023-04-18 11:01:22] INFO root fetch - processPackages [alphaz]: New version: [0.7.3.9] Old Version: [0.7.3.8]
+[2023-04-18 11:01:22] INFO root fetch - processPackages [griffon]: Start processing: peppermining
+[2023-04-18 11:01:22] INFO root fetch - main [MainThread]: End processing [griffon]: success
+[2023-04-18 11:01:22] INFO root fetch - processPackages [peppermining]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-04-18 11:01:22] INFO root fetch - processPackages [bullmq]: Downloading https://files.pythonhosted.org/packages/15/68/0bf9ac35085e08418f0aa35af04a74cd4f10264b90f6bebe074e1a10565a/bullmq-0.2.0.tar.gz
+[2023-04-18 11:01:22] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: Downloading https://files.pythonhosted.org/packages/c6/30/3293666288ea30813c8f9e31880331b935e7fc0da11397cd2e5691289d5b/pharindoko.cdk-internal-gateway-1.1.7.tar.gz
+[2023-04-18 11:01:22] INFO root fetch - processPackages [alphaz]: Downloading https://files.pythonhosted.org/packages/e7/8a/67cd54de0ba834206ad95eabec6067e803e7c4247d86ff965713c9cd8016/alphaz-0.7.3.8.tar.gz
+[2023-04-18 11:01:22] INFO root fetch - processPackages [peppermining]: Downloading https://files.pythonhosted.org/packages/44/75/408659fb31760e2d8d0635b2ce22cb7d46e8c0f7b59932fd5c239470ff34/peppermining-0.0.1-py3-none-any.whl
+[2023-04-18 11:01:22] INFO root fetch - processPackages [jupyterlab-h5web]: executing diffoscope
+[2023-04-18 11:01:22] INFO root fetch - processPackages [jupyterlab-h5web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_h5web-7.0.0.tar.gz tmp/jupyterlab_h5web-7.1.0.tar.gz --markdown 20230418/j/jupyterlab-h5web/7.0.0-7.1.0/diff.md --exclude *.pyd
+[2023-04-18 11:01:22] INFO root fetch - processPackages [bullmq]: Downloading https://files.pythonhosted.org/packages/27/74/9a37cb9497ebe4a7cad9cb517e0684e301fcdcef0412f4b7b1e4fd97cdf5/bullmq-0.3.0.tar.gz
+[2023-04-18 11:01:23] INFO root fetch - processPackages [twigs]: Start processing: hestia-earth-schema
+[2023-04-18 11:01:23] INFO root fetch - main [MainThread]: End processing [twigs]: success
+[2023-04-18 11:01:23] INFO root fetch - processPackages [bullmq]: executing diffoscope
+[2023-04-18 11:01:23] INFO root fetch - processPackages [bullmq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bullmq-0.2.0.tar.gz tmp/bullmq-0.3.0.tar.gz --markdown 20230418/b/bullmq/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-18 11:01:23] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: executing diffoscope
+[2023-04-18 11:01:23] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pharindoko.cdk-internal-gateway-1.1.6.tar.gz tmp/pharindoko.cdk-internal-gateway-1.1.7.tar.gz --markdown 20230418/p/pharindoko.cdk-internal-gateway/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-04-18 11:01:23] INFO root fetch - processPackages [peppermining]: Downloading https://files.pythonhosted.org/packages/4f/47/8d7638bc1af7c26b1330305b1e1bfe51e61c8fa6c60ad85f659d2a5ecb99/peppermining-0.1.0.tar.gz
+[2023-04-18 11:01:23] INFO root fetch - processPackages [hestia-earth-schema]: New version: [9.7.1] Old Version: [9.7.0]
+[2023-04-18 11:01:23] INFO root fetch - processPackages [peppermining]: executing diffoscope
+[2023-04-18 11:01:23] INFO root fetch - processPackages [peppermining]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peppermining-0.0.1-py3-none-any.whl.zip tmp/peppermining-0.1.0.tar.gz --markdown 20230418/p/peppermining/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-04-18 11:01:23] INFO root fetch - processPackages [hestia-earth-schema]: Downloading https://files.pythonhosted.org/packages/e6/3e/a15caed46aaac01f5d913cac837c10c0e9416414e3ab7a9a8cb34dacb62e/hestia-earth-schema-9.7.0.tar.gz
+[2023-04-18 11:01:23] INFO root fetch - processPackages [nlptoolssna]: Start processing: th2-grpc-lw-data-provider
+[2023-04-18 11:01:23] INFO root fetch - main [MainThread]: End processing [nlptoolssna]: success
+[2023-04-18 11:01:23] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev4730256919]
+[2023-04-18 11:01:23] INFO root fetch - main [MainThread]: End processing [dataplaybook]: success
+[2023-04-18 11:01:23] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-04-18 11:01:23] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev4730256919.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230418/t/th2-grpc-lw-data-provider/2.0.0.dev4730256919-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-04-18 11:01:23] INFO root fetch - processPackages [hestia-earth-schema]: Downloading https://files.pythonhosted.org/packages/0f/81/6f94ae24b6a664f1fcc563994b2094290de1bc13e07037870953260144e1/hestia-earth-schema-9.7.1.tar.gz
+[2023-04-18 11:01:24] INFO root fetch - processPackages [hestia-earth-schema]: executing diffoscope
+[2023-04-18 11:01:24] INFO root fetch - processPackages [hestia-earth-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hestia-earth-schema-9.7.0.tar.gz tmp/hestia-earth-schema-9.7.1.tar.gz --markdown 20230418/h/hestia-earth-schema/9.7.0-9.7.1/diff.md --exclude *.pyd
+[2023-04-18 11:01:24] INFO root fetch - main [MainThread]: End processing [peppermining]: success
+[2023-04-18 11:01:24] INFO root fetch - main [MainThread]: End processing [bullmq]: success
+[2023-04-18 11:01:24] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder]: success
+[2023-04-18 11:01:24] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-04-18 11:01:25] INFO root fetch - main [MainThread]: End processing [pharindoko.cdk-internal-gateway]: success
+[2023-04-18 11:01:25] INFO root fetch - main [MainThread]: End processing [hestia-earth-schema]: success
+[2023-04-18 11:01:25] INFO root fetch - processPackages [alphaz]: Downloading https://files.pythonhosted.org/packages/b9/a2/fb46f24e90413bd294b60742bf58457033309b38c12cea2de0f8ea8e5139/alphaz-0.7.3.9.tar.gz
+[2023-04-18 11:01:25] INFO root fetch - main [MainThread]: End processing [indykite-sdk-python]: success
+[2023-04-18 11:01:26] INFO root fetch - processPackages [alphaz]: executing diffoscope
+[2023-04-18 11:01:26] INFO root fetch - processPackages [alphaz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphaz-0.7.3.8.tar.gz tmp/alphaz-0.7.3.9.tar.gz --markdown 20230418/a/alphaz/0.7.3.8-0.7.3.9/diff.md --exclude *.pyd
+[2023-04-18 11:01:30] INFO root fetch - main [MainThread]: End processing [alphaz]: success
+[2023-04-18 11:01:35] INFO root fetch - main [MainThread]: End processing [jupyterlab-h5web]: success
+[2023-04-18 11:01:35] INFO root fetch - main [MainThread]: Store serial: [17753229]
