@@ -13565,3 +13565,190 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 09:36:54] INFO root fetch - main [MainThread]: End processing [aspeak]: success
 [2023-04-18 09:37:07] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-04-18 09:37:07] INFO root fetch - main [MainThread]: Store serial: [17751641]
+[2023-04-18 09:42:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17751641]
+[2023-04-18 09:42:23] INFO root fetch - main [MainThread]: Found 29 changed packages
+[2023-04-18 09:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: liblxml3
+[2023-04-18 09:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo13-addon-membership-extension
+[2023-04-18 09:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pype-base
+[2023-04-18 09:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pype-fastapi
+[2023-04-18 09:42:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pype-hyperopt
+[2023-04-18 09:42:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pype-mlflow
+[2023-04-18 09:42:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pype-sklearn
+[2023-04-18 09:42:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pype-spark
+[2023-04-18 09:42:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pype-tensorflow
+[2023-04-18 09:42:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-contract-membership-delegated-partner
+[2023-04-18 09:42:24] INFO root fetch - processPackages [pype-mlflow]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-18 09:42:24] INFO root fetch - processPackages [pype-base]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-18 09:42:24] INFO root fetch - processPackages [liblxml3]: New version: [2.0] Old Version: [1.9]
+[2023-04-18 09:42:24] INFO root fetch - processPackages [odoo13-addon-membership-extension]: New version: [13.0.1.0.1.dev7] Old Version: [13.0.1.0.1.dev6]
+[2023-04-18 09:42:24] INFO root fetch - processPackages [pype-hyperopt]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-18 09:42:24] INFO root fetch - processPackages [pype-spark]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-18 09:42:24] INFO root fetch - processPackages [pype-fastapi]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-18 09:42:24] INFO root fetch - processPackages [pype-sklearn]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-18 09:42:24] INFO root fetch - processPackages [odoo-addon-contract-membership-delegated-partner]: New version: [15.0.1.0.0.3] Old Version: [15.0.1.0.0.2]
+[2023-04-18 09:42:24] INFO root fetch - processPackages [pype-tensorflow]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-18 09:42:24] INFO root fetch - processPackages [pype-mlflow]: Downloading https://files.pythonhosted.org/packages/56/31/4dad77818101e37f259dd82d78b7562c101f2e05874918562f9447ddace7/pype-mlflow-0.2.0.tar.gz
+[2023-04-18 09:42:24] INFO root fetch - processPackages [pype-fastapi]: Downloading https://files.pythonhosted.org/packages/1c/a1/73fb66d55d69893d8d6fa9c395d858d6d9a792715a102ac5a280d229a40b/pype-fastapi-0.2.0.tar.gz
+[2023-04-18 09:42:24] INFO root fetch - processPackages [odoo13-addon-membership-extension]: Downloading https://files.pythonhosted.org/packages/5d/10/57aded962d38aa956aeb3a963b3570c194076cfa61767901c75e5e63551e/odoo13_addon_membership_extension-13.0.1.0.1.dev6-py3-none-any.whl
+[2023-04-18 09:42:24] INFO root fetch - processPackages [pype-spark]: Downloading https://files.pythonhosted.org/packages/e3/f0/8b3a8b300aa43abe91807357a2fe3b09ad0151ea8230f8091aa1794cfb1f/pype-spark-0.2.0.tar.gz
+[2023-04-18 09:42:24] INFO root fetch - processPackages [pype-tensorflow]: Downloading https://files.pythonhosted.org/packages/15/a7/af62e7657c3b4332c7d914f455b47e555a5c21d36e92b4441dd689a01d2b/pype-tensorflow-0.2.0.tar.gz
+[2023-04-18 09:42:24] INFO root fetch - processPackages [pype-hyperopt]: Downloading https://files.pythonhosted.org/packages/00/3c/ecaf9e70e9d9f6fc4a7f80cd532ac607b4df95d2fee59364e76ed7d3d953/pype-hyperopt-0.2.0.tar.gz
+[2023-04-18 09:42:24] INFO root fetch - processPackages [pype-base]: Downloading https://files.pythonhosted.org/packages/ea/fe/a4be9c8d76e2d7ec5238298914c730fc7f7f94aa4e6db214dd42bdd9b772/pype-base-0.2.0.tar.gz
+[2023-04-18 09:42:24] INFO root fetch - processPackages [odoo-addon-contract-membership-delegated-partner]: Downloading https://files.pythonhosted.org/packages/9c/39/5070dd861d9d1c36a746a0dee153be5187cf2fad8e52e6091bc94eb4a12a/odoo_addon_contract_membership_delegated_partner-15.0.1.0.0.2-py3-none-any.whl
+[2023-04-18 09:42:24] INFO root fetch - processPackages [pype-sklearn]: Downloading https://files.pythonhosted.org/packages/e3/22/5d253f7f9330473131efbcfe1d7a97316569c3937dd0423c870f26f34d81/pype-sklearn-0.2.0.tar.gz
+[2023-04-18 09:42:24] INFO root fetch - processPackages [liblxml3]: Downloading https://files.pythonhosted.org/packages/23/9b/83ef255ee2eacf7eafca0367757fa47ec9b40a61569f09f98fbe0eb390f0/liblxml3-2.0.tar.gz
+[2023-04-18 09:42:24] INFO root fetch - processPackages [pype-mlflow]: Downloading https://files.pythonhosted.org/packages/82/b6/c8a3b83794fc20a59eae4e33efd4bce5a30772ce74e609caebd5bcbcfac6/pype-mlflow-0.3.0.tar.gz
+[2023-04-18 09:42:24] INFO root fetch - processPackages [pype-tensorflow]: Downloading https://files.pythonhosted.org/packages/70/20/5016fac28b0495e8d4cc6f7af8151040e1d8f8e368ee847fb71e83f3cc8a/pype-tensorflow-0.3.0.tar.gz
+[2023-04-18 09:42:24] INFO root fetch - processPackages [liblxml3]: executing diffoscope
+[2023-04-18 09:42:24] INFO root fetch - processPackages [liblxml3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liblxml3-1.9.tar.gz tmp/liblxml3-2.0.tar.gz --markdown 20230418/l/liblxml3/1.9-2.0/diff.md --exclude *.pyd
+[2023-04-18 09:42:24] INFO root fetch - processPackages [odoo-addon-contract-membership-delegated-partner]: Downloading https://files.pythonhosted.org/packages/59/b4/2bb31b8021fab6afef02048fb7b95bbc3647ce801aba40c2cac4f1beda9d/odoo_addon_contract_membership_delegated_partner-15.0.1.0.0.3-py3-none-any.whl
+[2023-04-18 09:42:24] INFO root fetch - processPackages [pype-hyperopt]: Downloading https://files.pythonhosted.org/packages/9c/59/27765d20c1335e5a1d739ccf7d00f325149c0c23d0a29c2444d4c0bc0271/pype-hyperopt-0.3.0.tar.gz
+[2023-04-18 09:42:24] INFO root fetch - processPackages [pype-sklearn]: Downloading https://files.pythonhosted.org/packages/80/53/f43df0693844c5ae154793320a74792f39d0286cc71532ce9791260c936c/pype-sklearn-0.3.0.tar.gz
+[2023-04-18 09:42:24] INFO root fetch - processPackages [pype-fastapi]: Downloading https://files.pythonhosted.org/packages/ed/14/53107aaa6e01c949fe8ef3d77a6682ccd68036c17752517920b516928ef0/pype-fastapi-0.3.0.tar.gz
+[2023-04-18 09:42:24] INFO root fetch - processPackages [odoo13-addon-membership-extension]: Downloading https://files.pythonhosted.org/packages/5e/e2/4fa48ca8ac05e3323d5fc904df3cb767846fa3d52b0df1d685273aa4b70b/odoo13_addon_membership_extension-13.0.1.0.1.dev7-py3-none-any.whl
+[2023-04-18 09:42:24] INFO root fetch - processPackages [pype-spark]: Downloading https://files.pythonhosted.org/packages/40/5f/2fced8cb7681a096f1b5776cf4a0bb763118c6dffc9659e9c1a8c2910a28/pype-spark-0.3.0.tar.gz
+[2023-04-18 09:42:24] INFO root fetch - processPackages [pype-mlflow]: executing diffoscope
+[2023-04-18 09:42:24] INFO root fetch - processPackages [pype-mlflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pype-mlflow-0.2.0.tar.gz tmp/pype-mlflow-0.3.0.tar.gz --markdown 20230418/p/pype-mlflow/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-18 09:42:24] INFO root fetch - processPackages [pype-base]: Downloading https://files.pythonhosted.org/packages/fe/63/05ca7fdf661ac69562825619af5f0f90b26b99f3864289963520dc9de116/pype-base-0.3.0.tar.gz
+[2023-04-18 09:42:24] INFO root fetch - processPackages [pype-tensorflow]: executing diffoscope
+[2023-04-18 09:42:24] INFO root fetch - processPackages [pype-tensorflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pype-tensorflow-0.2.0.tar.gz tmp/pype-tensorflow-0.3.0.tar.gz --markdown 20230418/p/pype-tensorflow/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-18 09:42:24] INFO root fetch - processPackages [pype-sklearn]: executing diffoscope
+[2023-04-18 09:42:24] INFO root fetch - processPackages [pype-fastapi]: executing diffoscope
+[2023-04-18 09:42:24] INFO root fetch - processPackages [pype-sklearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pype-sklearn-0.2.0.tar.gz tmp/pype-sklearn-0.3.0.tar.gz --markdown 20230418/p/pype-sklearn/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-18 09:42:24] INFO root fetch - processPackages [pype-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pype-fastapi-0.2.0.tar.gz tmp/pype-fastapi-0.3.0.tar.gz --markdown 20230418/p/pype-fastapi/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-18 09:42:24] INFO root fetch - processPackages [odoo-addon-contract-membership-delegated-partner]: executing diffoscope
+[2023-04-18 09:42:24] INFO root fetch - processPackages [pype-hyperopt]: executing diffoscope
+[2023-04-18 09:42:24] INFO root fetch - processPackages [odoo-addon-contract-membership-delegated-partner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_contract_membership_delegated_partner-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_contract_membership_delegated_partner-15.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230418/o/odoo-addon-contract-membership-delegated-partner/15.0.1.0.0.2-15.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-04-18 09:42:24] INFO root fetch - processPackages [pype-hyperopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pype-hyperopt-0.2.0.tar.gz tmp/pype-hyperopt-0.3.0.tar.gz --markdown 20230418/p/pype-hyperopt/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-18 09:42:24] INFO root fetch - processPackages [pype-spark]: executing diffoscope
+[2023-04-18 09:42:24] INFO root fetch - processPackages [pype-spark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pype-spark-0.2.0.tar.gz tmp/pype-spark-0.3.0.tar.gz --markdown 20230418/p/pype-spark/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-18 09:42:24] INFO root fetch - processPackages [pype-base]: executing diffoscope
+[2023-04-18 09:42:24] INFO root fetch - processPackages [pype-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pype-base-0.2.0.tar.gz tmp/pype-base-0.3.0.tar.gz --markdown 20230418/p/pype-base/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-18 09:42:25] INFO root fetch - processPackages [odoo13-addon-membership-extension]: executing diffoscope
+[2023-04-18 09:42:25] INFO root fetch - processPackages [odoo13-addon-membership-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_membership_extension-13.0.1.0.1.dev6-py3-none-any.whl.zip tmp/odoo13_addon_membership_extension-13.0.1.0.1.dev7-py3-none-any.whl.zip --markdown 20230418/o/odoo13-addon-membership-extension/13.0.1.0.1.dev6-13.0.1.0.1.dev7/diff.md --exclude *.pyd
+[2023-04-18 09:42:26] INFO root fetch - processPackages [pype-mlflow]: Start processing: pype-xgboost
+[2023-04-18 09:42:26] INFO root fetch - main [MainThread]: End processing [pype-mlflow]: success
+[2023-04-18 09:42:26] INFO root fetch - processPackages [pype-xgboost]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-04-18 09:42:26] INFO root fetch - processPackages [pype-tensorflow]: Start processing: write-the
+[2023-04-18 09:42:26] INFO root fetch - main [MainThread]: End processing [pype-tensorflow]: success
+[2023-04-18 09:42:26] INFO root fetch - processPackages [write-the]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-04-18 09:42:26] INFO root fetch - processPackages [pype-xgboost]: Downloading https://files.pythonhosted.org/packages/72/4d/828d46dd06311a8e2f89cae72563d4ead4c3ee725d37293b5ac889dc5825/pype-xgboost-0.2.0.tar.gz
+[2023-04-18 09:42:26] INFO root fetch - processPackages [pype-sklearn]: Start processing: hello2
+[2023-04-18 09:42:26] INFO root fetch - main [MainThread]: End processing [pype-sklearn]: success
+[2023-04-18 09:42:26] INFO root fetch - processPackages [hello2]: New version: [1.5.7] Old Version: [1.5.6]
+[2023-04-18 09:42:26] INFO root fetch - processPackages [pype-fastapi]: Start processing: dbt-teradata
+[2023-04-18 09:42:26] INFO root fetch - main [MainThread]: End processing [pype-fastapi]: success
+[2023-04-18 09:42:26] INFO root fetch - processPackages [dbt-teradata]: New version: [1.3.3.0] Old Version: [1.3.0.0]
+[2023-04-18 09:42:26] INFO root fetch - processPackages [pype-base]: Start processing: Slim-TPCA
+[2023-04-18 09:42:26] INFO root fetch - main [MainThread]: End processing [pype-base]: success
+[2023-04-18 09:42:26] INFO root fetch - processPackages [odoo-addon-contract-membership-delegated-partner]: Start processing: django-model-observer
+[2023-04-18 09:42:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-contract-membership-delegated-partner]: success
+[2023-04-18 09:42:26] INFO root fetch - processPackages [write-the]: Downloading https://files.pythonhosted.org/packages/e0/c8/524e90d6328aabf067d6a41ed966bd4e9ceef5d2407d2072e8d83aa64e1c/write_the-0.6.2.tar.gz
+[2023-04-18 09:42:26] INFO root fetch - processPackages [pype-hyperopt]: Start processing: erscipcard
+[2023-04-18 09:42:26] INFO root fetch - main [MainThread]: End processing [pype-hyperopt]: success
+[2023-04-18 09:42:26] INFO root fetch - processPackages [Slim-TPCA]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-18 09:42:26] INFO root fetch - processPackages [pype-xgboost]: Downloading https://files.pythonhosted.org/packages/50/a9/7df5f3bb283ba11f3aff8ab8eabb9a6f398e4608c7cdeabc198e0712289f/pype-xgboost-0.3.0.tar.gz
+[2023-04-18 09:42:26] INFO root fetch - processPackages [django-model-observer]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-04-18 09:42:26] INFO root fetch - processPackages [erscipcard]: New version: [1.17.82] Old Version: [1.17.81]
+[2023-04-18 09:42:26] INFO root fetch - processPackages [pype-spark]: Start processing: qontract-reconcile
+[2023-04-18 09:42:26] INFO root fetch - main [MainThread]: End processing [pype-spark]: success
+[2023-04-18 09:42:26] INFO root fetch - processPackages [hello2]: Downloading https://files.pythonhosted.org/packages/21/13/2bdbdd1f114d5be3e95a94afb69a828ed011cc9da5eee68d3032c2104512/hello2-1.5.6.tar.gz
+[2023-04-18 09:42:26] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-04-18 09:42:26] INFO root fetch - processPackages [dbt-teradata]: Downloading https://files.pythonhosted.org/packages/70/4a/2a2a04cb419a2da87251acc26676b5980efded2c8ff21286ff3011b0fdf5/dbt-teradata-1.3.0.0.tar.gz
+[2023-04-18 09:42:26] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-04-18 09:42:26] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230418/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-04-18 09:42:26] INFO root fetch - processPackages [pype-xgboost]: executing diffoscope
+[2023-04-18 09:42:26] INFO root fetch - processPackages [pype-xgboost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pype-xgboost-0.2.0.tar.gz tmp/pype-xgboost-0.3.0.tar.gz --markdown 20230418/p/pype-xgboost/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-04-18 09:42:26] INFO root fetch - processPackages [Slim-TPCA]: Downloading https://files.pythonhosted.org/packages/88/13/17cd1d66298b5e54044a7e207ff0c4bcf67eef112ce2511fb177c686c1d2/Slim-TPCA-0.1.1.tar.gz
+[2023-04-18 09:42:26] INFO root fetch - processPackages [erscipcard]: Downloading https://files.pythonhosted.org/packages/e5/6a/e4b5aa2862a93017e5950bd19987efae515bf87158372716102feeb357b5/erscipcard-1.17.82.tar.gz
+[2023-04-18 09:42:26] INFO root fetch - processPackages [django-model-observer]: Downloading https://files.pythonhosted.org/packages/ee/9b/68c00d514c54b2baaa5cd55a9930be8c12bf9027ab8ced63ad98a732b002/django-model-observer-1.0.0.tar.gz
+[2023-04-18 09:42:26] INFO root fetch - processPackages [hello2]: Downloading https://files.pythonhosted.org/packages/dd/14/a43c4efdf5f013a0b050b69d57f3de898089314d293e72d883d0a8bcae34/hello2-1.5.7.tar.gz
+[2023-04-18 09:42:26] INFO root fetch - processPackages [write-the]: executing diffoscope
+[2023-04-18 09:42:26] INFO root fetch - processPackages [write-the]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/write_the-0.6.1.tar.gz tmp/write_the-0.6.2.tar.gz --markdown 20230418/w/write-the/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-04-18 09:42:27] INFO root fetch - processPackages [Slim-TPCA]: executing diffoscope
+[2023-04-18 09:42:27] INFO root fetch - processPackages [Slim-TPCA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Slim-TPCA-0.1.0.tar.gz tmp/Slim-TPCA-0.1.1.tar.gz --markdown 20230418/S/Slim-TPCA/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-18 09:42:27] INFO root fetch - processPackages [erscipcard]: executing diffoscope
+[2023-04-18 09:42:27] INFO root fetch - processPackages [erscipcard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erscipcard-1.17.81.tar.gz tmp/erscipcard-1.17.82.tar.gz --markdown 20230418/e/erscipcard/1.17.81-1.17.82/diff.md --exclude *.pyd
+[2023-04-18 09:42:27] INFO root fetch - processPackages [dbt-teradata]: Downloading https://files.pythonhosted.org/packages/b5/fa/f1bf2d8bda4643500e654a52bf8e952f5aa5c9e574c61de935fd90406501/dbt-teradata-1.3.3.0.tar.gz
+[2023-04-18 09:42:27] INFO root fetch - processPackages [hello2]: executing diffoscope
+[2023-04-18 09:42:27] INFO root fetch - processPackages [hello2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hello2-1.5.6.tar.gz tmp/hello2-1.5.7.tar.gz --markdown 20230418/h/hello2/1.5.6-1.5.7/diff.md --exclude *.pyd
+[2023-04-18 09:42:27] INFO root fetch - processPackages [odoo13-addon-membership-extension]: Start processing: PyMongoAgg
+[2023-04-18 09:42:27] INFO root fetch - main [MainThread]: End processing [odoo13-addon-membership-extension]: success
+[2023-04-18 09:42:27] INFO root fetch - processPackages [django-model-observer]: Downloading https://files.pythonhosted.org/packages/b7/bc/ff96217a187537dfcc36a2266328bf56ceb83a3783551a3f552110f14ee7/django-model-observer-1.1.0.tar.gz
+[2023-04-18 09:42:27] WARNING root fetch - processPackages [PyMongoAgg]: Skipping, unable to determine old version
+[2023-04-18 09:42:27] INFO root fetch - processPackages [PyMongoAgg]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-04-18 09:42:27] INFO root fetch - main [MainThread]: End processing [PyMongoAgg] error
+[2023-04-18 09:42:27] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-04-18 09:42:27] INFO root fetch - processPackages [dbt-teradata]: executing diffoscope
+[2023-04-18 09:42:27] INFO root fetch - processPackages [dbt-teradata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-teradata-1.3.0.0.tar.gz tmp/dbt-teradata-1.3.3.0.tar.gz --markdown 20230418/d/dbt-teradata/1.3.0.0-1.3.3.0/diff.md --exclude *.pyd
+[2023-04-18 09:42:27] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-04-18 09:42:27] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230418/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-04-18 09:42:27] INFO root fetch - processPackages [django-model-observer]: executing diffoscope
+[2023-04-18 09:42:27] INFO root fetch - processPackages [django-model-observer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-model-observer-1.0.0.tar.gz tmp/django-model-observer-1.1.0.tar.gz --markdown 20230418/d/django-model-observer/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-04-18 09:42:28] INFO root fetch - processPackages [pype-xgboost]: Start processing: aioflureedb
+[2023-04-18 09:42:28] INFO root fetch - main [MainThread]: End processing [pype-xgboost]: success
+[2023-04-18 09:42:28] INFO root fetch - processPackages [aioflureedb]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-04-18 09:42:28] INFO root fetch - processPackages [aioflureedb]: Downloading https://files.pythonhosted.org/packages/9d/6d/8ac4c3a8f1cd60364c3ca96b32baa3054eda3b2fa294a68095455790bfa4/aioflureedb-0.7.8.tar.gz
+[2023-04-18 09:42:28] INFO root fetch - processPackages [liblxml3]: Start processing: discuit
+[2023-04-18 09:42:28] INFO root fetch - main [MainThread]: End processing [liblxml3]: success
+[2023-04-18 09:42:28] INFO root fetch - processPackages [discuit]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-18 09:42:28] INFO root fetch - processPackages [discuit]: Downloading https://files.pythonhosted.org/packages/9d/a5/dcd623e2c995ebb21041611403fd0b2dc57c66777a68a6cf678bdc5a5ec2/discuit-0.1.0.tar.gz
+[2023-04-18 09:42:28] INFO root fetch - processPackages [aioflureedb]: Downloading https://files.pythonhosted.org/packages/7b/a2/588d416903c4b5cd5bca141ac28ed474c8255cf907cdd4e06195a48172e5/aioflureedb-0.7.9.tar.gz
+[2023-04-18 09:42:28] INFO root fetch - processPackages [Slim-TPCA]: Start processing: discuit
+[2023-04-18 09:42:28] INFO root fetch - main [MainThread]: End processing [Slim-TPCA]: success
+[2023-04-18 09:42:28] INFO root fetch - processPackages [discuit]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-18 09:42:28] INFO root fetch - processPackages [aioflureedb]: executing diffoscope
+[2023-04-18 09:42:28] INFO root fetch - processPackages [aioflureedb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioflureedb-0.7.8.tar.gz tmp/aioflureedb-0.7.9.tar.gz --markdown 20230418/a/aioflureedb/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-04-18 09:42:28] INFO root fetch - processPackages [discuit]: Downloading https://files.pythonhosted.org/packages/9d/a5/dcd623e2c995ebb21041611403fd0b2dc57c66777a68a6cf678bdc5a5ec2/discuit-0.1.0.tar.gz
+[2023-04-18 09:42:29] INFO root fetch - processPackages [django-model-observer]: Start processing: DLite-Python
+[2023-04-18 09:42:29] INFO root fetch - main [MainThread]: End processing [django-model-observer]: success
+[2023-04-18 09:42:29] INFO root fetch - processPackages [discuit]: Downloading https://files.pythonhosted.org/packages/83/d9/a75be4da6177d801b1fed0ed9e7caf723a4457ddf3aa3e3fc1e01a752dc7/discuit-0.2.0.tar.gz
+[2023-04-18 09:42:29] INFO root fetch - processPackages [discuit]: Downloading https://files.pythonhosted.org/packages/83/d9/a75be4da6177d801b1fed0ed9e7caf723a4457ddf3aa3e3fc1e01a752dc7/discuit-0.2.0.tar.gz
+[2023-04-18 09:42:29] INFO root fetch - processPackages [DLite-Python]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-18 09:42:29] INFO root fetch - processPackages [discuit]: executing diffoscope
+[2023-04-18 09:42:29] INFO root fetch - processPackages [discuit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discuit-0.1.0.tar.gz tmp/discuit-0.2.0.tar.gz --markdown 20230418/d/discuit/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-18 09:42:29] INFO root fetch - processPackages [discuit]: executing diffoscope
+[2023-04-18 09:42:29] INFO root fetch - processPackages [discuit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discuit-0.1.0.tar.gz tmp/discuit-0.2.0.tar.gz --markdown 20230418/d/discuit/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-18 09:42:29] INFO root fetch - processPackages [DLite-Python]: Downloading https://files.pythonhosted.org/packages/c3/fa/69f479b4ea01ee628ccea2a8e42c64c31bd7cfd27f044d5ee13194c470d1/DLite-Python-0.3.8.tar.gz
+[2023-04-18 09:42:29] INFO root fetch - processPackages [hello2]: Start processing: adapta
+[2023-04-18 09:42:29] INFO root fetch - main [MainThread]: End processing [hello2]: success
+[2023-04-18 09:42:29] INFO root fetch - processPackages [adapta]: New version: [2.2.0] Old Version: [2.1.1]
+[2023-04-18 09:42:29] INFO root fetch - processPackages [dbt-teradata]: Start processing: packagename-jarne
+[2023-04-18 09:42:29] INFO root fetch - main [MainThread]: End processing [dbt-teradata]: success
+[2023-04-18 09:42:29] INFO root fetch - processPackages [packagename-jarne]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-18 09:42:29] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/6d/df/a7e6564ad37bb7f3c9ec4babc1d85453680d9f493855d5dbbfc0f3bb9db0/adapta-2.1.1.tar.gz
+[2023-04-18 09:42:29] INFO root fetch - processPackages [packagename-jarne]: Downloading https://files.pythonhosted.org/packages/80/a4/b6f901262bce9e0e3ba7a19e3d967760b871070093fed1f695c2b4784e67/packagename_jarne-0.1.2.tar.gz
+[2023-04-18 09:42:29] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/50/f7/6f183bfb507fe2e4253fb8861b2af57db0487b4e26f74be48777664a7d27/adapta-2.2.0.tar.gz
+[2023-04-18 09:42:29] INFO root fetch - processPackages [DLite-Python]: Downloading https://files.pythonhosted.org/packages/6d/e9/b36cfdab29339560a33db0c4dc25d113bd55fd78bf27c3d749e903385e81/DLite-Python-0.3.9.tar.gz
+[2023-04-18 09:42:29] INFO root fetch - processPackages [packagename-jarne]: executing diffoscope
+[2023-04-18 09:42:29] INFO root fetch - processPackages [packagename-jarne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packagename_jarne-0.1.1.tar.gz tmp/packagename_jarne-0.1.2.tar.gz --markdown 20230418/p/packagename-jarne/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-18 09:42:30] INFO root fetch - processPackages [erscipcard]: Start processing: home-assistant-chip-clusters
+[2023-04-18 09:42:30] INFO root fetch - main [MainThread]: End processing [erscipcard]: success
+[2023-04-18 09:42:30] INFO root fetch - processPackages [adapta]: executing diffoscope
+[2023-04-18 09:42:30] INFO root fetch - processPackages [adapta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adapta-2.1.1.tar.gz tmp/adapta-2.2.0.tar.gz --markdown 20230418/a/adapta/2.1.1-2.2.0/diff.md --exclude *.pyd
+[2023-04-18 09:42:30] INFO root fetch - processPackages [home-assistant-chip-clusters]: New version: [2023.4.0] Old Version: [2023.2.2]
+[2023-04-18 09:42:30] INFO root fetch - processPackages [DLite-Python]: executing diffoscope
+[2023-04-18 09:42:30] INFO root fetch - processPackages [DLite-Python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLite-Python-0.3.8.tar.gz tmp/DLite-Python-0.3.9.tar.gz --markdown 20230418/D/DLite-Python/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-18 09:42:30] INFO root fetch - processPackages [write-the]: Start processing: home-assistant-chip-core
+[2023-04-18 09:42:30] INFO root fetch - main [MainThread]: End processing [write-the]: success
+[2023-04-18 09:42:30] INFO root fetch - processPackages [home-assistant-chip-core]: New version: [2023.4.0] Old Version: [2023.2.2]
+[2023-04-18 09:42:30] INFO root fetch - processPackages [home-assistant-chip-clusters]: executing diffoscope
+[2023-04-18 09:42:30] INFO root fetch - processPackages [home-assistant-chip-clusters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/home_assistant_chip_clusters-2023.2.2-py3-none-any.whl.zip tmp/home_assistant_chip_clusters-2023.4.0-py3-none-any.whl.zip --markdown 20230418/h/home-assistant-chip-clusters/2023.2.2-2023.4.0/diff.md --exclude *.pyd
+[2023-04-18 09:42:30] INFO root fetch - processPackages [home-assistant-chip-core]: Downloading https://files.pythonhosted.org/packages/0e/98/6614a5e87dc1e88dc68dfa755745f2e4f72ed972a51ffc0ace14ca6f7a72/home_assistant_chip_core-2023.2.2-cp37-abi3-manylinux_2_31_x86_64.whl
+[2023-04-18 09:42:30] WARNING root fetch - processPackages [home-assistant-chip-core]: Skipping package: exceeds size limit 17020429>=10485760
+[2023-04-18 09:42:30] INFO root fetch - processPackages [home-assistant-chip-core]: Start processing: home-assistant-chip-repl
+[2023-04-18 09:42:30] INFO root fetch - main [MainThread]: End processing [home-assistant-chip-core] error
+[2023-04-18 09:42:30] INFO root fetch - processPackages [home-assistant-chip-repl]: New version: [2023.4.0] Old Version: [2023.2.2]
+[2023-04-18 09:42:30] INFO root fetch - main [MainThread]: End processing [discuit]: success
+[2023-04-18 09:42:30] INFO root fetch - processPackages [home-assistant-chip-repl]: executing diffoscope
+[2023-04-18 09:42:30] INFO root fetch - processPackages [home-assistant-chip-repl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/home_assistant_chip_repl-2023.2.2-py3-none-any.whl.zip tmp/home_assistant_chip_repl-2023.4.0-py3-none-any.whl.zip --markdown 20230418/h/home-assistant-chip-repl/2023.2.2-2023.4.0/diff.md --exclude *.pyd
+[2023-04-18 09:42:30] INFO root fetch - main [MainThread]: End processing [discuit]: success
+[2023-04-18 09:42:30] INFO root fetch - main [MainThread]: End processing [aioflureedb]: success
+[2023-04-18 09:42:31] INFO root fetch - main [MainThread]: End processing [packagename-jarne]: success
+[2023-04-18 09:42:31] INFO root fetch - main [MainThread]: End processing [DLite-Python]: success
+[2023-04-18 09:42:31] INFO root fetch - main [MainThread]: End processing [adapta]: success
+[2023-04-18 09:42:31] INFO root fetch - main [MainThread]: End processing [home-assistant-chip-clusters]: success
+[2023-04-18 09:42:31] INFO root fetch - main [MainThread]: End processing [home-assistant-chip-repl]: success
+[2023-04-18 09:42:32] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-04-18 09:42:33] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-04-18 09:42:33] INFO root fetch - main [MainThread]: Store serial: [17751743]
