@@ -19450,3 +19450,108 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 100: invali
 [2023-04-18 13:59:54] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-04-18 14:00:23] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-04-18 14:00:23] INFO root fetch - main [MainThread]: Store serial: [17755294]
+[2023-04-18 14:05:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17755294]
+[2023-04-18 14:05:32] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-18 14:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tupa123
+[2023-04-18 14:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: birentechci
+[2023-04-18 14:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oarepo-model-builder
+[2023-04-18 14:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DLMS-SPODES
+[2023-04-18 14:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: funcs
+[2023-04-18 14:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: returnn
+[2023-04-18 14:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pypsn
+[2023-04-18 14:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eltetrado
+[2023-04-18 14:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cbig-network-correspondence
+[2023-04-18 14:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: MuyunxiSupports
+[2023-04-18 14:05:32] INFO root fetch - processPackages [tupa123]: New version: [1.3.8] Old Version: [1.3.7]
+[2023-04-18 14:05:32] INFO root fetch - processPackages [birentechci]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-18 14:05:32] INFO root fetch - processPackages [pypsn]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-18 14:05:32] INFO root fetch - processPackages [funcs]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-18 14:05:32] INFO root fetch - processPackages [cbig-network-correspondence]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-04-18 14:05:32] INFO root fetch - processPackages [MuyunxiSupports]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-18 14:05:32] INFO root fetch - processPackages [DLMS-SPODES]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-04-18 14:05:32] INFO root fetch - processPackages [eltetrado]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-04-18 14:05:32] INFO root fetch - processPackages [oarepo-model-builder]: New version: [3.2.9] Old Version: [3.2.8]
+[2023-04-18 14:05:32] INFO root fetch - processPackages [returnn]: New version: [1.20230418.5121] Old Version: [1.20230418.134656]
+[2023-04-18 14:05:32] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/48/37/1e72cc66e68f288bd4c34f686e03433f46348ada151dc94e291789d7a121/returnn-1.20230418.134656.tar.gz
+[2023-04-18 14:05:32] INFO root fetch - processPackages [funcs]: Downloading https://files.pythonhosted.org/packages/e1/e3/d41cdb86c7249ae193f337876b15c279722efa9b1a50b41e3ab72d3bc300/funcs-0.2.3.tar.gz
+[2023-04-18 14:05:32] INFO root fetch - processPackages [cbig-network-correspondence]: Downloading https://files.pythonhosted.org/packages/67/38/6b4c369c345f5b63ab6b4f7069df57bd31243df767d233d0e31ecd7f3845/cbig_network_correspondence-0.1.0.tar.gz
+[2023-04-18 14:05:32] INFO root fetch - processPackages [pypsn]: Downloading https://files.pythonhosted.org/packages/f1/cb/470a0225e941ca6a62aa276215183c18004c6d1e8f5456b4ae0dd315e7a2/pypsn-0.1.0.tar.gz
+[2023-04-18 14:05:32] INFO root fetch - processPackages [MuyunxiSupports]: Downloading https://files.pythonhosted.org/packages/59/4c/7ada393d12741cb505be68606479ae856e8b1cfc84f75f979831aa1311c8/MuyunxiSupports-0.1.1.tar.gz
+[2023-04-18 14:05:32] INFO root fetch - processPackages [eltetrado]: Downloading https://files.pythonhosted.org/packages/5c/9e/d1c1bba2df7913a8ae2ca17064cc825cc6574a2011e7fc231b967522a383/eltetrado-1.5.8.tar.gz
+[2023-04-18 14:05:32] INFO root fetch - processPackages [birentechci]: executing diffoscope
+[2023-04-18 14:05:32] INFO root fetch - processPackages [birentechci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/birentechci-0.0.8.tar.gz tmp/birentechci-0.0.9.tar.gz --markdown 20230418/b/birentechci/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-18 14:05:32] INFO root fetch - processPackages [tupa123]: Downloading https://files.pythonhosted.org/packages/d3/48/9ce217872b69649e6e5eb2b3fd8372d34a5bb81bdaece22c43c0c63ee3da/tupa123-1.3.8.tar.gz
+[2023-04-18 14:05:32] INFO root fetch - processPackages [cbig-network-correspondence]: executing diffoscope
+[2023-04-18 14:05:32] INFO root fetch - processPackages [cbig-network-correspondence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbig_network_correspondence-0.0.9.tar.gz tmp/cbig_network_correspondence-0.1.0.tar.gz --markdown 20230418/c/cbig-network-correspondence/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-04-18 14:05:32] INFO root fetch - processPackages [funcs]: executing diffoscope
+[2023-04-18 14:05:32] INFO root fetch - processPackages [funcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcs-0.2.2.tar.gz tmp/funcs-0.2.3.tar.gz --markdown 20230418/f/funcs/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-18 14:05:32] INFO root fetch - processPackages [oarepo-model-builder]: executing diffoscope
+[2023-04-18 14:05:32] INFO root fetch - processPackages [oarepo-model-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-3.2.8.tar.gz tmp/oarepo-model-builder-3.2.9.tar.gz --markdown 20230418/o/oarepo-model-builder/3.2.8-3.2.9/diff.md --exclude *.pyd
+[2023-04-18 14:05:32] INFO root fetch - processPackages [DLMS-SPODES]: executing diffoscope
+[2023-04-18 14:05:32] INFO root fetch - processPackages [DLMS-SPODES]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_SPODES-0.8.3.tar.gz tmp/DLMS_SPODES-0.9.0.tar.gz --markdown 20230418/D/DLMS-SPODES/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-04-18 14:05:33] INFO root fetch - processPackages [tupa123]: executing diffoscope
+[2023-04-18 14:05:33] INFO root fetch - processPackages [tupa123]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tupa123-1.3.7.tar.gz tmp/tupa123-1.3.8.tar.gz --markdown 20230418/t/tupa123/1.3.7-1.3.8/diff.md --exclude *.pyd
+[2023-04-18 14:05:33] INFO root fetch - processPackages [pypsn]: Downloading https://files.pythonhosted.org/packages/17/0b/6675c43d2c7fb451cbb99c61a057fd3fb087523f3095197d3f503655856c/pypsn-0.1.1.tar.gz
+[2023-04-18 14:05:33] INFO root fetch - processPackages [MuyunxiSupports]: Downloading https://files.pythonhosted.org/packages/d0/16/7e66909b9a42b0223d18939a1eedceb1ee6f4d5436db9503852a971c9fa2/MuyunxiSupports-0.1.2.tar.gz
+[2023-04-18 14:05:33] INFO root fetch - processPackages [eltetrado]: Downloading https://files.pythonhosted.org/packages/84/12/9e5cc74df059266f54f871d4a4122af703653b169abb511aadb0a0750936/eltetrado-1.5.9.tar.gz
+[2023-04-18 14:05:33] INFO root fetch - processPackages [pypsn]: executing diffoscope
+[2023-04-18 14:05:33] INFO root fetch - processPackages [pypsn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypsn-0.1.0.tar.gz tmp/pypsn-0.1.1.tar.gz --markdown 20230418/p/pypsn/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-18 14:05:33] INFO root fetch - processPackages [MuyunxiSupports]: executing diffoscope
+[2023-04-18 14:05:33] INFO root fetch - processPackages [MuyunxiSupports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MuyunxiSupports-0.1.1.tar.gz tmp/MuyunxiSupports-0.1.2.tar.gz --markdown 20230418/M/MuyunxiSupports/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-18 14:05:33] INFO root fetch - processPackages [eltetrado]: executing diffoscope
+[2023-04-18 14:05:33] INFO root fetch - processPackages [eltetrado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eltetrado-1.5.8.tar.gz tmp/eltetrado-1.5.9.tar.gz --markdown 20230418/e/eltetrado/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-04-18 14:05:33] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-04-18 14:05:33] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230418.134656.tar.gz tmp/returnn-1.20230418.5121.tar.gz --markdown 20230418/r/returnn/1.20230418.134656-1.20230418.5121/diff.md --exclude *.pyd
+[2023-04-18 14:05:34] INFO root fetch - processPackages [funcs]: Start processing: get-certificate-chain
+[2023-04-18 14:05:34] INFO root fetch - main [MainThread]: End processing [funcs]: success
+[2023-04-18 14:05:34] INFO root fetch - processPackages [get-certificate-chain]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-18 14:05:34] INFO root fetch - processPackages [birentechci]: Start processing: phiterm
+[2023-04-18 14:05:34] INFO root fetch - main [MainThread]: End processing [birentechci]: success
+[2023-04-18 14:05:34] INFO root fetch - processPackages [phiterm]: New version: [1.6.0] Old Version: [1.5.9]
+[2023-04-18 14:05:34] INFO root fetch - processPackages [cbig-network-correspondence]: Start processing: stringhandling
+[2023-04-18 14:05:34] INFO root fetch - main [MainThread]: End processing [cbig-network-correspondence]: success
+[2023-04-18 14:05:34] ERROR root fetch - processPackages [stringhandling]: Unable to get metadata: No such project 'stringhandling'
+[2023-04-18 14:05:34] INFO root fetch - processPackages [stringhandling]: Start processing: lamindb
+[2023-04-18 14:05:34] INFO root fetch - main [MainThread]: End processing [stringhandling] error
+[2023-04-18 14:05:34] INFO root fetch - processPackages [pypsn]: Start processing: cognite-extractor-utils
+[2023-04-18 14:05:34] INFO root fetch - main [MainThread]: End processing [pypsn]: success
+[2023-04-18 14:05:34] INFO root fetch - processPackages [lamindb]: New version: [0.9.6] Old Version: [0.9.4]
+[2023-04-18 14:05:34] INFO root fetch - processPackages [cognite-extractor-utils]: New version: [4.3.1] Old Version: [4.3.0]
+[2023-04-18 14:05:34] INFO root fetch - processPackages [phiterm]: Downloading https://files.pythonhosted.org/packages/d3/10/3f6a71d377c4002bb8695a94518a6eaada08509ff0c1d4bdcf54baea4a27/phiterm-1.5.9.tar.gz
+[2023-04-18 14:05:34] INFO root fetch - processPackages [get-certificate-chain]: Downloading https://files.pythonhosted.org/packages/1e/ef/27c82165611c73846a961377ef9385a6e11e33bb8a2568b10e981c276c9a/get_certificate_chain-0.1.2.tar.gz
+[2023-04-18 14:05:34] INFO root fetch - processPackages [lamindb]: executing diffoscope
+[2023-04-18 14:05:34] INFO root fetch - processPackages [lamindb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb-0.9.4.tar.gz tmp/lamindb-0.9.6.tar.gz --markdown 20230418/l/lamindb/0.9.4-0.9.6/diff.md --exclude *.pyd
+[2023-04-18 14:05:34] INFO root fetch - processPackages [tupa123]: Start processing: odoo14-addon-account-financial-report
+[2023-04-18 14:05:34] INFO root fetch - main [MainThread]: End processing [tupa123]: success
+[2023-04-18 14:05:34] INFO root fetch - processPackages [odoo14-addon-account-financial-report]: New version: [14.0.3.7.3.dev1] Old Version: [14.0.3.7.3]
+[2023-04-18 14:05:34] INFO root fetch - processPackages [MuyunxiSupports]: Start processing: hsf
+[2023-04-18 14:05:34] INFO root fetch - main [MainThread]: End processing [MuyunxiSupports]: success
+[2023-04-18 14:05:34] INFO root fetch - processPackages [hsf]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-04-18 14:05:35] INFO root fetch - processPackages [odoo14-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/f5/c6/9708802e7fc5806e76acfed6f22fdebd173bb90bb62e905853341e43fc1b/odoo14_addon_account_financial_report-14.0.3.7.3-py3-none-any.whl
+[2023-04-18 14:05:35] INFO root fetch - processPackages [cognite-extractor-utils]: Downloading https://files.pythonhosted.org/packages/32/1a/ae3efbd11fa88695494d95e3906d5d172cefb425391e0d6c6c33181c49d2/cognite_extractor_utils-4.3.1.tar.gz
+[2023-04-18 14:05:35] INFO root fetch - processPackages [phiterm]: Downloading https://files.pythonhosted.org/packages/69/14/7bb07316abeb0d47e6e03de6f62d6a86808226119ccec0a4140ad5b3b33f/phiterm-1.6.0.tar.gz
+[2023-04-18 14:05:35] INFO root fetch - processPackages [hsf]: Downloading https://files.pythonhosted.org/packages/91/5f/ac222854ccd4e33b3dad1bd2e705aebd3a9b66863e2a8153f9361dbd14a1/HSF-1.1.1.tar.gz
+[2023-04-18 14:05:35] INFO root fetch - processPackages [get-certificate-chain]: Downloading https://files.pythonhosted.org/packages/c4/15/066e27033e8edcd083a0de6964ef27bf32dd2d0b6ecc58495339402bb32d/get_certificate_chain-0.1.3.tar.gz
+[2023-04-18 14:05:35] INFO root fetch - processPackages [cognite-extractor-utils]: executing diffoscope
+[2023-04-18 14:05:35] INFO root fetch - processPackages [cognite-extractor-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_extractor_utils-4.3.0.tar.gz tmp/cognite_extractor_utils-4.3.1.tar.gz --markdown 20230418/c/cognite-extractor-utils/4.3.0-4.3.1/diff.md --exclude *.pyd
+[2023-04-18 14:05:35] INFO root fetch - processPackages [get-certificate-chain]: executing diffoscope
+[2023-04-18 14:05:35] INFO root fetch - processPackages [get-certificate-chain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/get_certificate_chain-0.1.2.tar.gz tmp/get_certificate_chain-0.1.3.tar.gz --markdown 20230418/g/get-certificate-chain/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-18 14:05:35] INFO root fetch - processPackages [phiterm]: executing diffoscope
+[2023-04-18 14:05:35] INFO root fetch - processPackages [phiterm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phiterm-1.5.9.tar.gz tmp/phiterm-1.6.0.tar.gz --markdown 20230418/p/phiterm/1.5.9-1.6.0/diff.md --exclude *.pyd
+[2023-04-18 14:05:35] INFO root fetch - processPackages [hsf]: Downloading https://files.pythonhosted.org/packages/e9/91/f533f7d91501763803f9a4a22814cae7f25b11c4f2727d71a9527e62a947/hsf-1.1.2.tar.gz
+[2023-04-18 14:05:35] INFO root fetch - main [MainThread]: End processing [eltetrado]: success
+[2023-04-18 14:05:35] INFO root fetch - processPackages [odoo14-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/eb/b5/dfe8dc3c88f6a39174e29fdd7b51cfe3a762bc5d8000adcb69e560026f31/odoo14_addon_account_financial_report-14.0.3.7.3.dev1-py3-none-any.whl
+[2023-04-18 14:05:35] INFO root fetch - processPackages [hsf]: executing diffoscope
+[2023-04-18 14:05:35] INFO root fetch - processPackages [hsf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HSF-1.1.1.tar.gz tmp/hsf-1.1.2.tar.gz --markdown 20230418/h/hsf/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-04-18 14:05:35] INFO root fetch - processPackages [odoo14-addon-account-financial-report]: executing diffoscope
+[2023-04-18 14:05:35] INFO root fetch - processPackages [odoo14-addon-account-financial-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_financial_report-14.0.3.7.3-py3-none-any.whl.zip tmp/odoo14_addon_account_financial_report-14.0.3.7.3.dev1-py3-none-any.whl.zip --markdown 20230418/o/odoo14-addon-account-financial-report/14.0.3.7.3-14.0.3.7.3.dev1/diff.md --exclude *.pyd
+[2023-04-18 14:05:36] INFO root fetch - main [MainThread]: End processing [get-certificate-chain]: success
+[2023-04-18 14:05:36] INFO root fetch - main [MainThread]: End processing [cognite-extractor-utils]: success
+[2023-04-18 14:05:37] INFO root fetch - main [MainThread]: End processing [hsf]: success
+[2023-04-18 14:05:37] INFO root fetch - main [MainThread]: End processing [phiterm]: success
+[2023-04-18 14:05:37] INFO root fetch - main [MainThread]: End processing [DLMS-SPODES]: success
+[2023-04-18 14:05:37] INFO root fetch - main [MainThread]: End processing [lamindb]: success
+[2023-04-18 14:05:37] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder]: success
+[2023-04-18 14:05:37] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-financial-report]: success
+[2023-04-18 14:05:38] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-04-18 14:05:38] INFO root fetch - main [MainThread]: Store serial: [17755370]
