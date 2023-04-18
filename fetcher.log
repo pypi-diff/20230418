@@ -7012,3 +7012,59 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 03:59:42] INFO root fetch - main [MainThread]: End processing [xj-role]: success
 [2023-04-18 03:59:43] INFO root fetch - main [MainThread]: End processing [edc]: success
 [2023-04-18 03:59:43] INFO root fetch - main [MainThread]: Store serial: [17748484]
+[2023-04-18 04:04:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17748484]
+[2023-04-18 04:04:52] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-18 04:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gradio-tools
+[2023-04-18 04:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chalkpy
+[2023-04-18 04:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: np-tools
+[2023-04-18 04:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: proteinTools
+[2023-04-18 04:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: runtimepy
+[2023-04-18 04:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqapi
+[2023-04-18 04:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: avsub
+[2023-04-18 04:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tornado
+[2023-04-18 04:04:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ai-services
+[2023-04-18 04:04:52] INFO root fetch - processPackages [sqapi]: New version: [0.3] Old Version: [0.2]
+[2023-04-18 04:04:52] INFO root fetch - processPackages [proteinTools]: New version: [1.0.1] Old Version: [0.1.9]
+[2023-04-18 04:04:52] INFO root fetch - processPackages [gradio-tools]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-18 04:04:52] INFO root fetch - processPackages [tornado]: New version: [6.3b1] Old Version: [6.3]
+[2023-04-18 04:04:52] INFO root fetch - processPackages [runtimepy]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-04-18 04:04:52] INFO root fetch - processPackages [chalkpy]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-18 04:04:52] INFO root fetch - processPackages [np-tools]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-18 04:04:52] INFO root fetch - processPackages [gradio-tools]: executing diffoscope
+[2023-04-18 04:04:52] INFO root fetch - processPackages [gradio-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gradio_tools-0.0.2-py3-none-any.whl.zip tmp/gradio_tools-0.0.3.tar.gz --markdown 20230418/g/gradio-tools/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-18 04:04:52] INFO root fetch - processPackages [avsub]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-18 04:04:52] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-04-18 04:04:52] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-1.9.8.tar.gz tmp/chalkpy-1.9.9.tar.gz --markdown 20230418/c/chalkpy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-18 04:04:52] INFO root fetch - processPackages [ai-services]: New version: [0.5.0rc9] Old Version: [0.5.0rc8]
+[2023-04-18 04:04:52] INFO root fetch - processPackages [tornado]: Downloading https://files.pythonhosted.org/packages/15/e6/88afe8318b6aaff1e6c60b3d4b94c9b68708cc0a5ba2f6dae5cbc288ce69/tornado-6.3.tar.gz
+[2023-04-18 04:04:53] INFO root fetch - processPackages [sqapi]: Downloading https://files.pythonhosted.org/packages/4e/55/f3bd996dd9e4b92e9de184a47a1ed74fb4a0ddd055ae660ef1b36ac2d783/sqapi-0.3.tar.gz
+[2023-04-18 04:04:53] INFO root fetch - processPackages [sqapi]: executing diffoscope
+[2023-04-18 04:04:53] INFO root fetch - processPackages [sqapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqapi-0.2.tar.gz tmp/sqapi-0.3.tar.gz --markdown 20230418/s/sqapi/0.2-0.3/diff.md --exclude *.pyd
+[2023-04-18 04:04:53] INFO root fetch - processPackages [proteinTools]: executing diffoscope
+[2023-04-18 04:04:53] INFO root fetch - processPackages [proteinTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteinTools-0.1.9.tar.gz tmp/proteinTools-1.0.1.tar.gz --markdown 20230418/p/proteinTools/0.1.9-1.0.1/diff.md --exclude *.pyd
+[2023-04-18 04:04:53] INFO root fetch - processPackages [runtimepy]: executing diffoscope
+[2023-04-18 04:04:53] INFO root fetch - processPackages [runtimepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runtimepy-1.4.1.tar.gz tmp/runtimepy-1.4.2.tar.gz --markdown 20230418/r/runtimepy/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-04-18 04:04:53] INFO root fetch - processPackages [np-tools]: Downloading https://files.pythonhosted.org/packages/21/d5/5bdc6500f14e58cf82e5797a99a2d6ca3d6c5ad311acfe51d7828d861f29/np_tools-0.1.0.tar.gz
+[2023-04-18 04:04:53] INFO root fetch - processPackages [avsub]: Downloading https://files.pythonhosted.org/packages/2b/db/6068352448ec3712f5207b1ce4ff2a78d798268b46d32fd926e79e7d949b/avsub-0.0.3.tar.gz
+[2023-04-18 04:04:53] INFO root fetch - processPackages [ai-services]: Downloading https://files.pythonhosted.org/packages/77/c5/a81e3c1016a728128de1001a0672005901ca96685966233a57826ceba4e2/ai_services-0.5.0rc8.tar.gz
+[2023-04-18 04:04:53] INFO root fetch - processPackages [avsub]: executing diffoscope
+[2023-04-18 04:04:53] INFO root fetch - processPackages [avsub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avsub-0.0.2.tar.gz tmp/avsub-0.0.3.tar.gz --markdown 20230418/a/avsub/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-18 04:04:53] INFO root fetch - processPackages [tornado]: Downloading https://files.pythonhosted.org/packages/41/2c/ebb4c417eb82d1d9b9666875d051a9fce6ff1e0fe5d3e93019b94c61d29d/tornado-6.3b1.tar.gz
+[2023-04-18 04:04:53] INFO root fetch - processPackages [np-tools]: Downloading https://files.pythonhosted.org/packages/8b/09/46a2e907c70780ddd057af6beebde145e39ea50a062e238d579b338bb3bb/np_tools-0.1.1.tar.gz
+[2023-04-18 04:04:53] INFO root fetch - processPackages [tornado]: executing diffoscope
+[2023-04-18 04:04:53] INFO root fetch - processPackages [tornado]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tornado-6.3.tar.gz tmp/tornado-6.3b1.tar.gz --markdown 20230418/t/tornado/6.3-6.3b1/diff.md --exclude *.pyd
+[2023-04-18 04:04:53] INFO root fetch - processPackages [np-tools]: executing diffoscope
+[2023-04-18 04:04:53] INFO root fetch - processPackages [np-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_tools-0.1.0.tar.gz tmp/np_tools-0.1.1.tar.gz --markdown 20230418/n/np-tools/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-18 04:04:53] INFO root fetch - processPackages [ai-services]: Downloading https://files.pythonhosted.org/packages/c2/e2/78cfce554b3c81f6240f71231bcdbdaa59f36309e81fcc627c63823a5d6c/ai_services-0.5.0rc9.tar.gz
+[2023-04-18 04:04:53] INFO root fetch - processPackages [ai-services]: executing diffoscope
+[2023-04-18 04:04:53] INFO root fetch - processPackages [ai-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_services-0.5.0rc8.tar.gz tmp/ai_services-0.5.0rc9.tar.gz --markdown 20230418/a/ai-services/0.5.0rc8-0.5.0rc9/diff.md --exclude *.pyd
+[2023-04-18 04:04:54] INFO root fetch - main [MainThread]: End processing [proteinTools]: success
+[2023-04-18 04:04:54] INFO root fetch - main [MainThread]: End processing [np-tools]: success
+[2023-04-18 04:04:54] INFO root fetch - main [MainThread]: End processing [sqapi]: success
+[2023-04-18 04:04:55] INFO root fetch - main [MainThread]: End processing [avsub]: success
+[2023-04-18 04:04:55] INFO root fetch - main [MainThread]: End processing [runtimepy]: success
+[2023-04-18 04:04:56] INFO root fetch - main [MainThread]: End processing [tornado]: success
+[2023-04-18 04:04:56] INFO root fetch - main [MainThread]: End processing [ai-services]: success
+[2023-04-18 04:04:56] INFO root fetch - main [MainThread]: End processing [gradio-tools]: success
+[2023-04-18 04:04:59] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-04-18 04:04:59] INFO root fetch - main [MainThread]: Store serial: [17748519]
