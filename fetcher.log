@@ -20771,3 +20771,127 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 15:01:51] INFO root fetch - main [MainThread]: End processing [QuickStart-Rhy]: success
 [2023-04-18 15:01:52] INFO root fetch - main [MainThread]: End processing [cdktf]: success
 [2023-04-18 15:01:52] INFO root fetch - main [MainThread]: Store serial: [17755974]
+[2023-04-18 15:06:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17755974]
+[2023-04-18 15:07:01] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-04-18 15:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ramodels
+[2023-04-18 15:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-chatbot20220408-py2
+[2023-04-18 15:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: codefast
+[2023-04-18 15:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: importlib-metadata
+[2023-04-18 15:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: securesystemslib
+[2023-04-18 15:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-chatbot20220408
+[2023-04-18 15:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ChromaticColorBurst
+[2023-04-18 15:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: security-util
+[2023-04-18 15:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-letsmaintain
+[2023-04-18 15:07:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: eotdl-cli
+[2023-04-18 15:07:01] INFO root fetch - processPackages [codefast]: New version: [23.4.8.2] Old Version: [23.4.7.8]
+[2023-04-18 15:07:01] INFO root fetch - processPackages [alibabacloud-chatbot20220408-py2]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-04-18 15:07:01] INFO root fetch - processPackages [eotdl-cli]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-18 15:07:01] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-04-18 15:07:01] INFO root fetch - processPackages [alibabacloud-chatbot20220408]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-04-18 15:07:01] INFO root fetch - processPackages [importlib-metadata]: New version: [6.5.0] Old Version: [6.4.1]
+[2023-04-18 15:07:01] INFO root fetch - processPackages [ChromaticColorBurst]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-18 15:07:01] WARNING root fetch - processPackages [security-util]: Skipping, unable to determine old version
+[2023-04-18 15:07:01] INFO root fetch - processPackages [security-util]: Start processing: saagieapi
+[2023-04-18 15:07:01] INFO root fetch - main [MainThread]: End processing [security-util] error
+[2023-04-18 15:07:01] INFO root fetch - processPackages [django-letsmaintain]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-18 15:07:01] INFO root fetch - processPackages [securesystemslib]: New version: [0.28.0] Old Version: [0.27.0]
+[2023-04-18 15:07:01] INFO root fetch - processPackages [saagieapi]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-04-18 15:07:01] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-04-18 15:07:01] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230418/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-04-18 15:07:01] INFO root fetch - processPackages [importlib-metadata]: Downloading https://files.pythonhosted.org/packages/9d/ce/dc7221b3044c7382d5abad27d2599e63b0e0ccabc49491244203ee1ded96/importlib_metadata-6.5.0.tar.gz
+[2023-04-18 15:07:01] INFO root fetch - processPackages [eotdl-cli]: Downloading https://files.pythonhosted.org/packages/d0/2c/f290364daed0ef6d596f34e2e301ec02325f60c0d444da355dcd7b48d321/eotdl_cli-0.0.3.tar.gz
+[2023-04-18 15:07:01] INFO root fetch - processPackages [alibabacloud-chatbot20220408-py2]: Downloading https://files.pythonhosted.org/packages/8d/96/462a7a3a7f76438b7a90b84b158c51918480383fabde2fee782390aaf060/alibabacloud_chatbot20220408_py2-1.0.7.tar.gz
+[2023-04-18 15:07:01] INFO root fetch - processPackages [ChromaticColorBurst]: Downloading https://files.pythonhosted.org/packages/bf/b3/ea11052e5e06dac16dd3afa734b5717981546bca665ce0a64221151e3bf1/ChromaticColorBurst-1.0.2.tar.gz
+[2023-04-18 15:07:01] INFO root fetch - processPackages [alibabacloud-chatbot20220408]: Downloading https://files.pythonhosted.org/packages/21/a8/fa76c38a271570d6521f1d250b6f612496dd5e54b7699b73fb9614bcc5f4/alibabacloud_chatbot20220408-1.0.7.tar.gz
+[2023-04-18 15:07:01] INFO root fetch - processPackages [codefast]: Downloading https://files.pythonhosted.org/packages/ee/ea/5a8e3aac3fcd3e68d45c437ceba24e361efe2ad4cb2135f21c5961ce849a/codefast-23.4.7.8.tar.gz
+[2023-04-18 15:07:01] INFO root fetch - processPackages [saagieapi]: Downloading https://files.pythonhosted.org/packages/5f/18/9c8072d1153cec27fc5b087be3f116b5c7c223f44ea7cae57b89a41bca16/saagieapi-2.4.0.tar.gz
+[2023-04-18 15:07:01] INFO root fetch - processPackages [importlib-metadata]: executing diffoscope
+[2023-04-18 15:07:01] INFO root fetch - processPackages [importlib-metadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/importlib_metadata-6.4.1.tar.gz tmp/importlib_metadata-6.5.0.tar.gz --markdown 20230418/i/importlib-metadata/6.4.1-6.5.0/diff.md --exclude *.pyd
+[2023-04-18 15:07:01] INFO root fetch - processPackages [securesystemslib]: Downloading https://files.pythonhosted.org/packages/03/0a/ecae6280ba3488921f71d24ccf999c9a71e2cd0117f606824cbfefb0aa9a/securesystemslib-0.27.0.tar.gz
+[2023-04-18 15:07:01] INFO root fetch - processPackages [django-letsmaintain]: Downloading https://files.pythonhosted.org/packages/fc/f4/6437029b8d515a47d4ac69aa1bb797bfcb5899651eacf356092bc639f3ea/django-letsmaintain-1.0.2.tar.gz
+[2023-04-18 15:07:01] INFO root fetch - processPackages [alibabacloud-chatbot20220408-py2]: Downloading https://files.pythonhosted.org/packages/96/23/ed684bd7bb99ca0e80c1efa8da198be0a100ecfab24fccb23c6c4fca3beb/alibabacloud_chatbot20220408_py2-1.0.8.tar.gz
+[2023-04-18 15:07:01] INFO root fetch - processPackages [alibabacloud-chatbot20220408]: Downloading https://files.pythonhosted.org/packages/06/b3/4b1081a3e6d9e69b8206e7dac109756f0675fd2c1cacff965297b17355f1/alibabacloud_chatbot20220408-1.0.8.tar.gz
+[2023-04-18 15:07:01] INFO root fetch - processPackages [saagieapi]: Downloading https://files.pythonhosted.org/packages/48/5f/8f016d5ed2a41594e8b5670d34956c5f97f48175d979e2c62096c61b4857/saagieapi-2.4.1.tar.gz
+[2023-04-18 15:07:01] INFO root fetch - processPackages [ChromaticColorBurst]: Downloading https://files.pythonhosted.org/packages/49/63/7550ace3e2a01210c5e456ffc5e4f30efb6c0973dcbe43d6d4c5cefdbb89/ChromaticColorBurst-1.0.3.tar.gz
+[2023-04-18 15:07:01] INFO root fetch - processPackages [eotdl-cli]: Downloading https://files.pythonhosted.org/packages/43/65/6ccc99057dd0385cf1a06702d17398b1a39bd61bb7595856c9b35d59b4a4/eotdl_cli-0.0.4.tar.gz
+[2023-04-18 15:07:01] INFO root fetch - processPackages [securesystemslib]: Downloading https://files.pythonhosted.org/packages/8b/96/5d9c44a469cf54677140ad4f3ba554cce77e6834cbeb0e5eff43ab92df35/securesystemslib-0.28.0.tar.gz
+[2023-04-18 15:07:01] INFO root fetch - processPackages [django-letsmaintain]: Downloading https://files.pythonhosted.org/packages/1d/ec/14a2d8426e3f2cace45a93dfd0348fe3cb150f35b15f516fb034b5849582/django_letsmaintain-1.0.3-py3-none-any.whl
+[2023-04-18 15:07:02] INFO root fetch - processPackages [alibabacloud-chatbot20220408-py2]: executing diffoscope
+[2023-04-18 15:07:02] INFO root fetch - processPackages [alibabacloud-chatbot20220408-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_chatbot20220408_py2-1.0.7.tar.gz tmp/alibabacloud_chatbot20220408_py2-1.0.8.tar.gz --markdown 20230418/a/alibabacloud-chatbot20220408-py2/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-04-18 15:07:02] INFO root fetch - processPackages [codefast]: Downloading https://files.pythonhosted.org/packages/62/9d/3fc6916700274a839de55314d6810fe37f2dcc9cca7e4520d067948e5196/codefast-23.4.8.2.tar.gz
+[2023-04-18 15:07:02] INFO root fetch - processPackages [alibabacloud-chatbot20220408]: executing diffoscope
+[2023-04-18 15:07:02] INFO root fetch - processPackages [alibabacloud-chatbot20220408]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_chatbot20220408-1.0.7.tar.gz tmp/alibabacloud_chatbot20220408-1.0.8.tar.gz --markdown 20230418/a/alibabacloud-chatbot20220408/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-04-18 15:07:02] INFO root fetch - processPackages [ChromaticColorBurst]: executing diffoscope
+[2023-04-18 15:07:02] INFO root fetch - processPackages [ChromaticColorBurst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChromaticColorBurst-1.0.2.tar.gz tmp/ChromaticColorBurst-1.0.3.tar.gz --markdown 20230418/C/ChromaticColorBurst/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-18 15:07:02] INFO root fetch - processPackages [saagieapi]: executing diffoscope
+[2023-04-18 15:07:02] INFO root fetch - processPackages [saagieapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saagieapi-2.4.0.tar.gz tmp/saagieapi-2.4.1.tar.gz --markdown 20230418/s/saagieapi/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-04-18 15:07:02] INFO root fetch - processPackages [eotdl-cli]: executing diffoscope
+[2023-04-18 15:07:02] INFO root fetch - processPackages [eotdl-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eotdl_cli-0.0.3.tar.gz tmp/eotdl_cli-0.0.4.tar.gz --markdown 20230418/e/eotdl-cli/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-18 15:07:02] INFO root fetch - processPackages [django-letsmaintain]: executing diffoscope
+[2023-04-18 15:07:02] INFO root fetch - processPackages [django-letsmaintain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-letsmaintain-1.0.2.tar.gz tmp/django_letsmaintain-1.0.3-py3-none-any.whl.zip --markdown 20230418/d/django-letsmaintain/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-18 15:07:02] INFO root fetch - processPackages [securesystemslib]: executing diffoscope
+[2023-04-18 15:07:02] INFO root fetch - processPackages [securesystemslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/securesystemslib-0.27.0.tar.gz tmp/securesystemslib-0.28.0.tar.gz --markdown 20230418/s/securesystemslib/0.27.0-0.28.0/diff.md --exclude *.pyd
+[2023-04-18 15:07:02] INFO root fetch - processPackages [codefast]: executing diffoscope
+[2023-04-18 15:07:02] INFO root fetch - processPackages [codefast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codefast-23.4.7.8.tar.gz tmp/codefast-23.4.8.2.tar.gz --markdown 20230418/c/codefast/23.4.7.8-23.4.8.2/diff.md --exclude *.pyd
+[2023-04-18 15:07:03] INFO root fetch - processPackages [django-letsmaintain]: Start processing: django-breeze
+[2023-04-18 15:07:03] INFO root fetch - main [MainThread]: End processing [django-letsmaintain]: success
+[2023-04-18 15:07:03] INFO root fetch - processPackages [django-breeze]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-18 15:07:03] INFO root fetch - processPackages [ChromaticColorBurst]: Start processing: stringhandling
+[2023-04-18 15:07:03] INFO root fetch - main [MainThread]: End processing [ChromaticColorBurst]: success
+[2023-04-18 15:07:03] INFO root fetch - processPackages [eotdl-cli]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-04-18 15:07:03] INFO root fetch - main [MainThread]: End processing [eotdl-cli]: success
+[2023-04-18 15:07:03] INFO root fetch - processPackages [stringhandling]: New version: [0.2] Old Version: [0.1]
+[2023-04-18 15:07:03] INFO root fetch - processPackages [saagieapi]: Start processing: composer-csv-ingestion
+[2023-04-18 15:07:03] INFO root fetch - main [MainThread]: End processing [saagieapi]: success
+[2023-04-18 15:07:03] INFO root fetch - processPackages [alibabacloud-chatbot20220408]: Start processing: waveprop
+[2023-04-18 15:07:03] INFO root fetch - main [MainThread]: End processing [alibabacloud-chatbot20220408]: success
+[2023-04-18 15:07:03] INFO root fetch - processPackages [ramodels]: Start processing: eotdl-cli
+[2023-04-18 15:07:03] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-04-18 15:07:03] WARNING root fetch - processPackages [composer-csv-ingestion]: Skipping, unable to determine old version
+[2023-04-18 15:07:03] INFO root fetch - processPackages [composer-csv-ingestion]: Start processing: aiofauna
+[2023-04-18 15:07:03] INFO root fetch - main [MainThread]: End processing [composer-csv-ingestion] error
+[2023-04-18 15:07:03] INFO root fetch - processPackages [eotdl-cli]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-18 15:07:03] INFO root fetch - processPackages [django-breeze]: Downloading https://files.pythonhosted.org/packages/87/43/a4991d41a49e61282dd63707acead6a7f203827294030e23d3d61d7f246f/django_breeze-0.1.3.tar.gz
+[2023-04-18 15:07:03] INFO root fetch - processPackages [waveprop]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-18 15:07:03] INFO root fetch - processPackages [aiofauna]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-18 15:07:04] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-18 15:07:04] INFO root fetch - processPackages [importlib-metadata]: Start processing: bybitHTTPX
+[2023-04-18 15:07:04] INFO root fetch - main [MainThread]: End processing [importlib-metadata]: success
+[2023-04-18 15:07:04] INFO root fetch - processPackages [eotdl-cli]: executing diffoscope
+[2023-04-18 15:07:04] INFO root fetch - processPackages [eotdl-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eotdl_cli-0.0.3.tar.gz tmp/eotdl_cli-0.0.4.tar.gz --markdown 20230418/e/eotdl-cli/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-18 15:07:04] INFO root fetch - processPackages [aiofauna]: executing diffoscope
+[2023-04-18 15:07:04] INFO root fetch - processPackages [aiofauna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiofauna-0.0.8.tar.gz tmp/aiofauna-0.0.9.tar.gz --markdown 20230418/a/aiofauna/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-18 15:07:04] INFO root fetch - processPackages [bybitHTTPX]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-18 15:07:04] INFO root fetch - processPackages [stringhandling]: Downloading https://files.pythonhosted.org/packages/31/ab/6606b4732858db09ac9102282d2c85116e5240e5ae0b3f54709a59ecebfe/stringhandling-0.1.tar.gz
+[2023-04-18 15:07:04] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-04-18 15:07:04] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.4.8-cp39-cp39-manylinux1_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.4.9-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230418/f/fbgemm-gpu-nightly-cpu/2023.4.8-2023.4.9/diff.md --exclude *.pyd
+[2023-04-18 15:07:04] INFO root fetch - processPackages [django-breeze]: executing diffoscope
+[2023-04-18 15:07:04] INFO root fetch - processPackages [django-breeze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_breeze-0.1.2.tar.gz tmp/django_breeze-0.1.3.tar.gz --markdown 20230418/d/django-breeze/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-18 15:07:04] INFO root fetch - processPackages [codefast]: Start processing: untanglepyut
+[2023-04-18 15:07:04] INFO root fetch - main [MainThread]: End processing [codefast]: success
+[2023-04-18 15:07:04] INFO root fetch - processPackages [waveprop]: Downloading https://files.pythonhosted.org/packages/08/dd/688c21969aa45c67dbdc7e9a73cf9480ba2a46196bc1a276140c3831171e/waveprop-0.0.3.tar.gz
+[2023-04-18 15:07:04] INFO root fetch - processPackages [untanglepyut]: New version: [0.6.6] Old Version: [0.6.55]
+[2023-04-18 15:07:04] INFO root fetch - processPackages [bybitHTTPX]: Downloading https://files.pythonhosted.org/packages/3f/b4/9fc9999db00f01d705104d68816b2553e925962e004ff80dd4ac66862023/bybitHTTPX-0.0.3.tar.gz
+[2023-04-18 15:07:04] INFO root fetch - processPackages [untanglepyut]: Downloading https://files.pythonhosted.org/packages/6e/0e/6793387f6d61f843c0ce1f1709e455f4dfd0d89bad9218ba2fed24cb2b86/untanglepyut-0.6.55.tar.gz
+[2023-04-18 15:07:04] INFO root fetch - processPackages [stringhandling]: Downloading https://files.pythonhosted.org/packages/e7/f2/413a927a24eb333e16d5a459b1e1da6bfaa0d55690c09ad5e0c7b1c51c4a/stringhandling-0.2.tar.gz
+[2023-04-18 15:07:04] INFO root fetch - processPackages [waveprop]: Downloading https://files.pythonhosted.org/packages/e5/08/8377e82e67766fb30a11404bb991f5f4e34c4550bb89ff46d19f95a8eae7/waveprop-0.0.4.tar.gz
+[2023-04-18 15:07:04] INFO root fetch - processPackages [bybitHTTPX]: executing diffoscope
+[2023-04-18 15:07:04] INFO root fetch - processPackages [bybitHTTPX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bybitHTTPX-0.0.2.tar.gz tmp/bybitHTTPX-0.0.3.tar.gz --markdown 20230418/b/bybitHTTPX/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-18 15:07:04] INFO root fetch - processPackages [stringhandling]: executing diffoscope
+[2023-04-18 15:07:04] INFO root fetch - processPackages [stringhandling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stringhandling-0.1.tar.gz tmp/stringhandling-0.2.tar.gz --markdown 20230418/s/stringhandling/0.1-0.2/diff.md --exclude *.pyd
+[2023-04-18 15:07:04] INFO root fetch - processPackages [waveprop]: executing diffoscope
+[2023-04-18 15:07:04] INFO root fetch - processPackages [waveprop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waveprop-0.0.3.tar.gz tmp/waveprop-0.0.4.tar.gz --markdown 20230418/w/waveprop/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-18 15:07:04] INFO root fetch - processPackages [untanglepyut]: Downloading https://files.pythonhosted.org/packages/c2/57/a41703aa1f4633ed97e39478fddb6d831d9d5fb8dfd4d0d9bd6680408763/untanglepyut-0.6.6.tar.gz
+[2023-04-18 15:07:04] INFO root fetch - main [MainThread]: End processing [alibabacloud-chatbot20220408-py2]: success
+[2023-04-18 15:07:04] INFO root fetch - processPackages [untanglepyut]: executing diffoscope
+[2023-04-18 15:07:04] INFO root fetch - processPackages [untanglepyut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/untanglepyut-0.6.55.tar.gz tmp/untanglepyut-0.6.6.tar.gz --markdown 20230418/u/untanglepyut/0.6.55-0.6.6/diff.md --exclude *.pyd
+[2023-04-18 15:07:05] INFO root fetch - main [MainThread]: End processing [securesystemslib]: success
+[2023-04-18 15:07:05] INFO root fetch - main [MainThread]: End processing [eotdl-cli]: success
+[2023-04-18 15:07:05] INFO root fetch - main [MainThread]: End processing [django-breeze]: success
+[2023-04-18 15:07:05] INFO root fetch - main [MainThread]: End processing [stringhandling]: success
+[2023-04-18 15:07:05] INFO root fetch - main [MainThread]: End processing [bybitHTTPX]: success
+[2023-04-18 15:07:06] INFO root fetch - main [MainThread]: End processing [aiofauna]: success
+[2023-04-18 15:07:06] INFO root fetch - main [MainThread]: End processing [waveprop]: success
+[2023-04-18 15:07:06] INFO root fetch - main [MainThread]: End processing [untanglepyut]: success
+[2023-04-18 15:07:07] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-04-18 15:07:07] INFO root fetch - main [MainThread]: Store serial: [17756045]
