@@ -14230,3 +14230,133 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-18 10:11:25] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2023-04-18 10:11:47] INFO root fetch - main [MainThread]: End processing [obp-python-apiv5.1]: success
 [2023-04-18 10:11:47] INFO root fetch - main [MainThread]: Store serial: [17751964]
+[2023-04-18 10:16:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17751964]
+[2023-04-18 10:16:59] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-04-18 10:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: speechtotext-python
+[2023-04-18 10:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tinybird-cli
+[2023-04-18 10:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyobjc-core
+[2023-04-18 10:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: codat-commerce
+[2023-04-18 10:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: je-editor-dev
+[2023-04-18 10:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dissect.target
+[2023-04-18 10:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nobuco
+[2023-04-18 10:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: codat-common
+[2023-04-18 10:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Alpha-Rabbit
+[2023-04-18 10:16:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: codat-sync-for-expenses
+[2023-04-18 10:16:59] INFO root fetch - processPackages [speechtotext-python]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-04-18 10:16:59] INFO root fetch - processPackages [codat-commerce]: New version: [0.9.6] Old Version: [0.7.0]
+[2023-04-18 10:16:59] WARNING root fetch - processPackages [codat-sync-for-expenses]: Skipping, unable to determine old version
+[2023-04-18 10:16:59] INFO root fetch - processPackages [codat-sync-for-expenses]: Start processing: toldwords
+[2023-04-18 10:16:59] INFO root fetch - main [MainThread]: End processing [codat-sync-for-expenses] error
+[2023-04-18 10:16:59] INFO root fetch - processPackages [je-editor-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-18 10:16:59] INFO root fetch - processPackages [nobuco]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-18 10:16:59] INFO root fetch - processPackages [Alpha-Rabbit]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-04-18 10:16:59] INFO root fetch - processPackages [pyobjc-core]: New version: [9.1b1] Old Version: [9.1.1]
+[2023-04-18 10:16:59] INFO root fetch - processPackages [codat-common]: New version: [0.8.1] Old Version: [0.6.5]
+[2023-04-18 10:16:59] INFO root fetch - processPackages [toldwords]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-04-18 10:16:59] INFO root fetch - processPackages [tinybird-cli]: New version: [1.0.0b99] Old Version: [1.0.0b98]
+[2023-04-18 10:16:59] INFO root fetch - processPackages [dissect.target]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2023-04-18 10:16:59] INFO root fetch - processPackages [dissect.target]: Downloading https://files.pythonhosted.org/packages/b1/a4/24f9ce2eb6a1913b82598a01b68b634c9fe5535a9484bff3d7d56a0ae929/dissect.target-3.9.dev8.tar.gz
+[2023-04-18 10:16:59] INFO root fetch - processPackages [Alpha-Rabbit]: executing diffoscope
+[2023-04-18 10:16:59] INFO root fetch - processPackages [Alpha-Rabbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Alpha_Rabbit-1.3.8.tar.gz tmp/Alpha_Rabbit-1.3.9.tar.gz --markdown 20230418/A/Alpha-Rabbit/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-04-18 10:16:59] INFO root fetch - processPackages [nobuco]: Downloading https://files.pythonhosted.org/packages/2e/0d/1860ac622ab00430e3eecced128135e0c4960783714b1d063478b2b12dc1/nobuco-0.1.3.tar.gz
+[2023-04-18 10:16:59] INFO root fetch - processPackages [pyobjc-core]: Downloading https://files.pythonhosted.org/packages/89/33/78a6350f83d071c502b778762564720dd6ab681a6c6104f7607aa83fe3c2/pyobjc_core-9.1.1-cp37-cp37m-macosx_10_9_x86_64.whl
+[2023-04-18 10:16:59] INFO root fetch - processPackages [codat-commerce]: Downloading https://files.pythonhosted.org/packages/5e/0b/158bc3bfc7f7601b8daa3c8949d75e8a2e5dea3221f16b6ecaafe43dbca3/codat-commerce-0.7.0.tar.gz
+[2023-04-18 10:16:59] INFO root fetch - processPackages [je-editor-dev]: Downloading https://files.pythonhosted.org/packages/f2/61/c6961f4f39e76050ea4dcf300ec119fb5a54a2b5213cf6e1012b83ff137c/je_editor_dev-0.0.8.tar.gz
+[2023-04-18 10:16:59] INFO root fetch - processPackages [codat-common]: Downloading https://files.pythonhosted.org/packages/ce/e4/56d482565ff5a242c0614bcacccf0e233c98a5ebbe3ba3c8fb0e613ef4a7/codat-common-0.6.5.tar.gz
+[2023-04-18 10:16:59] INFO root fetch - processPackages [toldwords]: Downloading https://files.pythonhosted.org/packages/50/b8/e08653aaa45dfb154552400dac0c4f750490a986b88091ae0afbd26a2315/toldwords-0.4.0.tar.gz
+[2023-04-18 10:16:59] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/cf/bc/f6fe2aa48ad97fc6f03b105a263497f0cc5d7173fa89703bbc609c18f13a/tinybird-cli-1.0.0b98.tar.gz
+[2023-04-18 10:16:59] WARNING root fetch - processPackages [dissect.target]: Skipping package: exceeds size limit 63555307>=10485760
+[2023-04-18 10:16:59] INFO root fetch - processPackages [dissect.target]: Start processing: codat-assess
+[2023-04-18 10:16:59] INFO root fetch - main [MainThread]: End processing [dissect.target] error
+[2023-04-18 10:16:59] INFO root fetch - processPackages [codat-assess]: New version: [0.9.6] Old Version: [0.5.1]
+[2023-04-18 10:16:59] INFO root fetch - processPackages [speechtotext-python]: Downloading https://files.pythonhosted.org/packages/27/e3/5c10d647865a23dce537bfc1366f14b78de52c033c447ae622631b5b3011/speechtotext-python-0.3.5.tar.gz
+[2023-04-18 10:16:59] INFO root fetch - processPackages [toldwords]: executing diffoscope
+[2023-04-18 10:16:59] INFO root fetch - processPackages [toldwords]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toldwords-0.3.0.tar.gz tmp/toldwords-0.4.0.tar.gz --markdown 20230418/t/toldwords/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-04-18 10:16:59] INFO root fetch - processPackages [speechtotext-python]: executing diffoscope
+[2023-04-18 10:16:59] INFO root fetch - processPackages [speechtotext-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speechtotext-python-0.3.4.tar.gz tmp/speechtotext-python-0.3.5.tar.gz --markdown 20230418/s/speechtotext-python/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-04-18 10:16:59] INFO root fetch - processPackages [codat-assess]: Downloading https://files.pythonhosted.org/packages/5d/5d/ccb02812cf4612cbc83dfcef4407d3a273c4dd18c62d3a4ea911297d49b2/codat-assess-0.5.1.tar.gz
+[2023-04-18 10:16:59] INFO root fetch - processPackages [nobuco]: Downloading https://files.pythonhosted.org/packages/0e/a8/653c740077f0a6c25113a447b2ca1f6aa2f702c7b272a63486764d444bf9/nobuco-0.1.4.tar.gz
+[2023-04-18 10:16:59] INFO root fetch - processPackages [codat-common]: Downloading https://files.pythonhosted.org/packages/f7/31/effc45061ad6b0aaedae73860803c39dc10db206cbd327e78a25ef4a8e64/codat-common-0.8.1.tar.gz
+[2023-04-18 10:17:00] INFO root fetch - processPackages [codat-commerce]: Downloading https://files.pythonhosted.org/packages/71/8e/245363a88da4d674a28d917f5ea7d96ac815727f03b88dc4ed8e0ae9416b/codat-commerce-0.9.6.tar.gz
+[2023-04-18 10:17:00] INFO root fetch - processPackages [codat-common]: executing diffoscope
+[2023-04-18 10:17:00] INFO root fetch - processPackages [codat-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codat-common-0.6.5.tar.gz tmp/codat-common-0.8.1.tar.gz --markdown 20230418/c/codat-common/0.6.5-0.8.1/diff.md --exclude *.pyd
+[2023-04-18 10:17:00] INFO root fetch - processPackages [pyobjc-core]: executing diffoscope
+[2023-04-18 10:17:00] INFO root fetch - processPackages [pyobjc-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc_core-9.1.1-cp37-cp37m-macosx_10_9_x86_64.whl.zip tmp/pyobjc-core-9.1b1.tar.gz --markdown 20230418/p/pyobjc-core/9.1.1-9.1b1/diff.md --exclude *.pyd
+[2023-04-18 10:17:00] INFO root fetch - processPackages [codat-commerce]: executing diffoscope
+[2023-04-18 10:17:00] INFO root fetch - processPackages [codat-commerce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codat-commerce-0.7.0.tar.gz tmp/codat-commerce-0.9.6.tar.gz --markdown 20230418/c/codat-commerce/0.7.0-0.9.6/diff.md --exclude *.pyd
+[2023-04-18 10:17:00] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/6a/27/a5d411f1a02b44b9f386c7d18397784dcaa5fe1129d9a77e87a5e048edc5/tinybird-cli-1.0.0b99.tar.gz
+[2023-04-18 10:17:00] INFO root fetch - processPackages [nobuco]: executing diffoscope
+[2023-04-18 10:17:00] INFO root fetch - processPackages [nobuco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nobuco-0.1.3.tar.gz tmp/nobuco-0.1.4.tar.gz --markdown 20230418/n/nobuco/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-18 10:17:00] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2023-04-18 10:17:00] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-1.0.0b98.tar.gz tmp/tinybird-cli-1.0.0b99.tar.gz --markdown 20230418/t/tinybird-cli/1.0.0b98-1.0.0b99/diff.md --exclude *.pyd
+[2023-04-18 10:17:00] INFO root fetch - processPackages [je-editor-dev]: Downloading https://files.pythonhosted.org/packages/fe/27/9b840e71303c86806e197866a6f1caa6cb89e733cc7df118bc7a11fe8ad4/je_editor_dev-0.0.9.tar.gz
+[2023-04-18 10:17:00] INFO root fetch - processPackages [je-editor-dev]: executing diffoscope
+[2023-04-18 10:17:00] INFO root fetch - processPackages [je-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor_dev-0.0.8.tar.gz tmp/je_editor_dev-0.0.9.tar.gz --markdown 20230418/j/je-editor-dev/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-18 10:17:00] INFO root fetch - processPackages [codat-assess]: Downloading https://files.pythonhosted.org/packages/f6/02/f5dc6ed7ee14f66ceee9aaed1c91a300250841109670580c9d80a62fdd94/codat-assess-0.9.6.tar.gz
+[2023-04-18 10:17:00] INFO root fetch - processPackages [codat-assess]: executing diffoscope
+[2023-04-18 10:17:00] INFO root fetch - processPackages [codat-assess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codat-assess-0.5.1.tar.gz tmp/codat-assess-0.9.6.tar.gz --markdown 20230418/c/codat-assess/0.5.1-0.9.6/diff.md --exclude *.pyd
+[2023-04-18 10:17:01] INFO root fetch - processPackages [Alpha-Rabbit]: Start processing: JFQ
+[2023-04-18 10:17:01] INFO root fetch - main [MainThread]: End processing [Alpha-Rabbit]: success
+[2023-04-18 10:17:01] INFO root fetch - processPackages [JFQ]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-18 10:17:01] INFO root fetch - processPackages [toldwords]: Start processing: codat-accounting
+[2023-04-18 10:17:01] INFO root fetch - main [MainThread]: End processing [toldwords]: success
+[2023-04-18 10:17:01] INFO root fetch - processPackages [codat-accounting]: New version: [0.9.6] Old Version: [0.5.1]
+[2023-04-18 10:17:01] INFO root fetch - processPackages [JFQ]: Downloading https://files.pythonhosted.org/packages/33/c6/3f49eaa3e7366b6c44d8bac0bfc09dfbd84d88a74b6fb24ec8f39c986722/JFQ-0.1.8.tar.gz
+[2023-04-18 10:17:01] INFO root fetch - processPackages [speechtotext-python]: Start processing: returnn
+[2023-04-18 10:17:01] INFO root fetch - main [MainThread]: End processing [speechtotext-python]: success
+[2023-04-18 10:17:01] INFO root fetch - processPackages [codat-accounting]: Downloading https://files.pythonhosted.org/packages/bf/47/f4cdb75c867c024099ef9160e409fd058e88bdab11b26ab1203dca2ef1f2/codat-accounting-0.5.1.tar.gz
+[2023-04-18 10:17:01] INFO root fetch - processPackages [returnn]: New version: [1.20230418.5121] Old Version: [1.20230418.12742]
+[2023-04-18 10:17:01] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/2d/3a/65d8054553343e0e74452259499f097841534eeb4763326ec61a6a4e50c8/returnn-1.20230418.12742.tar.gz
+[2023-04-18 10:17:01] INFO root fetch - processPackages [JFQ]: Downloading https://files.pythonhosted.org/packages/a6/5d/3b8ce6b0111aecf408d55780cadb12d2653b82adb73eddaff9383ab3cf2a/JFQ-0.1.9.tar.gz
+[2023-04-18 10:17:01] INFO root fetch - processPackages [codat-commerce]: Start processing: nobuco
+[2023-04-18 10:17:01] INFO root fetch - main [MainThread]: End processing [codat-commerce]: success
+[2023-04-18 10:17:01] INFO root fetch - processPackages [nobuco]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-18 10:17:01] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-04-18 10:17:01] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230418.12742.tar.gz tmp/returnn-1.20230418.5121.tar.gz --markdown 20230418/r/returnn/1.20230418.12742-1.20230418.5121/diff.md --exclude *.pyd
+[2023-04-18 10:17:01] INFO root fetch - processPackages [JFQ]: executing diffoscope
+[2023-04-18 10:17:01] INFO root fetch - processPackages [JFQ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JFQ-0.1.8.tar.gz tmp/JFQ-0.1.9.tar.gz --markdown 20230418/J/JFQ/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-18 10:17:01] INFO root fetch - processPackages [nobuco]: executing diffoscope
+[2023-04-18 10:17:01] INFO root fetch - processPackages [nobuco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nobuco-0.1.3.tar.gz tmp/nobuco-0.1.4.tar.gz --markdown 20230418/n/nobuco/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-18 10:17:01] INFO root fetch - processPackages [tinybird-cli]: Start processing: codat-banking
+[2023-04-18 10:17:01] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2023-04-18 10:17:01] INFO root fetch - processPackages [codat-banking]: New version: [0.8.4] Old Version: [0.5.1]
+[2023-04-18 10:17:02] INFO root fetch - processPackages [codat-accounting]: Downloading https://files.pythonhosted.org/packages/5b/d6/7816e15411df42a3927b96e719b12df2b452f71167af865f1128d44bf77b/codat-accounting-0.9.6.tar.gz
+[2023-04-18 10:17:02] INFO root fetch - processPackages [codat-banking]: Downloading https://files.pythonhosted.org/packages/b2/67/b084d283648809692d3c8041847804abd7f84339ae948ce7f6da7a32b680/codat-banking-0.5.1.tar.gz
+[2023-04-18 10:17:02] INFO root fetch - processPackages [codat-accounting]: executing diffoscope
+[2023-04-18 10:17:02] INFO root fetch - processPackages [codat-accounting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codat-accounting-0.5.1.tar.gz tmp/codat-accounting-0.9.6.tar.gz --markdown 20230418/c/codat-accounting/0.5.1-0.9.6/diff.md --exclude *.pyd
+[2023-04-18 10:17:02] INFO root fetch - processPackages [pyobjc-core]: Start processing: codat-files
+[2023-04-18 10:17:02] INFO root fetch - main [MainThread]: End processing [pyobjc-core]: success
+[2023-04-18 10:17:02] INFO root fetch - processPackages [codat-files]: New version: [0.8.4] Old Version: [0.5.1]
+[2023-04-18 10:17:02] INFO root fetch - processPackages [codat-assess]: Start processing: codeprompt
+[2023-04-18 10:17:02] INFO root fetch - main [MainThread]: End processing [codat-assess]: success
+[2023-04-18 10:17:02] INFO root fetch - processPackages [codat-banking]: Downloading https://files.pythonhosted.org/packages/03/e8/014083e796ec06673a05a666a7990cbb928cd2ff12ff970fbd141ed4b9e3/codat-banking-0.8.4.tar.gz
+[2023-04-18 10:17:02] INFO root fetch - processPackages [je-editor-dev]: Start processing: trading-strategy
+[2023-04-18 10:17:02] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
+[2023-04-18 10:17:02] WARNING root fetch - processPackages [codeprompt]: Skipping, unable to determine old version
+[2023-04-18 10:17:02] INFO root fetch - processPackages [codeprompt]: Start processing: ramodels
+[2023-04-18 10:17:02] INFO root fetch - main [MainThread]: End processing [codeprompt] error
+[2023-04-18 10:17:02] INFO root fetch - processPackages [codat-files]: Downloading https://files.pythonhosted.org/packages/b0/fe/a53b4b765043b4fe93829f81e707b8a4bb74754c9af05dff9090b876395a/codat-files-0.5.1.tar.gz
+[2023-04-18 10:17:02] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-04-18 10:17:02] INFO root fetch - processPackages [trading-strategy]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-18 10:17:02] INFO root fetch - processPackages [codat-banking]: executing diffoscope
+[2023-04-18 10:17:02] INFO root fetch - processPackages [codat-banking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codat-banking-0.5.1.tar.gz tmp/codat-banking-0.8.4.tar.gz --markdown 20230418/c/codat-banking/0.5.1-0.8.4/diff.md --exclude *.pyd
+[2023-04-18 10:17:02] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-04-18 10:17:02] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230418/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-04-18 10:17:03] INFO root fetch - processPackages [trading-strategy]: Downloading https://files.pythonhosted.org/packages/ef/db/cd3ff8efe6cae935b76889796fae0e73dbff0e09b269d049406dd64339c6/trading_strategy-0.9.0.tar.gz
+[2023-04-18 10:17:03] INFO root fetch - processPackages [codat-files]: Downloading https://files.pythonhosted.org/packages/f7/59/40db2426b2418665047a57166d68c373463f3fc2be5dc4b9b82f056e35e5/codat-files-0.8.4.tar.gz
+[2023-04-18 10:17:03] INFO root fetch - processPackages [codat-files]: executing diffoscope
+[2023-04-18 10:17:03] INFO root fetch - processPackages [codat-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codat-files-0.5.1.tar.gz tmp/codat-files-0.8.4.tar.gz --markdown 20230418/c/codat-files/0.5.1-0.8.4/diff.md --exclude *.pyd
+[2023-04-18 10:17:03] INFO root fetch - main [MainThread]: End processing [JFQ]: success
+[2023-04-18 10:17:03] INFO root fetch - processPackages [trading-strategy]: Downloading https://files.pythonhosted.org/packages/5c/56/6a3bae759cb2d96b94978afb98541c2d384070652678881d1ec20043940b/trading_strategy-0.9.1.tar.gz
+[2023-04-18 10:17:03] INFO root fetch - main [MainThread]: End processing [codat-common]: success
+[2023-04-18 10:17:03] INFO root fetch - main [MainThread]: End processing [nobuco]: success
+[2023-04-18 10:17:04] INFO root fetch - processPackages [trading-strategy]: executing diffoscope
+[2023-04-18 10:17:04] INFO root fetch - processPackages [trading-strategy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trading_strategy-0.9.0.tar.gz tmp/trading_strategy-0.9.1.tar.gz --markdown 20230418/t/trading-strategy/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-18 10:17:04] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-04-18 10:17:04] INFO root fetch - main [MainThread]: End processing [codat-files]: success
+[2023-04-18 10:17:05] INFO root fetch - main [MainThread]: End processing [codat-banking]: success
+[2023-04-18 10:17:05] INFO root fetch - main [MainThread]: End processing [nobuco]: success
+[2023-04-18 10:17:05] INFO root fetch - main [MainThread]: End processing [codat-accounting]: success
+[2023-04-18 10:17:06] INFO root fetch - main [MainThread]: End processing [trading-strategy]: success
+[2023-04-18 10:17:07] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-04-18 10:17:07] INFO root fetch - main [MainThread]: Store serial: [17752039]
