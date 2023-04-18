@@ -16934,3 +16934,157 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 100: invali
 [2023-04-18 11:38:32] INFO root fetch - main [MainThread]: End processing [idds-monitor]: success
 [2023-04-18 11:38:34] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-04-18 11:38:34] INFO root fetch - main [MainThread]: Store serial: [17753638]
+[2023-04-18 11:43:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17753638]
+[2023-04-18 11:43:43] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-04-18 11:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lophat
+[2023-04-18 11:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ytsaurus-spyt
+[2023-04-18 11:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: telescope-sdk
+[2023-04-18 11:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fig2sketch
+[2023-04-18 11:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: liblxml3
+[2023-04-18 11:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: typedspark
+[2023-04-18 11:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gitfluencer
+[2023-04-18 11:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gama-client
+[2023-04-18 11:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gptdeploy
+[2023-04-18 11:43:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ahjo
+[2023-04-18 11:43:43] INFO root fetch - processPackages [ytsaurus-spyt]: New version: [1.69.4b440.post2193236.dev1] Old Version: [1.69.3b438.post3932209.dev1]
+[2023-04-18 11:43:43] INFO root fetch - processPackages [telescope-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-18 11:43:43] INFO root fetch - processPackages [fig2sketch]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-04-18 11:43:43] INFO root fetch - processPackages [gitfluencer]: New version: [0.1.4.1] Old Version: [0.1.4]
+[2023-04-18 11:43:43] INFO root fetch - processPackages [liblxml3]: New version: [2.5] Old Version: [2.4]
+[2023-04-18 11:43:43] INFO root fetch - processPackages [lophat]: New version: [0.8.3] Old Version: [0.8.1]
+[2023-04-18 11:43:43] INFO root fetch - processPackages [typedspark]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-18 11:43:43] INFO root fetch - processPackages [gama-client]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-04-18 11:43:43] INFO root fetch - processPackages [gptdeploy]: New version: [0.18.9] Old Version: [0.18.8]
+[2023-04-18 11:43:43] INFO root fetch - processPackages [ahjo]: New version: [3.1.5] Old Version: [3.1.4]
+[2023-04-18 11:43:43] INFO root fetch - processPackages [telescope-sdk]: executing diffoscope
+[2023-04-18 11:43:43] INFO root fetch - processPackages [telescope-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telescope_sdk-0.1.8.tar.gz tmp/telescope_sdk-0.1.9.tar.gz --markdown 20230418/t/telescope-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-18 11:43:43] INFO root fetch - processPackages [gptdeploy]: executing diffoscope
+[2023-04-18 11:43:43] INFO root fetch - processPackages [gptdeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptdeploy-0.18.8.tar.gz tmp/gptdeploy-0.18.9.tar.gz --markdown 20230418/g/gptdeploy/0.18.8-0.18.9/diff.md --exclude *.pyd
+[2023-04-18 11:43:43] INFO root fetch - processPackages [ytsaurus-spyt]: Downloading https://files.pythonhosted.org/packages/33/2c/647571c8a36313e4cbcb98466b43911afe2218d0b83676c2e463753d1b88/ytsaurus-spyt-1.69.3b438.post3932209.dev1.tar.gz
+[2023-04-18 11:43:43] INFO root fetch - processPackages [fig2sketch]: Downloading https://files.pythonhosted.org/packages/96/12/31a06b0724969efdc182036fe553a95cf2a912e049fc230fdb435be803c8/fig2sketch-0.2.5.tar.gz
+[2023-04-18 11:43:43] INFO root fetch - processPackages [gitfluencer]: Downloading https://files.pythonhosted.org/packages/fa/5f/6966639e2c933ec87073bdae66ca30088b8cbb8ce1daba2a3bb754837c91/gitfluencer-0.1.4.1.tar.gz
+[2023-04-18 11:43:43] INFO root fetch - processPackages [liblxml3]: Downloading https://files.pythonhosted.org/packages/83/b7/db5823ea5219809c3bf761befc792f3d7d550f46bd8dccfb3c941840bd6c/liblxml3-2.5.tar.gz
+[2023-04-18 11:43:43] INFO root fetch - processPackages [typedspark]: Downloading https://files.pythonhosted.org/packages/77/c3/1f8318a2b13c42231ae19d490c68d44b74fb71dca9d7ec68c0a99e413e86/typedspark-1.0.1.tar.gz
+[2023-04-18 11:43:43] INFO root fetch - processPackages [gama-client]: Downloading https://files.pythonhosted.org/packages/9a/59/e87ec81a82f4b967a8a7f56fd99481bca78b84815c202ba6a878fa543abe/gama_client-1.1.1.tar.gz
+[2023-04-18 11:43:43] INFO root fetch - processPackages [fig2sketch]: executing diffoscope
+[2023-04-18 11:43:43] INFO root fetch - processPackages [fig2sketch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fig2sketch-0.2.4.tar.gz tmp/fig2sketch-0.2.5.tar.gz --markdown 20230418/f/fig2sketch/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-04-18 11:43:43] INFO root fetch - processPackages [gitfluencer]: executing diffoscope
+[2023-04-18 11:43:43] INFO root fetch - processPackages [gitfluencer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitfluencer-0.1.4.tar.gz tmp/gitfluencer-0.1.4.1.tar.gz --markdown 20230418/g/gitfluencer/0.1.4-0.1.4.1/diff.md --exclude *.pyd
+[2023-04-18 11:43:43] INFO root fetch - processPackages [ahjo]: Downloading https://files.pythonhosted.org/packages/8a/da/88dfba87dbfe887f3fe52aca2fcd5f11b801d3bad7af3a5d2a15713e3561/ahjo-3.1.4-py3-none-any.whl
+[2023-04-18 11:43:43] INFO root fetch - processPackages [liblxml3]: executing diffoscope
+[2023-04-18 11:43:43] INFO root fetch - processPackages [liblxml3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liblxml3-2.4.tar.gz tmp/liblxml3-2.5.tar.gz --markdown 20230418/l/liblxml3/2.4-2.5/diff.md --exclude *.pyd
+[2023-04-18 11:43:43] INFO root fetch - processPackages [lophat]: Downloading https://files.pythonhosted.org/packages/09/ec/bd16c557f2ac7bc70203a85b5e8bef15519f438cc82b82a97ba905761302/lophat-0.8.3.tar.gz
+[2023-04-18 11:43:43] INFO root fetch - processPackages [lophat]: executing diffoscope
+[2023-04-18 11:43:43] INFO root fetch - processPackages [lophat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lophat-0.8.1.tar.gz tmp/lophat-0.8.3.tar.gz --markdown 20230418/l/lophat/0.8.1-0.8.3/diff.md --exclude *.pyd
+[2023-04-18 11:43:44] INFO root fetch - processPackages [typedspark]: Downloading https://files.pythonhosted.org/packages/63/08/48ec95e540fd1d04815e1338e5c3e6aeba3ab96bc702377cf655454b8c8c/typedspark-1.0.2.tar.gz
+[2023-04-18 11:43:44] INFO root fetch - processPackages [gama-client]: Downloading https://files.pythonhosted.org/packages/a6/06/da3440d8fc07f13cddbb455a7bd99b1538b8788cace6fa3dff2061dfe9cf/gama_client-1.1.2.tar.gz
+[2023-04-18 11:43:44] INFO root fetch - processPackages [ahjo]: Downloading https://files.pythonhosted.org/packages/c7/21/05b5a6d80560a3a9a80fcea90636b31d597e17b65b72de97e40fa9204daf/ahjo-3.1.5-py3-none-any.whl
+[2023-04-18 11:43:44] INFO root fetch - processPackages [typedspark]: executing diffoscope
+[2023-04-18 11:43:44] INFO root fetch - processPackages [typedspark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedspark-1.0.1.tar.gz tmp/typedspark-1.0.2.tar.gz --markdown 20230418/t/typedspark/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-18 11:43:44] INFO root fetch - processPackages [gama-client]: executing diffoscope
+[2023-04-18 11:43:44] INFO root fetch - processPackages [gama-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gama_client-1.1.1.tar.gz tmp/gama_client-1.1.2.tar.gz --markdown 20230418/g/gama-client/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-04-18 11:43:44] INFO root fetch - processPackages [ahjo]: executing diffoscope
+[2023-04-18 11:43:44] INFO root fetch - processPackages [ahjo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ahjo-3.1.4-py3-none-any.whl.zip tmp/ahjo-3.1.5-py3-none-any.whl.zip --markdown 20230418/a/ahjo/3.1.4-3.1.5/diff.md --exclude *.pyd
+[2023-04-18 11:43:44] INFO root fetch - processPackages [ytsaurus-spyt]: Downloading https://files.pythonhosted.org/packages/d0/a9/838e07ded3e1c528492e00f42613b32840a047648b8c716c6542939151c1/ytsaurus-spyt-1.69.4b440.post2193236.dev1.tar.gz
+[2023-04-18 11:43:44] INFO root fetch - processPackages [ytsaurus-spyt]: executing diffoscope
+[2023-04-18 11:43:44] INFO root fetch - processPackages [ytsaurus-spyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytsaurus-spyt-1.69.3b438.post3932209.dev1.tar.gz tmp/ytsaurus-spyt-1.69.4b440.post2193236.dev1.tar.gz --markdown 20230418/y/ytsaurus-spyt/1.69.3b438.post3932209.dev1-1.69.4b440.post2193236.dev1/diff.md --exclude *.pyd
+[2023-04-18 11:43:45] INFO root fetch - processPackages [gitfluencer]: Start processing: constructs
+[2023-04-18 11:43:45] INFO root fetch - main [MainThread]: End processing [gitfluencer]: success
+[2023-04-18 11:43:45] INFO root fetch - processPackages [constructs]: New version: [3.4.99] Old Version: [3.4.98]
+[2023-04-18 11:43:45] INFO root fetch - processPackages [telescope-sdk]: Start processing: pybulk
+[2023-04-18 11:43:45] INFO root fetch - main [MainThread]: End processing [telescope-sdk]: success
+[2023-04-18 11:43:45] INFO root fetch - processPackages [constructs]: executing diffoscope
+[2023-04-18 11:43:45] INFO root fetch - processPackages [constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/constructs-3.4.98.tar.gz tmp/constructs-3.4.99.tar.gz --markdown 20230418/c/constructs/3.4.98-3.4.99/diff.md --exclude *.pyd
+[2023-04-18 11:43:45] WARNING root fetch - processPackages [pybulk]: Skipping, unable to determine old version
+[2023-04-18 11:43:45] INFO root fetch - processPackages [pybulk]: Start processing: jaquar
+[2023-04-18 11:43:45] INFO root fetch - main [MainThread]: End processing [pybulk] error
+[2023-04-18 11:43:45] INFO root fetch - processPackages [jaquar]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-04-18 11:43:45] INFO root fetch - processPackages [gama-client]: Start processing: hagis
+[2023-04-18 11:43:45] INFO root fetch - main [MainThread]: End processing [gama-client]: success
+[2023-04-18 11:43:45] INFO root fetch - processPackages [hagis]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-04-18 11:43:45] INFO root fetch - processPackages [jaquar]: Downloading https://files.pythonhosted.org/packages/bf/b1/e8a60aa0e4eb8c4fb8ca1e631fbfaa781eebc6bb4c4fcca280f1b4f5cf73/jaquar-0.6.3.tar.gz
+[2023-04-18 11:43:45] INFO root fetch - processPackages [jaquar]: executing diffoscope
+[2023-04-18 11:43:45] INFO root fetch - processPackages [jaquar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaquar-0.6.2.tar.gz tmp/jaquar-0.6.3.tar.gz --markdown 20230418/j/jaquar/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-04-18 11:43:45] INFO root fetch - processPackages [gptdeploy]: Start processing: appmesh
+[2023-04-18 11:43:45] INFO root fetch - main [MainThread]: End processing [gptdeploy]: success
+[2023-04-18 11:43:45] INFO root fetch - processPackages [hagis]: Downloading https://files.pythonhosted.org/packages/a0/7c/aa9250e38eb3967fec6c56c3ced0cc95f93ee44381136bb6dd599b08c335/hagis-0.2.9.tar.gz
+[2023-04-18 11:43:45] INFO root fetch - processPackages [appmesh]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-18 11:43:45] INFO root fetch - processPackages [typedspark]: Start processing: utils-uiauto
+[2023-04-18 11:43:45] INFO root fetch - main [MainThread]: End processing [typedspark]: success
+[2023-04-18 11:43:45] INFO root fetch - processPackages [hagis]: executing diffoscope
+[2023-04-18 11:43:45] INFO root fetch - processPackages [hagis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagis-0.2.8.tar.gz tmp/hagis-0.2.9.tar.gz --markdown 20230418/h/hagis/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-04-18 11:43:45] INFO root fetch - processPackages [lophat]: Start processing: oslo.db
+[2023-04-18 11:43:45] INFO root fetch - main [MainThread]: End processing [lophat]: success
+[2023-04-18 11:43:45] INFO root fetch - processPackages [oslo.db]: New version: [9.1.0] Old Version: [9.0.0]
+[2023-04-18 11:43:45] WARNING root fetch - processPackages [utils-uiauto]: Skipping, unable to determine old version
+[2023-04-18 11:43:45] INFO root fetch - processPackages [utils-uiauto]: Start processing: bemserver-core
+[2023-04-18 11:43:45] INFO root fetch - main [MainThread]: End processing [utils-uiauto] error
+[2023-04-18 11:43:45] INFO root fetch - processPackages [bemserver-core]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-04-18 11:43:45] INFO root fetch - processPackages [appmesh]: Downloading https://files.pythonhosted.org/packages/15/8c/b846a230b8ba343f0020a2eb5bfe9c8d3ae6b781e3215d583ee69c240734/appmesh-0.4.1-py3-none-any.whl
+[2023-04-18 11:43:45] INFO root fetch - processPackages [appmesh]: executing diffoscope
+[2023-04-18 11:43:45] INFO root fetch - processPackages [appmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appmesh-0.4.0-py3-none-any.whl.zip tmp/appmesh-0.4.1-py3-none-any.whl.zip --markdown 20230418/a/appmesh/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-18 11:43:45] INFO root fetch - processPackages [ahjo]: Start processing: chemeq
+[2023-04-18 11:43:45] INFO root fetch - main [MainThread]: End processing [ahjo]: success
+[2023-04-18 11:43:45] INFO root fetch - processPackages [chemeq]: New version: [0.1.7] Old Version: [0.1.5]
+[2023-04-18 11:43:45] INFO root fetch - processPackages [oslo.db]: Downloading https://files.pythonhosted.org/packages/11/59/1715a098f5098c5d664cb57ab4ea805314596ef0c1e0bfee67d3dc408949/oslo.db-9.0.0.tar.gz
+[2023-04-18 11:43:46] INFO root fetch - processPackages [fig2sketch]: Start processing: tuxtrigger
+[2023-04-18 11:43:46] INFO root fetch - main [MainThread]: End processing [fig2sketch]: success
+[2023-04-18 11:43:46] INFO root fetch - processPackages [tuxtrigger]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-04-18 11:43:46] INFO root fetch - processPackages [bemserver-core]: Downloading https://files.pythonhosted.org/packages/b1/66/c49551bc5f9270b1b2cac0cd22528e42994131401b0de6395bed23e31a22/bemserver-core-0.9.0.tar.gz
+[2023-04-18 11:43:46] INFO root fetch - processPackages [tuxtrigger]: Downloading https://files.pythonhosted.org/packages/5f/b0/1fab55b26495ed2142ff77b053b85baeae42a5ab369ab5c02e778b04d725/tuxtrigger-0.6.4.tar.gz
+[2023-04-18 11:43:46] INFO root fetch - processPackages [chemeq]: Downloading https://files.pythonhosted.org/packages/e0/aa/60b514f8c6051bf41afb0640f3abd155f4e4facd40624104872295e1327b/chemeq-0.1.7.tar.gz
+[2023-04-18 11:43:46] INFO root fetch - processPackages [chemeq]: executing diffoscope
+[2023-04-18 11:43:46] INFO root fetch - processPackages [chemeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chemeq-0.1.5.tar.gz tmp/chemeq-0.1.7.tar.gz --markdown 20230418/c/chemeq/0.1.5-0.1.7/diff.md --exclude *.pyd
+[2023-04-18 11:43:46] INFO root fetch - processPackages [oslo.db]: Downloading https://files.pythonhosted.org/packages/4c/8a/43b149809cdc1911c0c032e9c5dbe946c25c5ac5352c0631114758f9718e/oslo.db-9.1.0.tar.gz
+[2023-04-18 11:43:46] INFO root fetch - processPackages [constructs]: Start processing: pulumi-azure-native
+[2023-04-18 11:43:46] INFO root fetch - main [MainThread]: End processing [constructs]: success
+[2023-04-18 11:43:46] INFO root fetch - processPackages [bemserver-core]: Downloading https://files.pythonhosted.org/packages/11/12/23087979f0bc92dc55a84583d2e12a7deb66597ba67cf684e53dd196c8f2/bemserver-core-0.9.1.tar.gz
+[2023-04-18 11:43:46] INFO root fetch - processPackages [pulumi-azure-native]: New version: [1.99.3a1681807800] Old Version: [1.99.3a1681488349]
+[2023-04-18 11:43:46] INFO root fetch - processPackages [tuxtrigger]: Downloading https://files.pythonhosted.org/packages/3d/67/afa5d58612ac63193c6b5f3ce05ca5bc8cd98713a760f81f9c999f12d0d2/tuxtrigger-0.6.5.tar.gz
+[2023-04-18 11:43:46] INFO root fetch - processPackages [tuxtrigger]: executing diffoscope
+[2023-04-18 11:43:46] INFO root fetch - processPackages [tuxtrigger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuxtrigger-0.6.4.tar.gz tmp/tuxtrigger-0.6.5.tar.gz --markdown 20230418/t/tuxtrigger/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-04-18 11:43:46] INFO root fetch - processPackages [jaquar]: Start processing: so-vits-svc-fork
+[2023-04-18 11:43:46] INFO root fetch - main [MainThread]: End processing [jaquar]: success
+[2023-04-18 11:43:46] INFO root fetch - processPackages [bemserver-core]: executing diffoscope
+[2023-04-18 11:43:46] INFO root fetch - processPackages [bemserver-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bemserver-core-0.9.0.tar.gz tmp/bemserver-core-0.9.1.tar.gz --markdown 20230418/b/bemserver-core/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-18 11:43:46] INFO root fetch - processPackages [oslo.db]: executing diffoscope
+[2023-04-18 11:43:46] INFO root fetch - processPackages [oslo.db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oslo.db-9.0.0.tar.gz tmp/oslo.db-9.1.0.tar.gz --markdown 20230418/o/oslo.db/9.0.0-9.1.0/diff.md --exclude *.pyd
+[2023-04-18 11:43:46] INFO root fetch - processPackages [so-vits-svc-fork]: New version: [3.9.4] Old Version: [3.9.3]
+[2023-04-18 11:43:46] INFO root fetch - processPackages [pulumi-azure-native]: Downloading https://files.pythonhosted.org/packages/52/f3/3693eef5572581c854b7baa4a23609bed3bd058874015c550b7dfcf8d321/pulumi_azure_native-1.99.3a1681488349.tar.gz
+[2023-04-18 11:43:46] WARNING root fetch - processPackages [pulumi-azure-native]: Skipping package: exceeds size limit 62615676>=10485760
+[2023-04-18 11:43:46] INFO root fetch - processPackages [pulumi-azure-native]: Start processing: django-histories
+[2023-04-18 11:43:46] INFO root fetch - main [MainThread]: End processing [pulumi-azure-native] error
+[2023-04-18 11:43:46] INFO root fetch - processPackages [django-histories]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-18 11:43:46] INFO root fetch - processPackages [hagis]: Start processing: ondewo-csi-client
+[2023-04-18 11:43:46] INFO root fetch - main [MainThread]: End processing [hagis]: success
+[2023-04-18 11:43:47] INFO root fetch - processPackages [ondewo-csi-client]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-04-18 11:43:47] INFO root fetch - processPackages [django-histories]: Downloading https://files.pythonhosted.org/packages/84/f3/1f7270dfe44b48a0db972b0642317b3cb7fe698cbef0af9e4113f8c3fae0/django_histories-1.0.2.tar.gz
+[2023-04-18 11:43:47] INFO root fetch - processPackages [so-vits-svc-fork]: Downloading https://files.pythonhosted.org/packages/a2/e4/4aad9b1c6227bc52736acd53be6d3dd7045143434892b6ba371710ea438b/so_vits_svc_fork-3.9.4.tar.gz
+[2023-04-18 11:43:47] INFO root fetch - processPackages [so-vits-svc-fork]: executing diffoscope
+[2023-04-18 11:43:47] INFO root fetch - processPackages [so-vits-svc-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/so_vits_svc_fork-3.9.3.tar.gz tmp/so_vits_svc_fork-3.9.4.tar.gz --markdown 20230418/s/so-vits-svc-fork/3.9.3-3.9.4/diff.md --exclude *.pyd
+[2023-04-18 11:43:47] INFO root fetch - processPackages [appmesh]: Start processing: dbm-database-service
+[2023-04-18 11:43:47] INFO root fetch - main [MainThread]: End processing [appmesh]: success
+[2023-04-18 11:43:47] INFO root fetch - processPackages [django-histories]: executing diffoscope
+[2023-04-18 11:43:47] INFO root fetch - processPackages [django-histories]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_histories-1.0.1-py3-none-any.whl.zip tmp/django_histories-1.0.2.tar.gz --markdown 20230418/d/django-histories/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-18 11:43:47] INFO root fetch - processPackages [dbm-database-service]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-18 11:43:47] INFO root fetch - processPackages [dbm-database-service]: executing diffoscope
+[2023-04-18 11:43:47] INFO root fetch - processPackages [dbm-database-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbm_database_service-0.1.0.tar.gz tmp/dbm_database_service-0.2.0.tar.gz --markdown 20230418/d/dbm-database-service/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-18 11:43:47] INFO root fetch - processPackages [ondewo-csi-client]: Downloading https://files.pythonhosted.org/packages/15/10/a9de91df00bc11191376b20c5577250d386ed1349f405b10ab6835b5b886/ondewo-csi-client-3.1.1.tar.gz
+[2023-04-18 11:43:47] INFO root fetch - processPackages [ondewo-csi-client]: executing diffoscope
+[2023-04-18 11:43:47] INFO root fetch - processPackages [ondewo-csi-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ondewo-csi-client-3.1.0.tar.gz tmp/ondewo-csi-client-3.1.1.tar.gz --markdown 20230418/o/ondewo-csi-client/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-04-18 11:43:47] INFO root fetch - processPackages [liblxml3]: Start processing: returnn
+[2023-04-18 11:43:47] INFO root fetch - main [MainThread]: End processing [liblxml3]: success
+[2023-04-18 11:43:47] INFO root fetch - processPackages [returnn]: New version: [1.20230418.5121] Old Version: [1.20230418.12742]
+[2023-04-18 11:43:47] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-04-18 11:43:47] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230418.12742.tar.gz tmp/returnn-1.20230418.5121.tar.gz --markdown 20230418/r/returnn/1.20230418.12742-1.20230418.5121/diff.md --exclude *.pyd
+[2023-04-18 11:43:48] INFO root fetch - main [MainThread]: End processing [chemeq]: success
+[2023-04-18 11:43:48] INFO root fetch - main [MainThread]: End processing [django-histories]: success
+[2023-04-18 11:43:48] INFO root fetch - main [MainThread]: End processing [dbm-database-service]: success
+[2023-04-18 11:43:48] INFO root fetch - main [MainThread]: End processing [ondewo-csi-client]: success
+[2023-04-18 11:43:49] INFO root fetch - main [MainThread]: End processing [tuxtrigger]: success
+[2023-04-18 11:43:49] INFO root fetch - main [MainThread]: End processing [so-vits-svc-fork]: success
+[2023-04-18 11:43:49] INFO root fetch - main [MainThread]: End processing [oslo.db]: success
+[2023-04-18 11:43:50] INFO root fetch - main [MainThread]: End processing [bemserver-core]: success
+[2023-04-18 11:43:51] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-04-18 11:43:51] INFO root fetch - main [MainThread]: End processing [ytsaurus-spyt]: success
+[2023-04-18 11:43:51] INFO root fetch - main [MainThread]: Store serial: [17753756]
