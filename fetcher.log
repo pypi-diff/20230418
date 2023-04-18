@@ -7411,3 +7411,57 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 04:18:38] ERROR root fetch - processPackages [dsdata]: Timeout during execution of pkgdiff
 [2023-04-18 04:18:38] INFO root fetch - main [MainThread]: End processing [dsdata] error
 [2023-04-18 04:18:38] INFO root fetch - main [MainThread]: Store serial: [17748665]
+[2023-04-18 04:23:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17748665]
+[2023-04-18 04:23:47] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-18 04:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydflow
+[2023-04-18 04:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyleiden
+[2023-04-18 04:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Pandora-ChatGPT
+[2023-04-18 04:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: clearner
+[2023-04-18 04:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TheSilent
+[2023-04-18 04:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pawnlib
+[2023-04-18 04:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neolib-python
+[2023-04-18 04:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pybraillex
+[2023-04-18 04:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pawnlib
+[2023-04-18 04:23:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pandasgwas
+[2023-04-18 04:23:47] WARNING root fetch - processPackages [pybraillex]: Skipping, unable to determine old version
+[2023-04-18 04:23:47] INFO root fetch - main [MainThread]: End processing [pybraillex] error
+[2023-04-18 04:23:47] WARNING root fetch - processPackages [neolib-python]: Skipping, unable to determine old version
+[2023-04-18 04:23:47] INFO root fetch - main [MainThread]: End processing [neolib-python] error
+[2023-04-18 04:23:47] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-18 04:23:47] INFO root fetch - processPackages [pawnlib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-18 04:23:47] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-04-18 04:23:47] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230418/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-18 04:23:47] INFO root fetch - processPackages [pawnlib]: executing diffoscope
+[2023-04-18 04:23:47] INFO root fetch - processPackages [pawnlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pawnlib-0.1.8-py3-none-any.whl.zip tmp/pawnlib-0.1.9-py3-none-any.whl.zip --markdown 20230418/p/pawnlib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-18 04:23:47] INFO root fetch - processPackages [pandasgwas]: New version: [0.99.9] Old Version: [0.99.8]
+[2023-04-18 04:23:48] INFO root fetch - processPackages [pandasgwas]: executing diffoscope
+[2023-04-18 04:23:48] INFO root fetch - processPackages [pandasgwas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasgwas-0.99.8.tar.gz tmp/pandasgwas-0.99.9.tar.gz --markdown 20230418/p/pandasgwas/0.99.8-0.99.9/diff.md --exclude *.pyd
+[2023-04-18 04:23:48] INFO root fetch - processPackages [pawnlib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-18 04:23:48] INFO root fetch - processPackages [pydflow]: New version: [1.6.99] Old Version: [1.6.98]
+[2023-04-18 04:23:48] INFO root fetch - processPackages [clearner]: New version: [0.9.79] Old Version: [0.9.78]
+[2023-04-18 04:23:48] INFO root fetch - processPackages [Pandora-ChatGPT]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-04-18 04:23:48] INFO root fetch - processPackages [pyleiden]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-18 04:23:48] INFO root fetch - processPackages [pawnlib]: executing diffoscope
+[2023-04-18 04:23:48] INFO root fetch - processPackages [pawnlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pawnlib-0.1.8-py3-none-any.whl.zip tmp/pawnlib-0.1.9-py3-none-any.whl.zip --markdown 20230418/p/pawnlib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-18 04:23:48] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-04-18 04:23:48] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.6.98.tar.gz tmp/pydflow-1.6.99.tar.gz --markdown 20230418/p/pydflow/1.6.98-1.6.99/diff.md --exclude *.pyd
+[2023-04-18 04:23:48] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-04-18 04:23:48] INFO root fetch - processPackages [pyleiden]: Downloading https://files.pythonhosted.org/packages/29/3b/613112cd51dbb96142145f95442c67685d79601d7bca7b3826ea7e2227a5/pyleiden-0.1.0.tar.gz
+[2023-04-18 04:23:48] INFO root fetch - processPackages [clearner]: Downloading https://files.pythonhosted.org/packages/85/84/c7dfd52b8e0a641a9b302e6bfd22f0a1d101e60fa7f1e1e7b071d099db4d/clearner-0.9.78.tar.gz
+[2023-04-18 04:23:49] INFO root fetch - processPackages [Pandora-ChatGPT]: Downloading https://files.pythonhosted.org/packages/23/15/b83f85b38b9593895533efad49a973ae102bc3b8d81caf6c9a9372b7d76e/Pandora-ChatGPT-1.0.3.tar.gz
+[2023-04-18 04:23:49] INFO root fetch - main [MainThread]: End processing [pawnlib]: success
+[2023-04-18 04:23:49] INFO root fetch - processPackages [clearner]: Downloading https://files.pythonhosted.org/packages/f8/e5/6078b57f49f4b2c69a4d8f329e650ff194b5c06c291091c0c679c5d77873/clearner-0.9.79.tar.gz
+[2023-04-18 04:23:49] INFO root fetch - processPackages [pyleiden]: Downloading https://files.pythonhosted.org/packages/fc/c2/c6187c9954ea694c0dedff3495b3783e6e6614b10f36595b6ef100024a57/pyleiden-0.1.1.tar.gz
+[2023-04-18 04:23:49] INFO root fetch - main [MainThread]: End processing [pandasgwas]: success
+[2023-04-18 04:23:49] INFO root fetch - processPackages [Pandora-ChatGPT]: executing diffoscope
+[2023-04-18 04:23:49] INFO root fetch - processPackages [Pandora-ChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pandora-ChatGPT-1.0.2.tar.gz tmp/Pandora-ChatGPT-1.0.3.tar.gz --markdown 20230418/P/Pandora-ChatGPT/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-04-18 04:23:49] INFO root fetch - processPackages [clearner]: executing diffoscope
+[2023-04-18 04:23:49] INFO root fetch - processPackages [clearner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clearner-0.9.78.tar.gz tmp/clearner-0.9.79.tar.gz --markdown 20230418/c/clearner/0.9.78-0.9.79/diff.md --exclude *.pyd
+[2023-04-18 04:23:49] INFO root fetch - processPackages [pyleiden]: executing diffoscope
+[2023-04-18 04:23:49] INFO root fetch - processPackages [pyleiden]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyleiden-0.1.0.tar.gz tmp/pyleiden-0.1.1.tar.gz --markdown 20230418/p/pyleiden/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-18 04:23:50] INFO root fetch - main [MainThread]: End processing [pawnlib]: success
+[2023-04-18 04:23:50] INFO root fetch - main [MainThread]: End processing [pyleiden]: success
+[2023-04-18 04:23:50] INFO root fetch - main [MainThread]: End processing [clearner]: success
+[2023-04-18 04:23:50] INFO root fetch - main [MainThread]: End processing [Pandora-ChatGPT]: success
+[2023-04-18 04:23:52] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-04-18 04:23:52] INFO root fetch - main [MainThread]: Store serial: [17748693]
