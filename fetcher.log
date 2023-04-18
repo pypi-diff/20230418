@@ -9468,3 +9468,31 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 06:38:17] INFO root fetch - main [MainThread]: End processing [geo-espresso]: success
 [2023-04-18 06:38:50] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
 [2023-04-18 06:38:50] INFO root fetch - main [MainThread]: Store serial: [17749656]
+[2023-04-18 06:43:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17749656]
+[2023-04-18 06:43:59] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-04-18 06:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edge-logger
+[2023-04-18 06:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-br-resource
+[2023-04-18 06:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-l10n-br-account
+[2023-04-18 06:43:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addons-oca-l10n-brazil
+[2023-04-18 06:43:59] INFO root fetch - processPackages [odoo-addon-l10n-br-resource]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-04-18 06:43:59] INFO root fetch - processPackages [edge-logger]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-18 06:43:59] INFO root fetch - processPackages [odoo-addons-oca-l10n-brazil]: New version: [16.0.20230417.0] Old Version: [16.0.20230228.0]
+[2023-04-18 06:43:59] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: New version: [14.0.5.8.1.dev1] Old Version: [14.0.5.8.0]
+[2023-04-18 06:43:59] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Downloading https://files.pythonhosted.org/packages/95/e2/8af74ce4850043f034247db637a3618069f192ac6d2b9364fb1c6143adf5/odoo14_addon_l10n_br_account-14.0.5.8.0-py3-none-any.whl
+[2023-04-18 06:43:59] INFO root fetch - processPackages [odoo-addon-l10n-br-resource]: Downloading https://files.pythonhosted.org/packages/3d/55/8e2493e75d6eda953e3fa60425fb54d6656f3d96588dd2568688e5f25bf8/odoo_addon_l10n_br_resource-16.0.1.0.0.3-py3-none-any.whl
+[2023-04-18 06:43:59] INFO root fetch - processPackages [odoo-addons-oca-l10n-brazil]: Downloading https://files.pythonhosted.org/packages/b7/4f/0e2372f58d3eca5bd478fe109c4cc6e80cac6b6c06032a17cea439110496/odoo_addons_oca_l10n_brazil-16.0.20230417.0-py3-none-any.whl
+[2023-04-18 06:43:59] INFO root fetch - processPackages [edge-logger]: Downloading https://files.pythonhosted.org/packages/f3/35/333f6ea620f676bd480aab78d5846a436184b8abb16f5849f430c8ce89e7/edge_logger-0.0.3.tar.gz
+[2023-04-18 06:43:59] INFO root fetch - processPackages [odoo-addon-l10n-br-resource]: executing diffoscope
+[2023-04-18 06:43:59] INFO root fetch - processPackages [odoo-addon-l10n-br-resource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_br_resource-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_l10n_br_resource-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230418/o/odoo-addon-l10n-br-resource/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-04-18 06:43:59] INFO root fetch - processPackages [odoo-addons-oca-l10n-brazil]: executing diffoscope
+[2023-04-18 06:43:59] INFO root fetch - processPackages [odoo-addons-oca-l10n-brazil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_l10n_brazil-16.0.20230228.0-py3-none-any.whl.zip tmp/odoo_addons_oca_l10n_brazil-16.0.20230417.0-py3-none-any.whl.zip --markdown 20230418/o/odoo-addons-oca-l10n-brazil/16.0.20230228.0-16.0.20230417.0/diff.md --exclude *.pyd
+[2023-04-18 06:43:59] INFO root fetch - processPackages [edge-logger]: executing diffoscope
+[2023-04-18 06:43:59] INFO root fetch - processPackages [edge-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edge_logger-0.0.2.tar.gz tmp/edge_logger-0.0.3.tar.gz --markdown 20230418/e/edge-logger/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-18 06:43:59] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: Downloading https://files.pythonhosted.org/packages/62/20/6a85cba534616c3d61eff63309419ade3ff36a9776470674dc96bc13c468/odoo14_addon_l10n_br_account-14.0.5.8.1.dev1-py3-none-any.whl
+[2023-04-18 06:43:59] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: executing diffoscope
+[2023-04-18 06:43:59] INFO root fetch - processPackages [odoo14-addon-l10n-br-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_account-14.0.5.8.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_account-14.0.5.8.1.dev1-py3-none-any.whl.zip --markdown 20230418/o/odoo14-addon-l10n-br-account/14.0.5.8.0-14.0.5.8.1.dev1/diff.md --exclude *.pyd
+[2023-04-18 06:44:00] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-l10n-brazil]: success
+[2023-04-18 06:44:00] INFO root fetch - main [MainThread]: End processing [edge-logger]: success
+[2023-04-18 06:44:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-br-resource]: success
+[2023-04-18 06:44:01] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-account]: success
+[2023-04-18 06:44:01] INFO root fetch - main [MainThread]: Store serial: [17749665]
