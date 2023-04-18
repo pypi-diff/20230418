@@ -14593,3 +14593,143 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-18 10:22:28] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-ClassKit]: success
 [2023-04-18 10:22:28] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-CloudKit]: success
 [2023-04-18 10:22:28] INFO root fetch - main [MainThread]: Store serial: [17752178]
+[2023-04-18 10:27:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17752178]
+[2023-04-18 10:27:40] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-04-18 10:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaquar
+[2023-04-18 10:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rest-framework-redesign
+[2023-04-18 10:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: layerx-sdk
+[2023-04-18 10:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bk-resource
+[2023-04-18 10:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: taskiq-aio-kafka
+[2023-04-18 10:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyobjc-framework-Cocoa
+[2023-04-18 10:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dvc-studio-client
+[2023-04-18 10:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ipywidgets-bokeh
+[2023-04-18 10:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: birentechci
+[2023-04-18 10:27:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: codeprompt
+[2023-04-18 10:27:40] INFO root fetch - processPackages [jaquar]: New version: [0.4] Old Version: [0.3]
+[2023-04-18 10:27:40] INFO root fetch - processPackages [layerx-sdk]: New version: [1.0.9.3] Old Version: [1.0.9.2]
+[2023-04-18 10:27:40] INFO root fetch - processPackages [rest-framework-redesign]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-18 10:27:40] INFO root fetch - processPackages [dvc-studio-client]: New version: [0.7.0] Old Version: [0.6.2]
+[2023-04-18 10:27:40] INFO root fetch - processPackages [bk-resource]: New version: [0.4.0rc1] Old Version: [0.4.0rc0]
+[2023-04-18 10:27:40] INFO root fetch - processPackages [taskiq-aio-kafka]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-18 10:27:40] WARNING root fetch - processPackages [birentechci]: Skipping, unable to determine old version
+[2023-04-18 10:27:40] INFO root fetch - processPackages [ipywidgets-bokeh]: New version: [1.4.0.dev1] Old Version: [1.3.0]
+[2023-04-18 10:27:40] INFO root fetch - processPackages [birentechci]: Start processing: drb-driver-ftp
+[2023-04-18 10:27:40] INFO root fetch - main [MainThread]: End processing [birentechci] error
+[2023-04-18 10:27:40] INFO root fetch - processPackages [codeprompt]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-18 10:27:40] INFO root fetch - processPackages [pyobjc-framework-Cocoa]: New version: [9.1b1] Old Version: [9.1.1]
+[2023-04-18 10:27:40] INFO root fetch - processPackages [drb-driver-ftp]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-04-18 10:27:40] INFO root fetch - processPackages [pyobjc-framework-Cocoa]: Downloading https://files.pythonhosted.org/packages/ab/04/ab93732b4aa8381790a9b7e43e2d73ccdf79a02570070b5c5f8ee433adc1/pyobjc_framework_Cocoa-9.1.1-cp38-cp38-macosx_10_9_x86_64.whl
+[2023-04-18 10:27:40] INFO root fetch - processPackages [codeprompt]: Downloading https://files.pythonhosted.org/packages/9e/a5/489783416a205e9e8bf427172e6c6e03fb653eabaf1c74369f2d219bf7ce/codeprompt-0.1.0.tar.gz
+[2023-04-18 10:27:40] INFO root fetch - processPackages [bk-resource]: Downloading https://files.pythonhosted.org/packages/53/f1/0f8d0eaad80a326fc8171caf36c8c02aa31b341ec0b053b77392411a616f/bk_resource-0.4.0rc0.tar.gz
+[2023-04-18 10:27:40] INFO root fetch - processPackages [jaquar]: Downloading https://files.pythonhosted.org/packages/50/0d/b672dfee9215d11fe6f11b22fd15affbab27e97c1db8ece38bbb376ed060/jaquar-0.3.tar.gz
+[2023-04-18 10:27:40] INFO root fetch - processPackages [layerx-sdk]: Downloading https://files.pythonhosted.org/packages/11/09/518e2d02a9f103248310d1db0f35d447671259843ca4006a42a1436e202b/layerx-sdk-1.0.9.2.tar.gz
+[2023-04-18 10:27:40] INFO root fetch - processPackages [dvc-studio-client]: Downloading https://files.pythonhosted.org/packages/5a/49/83dd2eab8c54ee4aecb189d5bf6a67734e944b04b906f9e3a00cf59c95d0/dvc-studio-client-0.6.2.tar.gz
+[2023-04-18 10:27:40] INFO root fetch - processPackages [taskiq-aio-kafka]: Downloading https://files.pythonhosted.org/packages/0e/ba/b735724c02b91eec8eb235386c33b700479d61eeabf89a377ab248585298/taskiq_aio_kafka-0.1.0.tar.gz
+[2023-04-18 10:27:40] INFO root fetch - processPackages [ipywidgets-bokeh]: Downloading https://files.pythonhosted.org/packages/86/60/c880bfbbfb7787d62a5f4c60c5cf7657807f4805cc7d4a126a6ce504c4cb/ipywidgets_bokeh-1.3.0.tar.gz
+[2023-04-18 10:27:40] INFO root fetch - processPackages [drb-driver-ftp]: Downloading https://files.pythonhosted.org/packages/b0/d8/8caff96bc985ba6d217a3fdd3929e89f6bb04debbf33d5b51c32d6f5db5d/drb-driver-ftp-1.1.1.tar.gz
+[2023-04-18 10:27:40] INFO root fetch - processPackages [rest-framework-redesign]: Downloading https://files.pythonhosted.org/packages/2a/bc/14517d9bea2b88a5bb32d28ab57612e19796ff61750e471ce523b42f195a/rest_framework_redesign-0.1.4.tar.gz
+[2023-04-18 10:27:41] INFO root fetch - processPackages [dvc-studio-client]: Downloading https://files.pythonhosted.org/packages/d7/6c/1cd637442413d2885c824f9a14f3cccbbfd0cceec8daeea0ced90df2cae3/dvc-studio-client-0.7.0.tar.gz
+[2023-04-18 10:27:41] INFO root fetch - processPackages [rest-framework-redesign]: executing diffoscope
+[2023-04-18 10:27:41] INFO root fetch - processPackages [rest-framework-redesign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rest_framework_redesign-0.1.3.tar.gz tmp/rest_framework_redesign-0.1.4.tar.gz --markdown 20230418/r/rest-framework-redesign/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-18 10:27:41] INFO root fetch - processPackages [bk-resource]: Downloading https://files.pythonhosted.org/packages/be/97/c552871ec1a786d90198bf4e2e0868ab0bf6a23420a98202845ced3fe2aa/bk_resource-0.4.0rc1.tar.gz
+[2023-04-18 10:27:41] INFO root fetch - processPackages [drb-driver-ftp]: Downloading https://files.pythonhosted.org/packages/d1/e0/be5ecbb3f64d6e50beafe8e982bff6c6cad9e668984c468e81eec543881c/drb-driver-ftp-1.2.0.tar.gz
+[2023-04-18 10:27:41] INFO root fetch - processPackages [ipywidgets-bokeh]: Downloading https://files.pythonhosted.org/packages/75/eb/d35452b6a7e52dca5fa758f8951e2b8af2b45c41aabb851c8ffa2f4690a2/ipywidgets_bokeh-1.4.0.dev1.tar.gz
+[2023-04-18 10:27:41] INFO root fetch - processPackages [codeprompt]: Downloading https://files.pythonhosted.org/packages/3a/d9/da03d19783eb261c594fad870f7c46fac8b46d66631bc8fdabaacbc9c2ac/codeprompt-0.2.0.tar.gz
+[2023-04-18 10:27:41] INFO root fetch - processPackages [layerx-sdk]: Downloading https://files.pythonhosted.org/packages/3a/f4/0ac54565b7806cf49018ccd0a6bfad0df8cf1b2f72d7f938c8c2c8480839/layerx-sdk-1.0.9.3.tar.gz
+[2023-04-18 10:27:41] INFO root fetch - processPackages [taskiq-aio-kafka]: Downloading https://files.pythonhosted.org/packages/5e/bd/ddb57ce4829f240dd1ae47a6422bde60b5dd2a59198966e0602e485bbac0/taskiq_aio_kafka-0.1.1.tar.gz
+[2023-04-18 10:27:41] INFO root fetch - processPackages [jaquar]: Downloading https://files.pythonhosted.org/packages/d3/d3/da572d45d10a9daebd1d13f507b711122baef180157c0bbb2aaa0e20a589/jaquar-0.4.tar.gz
+[2023-04-18 10:27:41] INFO root fetch - processPackages [dvc-studio-client]: executing diffoscope
+[2023-04-18 10:27:41] INFO root fetch - processPackages [dvc-studio-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvc-studio-client-0.6.2.tar.gz tmp/dvc-studio-client-0.7.0.tar.gz --markdown 20230418/d/dvc-studio-client/0.6.2-0.7.0/diff.md --exclude *.pyd
+[2023-04-18 10:27:41] INFO root fetch - processPackages [pyobjc-framework-Cocoa]: executing diffoscope
+[2023-04-18 10:27:41] INFO root fetch - processPackages [pyobjc-framework-Cocoa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc_framework_Cocoa-9.1.1-cp38-cp38-macosx_10_9_x86_64.whl.zip tmp/pyobjc-framework-Cocoa-9.1b1.tar.gz --markdown 20230418/p/pyobjc-framework-Cocoa/9.1.1-9.1b1/diff.md --exclude *.pyd
+[2023-04-18 10:27:41] INFO root fetch - processPackages [bk-resource]: executing diffoscope
+[2023-04-18 10:27:41] INFO root fetch - processPackages [bk-resource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bk_resource-0.4.0rc0.tar.gz tmp/bk_resource-0.4.0rc1.tar.gz --markdown 20230418/b/bk-resource/0.4.0rc0-0.4.0rc1/diff.md --exclude *.pyd
+[2023-04-18 10:27:41] INFO root fetch - processPackages [layerx-sdk]: executing diffoscope
+[2023-04-18 10:27:41] INFO root fetch - processPackages [layerx-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/layerx-sdk-1.0.9.2.tar.gz tmp/layerx-sdk-1.0.9.3.tar.gz --markdown 20230418/l/layerx-sdk/1.0.9.2-1.0.9.3/diff.md --exclude *.pyd
+[2023-04-18 10:27:41] INFO root fetch - processPackages [taskiq-aio-kafka]: executing diffoscope
+[2023-04-18 10:27:41] INFO root fetch - processPackages [taskiq-aio-kafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskiq_aio_kafka-0.1.0.tar.gz tmp/taskiq_aio_kafka-0.1.1.tar.gz --markdown 20230418/t/taskiq-aio-kafka/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-18 10:27:41] INFO root fetch - processPackages [codeprompt]: executing diffoscope
+[2023-04-18 10:27:41] INFO root fetch - processPackages [codeprompt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeprompt-0.1.0.tar.gz tmp/codeprompt-0.2.0.tar.gz --markdown 20230418/c/codeprompt/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-18 10:27:41] INFO root fetch - processPackages [jaquar]: executing diffoscope
+[2023-04-18 10:27:41] INFO root fetch - processPackages [jaquar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaquar-0.3.tar.gz tmp/jaquar-0.4.tar.gz --markdown 20230418/j/jaquar/0.3-0.4/diff.md --exclude *.pyd
+[2023-04-18 10:27:41] INFO root fetch - processPackages [ipywidgets-bokeh]: executing diffoscope
+[2023-04-18 10:27:41] INFO root fetch - processPackages [ipywidgets-bokeh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipywidgets_bokeh-1.3.0.tar.gz tmp/ipywidgets_bokeh-1.4.0.dev1.tar.gz --markdown 20230418/i/ipywidgets-bokeh/1.3.0-1.4.0.dev1/diff.md --exclude *.pyd
+[2023-04-18 10:27:41] INFO root fetch - processPackages [drb-driver-ftp]: executing diffoscope
+[2023-04-18 10:27:41] INFO root fetch - processPackages [drb-driver-ftp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drb-driver-ftp-1.1.1.tar.gz tmp/drb-driver-ftp-1.2.0.tar.gz --markdown 20230418/d/drb-driver-ftp/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-04-18 10:27:43] INFO root fetch - processPackages [jaquar]: Start processing: jaquar
+[2023-04-18 10:27:43] INFO root fetch - main [MainThread]: End processing [jaquar]: success
+[2023-04-18 10:27:43] INFO root fetch - processPackages [jaquar]: New version: [0.5.0] Old Version: [0.4]
+[2023-04-18 10:27:43] INFO root fetch - processPackages [taskiq-aio-kafka]: Start processing: ota
+[2023-04-18 10:27:43] INFO root fetch - main [MainThread]: End processing [taskiq-aio-kafka]: success
+[2023-04-18 10:27:43] INFO root fetch - processPackages [ota]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-04-18 10:27:43] INFO root fetch - processPackages [codeprompt]: Start processing: miniscutil
+[2023-04-18 10:27:43] INFO root fetch - main [MainThread]: End processing [codeprompt]: success
+[2023-04-18 10:27:43] INFO root fetch - processPackages [miniscutil]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-18 10:27:43] INFO root fetch - processPackages [jaquar]: Downloading https://files.pythonhosted.org/packages/7c/41/633e5ff89c5f798cb4f513526c5f19d6d7dc5e6691525ac79dea025bc069/jaquar-0.5.0.tar.gz
+[2023-04-18 10:27:43] INFO root fetch - processPackages [dvc-studio-client]: Start processing: shiny-mdc
+[2023-04-18 10:27:43] INFO root fetch - main [MainThread]: End processing [dvc-studio-client]: success
+[2023-04-18 10:27:43] INFO root fetch - processPackages [shiny-mdc]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-04-18 10:27:43] INFO root fetch - processPackages [miniscutil]: Downloading https://files.pythonhosted.org/packages/5d/22/76b67abf5a85bb4fc2038b67332d161545011275666f11bae43349e1347d/miniscutil-0.0.3.tar.gz
+[2023-04-18 10:27:43] INFO root fetch - processPackages [jaquar]: executing diffoscope
+[2023-04-18 10:27:43] INFO root fetch - processPackages [jaquar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaquar-0.4.tar.gz tmp/jaquar-0.5.0.tar.gz --markdown 20230418/j/jaquar/0.4-0.5.0/diff.md --exclude *.pyd
+[2023-04-18 10:27:43] INFO root fetch - processPackages [rest-framework-redesign]: Start processing: mysql-cli
+[2023-04-18 10:27:43] INFO root fetch - main [MainThread]: End processing [rest-framework-redesign]: success
+[2023-04-18 10:27:43] INFO root fetch - processPackages [ota]: Downloading https://files.pythonhosted.org/packages/98/a4/2f3a47ff833c6e4f94a6778c6afb74371ebaacd78fc9893b7333232e6187/ota-0.1.0.tar.gz
+[2023-04-18 10:27:43] INFO root fetch - processPackages [mysql-cli]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-04-18 10:27:43] INFO root fetch - processPackages [layerx-sdk]: Start processing: drb-driver-yaml
+[2023-04-18 10:27:43] INFO root fetch - main [MainThread]: End processing [layerx-sdk]: success
+[2023-04-18 10:27:43] INFO root fetch - processPackages [drb-driver-yaml]: New version: [1.2.0] Old Version: [1.0.0]
+[2023-04-18 10:27:43] INFO root fetch - processPackages [drb-driver-ftp]: Start processing: dxd
+[2023-04-18 10:27:43] INFO root fetch - main [MainThread]: End processing [drb-driver-ftp]: success
+[2023-04-18 10:27:43] INFO root fetch - processPackages [dxd]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-18 10:27:43] INFO root fetch - processPackages [miniscutil]: executing diffoscope
+[2023-04-18 10:27:43] INFO root fetch - processPackages [miniscutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniscutil-0.0.2.tar.gz tmp/miniscutil-0.0.3.tar.gz --markdown 20230418/m/miniscutil/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-18 10:27:44] INFO root fetch - processPackages [ota]: executing diffoscope
+[2023-04-18 10:27:44] INFO root fetch - processPackages [ota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ota-0.0.9.tar.gz tmp/ota-0.1.0.tar.gz --markdown 20230418/o/ota/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-04-18 10:27:44] INFO root fetch - processPackages [bk-resource]: Start processing: liblxml3
+[2023-04-18 10:27:44] INFO root fetch - main [MainThread]: End processing [bk-resource]: success
+[2023-04-18 10:27:44] INFO root fetch - processPackages [mysql-cli]: Downloading https://files.pythonhosted.org/packages/28/5f/eaab7d5dcb99e835ff43de8ac502ddd144aca1c60faae3d86c0668b64512/mysql-cli-1.0.0.tar.gz
+[2023-04-18 10:27:44] INFO root fetch - processPackages [liblxml3]: New version: [2.2] Old Version: [2.1]
+[2023-04-18 10:27:44] INFO root fetch - processPackages [drb-driver-yaml]: Downloading https://files.pythonhosted.org/packages/1e/58/b0ca5cb39bb9604441e562d52719ecb11b1873e00cbf00de7ea386ae4ee2/drb-driver-yaml-1.0.0.tar.gz
+[2023-04-18 10:27:44] INFO root fetch - processPackages [shiny-mdc]: Downloading https://files.pythonhosted.org/packages/3f/db/ac8ced490a5c3cb7eecf449833225f94cc7be132593537d7624ad3b87756/shiny_mdc-1.3.1.tar.gz
+[2023-04-18 10:27:44] INFO root fetch - processPackages [liblxml3]: executing diffoscope
+[2023-04-18 10:27:44] INFO root fetch - processPackages [liblxml3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liblxml3-2.1.tar.gz tmp/liblxml3-2.2.tar.gz --markdown 20230418/l/liblxml3/2.1-2.2/diff.md --exclude *.pyd
+[2023-04-18 10:27:44] INFO root fetch - processPackages [dxd]: Downloading https://files.pythonhosted.org/packages/40/40/f0783c116280b5be4f7cd0dcd8e134ec4e7eccfd32be145dcb7a1575a8e1/dxd-0.0.5.tar.gz
+[2023-04-18 10:27:44] INFO root fetch - processPackages [mysql-cli]: Downloading https://files.pythonhosted.org/packages/48/6d/43fed99985d87989826ee6c7fdc60beee05940902696511dd52dbe30c111/mysql-cli-1.1.0.tar.gz
+[2023-04-18 10:27:44] INFO root fetch - processPackages [drb-driver-yaml]: Downloading https://files.pythonhosted.org/packages/ee/f6/8fa0c310dfcf8423bfdd46ad3573c736744de2f199d06556cc129fa62c08/drb-driver-yaml-1.2.0.tar.gz
+[2023-04-18 10:27:44] INFO root fetch - processPackages [mysql-cli]: executing diffoscope
+[2023-04-18 10:27:44] INFO root fetch - processPackages [mysql-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysql-cli-1.0.0.tar.gz tmp/mysql-cli-1.1.0.tar.gz --markdown 20230418/m/mysql-cli/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-04-18 10:27:44] INFO root fetch - processPackages [dxd]: executing diffoscope
+[2023-04-18 10:27:44] INFO root fetch - processPackages [dxd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxd-0.0.4.tar.gz tmp/dxd-0.0.5.tar.gz --markdown 20230418/d/dxd/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-18 10:27:44] INFO root fetch - processPackages [drb-driver-yaml]: executing diffoscope
+[2023-04-18 10:27:44] INFO root fetch - processPackages [drb-driver-yaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drb-driver-yaml-1.0.0.tar.gz tmp/drb-driver-yaml-1.2.0.tar.gz --markdown 20230418/d/drb-driver-yaml/1.0.0-1.2.0/diff.md --exclude *.pyd
+[2023-04-18 10:27:45] INFO root fetch - processPackages [shiny-mdc]: executing diffoscope
+[2023-04-18 10:27:45] INFO root fetch - processPackages [shiny-mdc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shiny_mdc-1.3.0.tar.gz tmp/shiny_mdc-1.3.1.tar.gz --markdown 20230418/s/shiny-mdc/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-04-18 10:27:45] INFO root fetch - processPackages [jaquar]: Start processing: kaikosdk
+[2023-04-18 10:27:45] INFO root fetch - main [MainThread]: End processing [jaquar]: success
+[2023-04-18 10:27:45] INFO root fetch - processPackages [kaikosdk]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-04-18 10:27:45] INFO root fetch - processPackages [kaikosdk]: Downloading https://files.pythonhosted.org/packages/52/2c/e94bca35027df954aae18437db1451e0014e63edc9b7a3bb6dba6d8a2ba6/kaikosdk-1.7.0.tar.gz
+[2023-04-18 10:27:45] INFO root fetch - processPackages [ota]: Start processing: lumibot
+[2023-04-18 10:27:45] INFO root fetch - main [MainThread]: End processing [ota]: success
+[2023-04-18 10:27:45] INFO root fetch - processPackages [lumibot]: New version: [2.5.3] Old Version: [2.5.2]
+[2023-04-18 10:27:45] INFO root fetch - processPackages [miniscutil]: Start processing: jaquar
+[2023-04-18 10:27:45] INFO root fetch - main [MainThread]: End processing [miniscutil]: success
+[2023-04-18 10:27:45] INFO root fetch - processPackages [jaquar]: New version: [0.5.0] Old Version: [0.4]
+[2023-04-18 10:27:45] INFO root fetch - processPackages [lumibot]: Downloading https://files.pythonhosted.org/packages/d5/24/b986f0aec492fe3862c170ce98b0a49ec5648eb0e07adbab034c0c2d8dfc/lumibot-2.5.2.tar.gz
+[2023-04-18 10:27:45] INFO root fetch - processPackages [kaikosdk]: Downloading https://files.pythonhosted.org/packages/02/0c/f656baa8c3d350216bcd9f105543550646c6030a04f5b802b053e7cc18c8/kaikosdk-1.7.1.tar.gz
+[2023-04-18 10:27:46] WARNING root fetch - processPackages [lumibot]: Skipping package: exceeds size limit 23646101>=10485760
+[2023-04-18 10:27:46] INFO root fetch - main [MainThread]: End processing [lumibot] error
+[2023-04-18 10:27:46] INFO root fetch - processPackages [jaquar]: executing diffoscope
+[2023-04-18 10:27:46] INFO root fetch - processPackages [jaquar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaquar-0.4.tar.gz tmp/jaquar-0.5.0.tar.gz --markdown 20230418/j/jaquar/0.4-0.5.0/diff.md --exclude *.pyd
+[2023-04-18 10:27:46] INFO root fetch - main [MainThread]: End processing [mysql-cli]: success
+[2023-04-18 10:27:46] INFO root fetch - processPackages [kaikosdk]: executing diffoscope
+[2023-04-18 10:27:46] INFO root fetch - processPackages [kaikosdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaikosdk-1.7.0.tar.gz tmp/kaikosdk-1.7.1.tar.gz --markdown 20230418/k/kaikosdk/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-04-18 10:27:46] INFO root fetch - main [MainThread]: End processing [drb-driver-yaml]: success
+[2023-04-18 10:27:46] INFO root fetch - main [MainThread]: End processing [dxd]: success
+[2023-04-18 10:27:47] INFO root fetch - main [MainThread]: End processing [jaquar]: success
+[2023-04-18 10:27:47] INFO root fetch - main [MainThread]: End processing [kaikosdk]: success
+[2023-04-18 10:27:47] INFO root fetch - main [MainThread]: End processing [liblxml3]: success
+[2023-04-18 10:27:48] INFO root fetch - main [MainThread]: End processing [pyobjc-framework-Cocoa]: success
+[2023-04-18 10:27:58] INFO root fetch - main [MainThread]: End processing [shiny-mdc]: success
+[2023-04-18 10:28:09] INFO root fetch - main [MainThread]: End processing [ipywidgets-bokeh]: success
+[2023-04-18 10:28:09] INFO root fetch - main [MainThread]: Store serial: [17752257]
