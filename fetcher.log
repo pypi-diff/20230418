@@ -21349,3 +21349,138 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 15:28:45] INFO root fetch - main [MainThread]: End processing [docarray]: success
 [2023-04-18 15:28:46] INFO root fetch - main [MainThread]: End processing [coiled]: success
 [2023-04-18 15:28:46] INFO root fetch - main [MainThread]: Store serial: [17756303]
+[2023-04-18 15:33:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17756303]
+[2023-04-18 15:33:55] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-04-18 15:33:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mb-pytorch
+[2023-04-18 15:33:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eotdl-cli
+[2023-04-18 15:33:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BBFinance
+[2023-04-18 15:33:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fideslang
+[2023-04-18 15:33:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seven-cloudapp-frame
+[2023-04-18 15:33:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fedot-ind
+[2023-04-18 15:33:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: biocypher
+[2023-04-18 15:33:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-purchase-line-procurement-group
+[2023-04-18 15:33:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-route53-health-check
+[2023-04-18 15:33:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mulambda
+[2023-04-18 15:33:55] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.202304181331] Old Version: [1.0.202304181328]
+[2023-04-18 15:33:55] INFO root fetch - processPackages [BBFinance]: New version: [1.5.0] Old Version: [1.4.9]
+[2023-04-18 15:33:55] INFO root fetch - processPackages [biocypher]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-04-18 15:33:55] INFO root fetch - processPackages [fedot-ind]: New version: [0.0.0.4] Old Version: [0.0.0.3]
+[2023-04-18 15:33:55] INFO root fetch - processPackages [fideslang]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-04-18 15:33:55] INFO root fetch - processPackages [eotdl-cli]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-18 15:33:55] WARNING root fetch - processPackages [mulambda]: Skipping, unable to determine old version
+[2023-04-18 15:33:55] INFO root fetch - processPackages [mulambda]: Start processing: sequel-core
+[2023-04-18 15:33:55] INFO root fetch - main [MainThread]: End processing [mulambda] error
+[2023-04-18 15:33:55] WARNING root fetch - processPackages [odoo-addon-purchase-line-procurement-group]: Skipping, unable to determine old version
+[2023-04-18 15:33:55] INFO root fetch - processPackages [odoo-addon-purchase-line-procurement-group]: Start processing: colabtunnel
+[2023-04-18 15:33:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-line-procurement-group] error
+[2023-04-18 15:33:55] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-18 15:33:55] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2023-04-18 15:33:55] INFO root fetch - processPackages [colabtunnel]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-18 15:33:55] WARNING root fetch - processPackages [sequel-core]: Skipping, unable to determine old version
+[2023-04-18 15:33:55] INFO root fetch - processPackages [sequel-core]: Start processing: update-pip-packages
+[2023-04-18 15:33:55] INFO root fetch - main [MainThread]: End processing [sequel-core] error
+[2023-04-18 15:33:56] INFO root fetch - processPackages [update-pip-packages]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-04-18 15:33:56] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/9d/a9e471d1cc80efdbf8fbef95f7ac4ecfb9fadd54017fca7621fa2c669c6a/mb_pytorch-1.0.202304181328-py3-none-any.whl
+[2023-04-18 15:33:56] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-04-18 15:33:56] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230418/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-18 15:33:56] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-04-18 15:33:56] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.8.tar.gz tmp/seven_cloudapp_frame-1.0.9.9.tar.gz --markdown 20230418/s/seven-cloudapp-frame/1.0.9.8-1.0.9.9/diff.md --exclude *.pyd
+[2023-04-18 15:33:56] INFO root fetch - processPackages [eotdl-cli]: Downloading https://files.pythonhosted.org/packages/06/8b/7044667c7a43ef0bab31f8d3ce4721e1a9218ab8a26d3e243862a55ae40e/eotdl_cli-0.0.5.tar.gz
+[2023-04-18 15:33:56] INFO root fetch - processPackages [biocypher]: Downloading https://files.pythonhosted.org/packages/05/44/6a698ee7a3f25cac7ac85f9065432566d172eb7d6e302338dbee1acb6708/biocypher-0.5.8.tar.gz
+[2023-04-18 15:33:56] INFO root fetch - processPackages [fedot-ind]: Downloading https://files.pythonhosted.org/packages/88/8e/5f0a3f011d7615303cfb7ee5208771356b106c9b6579537a864f5aa3a78d/fedot_ind-0.0.0.4.tar.gz
+[2023-04-18 15:33:56] INFO root fetch - processPackages [BBFinance]: Downloading https://files.pythonhosted.org/packages/e2/c9/53d49fe921b4ad667ab3e5aa47f9a9e6a15639765f525923da090a18c03c/BBFinance-1.5.0.tar.gz
+[2023-04-18 15:33:56] INFO root fetch - processPackages [fideslang]: Downloading https://files.pythonhosted.org/packages/2a/1b/31464b9bf31b2b472359c027d04aa231b9ee9ee479db4434f8a040925968/fideslang-1.3.3.tar.gz
+[2023-04-18 15:33:56] INFO root fetch - processPackages [colabtunnel]: Downloading https://files.pythonhosted.org/packages/9c/65/7bf68efae7247af5765d3f087f6d7e46274fbf809c93f911044f74fe8006/colabtunnel-0.0.6.tar.gz
+[2023-04-18 15:33:56] INFO root fetch - processPackages [update-pip-packages]: Downloading https://files.pythonhosted.org/packages/7c/93/f79e00ef50462f3e75299f80d5b54edf5aa8c55a4e86a68a61e29af14cc2/update_pip_packages-0.1.3.tar.gz
+[2023-04-18 15:33:56] INFO root fetch - processPackages [BBFinance]: executing diffoscope
+[2023-04-18 15:33:56] INFO root fetch - processPackages [BBFinance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BBFinance-1.4.9.tar.gz tmp/BBFinance-1.5.0.tar.gz --markdown 20230418/B/BBFinance/1.4.9-1.5.0/diff.md --exclude *.pyd
+[2023-04-18 15:33:56] INFO root fetch - processPackages [eotdl-cli]: executing diffoscope
+[2023-04-18 15:33:56] INFO root fetch - processPackages [eotdl-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eotdl_cli-0.0.4.tar.gz tmp/eotdl_cli-0.0.5.tar.gz --markdown 20230418/e/eotdl-cli/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-18 15:33:56] INFO root fetch - processPackages [fedot-ind]: executing diffoscope
+[2023-04-18 15:33:56] INFO root fetch - processPackages [fedot-ind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fedot_ind-0.0.0.3.tar.gz tmp/fedot_ind-0.0.0.4.tar.gz --markdown 20230418/f/fedot-ind/0.0.0.3-0.0.0.4/diff.md --exclude *.pyd
+[2023-04-18 15:33:56] INFO root fetch - processPackages [colabtunnel]: executing diffoscope
+[2023-04-18 15:33:56] INFO root fetch - processPackages [colabtunnel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colabtunnel-0.0.5.tar.gz tmp/colabtunnel-0.0.6.tar.gz --markdown 20230418/c/colabtunnel/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-18 15:33:56] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/82/b5/4f4fa8e536e34ec15097de3f5ed4adb066c02554a3b6158c21f598f65d50/mb_pytorch-1.0.202304181331-py3-none-any.whl
+[2023-04-18 15:33:56] INFO root fetch - processPackages [fideslang]: Downloading https://files.pythonhosted.org/packages/95/cf/088a9e41d7738c01f320af613988484dcc85f809fe629c32d550e57b1588/fideslang-1.3.4.tar.gz
+[2023-04-18 15:33:56] INFO root fetch - processPackages [biocypher]: Downloading https://files.pythonhosted.org/packages/80/4a/28f3088067da67049a9b777015a3aa4326f5782b2be3e17c661232fe6b8d/biocypher-0.5.9.tar.gz
+[2023-04-18 15:33:56] INFO root fetch - processPackages [update-pip-packages]: executing diffoscope
+[2023-04-18 15:33:56] INFO root fetch - processPackages [update-pip-packages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/update_pip_packages-0.1.2.tar.gz tmp/update_pip_packages-0.1.3.tar.gz --markdown 20230418/u/update-pip-packages/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-04-18 15:33:56] INFO root fetch - processPackages [fideslang]: executing diffoscope
+[2023-04-18 15:33:56] INFO root fetch - processPackages [fideslang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fideslang-1.3.3.tar.gz tmp/fideslang-1.3.4.tar.gz --markdown 20230418/f/fideslang/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-04-18 15:33:56] INFO root fetch - processPackages [biocypher]: executing diffoscope
+[2023-04-18 15:33:56] INFO root fetch - processPackages [biocypher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biocypher-0.5.8.tar.gz tmp/biocypher-0.5.9.tar.gz --markdown 20230418/b/biocypher/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-04-18 15:33:56] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2023-04-18 15:33:56] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.202304181328-py3-none-any.whl.zip tmp/mb_pytorch-1.0.202304181331-py3-none-any.whl.zip --markdown 20230418/m/mb-pytorch/1.0.202304181328-1.0.202304181331/diff.md --exclude *.pyd
+[2023-04-18 15:33:57] INFO root fetch - processPackages [colabtunnel]: Start processing: oglio
+[2023-04-18 15:33:57] INFO root fetch - main [MainThread]: End processing [colabtunnel]: success
+[2023-04-18 15:33:57] INFO root fetch - processPackages [eotdl-cli]: Start processing: th2-grpc-lw-data-provider
+[2023-04-18 15:33:57] INFO root fetch - main [MainThread]: End processing [eotdl-cli]: success
+[2023-04-18 15:33:57] INFO root fetch - processPackages [oglio]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-04-18 15:33:57] INFO root fetch - processPackages [update-pip-packages]: Start processing: mb-pytorch
+[2023-04-18 15:33:57] INFO root fetch - main [MainThread]: End processing [update-pip-packages]: success
+[2023-04-18 15:33:57] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev4732972529]
+[2023-04-18 15:33:57] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.202304181331] Old Version: [1.0.202304181328]
+[2023-04-18 15:33:58] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2023-04-18 15:33:58] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.202304181328-py3-none-any.whl.zip tmp/mb_pytorch-1.0.202304181331-py3-none-any.whl.zip --markdown 20230418/m/mb-pytorch/1.0.202304181328-1.0.202304181331/diff.md --exclude *.pyd
+[2023-04-18 15:33:58] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/16/d2/d0768d8ced931b6d8025e6d0c035d70f8a3a16c7e8fe52ebd3a815db28e1/th2_grpc_lw_data_provider-2.0.0.dev4732972529.tar.gz
+[2023-04-18 15:33:58] INFO root fetch - processPackages [BBFinance]: Start processing: pyqode.core
+[2023-04-18 15:33:58] INFO root fetch - main [MainThread]: End processing [BBFinance]: success
+[2023-04-18 15:33:58] INFO root fetch - processPackages [pyqode.core]: New version: [4.0.5] Old Version: [2.9.0]
+[2023-04-18 15:33:58] INFO root fetch - processPackages [mb-pytorch]: Start processing: bowtie-json-schema
+[2023-04-18 15:33:58] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2023-04-18 15:33:58] INFO root fetch - processPackages [pyqode.core]: Downloading https://files.pythonhosted.org/packages/68/38/9c8e52e09e972d3de55735f94f8a31535de35b29af686d360ce73206fdf5/pyqode.core-2.9.0-py2.py3-none-any.whl
+[2023-04-18 15:33:58] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-04-18 15:33:58] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev4732972529.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230418/t/th2-grpc-lw-data-provider/2.0.0.dev4732972529-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-04-18 15:33:58] INFO root fetch - processPackages [oglio]: Downloading https://files.pythonhosted.org/packages/73/90/b11a6ef434af5fc5b9fa407657e77a68f3529e2aff8ee417fd7dd07ad5c1/oglio-0.7.2.tar.gz
+[2023-04-18 15:33:58] INFO root fetch - processPackages [bowtie-json-schema]: New version: [0.9.1] Old Version: [0.83.0]
+[2023-04-18 15:33:58] INFO root fetch - processPackages [fideslang]: Start processing: typewriter2
+[2023-04-18 15:33:58] INFO root fetch - main [MainThread]: End processing [fideslang]: success
+[2023-04-18 15:33:58] INFO root fetch - processPackages [bowtie-json-schema]: Downloading https://files.pythonhosted.org/packages/8c/f9/ea04074e3121ea4f17d3e223389512c9f780af854f822cd76873b417e5b2/bowtie_json_schema-0.83.0.tar.gz
+[2023-04-18 15:33:58] WARNING root fetch - processPackages [typewriter2]: Skipping, unable to determine old version
+[2023-04-18 15:33:58] INFO root fetch - processPackages [typewriter2]: Start processing: modal-client
+[2023-04-18 15:33:58] INFO root fetch - main [MainThread]: End processing [typewriter2] error
+[2023-04-18 15:33:58] INFO root fetch - processPackages [oglio]: executing diffoscope
+[2023-04-18 15:33:58] INFO root fetch - processPackages [oglio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oglio-0.7.1.tar.gz tmp/oglio-0.7.2.tar.gz --markdown 20230418/o/oglio/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-04-18 15:33:58] INFO root fetch - processPackages [modal-client]: New version: [0.48.1898] Old Version: [0.48.1887]
+[2023-04-18 15:33:58] INFO root fetch - processPackages [pyqode.core]: Downloading https://files.pythonhosted.org/packages/78/b1/03dca5f3056c755818984c3268ecaa85a18d0af7c1a79ee53d33e2ff520e/pyqode.core-4.0.5-py3-none-any.whl
+[2023-04-18 15:33:58] INFO root fetch - processPackages [biocypher]: Start processing: syncdsgen
+[2023-04-18 15:33:58] INFO root fetch - main [MainThread]: End processing [biocypher]: success
+[2023-04-18 15:33:58] INFO root fetch - processPackages [seven-cloudapp-frame]: Start processing: betwatch
+[2023-04-18 15:33:58] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-04-18 15:33:58] INFO root fetch - processPackages [syncdsgen]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-18 15:33:58] INFO root fetch - processPackages [betwatch]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-04-18 15:33:58] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/39/3e/25b7b597a36e99bbc6c157ea9b4a63ef4c6ebdded3037733c5efd06200ef/modal_client-0.48.1898-py3-none-any.whl
+[2023-04-18 15:33:58] INFO root fetch - processPackages [bowtie-json-schema]: executing diffoscope
+[2023-04-18 15:33:58] INFO root fetch - processPackages [bowtie-json-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bowtie_json_schema-0.83.0.tar.gz tmp/bowtie_json_schema-0.9.1.tar.gz --markdown 20230418/b/bowtie-json-schema/0.83.0-0.9.1/diff.md --exclude *.pyd
+[2023-04-18 15:33:58] INFO root fetch - processPackages [syncdsgen]: Downloading https://files.pythonhosted.org/packages/b2/29/a4c0e3783a3fb38dc19a017d24637a570516b237edf0a94918a1fd441ec8/syncdsgen-0.0.5.tar.gz
+[2023-04-18 15:33:58] INFO root fetch - processPackages [pyqode.core]: executing diffoscope
+[2023-04-18 15:33:58] INFO root fetch - processPackages [pyqode.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqode.core-2.9.0-py2.py3-none-any.whl.zip tmp/pyqode.core-4.0.5-py3-none-any.whl.zip --markdown 20230418/p/pyqode.core/2.9.0-4.0.5/diff.md --exclude *.pyd
+[2023-04-18 15:33:58] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-04-18 15:33:58] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.48.1887-py3-none-any.whl.zip tmp/modal_client-0.48.1898-py3-none-any.whl.zip --markdown 20230418/m/modal-client/0.48.1887-0.48.1898/diff.md --exclude *.pyd
+[2023-04-18 15:33:59] INFO root fetch - processPackages [syncdsgen]: executing diffoscope
+[2023-04-18 15:33:59] INFO root fetch - processPackages [syncdsgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncdsgen-0.0.4.tar.gz tmp/syncdsgen-0.0.5.tar.gz --markdown 20230418/s/syncdsgen/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-18 15:33:59] INFO root fetch - processPackages [betwatch]: executing diffoscope
+[2023-04-18 15:33:59] INFO root fetch - processPackages [betwatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betwatch-0.9.8.tar.gz tmp/betwatch-0.9.9.tar.gz --markdown 20230418/b/betwatch/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-04-18 15:33:59] INFO root fetch - processPackages [mb-pytorch]: Start processing: podcastparser
+[2023-04-18 15:33:59] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2023-04-18 15:33:59] INFO root fetch - processPackages [podcastparser]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-04-18 15:33:59] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Start processing: aiofauna
+[2023-04-18 15:33:59] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-04-18 15:33:59] INFO root fetch - processPackages [podcastparser]: Downloading https://files.pythonhosted.org/packages/b0/13/b49013759569915e41511d09e0b635456e8649e7f218c64c1b3a1b6c4f83/podcastparser-0.6.8.tar.gz
+[2023-04-18 15:33:59] INFO root fetch - processPackages [aiofauna]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-18 15:33:59] INFO root fetch - processPackages [aiofauna]: executing diffoscope
+[2023-04-18 15:33:59] INFO root fetch - processPackages [aiofauna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiofauna-0.0.8.tar.gz tmp/aiofauna-0.0.9.tar.gz --markdown 20230418/a/aiofauna/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-18 15:34:00] INFO root fetch - processPackages [podcastparser]: Downloading https://files.pythonhosted.org/packages/90/48/cae76d73226746a5c17ed58fcdf32b8f2cea54f9deca882fd67f82b6b4f7/podcastparser-0.6.9.tar.gz
+[2023-04-18 15:34:00] INFO root fetch - processPackages [podcastparser]: executing diffoscope
+[2023-04-18 15:34:00] INFO root fetch - processPackages [podcastparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/podcastparser-0.6.8.tar.gz tmp/podcastparser-0.6.9.tar.gz --markdown 20230418/p/podcastparser/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-04-18 15:34:00] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-04-18 15:34:00] INFO root fetch - main [MainThread]: End processing [syncdsgen]: success
+[2023-04-18 15:34:00] INFO root fetch - main [MainThread]: End processing [oglio]: success
+[2023-04-18 15:34:00] INFO root fetch - main [MainThread]: End processing [betwatch]: success
+[2023-04-18 15:34:01] INFO root fetch - main [MainThread]: End processing [fedot-ind]: success
+[2023-04-18 15:34:01] INFO root fetch - main [MainThread]: End processing [aiofauna]: success
+[2023-04-18 15:34:01] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-04-18 15:34:01] INFO root fetch - main [MainThread]: End processing [podcastparser]: success
+[2023-04-18 15:34:01] INFO root fetch - main [MainThread]: End processing [pyqode.core]: success
+[2023-04-18 15:34:02] INFO root fetch - main [MainThread]: End processing [bowtie-json-schema]: success
+[2023-04-18 15:34:02] INFO root fetch - main [MainThread]: Store serial: [17756380]
