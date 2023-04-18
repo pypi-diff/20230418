@@ -17088,3 +17088,92 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 100: invali
 [2023-04-18 11:43:51] INFO root fetch - main [MainThread]: End processing [returnn]: success
 [2023-04-18 11:43:51] INFO root fetch - main [MainThread]: End processing [ytsaurus-spyt]: success
 [2023-04-18 11:43:51] INFO root fetch - main [MainThread]: Store serial: [17753756]
+[2023-04-18 11:48:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17753756]
+[2023-04-18 11:49:01] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-18 11:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaquar
+[2023-04-18 11:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onediff
+[2023-04-18 11:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mimeograph
+[2023-04-18 11:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: customized-table
+[2023-04-18 11:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: skshift
+[2023-04-18 11:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: birentechci
+[2023-04-18 11:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xlibs
+[2023-04-18 11:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastbt
+[2023-04-18 11:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: CTADIRAC
+[2023-04-18 11:49:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-contract-queue-job
+[2023-04-18 11:49:01] INFO root fetch - processPackages [onediff]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-18 11:49:01] INFO root fetch - processPackages [skshift]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-18 11:49:01] INFO root fetch - processPackages [jaquar]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-04-18 11:49:01] INFO root fetch - processPackages [customized-table]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-18 11:49:01] INFO root fetch - processPackages [xlibs]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-18 11:49:01] WARNING root fetch - processPackages [odoo14-addon-contract-queue-job]: Skipping, unable to determine old version
+[2023-04-18 11:49:01] INFO root fetch - processPackages [mimeograph]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-18 11:49:01] INFO root fetch - processPackages [fastbt]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-04-18 11:49:01] INFO root fetch - processPackages [odoo14-addon-contract-queue-job]: Start processing: javonet-python-sdk
+[2023-04-18 11:49:01] INFO root fetch - main [MainThread]: End processing [odoo14-addon-contract-queue-job] error
+[2023-04-18 11:49:01] INFO root fetch - processPackages [birentechci]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-18 11:49:01] INFO root fetch - processPackages [CTADIRAC]: New version: [2.2a3] Old Version: [2.2.9]
+[2023-04-18 11:49:01] INFO root fetch - processPackages [javonet-python-sdk]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-04-18 11:49:01] INFO root fetch - processPackages [fastbt]: Downloading https://files.pythonhosted.org/packages/03/38/600d4a921ae2822959daa8fd5949c1329cb406eeaac262fd9ad84b91f365/fastbt-0.5.0.tar.gz
+[2023-04-18 11:49:01] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/b5/b9/374ebf1306993c83fd9b2b7bc584983456da7a4dda0cd79e923e85476450/onediff-0.8.0-py3-none-any.whl
+[2023-04-18 11:49:01] INFO root fetch - processPackages [customized-table]: Downloading https://files.pythonhosted.org/packages/74/f5/11cce4982efd7bb1e793bd5f4d65a4df5dd1305caa21fac9a154c00e6af3/customized_table-0.1.8.tar.gz
+[2023-04-18 11:49:01] INFO root fetch - processPackages [xlibs]: Downloading https://files.pythonhosted.org/packages/3a/2c/64639ff0dfcb2b5de9a0eb82465f081578895c6b1079b05649dc796af93b/xlibs-0.0.1.tar.gz
+[2023-04-18 11:49:01] INFO root fetch - processPackages [skshift]: Downloading https://files.pythonhosted.org/packages/cb/58/e2e428d2aedccc459495b1b7d6459c4ddb9e5d1132c88dbe8234a4c901de/skshift-0.1.3.tar.gz
+[2023-04-18 11:49:01] INFO root fetch - processPackages [javonet-python-sdk]: Downloading https://files.pythonhosted.org/packages/0e/3a/5a07daf7f4f274b22566e1fc7179a4a04b39d3f6013bee6d5fcbec562402/javonet_python_sdk-2.1.0-py3-none-any.whl
+[2023-04-18 11:49:01] INFO root fetch - processPackages [birentechci]: Downloading https://files.pythonhosted.org/packages/2a/9d/8cfef33e182b7c10b68e7298adc1205781765797811e09ed5c28899364c5/birentechci-0.0.5.tar.gz
+[2023-04-18 11:49:01] INFO root fetch - processPackages [CTADIRAC]: Downloading https://files.pythonhosted.org/packages/c4/fd/863c06d80a7cb3f8b807886edd3b375bed2ee4d3a384cb8b7213479f2248/CTADIRAC-2.2.9.tar.gz
+[2023-04-18 11:49:01] INFO root fetch - processPackages [jaquar]: Downloading https://files.pythonhosted.org/packages/23/a3/0d5b30ffba1f5e3ad59e9fade1afb98fe6c04d633f609ce977485acfde99/jaquar-0.6.4.tar.gz
+[2023-04-18 11:49:01] WARNING root fetch - processPackages [javonet-python-sdk]: Skipping package: exceeds size limit 91050715>=10485760
+[2023-04-18 11:49:01] INFO root fetch - processPackages [javonet-python-sdk]: Start processing: edc
+[2023-04-18 11:49:01] INFO root fetch - main [MainThread]: End processing [javonet-python-sdk] error
+[2023-04-18 11:49:01] INFO root fetch - processPackages [mimeograph]: Downloading https://files.pythonhosted.org/packages/47/f8/c8bccad1f2afa93520bbb6ce22c001861fe744ec326927782ccafe15dca6/mimeograph-0.3.1.tar.gz
+[2023-04-18 11:49:01] INFO root fetch - processPackages [edc]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-18 11:49:01] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/ef/35/e11ef77b4ecbfca20f6a6f4e859e3366285f109bbe200a8a82c62b8db14d/onediff-0.9.0-py3-none-any.whl
+[2023-04-18 11:49:01] INFO root fetch - processPackages [birentechci]: executing diffoscope
+[2023-04-18 11:49:01] INFO root fetch - processPackages [birentechci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/birentechci-0.0.4.tar.gz tmp/birentechci-0.0.5.tar.gz --markdown 20230418/b/birentechci/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-18 11:49:01] INFO root fetch - processPackages [jaquar]: executing diffoscope
+[2023-04-18 11:49:01] INFO root fetch - processPackages [jaquar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaquar-0.6.3.tar.gz tmp/jaquar-0.6.4.tar.gz --markdown 20230418/j/jaquar/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-04-18 11:49:01] INFO root fetch - processPackages [skshift]: Downloading https://files.pythonhosted.org/packages/a8/31/1b78fbace0d08673270a61f4c2dd89d1fc1d2423cdb41017e79796e1f367/skshift-0.1.4.tar.gz
+[2023-04-18 11:49:01] INFO root fetch - processPackages [edc]: executing diffoscope
+[2023-04-18 11:49:01] INFO root fetch - processPackages [edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-0.4.8.tar.gz tmp/edc-0.4.9.tar.gz --markdown 20230418/e/edc/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-18 11:49:01] INFO root fetch - processPackages [customized-table]: Downloading https://files.pythonhosted.org/packages/89/16/e28f5539a23e94c547afbb16ecc72fdb7d9a96778b96939995e3d92a2659/customized_table-0.1.9.tar.gz
+[2023-04-18 11:49:01] INFO root fetch - processPackages [xlibs]: Downloading https://files.pythonhosted.org/packages/da/86/961dc36960c37b101959c2f8a0f242f757f366fae8d728def96f9339590f/xlibs-0.0.2-py3-none-any.whl
+[2023-04-18 11:49:01] INFO root fetch - processPackages [CTADIRAC]: Downloading https://files.pythonhosted.org/packages/b3/dc/eeb2adbd38eb21f4638e8a34f30ed6748361e02727136583e01b66570df8/CTADIRAC-2.2a3.tar.gz
+[2023-04-18 11:49:01] INFO root fetch - processPackages [mimeograph]: executing diffoscope
+[2023-04-18 11:49:01] INFO root fetch - processPackages [mimeograph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimeograph-0.3.0.tar.gz tmp/mimeograph-0.3.1.tar.gz --markdown 20230418/m/mimeograph/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-18 11:49:01] INFO root fetch - processPackages [customized-table]: executing diffoscope
+[2023-04-18 11:49:01] INFO root fetch - processPackages [customized-table]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/customized_table-0.1.8.tar.gz tmp/customized_table-0.1.9.tar.gz --markdown 20230418/c/customized-table/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-18 11:49:01] INFO root fetch - processPackages [onediff]: executing diffoscope
+[2023-04-18 11:49:01] INFO root fetch - processPackages [onediff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediff-0.8.0-py3-none-any.whl.zip tmp/onediff-0.9.0-py3-none-any.whl.zip --markdown 20230418/o/onediff/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-18 11:49:01] INFO root fetch - processPackages [skshift]: executing diffoscope
+[2023-04-18 11:49:01] INFO root fetch - processPackages [skshift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skshift-0.1.3.tar.gz tmp/skshift-0.1.4.tar.gz --markdown 20230418/s/skshift/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-18 11:49:02] INFO root fetch - processPackages [xlibs]: executing diffoscope
+[2023-04-18 11:49:02] INFO root fetch - processPackages [xlibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xlibs-0.0.1.tar.gz tmp/xlibs-0.0.2-py3-none-any.whl.zip --markdown 20230418/x/xlibs/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-18 11:49:02] INFO root fetch - processPackages [CTADIRAC]: executing diffoscope
+[2023-04-18 11:49:02] INFO root fetch - processPackages [CTADIRAC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CTADIRAC-2.2.9.tar.gz tmp/CTADIRAC-2.2a3.tar.gz --markdown 20230418/C/CTADIRAC/2.2.9-2.2a3/diff.md --exclude *.pyd
+[2023-04-18 11:49:02] INFO root fetch - processPackages [fastbt]: Downloading https://files.pythonhosted.org/packages/77/fe/5675a2349bed4655603b312e1976b546c5006675960accc62f4fa751f876/fastbt-0.5.1.tar.gz
+[2023-04-18 11:49:02] INFO root fetch - processPackages [jaquar]: Start processing: tort
+[2023-04-18 11:49:02] INFO root fetch - main [MainThread]: End processing [jaquar]: success
+[2023-04-18 11:49:03] INFO root fetch - processPackages [tort]: New version: [0.5.9] Old Version: [0.5.7]
+[2023-04-18 11:49:03] INFO root fetch - processPackages [xlibs]: Start processing: genomenotebook
+[2023-04-18 11:49:03] INFO root fetch - main [MainThread]: End processing [xlibs]: success
+[2023-04-18 11:49:03] INFO root fetch - processPackages [tort]: Downloading https://files.pythonhosted.org/packages/a6/af/d86c9471691b3b65ae37bc7edc258c80356de15e45f1a7203c57d316dc1c/tort-0.5.7.tar.gz
+[2023-04-18 11:49:03] INFO root fetch - processPackages [genomenotebook]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-18 11:49:03] INFO root fetch - main [MainThread]: End processing [birentechci]: success
+[2023-04-18 11:49:03] INFO root fetch - processPackages [tort]: Downloading https://files.pythonhosted.org/packages/ac/b6/6260e0b55bbbdda0be0a57e387d8a17ded5737ec92627b6ac9a38236d4ca/tort-0.5.9.tar.gz
+[2023-04-18 11:49:03] INFO root fetch - main [MainThread]: End processing [onediff]: success
+[2023-04-18 11:49:03] INFO root fetch - processPackages [fastbt]: executing diffoscope
+[2023-04-18 11:49:03] INFO root fetch - processPackages [fastbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastbt-0.5.0.tar.gz tmp/fastbt-0.5.1.tar.gz --markdown 20230418/f/fastbt/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-04-18 11:49:03] INFO root fetch - processPackages [tort]: executing diffoscope
+[2023-04-18 11:49:03] INFO root fetch - processPackages [tort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tort-0.5.7.tar.gz tmp/tort-0.5.9.tar.gz --markdown 20230418/t/tort/0.5.7-0.5.9/diff.md --exclude *.pyd
+[2023-04-18 11:49:03] INFO root fetch - processPackages [genomenotebook]: Downloading https://files.pythonhosted.org/packages/f5/0f/25414db4c8ca06c9d69a4174935ac5da18ec282fb9837528acea81fcd1e5/genomenotebook-0.3.1.tar.gz
+[2023-04-18 11:49:03] INFO root fetch - main [MainThread]: End processing [mimeograph]: success
+[2023-04-18 11:49:03] INFO root fetch - main [MainThread]: End processing [customized-table]: success
+[2023-04-18 11:49:03] INFO root fetch - processPackages [genomenotebook]: executing diffoscope
+[2023-04-18 11:49:03] INFO root fetch - processPackages [genomenotebook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genomenotebook-0.3.0.tar.gz tmp/genomenotebook-0.3.1.tar.gz --markdown 20230418/g/genomenotebook/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-18 11:49:04] INFO root fetch - main [MainThread]: End processing [skshift]: success
+[2023-04-18 11:49:04] INFO root fetch - main [MainThread]: End processing [tort]: success
+[2023-04-18 11:49:04] INFO root fetch - main [MainThread]: End processing [genomenotebook]: success
+[2023-04-18 11:49:05] INFO root fetch - main [MainThread]: End processing [edc]: success
+[2023-04-18 11:49:05] INFO root fetch - main [MainThread]: End processing [CTADIRAC]: success
+[2023-04-18 11:49:42] INFO root fetch - main [MainThread]: End processing [fastbt]: success
+[2023-04-18 11:49:42] INFO root fetch - main [MainThread]: Store serial: [17753818]
