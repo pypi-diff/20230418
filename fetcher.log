@@ -18495,3 +18495,40 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 100: invali
 [2023-04-18 13:00:13] INFO root fetch - main [MainThread]: End processing [aipha-geo-solutions]: success
 [2023-04-18 13:00:21] INFO root fetch - main [MainThread]: End processing [kolo]: success
 [2023-04-18 13:00:21] INFO root fetch - main [MainThread]: Store serial: [17754709]
+[2023-04-18 13:05:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17754709]
+[2023-04-18 13:05:31] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-04-18 13:05:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: power-grid-model
+[2023-04-18 13:05:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cellmap
+[2023-04-18 13:05:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: customized-chart
+[2023-04-18 13:05:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ota
+[2023-04-18 13:05:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flask-ms-oauth2
+[2023-04-18 13:05:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: usda
+[2023-04-18 13:05:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-purchase-order-owner
+[2023-04-18 13:05:31] INFO root fetch - processPackages [cellmap]: New version: [1.0.1.dev202304181101] Old Version: [1.0.1.dev202304180922]
+[2023-04-18 13:05:31] INFO root fetch - processPackages [ota]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-18 13:05:31] INFO root fetch - processPackages [usda]: New version: [0.0.22] Old Version: [0.0.21]
+[2023-04-18 13:05:31] INFO root fetch - processPackages [customized-chart]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-18 13:05:31] WARNING root fetch - processPackages [flask-ms-oauth2]: Skipping, unable to determine old version
+[2023-04-18 13:05:31] INFO root fetch - main [MainThread]: End processing [flask-ms-oauth2] error
+[2023-04-18 13:05:31] INFO root fetch - processPackages [power-grid-model]: New version: [1.5.0rc9160504214835] Old Version: [1.5.0rc9152109758095]
+[2023-04-18 13:05:31] INFO root fetch - processPackages [customized-chart]: executing diffoscope
+[2023-04-18 13:05:31] INFO root fetch - processPackages [customized-chart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/customized_chart-0.1.8.tar.gz tmp/customized_chart-0.1.9.tar.gz --markdown 20230418/c/customized-chart/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-18 13:05:31] WARNING root fetch - processPackages [odoo-addon-purchase-order-owner]: Skipping, unable to determine old version
+[2023-04-18 13:05:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-order-owner] error
+[2023-04-18 13:05:31] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2023-04-18 13:05:31] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power_grid_model-1.5.0rc9152109758095-py3-none-win_amd64.whl.zip tmp/power_grid_model-1.5.0rc9160504214835-py3-none-win_amd64.whl.zip --markdown 20230418/p/power-grid-model/1.5.0rc9152109758095-1.5.0rc9160504214835/diff.md --exclude *.pyd
+[2023-04-18 13:05:31] INFO root fetch - processPackages [ota]: Downloading https://files.pythonhosted.org/packages/07/66/eb54420db18ad7e9b829fcb14b3f6a777e32136968827315c1e3807e7ba3/ota-0.1.1.tar.gz
+[2023-04-18 13:05:31] INFO root fetch - processPackages [cellmap]: Downloading https://files.pythonhosted.org/packages/e6/fb/dde20c242974133843c04893289f5e561d7d33cbb122f78341810f8b5648/cellmap-1.0.1.dev202304181101-py3-none-any.whl
+[2023-04-18 13:05:31] INFO root fetch - processPackages [usda]: Downloading https://files.pythonhosted.org/packages/3e/9f/368256947c6394037b09e2a2b35c6a0c5b747686975f8ac3eb9ef0cb37e3/usda-0.0.22.tar.gz
+[2023-04-18 13:05:31] INFO root fetch - processPackages [ota]: executing diffoscope
+[2023-04-18 13:05:31] INFO root fetch - processPackages [ota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ota-0.1.0.tar.gz tmp/ota-0.1.1.tar.gz --markdown 20230418/o/ota/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-18 13:05:31] INFO root fetch - processPackages [usda]: executing diffoscope
+[2023-04-18 13:05:31] INFO root fetch - processPackages [usda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usda-0.0.21.tar.gz tmp/usda-0.0.22.tar.gz --markdown 20230418/u/usda/0.0.21-0.0.22/diff.md --exclude *.pyd
+[2023-04-18 13:05:31] INFO root fetch - processPackages [cellmap]: executing diffoscope
+[2023-04-18 13:05:31] INFO root fetch - processPackages [cellmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmap-1.0.1.dev202304180922-py3-none-any.whl.zip tmp/cellmap-1.0.1.dev202304181101-py3-none-any.whl.zip --markdown 20230418/c/cellmap/1.0.1.dev202304180922-1.0.1.dev202304181101/diff.md --exclude *.pyd
+[2023-04-18 13:05:32] INFO root fetch - main [MainThread]: End processing [ota]: success
+[2023-04-18 13:05:32] INFO root fetch - main [MainThread]: End processing [cellmap]: success
+[2023-04-18 13:05:33] INFO root fetch - main [MainThread]: End processing [customized-chart]: success
+[2023-04-18 13:05:33] INFO root fetch - main [MainThread]: End processing [usda]: success
+[2023-04-18 13:05:36] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2023-04-18 13:05:36] INFO root fetch - main [MainThread]: Store serial: [17754736]
