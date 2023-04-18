@@ -10895,3 +10895,94 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 08:05:55] INFO root fetch - main [MainThread]: End processing [odoo13-addon-product-template-tags]: success
 [2023-04-18 08:05:55] INFO root fetch - main [MainThread]: End processing [odoo13-addon-product-weight]: success
 [2023-04-18 08:05:55] INFO root fetch - main [MainThread]: Store serial: [17750288]
+[2023-04-18 08:10:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17750288]
+[2023-04-18 08:11:04] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-18 08:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyg-nightly
+[2023-04-18 08:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-product-profile
+[2023-04-18 08:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-product-template-tags
+[2023-04-18 08:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: snowflake-ai
+[2023-04-18 08:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: treets
+[2023-04-18 08:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yourtools
+[2023-04-18 08:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PrSpiders
+[2023-04-18 08:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: symbolicai
+[2023-04-18 08:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: iconsdk
+[2023-04-18 08:11:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: promsoft-dl-interface
+[2023-04-18 08:11:04] INFO root fetch - processPackages [PrSpiders]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-04-18 08:11:04] INFO root fetch - processPackages [odoo-addon-product-template-tags]: New version: [15.0.1.0.1.6] Old Version: [15.0.1.0.1.5]
+[2023-04-18 08:11:04] INFO root fetch - processPackages [iconsdk]: New version: [2.4.2] Old Version: [2.4.1]
+[2023-04-18 08:11:04] WARNING root fetch - processPackages [snowflake-ai]: Skipping, unable to determine old version
+[2023-04-18 08:11:04] INFO root fetch - processPackages [snowflake-ai]: Start processing: odoo10-addon-stock-picking-variant-mgmt
+[2023-04-18 08:11:04] INFO root fetch - main [MainThread]: End processing [snowflake-ai] error
+[2023-04-18 08:11:04] INFO root fetch - processPackages [yourtools]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-04-18 08:11:04] INFO root fetch - processPackages [promsoft-dl-interface]: New version: [0.1.8] Old Version: [0.1.6]
+[2023-04-18 08:11:04] INFO root fetch - processPackages [treets]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-04-18 08:11:04] INFO root fetch - processPackages [odoo14-addon-product-profile]: New version: [14.0.1.0.2.dev3] Old Version: [14.0.1.0.2.dev2]
+[2023-04-18 08:11:04] INFO root fetch - processPackages [symbolicai]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-04-18 08:11:04] INFO root fetch - processPackages [odoo10-addon-stock-picking-variant-mgmt]: New version: [10.0.1.0.0.99.dev7] Old Version: [10.0.1.0.0.99.dev6]
+[2023-04-18 08:11:04] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230418] Old Version: [2.4.0.dev20230417]
+[2023-04-18 08:11:04] INFO root fetch - processPackages [yourtools]: Downloading https://files.pythonhosted.org/packages/07/7c/8e54836f266cb8b3f2738cfa6e9d47ab94d864e3f32ec9e9bb35d668b4a2/yourtools-0.5.6.tar.gz
+[2023-04-18 08:11:04] INFO root fetch - processPackages [iconsdk]: Downloading https://files.pythonhosted.org/packages/c4/0d/bdde2322a9310856b0fd2e43604b194a5c772c707a116daeae2042d4d575/iconsdk-2.4.1.tar.gz
+[2023-04-18 08:11:04] INFO root fetch - processPackages [odoo-addon-product-template-tags]: Downloading https://files.pythonhosted.org/packages/e2/fc/2afd13f49811b141838dfa2b99cea5cd9e09c0ac82348797b5a3cd988db7/odoo_addon_product_template_tags-15.0.1.0.1.5-py3-none-any.whl
+[2023-04-18 08:11:04] INFO root fetch - processPackages [PrSpiders]: Downloading https://files.pythonhosted.org/packages/4b/f1/d47de5a0753a1d1c8c2c53c156b3f178900dd62b76863de25a7415099069/PrSpiders-0.3.3.tar.gz
+[2023-04-18 08:11:04] INFO root fetch - processPackages [treets]: Downloading https://files.pythonhosted.org/packages/e3/f9/e32d6b0f18c5f96af95bf15376c43dc4aa782f192223812daf587fbf0f48/treets-1.0.4.tar.gz
+[2023-04-18 08:11:04] INFO root fetch - processPackages [odoo14-addon-product-profile]: Downloading https://files.pythonhosted.org/packages/69/54/cc1a9ce7186d86112914b99d4146f0be07f35ecb3cd8de73661b9c4d3201/odoo14_addon_product_profile-14.0.1.0.2.dev2-py3-none-any.whl
+[2023-04-18 08:11:04] INFO root fetch - processPackages [odoo10-addon-stock-picking-variant-mgmt]: Downloading https://files.pythonhosted.org/packages/e0/ae/2bb0e05a7e702521df1017efa360dba68026e3613a8e118020bfc7119522/odoo10_addon_stock_picking_variant_mgmt-10.0.1.0.0.99.dev6-py2-none-any.whl
+[2023-04-18 08:11:04] INFO root fetch - processPackages [yourtools]: executing diffoscope
+[2023-04-18 08:11:04] INFO root fetch - processPackages [yourtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yourtools-0.5.5.tar.gz tmp/yourtools-0.5.6.tar.gz --markdown 20230418/y/yourtools/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-04-18 08:11:04] INFO root fetch - processPackages [symbolicai]: Downloading https://files.pythonhosted.org/packages/59/14/798e49c20397acd30771571396d3eda6fd597a03aa173eaff2f7291228e3/symbolicai-0.2.7-py3-none-any.whl
+[2023-04-18 08:11:04] INFO root fetch - processPackages [PrSpiders]: executing diffoscope
+[2023-04-18 08:11:04] INFO root fetch - processPackages [PrSpiders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PrSpiders-0.3.2.tar.gz tmp/PrSpiders-0.3.3.tar.gz --markdown 20230418/P/PrSpiders/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-04-18 08:11:04] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/20/3c/6f4b4c784ec0afc5a0d991f0310a6252d86f0e032974fd1f311458b8e73b/pyg-nightly-2.4.0.dev20230417.tar.gz
+[2023-04-18 08:11:04] INFO root fetch - processPackages [promsoft-dl-interface]: Downloading https://files.pythonhosted.org/packages/3e/27/a41abaa5112f040c77235a74e1ff192dad147b2427d66a08ada92bc48a86/promsoft_dl_interface-0.1.8.tar.gz
+[2023-04-18 08:11:05] INFO root fetch - processPackages [promsoft-dl-interface]: executing diffoscope
+[2023-04-18 08:11:05] INFO root fetch - processPackages [promsoft-dl-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promsoft_dl_interface-0.1.6.tar.gz tmp/promsoft_dl_interface-0.1.8.tar.gz --markdown 20230418/p/promsoft-dl-interface/0.1.6-0.1.8/diff.md --exclude *.pyd
+[2023-04-18 08:11:05] INFO root fetch - processPackages [odoo-addon-product-template-tags]: Downloading https://files.pythonhosted.org/packages/d8/8a/6473c7eea36d9bf909c61b5d5be48e9eafbf238266997559445c1db8940e/odoo_addon_product_template_tags-15.0.1.0.1.6-py3-none-any.whl
+[2023-04-18 08:11:05] INFO root fetch - processPackages [iconsdk]: Downloading https://files.pythonhosted.org/packages/85/67/aa8205ff7f5c6242b3605bb262f4438a39972262f8f10f0726597734440e/iconsdk-2.4.2.tar.gz
+[2023-04-18 08:11:05] INFO root fetch - processPackages [treets]: Downloading https://files.pythonhosted.org/packages/c8/0a/d9cd8f6cb09782fa41de25b5eb00a35653db265807285f6b2332e566363d/treets-1.0.5.tar.gz
+[2023-04-18 08:11:05] INFO root fetch - processPackages [odoo10-addon-stock-picking-variant-mgmt]: Downloading https://files.pythonhosted.org/packages/b9/b5/aab68c6ec135568eee647fbeb4505165740b25dfeb4dd71e5e0f8d1b53e5/odoo10_addon_stock_picking_variant_mgmt-10.0.1.0.0.99.dev7-py2-none-any.whl
+[2023-04-18 08:11:05] INFO root fetch - processPackages [treets]: executing diffoscope
+[2023-04-18 08:11:05] INFO root fetch - processPackages [treets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/treets-1.0.4.tar.gz tmp/treets-1.0.5.tar.gz --markdown 20230418/t/treets/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-04-18 08:11:05] INFO root fetch - processPackages [odoo-addon-product-template-tags]: executing diffoscope
+[2023-04-18 08:11:05] INFO root fetch - processPackages [odoo-addon-product-template-tags]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_template_tags-15.0.1.0.1.5-py3-none-any.whl.zip tmp/odoo_addon_product_template_tags-15.0.1.0.1.6-py3-none-any.whl.zip --markdown 20230418/o/odoo-addon-product-template-tags/15.0.1.0.1.5-15.0.1.0.1.6/diff.md --exclude *.pyd
+[2023-04-18 08:11:05] INFO root fetch - processPackages [iconsdk]: executing diffoscope
+[2023-04-18 08:11:05] INFO root fetch - processPackages [iconsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iconsdk-2.4.1.tar.gz tmp/iconsdk-2.4.2.tar.gz --markdown 20230418/i/iconsdk/2.4.1-2.4.2/diff.md --exclude *.pyd
+[2023-04-18 08:11:05] INFO root fetch - processPackages [odoo14-addon-product-profile]: Downloading https://files.pythonhosted.org/packages/cb/87/65978773b820a326afdb677e2a34616e85a4c36077ab7873a9fa89294a49/odoo14_addon_product_profile-14.0.1.0.2.dev3-py3-none-any.whl
+[2023-04-18 08:11:05] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/b4/84/2c8fbb86f89c0ed4d2743d23efcd7eec8a4c0f882a12645f058633c76685/pyg-nightly-2.4.0.dev20230418.tar.gz
+[2023-04-18 08:11:05] INFO root fetch - processPackages [odoo10-addon-stock-picking-variant-mgmt]: executing diffoscope
+[2023-04-18 08:11:05] INFO root fetch - processPackages [odoo10-addon-stock-picking-variant-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_stock_picking_variant_mgmt-10.0.1.0.0.99.dev6-py2-none-any.whl.zip tmp/odoo10_addon_stock_picking_variant_mgmt-10.0.1.0.0.99.dev7-py2-none-any.whl.zip --markdown 20230418/o/odoo10-addon-stock-picking-variant-mgmt/10.0.1.0.0.99.dev6-10.0.1.0.0.99.dev7/diff.md --exclude *.pyd
+[2023-04-18 08:11:05] INFO root fetch - processPackages [odoo14-addon-product-profile]: executing diffoscope
+[2023-04-18 08:11:05] INFO root fetch - processPackages [odoo14-addon-product-profile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_product_profile-14.0.1.0.2.dev2-py3-none-any.whl.zip tmp/odoo14_addon_product_profile-14.0.1.0.2.dev3-py3-none-any.whl.zip --markdown 20230418/o/odoo14-addon-product-profile/14.0.1.0.2.dev2-14.0.1.0.2.dev3/diff.md --exclude *.pyd
+[2023-04-18 08:11:05] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-04-18 08:11:05] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg-nightly-2.4.0.dev20230417.tar.gz tmp/pyg-nightly-2.4.0.dev20230418.tar.gz --markdown 20230418/p/pyg-nightly/2.4.0.dev20230417-2.4.0.dev20230418/diff.md --exclude *.pyd
+[2023-04-18 08:11:06] INFO root fetch - processPackages [symbolicai]: Downloading https://files.pythonhosted.org/packages/d4/20/d69129c72a905a1d7f198c70e94d4b5d966f97686ef827699d68d5da2a6c/symbolicai-0.2.9-py3-none-any.whl
+[2023-04-18 08:11:06] INFO root fetch - processPackages [yourtools]: Start processing: windbg-copilot
+[2023-04-18 08:11:06] INFO root fetch - main [MainThread]: End processing [yourtools]: success
+[2023-04-18 08:11:06] INFO root fetch - processPackages [promsoft-dl-interface]: Start processing: django-typomatic
+[2023-04-18 08:11:06] INFO root fetch - main [MainThread]: End processing [promsoft-dl-interface]: success
+[2023-04-18 08:11:06] INFO root fetch - processPackages [windbg-copilot]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-18 08:11:06] INFO root fetch - processPackages [django-typomatic]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-04-18 08:11:06] INFO root fetch - processPackages [django-typomatic]: Downloading https://files.pythonhosted.org/packages/ef/b6/83408ca9833a10097be34ca6c796ad0bfcc91e0c6c0c79ad70f1b5ee992f/django-typomatic-2.2.0.tar.gz
+[2023-04-18 08:11:06] INFO root fetch - processPackages [PrSpiders]: Start processing: coco_types
+[2023-04-18 08:11:06] INFO root fetch - main [MainThread]: End processing [PrSpiders]: success
+[2023-04-18 08:11:06] INFO root fetch - processPackages [windbg-copilot]: Downloading https://files.pythonhosted.org/packages/3a/d4/a2de61b938c4995a439d3f696819bf25af6bd0307a433dcd2e7672f08f73/windbg_copilot-1.0.4.tar.gz
+[2023-04-18 08:11:06] INFO root fetch - processPackages [coco_types]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-18 08:11:06] INFO root fetch - processPackages [windbg-copilot]: executing diffoscope
+[2023-04-18 08:11:06] INFO root fetch - processPackages [windbg-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windbg_copilot-1.0.3.tar.gz tmp/windbg_copilot-1.0.4.tar.gz --markdown 20230418/w/windbg-copilot/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-18 08:11:06] INFO root fetch - processPackages [coco_types]: executing diffoscope
+[2023-04-18 08:11:06] INFO root fetch - processPackages [coco_types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coco_types-0.0.4.tar.gz tmp/coco_types-0.0.5.tar.gz --markdown 20230418/c/coco_types/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-18 08:11:06] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-template-tags]: success
+[2023-04-18 08:11:06] INFO root fetch - processPackages [django-typomatic]: Downloading https://files.pythonhosted.org/packages/f6/51/41e1349d23fbd4e56e48716565f8123bc3ee281b155cbe2f9bf99f79c7fd/django-typomatic-2.3.0.tar.gz
+[2023-04-18 08:11:07] INFO root fetch - processPackages [django-typomatic]: executing diffoscope
+[2023-04-18 08:11:07] INFO root fetch - processPackages [django-typomatic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-typomatic-2.2.0.tar.gz tmp/django-typomatic-2.3.0.tar.gz --markdown 20230418/d/django-typomatic/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-04-18 08:11:07] INFO root fetch - processPackages [symbolicai]: executing diffoscope
+[2023-04-18 08:11:07] INFO root fetch - processPackages [symbolicai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbolicai-0.2.7-py3-none-any.whl.zip tmp/symbolicai-0.2.9-py3-none-any.whl.zip --markdown 20230418/s/symbolicai/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-04-18 08:11:07] INFO root fetch - main [MainThread]: End processing [treets]: success
+[2023-04-18 08:11:07] INFO root fetch - main [MainThread]: End processing [odoo14-addon-product-profile]: success
+[2023-04-18 08:11:07] INFO root fetch - main [MainThread]: End processing [odoo10-addon-stock-picking-variant-mgmt]: success
+[2023-04-18 08:11:07] INFO root fetch - main [MainThread]: End processing [iconsdk]: success
+[2023-04-18 08:11:08] INFO root fetch - main [MainThread]: End processing [windbg-copilot]: success
+[2023-04-18 08:11:08] INFO root fetch - main [MainThread]: End processing [coco_types]: success
+[2023-04-18 08:11:09] INFO root fetch - main [MainThread]: End processing [symbolicai]: success
+[2023-04-18 08:11:09] INFO root fetch - main [MainThread]: End processing [django-typomatic]: success
+[2023-04-18 08:11:11] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-04-18 08:11:11] INFO root fetch - main [MainThread]: Store serial: [17750330]
