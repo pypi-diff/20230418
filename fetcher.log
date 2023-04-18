@@ -12694,3 +12694,347 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 09:12:01] INFO root fetch - main [MainThread]: End processing [erscipcard]: success
 [2023-04-18 09:12:03] INFO root fetch - main [MainThread]: End processing [icupy]: success
 [2023-04-18 09:12:03] INFO root fetch - main [MainThread]: Store serial: [17751135]
+[2023-04-18 09:17:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17751135]
+[2023-04-18 09:17:12] INFO root fetch - main [MainThread]: Found 55 changed packages
+[2023-04-18 09:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: watchtower-browser-testing
+[2023-04-18 09:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: birenci-infra
+[2023-04-18 09:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: liblxml3
+[2023-04-18 09:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: enebootools
+[2023-04-18 09:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: design.plone.contenttypes
+[2023-04-18 09:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cg
+[2023-04-18 09:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-04-18 09:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: deepdriver
+[2023-04-18 09:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: decode-config
+[2023-04-18 09:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Slim-TPCA
+[2023-04-18 09:17:12] INFO root fetch - processPackages [birenci-infra]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-18 09:17:12] INFO root fetch - processPackages [design.plone.contenttypes]: New version: [6.0.3] Old Version: [6.0.2]
+[2023-04-18 09:17:12] INFO root fetch - processPackages [liblxml3]: New version: [1.8] Old Version: [1.7]
+[2023-04-18 09:17:12] INFO root fetch - processPackages [Slim-TPCA]: New version: [0.1.0] Old Version: [0.0.5]
+[2023-04-18 09:17:12] INFO root fetch - processPackages [enebootools]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-04-18 09:17:12] INFO root fetch - processPackages [deepdriver]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-18 09:17:12] INFO root fetch - processPackages [decode-config]: New version: [2022.1] Old Version: [12.5.0.0]
+[2023-04-18 09:17:12] INFO root fetch - processPackages [cg]: New version: [27.3.9] Old Version: [27.3.8]
+[2023-04-18 09:17:12] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-04-18 09:17:12] INFO root fetch - processPackages [watchtower-browser-testing]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-04-18 09:17:12] INFO root fetch - processPackages [deepdriver]: executing diffoscope
+[2023-04-18 09:17:12] INFO root fetch - processPackages [deepdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepdriver-0.9.4.tar.gz tmp/deepdriver-0.9.5.tar.gz --markdown 20230418/d/deepdriver/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-18 09:17:12] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-04-18 09:17:12] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-27.3.8.tar.gz tmp/cg-27.3.9.tar.gz --markdown 20230418/c/cg/27.3.8-27.3.9/diff.md --exclude *.pyd
+[2023-04-18 09:17:12] INFO root fetch - processPackages [enebootools]: Downloading https://files.pythonhosted.org/packages/ef/4d/680b7205e687cfb967bb9d1c071ff50fc8796da6cab1bad05ee261ac6894/enebootools-1.8.1.tar.gz
+[2023-04-18 09:17:12] INFO root fetch - processPackages [design.plone.contenttypes]: Downloading https://files.pythonhosted.org/packages/dc/a6/1ea8156b5e8dab9eee90ebb47e93deff132cfe0186fa16c97198f8495e1a/design.plone.contenttypes-6.0.2.tar.gz
+[2023-04-18 09:17:12] INFO root fetch - processPackages [decode-config]: Downloading https://files.pythonhosted.org/packages/e0/e6/c16bc3dbb1e6ae3378874708184d67c4e4725c5330e7419cd674209ca20d/decode-config-12.5.0.0.tar.gz
+[2023-04-18 09:17:12] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-04-18 09:17:12] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230418/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-04-18 09:17:12] INFO root fetch - processPackages [liblxml3]: Downloading https://files.pythonhosted.org/packages/75/ab/deaa866a189285e93a8a9fe09483e1e57566525847e03327728bbc5cdc7b/liblxml3-1.8.tar.gz
+[2023-04-18 09:17:12] INFO root fetch - processPackages [liblxml3]: executing diffoscope
+[2023-04-18 09:17:12] INFO root fetch - processPackages [liblxml3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liblxml3-1.7.tar.gz tmp/liblxml3-1.8.tar.gz --markdown 20230418/l/liblxml3/1.7-1.8/diff.md --exclude *.pyd
+[2023-04-18 09:17:12] INFO root fetch - processPackages [birenci-infra]: Downloading https://files.pythonhosted.org/packages/d4/72/6c2da94d863d96c03d20cd70bfc335b2770bd0a1bd3deccdcfdb44e31e79/birenci-infra-0.0.7.tar.gz
+[2023-04-18 09:17:12] INFO root fetch - processPackages [watchtower-browser-testing]: Downloading https://files.pythonhosted.org/packages/ae/d1/be15404788dae044215fbf7621ab7530cbb4bc0583354dba63ee2c81eb54/watchtower_browser_testing-0.4.1.tar.gz
+[2023-04-18 09:17:12] INFO root fetch - processPackages [Slim-TPCA]: Downloading https://files.pythonhosted.org/packages/ea/e2/86476340f981d3fb4b4ff003b11e731583415252864f3bf944cc78fa77e4/Slim-TPCA-0.1.0.tar.gz
+[2023-04-18 09:17:12] INFO root fetch - processPackages [birenci-infra]: executing diffoscope
+[2023-04-18 09:17:12] INFO root fetch - processPackages [birenci-infra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/birenci-infra-0.0.6.tar.gz tmp/birenci-infra-0.0.7.tar.gz --markdown 20230418/b/birenci-infra/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-18 09:17:12] INFO root fetch - processPackages [watchtower-browser-testing]: executing diffoscope
+[2023-04-18 09:17:12] INFO root fetch - processPackages [watchtower-browser-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchtower_browser_testing-0.4.0.tar.gz tmp/watchtower_browser_testing-0.4.1.tar.gz --markdown 20230418/w/watchtower-browser-testing/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-04-18 09:17:12] INFO root fetch - processPackages [Slim-TPCA]: executing diffoscope
+[2023-04-18 09:17:12] INFO root fetch - processPackages [Slim-TPCA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Slim-TPCA-0.0.5.tar.gz tmp/Slim-TPCA-0.1.0.tar.gz --markdown 20230418/S/Slim-TPCA/0.0.5-0.1.0/diff.md --exclude *.pyd
+[2023-04-18 09:17:12] INFO root fetch - processPackages [design.plone.contenttypes]: Downloading https://files.pythonhosted.org/packages/e9/59/d440436ceb7b127458b0f9b4b50f59ffcbda2f62153bd57a019b7f34d4c2/design.plone.contenttypes-6.0.3.tar.gz
+[2023-04-18 09:17:12] INFO root fetch - processPackages [enebootools]: Downloading https://files.pythonhosted.org/packages/1d/be/50ff1ded827e99acec6a8369738bc8ad50bd37c22076afad76fe3cf63dbb/enebootools-1.8.2.tar.gz
+[2023-04-18 09:17:12] INFO root fetch - processPackages [decode-config]: Downloading https://files.pythonhosted.org/packages/50/00/90e430e62acb1110271b96192b0ede62de13c0d396b0a2167d4a58ec7645/decode-config-2022.1.tar.gz
+[2023-04-18 09:17:12] INFO root fetch - processPackages [enebootools]: executing diffoscope
+[2023-04-18 09:17:12] INFO root fetch - processPackages [enebootools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enebootools-1.8.1.tar.gz tmp/enebootools-1.8.2.tar.gz --markdown 20230418/e/enebootools/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-04-18 09:17:12] INFO root fetch - processPackages [design.plone.contenttypes]: executing diffoscope
+[2023-04-18 09:17:12] INFO root fetch - processPackages [design.plone.contenttypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/design.plone.contenttypes-6.0.2.tar.gz tmp/design.plone.contenttypes-6.0.3.tar.gz --markdown 20230418/d/design.plone.contenttypes/6.0.2-6.0.3/diff.md --exclude *.pyd
+[2023-04-18 09:17:12] INFO root fetch - processPackages [decode-config]: executing diffoscope
+[2023-04-18 09:17:12] INFO root fetch - processPackages [decode-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decode-config-12.5.0.0.tar.gz tmp/decode-config-2022.1.tar.gz --markdown 20230418/d/decode-config/12.5.0.0-2022.1/diff.md --exclude *.pyd
+[2023-04-18 09:17:13] INFO root fetch - processPackages [deepdriver]: Start processing: bittrade-huobi-websocket
+[2023-04-18 09:17:13] INFO root fetch - main [MainThread]: End processing [deepdriver]: success
+[2023-04-18 09:17:13] INFO root fetch - processPackages [bittrade-huobi-websocket]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-04-18 09:17:14] INFO root fetch - processPackages [bittrade-huobi-websocket]: Downloading https://files.pythonhosted.org/packages/41/9e/8c674ab3d83c15ea2e974b9f46a9c52b3e53a8ce7183a6eb39340fdc227d/bittrade_huobi_websocket-0.3.0.tar.gz
+[2023-04-18 09:17:14] INFO root fetch - processPackages [watchtower-browser-testing]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-04-18 09:17:14] INFO root fetch - main [MainThread]: End processing [watchtower-browser-testing]: success
+[2023-04-18 09:17:14] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-04-18 09:17:14] INFO root fetch - processPackages [birenci-infra]: Start processing: reddit-etl-abd
+[2023-04-18 09:17:14] INFO root fetch - main [MainThread]: End processing [birenci-infra]: success
+[2023-04-18 09:17:14] INFO root fetch - processPackages [bittrade-huobi-websocket]: Downloading https://files.pythonhosted.org/packages/af/61/66bf508bc0596344ea28df010a097d17cde6eb8aafd2f790a7b7073803aa/bittrade_huobi_websocket-0.3.1.tar.gz
+[2023-04-18 09:17:14] INFO root fetch - processPackages [reddit-etl-abd]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-18 09:17:14] INFO root fetch - processPackages [liblxml3]: Start processing: odoo14-addon-sale-input-barcode
+[2023-04-18 09:17:14] INFO root fetch - main [MainThread]: End processing [liblxml3]: success
+[2023-04-18 09:17:14] INFO root fetch - processPackages [odoo14-addon-sale-input-barcode]: New version: [14.0.1.0.2.dev5] Old Version: [14.0.1.0.2.dev3]
+[2023-04-18 09:17:14] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-04-18 09:17:14] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230418/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-04-18 09:17:14] INFO root fetch - processPackages [bittrade-huobi-websocket]: executing diffoscope
+[2023-04-18 09:17:14] INFO root fetch - processPackages [bittrade-huobi-websocket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bittrade_huobi_websocket-0.3.0.tar.gz tmp/bittrade_huobi_websocket-0.3.1.tar.gz --markdown 20230418/b/bittrade-huobi-websocket/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-04-18 09:17:14] INFO root fetch - processPackages [reddit-etl-abd]: Downloading https://files.pythonhosted.org/packages/52/82/c4ba761ec0cfff1665bc28b9117d45c3445ac493eb8dda998b202d1d453b/reddit_etl_abd-0.0.4.tar.gz
+[2023-04-18 09:17:14] INFO root fetch - processPackages [Slim-TPCA]: Start processing: snaik
+[2023-04-18 09:17:14] INFO root fetch - main [MainThread]: End processing [Slim-TPCA]: success
+[2023-04-18 09:17:14] WARNING root fetch - processPackages [snaik]: Skipping, unable to determine old version
+[2023-04-18 09:17:14] INFO root fetch - processPackages [snaik]: Start processing: titan-iris
+[2023-04-18 09:17:14] INFO root fetch - main [MainThread]: End processing [snaik] error
+[2023-04-18 09:17:14] INFO root fetch - processPackages [titan-iris]: New version: [0.3.9a2] Old Version: [0.3.9a1]
+[2023-04-18 09:17:14] INFO root fetch - processPackages [odoo14-addon-sale-input-barcode]: Downloading https://files.pythonhosted.org/packages/8f/6f/05314236666ff81b1c9fa9927d77e2429472cec78371ea7a25af7caf9c1c/odoo14_addon_sale_input_barcode-14.0.1.0.2.dev3-py3-none-any.whl
+[2023-04-18 09:17:14] INFO root fetch - processPackages [enebootools]: Start processing: deepdriver
+[2023-04-18 09:17:14] INFO root fetch - main [MainThread]: End processing [enebootools]: success
+[2023-04-18 09:17:14] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-04-18 09:17:14] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.3.9a1.tar.gz tmp/titan-iris-0.3.9a2.tar.gz --markdown 20230418/t/titan-iris/0.3.9a1-0.3.9a2/diff.md --exclude *.pyd
+[2023-04-18 09:17:14] INFO root fetch - processPackages [deepdriver]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-18 09:17:14] INFO root fetch - processPackages [reddit-etl-abd]: Downloading https://files.pythonhosted.org/packages/bc/be/05e0a2237b3693a5aa9dbe763ebb186a3fbeaa6af5b243f11dfba7618b37/reddit_etl_abd-0.0.5.tar.gz
+[2023-04-18 09:17:14] INFO root fetch - processPackages [odoo14-addon-sale-input-barcode]: Downloading https://files.pythonhosted.org/packages/e9/31/e6c9f6675d0765cd72e8a0787098748be031797feeb0654833d92b3dc427/odoo14_addon_sale_input_barcode-14.0.1.0.2.dev5-py3-none-any.whl
+[2023-04-18 09:17:14] INFO root fetch - processPackages [reddit-etl-abd]: executing diffoscope
+[2023-04-18 09:17:14] INFO root fetch - processPackages [reddit-etl-abd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reddit_etl_abd-0.0.4.tar.gz tmp/reddit_etl_abd-0.0.5.tar.gz --markdown 20230418/r/reddit-etl-abd/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-18 09:17:14] INFO root fetch - processPackages [deepdriver]: executing diffoscope
+[2023-04-18 09:17:14] INFO root fetch - processPackages [deepdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepdriver-0.9.4.tar.gz tmp/deepdriver-0.9.5.tar.gz --markdown 20230418/d/deepdriver/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-18 09:17:15] INFO root fetch - processPackages [odoo14-addon-sale-input-barcode]: executing diffoscope
+[2023-04-18 09:17:15] INFO root fetch - processPackages [odoo14-addon-sale-input-barcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_input_barcode-14.0.1.0.2.dev3-py3-none-any.whl.zip tmp/odoo14_addon_sale_input_barcode-14.0.1.0.2.dev5-py3-none-any.whl.zip --markdown 20230418/o/odoo14-addon-sale-input-barcode/14.0.1.0.2.dev3-14.0.1.0.2.dev5/diff.md --exclude *.pyd
+[2023-04-18 09:17:15] INFO root fetch - processPackages [decode-config]: Start processing: MailToolsBox
+[2023-04-18 09:17:15] INFO root fetch - main [MainThread]: End processing [decode-config]: success
+[2023-04-18 09:17:16] INFO root fetch - processPackages [MailToolsBox]: New version: [0.1.0.2] Old Version: [0.1.0.1]
+[2023-04-18 09:17:16] INFO root fetch - processPackages [titan-iris]: Start processing: karrio.boxknight
+[2023-04-18 09:17:16] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-04-18 09:17:16] INFO root fetch - processPackages [MailToolsBox]: Downloading https://files.pythonhosted.org/packages/ce/d0/fdc18bdad8814f07555809579a305cf293ffb0534440d377bf3cd0e0f7d9/MailToolsBox-0.1.0.2.tar.gz
+[2023-04-18 09:17:16] WARNING root fetch - processPackages [karrio.boxknight]: Skipping, unable to determine old version
+[2023-04-18 09:17:16] INFO root fetch - processPackages [karrio.boxknight]: Start processing: karrio.aramex
+[2023-04-18 09:17:16] INFO root fetch - main [MainThread]: End processing [karrio.boxknight] error
+[2023-04-18 09:17:16] INFO root fetch - processPackages [karrio.aramex]: New version: [2023.4] Old Version: [2023.1rc4]
+[2023-04-18 09:17:16] INFO root fetch - processPackages [bittrade-huobi-websocket]: Start processing: karrio
+[2023-04-18 09:17:16] INFO root fetch - main [MainThread]: End processing [bittrade-huobi-websocket]: success
+[2023-04-18 09:17:16] INFO root fetch - processPackages [karrio]: New version: [2023.4] Old Version: [2023.3.4]
+[2023-04-18 09:17:16] INFO root fetch - processPackages [MailToolsBox]: executing diffoscope
+[2023-04-18 09:17:16] INFO root fetch - processPackages [MailToolsBox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MailToolsBox-0.1.0.1.tar.gz tmp/MailToolsBox-0.1.0.2.tar.gz --markdown 20230418/M/MailToolsBox/0.1.0.1-0.1.0.2/diff.md --exclude *.pyd
+[2023-04-18 09:17:16] INFO root fetch - processPackages [karrio.aramex]: Downloading https://files.pythonhosted.org/packages/ce/cc/8c92fb24a8f4df086ea7fe9aab7128371156f7a40a9503be454ea45ee507/karrio.aramex-2023.1rc4-py3-none-any.whl
+[2023-04-18 09:17:16] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Start processing: karrio.tnt
+[2023-04-18 09:17:16] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-04-18 09:17:16] INFO root fetch - processPackages [karrio]: Downloading https://files.pythonhosted.org/packages/2c/32/16122be6798005a28dea8ee1ae71e051fabcaae7c0656cc2eab8f308ae9d/karrio-2023.3.4-py3-none-any.whl
+[2023-04-18 09:17:16] INFO root fetch - processPackages [karrio.tnt]: New version: [2023.4] Old Version: [2023.3]
+[2023-04-18 09:17:16] INFO root fetch - processPackages [reddit-etl-abd]: Start processing: karrio.ups
+[2023-04-18 09:17:16] INFO root fetch - main [MainThread]: End processing [reddit-etl-abd]: success
+[2023-04-18 09:17:16] INFO root fetch - processPackages [karrio.ups]: New version: [2023.4] Old Version: [2023.3.3]
+[2023-04-18 09:17:16] INFO root fetch - processPackages [odoo14-addon-sale-input-barcode]: Start processing: karrio.freightcom
+[2023-04-18 09:17:16] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-input-barcode]: success
+[2023-04-18 09:17:16] INFO root fetch - processPackages [karrio.tnt]: Downloading https://files.pythonhosted.org/packages/fd/7b/5a7a673775037942583d6328bddaf493f0874d8dfec42e18879f648d345f/karrio.tnt-2023.3-py3-none-any.whl
+[2023-04-18 09:17:16] INFO root fetch - processPackages [karrio.freightcom]: New version: [2023.4] Old Version: [2023.3]
+[2023-04-18 09:17:16] INFO root fetch - processPackages [design.plone.contenttypes]: Start processing: karrio.canadapost
+[2023-04-18 09:17:16] INFO root fetch - main [MainThread]: End processing [design.plone.contenttypes]: success
+[2023-04-18 09:17:16] INFO root fetch - processPackages [karrio.canadapost]: New version: [2023.4] Old Version: [2023.3]
+[2023-04-18 09:17:16] INFO root fetch - processPackages [karrio.aramex]: Downloading https://files.pythonhosted.org/packages/21/eb/af9594070020658456cd1e9f113edad4206e46d1da1a8b1108e104ee1880/karrio.aramex-2023.4-py3-none-any.whl
+[2023-04-18 09:17:16] INFO root fetch - processPackages [karrio.ups]: Downloading https://files.pythonhosted.org/packages/38/25/efa30b7859880b0827941ce76bbe97e462d1f2cc89d9877c1458297d28a6/karrio.ups-2023.3.3-py3-none-any.whl
+[2023-04-18 09:17:16] INFO root fetch - processPackages [karrio]: Downloading https://files.pythonhosted.org/packages/0a/2c/05b6911709552ccee76e1bc5825c3366debd253ddb27ae39dae6c9495813/karrio-2023.4-py3-none-any.whl
+[2023-04-18 09:17:16] INFO root fetch - processPackages [karrio.aramex]: executing diffoscope
+[2023-04-18 09:17:16] INFO root fetch - processPackages [karrio.aramex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karrio.aramex-2023.1rc4-py3-none-any.whl.zip tmp/karrio.aramex-2023.4-py3-none-any.whl.zip --markdown 20230418/k/karrio.aramex/2023.1rc4-2023.4/diff.md --exclude *.pyd
+[2023-04-18 09:17:16] INFO root fetch - processPackages [karrio.freightcom]: Downloading https://files.pythonhosted.org/packages/b6/bb/365627c429380feaa3de225336f48c45a6036e5cf046ff7b6559de99b973/karrio.freightcom-2023.3-py3-none-any.whl
+[2023-04-18 09:17:16] INFO root fetch - processPackages [karrio.canadapost]: Downloading https://files.pythonhosted.org/packages/5e/2e/2850154c28d6dbb7aa0dcc104861c678ec4b0b2f2415f0eb700aa7806f17/karrio.canadapost-2023.3-py3-none-any.whl
+[2023-04-18 09:17:16] INFO root fetch - processPackages [karrio]: executing diffoscope
+[2023-04-18 09:17:16] INFO root fetch - processPackages [karrio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karrio-2023.3.4-py3-none-any.whl.zip tmp/karrio-2023.4-py3-none-any.whl.zip --markdown 20230418/k/karrio/2023.3.4-2023.4/diff.md --exclude *.pyd
+[2023-04-18 09:17:16] INFO root fetch - processPackages [karrio.tnt]: Downloading https://files.pythonhosted.org/packages/0d/57/eba7a282bba4bb4bb20666b37559ad9209033688b67861958f7df02e6771/karrio.tnt-2023.4-py3-none-any.whl
+[2023-04-18 09:17:17] INFO root fetch - processPackages [karrio.tnt]: executing diffoscope
+[2023-04-18 09:17:17] INFO root fetch - processPackages [karrio.tnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karrio.tnt-2023.3-py3-none-any.whl.zip tmp/karrio.tnt-2023.4-py3-none-any.whl.zip --markdown 20230418/k/karrio.tnt/2023.3-2023.4/diff.md --exclude *.pyd
+[2023-04-18 09:17:17] INFO root fetch - processPackages [karrio.ups]: Downloading https://files.pythonhosted.org/packages/97/96/9469c8d0f248f421e17b0df37bd861159866f7696b46ed59024c3f66ba07/karrio.ups-2023.4-py3-none-any.whl
+[2023-04-18 09:17:17] INFO root fetch - processPackages [deepdriver]: Start processing: karrio.ups-freight
+[2023-04-18 09:17:17] INFO root fetch - main [MainThread]: End processing [deepdriver]: success
+[2023-04-18 09:17:17] INFO root fetch - processPackages [karrio.ups-freight]: New version: [2023.4] Old Version: [2023.1rc4]
+[2023-04-18 09:17:17] INFO root fetch - processPackages [karrio.freightcom]: Downloading https://files.pythonhosted.org/packages/67/a4/cf042e8d00a95dc0b6124866e157af54c364b7299228c5a4e80bdef41df8/karrio.freightcom-2023.4-py3-none-any.whl
+[2023-04-18 09:17:17] INFO root fetch - processPackages [karrio.ups]: executing diffoscope
+[2023-04-18 09:17:17] INFO root fetch - processPackages [karrio.ups]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karrio.ups-2023.3.3-py3-none-any.whl.zip tmp/karrio.ups-2023.4-py3-none-any.whl.zip --markdown 20230418/k/karrio.ups/2023.3.3-2023.4/diff.md --exclude *.pyd
+[2023-04-18 09:17:17] INFO root fetch - processPackages [karrio.canadapost]: Downloading https://files.pythonhosted.org/packages/19/3b/b6082add9fcf6c946c7d6134e42a2ebf32268b4beaad2d6f29a6a771c8b8/karrio.canadapost-2023.4-py3-none-any.whl
+[2023-04-18 09:17:17] INFO root fetch - processPackages [karrio.freightcom]: executing diffoscope
+[2023-04-18 09:17:17] INFO root fetch - processPackages [karrio.freightcom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karrio.freightcom-2023.3-py3-none-any.whl.zip tmp/karrio.freightcom-2023.4-py3-none-any.whl.zip --markdown 20230418/k/karrio.freightcom/2023.3-2023.4/diff.md --exclude *.pyd
+[2023-04-18 09:17:17] INFO root fetch - processPackages [karrio.canadapost]: executing diffoscope
+[2023-04-18 09:17:17] INFO root fetch - processPackages [karrio.canadapost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karrio.canadapost-2023.3-py3-none-any.whl.zip tmp/karrio.canadapost-2023.4-py3-none-any.whl.zip --markdown 20230418/k/karrio.canadapost/2023.3-2023.4/diff.md --exclude *.pyd
+[2023-04-18 09:17:17] INFO root fetch - processPackages [karrio.ups-freight]: Downloading https://files.pythonhosted.org/packages/aa/c4/c8d038790a9cbb18e912bc2145084d8e3784b8e4cd93110d180767e5b439/karrio.ups_freight-2023.1rc4-py3-none-any.whl
+[2023-04-18 09:17:17] INFO root fetch - processPackages [MailToolsBox]: Start processing: karrio.usps-international
+[2023-04-18 09:17:17] INFO root fetch - main [MainThread]: End processing [MailToolsBox]: success
+[2023-04-18 09:17:17] INFO root fetch - processPackages [karrio.usps-international]: New version: [2023.4] Old Version: [2023.3]
+[2023-04-18 09:17:17] INFO root fetch - processPackages [karrio.usps-international]: Downloading https://files.pythonhosted.org/packages/da/51/719f7281bf37ac4e025099c9e63c5b995b8c6f45d67ae441c0d7ca2ed149/karrio.usps_international-2023.3-py3-none-any.whl
+[2023-04-18 09:17:17] INFO root fetch - processPackages [karrio.ups-freight]: Downloading https://files.pythonhosted.org/packages/f1/55/fc2438f2d816ba4e9354985779a5b154e50715084c8c4c18f0cca919a24a/karrio.ups_freight-2023.4-py3-none-any.whl
+[2023-04-18 09:17:17] INFO root fetch - processPackages [karrio.ups-freight]: executing diffoscope
+[2023-04-18 09:17:17] INFO root fetch - processPackages [karrio.ups-freight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karrio.ups_freight-2023.1rc4-py3-none-any.whl.zip tmp/karrio.ups_freight-2023.4-py3-none-any.whl.zip --markdown 20230418/k/karrio.ups-freight/2023.1rc4-2023.4/diff.md --exclude *.pyd
+[2023-04-18 09:17:17] INFO root fetch - processPackages [karrio.usps-international]: Downloading https://files.pythonhosted.org/packages/2a/94/ef1069578fd7df82023903cb5dff8fdb7eda078ce4587972ae8fd82d7377/karrio.usps_international-2023.4-py3-none-any.whl
+[2023-04-18 09:17:18] INFO root fetch - processPackages [karrio.usps-international]: executing diffoscope
+[2023-04-18 09:17:18] INFO root fetch - processPackages [karrio.usps-international]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karrio.usps_international-2023.3-py3-none-any.whl.zip tmp/karrio.usps_international-2023.4-py3-none-any.whl.zip --markdown 20230418/k/karrio.usps-international/2023.3-2023.4/diff.md --exclude *.pyd
+[2023-04-18 09:17:18] INFO root fetch - processPackages [karrio.aramex]: Start processing: karrio.amazon-mws
+[2023-04-18 09:17:18] INFO root fetch - main [MainThread]: End processing [karrio.aramex]: success
+[2023-04-18 09:17:18] INFO root fetch - processPackages [karrio.amazon-mws]: New version: [2023.4] Old Version: [2023.3]
+[2023-04-18 09:17:18] INFO root fetch - processPackages [karrio.amazon-mws]: Downloading https://files.pythonhosted.org/packages/71/88/3217787d195aae8797dc473526d2cd0bc1de5651523480acb2e8e9e62881/karrio.amazon_mws-2023.3-py3-none-any.whl
+[2023-04-18 09:17:18] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Start processing: karrio.royalmail
+[2023-04-18 09:17:18] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-04-18 09:17:18] INFO root fetch - processPackages [karrio.amazon-mws]: Downloading https://files.pythonhosted.org/packages/2b/c4/4f25c2cd984823298466dd8c8b14f97806d6ce88aef07af3038d283dff62/karrio.amazon_mws-2023.4-py3-none-any.whl
+[2023-04-18 09:17:18] INFO root fetch - processPackages [karrio.royalmail]: New version: [2023.4] Old Version: [2023.1rc4]
+[2023-04-18 09:17:18] INFO root fetch - processPackages [karrio.amazon-mws]: executing diffoscope
+[2023-04-18 09:17:18] INFO root fetch - processPackages [karrio.amazon-mws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karrio.amazon_mws-2023.3-py3-none-any.whl.zip tmp/karrio.amazon_mws-2023.4-py3-none-any.whl.zip --markdown 20230418/k/karrio.amazon-mws/2023.3-2023.4/diff.md --exclude *.pyd
+[2023-04-18 09:17:18] INFO root fetch - processPackages [karrio.tnt]: Start processing: karrio.chronopost
+[2023-04-18 09:17:18] INFO root fetch - main [MainThread]: End processing [karrio.tnt]: success
+[2023-04-18 09:17:18] INFO root fetch - processPackages [karrio.royalmail]: Downloading https://files.pythonhosted.org/packages/11/1c/429e9c35dddd898428edb45b70110fad24473d94eac41b30634330c6df88/karrio.royalmail-2023.1rc4-py3-none-any.whl
+[2023-04-18 09:17:18] INFO root fetch - processPackages [karrio.chronopost]: New version: [2023.4] Old Version: [2023.3]
+[2023-04-18 09:17:18] INFO root fetch - processPackages [karrio]: Start processing: karrio.usps
+[2023-04-18 09:17:18] INFO root fetch - main [MainThread]: End processing [karrio]: success
+[2023-04-18 09:17:19] INFO root fetch - processPackages [karrio.ups]: Start processing: karrio.laposte
+[2023-04-18 09:17:19] INFO root fetch - main [MainThread]: End processing [karrio.ups]: success
+[2023-04-18 09:17:19] INFO root fetch - processPackages [karrio.usps]: New version: [2023.4] Old Version: [2023.3]
+[2023-04-18 09:17:19] INFO root fetch - processPackages [karrio.chronopost]: Downloading https://files.pythonhosted.org/packages/8b/cb/bde2d86d645fbe0c72f2a7ccc127ccd1a11e1528d347d90ef29b75664d47/karrio.chronopost-2023.3-py3-none-any.whl
+[2023-04-18 09:17:19] WARNING root fetch - processPackages [karrio.laposte]: Skipping, unable to determine old version
+[2023-04-18 09:17:19] INFO root fetch - processPackages [karrio.laposte]: Start processing: karrio.dicom
+[2023-04-18 09:17:19] INFO root fetch - main [MainThread]: End processing [karrio.laposte] error
+[2023-04-18 09:17:19] INFO root fetch - processPackages [karrio.royalmail]: Downloading https://files.pythonhosted.org/packages/50/f7/4fa457cc5ab1c28afb3a80ac3bd812351a42067042d1386b86b1d0d1cd93/karrio.royalmail-2023.4-py3-none-any.whl
+[2023-04-18 09:17:19] INFO root fetch - processPackages [karrio.usps]: Downloading https://files.pythonhosted.org/packages/03/51/58f4206a41503e4cac35c6d649f592ea8cc2699c49298d52f84878a72b06/karrio.usps-2023.3-py3-none-any.whl
+[2023-04-18 09:17:19] INFO root fetch - processPackages [karrio.canadapost]: Start processing: karrio.nationex
+[2023-04-18 09:17:19] INFO root fetch - main [MainThread]: End processing [karrio.canadapost]: success
+[2023-04-18 09:17:19] INFO root fetch - processPackages [karrio.royalmail]: executing diffoscope
+[2023-04-18 09:17:19] INFO root fetch - processPackages [karrio.royalmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karrio.royalmail-2023.1rc4-py3-none-any.whl.zip tmp/karrio.royalmail-2023.4-py3-none-any.whl.zip --markdown 20230418/k/karrio.royalmail/2023.1rc4-2023.4/diff.md --exclude *.pyd
+[2023-04-18 09:17:19] INFO root fetch - processPackages [karrio.dicom]: New version: [2023.4] Old Version: [2023.3]
+[2023-04-18 09:17:19] WARNING root fetch - processPackages [karrio.nationex]: Skipping, unable to determine old version
+[2023-04-18 09:17:19] INFO root fetch - processPackages [karrio.nationex]: Start processing: karrio.easypost
+[2023-04-18 09:17:19] INFO root fetch - main [MainThread]: End processing [karrio.nationex] error
+[2023-04-18 09:17:19] INFO root fetch - processPackages [karrio.chronopost]: Downloading https://files.pythonhosted.org/packages/8a/18/95d6f2db0dcdab867662a4bd1ae5505d9f5c28da86c72f83e1afa13f88fb/karrio.chronopost-2023.4-py3-none-any.whl
+[2023-04-18 09:17:19] INFO root fetch - processPackages [karrio.dicom]: Downloading https://files.pythonhosted.org/packages/f8/e8/b59f771817521241db853017908d5671fea8339ef12525daffa63664c79c/karrio.dicom-2023.3-py3-none-any.whl
+[2023-04-18 09:17:19] INFO root fetch - processPackages [karrio.freightcom]: Start processing: karrio.eshipper
+[2023-04-18 09:17:19] INFO root fetch - main [MainThread]: End processing [karrio.freightcom]: success
+[2023-04-18 09:17:19] INFO root fetch - processPackages [karrio.chronopost]: executing diffoscope
+[2023-04-18 09:17:19] INFO root fetch - processPackages [karrio.chronopost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karrio.chronopost-2023.3-py3-none-any.whl.zip tmp/karrio.chronopost-2023.4-py3-none-any.whl.zip --markdown 20230418/k/karrio.chronopost/2023.3-2023.4/diff.md --exclude *.pyd
+[2023-04-18 09:17:19] INFO root fetch - processPackages [karrio.easypost]: New version: [2023.4] Old Version: [2023.3]
+[2023-04-18 09:17:19] INFO root fetch - processPackages [karrio.ups-freight]: Start processing: karrio.yanwen
+[2023-04-18 09:17:19] INFO root fetch - main [MainThread]: End processing [karrio.ups-freight]: success
+[2023-04-18 09:17:19] INFO root fetch - processPackages [karrio.usps]: Downloading https://files.pythonhosted.org/packages/2a/84/9acec62bdde6d3091438e1f867ee8279c90581934cbaca3946277e8c0146/karrio.usps-2023.4-py3-none-any.whl
+[2023-04-18 09:17:19] INFO root fetch - processPackages [karrio.eshipper]: New version: [2023.4] Old Version: [2023.3]
+[2023-04-18 09:17:19] INFO root fetch - processPackages [karrio.yanwen]: New version: [2023.4] Old Version: [2023.1rc4]
+[2023-04-18 09:17:19] INFO root fetch - processPackages [karrio.usps]: executing diffoscope
+[2023-04-18 09:17:19] INFO root fetch - processPackages [karrio.usps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karrio.usps-2023.3-py3-none-any.whl.zip tmp/karrio.usps-2023.4-py3-none-any.whl.zip --markdown 20230418/k/karrio.usps/2023.3-2023.4/diff.md --exclude *.pyd
+[2023-04-18 09:17:19] INFO root fetch - processPackages [karrio.easypost]: Downloading https://files.pythonhosted.org/packages/cf/0b/8206310d434a381dafe127e8064d18d305801dd0b3b31ccfb65b34a82409/karrio.easypost-2023.3-py3-none-any.whl
+[2023-04-18 09:17:19] INFO root fetch - processPackages [karrio.usps-international]: Start processing: karrio.dpd
+[2023-04-18 09:17:19] INFO root fetch - main [MainThread]: End processing [karrio.usps-international]: success
+[2023-04-18 09:17:19] INFO root fetch - processPackages [karrio.dicom]: Downloading https://files.pythonhosted.org/packages/48/e8/573f12eb453277bdff3e39f8e486f49977467a91e1e291d1155cf12780d5/karrio.dicom-2023.4-py3-none-any.whl
+[2023-04-18 09:17:19] INFO root fetch - processPackages [karrio.yanwen]: Downloading https://files.pythonhosted.org/packages/a2/00/a5cf300680704e68c4cd0693dca8536a971ea0ecb9d565e892e90eeb9201/karrio.yanwen-2023.1rc4-py3-none-any.whl
+[2023-04-18 09:17:19] INFO root fetch - processPackages [karrio.dpd]: New version: [2023.4] Old Version: [2023.3.1]
+[2023-04-18 09:17:19] INFO root fetch - processPackages [karrio.dicom]: executing diffoscope
+[2023-04-18 09:17:19] INFO root fetch - processPackages [karrio.dicom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karrio.dicom-2023.3-py3-none-any.whl.zip tmp/karrio.dicom-2023.4-py3-none-any.whl.zip --markdown 20230418/k/karrio.dicom/2023.3-2023.4/diff.md --exclude *.pyd
+[2023-04-18 09:17:19] INFO root fetch - processPackages [karrio.easypost]: Downloading https://files.pythonhosted.org/packages/af/53/e18ad206cae94f7e2f78a958a0bd544706899e072322c2339354f3ec5154/karrio.easypost-2023.4-py3-none-any.whl
+[2023-04-18 09:17:20] INFO root fetch - processPackages [karrio.eshipper]: Downloading https://files.pythonhosted.org/packages/a3/08/80320dcdcb7d1940ebf44c7da9a54284a426ba3e5702b5b156766f8a40dc/karrio.eshipper-2023.3-py3-none-any.whl
+[2023-04-18 09:17:20] INFO root fetch - processPackages [karrio.easypost]: executing diffoscope
+[2023-04-18 09:17:20] INFO root fetch - processPackages [karrio.easypost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karrio.easypost-2023.3-py3-none-any.whl.zip tmp/karrio.easypost-2023.4-py3-none-any.whl.zip --markdown 20230418/k/karrio.easypost/2023.3-2023.4/diff.md --exclude *.pyd
+[2023-04-18 09:17:20] INFO root fetch - processPackages [karrio.dpd]: Downloading https://files.pythonhosted.org/packages/8c/e3/349bfcd8cc4d3cbcfda55ce5cd8c1c378bba85255ab4e93e114693bc0210/karrio.dpd-2023.3.1-py3-none-any.whl
+[2023-04-18 09:17:20] INFO root fetch - processPackages [karrio.yanwen]: Downloading https://files.pythonhosted.org/packages/f6/51/1f71671a99ef9e5d139aa995e85eb743de61d7c6b67299be265cb69099e2/karrio.yanwen-2023.4-py3-none-any.whl
+[2023-04-18 09:17:20] INFO root fetch - processPackages [karrio.yanwen]: executing diffoscope
+[2023-04-18 09:17:20] INFO root fetch - processPackages [karrio.yanwen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karrio.yanwen-2023.1rc4-py3-none-any.whl.zip tmp/karrio.yanwen-2023.4-py3-none-any.whl.zip --markdown 20230418/k/karrio.yanwen/2023.1rc4-2023.4/diff.md --exclude *.pyd
+[2023-04-18 09:17:20] INFO root fetch - processPackages [karrio.eshipper]: Downloading https://files.pythonhosted.org/packages/e6/41/e2ae3444fc9ca644771c659bc24e596d729ad74348fd1a03437c0a95946d/karrio.eshipper-2023.4-py3-none-any.whl
+[2023-04-18 09:17:20] INFO root fetch - processPackages [karrio.dpd]: Downloading https://files.pythonhosted.org/packages/83/41/77f7db036f86f307fa77a1d42a73d5f2babfd989568bb423fa583f32691d/karrio.dpd-2023.4-py3-none-any.whl
+[2023-04-18 09:17:20] INFO root fetch - processPackages [karrio.amazon-mws]: Start processing: chatgpt-pre-commit-hooks
+[2023-04-18 09:17:20] INFO root fetch - main [MainThread]: End processing [karrio.amazon-mws]: success
+[2023-04-18 09:17:20] INFO root fetch - processPackages [karrio.eshipper]: executing diffoscope
+[2023-04-18 09:17:20] INFO root fetch - processPackages [karrio.eshipper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karrio.eshipper-2023.3-py3-none-any.whl.zip tmp/karrio.eshipper-2023.4-py3-none-any.whl.zip --markdown 20230418/k/karrio.eshipper/2023.3-2023.4/diff.md --exclude *.pyd
+[2023-04-18 09:17:20] INFO root fetch - processPackages [karrio.dpd]: executing diffoscope
+[2023-04-18 09:17:20] INFO root fetch - processPackages [karrio.dpd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karrio.dpd-2023.3.1-py3-none-any.whl.zip tmp/karrio.dpd-2023.4-py3-none-any.whl.zip --markdown 20230418/k/karrio.dpd/2023.3.1-2023.4/diff.md --exclude *.pyd
+[2023-04-18 09:17:20] INFO root fetch - processPackages [chatgpt-pre-commit-hooks]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-18 09:17:20] INFO root fetch - processPackages [chatgpt-pre-commit-hooks]: Downloading https://files.pythonhosted.org/packages/22/3f/6f2b22f443f161da9551e956fb943528e28eb9d5e6c9e2fb4d0e0de16b18/chatgpt_pre_commit_hooks-0.1.2-py3-none-any.whl
+[2023-04-18 09:17:20] INFO root fetch - processPackages [karrio.royalmail]: Start processing: karrio.dpdhl
+[2023-04-18 09:17:20] INFO root fetch - main [MainThread]: End processing [karrio.royalmail]: success
+[2023-04-18 09:17:20] INFO root fetch - processPackages [chatgpt-pre-commit-hooks]: executing diffoscope
+[2023-04-18 09:17:20] INFO root fetch - processPackages [chatgpt-pre-commit-hooks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatgpt_pre_commit_hooks-0.1.1-py3-none-any.whl.zip tmp/chatgpt_pre_commit_hooks-0.1.2-py3-none-any.whl.zip --markdown 20230418/c/chatgpt-pre-commit-hooks/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-18 09:17:21] INFO root fetch - processPackages [karrio.dpdhl]: New version: [2023.4] Old Version: [2023.3.4]
+[2023-04-18 09:17:21] INFO root fetch - processPackages [karrio.dpdhl]: Downloading https://files.pythonhosted.org/packages/d1/58/badf5988f5923df3b7edb68973a68a6431d8dd31a2388c15e4669c42628f/karrio.dpdhl-2023.3.4-py3-none-any.whl
+[2023-04-18 09:17:21] INFO root fetch - processPackages [karrio.chronopost]: Start processing: karrio.canpar
+[2023-04-18 09:17:21] INFO root fetch - main [MainThread]: End processing [karrio.chronopost]: success
+[2023-04-18 09:17:21] INFO root fetch - processPackages [karrio.canpar]: New version: [2023.4] Old Version: [2023.3]
+[2023-04-18 09:17:21] INFO root fetch - processPackages [karrio.usps]: Start processing: karrio.sendle
+[2023-04-18 09:17:21] INFO root fetch - main [MainThread]: End processing [karrio.usps]: success
+[2023-04-18 09:17:21] INFO root fetch - processPackages [karrio.sendle]: New version: [2023.4] Old Version: [2023.1rc4]
+[2023-04-18 09:17:21] INFO root fetch - processPackages [karrio.dpdhl]: Downloading https://files.pythonhosted.org/packages/70/7b/f4d088c9dc718bafe5f4ca66ffa34134ab100d0124927548b9b488c71bdd/karrio.dpdhl-2023.4-py3-none-any.whl
+[2023-04-18 09:17:21] INFO root fetch - processPackages [karrio.canpar]: Downloading https://files.pythonhosted.org/packages/90/ba/f575ef8c93eb60db8f5cf40c89dfd5103083cf274358e349945735aeea12/karrio.canpar-2023.3-py3-none-any.whl
+[2023-04-18 09:17:21] INFO root fetch - processPackages [karrio.dicom]: Start processing: karrio.dhl-express
+[2023-04-18 09:17:21] INFO root fetch - main [MainThread]: End processing [karrio.dicom]: success
+[2023-04-18 09:17:21] INFO root fetch - processPackages [karrio.dpdhl]: executing diffoscope
+[2023-04-18 09:17:21] INFO root fetch - processPackages [karrio.dpdhl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karrio.dpdhl-2023.3.4-py3-none-any.whl.zip tmp/karrio.dpdhl-2023.4-py3-none-any.whl.zip --markdown 20230418/k/karrio.dpdhl/2023.3.4-2023.4/diff.md --exclude *.pyd
+[2023-04-18 09:17:21] INFO root fetch - processPackages [karrio.dhl-express]: New version: [2023.4] Old Version: [2023.3.4]
+[2023-04-18 09:17:21] INFO root fetch - processPackages [karrio.sendle]: Downloading https://files.pythonhosted.org/packages/bd/15/5c48c22074e43090fee2f2994e0519b2f544cf7b37086dcfc4874af3aa20/karrio.sendle-2023.1rc4-py3-none-any.whl
+[2023-04-18 09:17:21] INFO root fetch - processPackages [karrio.easypost]: Start processing: karrio.australiapost
+[2023-04-18 09:17:21] INFO root fetch - main [MainThread]: End processing [karrio.easypost]: success
+[2023-04-18 09:17:21] INFO root fetch - processPackages [karrio.dhl-express]: Downloading https://files.pythonhosted.org/packages/04/ca/5ed3ca99424f7d7ba5d8d4b0ad6734dc60dae2995c6023a578f69d65597d/karrio.dhl_express-2023.3.4-py3-none-any.whl
+[2023-04-18 09:17:21] INFO root fetch - processPackages [karrio.australiapost]: New version: [2023.4] Old Version: [2023.1rc4]
+[2023-04-18 09:17:21] INFO root fetch - processPackages [karrio.canpar]: Downloading https://files.pythonhosted.org/packages/90/b3/de7e78ac6b9cd51a3fe3f48d5902dd3746d4023a6901f6ebb21fdf7b123c/karrio.canpar-2023.4-py3-none-any.whl
+[2023-04-18 09:17:21] INFO root fetch - processPackages [karrio.yanwen]: Start processing: karrio.roadie
+[2023-04-18 09:17:21] INFO root fetch - main [MainThread]: End processing [karrio.yanwen]: success
+[2023-04-18 09:17:22] INFO root fetch - processPackages [karrio.sendle]: Downloading https://files.pythonhosted.org/packages/11/8f/ea14bb054e7d2a684a65cd109eb0b4e1c25eaa46bca4438f97c9b7533c1c/karrio.sendle-2023.4-py3-none-any.whl
+[2023-04-18 09:17:22] INFO root fetch - processPackages [karrio.canpar]: executing diffoscope
+[2023-04-18 09:17:22] INFO root fetch - processPackages [karrio.canpar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karrio.canpar-2023.3-py3-none-any.whl.zip tmp/karrio.canpar-2023.4-py3-none-any.whl.zip --markdown 20230418/k/karrio.canpar/2023.3-2023.4/diff.md --exclude *.pyd
+[2023-04-18 09:17:22] WARNING root fetch - processPackages [karrio.roadie]: Skipping, unable to determine old version
+[2023-04-18 09:17:22] INFO root fetch - processPackages [karrio.roadie]: Start processing: karrio.purolator
+[2023-04-18 09:17:22] INFO root fetch - main [MainThread]: End processing [karrio.roadie] error
+[2023-04-18 09:17:22] INFO root fetch - processPackages [karrio.australiapost]: Downloading https://files.pythonhosted.org/packages/73/42/81fae80e9cf7d1f5d277b97850cce23db5796187a0f8787cb1fa670d7b1a/karrio.australiapost-2023.1rc4-py3-none-any.whl
+[2023-04-18 09:17:22] INFO root fetch - processPackages [karrio.sendle]: executing diffoscope
+[2023-04-18 09:17:22] INFO root fetch - processPackages [karrio.sendle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karrio.sendle-2023.1rc4-py3-none-any.whl.zip tmp/karrio.sendle-2023.4-py3-none-any.whl.zip --markdown 20230418/k/karrio.sendle/2023.1rc4-2023.4/diff.md --exclude *.pyd
+[2023-04-18 09:17:22] INFO root fetch - processPackages [karrio.purolator]: New version: [2023.4] Old Version: [2023.3]
+[2023-04-18 09:17:22] INFO root fetch - processPackages [karrio.dhl-express]: Downloading https://files.pythonhosted.org/packages/94/75/883d5785bb18901aeb9bba1151d8ae95d279cbe99e135116696c7cee0ea0/karrio.dhl_express-2023.4-py3-none-any.whl
+[2023-04-18 09:17:22] INFO root fetch - processPackages [karrio.dpd]: Start processing: karrio.yunexpress
+[2023-04-18 09:17:22] INFO root fetch - main [MainThread]: End processing [karrio.dpd]: success
+[2023-04-18 09:17:22] INFO root fetch - processPackages [karrio.dhl-express]: executing diffoscope
+[2023-04-18 09:17:22] INFO root fetch - processPackages [karrio.dhl-express]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karrio.dhl_express-2023.3.4-py3-none-any.whl.zip tmp/karrio.dhl_express-2023.4-py3-none-any.whl.zip --markdown 20230418/k/karrio.dhl-express/2023.3.4-2023.4/diff.md --exclude *.pyd
+[2023-04-18 09:17:22] INFO root fetch - processPackages [karrio.purolator]: Downloading https://files.pythonhosted.org/packages/3b/c7/78ded7fed5050feb5099a064bd401064d4015df11c99ea9edac6220382bb/karrio.purolator-2023.3-py3-none-any.whl
+[2023-04-18 09:17:22] INFO root fetch - processPackages [karrio.yunexpress]: New version: [2023.4] Old Version: [2023.1rc4]
+[2023-04-18 09:17:22] INFO root fetch - processPackages [karrio.australiapost]: Downloading https://files.pythonhosted.org/packages/11/8a/9367a4054a225afee0d29c7b440c44d4cfe8cb13379ec02deae64b0ea857/karrio.australiapost-2023.4-py3-none-any.whl
+[2023-04-18 09:17:22] INFO root fetch - processPackages [karrio.australiapost]: executing diffoscope
+[2023-04-18 09:17:22] INFO root fetch - processPackages [karrio.australiapost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karrio.australiapost-2023.1rc4-py3-none-any.whl.zip tmp/karrio.australiapost-2023.4-py3-none-any.whl.zip --markdown 20230418/k/karrio.australiapost/2023.1rc4-2023.4/diff.md --exclude *.pyd
+[2023-04-18 09:17:22] INFO root fetch - processPackages [karrio.yunexpress]: Downloading https://files.pythonhosted.org/packages/36/24/5e0e1ed2b2704e656e99bf467cc91c7d07c4decbf5f011a0c248016567eb/karrio.yunexpress-2023.1rc4-py3-none-any.whl
+[2023-04-18 09:17:22] INFO root fetch - processPackages [karrio.purolator]: Downloading https://files.pythonhosted.org/packages/67/3f/49d873246c30470ee285a046f8b245c493f43a75e9cc85fd91bd2f9416fd/karrio.purolator-2023.4-py3-none-any.whl
+[2023-04-18 09:17:22] INFO root fetch - processPackages [karrio.purolator]: executing diffoscope
+[2023-04-18 09:17:22] INFO root fetch - processPackages [karrio.purolator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karrio.purolator-2023.3-py3-none-any.whl.zip tmp/karrio.purolator-2023.4-py3-none-any.whl.zip --markdown 20230418/k/karrio.purolator/2023.3-2023.4/diff.md --exclude *.pyd
+[2023-04-18 09:17:22] INFO root fetch - processPackages [karrio.eshipper]: Start processing: karrio.dhl-universal
+[2023-04-18 09:17:22] INFO root fetch - main [MainThread]: End processing [karrio.eshipper]: success
+[2023-04-18 09:17:22] INFO root fetch - processPackages [karrio.yunexpress]: Downloading https://files.pythonhosted.org/packages/15/b9/2e45246ac18089f6ff16fbf03620005c35f0fa7b7b26447e4305fdf622e1/karrio.yunexpress-2023.4-py3-none-any.whl
+[2023-04-18 09:17:22] INFO root fetch - processPackages [karrio.dhl-universal]: New version: [2023.4] Old Version: [2023.1rc4]
+[2023-04-18 09:17:23] INFO root fetch - processPackages [karrio.yunexpress]: executing diffoscope
+[2023-04-18 09:17:23] INFO root fetch - processPackages [karrio.yunexpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karrio.yunexpress-2023.1rc4-py3-none-any.whl.zip tmp/karrio.yunexpress-2023.4-py3-none-any.whl.zip --markdown 20230418/k/karrio.yunexpress/2023.1rc4-2023.4/diff.md --exclude *.pyd
+[2023-04-18 09:17:23] INFO root fetch - processPackages [karrio.dhl-universal]: Downloading https://files.pythonhosted.org/packages/4f/78/8137bb8931411c738814791a1745593651809bc9c4e5cf7b9ece09d4e35b/karrio.dhl_universal-2023.1rc4-py3-none-any.whl
+[2023-04-18 09:17:23] INFO root fetch - processPackages [karrio.dpdhl]: Start processing: karrio.dhl-poland
+[2023-04-18 09:17:23] INFO root fetch - main [MainThread]: End processing [karrio.dpdhl]: success
+[2023-04-18 09:17:23] INFO root fetch - processPackages [karrio.dhl-poland]: New version: [2023.4] Old Version: [2023.3]
+[2023-04-18 09:17:23] INFO root fetch - processPackages [chatgpt-pre-commit-hooks]: Start processing: karrio.geodis
+[2023-04-18 09:17:23] INFO root fetch - main [MainThread]: End processing [chatgpt-pre-commit-hooks]: success
+[2023-04-18 09:17:23] INFO root fetch - processPackages [karrio.dhl-universal]: Downloading https://files.pythonhosted.org/packages/ca/0c/31baa1599c0b649a9cc2321e0d3acbe6c5830ded7a197ecfa5a6888bb3ae/karrio.dhl_universal-2023.4-py3-none-any.whl
+[2023-04-18 09:17:23] INFO root fetch - processPackages [karrio.dhl-poland]: Downloading https://files.pythonhosted.org/packages/80/60/98c70c9531cc69acac474def794d87898e91005078c02377df5e1549d6c2/karrio.dhl_poland-2023.3-py3-none-any.whl
+[2023-04-18 09:17:23] INFO root fetch - processPackages [karrio.dhl-universal]: executing diffoscope
+[2023-04-18 09:17:23] INFO root fetch - processPackages [karrio.dhl-universal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karrio.dhl_universal-2023.1rc4-py3-none-any.whl.zip tmp/karrio.dhl_universal-2023.4-py3-none-any.whl.zip --markdown 20230418/k/karrio.dhl-universal/2023.1rc4-2023.4/diff.md --exclude *.pyd
+[2023-04-18 09:17:23] WARNING root fetch - processPackages [karrio.geodis]: Skipping, unable to determine old version
+[2023-04-18 09:17:23] INFO root fetch - processPackages [karrio.geodis]: Start processing: karrio.generic
+[2023-04-18 09:17:23] INFO root fetch - main [MainThread]: End processing [karrio.geodis] error
+[2023-04-18 09:17:23] INFO root fetch - processPackages [karrio.sendle]: Start processing: karrio.fedex
+[2023-04-18 09:17:23] INFO root fetch - main [MainThread]: End processing [karrio.sendle]: success
+[2023-04-18 09:17:23] INFO root fetch - processPackages [karrio.generic]: New version: [2023.4] Old Version: [2023.3]
+[2023-04-18 09:17:23] INFO root fetch - processPackages [karrio.fedex]: New version: [2023.4] Old Version: [2023.3.3]
+[2023-04-18 09:17:23] INFO root fetch - processPackages [karrio.dhl-poland]: Downloading https://files.pythonhosted.org/packages/7e/7c/bfd0f2f3a0cf02fd43400cd7603274c6982636f9251bb0097aef46f2903a/karrio.dhl_poland-2023.4-py3-none-any.whl
+[2023-04-18 09:17:23] INFO root fetch - processPackages [karrio.canpar]: Start processing: karrio.sf-express
+[2023-04-18 09:17:23] INFO root fetch - main [MainThread]: End processing [karrio.canpar]: success
+[2023-04-18 09:17:23] INFO root fetch - processPackages [karrio.dhl-poland]: executing diffoscope
+[2023-04-18 09:17:23] INFO root fetch - processPackages [karrio.dhl-poland]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karrio.dhl_poland-2023.3-py3-none-any.whl.zip tmp/karrio.dhl_poland-2023.4-py3-none-any.whl.zip --markdown 20230418/k/karrio.dhl-poland/2023.3-2023.4/diff.md --exclude *.pyd
+[2023-04-18 09:17:23] INFO root fetch - processPackages [karrio.generic]: Downloading https://files.pythonhosted.org/packages/77/98/9ee9cec5f447bc6388dcc21d375ad482f1c570d620e22156a5dc234e15fa/karrio.generic-2023.3-py3-none-any.whl
+[2023-04-18 09:17:23] INFO root fetch - processPackages [karrio.fedex]: Downloading https://files.pythonhosted.org/packages/67/40/d2a9169890bd4f44d27a25c4ca3b746584fcc3118a34d63ce4d9e3e2a5b3/karrio.fedex-2023.3.3-py3-none-any.whl
+[2023-04-18 09:17:23] INFO root fetch - processPackages [karrio.sf-express]: New version: [2023.4] Old Version: [2023.1rc4]
+[2023-04-18 09:17:24] INFO root fetch - processPackages [karrio.sf-express]: Downloading https://files.pythonhosted.org/packages/57/9a/44fb54146fe5dd98dd3f069fd0ac0cb7c8bfcef5773501b818ee6fcda348/karrio.sf_express-2023.1rc4-py3-none-any.whl
+[2023-04-18 09:17:24] INFO root fetch - processPackages [karrio.australiapost]: Start processing: carrier.dhl-express
+[2023-04-18 09:17:24] INFO root fetch - main [MainThread]: End processing [karrio.australiapost]: success
+[2023-04-18 09:17:24] INFO root fetch - processPackages [karrio.generic]: Downloading https://files.pythonhosted.org/packages/e5/24/9a3e1bb9fdd7c9d45255aa71d208ef8a62d86c56c4fb9dbceeaea6d87bc1/karrio.generic-2023.4-py3-none-any.whl
+[2023-04-18 09:17:24] INFO root fetch - processPackages [carrier.dhl-express]: New version: [2023.4] Old Version: [2021.4]
+[2023-04-18 09:17:24] INFO root fetch - processPackages [karrio.fedex]: Downloading https://files.pythonhosted.org/packages/5d/9c/43b1794e5e3c527ea2ae5ee9738cafe09b81c280393530461e855d944104/karrio.fedex-2023.4-py3-none-any.whl
+[2023-04-18 09:17:24] INFO root fetch - processPackages [karrio.dhl-express]: Start processing: tfq-nightly
+[2023-04-18 09:17:24] INFO root fetch - main [MainThread]: End processing [karrio.dhl-express]: success
+[2023-04-18 09:17:24] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230417] Old Version: [0.7.3.dev20230416]
+[2023-04-18 09:17:24] INFO root fetch - processPackages [karrio.generic]: executing diffoscope
+[2023-04-18 09:17:24] INFO root fetch - processPackages [karrio.generic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karrio.generic-2023.3-py3-none-any.whl.zip tmp/karrio.generic-2023.4-py3-none-any.whl.zip --markdown 20230418/k/karrio.generic/2023.3-2023.4/diff.md --exclude *.pyd
+[2023-04-18 09:17:24] INFO root fetch - processPackages [karrio.fedex]: executing diffoscope
+[2023-04-18 09:17:24] INFO root fetch - processPackages [karrio.fedex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karrio.fedex-2023.3.3-py3-none-any.whl.zip tmp/karrio.fedex-2023.4-py3-none-any.whl.zip --markdown 20230418/k/karrio.fedex/2023.3.3-2023.4/diff.md --exclude *.pyd
+[2023-04-18 09:17:24] INFO root fetch - processPackages [carrier.dhl-express]: Downloading https://files.pythonhosted.org/packages/5d/e1/bb6fce48397a3eaaed319a7a605e4c8ca0e1d91d16261b814389e42b2d28/carrier.dhl_express-2021.4-py3-none-any.whl
+[2023-04-18 09:17:24] INFO root fetch - processPackages [karrio.sf-express]: Downloading https://files.pythonhosted.org/packages/3f/34/91f9d884837c333847abfb839492cc9a2c9f3671b212737fc45d4dd8a9b3/karrio.sf_express-2023.4-py3-none-any.whl
+[2023-04-18 09:17:24] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/68/7a/55fdded5144c74337000bf81702459010cde64d994621c815917fafe625a/tfq_nightly-0.7.3.dev20230416-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-18 09:17:24] INFO root fetch - processPackages [karrio.sf-express]: executing diffoscope
+[2023-04-18 09:17:24] INFO root fetch - processPackages [karrio.sf-express]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karrio.sf_express-2023.1rc4-py3-none-any.whl.zip tmp/karrio.sf_express-2023.4-py3-none-any.whl.zip --markdown 20230418/k/karrio.sf-express/2023.1rc4-2023.4/diff.md --exclude *.pyd
+[2023-04-18 09:17:24] INFO root fetch - main [MainThread]: End processing [karrio.purolator]: success
+[2023-04-18 09:17:24] INFO root fetch - main [MainThread]: End processing [karrio.yunexpress]: success
+[2023-04-18 09:17:24] INFO root fetch - processPackages [carrier.dhl-express]: Downloading https://files.pythonhosted.org/packages/de/21/6b72d4411554c045b788368707f810a7228013af1cadd41d11d4a9b7ff03/carrier.dhl_express-2023.4-py3-none-any.whl
+[2023-04-18 09:17:24] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10819848>=10485760
+[2023-04-18 09:17:24] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-04-18 09:17:24] INFO root fetch - processPackages [carrier.dhl-express]: executing diffoscope
+[2023-04-18 09:17:24] INFO root fetch - processPackages [carrier.dhl-express]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carrier.dhl_express-2021.4-py3-none-any.whl.zip tmp/carrier.dhl_express-2023.4-py3-none-any.whl.zip --markdown 20230418/c/carrier.dhl-express/2021.4-2023.4/diff.md --exclude *.pyd
+[2023-04-18 09:17:25] INFO root fetch - main [MainThread]: End processing [karrio.dhl-universal]: success
+[2023-04-18 09:17:25] INFO root fetch - main [MainThread]: End processing [karrio.dhl-poland]: success
+[2023-04-18 09:17:25] INFO root fetch - main [MainThread]: End processing [karrio.generic]: success
+[2023-04-18 09:17:25] INFO root fetch - main [MainThread]: End processing [karrio.fedex]: success
+[2023-04-18 09:17:26] INFO root fetch - main [MainThread]: End processing [karrio.sf-express]: success
+[2023-04-18 09:17:30] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-04-18 09:17:37] INFO root fetch - main [MainThread]: End processing [carrier.dhl-express]: success
+[2023-04-18 09:17:37] INFO root fetch - main [MainThread]: Store serial: [17751269]
