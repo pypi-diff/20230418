@@ -9547,3 +9547,58 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 06:49:12] INFO root fetch - main [MainThread]: End processing [deepdriver]: success
 [2023-04-18 06:49:14] INFO root fetch - main [MainThread]: End processing [scalene]: success
 [2023-04-18 06:49:14] INFO root fetch - main [MainThread]: Store serial: [17749688]
+[2023-04-18 06:54:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17749688]
+[2023-04-18 06:54:23] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-18 06:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpt3discord
+[2023-04-18 06:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: david-rust-bin-pypi-test
+[2023-04-18 06:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deepdriver
+[2023-04-18 06:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pds.registry
+[2023-04-18 06:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deepdriver
+[2023-04-18 06:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-l10n-it-declaration-of-intent
+[2023-04-18 06:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo12-addon-l10n-it-withholding-tax
+[2023-04-18 06:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo12-addon-l10n-it-intrastat
+[2023-04-18 06:54:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: artemis-common
+[2023-04-18 06:54:23] WARNING root fetch - processPackages [david-rust-bin-pypi-test]: Skipping, unable to determine old version
+[2023-04-18 06:54:23] INFO root fetch - main [MainThread]: End processing [david-rust-bin-pypi-test] error
+[2023-04-18 06:54:23] INFO root fetch - processPackages [deepdriver]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-18 06:54:23] INFO root fetch - processPackages [deepdriver]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-18 06:54:23] INFO root fetch - processPackages [pds.registry]: New version: [1.2.0] Old Version: [1.1.3]
+[2023-04-18 06:54:23] INFO root fetch - processPackages [odoo14-addon-l10n-it-declaration-of-intent]: New version: [14.0.1.1.5.dev1] Old Version: [14.0.1.1.4.dev2]
+[2023-04-18 06:54:23] INFO root fetch - processPackages [gpt3discord]: New version: [9.1] Old Version: [9.0.4]
+[2023-04-18 06:54:23] INFO root fetch - processPackages [odoo12-addon-l10n-it-withholding-tax]: New version: [12.0.2.1.5.99.dev4] Old Version: [12.0.2.1.5.99.dev3]
+[2023-04-18 06:54:23] INFO root fetch - processPackages [odoo12-addon-l10n-it-intrastat]: New version: [12.0.1.3.0.99.dev4] Old Version: [12.0.1.3.0.99.dev3]
+[2023-04-18 06:54:23] INFO root fetch - processPackages [deepdriver]: executing diffoscope
+[2023-04-18 06:54:23] INFO root fetch - processPackages [deepdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepdriver-0.9.4.tar.gz tmp/deepdriver-0.9.5.tar.gz --markdown 20230418/d/deepdriver/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-18 06:54:23] INFO root fetch - processPackages [deepdriver]: executing diffoscope
+[2023-04-18 06:54:23] INFO root fetch - processPackages [deepdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepdriver-0.9.4.tar.gz tmp/deepdriver-0.9.5.tar.gz --markdown 20230418/d/deepdriver/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-18 06:54:23] INFO root fetch - processPackages [gpt3discord]: executing diffoscope
+[2023-04-18 06:54:23] INFO root fetch - processPackages [gpt3discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt3discord-9.0.4.tar.gz tmp/gpt3discord-9.1.tar.gz --markdown 20230418/g/gpt3discord/9.0.4-9.1/diff.md --exclude *.pyd
+[2023-04-18 06:54:23] INFO root fetch - processPackages [artemis-common]: New version: [0.3.6b0] Old Version: [0.3.5b0]
+[2023-04-18 06:54:24] INFO root fetch - processPackages [pds.registry]: Downloading https://files.pythonhosted.org/packages/13/97/8cf54799dd2c144142af568184492c815901a6b81b0a5b43571ef0e169d9/pds.registry-1.1.3-py3-none-any.whl
+[2023-04-18 06:54:24] INFO root fetch - processPackages [odoo14-addon-l10n-it-declaration-of-intent]: Downloading https://files.pythonhosted.org/packages/72/64/8763087ffa332dcc5b471608a085de272ea84feb52b7e6126171092ce76e/odoo14_addon_l10n_it_declaration_of_intent-14.0.1.1.4.dev2-py3-none-any.whl
+[2023-04-18 06:54:24] INFO root fetch - processPackages [odoo12-addon-l10n-it-withholding-tax]: Downloading https://files.pythonhosted.org/packages/f8/c1/2b5d6c536491a53c6b77da6ce98f935ebf29ee710ff8490f56cb5277e713/odoo12_addon_l10n_it_withholding_tax-12.0.2.1.5.99.dev3-py3-none-any.whl
+[2023-04-18 06:54:24] INFO root fetch - processPackages [odoo12-addon-l10n-it-intrastat]: Downloading https://files.pythonhosted.org/packages/a5/bc/6f53d8ffc3d00228135721eedce7862cde1d8359bae653de9c4242cdcbdf/odoo12_addon_l10n_it_intrastat-12.0.1.3.0.99.dev3-py3-none-any.whl
+[2023-04-18 06:54:24] INFO root fetch - processPackages [pds.registry]: Downloading https://files.pythonhosted.org/packages/6a/5f/4c08d4642618d503600aad0882d1d3594cb37bf8c8297f9a289437140438/pds.registry-1.2.0-py3-none-any.whl
+[2023-04-18 06:54:24] INFO root fetch - processPackages [artemis-common]: Downloading https://files.pythonhosted.org/packages/9f/03/86180a70cce823daa4e0dc807ce8cfe51aab3853a4fd8f7aa7c1c23b6ee7/artemis-common-0.3.6b0.tar.gz
+[2023-04-18 06:54:24] INFO root fetch - processPackages [pds.registry]: executing diffoscope
+[2023-04-18 06:54:24] INFO root fetch - processPackages [pds.registry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pds.registry-1.1.3-py3-none-any.whl.zip tmp/pds.registry-1.2.0-py3-none-any.whl.zip --markdown 20230418/p/pds.registry/1.1.3-1.2.0/diff.md --exclude *.pyd
+[2023-04-18 06:54:24] INFO root fetch - processPackages [odoo12-addon-l10n-it-withholding-tax]: Downloading https://files.pythonhosted.org/packages/d0/c6/eed3d420d19242e1fa811a8fba4af571d90485afce187596cfb47930c027/odoo12_addon_l10n_it_withholding_tax-12.0.2.1.5.99.dev4-py3-none-any.whl
+[2023-04-18 06:54:24] INFO root fetch - processPackages [artemis-common]: executing diffoscope
+[2023-04-18 06:54:24] INFO root fetch - processPackages [artemis-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artemis-common-0.3.5b0.tar.gz tmp/artemis-common-0.3.6b0.tar.gz --markdown 20230418/a/artemis-common/0.3.5b0-0.3.6b0/diff.md --exclude *.pyd
+[2023-04-18 06:54:24] INFO root fetch - processPackages [odoo14-addon-l10n-it-declaration-of-intent]: Downloading https://files.pythonhosted.org/packages/4e/8a/4ccdc2f8777626be0dc61ef87f9414f0b42057587a4b1c186ca9309eeeb5/odoo14_addon_l10n_it_declaration_of_intent-14.0.1.1.5.dev1-py3-none-any.whl
+[2023-04-18 06:54:24] INFO root fetch - processPackages [odoo12-addon-l10n-it-intrastat]: Downloading https://files.pythonhosted.org/packages/d1/df/a00194a187995257f28b2205c9f86dc2c1dc889c75d9d54aa9e04e43560d/odoo12_addon_l10n_it_intrastat-12.0.1.3.0.99.dev4-py3-none-any.whl
+[2023-04-18 06:54:24] INFO root fetch - processPackages [odoo14-addon-l10n-it-declaration-of-intent]: executing diffoscope
+[2023-04-18 06:54:24] INFO root fetch - processPackages [odoo14-addon-l10n-it-declaration-of-intent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_declaration_of_intent-14.0.1.1.4.dev2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_declaration_of_intent-14.0.1.1.5.dev1-py3-none-any.whl.zip --markdown 20230418/o/odoo14-addon-l10n-it-declaration-of-intent/14.0.1.1.4.dev2-14.0.1.1.5.dev1/diff.md --exclude *.pyd
+[2023-04-18 06:54:24] INFO root fetch - processPackages [odoo12-addon-l10n-it-withholding-tax]: executing diffoscope
+[2023-04-18 06:54:24] INFO root fetch - processPackages [odoo12-addon-l10n-it-withholding-tax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_l10n_it_withholding_tax-12.0.2.1.5.99.dev3-py3-none-any.whl.zip tmp/odoo12_addon_l10n_it_withholding_tax-12.0.2.1.5.99.dev4-py3-none-any.whl.zip --markdown 20230418/o/odoo12-addon-l10n-it-withholding-tax/12.0.2.1.5.99.dev3-12.0.2.1.5.99.dev4/diff.md --exclude *.pyd
+[2023-04-18 06:54:25] INFO root fetch - processPackages [odoo12-addon-l10n-it-intrastat]: executing diffoscope
+[2023-04-18 06:54:25] INFO root fetch - processPackages [odoo12-addon-l10n-it-intrastat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_l10n_it_intrastat-12.0.1.3.0.99.dev3-py3-none-any.whl.zip tmp/odoo12_addon_l10n_it_intrastat-12.0.1.3.0.99.dev4-py3-none-any.whl.zip --markdown 20230418/o/odoo12-addon-l10n-it-intrastat/12.0.1.3.0.99.dev3-12.0.1.3.0.99.dev4/diff.md --exclude *.pyd
+[2023-04-18 06:54:25] INFO root fetch - main [MainThread]: End processing [deepdriver]: success
+[2023-04-18 06:54:25] INFO root fetch - main [MainThread]: End processing [deepdriver]: success
+[2023-04-18 06:54:25] INFO root fetch - main [MainThread]: End processing [pds.registry]: success
+[2023-04-18 06:54:25] INFO root fetch - main [MainThread]: End processing [artemis-common]: success
+[2023-04-18 06:54:26] INFO root fetch - main [MainThread]: End processing [gpt3discord]: success
+[2023-04-18 06:54:26] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-it-withholding-tax]: success
+[2023-04-18 06:54:26] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-declaration-of-intent]: success
+[2023-04-18 06:54:28] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-it-intrastat]: success
+[2023-04-18 06:54:28] INFO root fetch - main [MainThread]: Store serial: [17749714]
