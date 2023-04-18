@@ -11656,3 +11656,84 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 08:22:13] INFO root fetch - main [MainThread]: End processing [pretext]: success
 [2023-04-18 08:22:20] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-04-18 08:22:20] INFO root fetch - main [MainThread]: Store serial: [17750572]
+[2023-04-18 08:27:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17750572]
+[2023-04-18 08:27:29] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-04-18 08:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PrSpiders
+[2023-04-18 08:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: slack-bolt
+[2023-04-18 08:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-purchase-request
+[2023-04-18 08:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fake-bpy-module-latest
+[2023-04-18 08:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-purchase-request-to-requisition
+[2023-04-18 08:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-purchase-force-invoiced
+[2023-04-18 08:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-purchase-request
+[2023-04-18 08:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: samshee
+[2023-04-18 08:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pipen-args
+[2023-04-18 08:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: open-clip-torch
+[2023-04-18 08:27:29] INFO root fetch - processPackages [odoo-addon-purchase-force-invoiced]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.2]
+[2023-04-18 08:27:29] INFO root fetch - processPackages [samshee]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-18 08:27:29] INFO root fetch - processPackages [odoo-addon-purchase-request]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-04-18 08:27:29] INFO root fetch - processPackages [PrSpiders]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-04-18 08:27:29] INFO root fetch - processPackages [odoo-addon-purchase-request-to-requisition]: New version: [15.0.1.0.1.4] Old Version: [15.0.1.0.1.3]
+[2023-04-18 08:27:29] INFO root fetch - processPackages [open-clip-torch]: New version: [2.9.3] Old Version: [2.9.2]
+[2023-04-18 08:27:29] INFO root fetch - processPackages [odoo-addon-purchase-request]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-04-18 08:27:29] INFO root fetch - processPackages [pipen-args]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-04-18 08:27:29] INFO root fetch - processPackages [slack-bolt]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-04-18 08:27:29] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230418] Old Version: [20230417]
+[2023-04-18 08:27:29] INFO root fetch - processPackages [odoo-addon-purchase-force-invoiced]: Downloading https://files.pythonhosted.org/packages/3c/2e/77bb29dcf9a0d054b92c9c4a4520499900a2f25c1972b525f7b407b7744d/odoo_addon_purchase_force_invoiced-16.0.1.0.0.2-py3-none-any.whl
+[2023-04-18 08:27:29] INFO root fetch - processPackages [samshee]: Downloading https://files.pythonhosted.org/packages/18/2a/4962713da10e8b1a2b4f30158c72b89b231d307b69afe1e7c9cb591c52ae/samshee-0.1.3.tar.gz
+[2023-04-18 08:27:29] INFO root fetch - processPackages [slack-bolt]: Downloading https://files.pythonhosted.org/packages/09/84/486f78411aa2eb29e731ec16b160a5bc9b78a12476d72efff538f25be181/slack_bolt-1.9.3.tar.gz
+[2023-04-18 08:27:29] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/0a/16/21cb2410569dd0a7bb3f7a7b0294d1b1f96cc8d01be5cbc50d2c3ea7041d/fake-bpy-module-latest-20230418.tar.gz
+[2023-04-18 08:27:29] INFO root fetch - processPackages [pipen-args]: Downloading https://files.pythonhosted.org/packages/9e/3e/99d4195b9492afd5dac55cdb4063f5b97c360ae250d83ab5a9731473479e/pipen_args-0.9.7.tar.gz
+[2023-04-18 08:27:29] INFO root fetch - processPackages [pipen-args]: executing diffoscope
+[2023-04-18 08:27:29] INFO root fetch - processPackages [pipen-args]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_args-0.9.6.tar.gz tmp/pipen_args-0.9.7.tar.gz --markdown 20230418/p/pipen-args/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-04-18 08:27:29] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-04-18 08:27:29] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230417.tar.gz tmp/fake-bpy-module-latest-20230418.tar.gz --markdown 20230418/f/fake-bpy-module-latest/20230417-20230418/diff.md --exclude *.pyd
+[2023-04-18 08:27:29] INFO root fetch - processPackages [odoo-addon-purchase-request]: executing diffoscope
+[2023-04-18 08:27:29] INFO root fetch - processPackages [odoo-addon-purchase-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_request-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_purchase_request-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230418/o/odoo-addon-purchase-request/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-04-18 08:27:29] INFO root fetch - processPackages [odoo-addon-purchase-request-to-requisition]: Downloading https://files.pythonhosted.org/packages/5c/a9/28c64f008469969649267fcd67f0690d662705c94a901161beaf0e664840/odoo_addon_purchase_request_to_requisition-15.0.1.0.1.4-py3-none-any.whl
+[2023-04-18 08:27:29] INFO root fetch - processPackages [odoo-addon-purchase-request]: executing diffoscope
+[2023-04-18 08:27:29] INFO root fetch - processPackages [odoo-addon-purchase-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_request-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_purchase_request-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230418/o/odoo-addon-purchase-request/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-04-18 08:27:29] INFO root fetch - processPackages [open-clip-torch]: executing diffoscope
+[2023-04-18 08:27:29] INFO root fetch - processPackages [samshee]: Downloading https://files.pythonhosted.org/packages/ad/41/ef92266bb61b4f0ac9271e6e4f3d01f57518a87e856bfa9ca7ba0e6a0765/samshee-0.1.4.tar.gz
+[2023-04-18 08:27:29] INFO root fetch - processPackages [open-clip-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_clip_torch-2.9.2.tar.gz tmp/open_clip_torch-2.9.3.tar.gz --markdown 20230418/o/open-clip-torch/2.9.2-2.9.3/diff.md --exclude *.pyd
+[2023-04-18 08:27:29] INFO root fetch - processPackages [PrSpiders]: Downloading https://files.pythonhosted.org/packages/9d/32/29e2ff90a4eeaf76068d025bf0a4c83a15217704cc19a2e2a65c58ac7062/PrSpiders-0.3.6.tar.gz
+[2023-04-18 08:27:29] INFO root fetch - processPackages [odoo-addon-purchase-request-to-requisition]: executing diffoscope
+[2023-04-18 08:27:29] INFO root fetch - processPackages [odoo-addon-purchase-request-to-requisition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_request_to_requisition-15.0.1.0.1.3-py3-none-any.whl.zip tmp/odoo_addon_purchase_request_to_requisition-15.0.1.0.1.4-py3-none-any.whl.zip --markdown 20230418/o/odoo-addon-purchase-request-to-requisition/15.0.1.0.1.3-15.0.1.0.1.4/diff.md --exclude *.pyd
+[2023-04-18 08:27:29] INFO root fetch - processPackages [samshee]: executing diffoscope
+[2023-04-18 08:27:29] INFO root fetch - processPackages [samshee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samshee-0.1.3.tar.gz tmp/samshee-0.1.4.tar.gz --markdown 20230418/s/samshee/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-18 08:27:29] INFO root fetch - processPackages [odoo-addon-purchase-force-invoiced]: Downloading https://files.pythonhosted.org/packages/4b/7b/051294ba320cc13b13191654f7536e0d437b3e2510595b1bd3ecf831a6d1/odoo_addon_purchase_force_invoiced-16.0.1.0.0.4-py3-none-any.whl
+[2023-04-18 08:27:30] INFO root fetch - processPackages [PrSpiders]: executing diffoscope
+[2023-04-18 08:27:30] INFO root fetch - processPackages [PrSpiders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PrSpiders-0.3.5.tar.gz tmp/PrSpiders-0.3.6.tar.gz --markdown 20230418/P/PrSpiders/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-04-18 08:27:30] INFO root fetch - processPackages [odoo-addon-purchase-force-invoiced]: executing diffoscope
+[2023-04-18 08:27:30] INFO root fetch - processPackages [odoo-addon-purchase-force-invoiced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_force_invoiced-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_purchase_force_invoiced-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230418/o/odoo-addon-purchase-force-invoiced/16.0.1.0.0.2-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-04-18 08:27:30] INFO root fetch - processPackages [slack-bolt]: Downloading https://files.pythonhosted.org/packages/be/30/733b072c5d30f511881b630aa3837abebdfbbd28b5274f3b9748b6162a88/slack_bolt-1.9.4.tar.gz
+[2023-04-18 08:27:30] INFO root fetch - processPackages [slack-bolt]: executing diffoscope
+[2023-04-18 08:27:30] INFO root fetch - processPackages [slack-bolt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slack_bolt-1.9.3.tar.gz tmp/slack_bolt-1.9.4.tar.gz --markdown 20230418/s/slack-bolt/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-04-18 08:27:31] INFO root fetch - processPackages [pipen-args]: Start processing: skyagi
+[2023-04-18 08:27:31] INFO root fetch - main [MainThread]: End processing [pipen-args]: success
+[2023-04-18 08:27:31] INFO root fetch - processPackages [skyagi]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-18 08:27:31] INFO root fetch - processPackages [skyagi]: executing diffoscope
+[2023-04-18 08:27:31] INFO root fetch - processPackages [skyagi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyagi-0.0.2.tar.gz tmp/skyagi-0.0.3.tar.gz --markdown 20230418/s/skyagi/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-18 08:27:32] INFO root fetch - processPackages [samshee]: Start processing: PrSpiders
+[2023-04-18 08:27:32] INFO root fetch - main [MainThread]: End processing [samshee]: success
+[2023-04-18 08:27:32] INFO root fetch - processPackages [PrSpiders]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-04-18 08:27:32] INFO root fetch - processPackages [odoo-addon-purchase-force-invoiced]: Start processing: pysz
+[2023-04-18 08:27:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-force-invoiced]: success
+[2023-04-18 08:27:32] INFO root fetch - processPackages [PrSpiders]: Downloading https://files.pythonhosted.org/packages/49/80/eb6b8fdfd63864d695b7e98aa221aee8f2562c46f08661fb6ff310f7b5ac/PrSpiders-0.3.7.tar.gz
+[2023-04-18 08:27:32] INFO root fetch - main [MainThread]: End processing [PrSpiders]: success
+[2023-04-18 08:27:32] INFO root fetch - processPackages [pysz]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-04-18 08:27:32] INFO root fetch - processPackages [PrSpiders]: executing diffoscope
+[2023-04-18 08:27:32] INFO root fetch - processPackages [PrSpiders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PrSpiders-0.3.6.tar.gz tmp/PrSpiders-0.3.7.tar.gz --markdown 20230418/P/PrSpiders/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-04-18 08:27:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-request-to-requisition]: success
+[2023-04-18 08:27:32] INFO root fetch - processPackages [pysz]: Downloading https://files.pythonhosted.org/packages/a4/7d/82ba7231094c90c55670d5890143d7630d97526649eaea98dc5eff520b0f/pysz-0.3.0.tar.gz
+[2023-04-18 08:27:32] INFO root fetch - processPackages [pysz]: Downloading https://files.pythonhosted.org/packages/8b/e4/5dffbd1b9a9bc4c0d7c5ebb7a5d862f180dd0715a8fdadd5d155f82fd385/pysz-0.4.0.tar.gz
+[2023-04-18 08:27:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-request]: success
+[2023-04-18 08:27:33] INFO root fetch - processPackages [pysz]: executing diffoscope
+[2023-04-18 08:27:33] INFO root fetch - processPackages [pysz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysz-0.3.0.tar.gz tmp/pysz-0.4.0.tar.gz --markdown 20230418/p/pysz/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-04-18 08:27:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-request]: success
+[2023-04-18 08:27:33] INFO root fetch - main [MainThread]: End processing [skyagi]: success
+[2023-04-18 08:27:33] INFO root fetch - main [MainThread]: End processing [slack-bolt]: success
+[2023-04-18 08:27:33] INFO root fetch - main [MainThread]: End processing [PrSpiders]: success
+[2023-04-18 08:27:34] INFO root fetch - main [MainThread]: End processing [pysz]: success
+[2023-04-18 08:27:35] INFO root fetch - main [MainThread]: End processing [open-clip-torch]: success
+[2023-04-18 08:27:37] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-04-18 08:27:37] INFO root fetch - main [MainThread]: Store serial: [17750606]
