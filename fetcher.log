@@ -12597,3 +12597,100 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 09:06:09] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
 [2023-04-18 09:06:46] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-04-18 09:06:46] INFO root fetch - main [MainThread]: Store serial: [17751070]
+[2023-04-18 09:11:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17751070]
+[2023-04-18 09:11:56] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-04-18 09:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: c8y-api
+[2023-04-18 09:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-base-tier-validation
+[2023-04-18 09:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opencmiss2cmlibs
+[2023-04-18 09:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-base-tier-validation
+[2023-04-18 09:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pawnlib
+[2023-04-18 09:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyGRO
+[2023-04-18 09:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yuv-package
+[2023-04-18 09:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: erscipcard
+[2023-04-18 09:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-04-18 09:11:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo13-addon-mail-activity-team
+[2023-04-18 09:11:56] INFO root fetch - processPackages [opencmiss2cmlibs]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-04-18 09:11:56] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: New version: [16.0.1.0.1.6] Old Version: [16.0.1.0.1.4]
+[2023-04-18 09:11:56] INFO root fetch - processPackages [pawnlib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-04-18 09:11:56] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: New version: [16.0.1.0.1.6] Old Version: [16.0.1.0.1.4]
+[2023-04-18 09:11:56] INFO root fetch - processPackages [PyGRO]: New version: [0.1.0] Old Version: [0.0.9.1]
+[2023-04-18 09:11:56] WARNING root fetch - processPackages [yuv-package]: Skipping, unable to determine old version
+[2023-04-18 09:11:56] INFO root fetch - processPackages [yuv-package]: Start processing: cloudnetpy
+[2023-04-18 09:11:56] INFO root fetch - main [MainThread]: End processing [yuv-package] error
+[2023-04-18 09:11:56] INFO root fetch - processPackages [odoo13-addon-mail-activity-team]: New version: [13.0.1.3.3.dev2] Old Version: [13.0.1.3.3.dev1]
+[2023-04-18 09:11:56] INFO root fetch - processPackages [c8y-api]: New version: [1.8.1] Old Version: [1.8]
+[2023-04-18 09:11:56] INFO root fetch - processPackages [erscipcard]: New version: [1.17.81] Old Version: [1.17.8]
+[2023-04-18 09:11:56] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-04-18 09:11:56] INFO root fetch - processPackages [cloudnetpy]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-04-18 09:11:56] INFO root fetch - processPackages [opencmiss2cmlibs]: Downloading https://files.pythonhosted.org/packages/d2/c6/9a077bfc0260df4d82ca3418c0f422b3db6a7668734f83b1e427b7a2f825/opencmiss2cmlibs-0.1.0.tar.gz
+[2023-04-18 09:11:56] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/78/22/3727813e0a1be780a393273e00f85bff4457f667d21eea39112e6cb860d4/odoo_addon_base_tier_validation-16.0.1.0.1.4-py3-none-any.whl
+[2023-04-18 09:11:56] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/78/22/3727813e0a1be780a393273e00f85bff4457f667d21eea39112e6cb860d4/odoo_addon_base_tier_validation-16.0.1.0.1.4-py3-none-any.whl
+[2023-04-18 09:11:56] INFO root fetch - processPackages [odoo13-addon-mail-activity-team]: Downloading https://files.pythonhosted.org/packages/fb/e9/7b37c423f0b0f899331a1b14afde9ca0a2f05329341e1b2508e35c88af6f/odoo13_addon_mail_activity_team-13.0.1.3.3.dev1-py3-none-any.whl
+[2023-04-18 09:11:56] INFO root fetch - processPackages [PyGRO]: Downloading https://files.pythonhosted.org/packages/07/51/38992d1835c9ca7b2d9c2ab7c3df243bda04b807cd9e141e40b2769a8854/PyGRO-0.0.9.1.tar.gz
+[2023-04-18 09:11:56] INFO root fetch - processPackages [erscipcard]: Downloading https://files.pythonhosted.org/packages/21/32/839d0f12ca1803664f7363a91bf326899e4c2e8df3ba1d0386bebf877f9b/erscipcard-1.17.8.tar.gz
+[2023-04-18 09:11:56] INFO root fetch - processPackages [cloudnetpy]: Downloading https://files.pythonhosted.org/packages/9c/f5/740f77e4140aebd398cec0e90a35ab89249c74a2128282651e3e52d69176/cloudnetpy-1.9.3.tar.gz
+[2023-04-18 09:11:56] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-04-18 09:11:56] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230418/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-04-18 09:11:56] INFO root fetch - processPackages [c8y-api]: Downloading https://files.pythonhosted.org/packages/db/2a/2856414f63cadcc3ec475267b64e0cc4d62af1d0207777fc247e3ceae52a/c8y_api-1.8.1.tar.gz
+[2023-04-18 09:11:56] WARNING root fetch - processPackages [cloudnetpy]: Skipping package: exceeds size limit 16683885>=10485760
+[2023-04-18 09:11:56] INFO root fetch - processPackages [cloudnetpy]: Start processing: influential
+[2023-04-18 09:11:56] INFO root fetch - main [MainThread]: End processing [cloudnetpy] error
+[2023-04-18 09:11:57] WARNING root fetch - processPackages [influential]: Skipping, unable to determine old version
+[2023-04-18 09:11:57] INFO root fetch - processPackages [influential]: Start processing: watchtower-browser-testing
+[2023-04-18 09:11:57] INFO root fetch - main [MainThread]: End processing [influential] error
+[2023-04-18 09:11:57] INFO root fetch - processPackages [pawnlib]: executing diffoscope
+[2023-04-18 09:11:57] INFO root fetch - processPackages [pawnlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pawnlib-0.1.8-py3-none-any.whl.zip tmp/pawnlib-0.1.9-py3-none-any.whl.zip --markdown 20230418/p/pawnlib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-04-18 09:11:57] INFO root fetch - processPackages [watchtower-browser-testing]: New version: [0.4.0] Old Version: [0.3.9]
+[2023-04-18 09:11:57] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/c0/c8/14e55d95b9842edff8de63ef181068270e24ef7685c14025316ebceef3fa/odoo_addon_base_tier_validation-16.0.1.0.1.6-py3-none-any.whl
+[2023-04-18 09:11:57] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/c0/c8/14e55d95b9842edff8de63ef181068270e24ef7685c14025316ebceef3fa/odoo_addon_base_tier_validation-16.0.1.0.1.6-py3-none-any.whl
+[2023-04-18 09:11:57] INFO root fetch - processPackages [odoo13-addon-mail-activity-team]: Downloading https://files.pythonhosted.org/packages/c1/63/6ecca8e24f04e9407c21513f1a184e5f17b874f52c5ab6a6fa872fb42c12/odoo13_addon_mail_activity_team-13.0.1.3.3.dev2-py3-none-any.whl
+[2023-04-18 09:11:57] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: executing diffoscope
+[2023-04-18 09:11:57] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_tier_validation-16.0.1.0.1.4-py3-none-any.whl.zip tmp/odoo_addon_base_tier_validation-16.0.1.0.1.6-py3-none-any.whl.zip --markdown 20230418/o/odoo-addon-base-tier-validation/16.0.1.0.1.4-16.0.1.0.1.6/diff.md --exclude *.pyd
+[2023-04-18 09:11:57] INFO root fetch - processPackages [c8y-api]: executing diffoscope
+[2023-04-18 09:11:57] INFO root fetch - processPackages [c8y-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c8y_api-1.8.tar.gz tmp/c8y_api-1.8.1.tar.gz --markdown 20230418/c/c8y-api/1.8-1.8.1/diff.md --exclude *.pyd
+[2023-04-18 09:11:57] INFO root fetch - processPackages [PyGRO]: Downloading https://files.pythonhosted.org/packages/a3/30/620510198e54a4126363683c60c29344b4691ea4389e4454d1daf55f0e4a/PyGRO-0.1.0.tar.gz
+[2023-04-18 09:11:57] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: executing diffoscope
+[2023-04-18 09:11:57] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_tier_validation-16.0.1.0.1.4-py3-none-any.whl.zip tmp/odoo_addon_base_tier_validation-16.0.1.0.1.6-py3-none-any.whl.zip --markdown 20230418/o/odoo-addon-base-tier-validation/16.0.1.0.1.4-16.0.1.0.1.6/diff.md --exclude *.pyd
+[2023-04-18 09:11:57] INFO root fetch - processPackages [erscipcard]: Downloading https://files.pythonhosted.org/packages/28/cb/a186f48f36140cb7319cc72d925b7f51433482bc7b21f154fe267c5f5c21/erscipcard-1.17.81.tar.gz
+[2023-04-18 09:11:57] INFO root fetch - processPackages [watchtower-browser-testing]: Downloading https://files.pythonhosted.org/packages/0f/e0/9e1856cff12205e1e84fc4ea579c5b8bf0ffb0f67baf10c098f884f2974c/watchtower_browser_testing-0.4.0.tar.gz
+[2023-04-18 09:11:57] INFO root fetch - processPackages [opencmiss2cmlibs]: Downloading https://files.pythonhosted.org/packages/24/ac/5da190a297836894690ebc492b0e28d7d69d714dd141d0b14a5c1304d60e/opencmiss2cmlibs-0.1.1.tar.gz
+[2023-04-18 09:11:57] INFO root fetch - processPackages [odoo13-addon-mail-activity-team]: executing diffoscope
+[2023-04-18 09:11:57] INFO root fetch - processPackages [odoo13-addon-mail-activity-team]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_mail_activity_team-13.0.1.3.3.dev1-py3-none-any.whl.zip tmp/odoo13_addon_mail_activity_team-13.0.1.3.3.dev2-py3-none-any.whl.zip --markdown 20230418/o/odoo13-addon-mail-activity-team/13.0.1.3.3.dev1-13.0.1.3.3.dev2/diff.md --exclude *.pyd
+[2023-04-18 09:11:57] INFO root fetch - processPackages [PyGRO]: executing diffoscope
+[2023-04-18 09:11:57] INFO root fetch - processPackages [PyGRO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyGRO-0.0.9.1.tar.gz tmp/PyGRO-0.1.0.tar.gz --markdown 20230418/P/PyGRO/0.0.9.1-0.1.0/diff.md --exclude *.pyd
+[2023-04-18 09:11:57] INFO root fetch - processPackages [watchtower-browser-testing]: executing diffoscope
+[2023-04-18 09:11:57] INFO root fetch - processPackages [watchtower-browser-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/watchtower_browser_testing-0.3.9.tar.gz tmp/watchtower_browser_testing-0.4.0.tar.gz --markdown 20230418/w/watchtower-browser-testing/0.3.9-0.4.0/diff.md --exclude *.pyd
+[2023-04-18 09:11:57] INFO root fetch - processPackages [erscipcard]: executing diffoscope
+[2023-04-18 09:11:57] INFO root fetch - processPackages [erscipcard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erscipcard-1.17.8.tar.gz tmp/erscipcard-1.17.81.tar.gz --markdown 20230418/e/erscipcard/1.17.8-1.17.81/diff.md --exclude *.pyd
+[2023-04-18 09:11:57] INFO root fetch - processPackages [opencmiss2cmlibs]: executing diffoscope
+[2023-04-18 09:11:57] INFO root fetch - processPackages [opencmiss2cmlibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opencmiss2cmlibs-0.1.0.tar.gz tmp/opencmiss2cmlibs-0.1.1.tar.gz --markdown 20230418/o/opencmiss2cmlibs/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-04-18 09:11:58] INFO root fetch - processPackages [pawnlib]: Start processing: odoo-addon-mail-activity-team
+[2023-04-18 09:11:58] INFO root fetch - main [MainThread]: End processing [pawnlib]: success
+[2023-04-18 09:11:58] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: New version: [15.0.2.1.0.4] Old Version: [15.0.2.1.0.3]
+[2023-04-18 09:11:58] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: Downloading https://files.pythonhosted.org/packages/3c/ba/d4973fe4a598dcc1238c8631cd20f68f66496da3b462a0c3c0b5aa0b0242/odoo_addon_mail_activity_team-15.0.2.1.0.3-py3-none-any.whl
+[2023-04-18 09:11:59] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Start processing: icupy
+[2023-04-18 09:11:59] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-04-18 09:11:59] INFO root fetch - processPackages [icupy]: New version: [0.9.0] Old Version: [0.8.0.post2]
+[2023-04-18 09:11:59] INFO root fetch - processPackages [odoo-addon-base-tier-validation]: Start processing: tf-hub-nightly
+[2023-04-18 09:11:59] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-tier-validation]: success
+[2023-04-18 09:11:59] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-04-18 09:11:59] INFO root fetch - main [MainThread]: End processing [PyGRO]: success
+[2023-04-18 09:11:59] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: Downloading https://files.pythonhosted.org/packages/eb/ef/edeaeeb251d0b8507c84ef83d488a2f40103d5eb809730d198b441e8d7f2/odoo_addon_mail_activity_team-15.0.2.1.0.4-py3-none-any.whl
+[2023-04-18 09:11:59] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-04-18 09:11:59] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230418/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-04-18 09:11:59] INFO root fetch - processPackages [icupy]: Downloading https://files.pythonhosted.org/packages/e1/12/c6118dae90c0a667c4ba6e5484857e4e9265e2d87239f2b7fe90920e5666/icupy-0.8.0.post2.tar.gz
+[2023-04-18 09:11:59] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: executing diffoscope
+[2023-04-18 09:11:59] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_activity_team-15.0.2.1.0.3-py3-none-any.whl.zip tmp/odoo_addon_mail_activity_team-15.0.2.1.0.4-py3-none-any.whl.zip --markdown 20230418/o/odoo-addon-mail-activity-team/15.0.2.1.0.3-15.0.2.1.0.4/diff.md --exclude *.pyd
+[2023-04-18 09:11:59] INFO root fetch - main [MainThread]: End processing [odoo13-addon-mail-activity-team]: success
+[2023-04-18 09:11:59] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-tier-validation]: success
+[2023-04-18 09:11:59] INFO root fetch - main [MainThread]: End processing [c8y-api]: success
+[2023-04-18 09:11:59] INFO root fetch - main [MainThread]: End processing [opencmiss2cmlibs]: success
+[2023-04-18 09:11:59] INFO root fetch - processPackages [icupy]: Downloading https://files.pythonhosted.org/packages/6b/d3/a11d8f12f3e1a5b9894093f27e3bdb3eae3a8b59316f30be25b44d7b251e/icupy-0.9.0.tar.gz
+[2023-04-18 09:11:59] INFO root fetch - main [MainThread]: End processing [watchtower-browser-testing]: success
+[2023-04-18 09:12:00] INFO root fetch - processPackages [icupy]: executing diffoscope
+[2023-04-18 09:12:00] INFO root fetch - processPackages [icupy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icupy-0.8.0.post2.tar.gz tmp/icupy-0.9.0.tar.gz --markdown 20230418/i/icupy/0.8.0.post2-0.9.0/diff.md --exclude *.pyd
+[2023-04-18 09:12:00] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-04-18 09:12:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-activity-team]: success
+[2023-04-18 09:12:01] INFO root fetch - main [MainThread]: End processing [erscipcard]: success
+[2023-04-18 09:12:03] INFO root fetch - main [MainThread]: End processing [icupy]: success
+[2023-04-18 09:12:03] INFO root fetch - main [MainThread]: Store serial: [17751135]
