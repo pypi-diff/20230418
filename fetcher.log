@@ -10296,3 +10296,94 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 07:44:47] ERROR root fetch - processPackages [oci-cli]: Timeout during execution of pkgdiff
 [2023-04-18 07:44:47] INFO root fetch - main [MainThread]: End processing [oci-cli] error
 [2023-04-18 07:44:47] INFO root fetch - main [MainThread]: Store serial: [17750060]
+[2023-04-18 07:49:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17750060]
+[2023-04-18 07:49:56] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-18 07:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kttools
+[2023-04-18 07:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: msaDocModels
+[2023-04-18 07:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deepi-yolo
+[2023-04-18 07:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oneNeuron-Pypi-AmanGupta0112
+[2023-04-18 07:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-kvstore
+[2023-04-18 07:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: micado-client
+[2023-04-18 07:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datclass
+[2023-04-18 07:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: common-task-system-client
+[2023-04-18 07:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: plonetheme.barceloneta
+[2023-04-18 07:49:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-mapper
+[2023-04-18 07:49:56] INFO root fetch - processPackages [micado-client]: New version: [0.12.0a2] Old Version: [0.12.0a1]
+[2023-04-18 07:49:56] INFO root fetch - processPackages [msaDocModels]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-18 07:49:56] WARNING root fetch - processPackages [oneNeuron-Pypi-AmanGupta0112]: Skipping, unable to determine old version
+[2023-04-18 07:49:56] INFO root fetch - processPackages [oneNeuron-Pypi-AmanGupta0112]: Start processing: turing-sdk
+[2023-04-18 07:49:56] INFO root fetch - main [MainThread]: End processing [oneNeuron-Pypi-AmanGupta0112] error
+[2023-04-18 07:49:56] INFO root fetch - processPackages [kttools]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-04-18 07:49:56] INFO root fetch - processPackages [common-task-system-client]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-04-18 07:49:56] INFO root fetch - processPackages [datclass]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-18 07:49:56] INFO root fetch - processPackages [django-mapper]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-04-18 07:49:56] INFO root fetch - processPackages [plonetheme.barceloneta]: New version: [3.1.2] Old Version: [3.1.1]
+[2023-04-18 07:49:56] INFO root fetch - processPackages [turing-sdk]: New version: [0.9.0rc1] Old Version: [0.8.0rc1]
+[2023-04-18 07:49:57] ERROR root fetch - processPackages [deepi-yolo]: Unable to get metadata: No such project 'deepi-yolo'
+[2023-04-18 07:49:57] INFO root fetch - processPackages [deepi-yolo]: Start processing: birenci-infra
+[2023-04-18 07:49:57] INFO root fetch - main [MainThread]: End processing [deepi-yolo] error
+[2023-04-18 07:49:57] INFO root fetch - processPackages [py-kvstore]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-18 07:49:57] INFO root fetch - processPackages [birenci-infra]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-18 07:49:57] INFO root fetch - processPackages [micado-client]: Downloading https://files.pythonhosted.org/packages/22/c2/961466cf4b1725108e753284b6fff9ba1ff62141a7f6bad4e2b65a7f2811/micado-client-0.12.0a1.tar.gz
+[2023-04-18 07:49:57] INFO root fetch - processPackages [kttools]: Downloading https://files.pythonhosted.org/packages/ef/52/232fa84c3fd6407a136c1c784bb636e0d48d6c2774e3b307b193917cc3aa/kttools-0.2.0.tar.gz
+[2023-04-18 07:49:57] INFO root fetch - processPackages [plonetheme.barceloneta]: Downloading https://files.pythonhosted.org/packages/ec/c8/edaa43845c3d59805bdf2e7b025047b49a6dc3a29407d718d38e9f6e3f11/plonetheme.barceloneta-3.1.1.tar.gz
+[2023-04-18 07:49:57] INFO root fetch - processPackages [common-task-system-client]: Downloading https://files.pythonhosted.org/packages/61/6f/2e83944bbc338d0f4e1bbf0293a02078ac8fda62b843c78c4b3206f83297/common-task-system-client-1.1.0.tar.gz
+[2023-04-18 07:49:57] INFO root fetch - processPackages [django-mapper]: Downloading https://files.pythonhosted.org/packages/ad/38/066288ecf702805fb8a8955a2878c9e5abe1e4876078e68c9ed2531ed402/django-mapper-1.1.3.tar.gz
+[2023-04-18 07:49:57] INFO root fetch - processPackages [turing-sdk]: Downloading https://files.pythonhosted.org/packages/fc/e3/d4d29f617fe839e74387b2dd026f21344bf5543bca0a19f225ef6e924432/turing-sdk-0.8.0rc1.tar.gz
+[2023-04-18 07:49:57] INFO root fetch - processPackages [birenci-infra]: Downloading https://files.pythonhosted.org/packages/a4/da/6ad7ea7fd8104b36c1db9b2eb0212c1a509e877b56890b84edeca852c6bd/birenci-infra-0.0.3.tar.gz
+[2023-04-18 07:49:57] INFO root fetch - processPackages [datclass]: Downloading https://files.pythonhosted.org/packages/f6/e0/6dd3ee817a181fcf7a3023d5006965624c63e664879105ddee7bbea52b86/datclass-0.2.1.tar.gz
+[2023-04-18 07:49:57] INFO root fetch - processPackages [py-kvstore]: Downloading https://files.pythonhosted.org/packages/a5/fc/0089456c9dfce0df4af07083c4f64876ec14ed3e51b6ac440ab9cc2ef884/py_kvstore-0.0.4.tar.gz
+[2023-04-18 07:49:57] INFO root fetch - processPackages [common-task-system-client]: executing diffoscope
+[2023-04-18 07:49:57] INFO root fetch - processPackages [msaDocModels]: executing diffoscope
+[2023-04-18 07:49:57] INFO root fetch - processPackages [common-task-system-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/common-task-system-client-1.0.9.tar.gz tmp/common-task-system-client-1.1.0.tar.gz --markdown 20230418/c/common-task-system-client/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-04-18 07:49:57] INFO root fetch - processPackages [msaDocModels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msaDocModels-0.0.8.tar.gz tmp/msaDocModels-0.0.9.tar.gz --markdown 20230418/m/msaDocModels/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-18 07:49:57] INFO root fetch - processPackages [django-mapper]: executing diffoscope
+[2023-04-18 07:49:57] INFO root fetch - processPackages [django-mapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-mapper-1.1.2.tar.gz tmp/django-mapper-1.1.3.tar.gz --markdown 20230418/d/django-mapper/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-04-18 07:49:57] INFO root fetch - processPackages [kttools]: Downloading https://files.pythonhosted.org/packages/b5/1c/5e84a0c998a55a3abce3762f41a2f2aafb048176706abbab6ccb13cbe6c6/kttools-0.2.1.tar.gz
+[2023-04-18 07:49:57] INFO root fetch - processPackages [birenci-infra]: executing diffoscope
+[2023-04-18 07:49:57] INFO root fetch - processPackages [birenci-infra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/birenci-infra-0.0.2.tar.gz tmp/birenci-infra-0.0.3.tar.gz --markdown 20230418/b/birenci-infra/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-18 07:49:57] INFO root fetch - processPackages [py-kvstore]: executing diffoscope
+[2023-04-18 07:49:57] INFO root fetch - processPackages [py-kvstore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_kvstore-0.0.3.tar.gz tmp/py_kvstore-0.0.4.tar.gz --markdown 20230418/p/py-kvstore/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-18 07:49:57] INFO root fetch - processPackages [micado-client]: Downloading https://files.pythonhosted.org/packages/8e/e8/2948675ea74de03083f19540e168318faa49f9ae1f6c92ae11a9a45ac034/micado-client-0.12.0a2.tar.gz
+[2023-04-18 07:49:57] INFO root fetch - processPackages [turing-sdk]: Downloading https://files.pythonhosted.org/packages/26/36/2ac15f8049170e515149e0b51fbf0316d875cdb2d73ecbc60270ff767a87/turing-sdk-0.9.0rc1.tar.gz
+[2023-04-18 07:49:57] INFO root fetch - processPackages [datclass]: Downloading https://files.pythonhosted.org/packages/8c/69/de86bdd3347147fcf9ab32137d87a439a3410aa3406b262f8781a9af464a/datclass-0.2.2.tar.gz
+[2023-04-18 07:49:57] INFO root fetch - processPackages [kttools]: executing diffoscope
+[2023-04-18 07:49:57] INFO root fetch - processPackages [kttools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kttools-0.2.0.tar.gz tmp/kttools-0.2.1.tar.gz --markdown 20230418/k/kttools/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-04-18 07:49:57] INFO root fetch - processPackages [micado-client]: executing diffoscope
+[2023-04-18 07:49:57] INFO root fetch - processPackages [micado-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micado-client-0.12.0a1.tar.gz tmp/micado-client-0.12.0a2.tar.gz --markdown 20230418/m/micado-client/0.12.0a1-0.12.0a2/diff.md --exclude *.pyd
+[2023-04-18 07:49:57] INFO root fetch - processPackages [datclass]: executing diffoscope
+[2023-04-18 07:49:57] INFO root fetch - processPackages [datclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datclass-0.2.1.tar.gz tmp/datclass-0.2.2.tar.gz --markdown 20230418/d/datclass/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-18 07:49:57] INFO root fetch - processPackages [turing-sdk]: executing diffoscope
+[2023-04-18 07:49:57] INFO root fetch - processPackages [turing-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turing-sdk-0.8.0rc1.tar.gz tmp/turing-sdk-0.9.0rc1.tar.gz --markdown 20230418/t/turing-sdk/0.8.0rc1-0.9.0rc1/diff.md --exclude *.pyd
+[2023-04-18 07:49:58] INFO root fetch - processPackages [plonetheme.barceloneta]: Downloading https://files.pythonhosted.org/packages/a9/85/b16168bdb8844b30d945196a8c8e0da49a722e2cf0e009971c0f4dfa6de8/plonetheme.barceloneta-3.1.2.tar.gz
+[2023-04-18 07:49:58] INFO root fetch - processPackages [msaDocModels]: Start processing: windbg-copilot
+[2023-04-18 07:49:58] INFO root fetch - main [MainThread]: End processing [msaDocModels]: success
+[2023-04-18 07:49:58] INFO root fetch - processPackages [windbg-copilot]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-18 07:49:58] INFO root fetch - processPackages [django-mapper]: Start processing: pyiotown
+[2023-04-18 07:49:58] INFO root fetch - main [MainThread]: End processing [django-mapper]: success
+[2023-04-18 07:49:59] INFO root fetch - processPackages [pyiotown]: New version: [0.4.3.dev4] Old Version: [0.4.3.dev3]
+[2023-04-18 07:49:59] INFO root fetch - processPackages [py-kvstore]: Start processing: datclass
+[2023-04-18 07:49:59] INFO root fetch - main [MainThread]: End processing [py-kvstore]: success
+[2023-04-18 07:49:59] INFO root fetch - processPackages [datclass]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-18 07:49:59] INFO root fetch - main [MainThread]: End processing [common-task-system-client]: success
+[2023-04-18 07:49:59] INFO root fetch - processPackages [datclass]: executing diffoscope
+[2023-04-18 07:49:59] INFO root fetch - processPackages [datclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datclass-0.2.1.tar.gz tmp/datclass-0.2.2.tar.gz --markdown 20230418/d/datclass/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-18 07:49:59] INFO root fetch - processPackages [windbg-copilot]: Downloading https://files.pythonhosted.org/packages/1c/ff/3b4ccf4b285695a0050fb8ebad265000908135b8796121c29e96c7d28928/windbg_copilot-1.0.2.tar.gz
+[2023-04-18 07:49:59] INFO root fetch - processPackages [pyiotown]: Downloading https://files.pythonhosted.org/packages/67/e8/6b8a934c35d11145a67feb67d6ff6d97c8b9eceb0d8df1927c39ad22ed4c/pyiotown-0.4.3.dev3-py3-none-any.whl
+[2023-04-18 07:49:59] INFO root fetch - main [MainThread]: End processing [kttools]: success
+[2023-04-18 07:49:59] INFO root fetch - processPackages [windbg-copilot]: executing diffoscope
+[2023-04-18 07:49:59] INFO root fetch - processPackages [windbg-copilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windbg_copilot-1.0.1.tar.gz tmp/windbg_copilot-1.0.2.tar.gz --markdown 20230418/w/windbg-copilot/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-18 07:49:59] INFO root fetch - main [MainThread]: End processing [datclass]: success
+[2023-04-18 07:49:59] INFO root fetch - main [MainThread]: End processing [birenci-infra]: success
+[2023-04-18 07:49:59] INFO root fetch - processPackages [pyiotown]: Downloading https://files.pythonhosted.org/packages/96/ff/40f32101c21b4f8f4a60ecf623e31723ac9a319b025594db52d1fe7d599d/pyiotown-0.4.3.dev4-py3-none-any.whl
+[2023-04-18 07:49:59] INFO root fetch - main [MainThread]: End processing [micado-client]: success
+[2023-04-18 07:49:59] INFO root fetch - processPackages [pyiotown]: executing diffoscope
+[2023-04-18 07:49:59] INFO root fetch - processPackages [pyiotown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiotown-0.4.3.dev3-py3-none-any.whl.zip tmp/pyiotown-0.4.3.dev4-py3-none-any.whl.zip --markdown 20230418/p/pyiotown/0.4.3.dev3-0.4.3.dev4/diff.md --exclude *.pyd
+[2023-04-18 07:50:00] INFO root fetch - main [MainThread]: End processing [turing-sdk]: success
+[2023-04-18 07:50:00] INFO root fetch - main [MainThread]: End processing [datclass]: success
+[2023-04-18 07:50:00] INFO root fetch - main [MainThread]: End processing [windbg-copilot]: success
+[2023-04-18 07:50:00] INFO root fetch - main [MainThread]: End processing [pyiotown]: success
+[2023-04-18 07:50:00] INFO root fetch - processPackages [plonetheme.barceloneta]: executing diffoscope
+[2023-04-18 07:50:00] INFO root fetch - processPackages [plonetheme.barceloneta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plonetheme.barceloneta-3.1.1.tar.gz tmp/plonetheme.barceloneta-3.1.2.tar.gz --markdown 20230418/p/plonetheme.barceloneta/3.1.1-3.1.2/diff.md --exclude *.pyd
+[2023-04-18 07:50:05] INFO root fetch - main [MainThread]: End processing [plonetheme.barceloneta]: success
+[2023-04-18 07:50:05] INFO root fetch - main [MainThread]: Store serial: [17750114]
