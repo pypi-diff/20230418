@@ -19072,3 +19072,83 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 100: invali
 [2023-04-18 13:38:32] INFO root fetch - main [MainThread]: End processing [mlrun]: success
 [2023-04-18 13:38:45] INFO root fetch - main [MainThread]: End processing [fedml]: success
 [2023-04-18 13:38:45] INFO root fetch - main [MainThread]: Store serial: [17755061]
+[2023-04-18 13:43:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17755061]
+[2023-04-18 13:43:54] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-04-18 13:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pythonlogo
+[2023-04-18 13:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: claws
+[2023-04-18 13:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-orca
+[2023-04-18 13:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wordslistpack
+[2023-04-18 13:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-friesian
+[2023-04-18 13:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl
+[2023-04-18 13:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pycti
+[2023-04-18 13:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: idem-gcp
+[2023-04-18 13:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: langcorn
+[2023-04-18 13:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: logfire-python
+[2023-04-18 13:43:54] ERROR root fetch - processPackages [pythonlogo]: Unable to get metadata: No such project 'pythonlogo'
+[2023-04-18 13:43:54] INFO root fetch - processPackages [pythonlogo]: Start processing: lossers
+[2023-04-18 13:43:54] INFO root fetch - main [MainThread]: End processing [pythonlogo] error
+[2023-04-18 13:43:54] WARNING root fetch - processPackages [wordslistpack]: Skipping, unable to determine old version
+[2023-04-18 13:43:54] INFO root fetch - processPackages [wordslistpack]: Start processing: auraboros
+[2023-04-18 13:43:54] INFO root fetch - main [MainThread]: End processing [wordslistpack] error
+[2023-04-18 13:43:54] INFO root fetch - processPackages [langcorn]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-18 13:43:54] INFO root fetch - processPackages [claws]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-18 13:43:54] WARNING root fetch - processPackages [logfire-python]: Skipping, unable to determine old version
+[2023-04-18 13:43:54] INFO root fetch - processPackages [logfire-python]: Start processing: torchx-nightly
+[2023-04-18 13:43:54] INFO root fetch - processPackages [idem-gcp]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-18 13:43:54] INFO root fetch - main [MainThread]: End processing [logfire-python] error
+[2023-04-18 13:43:54] INFO root fetch - processPackages [auraboros]: New version: [0.9.0a0] Old Version: [0.8.0a0]
+[2023-04-18 13:43:54] INFO root fetch - processPackages [bigdl-orca]: New version: [2.3.0b20230418] Old Version: [2.3.0b20230417]
+[2023-04-18 13:43:54] INFO root fetch - processPackages [lossers]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-18 13:43:54] INFO root fetch - processPackages [bigdl-friesian]: New version: [2.3.0b20230418] Old Version: [2.3.0b20230417]
+[2023-04-18 13:43:54] INFO root fetch - processPackages [pycti]: New version: [5.7.post571] Old Version: [5.7.post570]
+[2023-04-18 13:43:54] INFO root fetch - processPackages [bigdl]: New version: [2.3.0b20230418] Old Version: [2.3.0b20230417]
+[2023-04-18 13:43:55] INFO root fetch - processPackages [auraboros]: executing diffoscope
+[2023-04-18 13:43:55] INFO root fetch - processPackages [auraboros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auraboros-0.8.0a0.tar.gz tmp/auraboros-0.9.0a0.tar.gz --markdown 20230418/a/auraboros/0.8.0a0-0.9.0a0/diff.md --exclude *.pyd
+[2023-04-18 13:43:55] INFO root fetch - processPackages [torchx-nightly]: New version: [2023.4.9] Old Version: [2023.4.8]
+[2023-04-18 13:43:55] INFO root fetch - processPackages [claws]: Downloading https://files.pythonhosted.org/packages/f3/b2/7e504a28905e6d238dcb346f19ab7c10a6f7334f1625da3e3a751b7b319e/claws-0.0.7.tar.gz
+[2023-04-18 13:43:55] INFO root fetch - processPackages [bigdl-orca]: Downloading https://files.pythonhosted.org/packages/85/5a/f0beb734f3e3a8b6fe860f50ee9b815025a869aa0d91e0757360c9155560/bigdl_orca-2.3.0b20230417-py3-none-manylinux1_x86_64.whl
+[2023-04-18 13:43:55] INFO root fetch - processPackages [idem-gcp]: Downloading https://files.pythonhosted.org/packages/12/23/6cb8ee4fdfe5a4c27bc28f2d8658308883b7415e05456539a00d0844cbb4/idem_gcp-0.8.0.tar.gz
+[2023-04-18 13:43:55] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/d8/a6/49c269d5580c90c9b9c2317cdc516d6f1c76ec1cdbbc3d17c3b8f31751b2/bigdl_friesian-2.3.0b20230417-py3-none-manylinux1_x86_64.whl
+[2023-04-18 13:43:55] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/52/cf/33fcd04af21994809d2696e20c2b0610fde960f63787dd561c33b58a5cf4/bigdl-2.3.0b20230417-py3-none-manylinux1_x86_64.whl
+[2023-04-18 13:43:55] INFO root fetch - processPackages [pycti]: Downloading https://files.pythonhosted.org/packages/77/18/264585e063968be139e7bcd31f7467c4a697507a1c1fce89671f5ca2eab7/pycti-5.7.post571.tar.gz
+[2023-04-18 13:43:55] INFO root fetch - processPackages [langcorn]: Downloading https://files.pythonhosted.org/packages/c0/a1/641d2d8c1a5e73adc0dd3cc6076d3debea6dcd6592ea6b3b78025c813885/langcorn-0.0.5.tar.gz
+[2023-04-18 13:43:55] INFO root fetch - processPackages [lossers]: Downloading https://files.pythonhosted.org/packages/e4/f1/7755ce8598582b16b18cdce7fc43c26a3eb5ebc7d5a165ee4ebd867ca445/lossers-0.0.3.tar.gz
+[2023-04-18 13:43:55] INFO root fetch - processPackages [claws]: Downloading https://files.pythonhosted.org/packages/c8/86/1f79bf034202584a0d7253cb02465daba515eda0e7c664d13d3d22f37bf1/claws-0.0.8.tar.gz
+[2023-04-18 13:43:55] WARNING root fetch - processPackages [bigdl-orca]: Skipping package: exceeds size limit 20367771>=10485760
+[2023-04-18 13:43:55] INFO root fetch - processPackages [bigdl-orca]: Start processing: blinkpdf
+[2023-04-18 13:43:55] INFO root fetch - main [MainThread]: End processing [bigdl-orca] error
+[2023-04-18 13:43:55] INFO root fetch - processPackages [pycti]: executing diffoscope
+[2023-04-18 13:43:55] INFO root fetch - processPackages [pycti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycti-5.7.post570.tar.gz tmp/pycti-5.7.post571.tar.gz --markdown 20230418/p/pycti/5.7.post570-5.7.post571/diff.md --exclude *.pyd
+[2023-04-18 13:43:55] INFO root fetch - processPackages [langcorn]: executing diffoscope
+[2023-04-18 13:43:55] INFO root fetch - processPackages [langcorn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langcorn-0.0.4.tar.gz tmp/langcorn-0.0.5.tar.gz --markdown 20230418/l/langcorn/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-18 13:43:55] INFO root fetch - processPackages [idem-gcp]: Downloading https://files.pythonhosted.org/packages/eb/15/ed9036d87031ececcf8c8d07783f31e76ac239648325b7d147abf78b5446/idem_gcp-0.9.0.tar.gz
+[2023-04-18 13:43:55] INFO root fetch - processPackages [blinkpdf]: New version: [1.5] Old Version: [1.4]
+[2023-04-18 13:43:55] INFO root fetch - processPackages [lossers]: executing diffoscope
+[2023-04-18 13:43:55] INFO root fetch - processPackages [lossers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lossers-0.0.2.tar.gz tmp/lossers-0.0.3.tar.gz --markdown 20230418/l/lossers/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-18 13:43:55] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/fa/0c/349b274e61bdb0d866c138109a4ad6d1f3b7595db773c636aa148ebfdc7a/bigdl-2.3.0b20230418-py3-none-manylinux1_x86_64.whl
+[2023-04-18 13:43:55] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/93/34/3752007b63c0d9e134d4921e3b6ff14dc8b000ebd77a60f05a18588d1d2f/bigdl_friesian-2.3.0b20230418-py3-none-manylinux1_x86_64.whl
+[2023-04-18 13:43:55] INFO root fetch - processPackages [claws]: executing diffoscope
+[2023-04-18 13:43:55] INFO root fetch - processPackages [claws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/claws-0.0.7.tar.gz tmp/claws-0.0.8.tar.gz --markdown 20230418/c/claws/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-18 13:43:55] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2023-04-18 13:43:55] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2023.4.8-py3-none-any.whl.zip tmp/torchx_nightly-2023.4.9-py3-none-any.whl.zip --markdown 20230418/t/torchx-nightly/2023.4.8-2023.4.9/diff.md --exclude *.pyd
+[2023-04-18 13:43:55] INFO root fetch - processPackages [idem-gcp]: executing diffoscope
+[2023-04-18 13:43:55] INFO root fetch - processPackages [idem-gcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idem_gcp-0.8.0.tar.gz tmp/idem_gcp-0.9.0.tar.gz --markdown 20230418/i/idem-gcp/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-18 13:43:55] INFO root fetch - processPackages [blinkpdf]: Downloading https://files.pythonhosted.org/packages/b7/55/c8ab9a874cd1114993cbdc1219c47ae2a9c25bf5f105413fc3aa1a268c34/blinkpdf-1.4.tar.gz
+[2023-04-18 13:43:55] INFO root fetch - processPackages [bigdl]: executing diffoscope
+[2023-04-18 13:43:55] INFO root fetch - processPackages [bigdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl-2.3.0b20230417-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl-2.3.0b20230418-py3-none-manylinux1_x86_64.whl.zip --markdown 20230418/b/bigdl/2.3.0b20230417-2.3.0b20230418/diff.md --exclude *.pyd
+[2023-04-18 13:43:55] INFO root fetch - processPackages [bigdl-friesian]: executing diffoscope
+[2023-04-18 13:43:55] INFO root fetch - processPackages [bigdl-friesian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian-2.3.0b20230417-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian-2.3.0b20230418-py3-none-manylinux1_x86_64.whl.zip --markdown 20230418/b/bigdl-friesian/2.3.0b20230417-2.3.0b20230418/diff.md --exclude *.pyd
+[2023-04-18 13:43:56] INFO root fetch - processPackages [blinkpdf]: Downloading https://files.pythonhosted.org/packages/68/6e/991b12731850fb65056446471f574da16104d49d4abbd7b16eb50d2299f4/blinkpdf-1.5.tar.gz
+[2023-04-18 13:43:56] INFO root fetch - processPackages [blinkpdf]: executing diffoscope
+[2023-04-18 13:43:56] INFO root fetch - processPackages [blinkpdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blinkpdf-1.4.tar.gz tmp/blinkpdf-1.5.tar.gz --markdown 20230418/b/blinkpdf/1.4-1.5/diff.md --exclude *.pyd
+[2023-04-18 13:43:56] INFO root fetch - main [MainThread]: End processing [langcorn]: success
+[2023-04-18 13:43:56] INFO root fetch - main [MainThread]: End processing [bigdl]: success
+[2023-04-18 13:43:56] INFO root fetch - main [MainThread]: End processing [claws]: success
+[2023-04-18 13:43:56] INFO root fetch - main [MainThread]: End processing [lossers]: success
+[2023-04-18 13:43:57] INFO root fetch - main [MainThread]: End processing [blinkpdf]: success
+[2023-04-18 13:43:57] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2023-04-18 13:43:58] INFO root fetch - main [MainThread]: End processing [bigdl-friesian]: success
+[2023-04-18 13:43:59] INFO root fetch - main [MainThread]: End processing [pycti]: success
+[2023-04-18 13:43:59] INFO root fetch - main [MainThread]: End processing [auraboros]: success
+[2023-04-18 13:43:59] INFO root fetch - main [MainThread]: End processing [idem-gcp]: success
+[2023-04-18 13:43:59] INFO root fetch - main [MainThread]: Store serial: [17755108]
