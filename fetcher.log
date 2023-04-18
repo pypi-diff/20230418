@@ -16138,3 +16138,112 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-18 11:01:30] INFO root fetch - main [MainThread]: End processing [alphaz]: success
 [2023-04-18 11:01:35] INFO root fetch - main [MainThread]: End processing [jupyterlab-h5web]: success
 [2023-04-18 11:01:35] INFO root fetch - main [MainThread]: Store serial: [17753229]
+[2023-04-18 11:06:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17753229]
+[2023-04-18 11:06:45] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-04-18 11:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unitn-course-scraper
+[2023-04-18 11:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: w2w-ecs-autopublish-dummy
+[2023-04-18 11:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scikit-mine
+[2023-04-18 11:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jaquar
+[2023-04-18 11:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dql-alpha
+[2023-04-18 11:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autogluon.common
+[2023-04-18 11:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autogluon.core
+[2023-04-18 11:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autogluon.features
+[2023-04-18 11:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autogluon.tabular
+[2023-04-18 11:06:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autogluon.multimodal
+[2023-04-18 11:06:45] WARNING root fetch - processPackages [unitn-course-scraper]: Skipping, unable to determine old version
+[2023-04-18 11:06:45] INFO root fetch - processPackages [jaquar]: New version: [0.5.6] Old Version: [0.5.4]
+[2023-04-18 11:06:45] INFO root fetch - processPackages [unitn-course-scraper]: Start processing: autogluon.timeseries
+[2023-04-18 11:06:45] INFO root fetch - main [MainThread]: End processing [unitn-course-scraper] error
+[2023-04-18 11:06:45] INFO root fetch - processPackages [scikit-mine]: New version: [1.0.0] Old Version: [0.0.9]
+[2023-04-18 11:06:45] INFO root fetch - processPackages [w2w-ecs-autopublish-dummy]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-18 11:06:45] INFO root fetch - processPackages [autogluon.common]: New version: [0.7.0b20230418] Old Version: [0.7.0b20230417]
+[2023-04-18 11:06:45] INFO root fetch - processPackages [autogluon.timeseries]: New version: [0.7.0b20230418] Old Version: [0.7.0b20230417]
+[2023-04-18 11:06:45] INFO root fetch - processPackages [dql-alpha]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-18 11:06:45] INFO root fetch - processPackages [autogluon.multimodal]: New version: [0.7.0b20230418] Old Version: [0.7.0b20230417]
+[2023-04-18 11:06:45] INFO root fetch - processPackages [autogluon.tabular]: New version: [0.7.0b20230418] Old Version: [0.7.0b20230417]
+[2023-04-18 11:06:45] INFO root fetch - processPackages [autogluon.features]: New version: [0.7.0b20230418] Old Version: [0.7.0b20230417]
+[2023-04-18 11:06:45] INFO root fetch - processPackages [autogluon.core]: New version: [0.7.0b20230418] Old Version: [0.7.0b20230417]
+[2023-04-18 11:06:45] INFO root fetch - processPackages [w2w-ecs-autopublish-dummy]: Downloading https://files.pythonhosted.org/packages/03/2a/146727565b470fddd3c022f943e1c080a810be927a429e7182377b78369c/w2w_ecs_autopublish_dummy-0.0.3.tar.gz
+[2023-04-18 11:06:45] INFO root fetch - processPackages [scikit-mine]: Downloading https://files.pythonhosted.org/packages/08/95/d3f799274921375df3fedf203fc87c42e2026e7daa8d8b0f5f414df57032/scikit-mine-0.0.9.tar.gz
+[2023-04-18 11:06:45] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/6a/b4/0f88d1174c6f98055e9298fafff20a2858baa2ab8c93a65a9f4e8f3dfcd0/autogluon.timeseries-0.7.0b20230417.tar.gz
+[2023-04-18 11:06:45] INFO root fetch - processPackages [jaquar]: Downloading https://files.pythonhosted.org/packages/2e/f4/9de200494d050c44033aaa06b9421c2b9df496f9ffa8752d563b2986d2a1/jaquar-0.5.6.tar.gz
+[2023-04-18 11:06:45] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/d0/69/b8aee906ef88b9c3803c0a435a6cbf5411e2082caf1f9871428086e2042d/autogluon.common-0.7.0b20230418.tar.gz
+[2023-04-18 11:06:45] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/f2/7b/605b73be47e07efcfba12d8b8017f6c88f1e02968b60dcd94fec27306aed/autogluon.multimodal-0.7.0b20230417.tar.gz
+[2023-04-18 11:06:45] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/a3/14/d448656e668979cdb63acce1511fa6668e23c7df65e361ac61ea1467dc9f/autogluon.features-0.7.0b20230418.tar.gz
+[2023-04-18 11:06:45] INFO root fetch - processPackages [jaquar]: executing diffoscope
+[2023-04-18 11:06:45] INFO root fetch - processPackages [jaquar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaquar-0.5.4.tar.gz tmp/jaquar-0.5.6.tar.gz --markdown 20230418/j/jaquar/0.5.4-0.5.6/diff.md --exclude *.pyd
+[2023-04-18 11:06:45] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/d4/b9/5cf71a16ae69b596019ff6c5575881ba93c9c218446db687e7d06d0cb839/autogluon.core-0.7.0b20230418.tar.gz
+[2023-04-18 11:06:45] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/74/87/e68d5e53fdf50bf3837fbbd0483c523736eaebd917759c70750c416feac8/autogluon.tabular-0.7.0b20230418.tar.gz
+[2023-04-18 11:06:46] INFO root fetch - processPackages [w2w-ecs-autopublish-dummy]: Downloading https://files.pythonhosted.org/packages/46/5b/087d67458ccecd3c44b8d905f3ba979a6d53f439409fc74dfa83f3bafdb6/w2w_ecs_autopublish_dummy-0.0.4.tar.gz
+[2023-04-18 11:06:46] INFO root fetch - processPackages [w2w-ecs-autopublish-dummy]: executing diffoscope
+[2023-04-18 11:06:46] INFO root fetch - processPackages [w2w-ecs-autopublish-dummy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/w2w_ecs_autopublish_dummy-0.0.3.tar.gz tmp/w2w_ecs_autopublish_dummy-0.0.4.tar.gz --markdown 20230418/w/w2w-ecs-autopublish-dummy/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-18 11:06:46] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2023-04-18 11:06:46] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-0.7.0b20230417.tar.gz tmp/autogluon.common-0.7.0b20230418.tar.gz --markdown 20230418/a/autogluon.common/0.7.0b20230417-0.7.0b20230418/diff.md --exclude *.pyd
+[2023-04-18 11:06:46] INFO root fetch - processPackages [autogluon.features]: executing diffoscope
+[2023-04-18 11:06:46] INFO root fetch - processPackages [autogluon.features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.features-0.7.0b20230417.tar.gz tmp/autogluon.features-0.7.0b20230418.tar.gz --markdown 20230418/a/autogluon.features/0.7.0b20230417-0.7.0b20230418/diff.md --exclude *.pyd
+[2023-04-18 11:06:46] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2023-04-18 11:06:46] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-0.7.0b20230417.tar.gz tmp/autogluon.core-0.7.0b20230418.tar.gz --markdown 20230418/a/autogluon.core/0.7.0b20230417-0.7.0b20230418/diff.md --exclude *.pyd
+[2023-04-18 11:06:46] INFO root fetch - processPackages [autogluon.tabular]: executing diffoscope
+[2023-04-18 11:06:46] INFO root fetch - processPackages [autogluon.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.tabular-0.7.0b20230417.tar.gz tmp/autogluon.tabular-0.7.0b20230418.tar.gz --markdown 20230418/a/autogluon.tabular/0.7.0b20230417-0.7.0b20230418/diff.md --exclude *.pyd
+[2023-04-18 11:06:46] INFO root fetch - processPackages [dql-alpha]: executing diffoscope
+[2023-04-18 11:06:46] INFO root fetch - processPackages [dql-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dql-alpha-0.8.0.tar.gz tmp/dql-alpha-0.9.0.tar.gz --markdown 20230418/d/dql-alpha/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-18 11:06:46] INFO root fetch - processPackages [scikit-mine]: Downloading https://files.pythonhosted.org/packages/02/d9/5613462c9d2e4ea505898a85df20e568ca0fb1cb764d0af309f423071b8e/scikit-mine-1.0.0.tar.gz
+[2023-04-18 11:06:46] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/bf/48/44df9064a0a153b5c0dc5a5b69543eba7aec4e0d24eb4a2da5e566701630/autogluon.timeseries-0.7.0b20230418.tar.gz
+[2023-04-18 11:06:46] INFO root fetch - processPackages [scikit-mine]: executing diffoscope
+[2023-04-18 11:06:46] INFO root fetch - processPackages [scikit-mine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-mine-0.0.9.tar.gz tmp/scikit-mine-1.0.0.tar.gz --markdown 20230418/s/scikit-mine/0.0.9-1.0.0/diff.md --exclude *.pyd
+[2023-04-18 11:06:46] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/10/f1/aea449929374ba6042397b490d90538d081d03712c26d662a1d3b19c0d01/autogluon.multimodal-0.7.0b20230418.tar.gz
+[2023-04-18 11:06:46] INFO root fetch - processPackages [autogluon.timeseries]: executing diffoscope
+[2023-04-18 11:06:46] INFO root fetch - processPackages [autogluon.timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.timeseries-0.7.0b20230417.tar.gz tmp/autogluon.timeseries-0.7.0b20230418.tar.gz --markdown 20230418/a/autogluon.timeseries/0.7.0b20230417-0.7.0b20230418/diff.md --exclude *.pyd
+[2023-04-18 11:06:46] INFO root fetch - processPackages [autogluon.multimodal]: executing diffoscope
+[2023-04-18 11:06:46] INFO root fetch - processPackages [autogluon.multimodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.multimodal-0.7.0b20230417.tar.gz tmp/autogluon.multimodal-0.7.0b20230418.tar.gz --markdown 20230418/a/autogluon.multimodal/0.7.0b20230417-0.7.0b20230418/diff.md --exclude *.pyd
+[2023-04-18 11:06:47] INFO root fetch - processPackages [jaquar]: Start processing: autogluon
+[2023-04-18 11:06:47] INFO root fetch - main [MainThread]: End processing [jaquar]: success
+[2023-04-18 11:06:47] INFO root fetch - processPackages [autogluon]: New version: [0.7.0b20230418] Old Version: [0.7.0b20230417]
+[2023-04-18 11:06:47] INFO root fetch - processPackages [w2w-ecs-autopublish-dummy]: Start processing: autogluon.eda
+[2023-04-18 11:06:47] INFO root fetch - main [MainThread]: End processing [w2w-ecs-autopublish-dummy]: success
+[2023-04-18 11:06:47] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/5d/0c/3323dc62bcc54aee79b485e5ddac712be965959a678f93e347db3cf1bb24/autogluon-0.7.0b20230417.tar.gz
+[2023-04-18 11:06:47] INFO root fetch - processPackages [autogluon.features]: Start processing: odoo14-addon-base-tier-validation
+[2023-04-18 11:06:47] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
+[2023-04-18 11:06:47] INFO root fetch - processPackages [autogluon.eda]: New version: [0.7.0b20230418] Old Version: [0.7.0b20230417]
+[2023-04-18 11:06:47] INFO root fetch - processPackages [odoo14-addon-base-tier-validation]: New version: [14.0.2.9.3.dev2] Old Version: [14.0.2.9.3.dev1]
+[2023-04-18 11:06:47] INFO root fetch - processPackages [autogluon.common]: Start processing: power-grid-model
+[2023-04-18 11:06:47] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2023-04-18 11:06:47] INFO root fetch - processPackages [power-grid-model]: New version: [1.5.0rc9160504214835] Old Version: [1.5.0rc9152109758095]
+[2023-04-18 11:06:47] INFO root fetch - processPackages [autogluon.timeseries]: Start processing: pepperize.projen-awscdk-construct
+[2023-04-18 11:06:47] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
+[2023-04-18 11:06:47] INFO root fetch - processPackages [odoo14-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/a4/41/f6e395b9f5937455356910186875b19fa954e93ff9234913ca6fbf9a4826/odoo14_addon_base_tier_validation-14.0.2.9.3.dev1-py3-none-any.whl
+[2023-04-18 11:06:47] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-18 11:06:48] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/05/b9/707686d5b0262dbf01b83abdfc49d32e412f491d6cdb9e6ad0b17781217f/autogluon-0.7.0b20230418.tar.gz
+[2023-04-18 11:06:48] INFO root fetch - processPackages [scikit-mine]: Start processing: AliveHelper
+[2023-04-18 11:06:48] INFO root fetch - main [MainThread]: End processing [scikit-mine]: success
+[2023-04-18 11:06:48] INFO root fetch - processPackages [AliveHelper]: New version: [1.2] Old Version: [1.1]
+[2023-04-18 11:06:48] INFO root fetch - processPackages [autogluon]: executing diffoscope
+[2023-04-18 11:06:48] INFO root fetch - processPackages [autogluon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon-0.7.0b20230417.tar.gz tmp/autogluon-0.7.0b20230418.tar.gz --markdown 20230418/a/autogluon/0.7.0b20230417-0.7.0b20230418/diff.md --exclude *.pyd
+[2023-04-18 11:06:48] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/73/65/dda73a01dc2ff283b57f83a0bbc3f1c935027e6ee30e4e6bc15797d67da0/pepperize.projen-awscdk-construct-0.0.98.tar.gz
+[2023-04-18 11:06:48] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/a9/1c/68470a78ee4b9f074871ab42c162091962d87f6aa5589d498caf52830928/power_grid_model-1.5.0rc9160504214835-py3-none-win_amd64.whl
+[2023-04-18 11:06:48] INFO root fetch - processPackages [odoo14-addon-base-tier-validation]: Downloading https://files.pythonhosted.org/packages/73/89/7073b56a745671f832b25a39cb81b5ea7fb5f16de94186cd6e016b7723d0/odoo14_addon_base_tier_validation-14.0.2.9.3.dev2-py3-none-any.whl
+[2023-04-18 11:06:48] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2023-04-18 11:06:48] INFO root fetch - processPackages [odoo14-addon-base-tier-validation]: executing diffoscope
+[2023-04-18 11:06:48] INFO root fetch - processPackages [odoo14-addon-base-tier-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_base_tier_validation-14.0.2.9.3.dev1-py3-none-any.whl.zip tmp/odoo14_addon_base_tier_validation-14.0.2.9.3.dev2-py3-none-any.whl.zip --markdown 20230418/o/odoo14-addon-base-tier-validation/14.0.2.9.3.dev1-14.0.2.9.3.dev2/diff.md --exclude *.pyd
+[2023-04-18 11:06:48] INFO root fetch - processPackages [autogluon.eda]: Downloading https://files.pythonhosted.org/packages/fb/8e/70048493fcc20d4353a04815c57a52f8d3ac41457f901ca1c7ea0be79ab2/autogluon.eda-0.7.0b20230417.tar.gz
+[2023-04-18 11:06:48] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
+[2023-04-18 11:06:48] INFO root fetch - processPackages [AliveHelper]: Downloading https://files.pythonhosted.org/packages/9f/51/4aa55489fe904aa919da699f2c38160d5d72dcbf25e545c72725d1975811/AliveHelper-1.2.tar.gz
+[2023-04-18 11:06:48] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2023-04-18 11:06:48] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power_grid_model-1.5.0rc9152109758095-py3-none-win_amd64.whl.zip tmp/power_grid_model-1.5.0rc9160504214835-py3-none-win_amd64.whl.zip --markdown 20230418/p/power-grid-model/1.5.0rc9152109758095-1.5.0rc9160504214835/diff.md --exclude *.pyd
+[2023-04-18 11:06:48] INFO root fetch - processPackages [AliveHelper]: executing diffoscope
+[2023-04-18 11:06:48] INFO root fetch - processPackages [AliveHelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AliveHelper-1.1.tar.gz tmp/AliveHelper-1.2.tar.gz --markdown 20230418/A/AliveHelper/1.1-1.2/diff.md --exclude *.pyd
+[2023-04-18 11:06:48] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/f5/d1/e1f4c78f27c0f4fcdd4024b42cd0ac56deada431e5cac3ce9363aec5c5dd/pepperize.projen-awscdk-construct-0.0.99.tar.gz
+[2023-04-18 11:06:48] INFO root fetch - processPackages [autogluon.eda]: Downloading https://files.pythonhosted.org/packages/cd/23/2e32b257d94d6f32da8e7e905136600543135df9cb3ed3520f73a095d152/autogluon.eda-0.7.0b20230418.tar.gz
+[2023-04-18 11:06:48] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: executing diffoscope
+[2023-04-18 11:06:48] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz --markdown 20230418/p/pepperize.projen-awscdk-construct/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-18 11:06:48] INFO root fetch - processPackages [autogluon.eda]: executing diffoscope
+[2023-04-18 11:06:48] INFO root fetch - processPackages [autogluon.eda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.eda-0.7.0b20230417.tar.gz tmp/autogluon.eda-0.7.0b20230418.tar.gz --markdown 20230418/a/autogluon.eda/0.7.0b20230417-0.7.0b20230418/diff.md --exclude *.pyd
+[2023-04-18 11:06:49] INFO root fetch - main [MainThread]: End processing [autogluon]: success
+[2023-04-18 11:06:49] INFO root fetch - main [MainThread]: End processing [AliveHelper]: success
+[2023-04-18 11:06:49] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-tier-validation]: success
+[2023-04-18 11:06:49] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-construct]: success
+[2023-04-18 11:06:49] INFO root fetch - main [MainThread]: End processing [dql-alpha]: success
+[2023-04-18 11:06:49] INFO root fetch - main [MainThread]: End processing [autogluon.eda]: success
+[2023-04-18 11:06:51] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
+[2023-04-18 11:06:52] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2023-04-18 11:06:52] INFO root fetch - main [MainThread]: Store serial: [17753283]
