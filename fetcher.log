@@ -7524,3 +7524,44 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 04:29:03] INFO root fetch - main [MainThread]: End processing [efax]: success
 [2023-04-18 04:29:04] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2023-04-18 04:29:04] INFO root fetch - main [MainThread]: Store serial: [17748723]
+[2023-04-18 04:34:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17748723]
+[2023-04-18 04:34:13] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-04-18 04:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hass-nabucasa
+[2023-04-18 04:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xh-dict-utils
+[2023-04-18 04:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlglot
+[2023-04-18 04:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: buge
+[2023-04-18 04:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: laningfaiss
+[2023-04-18 04:34:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: teelebot
+[2023-04-18 04:34:13] INFO root fetch - processPackages [laningfaiss]: New version: [0.0.9] Old Version: [0.0.8a0]
+[2023-04-18 04:34:13] INFO root fetch - processPackages [xh-dict-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-18 04:34:13] INFO root fetch - processPackages [hass-nabucasa]: New version: [0.9] Old Version: [0.8]
+[2023-04-18 04:34:13] INFO root fetch - processPackages [buge]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-18 04:34:13] INFO root fetch - processPackages [sqlglot]: New version: [9.0.6] Old Version: [9.0.5]
+[2023-04-18 04:34:13] INFO root fetch - processPackages [laningfaiss]: executing diffoscope
+[2023-04-18 04:34:13] INFO root fetch - processPackages [laningfaiss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laningfaiss-0.0.8a0.tar.gz tmp/laningfaiss-0.0.9.tar.gz --markdown 20230418/l/laningfaiss/0.0.8a0-0.0.9/diff.md --exclude *.pyd
+[2023-04-18 04:34:13] INFO root fetch - processPackages [teelebot]: New version: [1.23.0] Old Version: [1.22.0]
+[2023-04-18 04:34:13] INFO root fetch - processPackages [buge]: Downloading https://files.pythonhosted.org/packages/b6/00/e5dc2d05ef2b9f757c7a8b204d65f8a63eea9ceac7fb7fd2f5343f772848/buge-0.0.2.tar.gz
+[2023-04-18 04:34:13] INFO root fetch - processPackages [hass-nabucasa]: Downloading https://files.pythonhosted.org/packages/fc/45/e5473d0adc7b2f6f69d1b4128c7cb8a0241e7d2a312a30ca4e1bcceb64e8/hass-nabucasa-0.8.tar.gz
+[2023-04-18 04:34:13] INFO root fetch - processPackages [sqlglot]: Downloading https://files.pythonhosted.org/packages/20/6b/5034324cd2ac42831b5103037f6a14e518172128c4196b8d01b93dcc76c8/sqlglot-9.0.5.tar.gz
+[2023-04-18 04:34:13] INFO root fetch - processPackages [teelebot]: Downloading https://files.pythonhosted.org/packages/4d/4f/1bfd807a4a6d3f1cb90d4924b2d4588278f8dfd3cea55283f1a2040ae6f0/teelebot-1.22.0-py3-none-any.whl
+[2023-04-18 04:34:13] INFO root fetch - processPackages [xh-dict-utils]: executing diffoscope
+[2023-04-18 04:34:13] INFO root fetch - processPackages [xh-dict-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xh-dict-utils-0.0.8.tar.gz tmp/xh-dict-utils-0.0.9.tar.gz --markdown 20230418/x/xh-dict-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-18 04:34:13] INFO root fetch - processPackages [buge]: Downloading https://files.pythonhosted.org/packages/43/88/3cf778c79acc7549f00b1b48f4e2dbd5a7383fee68d97992979227924ec3/buge-0.0.3.tar.gz
+[2023-04-18 04:34:13] INFO root fetch - processPackages [sqlglot]: Downloading https://files.pythonhosted.org/packages/36/2a/e7389a112e1a7cfd1fcc7c7209a0f8f5ffe905ce8aad03f447367dc9b209/sqlglot-9.0.6.tar.gz
+[2023-04-18 04:34:13] INFO root fetch - processPackages [teelebot]: Downloading https://files.pythonhosted.org/packages/85/37/5d1f5549b6132b82cea0463b828b1a50ae9c459cbd64302c0868502ffc52/teelebot-1.23.0-py3-none-any.whl
+[2023-04-18 04:34:14] INFO root fetch - processPackages [hass-nabucasa]: Downloading https://files.pythonhosted.org/packages/3b/bf/09dd82cd20936665446eff0e5895609e699ed4e0143d97d0168512bc30b9/hass-nabucasa-0.9.tar.gz
+[2023-04-18 04:34:14] INFO root fetch - processPackages [buge]: executing diffoscope
+[2023-04-18 04:34:14] INFO root fetch - processPackages [buge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buge-0.0.2.tar.gz tmp/buge-0.0.3.tar.gz --markdown 20230418/b/buge/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-18 04:34:14] INFO root fetch - processPackages [sqlglot]: executing diffoscope
+[2023-04-18 04:34:14] INFO root fetch - processPackages [sqlglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlglot-9.0.5.tar.gz tmp/sqlglot-9.0.6.tar.gz --markdown 20230418/s/sqlglot/9.0.5-9.0.6/diff.md --exclude *.pyd
+[2023-04-18 04:34:14] INFO root fetch - processPackages [teelebot]: executing diffoscope
+[2023-04-18 04:34:14] INFO root fetch - processPackages [teelebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teelebot-1.22.0-py3-none-any.whl.zip tmp/teelebot-1.23.0-py3-none-any.whl.zip --markdown 20230418/t/teelebot/1.22.0-1.23.0/diff.md --exclude *.pyd
+[2023-04-18 04:34:14] INFO root fetch - main [MainThread]: End processing [laningfaiss]: success
+[2023-04-18 04:34:14] INFO root fetch - processPackages [hass-nabucasa]: executing diffoscope
+[2023-04-18 04:34:14] INFO root fetch - processPackages [hass-nabucasa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hass-nabucasa-0.8.tar.gz tmp/hass-nabucasa-0.9.tar.gz --markdown 20230418/h/hass-nabucasa/0.8-0.9/diff.md --exclude *.pyd
+[2023-04-18 04:34:15] INFO root fetch - main [MainThread]: End processing [xh-dict-utils]: success
+[2023-04-18 04:34:15] INFO root fetch - main [MainThread]: End processing [buge]: success
+[2023-04-18 04:34:15] INFO root fetch - main [MainThread]: End processing [teelebot]: success
+[2023-04-18 04:34:15] INFO root fetch - main [MainThread]: End processing [hass-nabucasa]: success
+[2023-04-18 04:34:15] INFO root fetch - main [MainThread]: End processing [sqlglot]: success
+[2023-04-18 04:34:15] INFO root fetch - main [MainThread]: Store serial: [17748740]
