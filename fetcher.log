@@ -13038,3 +13038,93 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 09:17:30] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-04-18 09:17:37] INFO root fetch - main [MainThread]: End processing [carrier.dhl-express]: success
 [2023-04-18 09:17:37] INFO root fetch - main [MainThread]: Store serial: [17751269]
+[2023-04-18 09:22:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17751269]
+[2023-04-18 09:22:47] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-04-18 09:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tfq-nightly
+[2023-04-18 09:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: localstack-core
+[2023-04-18 09:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xemc3
+[2023-04-18 09:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-04-18 09:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-04-18 09:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo13-addon-stock-cycle-count
+[2023-04-18 09:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: deepdriver
+[2023-04-18 09:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo12-addon-stock-inventory-verification-request
+[2023-04-18 09:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ilus
+[2023-04-18 09:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo13-addon-stock-reserve
+[2023-04-18 09:22:47] INFO root fetch - processPackages [xemc3]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-04-18 09:22:48] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230418071728] Old Version: [2.0.3.dev20230417230346]
+[2023-04-18 09:22:48] INFO root fetch - processPackages [odoo12-addon-stock-inventory-verification-request]: New version: [12.0.3.0.1.99.dev4] Old Version: [12.0.3.0.1.99.dev3]
+[2023-04-18 09:22:48] INFO root fetch - processPackages [ilus]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-04-18 09:22:48] INFO root fetch - processPackages [odoo13-addon-stock-cycle-count]: New version: [13.0.1.2.2.dev9] Old Version: [13.0.1.2.2.dev8]
+[2023-04-18 09:22:48] INFO root fetch - processPackages [odoo13-addon-stock-reserve]: New version: [13.0.1.0.1.dev9] Old Version: [13.0.1.0.1.dev8]
+[2023-04-18 09:22:48] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230418] Old Version: [0.7.3.dev20230417]
+[2023-04-18 09:22:48] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-04-18 09:22:48] INFO root fetch - processPackages [deepdriver]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-18 09:22:48] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-04-18 09:22:48] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-04-18 09:22:48] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230418/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-04-18 09:22:48] INFO root fetch - processPackages [deepdriver]: executing diffoscope
+[2023-04-18 09:22:48] INFO root fetch - processPackages [deepdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepdriver-0.9.4.tar.gz tmp/deepdriver-0.9.5.tar.gz --markdown 20230418/d/deepdriver/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-18 09:22:48] INFO root fetch - processPackages [odoo12-addon-stock-inventory-verification-request]: Downloading https://files.pythonhosted.org/packages/3f/0b/294afca04da2f46375544f9170c3c5caa92d3f52c8466b72478aeefd67e3/odoo12_addon_stock_inventory_verification_request-12.0.3.0.1.99.dev3-py3-none-any.whl
+[2023-04-18 09:22:48] INFO root fetch - processPackages [xemc3]: Downloading https://files.pythonhosted.org/packages/75/96/af1fdc07cf5c24ae2b793168529d25750c097c11560a103add9f8d12f79e/xemc3-0.2.2.tar.gz
+[2023-04-18 09:22:48] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-04-18 09:22:48] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230418/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-04-18 09:22:48] INFO root fetch - processPackages [odoo13-addon-stock-reserve]: Downloading https://files.pythonhosted.org/packages/a9/0a/9d68213937f944f2af055a5c12ad0b8b5545a001237130fd2cd4a0e1fc70/odoo13_addon_stock_reserve-13.0.1.0.1.dev8-py3-none-any.whl
+[2023-04-18 09:22:48] INFO root fetch - processPackages [ilus]: Downloading https://files.pythonhosted.org/packages/37/55/b19f8e151ea4fa9c133ba6d2c24943b15151b024b5bc7061e697b735e684/ilus-1.3.1.tar.gz
+[2023-04-18 09:22:48] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/b5/55/9ce0156fc30586646d3102a00c0d3aa6b38e261cd074141ab020c1d5ac47/tfq_nightly-0.7.3.dev20230417-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-18 09:22:48] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/23/db/c5346d84732404781b87d969ecf071e081b826a776c61d0a2f6f9d4b0760/localstack-core-2.0.3.dev20230418071728.tar.gz
+[2023-04-18 09:22:48] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10819848>=10485760
+[2023-04-18 09:22:48] INFO root fetch - processPackages [tfq-nightly]: Start processing: jina-now
+[2023-04-18 09:22:48] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-04-18 09:22:48] INFO root fetch - processPackages [odoo13-addon-stock-cycle-count]: executing diffoscope
+[2023-04-18 09:22:48] INFO root fetch - processPackages [odoo13-addon-stock-cycle-count]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_stock_cycle_count-13.0.1.2.2.dev8-py3-none-any.whl.zip tmp/odoo13_addon_stock_cycle_count-13.0.1.2.2.dev9-py3-none-any.whl.zip --markdown 20230418/o/odoo13-addon-stock-cycle-count/13.0.1.2.2.dev8-13.0.1.2.2.dev9/diff.md --exclude *.pyd
+[2023-04-18 09:22:48] INFO root fetch - processPackages [jina-now]: New version: [0.0.9.dev2] Old Version: [0.0.9]
+[2023-04-18 09:22:48] INFO root fetch - processPackages [xemc3]: Downloading https://files.pythonhosted.org/packages/a8/89/8aeb36a1cb4ca97627efea47b6bcd71e98f31b1f1800ac128fe9b8ebfa21/xemc3-0.2.3.tar.gz
+[2023-04-18 09:22:48] INFO root fetch - processPackages [jina-now]: executing diffoscope
+[2023-04-18 09:22:48] INFO root fetch - processPackages [jina-now]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-now-0.0.9.tar.gz tmp/jina-now-0.0.9.dev2.tar.gz --markdown 20230418/j/jina-now/0.0.9-0.0.9.dev2/diff.md --exclude *.pyd
+[2023-04-18 09:22:48] INFO root fetch - processPackages [odoo12-addon-stock-inventory-verification-request]: Downloading https://files.pythonhosted.org/packages/00/08/83c9a724ea31f955e088331f43b274671b95a4ed25a51cd1939706dbc39c/odoo12_addon_stock_inventory_verification_request-12.0.3.0.1.99.dev4-py3-none-any.whl
+[2023-04-18 09:22:48] INFO root fetch - processPackages [xemc3]: executing diffoscope
+[2023-04-18 09:22:48] INFO root fetch - processPackages [xemc3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xemc3-0.2.2.tar.gz tmp/xemc3-0.2.3.tar.gz --markdown 20230418/x/xemc3/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-04-18 09:22:48] INFO root fetch - processPackages [ilus]: Downloading https://files.pythonhosted.org/packages/ca/da/e63844784ebb375cd530002de641ccc8a2abd8e95fa441516118c2bf1dea/ilus-1.3.2.tar.gz
+[2023-04-18 09:22:48] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-04-18 09:22:48] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230417230346.tar.gz tmp/localstack-core-2.0.3.dev20230418071728.tar.gz --markdown 20230418/l/localstack-core/2.0.3.dev20230417230346-2.0.3.dev20230418071728/diff.md --exclude *.pyd
+[2023-04-18 09:22:48] INFO root fetch - processPackages [odoo13-addon-stock-reserve]: Downloading https://files.pythonhosted.org/packages/c2/3c/13e28e0348adf1e2a1e7d7812e286cd28ef19752c7f51e5a8f75543ff083/odoo13_addon_stock_reserve-13.0.1.0.1.dev9-py3-none-any.whl
+[2023-04-18 09:22:48] INFO root fetch - processPackages [ilus]: executing diffoscope
+[2023-04-18 09:22:48] INFO root fetch - processPackages [ilus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ilus-1.3.1.tar.gz tmp/ilus-1.3.2.tar.gz --markdown 20230418/i/ilus/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-04-18 09:22:48] INFO root fetch - processPackages [odoo12-addon-stock-inventory-verification-request]: executing diffoscope
+[2023-04-18 09:22:48] INFO root fetch - processPackages [odoo12-addon-stock-inventory-verification-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_stock_inventory_verification_request-12.0.3.0.1.99.dev3-py3-none-any.whl.zip tmp/odoo12_addon_stock_inventory_verification_request-12.0.3.0.1.99.dev4-py3-none-any.whl.zip --markdown 20230418/o/odoo12-addon-stock-inventory-verification-request/12.0.3.0.1.99.dev3-12.0.3.0.1.99.dev4/diff.md --exclude *.pyd
+[2023-04-18 09:22:49] INFO root fetch - processPackages [odoo13-addon-stock-reserve]: executing diffoscope
+[2023-04-18 09:22:49] INFO root fetch - processPackages [odoo13-addon-stock-reserve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_stock_reserve-13.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo13_addon_stock_reserve-13.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230418/o/odoo13-addon-stock-reserve/13.0.1.0.1.dev8-13.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-04-18 09:22:49] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Start processing: entx-py
+[2023-04-18 09:22:49] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-04-18 09:22:49] WARNING root fetch - processPackages [entx-py]: Skipping, unable to determine old version
+[2023-04-18 09:22:49] INFO root fetch - processPackages [entx-py]: Start processing: odoo12-addon-stock-move-location
+[2023-04-18 09:22:49] INFO root fetch - main [MainThread]: End processing [entx-py] error
+[2023-04-18 09:22:49] INFO root fetch - processPackages [odoo12-addon-stock-move-location]: New version: [12.0.2.2.0.99.dev9] Old Version: [12.0.2.2.0.99.dev8]
+[2023-04-18 09:22:50] INFO root fetch - processPackages [deepdriver]: Start processing: odoo12-addon-stock-demand-estimate
+[2023-04-18 09:22:50] INFO root fetch - main [MainThread]: End processing [deepdriver]: success
+[2023-04-18 09:22:50] INFO root fetch - processPackages [odoo12-addon-stock-demand-estimate]: New version: [12.0.2.0.1.99.dev9] Old Version: [12.0.2.0.1.99.dev8]
+[2023-04-18 09:22:50] INFO root fetch - processPackages [odoo12-addon-stock-move-location]: Downloading https://files.pythonhosted.org/packages/32/8d/fc79e51e2315e24d32a7ea9f2572c4b8dee07614f3448940453c84f92dcc/odoo12_addon_stock_move_location-12.0.2.2.0.99.dev9-py3-none-any.whl
+[2023-04-18 09:22:50] INFO root fetch - processPackages [odoo12-addon-stock-demand-estimate]: Downloading https://files.pythonhosted.org/packages/3c/df/ca9939a5249240e4589985bcb83ad8f3c6825136b1f2a82e1145daf1d85b/odoo12_addon_stock_demand_estimate-12.0.2.0.1.99.dev8-py3-none-any.whl
+[2023-04-18 09:22:50] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Start processing: odoo13-addon-stock-demand-estimate
+[2023-04-18 09:22:50] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-04-18 09:22:50] INFO root fetch - processPackages [odoo12-addon-stock-move-location]: executing diffoscope
+[2023-04-18 09:22:50] INFO root fetch - processPackages [odoo12-addon-stock-move-location]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_stock_move_location-12.0.2.2.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_stock_move_location-12.0.2.2.0.99.dev9-py3-none-any.whl.zip --markdown 20230418/o/odoo12-addon-stock-move-location/12.0.2.2.0.99.dev8-12.0.2.2.0.99.dev9/diff.md --exclude *.pyd
+[2023-04-18 09:22:50] INFO root fetch - processPackages [odoo13-addon-stock-demand-estimate]: New version: [13.0.1.2.1.dev3] Old Version: [13.0.1.2.1.dev2]
+[2023-04-18 09:22:50] INFO root fetch - processPackages [odoo13-addon-stock-demand-estimate]: Downloading https://files.pythonhosted.org/packages/0e/04/dd181d43c88de0531a88c29784aa94bec35d5e8b282a344965fd030b96a7/odoo13_addon_stock_demand_estimate-13.0.1.2.1.dev2-py3-none-any.whl
+[2023-04-18 09:22:50] INFO root fetch - processPackages [odoo12-addon-stock-demand-estimate]: Downloading https://files.pythonhosted.org/packages/a4/07/362a797c731c80f00b8a938c81822176c68fe2cdcccf8ce5e335ef461f51/odoo12_addon_stock_demand_estimate-12.0.2.0.1.99.dev9-py3-none-any.whl
+[2023-04-18 09:22:50] INFO root fetch - main [MainThread]: End processing [odoo13-addon-stock-cycle-count]: success
+[2023-04-18 09:22:50] INFO root fetch - processPackages [odoo12-addon-stock-demand-estimate]: executing diffoscope
+[2023-04-18 09:22:50] INFO root fetch - processPackages [odoo12-addon-stock-demand-estimate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_stock_demand_estimate-12.0.2.0.1.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_stock_demand_estimate-12.0.2.0.1.99.dev9-py3-none-any.whl.zip --markdown 20230418/o/odoo12-addon-stock-demand-estimate/12.0.2.0.1.99.dev8-12.0.2.0.1.99.dev9/diff.md --exclude *.pyd
+[2023-04-18 09:22:50] INFO root fetch - main [MainThread]: End processing [ilus]: success
+[2023-04-18 09:22:50] INFO root fetch - processPackages [odoo13-addon-stock-demand-estimate]: Downloading https://files.pythonhosted.org/packages/d4/b1/e4f8084f33967d1bcdd5b0b039914734dca6a94d8cd1bf2c4b7137c3a335/odoo13_addon_stock_demand_estimate-13.0.1.2.1.dev3-py3-none-any.whl
+[2023-04-18 09:22:50] INFO root fetch - main [MainThread]: End processing [xemc3]: success
+[2023-04-18 09:22:50] INFO root fetch - processPackages [odoo13-addon-stock-demand-estimate]: executing diffoscope
+[2023-04-18 09:22:50] INFO root fetch - processPackages [odoo13-addon-stock-demand-estimate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_stock_demand_estimate-13.0.1.2.1.dev2-py3-none-any.whl.zip tmp/odoo13_addon_stock_demand_estimate-13.0.1.2.1.dev3-py3-none-any.whl.zip --markdown 20230418/o/odoo13-addon-stock-demand-estimate/13.0.1.2.1.dev2-13.0.1.2.1.dev3/diff.md --exclude *.pyd
+[2023-04-18 09:22:50] INFO root fetch - main [MainThread]: End processing [jina-now]: success
+[2023-04-18 09:22:51] INFO root fetch - main [MainThread]: End processing [odoo12-addon-stock-inventory-verification-request]: success
+[2023-04-18 09:22:51] INFO root fetch - main [MainThread]: End processing [odoo13-addon-stock-reserve]: success
+[2023-04-18 09:22:51] INFO root fetch - main [MainThread]: End processing [odoo12-addon-stock-move-location]: success
+[2023-04-18 09:22:52] INFO root fetch - main [MainThread]: End processing [odoo12-addon-stock-demand-estimate]: success
+[2023-04-18 09:22:52] INFO root fetch - main [MainThread]: End processing [odoo13-addon-stock-demand-estimate]: success
+[2023-04-18 09:22:57] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-04-18 09:22:57] INFO root fetch - main [MainThread]: Store serial: [17751313]
