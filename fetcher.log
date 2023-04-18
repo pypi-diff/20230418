@@ -17812,3 +17812,126 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xa6 in position 100: invali
 [2023-04-18 12:27:41] INFO root fetch - main [MainThread]: End processing [returnn]: success
 [2023-04-18 12:28:21] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-04-18 12:28:21] INFO root fetch - main [MainThread]: Store serial: [17754286]
+[2023-04-18 12:33:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17754286]
+[2023-04-18 12:33:30] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-04-18 12:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpforecaster
+[2023-04-18 12:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo12-addon-sm-partago-invoicing
+[2023-04-18 12:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fsst
+[2023-04-18 12:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FtoC
+[2023-04-18 12:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo12-addon-sm-partago-tariffs
+[2023-04-18 12:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ou-book-theme
+[2023-04-18 12:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tfa-nightly
+[2023-04-18 12:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo12-addon-sm-partago-user
+[2023-04-18 12:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: confget
+[2023-04-18 12:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: curated-transformers
+[2023-04-18 12:33:30] INFO root fetch - processPackages [confget]: New version: [5.1.1] Old Version: [5.1.0]
+[2023-04-18 12:33:30] INFO root fetch - processPackages [gpforecaster]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-04-18 12:33:30] INFO root fetch - processPackages [ou-book-theme]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-04-18 12:33:30] INFO root fetch - processPackages [odoo12-addon-sm-partago-tariffs]: New version: [12.0.0.0.7] Old Version: [12.0.0.0.6]
+[2023-04-18 12:33:30] INFO root fetch - processPackages [odoo12-addon-sm-partago-invoicing]: New version: [12.0.0.1.6] Old Version: [12.0.0.1.5]
+[2023-04-18 12:33:30] INFO root fetch - processPackages [odoo12-addon-sm-partago-user]: New version: [12.0.0.1.7] Old Version: [12.0.0.1.6]
+[2023-04-18 12:33:30] INFO root fetch - processPackages [fsst]: New version: [0.8.0] Old Version: [0.6.7]
+[2023-04-18 12:33:30] INFO root fetch - processPackages [curated-transformers]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-04-18 12:33:30] INFO root fetch - processPackages [FtoC]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-18 12:33:30] INFO root fetch - processPackages [ou-book-theme]: Downloading https://files.pythonhosted.org/packages/f6/af/3a8d57349d589a13bddb658c0ce1fe30ed7dc0efa453c2d866cfa7fbbf3c/ou_book_theme-0.2.1.tar.gz
+[2023-04-18 12:33:31] INFO root fetch - processPackages [FtoC]: Downloading https://files.pythonhosted.org/packages/63/e0/43fa19951af9438c1251ce7caad83e6963f2a2e363738bfe9e5981d26e35/FtoC-0.0.1.tar.gz
+[2023-04-18 12:33:31] INFO root fetch - processPackages [curated-transformers]: Downloading https://files.pythonhosted.org/packages/77/3a/fba900077e19218f0e9d58b90d4ba4db99d1ad3d0d54564c64e8bb3ea14d/curated-transformers-0.0.6.tar.gz
+[2023-04-18 12:33:31] INFO root fetch - processPackages [odoo12-addon-sm-partago-tariffs]: Downloading https://files.pythonhosted.org/packages/06/21/876043e0f86966e59f9ccfde198eb6a85a1e9fd247f45f14577cd8c88b20/odoo12_addon_sm_partago_tariffs-12.0.0.0.6-py2.py3-none-any.whl
+[2023-04-18 12:33:31] INFO root fetch - processPackages [odoo12-addon-sm-partago-invoicing]: Downloading https://files.pythonhosted.org/packages/d4/19/20116ff82e5173d419ec3f3dd86e9e295930a578137bd4cf3bdcf70d6d25/odoo12_addon_sm_partago_invoicing-12.0.0.1.5-py2.py3-none-any.whl
+[2023-04-18 12:33:31] INFO root fetch - processPackages [confget]: Downloading https://files.pythonhosted.org/packages/e6/72/7b2706a44323ad851891019845057e62064048b37adddc55042362758917/confget-5.1.0.tar.gz
+[2023-04-18 12:33:31] INFO root fetch - processPackages [fsst]: Downloading https://files.pythonhosted.org/packages/6e/fd/f9dbbf56a7b1ba563e399ee154ee2125b5f9808dbda42dc7866b4f7f0bb4/fsst-0.6.7.tar.gz
+[2023-04-18 12:33:31] INFO root fetch - processPackages [odoo12-addon-sm-partago-user]: Downloading https://files.pythonhosted.org/packages/35/90/d17b2e798a7fbe6caf5d80b94d543dd15cb1297e1ed4f37f50e33f468013/odoo12_addon_sm_partago_user-12.0.0.1.6-py2.py3-none-any.whl
+[2023-04-18 12:33:31] INFO root fetch - processPackages [ou-book-theme]: Downloading https://files.pythonhosted.org/packages/db/9e/6e86df5301b01025f072c6da7ef7651450a72b898faca8f1334bf126d348/ou_book_theme-0.2.2.tar.gz
+[2023-04-18 12:33:31] INFO root fetch - processPackages [odoo12-addon-sm-partago-tariffs]: Downloading https://files.pythonhosted.org/packages/b0/13/752139c75c260b6228479638f3216c13783fd89341972cc9c38936ddf040/odoo12_addon_sm_partago_tariffs-12.0.0.0.7-py2.py3-none-any.whl
+[2023-04-18 12:33:31] INFO root fetch - processPackages [FtoC]: Downloading https://files.pythonhosted.org/packages/d5/37/205645aa49f4cff100e1facc98b33182ef1f007bbcc0db60144c3dd00ad5/FtoC-0.0.2.tar.gz
+[2023-04-18 12:33:31] INFO root fetch - processPackages [gpforecaster]: executing diffoscope
+[2023-04-18 12:33:31] INFO root fetch - processPackages [gpforecaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpforecaster-0.3.8.tar.gz tmp/gpforecaster-0.3.9.tar.gz --markdown 20230418/g/gpforecaster/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-04-18 12:33:31] INFO root fetch - processPackages [tfa-nightly]: New version: [0.9.0.dev20200409113748] Old Version: [0.9.0.dev20200409113542]
+[2023-04-18 12:33:31] INFO root fetch - processPackages [ou-book-theme]: executing diffoscope
+[2023-04-18 12:33:31] INFO root fetch - processPackages [ou-book-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ou_book_theme-0.2.1.tar.gz tmp/ou_book_theme-0.2.2.tar.gz --markdown 20230418/o/ou-book-theme/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-04-18 12:33:31] INFO root fetch - processPackages [FtoC]: executing diffoscope
+[2023-04-18 12:33:31] INFO root fetch - processPackages [FtoC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FtoC-0.0.1.tar.gz tmp/FtoC-0.0.2.tar.gz --markdown 20230418/F/FtoC/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-18 12:33:31] INFO root fetch - processPackages [fsst]: Downloading https://files.pythonhosted.org/packages/7e/2d/16bad2ebe2bd6bf1cec1903f738be98ddd6c41628d06d4e206f10d76ba94/fsst-0.8.0.tar.gz
+[2023-04-18 12:33:31] INFO root fetch - processPackages [odoo12-addon-sm-partago-tariffs]: executing diffoscope
+[2023-04-18 12:33:31] INFO root fetch - processPackages [odoo12-addon-sm-partago-tariffs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_sm_partago_tariffs-12.0.0.0.6-py2.py3-none-any.whl.zip tmp/odoo12_addon_sm_partago_tariffs-12.0.0.0.7-py2.py3-none-any.whl.zip --markdown 20230418/o/odoo12-addon-sm-partago-tariffs/12.0.0.0.6-12.0.0.0.7/diff.md --exclude *.pyd
+[2023-04-18 12:33:31] INFO root fetch - processPackages [curated-transformers]: Downloading https://files.pythonhosted.org/packages/d9/be/199fbf7e32cb56eddfefda079216075756eec7a00744eb25acf5d1e41802/curated-transformers-0.0.7.tar.gz
+[2023-04-18 12:33:31] INFO root fetch - processPackages [confget]: Downloading https://files.pythonhosted.org/packages/86/bb/8dec1dfa1d6788536ae160d9674a291b4aaf4ef8655ebce3cf13b4bfb7ee/confget-5.1.1.tar.gz
+[2023-04-18 12:33:31] INFO root fetch - processPackages [odoo12-addon-sm-partago-user]: Downloading https://files.pythonhosted.org/packages/75/52/e43fc59d248265330fd9c61b5bcfd7f3d5329e1ee416a93e5c9cbecb7398/odoo12_addon_sm_partago_user-12.0.0.1.7-py2.py3-none-any.whl
+[2023-04-18 12:33:31] INFO root fetch - processPackages [fsst]: executing diffoscope
+[2023-04-18 12:33:31] INFO root fetch - processPackages [fsst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsst-0.6.7.tar.gz tmp/fsst-0.8.0.tar.gz --markdown 20230418/f/fsst/0.6.7-0.8.0/diff.md --exclude *.pyd
+[2023-04-18 12:33:31] INFO root fetch - processPackages [curated-transformers]: executing diffoscope
+[2023-04-18 12:33:31] INFO root fetch - processPackages [curated-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curated-transformers-0.0.6.tar.gz tmp/curated-transformers-0.0.7.tar.gz --markdown 20230418/c/curated-transformers/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-04-18 12:33:31] INFO root fetch - processPackages [confget]: executing diffoscope
+[2023-04-18 12:33:31] INFO root fetch - processPackages [confget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/confget-5.1.0.tar.gz tmp/confget-5.1.1.tar.gz --markdown 20230418/c/confget/5.1.0-5.1.1/diff.md --exclude *.pyd
+[2023-04-18 12:33:31] INFO root fetch - processPackages [tfa-nightly]: Downloading https://files.pythonhosted.org/packages/34/17/7b8002ef7fdb4182d1c44a881b9ad71684473435ed0c14f28809a844d906/tfa_nightly-0.9.0.dev20200409113542-cp35-cp35m-macosx_10_13_x86_64.whl
+[2023-04-18 12:33:31] INFO root fetch - processPackages [odoo12-addon-sm-partago-invoicing]: Downloading https://files.pythonhosted.org/packages/43/65/9edbc26bea6c0ffd0a4565888dc21be4af0b815e22664193c1d38d27dd48/odoo12_addon_sm_partago_invoicing-12.0.0.1.6-py2.py3-none-any.whl
+[2023-04-18 12:33:31] INFO root fetch - processPackages [odoo12-addon-sm-partago-user]: executing diffoscope
+[2023-04-18 12:33:31] INFO root fetch - processPackages [odoo12-addon-sm-partago-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_sm_partago_user-12.0.0.1.6-py2.py3-none-any.whl.zip tmp/odoo12_addon_sm_partago_user-12.0.0.1.7-py2.py3-none-any.whl.zip --markdown 20230418/o/odoo12-addon-sm-partago-user/12.0.0.1.6-12.0.0.1.7/diff.md --exclude *.pyd
+[2023-04-18 12:33:31] INFO root fetch - processPackages [odoo12-addon-sm-partago-invoicing]: executing diffoscope
+[2023-04-18 12:33:31] INFO root fetch - processPackages [odoo12-addon-sm-partago-invoicing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_sm_partago_invoicing-12.0.0.1.5-py2.py3-none-any.whl.zip tmp/odoo12_addon_sm_partago_invoicing-12.0.0.1.6-py2.py3-none-any.whl.zip --markdown 20230418/o/odoo12-addon-sm-partago-invoicing/12.0.0.1.5-12.0.0.1.6/diff.md --exclude *.pyd
+[2023-04-18 12:33:32] INFO root fetch - processPackages [tfa-nightly]: Downloading https://files.pythonhosted.org/packages/40/b1/b86ad1d7db615313b9a26fcbfe48caaef6470ddde4eba57af69fdb7f0841/tfa_nightly-0.9.0.dev20200409113748-cp37-cp37m-macosx_10_13_x86_64.whl
+[2023-04-18 12:33:32] INFO root fetch - processPackages [ou-book-theme]: Start processing: birentechci
+[2023-04-18 12:33:32] INFO root fetch - main [MainThread]: End processing [ou-book-theme]: success
+[2023-04-18 12:33:32] INFO root fetch - processPackages [birentechci]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-18 12:33:32] INFO root fetch - processPackages [FtoC]: Start processing: simplesrp
+[2023-04-18 12:33:32] INFO root fetch - main [MainThread]: End processing [FtoC]: success
+[2023-04-18 12:33:32] WARNING root fetch - processPackages [simplesrp]: Skipping, unable to determine old version
+[2023-04-18 12:33:32] INFO root fetch - processPackages [simplesrp]: Start processing: odoo12-addon-vertical-carsharing-emc
+[2023-04-18 12:33:32] INFO root fetch - main [MainThread]: End processing [simplesrp] error
+[2023-04-18 12:33:33] INFO root fetch - processPackages [odoo12-addon-vertical-carsharing-emc]: New version: [12.0.0.0.9] Old Version: [12.0.0.0.8]
+[2023-04-18 12:33:33] INFO root fetch - processPackages [tfa-nightly]: executing diffoscope
+[2023-04-18 12:33:33] INFO root fetch - processPackages [tfa-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfa_nightly-0.9.0.dev20200409113542-cp35-cp35m-macosx_10_13_x86_64.whl.zip tmp/tfa_nightly-0.9.0.dev20200409113748-cp37-cp37m-macosx_10_13_x86_64.whl.zip --markdown 20230418/t/tfa-nightly/0.9.0.dev20200409113542-0.9.0.dev20200409113748/diff.md --exclude *.pyd
+[2023-04-18 12:33:33] INFO root fetch - processPackages [birentechci]: Downloading https://files.pythonhosted.org/packages/7b/de/0960257c410e07160e8d15f098b69170b953a038c255d8ec6d359ee7be81/birentechci-0.0.8.tar.gz
+[2023-04-18 12:33:33] INFO root fetch - processPackages [gpforecaster]: Start processing: FtoC
+[2023-04-18 12:33:33] INFO root fetch - main [MainThread]: End processing [gpforecaster]: success
+[2023-04-18 12:33:33] INFO root fetch - processPackages [FtoC]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-18 12:33:33] INFO root fetch - processPackages [birentechci]: executing diffoscope
+[2023-04-18 12:33:33] INFO root fetch - processPackages [birentechci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/birentechci-0.0.7.tar.gz tmp/birentechci-0.0.8.tar.gz --markdown 20230418/b/birentechci/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-18 12:33:33] INFO root fetch - processPackages [odoo12-addon-sm-partago-tariffs]: Start processing: cbig-network-correspondence
+[2023-04-18 12:33:33] INFO root fetch - main [MainThread]: End processing [odoo12-addon-sm-partago-tariffs]: success
+[2023-04-18 12:33:33] INFO root fetch - processPackages [cbig-network-correspondence]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-18 12:33:33] INFO root fetch - processPackages [odoo12-addon-vertical-carsharing-emc]: Downloading https://files.pythonhosted.org/packages/ac/35/f6a1ead467e526e820c5c4d6107772c22ee7c842430341ff0871a97c8b56/odoo12_addon_vertical_carsharing_emc-12.0.0.0.8-py3-none-any.whl
+[2023-04-18 12:33:33] INFO root fetch - processPackages [FtoC]: executing diffoscope
+[2023-04-18 12:33:33] INFO root fetch - processPackages [FtoC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FtoC-0.0.1.tar.gz tmp/FtoC-0.0.2.tar.gz --markdown 20230418/F/FtoC/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-18 12:33:33] INFO root fetch - processPackages [cbig-network-correspondence]: executing diffoscope
+[2023-04-18 12:33:33] INFO root fetch - processPackages [cbig-network-correspondence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbig_network_correspondence-0.0.8.tar.gz tmp/cbig_network_correspondence-0.0.9.tar.gz --markdown 20230418/c/cbig-network-correspondence/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-18 12:33:33] INFO root fetch - processPackages [odoo12-addon-sm-partago-user]: Start processing: positional-defaults
+[2023-04-18 12:33:33] INFO root fetch - main [MainThread]: End processing [odoo12-addon-sm-partago-user]: success
+[2023-04-18 12:33:33] INFO root fetch - processPackages [positional-defaults]: New version: [2023.4.18] Old Version: [2023.4.17]
+[2023-04-18 12:33:33] INFO root fetch - processPackages [odoo12-addon-sm-partago-invoicing]: Start processing: extr
+[2023-04-18 12:33:33] INFO root fetch - main [MainThread]: End processing [odoo12-addon-sm-partago-invoicing]: success
+[2023-04-18 12:33:33] INFO root fetch - processPackages [extr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-18 12:33:33] INFO root fetch - processPackages [positional-defaults]: Downloading https://files.pythonhosted.org/packages/8b/e0/c9132b18f7cc511d0dc1c31eb7d817aceb12c6a8798ac30519bbbb08f1d5/positional_defaults-2023.4.17.tar.gz
+[2023-04-18 12:33:33] INFO root fetch - processPackages [odoo12-addon-vertical-carsharing-emc]: Downloading https://files.pythonhosted.org/packages/81/f7/33fe6109167a7c7e9f9cb927dc55ddf2a246faafd41ddc9ffe0f99081203/odoo12_addon_vertical_carsharing_emc-12.0.0.0.9-py3-none-any.whl
+[2023-04-18 12:33:33] INFO root fetch - processPackages [extr]: Downloading https://files.pythonhosted.org/packages/8a/6f/e73a87816899f1826bd847a63b6fe708b3b703ab8e1b8a3f78394d9d1a41/extr-0.0.9.tar.gz
+[2023-04-18 12:33:33] INFO root fetch - processPackages [confget]: Start processing: projectpdf
+[2023-04-18 12:33:33] INFO root fetch - main [MainThread]: End processing [confget]: success
+[2023-04-18 12:33:33] WARNING root fetch - processPackages [projectpdf]: Skipping, unable to determine old version
+[2023-04-18 12:33:33] INFO root fetch - processPackages [projectpdf]: Start processing: xtgeoviz
+[2023-04-18 12:33:33] INFO root fetch - main [MainThread]: End processing [projectpdf] error
+[2023-04-18 12:33:33] INFO root fetch - processPackages [xtgeoviz]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-04-18 12:33:33] INFO root fetch - processPackages [positional-defaults]: Downloading https://files.pythonhosted.org/packages/9b/31/be64d856c961dd8136b2301fede4d992cd60cac983a0a08743662d2f278e/positional_defaults-2023.4.18.tar.gz
+[2023-04-18 12:33:33] INFO root fetch - processPackages [odoo12-addon-vertical-carsharing-emc]: executing diffoscope
+[2023-04-18 12:33:33] INFO root fetch - processPackages [odoo12-addon-vertical-carsharing-emc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_vertical_carsharing_emc-12.0.0.0.8-py3-none-any.whl.zip tmp/odoo12_addon_vertical_carsharing_emc-12.0.0.0.9-py3-none-any.whl.zip --markdown 20230418/o/odoo12-addon-vertical-carsharing-emc/12.0.0.0.8-12.0.0.0.9/diff.md --exclude *.pyd
+[2023-04-18 12:33:33] INFO root fetch - processPackages [fsst]: Start processing: PRauto
+[2023-04-18 12:33:33] INFO root fetch - main [MainThread]: End processing [fsst]: success
+[2023-04-18 12:33:33] WARNING root fetch - processPackages [PRauto]: Skipping, unable to determine old version
+[2023-04-18 12:33:33] INFO root fetch - main [MainThread]: End processing [PRauto] error
+[2023-04-18 12:33:33] INFO root fetch - processPackages [positional-defaults]: executing diffoscope
+[2023-04-18 12:33:33] INFO root fetch - processPackages [positional-defaults]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/positional_defaults-2023.4.17.tar.gz tmp/positional_defaults-2023.4.18.tar.gz --markdown 20230418/p/positional-defaults/2023.4.17-2023.4.18/diff.md --exclude *.pyd
+[2023-04-18 12:33:33] INFO root fetch - processPackages [extr]: executing diffoscope
+[2023-04-18 12:33:33] INFO root fetch - processPackages [extr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extr-0.0.8.tar.gz tmp/extr-0.0.9.tar.gz --markdown 20230418/e/extr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-18 12:33:33] INFO root fetch - processPackages [xtgeoviz]: Downloading https://files.pythonhosted.org/packages/79/96/b73841240c99f0257c83b3de85f960623e11b7d1f706fa075d26fd91fc00/xtgeoviz-0.0.5.tar.gz
+[2023-04-18 12:33:34] INFO root fetch - processPackages [xtgeoviz]: Downloading https://files.pythonhosted.org/packages/b6/78/8de6f0db5b882f260f677cb0f798d76a8e0b087ac5d900efd789108d99d5/xtgeoviz-0.0.6.tar.gz
+[2023-04-18 12:33:34] INFO root fetch - processPackages [xtgeoviz]: executing diffoscope
+[2023-04-18 12:33:34] INFO root fetch - processPackages [xtgeoviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtgeoviz-0.0.5.tar.gz tmp/xtgeoviz-0.0.6.tar.gz --markdown 20230418/x/xtgeoviz/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-04-18 12:33:34] INFO root fetch - main [MainThread]: End processing [birentechci]: success
+[2023-04-18 12:33:34] INFO root fetch - main [MainThread]: End processing [FtoC]: success
+[2023-04-18 12:33:34] INFO root fetch - main [MainThread]: End processing [cbig-network-correspondence]: success
+[2023-04-18 12:33:35] INFO root fetch - main [MainThread]: End processing [odoo12-addon-vertical-carsharing-emc]: success
+[2023-04-18 12:33:35] INFO root fetch - main [MainThread]: End processing [positional-defaults]: success
+[2023-04-18 12:33:35] INFO root fetch - main [MainThread]: End processing [tfa-nightly]: success
+[2023-04-18 12:33:35] INFO root fetch - main [MainThread]: End processing [extr]: success
+[2023-04-18 12:33:35] INFO root fetch - main [MainThread]: End processing [curated-transformers]: success
+[2023-04-18 12:33:37] INFO root fetch - main [MainThread]: End processing [xtgeoviz]: success
+[2023-04-18 12:33:37] INFO root fetch - main [MainThread]: Store serial: [17754387]
