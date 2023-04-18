@@ -13258,3 +13258,310 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 09:31:12] ERROR root fetch - processPackages [grpcio]: Timeout during execution of pkgdiff
 [2023-04-18 09:31:12] INFO root fetch - main [MainThread]: End processing [grpcio] error
 [2023-04-18 09:31:12] INFO root fetch - main [MainThread]: Store serial: [17751372]
+[2023-04-18 09:36:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17751372]
+[2023-04-18 09:36:21] INFO root fetch - main [MainThread]: Found 52 changed packages
+[2023-04-18 09:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-stock-picking-mass-action
+[2023-04-18 09:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yao
+[2023-04-18 09:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: github-rest-api
+[2023-04-18 09:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: write-the
+[2023-04-18 09:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: grpcio-admin
+[2023-04-18 09:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: grpcio-channelz
+[2023-04-18 09:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: grpcio-csds
+[2023-04-18 09:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: grpcio-health-checking
+[2023-04-18 09:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: grpcio-reflection
+[2023-04-18 09:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: grpcio-status
+[2023-04-18 09:36:21] INFO root fetch - processPackages [odoo14-addon-stock-picking-mass-action]: New version: [14.0.1.0.3.dev8] Old Version: [14.0.1.0.3.dev7]
+[2023-04-18 09:36:21] INFO root fetch - processPackages [yao]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-04-18 09:36:21] INFO root fetch - processPackages [grpcio-csds]: New version: [1.54.0rc1] Old Version: [1.54.0]
+[2023-04-18 09:36:21] INFO root fetch - processPackages [github-rest-api]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-18 09:36:21] INFO root fetch - processPackages [write-the]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-04-18 09:36:21] INFO root fetch - processPackages [grpcio-channelz]: New version: [1.54.0rc1] Old Version: [1.54.0]
+[2023-04-18 09:36:21] INFO root fetch - processPackages [grpcio-admin]: New version: [1.54.0rc1] Old Version: [1.54.0]
+[2023-04-18 09:36:21] INFO root fetch - processPackages [grpcio-status]: New version: [1.54.0rc1] Old Version: [1.54.0]
+[2023-04-18 09:36:21] INFO root fetch - processPackages [grpcio-reflection]: New version: [1.9.1] Old Version: [1.9.0rc3]
+[2023-04-18 09:36:21] INFO root fetch - processPackages [grpcio-health-checking]: New version: [1.9.1] Old Version: [1.9.0rc3]
+[2023-04-18 09:36:22] INFO root fetch - processPackages [grpcio-status]: Downloading https://files.pythonhosted.org/packages/eb/e2/5859f8d9ab6e215e20be302c9749d64818bbf02acc1ac0a1553c9bc28bc4/grpcio-status-1.54.0.tar.gz
+[2023-04-18 09:36:22] INFO root fetch - processPackages [grpcio-csds]: Downloading https://files.pythonhosted.org/packages/41/55/5a71be0b80612f3a522ec68f9cd246e30d9e3d3c7f2f07132950d7efcc11/grpcio-csds-1.54.0.tar.gz
+[2023-04-18 09:36:22] INFO root fetch - processPackages [yao]: Downloading https://files.pythonhosted.org/packages/4d/e3/19c453141eae7c328a2b6fe6ae8663091127174f8e4a3608032391548a09/yao-0.0.1.tar.gz
+[2023-04-18 09:36:22] INFO root fetch - processPackages [grpcio-channelz]: Downloading https://files.pythonhosted.org/packages/e5/af/21c32c38ad57441441e044f71c2b6c33159f7ab21bf0be702e68bc8248b8/grpcio-channelz-1.54.0.tar.gz
+[2023-04-18 09:36:22] INFO root fetch - processPackages [write-the]: Downloading https://files.pythonhosted.org/packages/80/73/ecf54e08b393fc7770f6d9910b760da0e01fc5393d05aeb7525856233a6b/write_the-0.6.0.tar.gz
+[2023-04-18 09:36:22] INFO root fetch - processPackages [grpcio-admin]: Downloading https://files.pythonhosted.org/packages/0b/b1/2a745b57d370b6f9d77fb57af7456de68a9116f07c3fb0ac7c11dbe85f7f/grpcio-admin-1.54.0.tar.gz
+[2023-04-18 09:36:22] INFO root fetch - processPackages [grpcio-reflection]: Downloading https://files.pythonhosted.org/packages/6a/26/01ed8dea550986f42f74221fa8d8d31756be28d6e5c473372af8567632c8/grpcio-reflection-1.9.0rc3.tar.gz
+[2023-04-18 09:36:22] INFO root fetch - processPackages [grpcio-health-checking]: Downloading https://files.pythonhosted.org/packages/ea/52/37ac14cc90867f55f80ce8b7d903f219c75e05c741b5d82cff4440e3e159/grpcio-health-checking-1.9.0rc3.tar.gz
+[2023-04-18 09:36:22] INFO root fetch - processPackages [odoo14-addon-stock-picking-mass-action]: Downloading https://files.pythonhosted.org/packages/54/5c/501d0aa3f763d9d5a819b38968e00070368ca05d78fe580f327e6f524e61/odoo14_addon_stock_picking_mass_action-14.0.1.0.3.dev8-py3-none-any.whl
+[2023-04-18 09:36:22] INFO root fetch - processPackages [grpcio-csds]: Downloading https://files.pythonhosted.org/packages/84/d4/40f55b809f3b1a977a263022db8e81aac06448dc55a97cf88c5f1ce39b04/grpcio-csds-1.54.0rc1.tar.gz
+[2023-04-18 09:36:22] INFO root fetch - processPackages [write-the]: Downloading https://files.pythonhosted.org/packages/a3/e6/5e682731a13350bac604932f91042f82d29f7b8c8c207c4ed171a7b221d0/write_the-0.6.1.tar.gz
+[2023-04-18 09:36:22] INFO root fetch - processPackages [grpcio-status]: Downloading https://files.pythonhosted.org/packages/61/01/5aeaf7dc6c6deb17eb5be4ad0555a2f65157e2fcb37dbf6e3145348e58cc/grpcio-status-1.54.0rc1.tar.gz
+[2023-04-18 09:36:22] INFO root fetch - processPackages [github-rest-api]: executing diffoscope
+[2023-04-18 09:36:22] INFO root fetch - processPackages [github-rest-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/github_rest_api-0.8.0.tar.gz tmp/github_rest_api-0.9.0.tar.gz --markdown 20230418/g/github-rest-api/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-18 09:36:22] INFO root fetch - processPackages [grpcio-channelz]: Downloading https://files.pythonhosted.org/packages/ce/f6/6d00e66b39593b696e010076c778d3b6a3d307d313d9517d7a479f4525a7/grpcio-channelz-1.54.0rc1.tar.gz
+[2023-04-18 09:36:22] INFO root fetch - processPackages [grpcio-admin]: Downloading https://files.pythonhosted.org/packages/8f/25/3aad76f0bdd4122b88e38f3d4dd148390f99f095a480a46a8991062b474b/grpcio-admin-1.54.0rc1.tar.gz
+[2023-04-18 09:36:22] INFO root fetch - processPackages [yao]: Downloading https://files.pythonhosted.org/packages/1c/a1/a74f9b569512a07af5394ce8f612cbb4396a4be873efde19dbe5d52fcb8a/yao-0.0.2.tar.gz
+[2023-04-18 09:36:22] INFO root fetch - processPackages [odoo14-addon-stock-picking-mass-action]: executing diffoscope
+[2023-04-18 09:36:22] INFO root fetch - processPackages [odoo14-addon-stock-picking-mass-action]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_picking_mass_action-14.0.1.0.3.dev7-py3-none-any.whl.zip tmp/odoo14_addon_stock_picking_mass_action-14.0.1.0.3.dev8-py3-none-any.whl.zip --markdown 20230418/o/odoo14-addon-stock-picking-mass-action/14.0.1.0.3.dev7-14.0.1.0.3.dev8/diff.md --exclude *.pyd
+[2023-04-18 09:36:22] INFO root fetch - processPackages [write-the]: executing diffoscope
+[2023-04-18 09:36:22] INFO root fetch - processPackages [write-the]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/write_the-0.6.0.tar.gz tmp/write_the-0.6.1.tar.gz --markdown 20230418/w/write-the/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-04-18 09:36:22] INFO root fetch - processPackages [yao]: executing diffoscope
+[2023-04-18 09:36:22] INFO root fetch - processPackages [yao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yao-0.0.1.tar.gz tmp/yao-0.0.2.tar.gz --markdown 20230418/y/yao/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-04-18 09:36:22] INFO root fetch - processPackages [grpcio-health-checking]: Downloading https://files.pythonhosted.org/packages/64/b7/1a150f6c068a235ac47628bf0cdaa0bf74044a58548b9cbd624532e6d478/grpcio-health-checking-1.9.1.tar.gz
+[2023-04-18 09:36:22] INFO root fetch - processPackages [grpcio-csds]: executing diffoscope
+[2023-04-18 09:36:22] INFO root fetch - processPackages [grpcio-csds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpcio-csds-1.54.0.tar.gz tmp/grpcio-csds-1.54.0rc1.tar.gz --markdown 20230418/g/grpcio-csds/1.54.0-1.54.0rc1/diff.md --exclude *.pyd
+[2023-04-18 09:36:22] INFO root fetch - processPackages [grpcio-status]: executing diffoscope
+[2023-04-18 09:36:22] INFO root fetch - processPackages [grpcio-status]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpcio-status-1.54.0.tar.gz tmp/grpcio-status-1.54.0rc1.tar.gz --markdown 20230418/g/grpcio-status/1.54.0-1.54.0rc1/diff.md --exclude *.pyd
+[2023-04-18 09:36:22] INFO root fetch - processPackages [grpcio-channelz]: executing diffoscope
+[2023-04-18 09:36:22] INFO root fetch - processPackages [grpcio-channelz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpcio-channelz-1.54.0.tar.gz tmp/grpcio-channelz-1.54.0rc1.tar.gz --markdown 20230418/g/grpcio-channelz/1.54.0-1.54.0rc1/diff.md --exclude *.pyd
+[2023-04-18 09:36:22] INFO root fetch - processPackages [grpcio-admin]: executing diffoscope
+[2023-04-18 09:36:22] INFO root fetch - processPackages [grpcio-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpcio-admin-1.54.0.tar.gz tmp/grpcio-admin-1.54.0rc1.tar.gz --markdown 20230418/g/grpcio-admin/1.54.0-1.54.0rc1/diff.md --exclude *.pyd
+[2023-04-18 09:36:22] INFO root fetch - processPackages [grpcio-reflection]: Downloading https://files.pythonhosted.org/packages/dd/91/214c989e853ebd8e15e8d701e445fcf8047d0734f79ea5335674dd528292/grpcio-reflection-1.9.1.tar.gz
+[2023-04-18 09:36:22] INFO root fetch - processPackages [grpcio-health-checking]: executing diffoscope
+[2023-04-18 09:36:22] INFO root fetch - processPackages [grpcio-health-checking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpcio-health-checking-1.9.0rc3.tar.gz tmp/grpcio-health-checking-1.9.1.tar.gz --markdown 20230418/g/grpcio-health-checking/1.9.0rc3-1.9.1/diff.md --exclude *.pyd
+[2023-04-18 09:36:22] INFO root fetch - processPackages [grpcio-reflection]: executing diffoscope
+[2023-04-18 09:36:22] INFO root fetch - processPackages [grpcio-reflection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpcio-reflection-1.9.0rc3.tar.gz tmp/grpcio-reflection-1.9.1.tar.gz --markdown 20230418/g/grpcio-reflection/1.9.0rc3-1.9.1/diff.md --exclude *.pyd
+[2023-04-18 09:36:23] INFO root fetch - processPackages [github-rest-api]: Start processing: grpcio-testing
+[2023-04-18 09:36:23] INFO root fetch - main [MainThread]: End processing [github-rest-api]: success
+[2023-04-18 09:36:23] INFO root fetch - processPackages [grpcio-testing]: New version: [1.54.0rc1] Old Version: [1.54.0]
+[2023-04-18 09:36:24] INFO root fetch - processPackages [grpcio-csds]: Start processing: grpcio-tools
+[2023-04-18 09:36:24] INFO root fetch - main [MainThread]: End processing [grpcio-csds]: success
+[2023-04-18 09:36:24] INFO root fetch - processPackages [grpcio-testing]: Downloading https://files.pythonhosted.org/packages/82/71/c71d254836e8c4ef7d128221c2bb6b34ae730cf0904c2c355ac63142ee8a/grpcio-testing-1.54.0.tar.gz
+[2023-04-18 09:36:24] INFO root fetch - processPackages [grpcio-tools]: New version: [1.9.1] Old Version: [1.9.0rc3]
+[2023-04-18 09:36:24] INFO root fetch - processPackages [grpcio-channelz]: Start processing: checkov
+[2023-04-18 09:36:24] INFO root fetch - main [MainThread]: End processing [grpcio-channelz]: success
+[2023-04-18 09:36:24] INFO root fetch - processPackages [grpcio-admin]: Start processing: aspeak
+[2023-04-18 09:36:24] INFO root fetch - main [MainThread]: End processing [grpcio-admin]: success
+[2023-04-18 09:36:24] INFO root fetch - processPackages [aspeak]: New version: [5.0.0] Old Version: [4.3.1]
+[2023-04-18 09:36:24] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-04-18 09:36:24] INFO root fetch - processPackages [odoo14-addon-stock-picking-mass-action]: Start processing: mrx-link-core
+[2023-04-18 09:36:24] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-picking-mass-action]: success
+[2023-04-18 09:36:24] INFO root fetch - processPackages [grpcio-health-checking]: Start processing: aws-prototyping-sdk.aws-arch
+[2023-04-18 09:36:24] INFO root fetch - main [MainThread]: End processing [grpcio-health-checking]: success
+[2023-04-18 09:36:24] INFO root fetch - processPackages [grpcio-reflection]: Start processing: aws-prototyping-sdk
+[2023-04-18 09:36:24] INFO root fetch - main [MainThread]: End processing [grpcio-reflection]: success
+[2023-04-18 09:36:24] INFO root fetch - processPackages [grpcio-tools]: Downloading https://files.pythonhosted.org/packages/c5/04/1e6e73100e408d346552703ab15b45318d7fae3a7e45b0c4c810795dbcda/grpcio-tools-1.9.0rc3.tar.gz
+[2023-04-18 09:36:24] INFO root fetch - processPackages [grpcio-testing]: Downloading https://files.pythonhosted.org/packages/bc/15/7cf7407c0f07816eb55994e677680edbff3d180c3403ac0b1c69ec05b738/grpcio-testing-1.54.0rc1.tar.gz
+[2023-04-18 09:36:24] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: New version: [0.15.5] Old Version: [0.15.4]
+[2023-04-18 09:36:24] INFO root fetch - processPackages [mrx-link-core]: New version: [1.1.0.dev2] Old Version: [1.1.0.dev1]
+[2023-04-18 09:36:24] INFO root fetch - processPackages [aws-prototyping-sdk]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-04-18 09:36:24] INFO root fetch - processPackages [grpcio-status]: Start processing: aws-prototyping-sdk.cloudscape-react-ts-website
+[2023-04-18 09:36:24] INFO root fetch - main [MainThread]: End processing [grpcio-status]: success
+[2023-04-18 09:36:24] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-04-18 09:36:24] INFO root fetch - processPackages [aws-prototyping-sdk]: executing diffoscope
+[2023-04-18 09:36:24] INFO root fetch - processPackages [aws-prototyping-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk-0.9.3.tar.gz tmp/aws_prototyping_sdk-0.9.4.tar.gz --markdown 20230418/a/aws-prototyping-sdk/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-04-18 09:36:24] INFO root fetch - processPackages [grpcio-testing]: executing diffoscope
+[2023-04-18 09:36:24] INFO root fetch - processPackages [grpcio-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpcio-testing-1.54.0.tar.gz tmp/grpcio-testing-1.54.0rc1.tar.gz --markdown 20230418/g/grpcio-testing/1.54.0-1.54.0rc1/diff.md --exclude *.pyd
+[2023-04-18 09:36:24] INFO root fetch - processPackages [aspeak]: Downloading https://files.pythonhosted.org/packages/c0/12/f62fa37a533ee8054b24e76cbaba2e7a1e9a199d15ad3eb53dfbaea73f00/aspeak-4.3.1-cp39-none-win_amd64.whl
+[2023-04-18 09:36:24] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Downloading https://files.pythonhosted.org/packages/b7/7c/cb2dcee55a2940e8f2e81394ecdf3326279d6332d9392a467bcd085d7833/aws_prototyping_sdk.aws_arch-0.15.4.tar.gz
+[2023-04-18 09:36:24] WARNING root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Skipping package: exceeds size limit 19287395>=10485760
+[2023-04-18 09:36:24] INFO root fetch - processPackages [aws-prototyping-sdk.aws-arch]: Start processing: fparser
+[2023-04-18 09:36:24] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.aws-arch] error
+[2023-04-18 09:36:24] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: executing diffoscope
+[2023-04-18 09:36:24] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.cloudscape_react_ts_website-0.9.4.tar.gz --markdown 20230418/a/aws-prototyping-sdk.cloudscape-react-ts-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-04-18 09:36:24] INFO root fetch - processPackages [fparser]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-04-18 09:36:24] INFO root fetch - processPackages [mrx-link-core]: Downloading https://files.pythonhosted.org/packages/ec/f2/26b8c329a16f602064042a3b6529c6602234ce9976740f68b2310d9074e4/mrx_link_core-1.1.0.dev2-cp39-cp39-win_amd64.whl
+[2023-04-18 09:36:24] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-04-18 09:36:24] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230418/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-04-18 09:36:24] INFO root fetch - processPackages [fparser]: Downloading https://files.pythonhosted.org/packages/15/18/9020d79cf6da4e761f85c31ff66a22d16afa8509115e5e42e1c5d7d60e6f/fparser-0.0.9.tar.gz
+[2023-04-18 09:36:25] INFO root fetch - processPackages [yao]: Start processing: aws-prototyping-sdk.identity
+[2023-04-18 09:36:25] INFO root fetch - main [MainThread]: End processing [yao]: success
+[2023-04-18 09:36:25] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-04-18 09:36:25] INFO root fetch - processPackages [mrx-link-core]: executing diffoscope
+[2023-04-18 09:36:25] INFO root fetch - processPackages [mrx-link-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrx_link_core-1.1.0.dev1-cp39-cp39-win_amd64.whl.zip tmp/mrx_link_core-1.1.0.dev2-cp39-cp39-win_amd64.whl.zip --markdown 20230418/m/mrx-link-core/1.1.0.dev1-1.1.0.dev2/diff.md --exclude *.pyd
+[2023-04-18 09:36:25] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: executing diffoscope
+[2023-04-18 09:36:25] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.identity-0.9.3.tar.gz tmp/aws_prototyping_sdk.identity-0.9.4.tar.gz --markdown 20230418/a/aws-prototyping-sdk.identity/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-04-18 09:36:25] INFO root fetch - processPackages [aspeak]: Downloading https://files.pythonhosted.org/packages/16/29/656b0ef33edb0be825104bdebab6d8aec7176e8edbf00c792198a89c5a15/aspeak-5.0.0-cp39-none-win_amd64.whl
+[2023-04-18 09:36:25] INFO root fetch - processPackages [fparser]: Downloading https://files.pythonhosted.org/packages/89/4b/150da0e8d369c588d24b82ccae3da5cf3ffb3eca9f97a08989c516173f63/fparser-0.1.0.tar.gz
+[2023-04-18 09:36:25] INFO root fetch - processPackages [fparser]: executing diffoscope
+[2023-04-18 09:36:25] INFO root fetch - processPackages [fparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fparser-0.0.9.tar.gz tmp/fparser-0.1.0.tar.gz --markdown 20230418/f/fparser/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-04-18 09:36:25] INFO root fetch - processPackages [aspeak]: executing diffoscope
+[2023-04-18 09:36:25] INFO root fetch - processPackages [aspeak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aspeak-4.3.1-cp39-none-win_amd64.whl.zip tmp/aspeak-5.0.0-cp39-none-win_amd64.whl.zip --markdown 20230418/a/aspeak/4.3.1-5.0.0/diff.md --exclude *.pyd
+[2023-04-18 09:36:25] INFO root fetch - processPackages [grpcio-tools]: Downloading https://files.pythonhosted.org/packages/26/3d/061e0162aeb88dba757e56bc8a9bdacfce70ad6e43b8181a48b29acd827c/grpcio-tools-1.9.1.tar.gz
+[2023-04-18 09:36:25] INFO root fetch - processPackages [write-the]: Start processing: aws-prototyping-sdk.nx-monorepo
+[2023-04-18 09:36:25] INFO root fetch - main [MainThread]: End processing [write-the]: success
+[2023-04-18 09:36:25] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-04-18 09:36:25] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: executing diffoscope
+[2023-04-18 09:36:25] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz tmp/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz --markdown 20230418/a/aws-prototyping-sdk.nx-monorepo/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-04-18 09:36:26] INFO root fetch - processPackages [grpcio-testing]: Start processing: aws-prototyping-sdk.open-api-gateway
+[2023-04-18 09:36:26] INFO root fetch - main [MainThread]: End processing [grpcio-testing]: success
+[2023-04-18 09:36:26] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-04-18 09:36:26] INFO root fetch - processPackages [aws-prototyping-sdk.cloudscape-react-ts-website]: Start processing: deepdriver
+[2023-04-18 09:36:26] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.cloudscape-react-ts-website]: success
+[2023-04-18 09:36:26] INFO root fetch - processPackages [deepdriver]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-18 09:36:26] INFO root fetch - processPackages [aws-prototyping-sdk]: Start processing: aws-prototyping-sdk.pdk-nag
+[2023-04-18 09:36:26] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk]: success
+[2023-04-18 09:36:26] INFO root fetch - processPackages [grpcio-tools]: executing diffoscope
+[2023-04-18 09:36:26] INFO root fetch - processPackages [grpcio-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grpcio-tools-1.9.0rc3.tar.gz tmp/grpcio-tools-1.9.1.tar.gz --markdown 20230418/g/grpcio-tools/1.9.0rc3-1.9.1/diff.md --exclude *.pyd
+[2023-04-18 09:36:26] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-04-18 09:36:26] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: executing diffoscope
+[2023-04-18 09:36:26] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz tmp/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz --markdown 20230418/a/aws-prototyping-sdk.open-api-gateway/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-04-18 09:36:26] INFO root fetch - processPackages [deepdriver]: executing diffoscope
+[2023-04-18 09:36:26] INFO root fetch - processPackages [deepdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepdriver-0.9.4.tar.gz tmp/deepdriver-0.9.5.tar.gz --markdown 20230418/d/deepdriver/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-18 09:36:26] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: executing diffoscope
+[2023-04-18 09:36:26] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz tmp/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz --markdown 20230418/a/aws-prototyping-sdk.pdk-nag/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-04-18 09:36:26] INFO root fetch - processPackages [mrx-link-core]: Start processing: write-the
+[2023-04-18 09:36:26] INFO root fetch - main [MainThread]: End processing [mrx-link-core]: success
+[2023-04-18 09:36:26] INFO root fetch - processPackages [write-the]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-04-18 09:36:26] INFO root fetch - processPackages [write-the]: executing diffoscope
+[2023-04-18 09:36:26] INFO root fetch - processPackages [write-the]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/write_the-0.6.0.tar.gz tmp/write_the-0.6.1.tar.gz --markdown 20230418/w/write-the/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-04-18 09:36:26] INFO root fetch - processPackages [aws-prototyping-sdk.identity]: Start processing: digimat.bac0
+[2023-04-18 09:36:26] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.identity]: success
+[2023-04-18 09:36:26] INFO root fetch - processPackages [digimat.bac0]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-04-18 09:36:27] INFO root fetch - processPackages [digimat.bac0]: Downloading https://files.pythonhosted.org/packages/78/69/c221dd8f83b0cf18b4d8071cc4f3e464fd1a4a46aedfcc6da331732122ce/digimat.bac0-0.0.8.tar.gz
+[2023-04-18 09:36:27] INFO root fetch - processPackages [digimat.bac0]: executing diffoscope
+[2023-04-18 09:36:27] INFO root fetch - processPackages [digimat.bac0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digimat.bac0-0.0.7.tar.gz tmp/digimat.bac0-0.0.8.tar.gz --markdown 20230418/d/digimat.bac0/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-04-18 09:36:27] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Start processing: aws-prototyping-sdk.pipeline
+[2023-04-18 09:36:27] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.open-api-gateway]: success
+[2023-04-18 09:36:27] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-04-18 09:36:27] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: executing diffoscope
+[2023-04-18 09:36:27] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pipeline-0.9.3.tar.gz tmp/aws_prototyping_sdk.pipeline-0.9.4.tar.gz --markdown 20230418/a/aws-prototyping-sdk.pipeline/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-04-18 09:36:27] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Start processing: aws-prototyping-sdk.static-website
+[2023-04-18 09:36:27] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.nx-monorepo]: success
+[2023-04-18 09:36:27] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-04-18 09:36:28] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: executing diffoscope
+[2023-04-18 09:36:28] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.static_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.static_website-0.9.4.tar.gz --markdown 20230418/a/aws-prototyping-sdk.static-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-04-18 09:36:28] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Start processing: scrape-schema
+[2023-04-18 09:36:28] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pdk-nag]: success
+[2023-04-18 09:36:28] WARNING root fetch - processPackages [scrape-schema]: Skipping, unable to determine old version
+[2023-04-18 09:36:28] INFO root fetch - processPackages [scrape-schema]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-04-18 09:36:28] INFO root fetch - main [MainThread]: End processing [scrape-schema] error
+[2023-04-18 09:36:28] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-04-18 09:36:28] INFO root fetch - processPackages [write-the]: Start processing: aws-prototyping-sdk.type-safe-api
+[2023-04-18 09:36:28] INFO root fetch - main [MainThread]: End processing [write-the]: success
+[2023-04-18 09:36:28] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-04-18 09:36:28] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230418/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-04-18 09:36:28] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: New version: [0.15.5] Old Version: [0.15.4]
+[2023-04-18 09:36:28] INFO root fetch - processPackages [deepdriver]: Start processing: lalsuite
+[2023-04-18 09:36:28] INFO root fetch - main [MainThread]: End processing [deepdriver]: success
+[2023-04-18 09:36:28] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2023-04-18 09:36:28] INFO root fetch - processPackages [digimat.bac0]: Start processing: thesummachine
+[2023-04-18 09:36:28] INFO root fetch - main [MainThread]: End processing [digimat.bac0]: success
+[2023-04-18 09:36:28] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Downloading https://files.pythonhosted.org/packages/61/94/187bf70f97568c29bc042f7853c05501e141de5c4a0255023229fb3979cc/aws_prototyping_sdk.type_safe_api-0.15.5.tar.gz
+[2023-04-18 09:36:28] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-04-18 09:36:28] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2023-04-18 09:36:28] INFO root fetch - processPackages [lalsuite]: Start processing: odoo13-addon-hr-timesheet-sheet
+[2023-04-18 09:36:28] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2023-04-18 09:36:28] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: executing diffoscope
+[2023-04-18 09:36:28] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.type_safe_api-0.15.4.tar.gz tmp/aws_prototyping_sdk.type_safe_api-0.15.5.tar.gz --markdown 20230418/a/aws-prototyping-sdk.type-safe-api/0.15.4-0.15.5/diff.md --exclude *.pyd
+[2023-04-18 09:36:28] ERROR root fetch - processPackages [thesummachine]: Unable to get metadata: No such project 'thesummachine'
+[2023-04-18 09:36:28] INFO root fetch - processPackages [thesummachine]: Start processing: odoo13-addon-sale-timesheet-task-exclude
+[2023-04-18 09:36:28] INFO root fetch - main [MainThread]: End processing [thesummachine] error
+[2023-04-18 09:36:28] INFO root fetch - processPackages [odoo13-addon-hr-timesheet-sheet]: New version: [13.0.1.2.1.dev9] Old Version: [13.0.1.2.1.dev8]
+[2023-04-18 09:36:28] INFO root fetch - processPackages [odoo13-addon-sale-timesheet-task-exclude]: New version: [13.0.1.0.2.dev3] Old Version: [13.0.1.0.2.dev2]
+[2023-04-18 09:36:29] INFO root fetch - processPackages [odoo13-addon-hr-timesheet-sheet]: Downloading https://files.pythonhosted.org/packages/d7/2b/49382e7139054d20b816ff4de45333bdc43005a010a664456d2fdb723459/odoo13_addon_hr_timesheet_sheet-13.0.1.2.1.dev8-py3-none-any.whl
+[2023-04-18 09:36:29] INFO root fetch - processPackages [odoo13-addon-sale-timesheet-task-exclude]: Downloading https://files.pythonhosted.org/packages/ec/81/443a058e45863bf061a305de9b71385e0a9366368ac60f3086c587dbd722/odoo13_addon_sale_timesheet_task_exclude-13.0.1.0.2.dev2-py3-none-any.whl
+[2023-04-18 09:36:29] INFO root fetch - processPackages [odoo13-addon-hr-timesheet-sheet]: Downloading https://files.pythonhosted.org/packages/d7/69/cf6b11b55f696792593365f68b14e22977169a70a627a53fd509eced1eb9/odoo13_addon_hr_timesheet_sheet-13.0.1.2.1.dev9-py3-none-any.whl
+[2023-04-18 09:36:29] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Start processing: odoo12-addon-sale-timesheet-task-exclude
+[2023-04-18 09:36:29] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pipeline]: success
+[2023-04-18 09:36:29] INFO root fetch - processPackages [odoo13-addon-hr-timesheet-sheet]: executing diffoscope
+[2023-04-18 09:36:29] INFO root fetch - processPackages [odoo13-addon-hr-timesheet-sheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_hr_timesheet_sheet-13.0.1.2.1.dev8-py3-none-any.whl.zip tmp/odoo13_addon_hr_timesheet_sheet-13.0.1.2.1.dev9-py3-none-any.whl.zip --markdown 20230418/o/odoo13-addon-hr-timesheet-sheet/13.0.1.2.1.dev8-13.0.1.2.1.dev9/diff.md --exclude *.pyd
+[2023-04-18 09:36:29] INFO root fetch - processPackages [odoo12-addon-sale-timesheet-task-exclude]: New version: [12.0.1.0.1.99.dev3] Old Version: [12.0.1.0.1.99.dev2]
+[2023-04-18 09:36:29] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Start processing: PyMongoAgg-juliusgeo
+[2023-04-18 09:36:29] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.static-website]: success
+[2023-04-18 09:36:29] ERROR root fetch - processPackages [PyMongoAgg-juliusgeo]: Unable to get metadata: No such project 'PyMongoAgg-juliusgeo'
+[2023-04-18 09:36:29] INFO root fetch - processPackages [PyMongoAgg-juliusgeo]: Start processing: odoo13-addon-hr-timesheet-task-stage
+[2023-04-18 09:36:29] INFO root fetch - main [MainThread]: End processing [PyMongoAgg-juliusgeo] error
+[2023-04-18 09:36:29] INFO root fetch - processPackages [odoo12-addon-sale-timesheet-task-exclude]: Downloading https://files.pythonhosted.org/packages/40/0d/09f6a135103f3beec7ab8c93352ccdb9532a1f3be5fed1006a136abf7f5a/odoo12_addon_sale_timesheet_task_exclude-12.0.1.0.1.99.dev2-py3-none-any.whl
+[2023-04-18 09:36:29] INFO root fetch - processPackages [odoo13-addon-sale-timesheet-task-exclude]: Downloading https://files.pythonhosted.org/packages/44/be/15dde9e7141576900f81c06095516843982ec751bd7c3f4f0ce0f192a0bf/odoo13_addon_sale_timesheet_task_exclude-13.0.1.0.2.dev3-py3-none-any.whl
+[2023-04-18 09:36:29] INFO root fetch - processPackages [odoo13-addon-hr-timesheet-task-stage]: New version: [13.0.1.1.1.dev9] Old Version: [13.0.1.1.1.dev7]
+[2023-04-18 09:36:29] INFO root fetch - processPackages [odoo13-addon-sale-timesheet-task-exclude]: executing diffoscope
+[2023-04-18 09:36:29] INFO root fetch - processPackages [odoo13-addon-sale-timesheet-task-exclude]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_sale_timesheet_task_exclude-13.0.1.0.2.dev2-py3-none-any.whl.zip tmp/odoo13_addon_sale_timesheet_task_exclude-13.0.1.0.2.dev3-py3-none-any.whl.zip --markdown 20230418/o/odoo13-addon-sale-timesheet-task-exclude/13.0.1.0.2.dev2-13.0.1.0.2.dev3/diff.md --exclude *.pyd
+[2023-04-18 09:36:29] INFO root fetch - processPackages [odoo12-addon-sale-timesheet-task-exclude]: Downloading https://files.pythonhosted.org/packages/a6/6f/c34f176b51f1b55cb1956cc1f9f25256a59c32050bfa6de022dfe161f2df/odoo12_addon_sale_timesheet_task_exclude-12.0.1.0.1.99.dev3-py3-none-any.whl
+[2023-04-18 09:36:30] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Start processing: odoo12-addon-hr-timesheet-task-stage
+[2023-04-18 09:36:30] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-04-18 09:36:30] INFO root fetch - processPackages [odoo13-addon-hr-timesheet-task-stage]: executing diffoscope
+[2023-04-18 09:36:30] INFO root fetch - processPackages [odoo13-addon-hr-timesheet-task-stage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_hr_timesheet_task_stage-13.0.1.1.1.dev7-py3-none-any.whl.zip tmp/odoo13_addon_hr_timesheet_task_stage-13.0.1.1.1.dev9-py3-none-any.whl.zip --markdown 20230418/o/odoo13-addon-hr-timesheet-task-stage/13.0.1.1.1.dev7-13.0.1.1.1.dev9/diff.md --exclude *.pyd
+[2023-04-18 09:36:30] INFO root fetch - processPackages [odoo12-addon-sale-timesheet-task-exclude]: executing diffoscope
+[2023-04-18 09:36:30] INFO root fetch - processPackages [odoo12-addon-sale-timesheet-task-exclude]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_sale_timesheet_task_exclude-12.0.1.0.1.99.dev2-py3-none-any.whl.zip tmp/odoo12_addon_sale_timesheet_task_exclude-12.0.1.0.1.99.dev3-py3-none-any.whl.zip --markdown 20230418/o/odoo12-addon-sale-timesheet-task-exclude/12.0.1.0.1.99.dev2-12.0.1.0.1.99.dev3/diff.md --exclude *.pyd
+[2023-04-18 09:36:30] INFO root fetch - processPackages [odoo12-addon-hr-timesheet-task-stage]: New version: [12.0.1.1.1.99.dev1] Old Version: [12.0.1.1.1]
+[2023-04-18 09:36:30] INFO root fetch - processPackages [odoo12-addon-hr-timesheet-task-stage]: Downloading https://files.pythonhosted.org/packages/76/ec/cb48d3e81f61326fb769dcfb529e580c6ef3e7d59e99f12c3114aed31b26/odoo12_addon_hr_timesheet_task_stage-12.0.1.1.1-py3-none-any.whl
+[2023-04-18 09:36:30] INFO root fetch - processPackages [odoo12-addon-hr-timesheet-task-stage]: Downloading https://files.pythonhosted.org/packages/af/20/c48fa3cc0599bb14056e35c997f23749375c52919b4044f6b1022242a87d/odoo12_addon_hr_timesheet_task_stage-12.0.1.1.1.99.dev1-py3-none-any.whl
+[2023-04-18 09:36:30] INFO root fetch - processPackages [odoo12-addon-hr-timesheet-task-stage]: executing diffoscope
+[2023-04-18 09:36:30] INFO root fetch - processPackages [odoo12-addon-hr-timesheet-task-stage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_hr_timesheet_task_stage-12.0.1.1.1-py3-none-any.whl.zip tmp/odoo12_addon_hr_timesheet_task_stage-12.0.1.1.1.99.dev1-py3-none-any.whl.zip --markdown 20230418/o/odoo12-addon-hr-timesheet-task-stage/12.0.1.1.1-12.0.1.1.1.99.dev1/diff.md --exclude *.pyd
+[2023-04-18 09:36:31] INFO root fetch - processPackages [odoo13-addon-sale-timesheet-task-exclude]: Start processing: odoo12-addon-hr-timesheet-sheet-activity
+[2023-04-18 09:36:31] INFO root fetch - main [MainThread]: End processing [odoo13-addon-sale-timesheet-task-exclude]: success
+[2023-04-18 09:36:31] INFO root fetch - processPackages [fparser]: Start processing: odoo14-addon-hr-timesheet-sheet
+[2023-04-18 09:36:31] INFO root fetch - main [MainThread]: End processing [fparser]: success
+[2023-04-18 09:36:31] INFO root fetch - processPackages [odoo12-addon-hr-timesheet-sheet-activity]: New version: [12.0.1.0.0.99.dev7] Old Version: [12.0.1.0.0.99.dev5]
+[2023-04-18 09:36:31] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet]: New version: [14.0.1.2.1.dev9] Old Version: [14.0.1.2.1.dev8]
+[2023-04-18 09:36:31] INFO root fetch - processPackages [odoo13-addon-hr-timesheet-task-stage]: Start processing: odoo12-addon-sale-timesheet-order-line-sync
+[2023-04-18 09:36:31] INFO root fetch - main [MainThread]: End processing [odoo13-addon-hr-timesheet-task-stage]: success
+[2023-04-18 09:36:31] INFO root fetch - processPackages [odoo13-addon-hr-timesheet-sheet]: Start processing: pokepastes-scraper
+[2023-04-18 09:36:31] INFO root fetch - main [MainThread]: End processing [odoo13-addon-hr-timesheet-sheet]: success
+[2023-04-18 09:36:31] INFO root fetch - processPackages [odoo12-addon-sale-timesheet-order-line-sync]: New version: [12.0.1.0.1.99.dev3] Old Version: [12.0.1.0.1.99.dev2]
+[2023-04-18 09:36:31] INFO root fetch - processPackages [odoo12-addon-hr-timesheet-sheet-activity]: Downloading https://files.pythonhosted.org/packages/f9/b9/1d96960c641295259bf8c076d4d476959587335e436e5d7684f63fb555f5/odoo12_addon_hr_timesheet_sheet_activity-12.0.1.0.0.99.dev5-py3-none-any.whl
+[2023-04-18 09:36:31] INFO root fetch - processPackages [odoo12-addon-sale-timesheet-task-exclude]: Start processing: odoo14-addon-hr-timesheet-task-stage
+[2023-04-18 09:36:31] INFO root fetch - main [MainThread]: End processing [odoo12-addon-sale-timesheet-task-exclude]: success
+[2023-04-18 09:36:31] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet]: Downloading https://files.pythonhosted.org/packages/32/b8/61a39e6826c87064604908c578ccdf6f0803417ceeaf93a8ad90650152af/odoo14_addon_hr_timesheet_sheet-14.0.1.2.1.dev8-py3-none-any.whl
+[2023-04-18 09:36:31] INFO root fetch - processPackages [pokepastes-scraper]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-04-18 09:36:31] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-task-stage]: New version: [14.0.1.1.1.dev4] Old Version: [14.0.1.1.1.dev3]
+[2023-04-18 09:36:31] INFO root fetch - processPackages [odoo12-addon-sale-timesheet-order-line-sync]: Downloading https://files.pythonhosted.org/packages/dc/be/b93e27e86429ebe3907f1cebd8578c32d758b8773c47573c6c6e8659af48/odoo12_addon_sale_timesheet_order_line_sync-12.0.1.0.1.99.dev2-py3-none-any.whl
+[2023-04-18 09:36:31] INFO root fetch - processPackages [pokepastes-scraper]: Downloading https://files.pythonhosted.org/packages/3e/ec/0f35a19a2e407710282cfad729d224440f85eee658cbcc633db2b481ea0b/pokepastes-scraper-0.1.0.tar.gz
+[2023-04-18 09:36:31] INFO root fetch - processPackages [odoo12-addon-hr-timesheet-sheet-activity]: Downloading https://files.pythonhosted.org/packages/23/ad/3ed91966f2457fa53942bfb0f26ec2b69977f62bf885088a89673f20f800/odoo12_addon_hr_timesheet_sheet_activity-12.0.1.0.0.99.dev7-py3-none-any.whl
+[2023-04-18 09:36:31] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-task-stage]: Downloading https://files.pythonhosted.org/packages/89/18/8ef3c9050fe0012097e92c549aaccb7411c97ff33e89997934d6d7e45145/odoo14_addon_hr_timesheet_task_stage-14.0.1.1.1.dev3-py3-none-any.whl
+[2023-04-18 09:36:31] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet]: Downloading https://files.pythonhosted.org/packages/db/6b/1d17effaefc35cb552849b8524689c00956fa784b138c74a84aec0a4ba53/odoo14_addon_hr_timesheet_sheet-14.0.1.2.1.dev9-py3-none-any.whl
+[2023-04-18 09:36:31] INFO root fetch - processPackages [odoo12-addon-hr-timesheet-sheet-activity]: executing diffoscope
+[2023-04-18 09:36:31] INFO root fetch - processPackages [odoo12-addon-hr-timesheet-sheet-activity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_hr_timesheet_sheet_activity-12.0.1.0.0.99.dev5-py3-none-any.whl.zip tmp/odoo12_addon_hr_timesheet_sheet_activity-12.0.1.0.0.99.dev7-py3-none-any.whl.zip --markdown 20230418/o/odoo12-addon-hr-timesheet-sheet-activity/12.0.1.0.0.99.dev5-12.0.1.0.0.99.dev7/diff.md --exclude *.pyd
+[2023-04-18 09:36:32] INFO root fetch - processPackages [odoo12-addon-hr-timesheet-task-stage]: Start processing: odoo-addon-hr-timesheet-sheet
+[2023-04-18 09:36:32] INFO root fetch - main [MainThread]: End processing [odoo12-addon-hr-timesheet-task-stage]: success
+[2023-04-18 09:36:32] INFO root fetch - processPackages [pokepastes-scraper]: Downloading https://files.pythonhosted.org/packages/8d/df/01f3848ac7c6e529b99bc9c1622a0a2ea5285df5c967421be78675bcffb9/pokepastes-scraper-0.2.0.tar.gz
+[2023-04-18 09:36:32] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: New version: [15.0.1.1.0.9] Old Version: [15.0.1.1.0.8]
+[2023-04-18 09:36:32] INFO root fetch - processPackages [pokepastes-scraper]: executing diffoscope
+[2023-04-18 09:36:32] INFO root fetch - processPackages [pokepastes-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pokepastes-scraper-0.1.0.tar.gz tmp/pokepastes-scraper-0.2.0.tar.gz --markdown 20230418/p/pokepastes-scraper/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-04-18 09:36:32] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-task-stage]: Downloading https://files.pythonhosted.org/packages/cc/22/1389e3e698151b0d18f40599425e1a80459b5fdc7af8d681cb7e2b5ddb68/odoo14_addon_hr_timesheet_task_stage-14.0.1.1.1.dev4-py3-none-any.whl
+[2023-04-18 09:36:32] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet]: executing diffoscope
+[2023-04-18 09:36:32] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hr_timesheet_sheet-14.0.1.2.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_hr_timesheet_sheet-14.0.1.2.1.dev9-py3-none-any.whl.zip --markdown 20230418/o/odoo14-addon-hr-timesheet-sheet/14.0.1.2.1.dev8-14.0.1.2.1.dev9/diff.md --exclude *.pyd
+[2023-04-18 09:36:32] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: Downloading https://files.pythonhosted.org/packages/b6/f2/d4afc9059b216fe57f1a0e45ffc56035e07a9bcc82a896c5c88ecbe2e748/odoo_addon_hr_timesheet_sheet-15.0.1.1.0.8-py3-none-any.whl
+[2023-04-18 09:36:32] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-task-stage]: executing diffoscope
+[2023-04-18 09:36:32] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-task-stage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hr_timesheet_task_stage-14.0.1.1.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_hr_timesheet_task_stage-14.0.1.1.1.dev4-py3-none-any.whl.zip --markdown 20230418/o/odoo14-addon-hr-timesheet-task-stage/14.0.1.1.1.dev3-14.0.1.1.1.dev4/diff.md --exclude *.pyd
+[2023-04-18 09:36:32] INFO root fetch - processPackages [odoo12-addon-sale-timesheet-order-line-sync]: Downloading https://files.pythonhosted.org/packages/49/58/3ec6bc0eb856d929b2607b01807dadc179e6a3e15aa1be248751eb1d78d3/odoo12_addon_sale_timesheet_order_line_sync-12.0.1.0.1.99.dev3-py3-none-any.whl
+[2023-04-18 09:36:32] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: Downloading https://files.pythonhosted.org/packages/98/e1/9b4eab039c7b0f4fe7b9733bb8ebf2fc493ef34155e00c7cb2bf1f2f5d55/odoo_addon_hr_timesheet_sheet-15.0.1.1.0.9-py3-none-any.whl
+[2023-04-18 09:36:32] INFO root fetch - processPackages [odoo12-addon-sale-timesheet-order-line-sync]: executing diffoscope
+[2023-04-18 09:36:32] INFO root fetch - processPackages [odoo12-addon-sale-timesheet-order-line-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_sale_timesheet_order_line_sync-12.0.1.0.1.99.dev2-py3-none-any.whl.zip tmp/odoo12_addon_sale_timesheet_order_line_sync-12.0.1.0.1.99.dev3-py3-none-any.whl.zip --markdown 20230418/o/odoo12-addon-sale-timesheet-order-line-sync/12.0.1.0.1.99.dev2-12.0.1.0.1.99.dev3/diff.md --exclude *.pyd
+[2023-04-18 09:36:32] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: executing diffoscope
+[2023-04-18 09:36:32] INFO root fetch - processPackages [odoo-addon-hr-timesheet-sheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_timesheet_sheet-15.0.1.1.0.8-py3-none-any.whl.zip tmp/odoo_addon_hr_timesheet_sheet-15.0.1.1.0.9-py3-none-any.whl.zip --markdown 20230418/o/odoo-addon-hr-timesheet-sheet/15.0.1.1.0.8-15.0.1.1.0.9/diff.md --exclude *.pyd
+[2023-04-18 09:36:32] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Start processing: i3dFeatureExtraction
+[2023-04-18 09:36:32] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.type-safe-api]: success
+[2023-04-18 09:36:32] INFO root fetch - processPackages [i3dFeatureExtraction]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-04-18 09:36:32] INFO root fetch - processPackages [i3dFeatureExtraction]: executing diffoscope
+[2023-04-18 09:36:32] INFO root fetch - processPackages [i3dFeatureExtraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/i3dFeatureExtraction-0.2.5.tar.gz tmp/i3dFeatureExtraction-0.2.6.tar.gz --markdown 20230418/i/i3dFeatureExtraction/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-04-18 09:36:33] INFO root fetch - processPackages [odoo12-addon-hr-timesheet-sheet-activity]: Start processing: odoo14-addon-hr-timesheet-sheet-activity
+[2023-04-18 09:36:33] INFO root fetch - main [MainThread]: End processing [odoo12-addon-hr-timesheet-sheet-activity]: success
+[2023-04-18 09:36:33] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet-activity]: New version: [14.0.1.0.1.dev8] Old Version: [14.0.1.0.1.dev7]
+[2023-04-18 09:36:33] INFO root fetch - processPackages [pokepastes-scraper]: Start processing: odoo-addon-hr-timesheet-task-stage
+[2023-04-18 09:36:33] INFO root fetch - main [MainThread]: End processing [pokepastes-scraper]: success
+[2023-04-18 09:36:33] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet-activity]: Downloading https://files.pythonhosted.org/packages/fa/2b/b38a7326d3c9f9977123fe9f37123fcf6bd18d400ababe4b9546bc428028/odoo14_addon_hr_timesheet_sheet_activity-14.0.1.0.1.dev7-py3-none-any.whl
+[2023-04-18 09:36:33] INFO root fetch - processPackages [odoo-addon-hr-timesheet-task-stage]: New version: [15.0.1.0.1.7] Old Version: [15.0.1.0.1.6]
+[2023-04-18 09:36:33] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-task-stage]: Start processing: aa-charlink
+[2023-04-18 09:36:33] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-timesheet-task-stage]: success
+[2023-04-18 09:36:34] INFO root fetch - processPackages [aa-charlink]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-04-18 09:36:34] INFO root fetch - processPackages [odoo-addon-hr-timesheet-task-stage]: Downloading https://files.pythonhosted.org/packages/f4/b0/2d6a678081f4b0b6cd5619a9f4248148e68e8342030b115c3f9f5a57da41/odoo_addon_hr_timesheet_task_stage-15.0.1.0.1.6-py3-none-any.whl
+[2023-04-18 09:36:34] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet-activity]: Downloading https://files.pythonhosted.org/packages/e5/1e/5bc48144f2f9e5fd92f7016de912e61bfc2438475137d1bb2b622d8b080d/odoo14_addon_hr_timesheet_sheet_activity-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-04-18 09:36:34] INFO root fetch - processPackages [odoo12-addon-sale-timesheet-order-line-sync]: Start processing: handwriting-recognizer
+[2023-04-18 09:36:34] INFO root fetch - main [MainThread]: End processing [odoo12-addon-sale-timesheet-order-line-sync]: success
+[2023-04-18 09:36:34] WARNING root fetch - processPackages [handwriting-recognizer]: Skipping, unable to determine old version
+[2023-04-18 09:36:34] INFO root fetch - processPackages [handwriting-recognizer]: Start processing: always-updates
+[2023-04-18 09:36:34] INFO root fetch - main [MainThread]: End processing [handwriting-recognizer] error
+[2023-04-18 09:36:34] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-04-18 09:36:34] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet-activity]: executing diffoscope
+[2023-04-18 09:36:34] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-sheet-activity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hr_timesheet_sheet_activity-14.0.1.0.1.dev7-py3-none-any.whl.zip tmp/odoo14_addon_hr_timesheet_sheet_activity-14.0.1.0.1.dev8-py3-none-any.whl.zip --markdown 20230418/o/odoo14-addon-hr-timesheet-sheet-activity/14.0.1.0.1.dev7-14.0.1.0.1.dev8/diff.md --exclude *.pyd
+[2023-04-18 09:36:34] INFO root fetch - processPackages [aa-charlink]: Downloading https://files.pythonhosted.org/packages/2f/91/a191cbc5695ce95d42b6b7e36b67a410c69af98d4c6ae78920dd7c6b0e5e/aa-charlink-0.1.1.tar.gz
+[2023-04-18 09:36:34] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-04-18 09:36:34] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230418/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-04-18 09:36:34] INFO root fetch - processPackages [odoo-addon-hr-timesheet-task-stage]: Downloading https://files.pythonhosted.org/packages/4b/e8/f32dbe343f97d775b8f29c7a208734438ea7e2bf95fd7173ec6018ee3e9e/odoo_addon_hr_timesheet_task_stage-15.0.1.0.1.7-py3-none-any.whl
+[2023-04-18 09:36:34] INFO root fetch - processPackages [i3dFeatureExtraction]: Start processing: jaquar2
+[2023-04-18 09:36:34] INFO root fetch - main [MainThread]: End processing [i3dFeatureExtraction]: success
+[2023-04-18 09:36:34] INFO root fetch - processPackages [odoo-addon-hr-timesheet-task-stage]: executing diffoscope
+[2023-04-18 09:36:34] INFO root fetch - processPackages [odoo-addon-hr-timesheet-task-stage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_timesheet_task_stage-15.0.1.0.1.6-py3-none-any.whl.zip tmp/odoo_addon_hr_timesheet_task_stage-15.0.1.0.1.7-py3-none-any.whl.zip --markdown 20230418/o/odoo-addon-hr-timesheet-task-stage/15.0.1.0.1.6-15.0.1.0.1.7/diff.md --exclude *.pyd
+[2023-04-18 09:36:34] INFO root fetch - processPackages [aa-charlink]: Downloading https://files.pythonhosted.org/packages/29/b8/03aa034f957df3f0e44aca9e7c4e9695de09db919d635c458dd419219ce0/aa-charlink-0.1.2.tar.gz
+[2023-04-18 09:36:34] WARNING root fetch - processPackages [jaquar2]: Skipping, unable to determine old version
+[2023-04-18 09:36:34] INFO root fetch - main [MainThread]: End processing [jaquar2] error
+[2023-04-18 09:36:34] INFO root fetch - processPackages [aa-charlink]: executing diffoscope
+[2023-04-18 09:36:34] INFO root fetch - processPackages [aa-charlink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa-charlink-0.1.1.tar.gz tmp/aa-charlink-0.1.2.tar.gz --markdown 20230418/a/aa-charlink/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-04-18 09:36:34] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-timesheet-sheet]: success
+[2023-04-18 09:36:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-timesheet-sheet]: success
+[2023-04-18 09:36:35] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-04-18 09:36:35] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-timesheet-sheet-activity]: success
+[2023-04-18 09:36:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-timesheet-task-stage]: success
+[2023-04-18 09:36:36] INFO root fetch - main [MainThread]: End processing [aa-charlink]: success
+[2023-04-18 09:36:38] INFO root fetch - main [MainThread]: End processing [grpcio-tools]: success
+[2023-04-18 09:36:54] INFO root fetch - main [MainThread]: End processing [aspeak]: success
+[2023-04-18 09:37:07] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-04-18 09:37:07] INFO root fetch - main [MainThread]: Store serial: [17751641]
