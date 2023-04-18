@@ -8626,3 +8626,74 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 05:40:10] INFO root fetch - main [MainThread]: End processing [odoo14-addon-contract-variable-quantity]: success
 [2023-04-18 05:40:12] INFO root fetch - main [MainThread]: End processing [datajunction]: success
 [2023-04-18 05:40:12] INFO root fetch - main [MainThread]: Store serial: [17749215]
+[2023-04-18 05:45:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17749215]
+[2023-04-18 05:45:21] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-04-18 05:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: felixlib
+[2023-04-18 05:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-kvstore
+[2023-04-18 05:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-account-credit-control
+[2023-04-18 05:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-account-credit-control
+[2023-04-18 05:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqlmesh
+[2023-04-18 05:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flarespy
+[2023-04-18 05:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wyoming
+[2023-04-18 05:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: basicnanoclient
+[2023-04-18 05:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flextoolslib
+[2023-04-18 05:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo12-addon-crm-claim
+[2023-04-18 05:45:21] INFO root fetch - processPackages [felixlib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-18 05:45:21] INFO root fetch - processPackages [odoo14-addon-account-credit-control]: New version: [14.0.1.3.2.dev6] Old Version: [14.0.1.3.2.dev5]
+[2023-04-18 05:45:21] INFO root fetch - processPackages [py-kvstore]: New version: [0.0.3] Old Version: [0.0.2a0]
+[2023-04-18 05:45:21] WARNING root fetch - processPackages [wyoming]: Skipping, unable to determine old version
+[2023-04-18 05:45:21] INFO root fetch - processPackages [wyoming]: Start processing: py-kvstore
+[2023-04-18 05:45:21] INFO root fetch - main [MainThread]: End processing [wyoming] error
+[2023-04-18 05:45:21] INFO root fetch - processPackages [flextoolslib]: New version: [2023.4.18] Old Version: [2023.3.16]
+[2023-04-18 05:45:21] INFO root fetch - processPackages [flarespy]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-04-18 05:45:21] INFO root fetch - processPackages [odoo12-addon-crm-claim]: New version: [12.0.1.1.2.99.dev5] Old Version: [12.0.1.1.2.99.dev4]
+[2023-04-18 05:45:21] INFO root fetch - processPackages [sqlmesh]: New version: [0.4.2.dev9] Old Version: [0.4.2.dev11]
+[2023-04-18 05:45:21] INFO root fetch - processPackages [odoo-addon-account-credit-control]: New version: [15.0.1.2.0.4] Old Version: [15.0.1.2.0.3]
+[2023-04-18 05:45:21] INFO root fetch - processPackages [py-kvstore]: New version: [0.0.3] Old Version: [0.0.2a0]
+[2023-04-18 05:45:21] INFO root fetch - processPackages [basicnanoclient]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-04-18 05:45:21] INFO root fetch - processPackages [felixlib]: executing diffoscope
+[2023-04-18 05:45:21] INFO root fetch - processPackages [felixlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/felixlib-0.0.8.tar.gz tmp/felixlib-0.0.9.tar.gz --markdown 20230418/f/felixlib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-18 05:45:21] INFO root fetch - processPackages [sqlmesh]: Downloading https://files.pythonhosted.org/packages/a6/1b/1036cfa343bc1f2353174a3ee35231dc420e0f22532bac88c0982d45c030/sqlmesh-0.4.2.dev11.tar.gz
+[2023-04-18 05:45:21] INFO root fetch - processPackages [odoo-addon-account-credit-control]: Downloading https://files.pythonhosted.org/packages/ed/f2/8618c4cb8f414ecd1fd1e2503efcc03b342cb68fcb57af712a6eaa483a7b/odoo_addon_account_credit_control-15.0.1.2.0.3-py3-none-any.whl
+[2023-04-18 05:45:21] INFO root fetch - processPackages [py-kvstore]: Downloading https://files.pythonhosted.org/packages/ff/11/ecad1d193da72e725bb9d49a60f76c5e77bde2fddf068d9890632618a444/py_kvstore-0.0.3.tar.gz
+[2023-04-18 05:45:21] INFO root fetch - processPackages [py-kvstore]: Downloading https://files.pythonhosted.org/packages/ff/11/ecad1d193da72e725bb9d49a60f76c5e77bde2fddf068d9890632618a444/py_kvstore-0.0.3.tar.gz
+[2023-04-18 05:45:21] INFO root fetch - processPackages [odoo12-addon-crm-claim]: Downloading https://files.pythonhosted.org/packages/b9/fd/81e3537f1ebe81a527e7569eb01fb200a6ea9575a1e3e273479c7242294a/odoo12_addon_crm_claim-12.0.1.1.2.99.dev4-py3-none-any.whl
+[2023-04-18 05:45:21] INFO root fetch - processPackages [odoo14-addon-account-credit-control]: Downloading https://files.pythonhosted.org/packages/b3/90/4ecf719fc5b6c223b5e77459cb3bdcbfddd621a800d1c75c0b73ba525419/odoo14_addon_account_credit_control-14.0.1.3.2.dev5-py3-none-any.whl
+[2023-04-18 05:45:21] INFO root fetch - processPackages [basicnanoclient]: Downloading https://files.pythonhosted.org/packages/bd/ed/4472d32e7ced048f4b784c040f954444a5cebe6b0a33f3dd1ca8d2e6f311/basicnanoclient-0.0.2.tar.gz
+[2023-04-18 05:45:21] INFO root fetch - processPackages [flextoolslib]: Downloading https://files.pythonhosted.org/packages/bb/c0/6d7e24c3cd7fd9a53f061367c0c05c61e687b5daceb22958816747f79468/flextoolslib-2023.3.16-py36.py37.py38-none-any.whl
+[2023-04-18 05:45:21] INFO root fetch - processPackages [flarespy]: Downloading https://files.pythonhosted.org/packages/d7/9c/02825bad167be8e0fea5337d65bfa4c35849d2f396247fa76759412c7a23/flarespy-0.7.0.tar.gz
+[2023-04-18 05:45:21] INFO root fetch - processPackages [py-kvstore]: executing diffoscope
+[2023-04-18 05:45:21] INFO root fetch - processPackages [py-kvstore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_kvstore-0.0.2a0-py3-none-any.whl.zip tmp/py_kvstore-0.0.3.tar.gz --markdown 20230418/p/py-kvstore/0.0.2a0-0.0.3/diff.md --exclude *.pyd
+[2023-04-18 05:45:21] INFO root fetch - processPackages [py-kvstore]: executing diffoscope
+[2023-04-18 05:45:21] INFO root fetch - processPackages [py-kvstore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_kvstore-0.0.2a0-py3-none-any.whl.zip tmp/py_kvstore-0.0.3.tar.gz --markdown 20230418/p/py-kvstore/0.0.2a0-0.0.3/diff.md --exclude *.pyd
+[2023-04-18 05:45:21] INFO root fetch - processPackages [odoo12-addon-crm-claim]: Downloading https://files.pythonhosted.org/packages/23/2a/5757625bba405c2909ada17465b22976e035df9147880939ec038e88e938/odoo12_addon_crm_claim-12.0.1.1.2.99.dev5-py3-none-any.whl
+[2023-04-18 05:45:21] INFO root fetch - processPackages [odoo14-addon-account-credit-control]: Downloading https://files.pythonhosted.org/packages/8f/e1/90a4806a02fc1454771314410dbeeeb48dd3b9b08b4334d9a9369c2da4c9/odoo14_addon_account_credit_control-14.0.1.3.2.dev6-py3-none-any.whl
+[2023-04-18 05:45:21] INFO root fetch - processPackages [basicnanoclient]: Downloading https://files.pythonhosted.org/packages/28/9e/c273732da4ff12a154408e50e63a332d75c3bbdd42880d4f5d1372f080e9/basicnanoclient-0.0.4.tar.gz
+[2023-04-18 05:45:21] INFO root fetch - processPackages [odoo-addon-account-credit-control]: Downloading https://files.pythonhosted.org/packages/75/02/198f0c424edee604b3d512e9e5f3b43a3632052c56e5b5e896e3e8e2cae8/odoo_addon_account_credit_control-15.0.1.2.0.4-py3-none-any.whl
+[2023-04-18 05:45:21] INFO root fetch - processPackages [flextoolslib]: Downloading https://files.pythonhosted.org/packages/a3/69/5cba4c4abd4e8320ec1b8b277bd7fd9fc06652d7d5fbd0a8164e7d75e13d/flextoolslib-2023.4.18-py36.py37.py38-none-any.whl
+[2023-04-18 05:45:21] INFO root fetch - processPackages [flarespy]: Downloading https://files.pythonhosted.org/packages/a6/f6/aadfc2a1633d9b52f47fd044090c62c5b6d07cb17e7690745d5c40bb78af/flarespy-0.7.1.tar.gz
+[2023-04-18 05:45:21] INFO root fetch - processPackages [odoo12-addon-crm-claim]: executing diffoscope
+[2023-04-18 05:45:21] INFO root fetch - processPackages [odoo12-addon-crm-claim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_crm_claim-12.0.1.1.2.99.dev4-py3-none-any.whl.zip tmp/odoo12_addon_crm_claim-12.0.1.1.2.99.dev5-py3-none-any.whl.zip --markdown 20230418/o/odoo12-addon-crm-claim/12.0.1.1.2.99.dev4-12.0.1.1.2.99.dev5/diff.md --exclude *.pyd
+[2023-04-18 05:45:21] INFO root fetch - processPackages [basicnanoclient]: executing diffoscope
+[2023-04-18 05:45:21] INFO root fetch - processPackages [basicnanoclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basicnanoclient-0.0.2.tar.gz tmp/basicnanoclient-0.0.4.tar.gz --markdown 20230418/b/basicnanoclient/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-04-18 05:45:21] INFO root fetch - processPackages [odoo14-addon-account-credit-control]: executing diffoscope
+[2023-04-18 05:45:21] INFO root fetch - processPackages [odoo14-addon-account-credit-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_credit_control-14.0.1.3.2.dev5-py3-none-any.whl.zip tmp/odoo14_addon_account_credit_control-14.0.1.3.2.dev6-py3-none-any.whl.zip --markdown 20230418/o/odoo14-addon-account-credit-control/14.0.1.3.2.dev5-14.0.1.3.2.dev6/diff.md --exclude *.pyd
+[2023-04-18 05:45:22] INFO root fetch - processPackages [odoo-addon-account-credit-control]: executing diffoscope
+[2023-04-18 05:45:22] INFO root fetch - processPackages [odoo-addon-account-credit-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_credit_control-15.0.1.2.0.3-py3-none-any.whl.zip tmp/odoo_addon_account_credit_control-15.0.1.2.0.4-py3-none-any.whl.zip --markdown 20230418/o/odoo-addon-account-credit-control/15.0.1.2.0.3-15.0.1.2.0.4/diff.md --exclude *.pyd
+[2023-04-18 05:45:22] INFO root fetch - processPackages [sqlmesh]: executing diffoscope
+[2023-04-18 05:45:22] INFO root fetch - processPackages [sqlmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlmesh-0.4.2.dev11.tar.gz tmp/sqlmesh-0.4.2.dev9.tar.gz --markdown 20230418/s/sqlmesh/0.4.2.dev11-0.4.2.dev9/diff.md --exclude *.pyd
+[2023-04-18 05:45:22] INFO root fetch - processPackages [flarespy]: executing diffoscope
+[2023-04-18 05:45:22] INFO root fetch - processPackages [flarespy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flarespy-0.7.0.tar.gz tmp/flarespy-0.7.1.tar.gz --markdown 20230418/f/flarespy/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-04-18 05:45:22] INFO root fetch - processPackages [flextoolslib]: executing diffoscope
+[2023-04-18 05:45:22] INFO root fetch - processPackages [flextoolslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flextoolslib-2023.3.16-py36.py37.py38-none-any.whl.zip tmp/flextoolslib-2023.4.18-py36.py37.py38-none-any.whl.zip --markdown 20230418/f/flextoolslib/2023.3.16-2023.4.18/diff.md --exclude *.pyd
+[2023-04-18 05:45:22] INFO root fetch - main [MainThread]: End processing [felixlib]: success
+[2023-04-18 05:45:22] INFO root fetch - main [MainThread]: End processing [py-kvstore]: success
+[2023-04-18 05:45:22] INFO root fetch - main [MainThread]: End processing [py-kvstore]: success
+[2023-04-18 05:45:23] INFO root fetch - main [MainThread]: End processing [odoo12-addon-crm-claim]: success
+[2023-04-18 05:45:23] INFO root fetch - main [MainThread]: End processing [basicnanoclient]: success
+[2023-04-18 05:45:23] INFO root fetch - main [MainThread]: End processing [flarespy]: success
+[2023-04-18 05:45:24] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-credit-control]: success
+[2023-04-18 05:45:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-credit-control]: success
+[2023-04-18 05:45:25] INFO root fetch - main [MainThread]: End processing [flextoolslib]: success
+[2023-04-18 05:45:27] INFO root fetch - main [MainThread]: End processing [sqlmesh]: success
+[2023-04-18 05:45:27] INFO root fetch - main [MainThread]: Store serial: [17749248]
