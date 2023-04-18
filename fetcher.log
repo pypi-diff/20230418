@@ -14171,3 +14171,62 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-04-18 10:06:08] INFO root fetch - main [MainThread]: End processing [aruco-markers]: success
 [2023-04-18 10:06:10] INFO root fetch - main [MainThread]: End processing [nx5d]: success
 [2023-04-18 10:06:10] INFO root fetch - main [MainThread]: Store serial: [17751937]
+[2023-04-18 10:11:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17751937]
+[2023-04-18 10:11:19] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-18 10:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: obp-python-apiv5.1
+[2023-04-18 10:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyglove
+[2023-04-18 10:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: akshare
+[2023-04-18 10:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: imit
+[2023-04-18 10:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jcmutils
+[2023-04-18 10:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyobjc
+[2023-04-18 10:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: liblxml3
+[2023-04-18 10:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ota
+[2023-04-18 10:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sciqlopplots
+[2023-04-18 10:11:19] INFO root fetch - processPackages [liblxml3]: New version: [2.2] Old Version: [2.1]
+[2023-04-18 10:11:19] INFO root fetch - processPackages [jcmutils]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-04-18 10:11:19] INFO root fetch - processPackages [obp-python-apiv5.1]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-18 10:11:19] INFO root fetch - processPackages [imit]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-04-18 10:11:19] INFO root fetch - processPackages [pyobjc]: New version: [9.1b1] Old Version: [9.1.1]
+[2023-04-18 10:11:19] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230418] Old Version: [0.3.1.dev20230417]
+[2023-04-18 10:11:19] INFO root fetch - processPackages [akshare]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-04-18 10:11:19] INFO root fetch - processPackages [ota]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-18 10:11:19] INFO root fetch - processPackages [pyobjc]: Downloading https://files.pythonhosted.org/packages/0f/b9/688e02211ebf094425ec5f0368951ad84b9c40f06a2b04ad9d4d2d422599/pyobjc-9.1.1-py3-none-any.whl
+[2023-04-18 10:11:19] INFO root fetch - processPackages [sciqlopplots]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-04-18 10:11:19] INFO root fetch - processPackages [obp-python-apiv5.1]: Downloading https://files.pythonhosted.org/packages/4e/59/177b1e8a144703931f642e00648dcf5227a97280c6c2972b827ac1db2d43/obp-python-apiv5.1-0.0.4.tar.gz
+[2023-04-18 10:11:19] INFO root fetch - processPackages [imit]: Downloading https://files.pythonhosted.org/packages/b0/2d/65a5a7ff14d2bc7757d1c2bbde7e0f67995e65a9d89d7de4ade7a424f71e/imit-1.0.9.tar.gz
+[2023-04-18 10:11:19] INFO root fetch - processPackages [liblxml3]: Downloading https://files.pythonhosted.org/packages/05/96/bed665e8a2d0decd88c47a7efc09c04c9a08645eab4a529731efaa38acce/liblxml3-2.2.tar.gz
+[2023-04-18 10:11:19] INFO root fetch - processPackages [jcmutils]: Downloading https://files.pythonhosted.org/packages/28/fe/8fcd3ac1f382a994c50b2aa6176d21dfbe000b9743ccf8fd162273bee869/jcmutils-1.3.2.tar.gz
+[2023-04-18 10:11:19] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/37/ac/8f30278e366fcf7551154b9c30b8b98fa895e89ded74dcac00fd81a60d13/pyglove-0.3.1.dev20230418.tar.gz
+[2023-04-18 10:11:19] INFO root fetch - processPackages [sciqlopplots]: Downloading https://files.pythonhosted.org/packages/cb/cb/9e3edd6d8ce07e9358b1a20e560590305ca8fd764e0765dafbd86b74ee8a/sciqlopplots-0.2.4.tar.gz
+[2023-04-18 10:11:19] INFO root fetch - processPackages [jcmutils]: executing diffoscope
+[2023-04-18 10:11:19] INFO root fetch - processPackages [jcmutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcmutils-1.3.1.tar.gz tmp/jcmutils-1.3.2.tar.gz --markdown 20230418/j/jcmutils/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-04-18 10:11:19] INFO root fetch - processPackages [liblxml3]: executing diffoscope
+[2023-04-18 10:11:19] INFO root fetch - processPackages [liblxml3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liblxml3-2.1.tar.gz tmp/liblxml3-2.2.tar.gz --markdown 20230418/l/liblxml3/2.1-2.2/diff.md --exclude *.pyd
+[2023-04-18 10:11:19] INFO root fetch - processPackages [ota]: Downloading https://files.pythonhosted.org/packages/5f/14/b1cf4095766ed0676c1c280c6f16c2ec6cda59143cc5c0d2115a00a72151/ota-0.0.9.tar.gz
+[2023-04-18 10:11:19] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-04-18 10:11:19] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230417.tar.gz tmp/pyglove-0.3.1.dev20230418.tar.gz --markdown 20230418/p/pyglove/0.3.1.dev20230417-0.3.1.dev20230418/diff.md --exclude *.pyd
+[2023-04-18 10:11:19] INFO root fetch - processPackages [imit]: Downloading https://files.pythonhosted.org/packages/7c/f8/43685e9068dc2c63fd9158e8393377b7d5075c40c560411bf9f7bc97e248/imit-1.1.0.tar.gz
+[2023-04-18 10:11:19] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-04-18 10:11:19] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.8.tar.gz tmp/akshare-1.9.9.tar.gz --markdown 20230418/a/akshare/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-04-18 10:11:19] INFO root fetch - processPackages [obp-python-apiv5.1]: Downloading https://files.pythonhosted.org/packages/a6/20/acb2d2d2be4b618e94af40382dea3bf225a40c376cc3030d9ca78f2aec44/obp-python-apiv5.1-0.0.5.tar.gz
+[2023-04-18 10:11:19] INFO root fetch - processPackages [pyobjc]: executing diffoscope
+[2023-04-18 10:11:19] INFO root fetch - processPackages [pyobjc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyobjc-9.1.1-py3-none-any.whl.zip tmp/pyobjc-9.1b1.tar.gz --markdown 20230418/p/pyobjc/9.1.1-9.1b1/diff.md --exclude *.pyd
+[2023-04-18 10:11:19] INFO root fetch - processPackages [sciqlopplots]: Downloading https://files.pythonhosted.org/packages/9b/19/eb7a716833dc93cbd7b8ab51621336c403240a9acd1cc75384cf3ef55462/sciqlopplots-0.2.5.tar.gz
+[2023-04-18 10:11:19] INFO root fetch - processPackages [ota]: executing diffoscope
+[2023-04-18 10:11:19] INFO root fetch - processPackages [ota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ota-0.0.8.tar.gz tmp/ota-0.0.9.tar.gz --markdown 20230418/o/ota/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-18 10:11:19] INFO root fetch - processPackages [imit]: executing diffoscope
+[2023-04-18 10:11:19] INFO root fetch - processPackages [imit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imit-1.0.9.tar.gz tmp/imit-1.1.0.tar.gz --markdown 20230418/i/imit/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-04-18 10:11:20] INFO root fetch - processPackages [obp-python-apiv5.1]: executing diffoscope
+[2023-04-18 10:11:20] INFO root fetch - processPackages [obp-python-apiv5.1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obp-python-apiv5.1-0.0.4.tar.gz tmp/obp-python-apiv5.1-0.0.5.tar.gz --markdown 20230418/o/obp-python-apiv5.1/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-18 10:11:20] INFO root fetch - processPackages [sciqlopplots]: executing diffoscope
+[2023-04-18 10:11:20] INFO root fetch - processPackages [sciqlopplots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sciqlopplots-0.2.4.tar.gz tmp/sciqlopplots-0.2.5.tar.gz --markdown 20230418/s/sciqlopplots/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-04-18 10:11:20] INFO root fetch - main [MainThread]: End processing [jcmutils]: success
+[2023-04-18 10:11:21] INFO root fetch - main [MainThread]: End processing [pyobjc]: success
+[2023-04-18 10:11:21] INFO root fetch - main [MainThread]: End processing [imit]: success
+[2023-04-18 10:11:21] INFO root fetch - main [MainThread]: End processing [ota]: success
+[2023-04-18 10:11:21] INFO root fetch - main [MainThread]: End processing [sciqlopplots]: success
+[2023-04-18 10:11:22] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-04-18 10:11:23] INFO root fetch - main [MainThread]: End processing [liblxml3]: success
+[2023-04-18 10:11:25] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-04-18 10:11:47] INFO root fetch - main [MainThread]: End processing [obp-python-apiv5.1]: success
+[2023-04-18 10:11:47] INFO root fetch - main [MainThread]: Store serial: [17751964]
