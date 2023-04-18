@@ -6902,3 +6902,66 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 03:49:18] INFO root fetch - main [MainThread]: End processing [flake8-keyword-params]: success
 [2023-04-18 03:49:19] INFO root fetch - main [MainThread]: End processing [edc-lab]: success
 [2023-04-18 03:49:19] INFO root fetch - main [MainThread]: Store serial: [17748436]
+[2023-04-18 03:54:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17748436]
+[2023-04-18 03:54:28] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-04-18 03:54:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: isofit
+[2023-04-18 03:54:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datadog-lambda
+[2023-04-18 03:54:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ovos-listener
+[2023-04-18 03:54:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shillelagh
+[2023-04-18 03:54:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deepdriver
+[2023-04-18 03:54:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edc
+[2023-04-18 03:54:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yourtools
+[2023-04-18 03:54:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oebuild
+[2023-04-18 03:54:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spatialcsv
+[2023-04-18 03:54:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: automation_rest_server
+[2023-04-18 03:54:28] INFO root fetch - processPackages [ovos-listener]: New version: [0.0.2a9] Old Version: [0.0.2a8]
+[2023-04-18 03:54:28] INFO root fetch - processPackages [isofit]: New version: [2.9.9.2] Old Version: [2.9.8]
+[2023-04-18 03:54:28] INFO root fetch - processPackages [deepdriver]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-04-18 03:54:28] INFO root fetch - processPackages [datadog-lambda]: New version: [4.71.0] Old Version: [4.70.0]
+[2023-04-18 03:54:28] INFO root fetch - processPackages [spatialcsv]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-18 03:54:28] INFO root fetch - processPackages [shillelagh]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-04-18 03:54:28] INFO root fetch - processPackages [deepdriver]: executing diffoscope
+[2023-04-18 03:54:28] INFO root fetch - processPackages [deepdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepdriver-0.9.4.tar.gz tmp/deepdriver-0.9.5.tar.gz --markdown 20230418/d/deepdriver/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-04-18 03:54:28] INFO root fetch - processPackages [automation_rest_server]: New version: [3.6.6] Old Version: [3.6.5]
+[2023-04-18 03:54:28] INFO root fetch - processPackages [spatialcsv]: executing diffoscope
+[2023-04-18 03:54:28] INFO root fetch - processPackages [spatialcsv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spatialcsv-0.0.8.tar.gz tmp/spatialcsv-0.0.9.tar.gz --markdown 20230418/s/spatialcsv/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-18 03:54:28] INFO root fetch - processPackages [oebuild]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-18 03:54:28] INFO root fetch - processPackages [yourtools]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-04-18 03:54:28] INFO root fetch - processPackages [edc]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-04-18 03:54:28] INFO root fetch - processPackages [isofit]: Downloading https://files.pythonhosted.org/packages/e9/7e/ef36ea757547e67b9cf4e4bccaf78041365152f33614248d0d06a38fff7f/isofit-2.9.8.tar.gz
+[2023-04-18 03:54:28] INFO root fetch - processPackages [datadog-lambda]: Downloading https://files.pythonhosted.org/packages/2a/31/27cd996ab204f759ae150c154f5266fce344e7f1ac65383ed9e1248536f1/datadog_lambda-4.70.0.tar.gz
+[2023-04-18 03:54:28] INFO root fetch - processPackages [automation_rest_server]: Downloading https://files.pythonhosted.org/packages/da/88/d99ff8ee035c3877471152c9164125449b25ea80488cb3540116c1039ab3/automation_rest_server-3.6.5.tar.gz
+[2023-04-18 03:54:28] INFO root fetch - processPackages [ovos-listener]: executing diffoscope
+[2023-04-18 03:54:28] INFO root fetch - processPackages [ovos-listener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_listener-0.0.2a8-py3-none-any.whl.zip tmp/ovos_listener-0.0.2a9-py3-none-any.whl.zip --markdown 20230418/o/ovos-listener/0.0.2a8-0.0.2a9/diff.md --exclude *.pyd
+[2023-04-18 03:54:28] INFO root fetch - processPackages [oebuild]: Downloading https://files.pythonhosted.org/packages/00/38/6ff4040fd2fa67770e5f35996109b1d55f669121a678cf84fcacc6e0e83b/oebuild-0.0.8-py3-none-any.whl
+[2023-04-18 03:54:28] INFO root fetch - processPackages [edc]: Downloading https://files.pythonhosted.org/packages/50/41/0faea0cc469ad45d1eb721e840036d79158c7dbedd245f5977b3e5b6da37/edc-0.4.8.tar.gz
+[2023-04-18 03:54:28] WARNING root fetch - processPackages [isofit]: Skipping package: exceeds size limit 22322579>=10485760
+[2023-04-18 03:54:28] INFO root fetch - main [MainThread]: End processing [isofit] error
+[2023-04-18 03:54:28] INFO root fetch - processPackages [yourtools]: Downloading https://files.pythonhosted.org/packages/17/59/cc5b86114f9325502320e275ef30ca73570d155961a6d59218e798fc66be/yourtools-0.5.5.tar.gz
+[2023-04-18 03:54:28] INFO root fetch - processPackages [shillelagh]: Downloading https://files.pythonhosted.org/packages/03/bc/698030e0d9c20ecd5047b5a90a27cbe0fc292ba56424828f638a05c3d77c/shillelagh-1.2.2.tar.gz
+[2023-04-18 03:54:28] INFO root fetch - processPackages [datadog-lambda]: Downloading https://files.pythonhosted.org/packages/0f/3a/334c37d74e541ad2c155673531090c0341827931db1c1eb30e49b13a5420/datadog_lambda-4.71.0.tar.gz
+[2023-04-18 03:54:28] INFO root fetch - processPackages [oebuild]: Downloading https://files.pythonhosted.org/packages/75/82/8f5aaba41319b25523fe1c8b9679c66d3a7f0d17bb02ab0ef6ea4ceb1871/oebuild-0.0.9-py3-none-any.whl
+[2023-04-18 03:54:28] INFO root fetch - processPackages [automation_rest_server]: Downloading https://files.pythonhosted.org/packages/8d/cb/fe3aa5d8fd3e6e6334a2d5a00dec949ca916b741483fb91cdf75422645d7/automation_rest_server-3.6.6.tar.gz
+[2023-04-18 03:54:28] INFO root fetch - processPackages [datadog-lambda]: executing diffoscope
+[2023-04-18 03:54:28] INFO root fetch - processPackages [datadog-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datadog_lambda-4.70.0.tar.gz tmp/datadog_lambda-4.71.0.tar.gz --markdown 20230418/d/datadog-lambda/4.70.0-4.71.0/diff.md --exclude *.pyd
+[2023-04-18 03:54:28] INFO root fetch - processPackages [edc]: Downloading https://files.pythonhosted.org/packages/b1/10/9f8837f509c1f0fa854c0bcebba66374b226fbc581fca57bff8c44285994/edc-0.4.9.tar.gz
+[2023-04-18 03:54:28] INFO root fetch - processPackages [oebuild]: executing diffoscope
+[2023-04-18 03:54:28] INFO root fetch - processPackages [oebuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oebuild-0.0.8-py3-none-any.whl.zip tmp/oebuild-0.0.9-py3-none-any.whl.zip --markdown 20230418/o/oebuild/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-18 03:54:28] INFO root fetch - processPackages [yourtools]: executing diffoscope
+[2023-04-18 03:54:28] INFO root fetch - processPackages [yourtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yourtools-0.5.4.tar.gz tmp/yourtools-0.5.5.tar.gz --markdown 20230418/y/yourtools/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-04-18 03:54:29] INFO root fetch - processPackages [shillelagh]: executing diffoscope
+[2023-04-18 03:54:29] INFO root fetch - processPackages [shillelagh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shillelagh-1.2.1.tar.gz tmp/shillelagh-1.2.2.tar.gz --markdown 20230418/s/shillelagh/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-04-18 03:54:29] INFO root fetch - processPackages [edc]: executing diffoscope
+[2023-04-18 03:54:29] INFO root fetch - processPackages [edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-0.4.8.tar.gz tmp/edc-0.4.9.tar.gz --markdown 20230418/e/edc/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-04-18 03:54:29] INFO root fetch - main [MainThread]: End processing [spatialcsv]: success
+[2023-04-18 03:54:29] INFO root fetch - processPackages [automation_rest_server]: executing diffoscope
+[2023-04-18 03:54:29] INFO root fetch - processPackages [automation_rest_server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_rest_server-3.6.5.tar.gz tmp/automation_rest_server-3.6.6.tar.gz --markdown 20230418/a/automation_rest_server/3.6.5-3.6.6/diff.md --exclude *.pyd
+[2023-04-18 03:54:29] INFO root fetch - main [MainThread]: End processing [ovos-listener]: success
+[2023-04-18 03:54:29] INFO root fetch - main [MainThread]: End processing [deepdriver]: success
+[2023-04-18 03:54:30] INFO root fetch - main [MainThread]: End processing [oebuild]: success
+[2023-04-18 03:54:30] INFO root fetch - main [MainThread]: End processing [yourtools]: success
+[2023-04-18 03:54:30] INFO root fetch - main [MainThread]: End processing [datadog-lambda]: success
+[2023-04-18 03:54:30] INFO root fetch - main [MainThread]: End processing [edc]: success
+[2023-04-18 03:54:31] INFO root fetch - main [MainThread]: End processing [shillelagh]: success
+[2023-04-18 03:54:31] INFO root fetch - main [MainThread]: End processing [automation_rest_server]: success
+[2023-04-18 03:54:31] INFO root fetch - main [MainThread]: Store serial: [17748462]
