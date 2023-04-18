@@ -8488,3 +8488,141 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 05:34:54] INFO root fetch - processPackages [commonX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commonX-0.4.0.tar.gz tmp/commonX-0.4.1.tar.gz --markdown 20230418/c/commonX/0.4.0-0.4.1/diff.md --exclude *.pyd
 [2023-04-18 05:34:56] INFO root fetch - main [MainThread]: End processing [commonX]: success
 [2023-04-18 05:34:56] INFO root fetch - main [MainThread]: Store serial: [17749151]
+[2023-04-18 05:39:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17749151]
+[2023-04-18 05:40:04] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-04-18 05:40:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gdsfactory
+[2023-04-18 05:40:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-kvstore
+[2023-04-18 05:40:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-btripopen20220520-py2
+[2023-04-18 05:40:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tripmaster
+[2023-04-18 05:40:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: streamlit-chat-animated
+[2023-04-18 05:40:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyadtpulse
+[2023-04-18 05:40:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alibabacloud-btripopen20220520
+[2023-04-18 05:40:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vcsc-data-common
+[2023-04-18 05:40:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ra-engine
+[2023-04-18 05:40:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: one-api-tool
+[2023-04-18 05:40:04] INFO root fetch - processPackages [py-kvstore]: New version: [0.0.2a0] Old Version: [0.0.1]
+[2023-04-18 05:40:04] INFO root fetch - processPackages [pyadtpulse]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-04-18 05:40:04] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-18 05:40:04] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-04-18 05:40:04] INFO root fetch - processPackages [one-api-tool]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-04-18 05:40:04] INFO root fetch - processPackages [tripmaster]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-04-18 05:40:04] INFO root fetch - processPackages [ra-engine]: New version: [0.0.1.post7] Old Version: [0.0.1.post6]
+[2023-04-18 05:40:04] INFO root fetch - processPackages [vcsc-data-common]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-04-18 05:40:04] INFO root fetch - processPackages [streamlit-chat-animated]: New version: [0.0.3.1] Old Version: [0.0.3.0]
+[2023-04-18 05:40:04] INFO root fetch - processPackages [gdsfactory]: New version: [6.9.0] Old Version: [6.86.0]
+[2023-04-18 05:40:04] INFO root fetch - processPackages [py-kvstore]: Downloading https://files.pythonhosted.org/packages/65/40/758bcaa4e92cc5f0d7700cd50be8d3f6e9ff8e87a6e468ea56b615ffd545/py_kvstore-0.0.1-py3-none-any.whl
+[2023-04-18 05:40:04] INFO root fetch - processPackages [tripmaster]: Downloading https://files.pythonhosted.org/packages/ee/40/f1374bf141b04f7afcf04a957308396faf8d0d66b3877000b952c3570f69/tripmaster-1.0.8-py3-none-any.whl
+[2023-04-18 05:40:04] INFO root fetch - processPackages [streamlit-chat-animated]: Downloading https://files.pythonhosted.org/packages/76/89/6fc3da7af825f7de693819c370dda5d6bd46c21085e93abebbe336fc4864/streamlit-chat-animated-0.0.3.0.tar.gz
+[2023-04-18 05:40:04] INFO root fetch - processPackages [ra-engine]: Downloading https://files.pythonhosted.org/packages/df/c4/c5af8bb1bab99441898a8af6587ee4614addb762322737fbeb2f8f2beb73/ra_engine-0.0.1.post6.tar.gz
+[2023-04-18 05:40:04] INFO root fetch - processPackages [vcsc-data-common]: Downloading https://files.pythonhosted.org/packages/a2/ab/7870a770fbecead74b069c171bf782148cdb38f1046c82f191c64c54441e/vcsc_data_common-0.0.9.tar.gz
+[2023-04-18 05:40:04] INFO root fetch - processPackages [one-api-tool]: Downloading https://files.pythonhosted.org/packages/81/4f/7c03d359bb1faf942a1ec059112543ee8ad848945df71634ec50800daf48/one-api-tool-0.1.3.tar.gz
+[2023-04-18 05:40:04] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/9e/23/b1a66a1edbfe5e3cf1f0d0367fedc2584f42c99850eeedf3d7bcbbab4468/gdsfactory-6.86.0.tar.gz
+[2023-04-18 05:40:05] INFO root fetch - processPackages [tripmaster]: executing diffoscope
+[2023-04-18 05:40:05] INFO root fetch - processPackages [tripmaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tripmaster-1.0.7-py3-none-any.whl.zip tmp/tripmaster-1.0.8-py3-none-any.whl.zip --markdown 20230418/t/tripmaster/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-04-18 05:40:05] INFO root fetch - processPackages [pyadtpulse]: Downloading https://files.pythonhosted.org/packages/28/73/c706211e2b4bbc114bb2565285bf9971de74279a45117e5e7f36c29c9c9d/pyadtpulse-1.0.2-py3-none-any.whl
+[2023-04-18 05:40:05] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: executing diffoscope
+[2023-04-18 05:40:05] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_btripopen20220520_py2-1.0.8.tar.gz tmp/alibabacloud_btripopen20220520_py2-1.0.9.tar.gz --markdown 20230418/a/alibabacloud-btripopen20220520-py2/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-18 05:40:05] INFO root fetch - processPackages [pyadtpulse]: executing diffoscope
+[2023-04-18 05:40:05] INFO root fetch - processPackages [pyadtpulse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyadtpulse-1.0.1-py3-none-any.whl.zip tmp/pyadtpulse-1.0.2-py3-none-any.whl.zip --markdown 20230418/p/pyadtpulse/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-04-18 05:40:05] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: executing diffoscope
+[2023-04-18 05:40:05] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_btripopen20220520-1.0.8.tar.gz tmp/alibabacloud_btripopen20220520-1.0.9.tar.gz --markdown 20230418/a/alibabacloud-btripopen20220520/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-04-18 05:40:05] INFO root fetch - processPackages [py-kvstore]: Downloading https://files.pythonhosted.org/packages/e8/03/75926e8de3f09bb58b4f9da2f20aa874b2d136b152011f2b6bf9079ba272/py_kvstore-0.0.2a0-py3-none-any.whl
+[2023-04-18 05:40:05] INFO root fetch - processPackages [streamlit-chat-animated]: Downloading https://files.pythonhosted.org/packages/8b/ba/b419e712ec6a2af1daeb28808654f3d0579502acfec8e8208b9e2bdd2193/streamlit-chat-animated-0.0.3.1.tar.gz
+[2023-04-18 05:40:05] INFO root fetch - processPackages [one-api-tool]: Downloading https://files.pythonhosted.org/packages/a2/03/a3706e171491e7a6a6e565376ebd7e9f9821f6a572e7c6ba870707a685a9/one-api-tool-0.1.4.tar.gz
+[2023-04-18 05:40:05] INFO root fetch - processPackages [vcsc-data-common]: Downloading https://files.pythonhosted.org/packages/30/41/34c1417d5172b5eed62662c13add921fa70cabeea98df5d9e3624c857a15/vcsc_data_common-0.1.0.tar.gz
+[2023-04-18 05:40:05] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/51/e1/bea9be10e53a3f646a2bc569ab98aa0db7b687da72ac78a2d51eac5c8a5e/gdsfactory-6.9.0.tar.gz
+[2023-04-18 05:40:05] INFO root fetch - processPackages [ra-engine]: Downloading https://files.pythonhosted.org/packages/21/a1/ef67d48acd8948e6a4a89f8f5097cc749d540a220e5f595876a04d7e084c/ra_engine-0.0.1.post7.tar.gz
+[2023-04-18 05:40:05] INFO root fetch - processPackages [one-api-tool]: executing diffoscope
+[2023-04-18 05:40:05] INFO root fetch - processPackages [one-api-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/one-api-tool-0.1.3.tar.gz tmp/one-api-tool-0.1.4.tar.gz --markdown 20230418/o/one-api-tool/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-04-18 05:40:05] INFO root fetch - processPackages [py-kvstore]: executing diffoscope
+[2023-04-18 05:40:05] INFO root fetch - processPackages [py-kvstore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_kvstore-0.0.1-py3-none-any.whl.zip tmp/py_kvstore-0.0.2a0-py3-none-any.whl.zip --markdown 20230418/p/py-kvstore/0.0.1-0.0.2a0/diff.md --exclude *.pyd
+[2023-04-18 05:40:05] INFO root fetch - processPackages [ra-engine]: executing diffoscope
+[2023-04-18 05:40:05] INFO root fetch - processPackages [ra-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ra_engine-0.0.1.post6.tar.gz tmp/ra_engine-0.0.1.post7.tar.gz --markdown 20230418/r/ra-engine/0.0.1.post6-0.0.1.post7/diff.md --exclude *.pyd
+[2023-04-18 05:40:05] WARNING root fetch - processPackages [gdsfactory]: Skipping package: exceeds size limit 11141129>=10485760
+[2023-04-18 05:40:05] INFO root fetch - processPackages [gdsfactory]: Start processing: plotguy
+[2023-04-18 05:40:05] INFO root fetch - main [MainThread]: End processing [gdsfactory] error
+[2023-04-18 05:40:05] INFO root fetch - processPackages [vcsc-data-common]: executing diffoscope
+[2023-04-18 05:40:05] INFO root fetch - processPackages [vcsc-data-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcsc_data_common-0.0.9.tar.gz tmp/vcsc_data_common-0.1.0.tar.gz --markdown 20230418/v/vcsc-data-common/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-04-18 05:40:05] INFO root fetch - processPackages [plotguy]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-18 05:40:05] INFO root fetch - processPackages [streamlit-chat-animated]: executing diffoscope
+[2023-04-18 05:40:05] INFO root fetch - processPackages [streamlit-chat-animated]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-chat-animated-0.0.3.0.tar.gz tmp/streamlit-chat-animated-0.0.3.1.tar.gz --markdown 20230418/s/streamlit-chat-animated/0.0.3.0-0.0.3.1/diff.md --exclude *.pyd
+[2023-04-18 05:40:05] INFO root fetch - processPackages [plotguy]: Downloading https://files.pythonhosted.org/packages/dd/53/61d6f438f2f61fca9ccf51fb0e191288ee28015c4d1226c66bac70381e9d/plotguy-1.0.3.tar.gz
+[2023-04-18 05:40:05] INFO root fetch - processPackages [plotguy]: Downloading https://files.pythonhosted.org/packages/b2/18/78f8db6ccb8675cc5dff6e40fd2cab00df90d3129858ee80acc5c2d0c2e9/plotguy-1.0.4.tar.gz
+[2023-04-18 05:40:05] INFO root fetch - processPackages [plotguy]: executing diffoscope
+[2023-04-18 05:40:05] INFO root fetch - processPackages [plotguy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotguy-1.0.3.tar.gz tmp/plotguy-1.0.4.tar.gz --markdown 20230418/p/plotguy/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-18 05:40:06] INFO root fetch - processPackages [pyadtpulse]: Start processing: Mensajes-jdjj43
+[2023-04-18 05:40:06] INFO root fetch - main [MainThread]: End processing [pyadtpulse]: success
+[2023-04-18 05:40:06] INFO root fetch - processPackages [Mensajes-jdjj43]: New version: [6.0] Old Version: [5.0]
+[2023-04-18 05:40:06] INFO root fetch - processPackages [Mensajes-jdjj43]: Downloading https://files.pythonhosted.org/packages/3e/1e/fffccc4ff630c9b0e4cce1587ab0fd14609fa1978d01ce2d1c5074a4fb10/Mensajes-jdjj43-5.0.tar.gz
+[2023-04-18 05:40:06] INFO root fetch - processPackages [one-api-tool]: Start processing: espeak-phonemizer
+[2023-04-18 05:40:06] INFO root fetch - main [MainThread]: End processing [one-api-tool]: success
+[2023-04-18 05:40:06] INFO root fetch - processPackages [espeak-phonemizer]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-04-18 05:40:06] INFO root fetch - processPackages [py-kvstore]: Start processing: TMFuncs
+[2023-04-18 05:40:06] INFO root fetch - main [MainThread]: End processing [py-kvstore]: success
+[2023-04-18 05:40:06] INFO root fetch - processPackages [TMFuncs]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-04-18 05:40:07] INFO root fetch - processPackages [tripmaster]: Start processing: odoo12-addon-contract-variable-quantity
+[2023-04-18 05:40:07] INFO root fetch - main [MainThread]: End processing [tripmaster]: success
+[2023-04-18 05:40:07] INFO root fetch - processPackages [Mensajes-jdjj43]: Downloading https://files.pythonhosted.org/packages/67/d5/d54c883839b5229c958797a45c815ad1f33074b3d3c53f969ca3ff3ab7d6/Mensajes-jdjj43-6.0.tar.gz
+[2023-04-18 05:40:07] INFO root fetch - processPackages [odoo12-addon-contract-variable-quantity]: New version: [12.0.3.1.1.99.dev3] Old Version: [12.0.3.1.1.99.dev2]
+[2023-04-18 05:40:07] INFO root fetch - processPackages [espeak-phonemizer]: Downloading https://files.pythonhosted.org/packages/d0/65/0dd1efa57f9f4b1bfd3db0458b87cc67e021e4fe1b621f397ea90927e4b9/espeak_phonemizer-1.2.0.tar.gz
+[2023-04-18 05:40:07] INFO root fetch - processPackages [vcsc-data-common]: Start processing: odoo13-addon-contract-variable-quantity
+[2023-04-18 05:40:07] INFO root fetch - main [MainThread]: End processing [vcsc-data-common]: success
+[2023-04-18 05:40:07] INFO root fetch - processPackages [odoo13-addon-contract-variable-quantity]: New version: [13.0.1.2.1.dev6] Old Version: [13.0.1.2.1.dev5]
+[2023-04-18 05:40:07] INFO root fetch - processPackages [TMFuncs]: Downloading https://files.pythonhosted.org/packages/a9/75/8c5a895417628aacc8488d59f74fc29bb830b7d17aa7fcd10576b53bd623/TMFuncs-0.0.8.tar.gz
+[2023-04-18 05:40:07] INFO root fetch - processPackages [Mensajes-jdjj43]: executing diffoscope
+[2023-04-18 05:40:07] INFO root fetch - processPackages [Mensajes-jdjj43]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Mensajes-jdjj43-5.0.tar.gz tmp/Mensajes-jdjj43-6.0.tar.gz --markdown 20230418/M/Mensajes-jdjj43/5.0-6.0/diff.md --exclude *.pyd
+[2023-04-18 05:40:07] INFO root fetch - processPackages [odoo12-addon-contract-variable-quantity]: Downloading https://files.pythonhosted.org/packages/b7/a2/36800319252389e25886464c30ca688f87e2e7be21db8276286ad8b13c4f/odoo12_addon_contract_variable_quantity-12.0.3.1.1.99.dev2-py3-none-any.whl
+[2023-04-18 05:40:07] INFO root fetch - processPackages [ra-engine]: Start processing: py-kvstore
+[2023-04-18 05:40:07] INFO root fetch - main [MainThread]: End processing [ra-engine]: success
+[2023-04-18 05:40:07] INFO root fetch - processPackages [py-kvstore]: New version: [0.0.2a0] Old Version: [0.0.1]
+[2023-04-18 05:40:07] INFO root fetch - processPackages [odoo13-addon-contract-variable-quantity]: Downloading https://files.pythonhosted.org/packages/3f/f2/2dd357114f6317b16ce6f523e9686db5becc224aa821529da2ecdd7dda92/odoo13_addon_contract_variable_quantity-13.0.1.2.1.dev5-py3-none-any.whl
+[2023-04-18 05:40:07] INFO root fetch - processPackages [espeak-phonemizer]: Downloading https://files.pythonhosted.org/packages/db/bb/679e091d901f352e309f2bea64014827cb3cc436946ab626c870b35c5709/espeak_phonemizer-1.3.0.tar.gz
+[2023-04-18 05:40:07] INFO root fetch - processPackages [py-kvstore]: executing diffoscope
+[2023-04-18 05:40:07] INFO root fetch - processPackages [py-kvstore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_kvstore-0.0.1-py3-none-any.whl.zip tmp/py_kvstore-0.0.2a0-py3-none-any.whl.zip --markdown 20230418/p/py-kvstore/0.0.1-0.0.2a0/diff.md --exclude *.pyd
+[2023-04-18 05:40:07] INFO root fetch - processPackages [espeak-phonemizer]: executing diffoscope
+[2023-04-18 05:40:07] INFO root fetch - processPackages [espeak-phonemizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/espeak_phonemizer-1.2.0.tar.gz tmp/espeak_phonemizer-1.3.0.tar.gz --markdown 20230418/e/espeak-phonemizer/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-04-18 05:40:07] INFO root fetch - processPackages [TMFuncs]: Downloading https://files.pythonhosted.org/packages/f5/9a/2ea7461f34a997b20aad63036088735ef6af7d88d3af5ad34c312cfb9c21/TMFuncs-0.0.9.tar.gz
+[2023-04-18 05:40:07] INFO root fetch - processPackages [streamlit-chat-animated]: Start processing: datajunction
+[2023-04-18 05:40:07] INFO root fetch - main [MainThread]: End processing [streamlit-chat-animated]: success
+[2023-04-18 05:40:07] INFO root fetch - processPackages [datajunction]: New version: [0.0.1a5] Old Version: [0.0.1a4]
+[2023-04-18 05:40:07] INFO root fetch - processPackages [odoo13-addon-contract-variable-quantity]: Downloading https://files.pythonhosted.org/packages/f2/7b/f8fdd98bf3bb24848e03f27bac0695ff7089d982ecf36da235ead364228c/odoo13_addon_contract_variable_quantity-13.0.1.2.1.dev6-py3-none-any.whl
+[2023-04-18 05:40:07] INFO root fetch - processPackages [odoo12-addon-contract-variable-quantity]: Downloading https://files.pythonhosted.org/packages/af/3a/8cf9f4db4e11bc0593d2e6edfc3e9d058864ce09994806b37d73ebfffeb3/odoo12_addon_contract_variable_quantity-12.0.3.1.1.99.dev3-py3-none-any.whl
+[2023-04-18 05:40:07] INFO root fetch - processPackages [odoo13-addon-contract-variable-quantity]: executing diffoscope
+[2023-04-18 05:40:07] INFO root fetch - processPackages [odoo13-addon-contract-variable-quantity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_contract_variable_quantity-13.0.1.2.1.dev5-py3-none-any.whl.zip tmp/odoo13_addon_contract_variable_quantity-13.0.1.2.1.dev6-py3-none-any.whl.zip --markdown 20230418/o/odoo13-addon-contract-variable-quantity/13.0.1.2.1.dev5-13.0.1.2.1.dev6/diff.md --exclude *.pyd
+[2023-04-18 05:40:07] INFO root fetch - processPackages [TMFuncs]: executing diffoscope
+[2023-04-18 05:40:07] INFO root fetch - processPackages [TMFuncs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TMFuncs-0.0.8.tar.gz tmp/TMFuncs-0.0.9.tar.gz --markdown 20230418/T/TMFuncs/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-04-18 05:40:07] INFO root fetch - processPackages [odoo12-addon-contract-variable-quantity]: executing diffoscope
+[2023-04-18 05:40:07] INFO root fetch - processPackages [odoo12-addon-contract-variable-quantity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_contract_variable_quantity-12.0.3.1.1.99.dev2-py3-none-any.whl.zip tmp/odoo12_addon_contract_variable_quantity-12.0.3.1.1.99.dev3-py3-none-any.whl.zip --markdown 20230418/o/odoo12-addon-contract-variable-quantity/12.0.3.1.1.99.dev2-12.0.3.1.1.99.dev3/diff.md --exclude *.pyd
+[2023-04-18 05:40:07] INFO root fetch - processPackages [datajunction]: Downloading https://files.pythonhosted.org/packages/f6/de/d9847b314f25b92aff374e187b9e73d2af3c7fac4eea2497fc408c897632/datajunction-0.0.1a5.tar.gz
+[2023-04-18 05:40:07] INFO root fetch - processPackages [datajunction]: executing diffoscope
+[2023-04-18 05:40:07] INFO root fetch - processPackages [datajunction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datajunction-0.0.1a4.tar.gz tmp/datajunction-0.0.1a5.tar.gz --markdown 20230418/d/datajunction/0.0.1a4-0.0.1a5/diff.md --exclude *.pyd
+[2023-04-18 05:40:07] INFO root fetch - processPackages [plotguy]: Start processing: odoo-addon-contract-variable-quantity
+[2023-04-18 05:40:07] INFO root fetch - main [MainThread]: End processing [plotguy]: success
+[2023-04-18 05:40:07] INFO root fetch - processPackages [odoo-addon-contract-variable-quantity]: New version: [15.0.1.0.0.5] Old Version: [15.0.1.0.0.4]
+[2023-04-18 05:40:08] INFO root fetch - processPackages [odoo-addon-contract-variable-quantity]: Downloading https://files.pythonhosted.org/packages/62/71/c17747b17a004909ec33a768a4ea25b89326084f82725d4f1deb240c24b8/odoo_addon_contract_variable_quantity-15.0.1.0.0.4-py3-none-any.whl
+[2023-04-18 05:40:08] INFO root fetch - processPackages [odoo-addon-contract-variable-quantity]: Downloading https://files.pythonhosted.org/packages/e9/d5/efaf0c5894fde5821caa3a23034f7016a0ebcd7933be2a6bacaacf8ec5e7/odoo_addon_contract_variable_quantity-15.0.1.0.0.5-py3-none-any.whl
+[2023-04-18 05:40:08] INFO root fetch - processPackages [Mensajes-jdjj43]: Start processing: odoo14-addon-contract-variable-quantity
+[2023-04-18 05:40:08] INFO root fetch - main [MainThread]: End processing [Mensajes-jdjj43]: success
+[2023-04-18 05:40:08] INFO root fetch - processPackages [odoo14-addon-contract-variable-quantity]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev8]
+[2023-04-18 05:40:08] INFO root fetch - processPackages [odoo-addon-contract-variable-quantity]: executing diffoscope
+[2023-04-18 05:40:08] INFO root fetch - processPackages [odoo-addon-contract-variable-quantity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_contract_variable_quantity-15.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_contract_variable_quantity-15.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230418/o/odoo-addon-contract-variable-quantity/15.0.1.0.0.4-15.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-04-18 05:40:08] INFO root fetch - processPackages [py-kvstore]: Start processing: streamlit-chat-animated
+[2023-04-18 05:40:08] INFO root fetch - main [MainThread]: End processing [py-kvstore]: success
+[2023-04-18 05:40:08] INFO root fetch - processPackages [odoo14-addon-contract-variable-quantity]: Downloading https://files.pythonhosted.org/packages/e5/72/acc098ef28c6e8f8247f9febdedb5a45aeffab792ca8eb49cd846e827404/odoo14_addon_contract_variable_quantity-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-04-18 05:40:08] INFO root fetch - processPackages [streamlit-chat-animated]: New version: [0.0.3.1] Old Version: [0.0.3.0]
+[2023-04-18 05:40:08] INFO root fetch - processPackages [streamlit-chat-animated]: executing diffoscope
+[2023-04-18 05:40:08] INFO root fetch - processPackages [streamlit-chat-animated]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-chat-animated-0.0.3.0.tar.gz tmp/streamlit-chat-animated-0.0.3.1.tar.gz --markdown 20230418/s/streamlit-chat-animated/0.0.3.0-0.0.3.1/diff.md --exclude *.pyd
+[2023-04-18 05:40:08] INFO root fetch - main [MainThread]: End processing [alibabacloud-btripopen20220520-py2]: success
+[2023-04-18 05:40:08] INFO root fetch - processPackages [odoo14-addon-contract-variable-quantity]: Downloading https://files.pythonhosted.org/packages/8d/ae/2a9b84b68ebbedda9e752e8d2d186ddd38ec8d41a782a4a215b772d2dcf7/odoo14_addon_contract_variable_quantity-14.0.1.0.1.dev9-py3-none-any.whl
+[2023-04-18 05:40:08] INFO root fetch - main [MainThread]: End processing [espeak-phonemizer]: success
+[2023-04-18 05:40:08] INFO root fetch - processPackages [odoo14-addon-contract-variable-quantity]: executing diffoscope
+[2023-04-18 05:40:08] INFO root fetch - processPackages [odoo14-addon-contract-variable-quantity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_contract_variable_quantity-14.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_contract_variable_quantity-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230418/o/odoo14-addon-contract-variable-quantity/14.0.1.0.1.dev8-14.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-04-18 05:40:09] INFO root fetch - main [MainThread]: End processing [alibabacloud-btripopen20220520]: success
+[2023-04-18 05:40:09] INFO root fetch - main [MainThread]: End processing [TMFuncs]: success
+[2023-04-18 05:40:09] INFO root fetch - main [MainThread]: End processing [odoo13-addon-contract-variable-quantity]: success
+[2023-04-18 05:40:09] INFO root fetch - main [MainThread]: End processing [odoo12-addon-contract-variable-quantity]: success
+[2023-04-18 05:40:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-contract-variable-quantity]: success
+[2023-04-18 05:40:10] INFO root fetch - main [MainThread]: End processing [streamlit-chat-animated]: success
+[2023-04-18 05:40:10] INFO root fetch - main [MainThread]: End processing [odoo14-addon-contract-variable-quantity]: success
+[2023-04-18 05:40:12] INFO root fetch - main [MainThread]: End processing [datajunction]: success
+[2023-04-18 05:40:12] INFO root fetch - main [MainThread]: Store serial: [17749215]
