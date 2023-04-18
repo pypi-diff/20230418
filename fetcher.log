@@ -7465,3 +7465,62 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 04:23:50] INFO root fetch - main [MainThread]: End processing [Pandora-ChatGPT]: success
 [2023-04-18 04:23:52] INFO root fetch - main [MainThread]: End processing [pydflow]: success
 [2023-04-18 04:23:52] INFO root fetch - main [MainThread]: Store serial: [17748693]
+[2023-04-18 04:28:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17748693]
+[2023-04-18 04:29:01] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-04-18 04:29:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xh-dual-layer-app-engine
+[2023-04-18 04:29:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: forked-authomatic
+[2023-04-18 04:29:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: homeassistant
+[2023-04-18 04:29:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: roblox-py-wrapper
+[2023-04-18 04:29:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iam-actions
+[2023-04-18 04:29:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: simple-function-cache
+[2023-04-18 04:29:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: efax
+[2023-04-18 04:29:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: baselib
+[2023-04-18 04:29:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xh-dual-layer-app-engine
+[2023-04-18 04:29:01] INFO root fetch - processPackages [xh-dual-layer-app-engine]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-18 04:29:01] WARNING root fetch - processPackages [roblox-py-wrapper]: Skipping, unable to determine old version
+[2023-04-18 04:29:01] INFO root fetch - main [MainThread]: End processing [roblox-py-wrapper] error
+[2023-04-18 04:29:01] INFO root fetch - processPackages [baselib]: New version: [1.0.7.2] Old Version: [1.0.7.1]
+[2023-04-18 04:29:01] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230418] Old Version: [1.2.20230417]
+[2023-04-18 04:29:01] INFO root fetch - processPackages [simple-function-cache]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-04-18 04:29:01] INFO root fetch - processPackages [forked-authomatic]: New version: [1.2.3.dev0] Old Version: [1.2.2.dev0]
+[2023-04-18 04:29:01] INFO root fetch - processPackages [xh-dual-layer-app-engine]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-18 04:29:01] INFO root fetch - processPackages [efax]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-04-18 04:29:01] INFO root fetch - processPackages [homeassistant]: New version: [2023.4.5] Old Version: [2023.4.4]
+[2023-04-18 04:29:01] INFO root fetch - processPackages [baselib]: Downloading https://files.pythonhosted.org/packages/7c/eb/7333ea1d31e56882c01c85ed953bf0f8d8a7c0cb594da50f5fe2d8004849/baselib-1.0.7.1.tar.gz
+[2023-04-18 04:29:01] INFO root fetch - processPackages [xh-dual-layer-app-engine]: Downloading https://files.pythonhosted.org/packages/18/e9/145a5843532ba2f67af28cb81e3957499693a6dc6a88f560a1766178460a/xh-dual-layer-app-engine-0.0.2.tar.gz
+[2023-04-18 04:29:01] INFO root fetch - processPackages [xh-dual-layer-app-engine]: Downloading https://files.pythonhosted.org/packages/18/e9/145a5843532ba2f67af28cb81e3957499693a6dc6a88f560a1766178460a/xh-dual-layer-app-engine-0.0.2.tar.gz
+[2023-04-18 04:29:01] INFO root fetch - processPackages [simple-function-cache]: Downloading https://files.pythonhosted.org/packages/9b/c2/84a934aeecd66792f47156db8c5a2c1d7f8bc5320556801f962a0b881d7f/simple-function-cache-0.0.3.tar.gz
+[2023-04-18 04:29:01] INFO root fetch - processPackages [forked-authomatic]: Downloading https://files.pythonhosted.org/packages/41/8d/e58b3e5714afc83d7a15def1f395fa4315b57228e0f0861e475d96b8c76c/forked-authomatic-1.2.2.dev0.tar.gz
+[2023-04-18 04:29:01] INFO root fetch - processPackages [efax]: Downloading https://files.pythonhosted.org/packages/b0/d3/88cf57bd21b97ce0af97e91d814a97737f5278b22981e6339b869ec2b35a/efax-1.9.0.tar.gz
+[2023-04-18 04:29:01] INFO root fetch - processPackages [homeassistant]: Downloading https://files.pythonhosted.org/packages/59/2d/779eba6fa05c32172644b1102c1de7d4593cf92bdde9c53e98ba0a8d0b97/homeassistant-2023.4.4.tar.gz
+[2023-04-18 04:29:01] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/04/b5/d15166755b06ad6bccdaf8477e1783db9ecf811c5d5b9e1e96c29643cf19/iam_actions-1.2.20230418.tar.gz
+[2023-04-18 04:29:01] WARNING root fetch - processPackages [homeassistant]: Skipping package: exceeds size limit 12889752>=10485760
+[2023-04-18 04:29:01] INFO root fetch - main [MainThread]: End processing [homeassistant] error
+[2023-04-18 04:29:01] INFO root fetch - processPackages [baselib]: Downloading https://files.pythonhosted.org/packages/9f/d2/0479e600552d44ad92dcb8d01aa955d1e9ced518da67ed7506b6899b0f88/baselib-1.0.7.2.tar.gz
+[2023-04-18 04:29:01] INFO root fetch - processPackages [simple-function-cache]: Downloading https://files.pythonhosted.org/packages/4c/cf/a337de8db8bda829f5f41f49b3b02dcee901f456855b1d935c94593a5298/simple-function-cache-0.0.4.tar.gz
+[2023-04-18 04:29:01] INFO root fetch - processPackages [xh-dual-layer-app-engine]: Downloading https://files.pythonhosted.org/packages/a5/8b/346b9cd845aafc756bed9d35de07002cb5276b682a6ab32b461c3d2e9770/xh-dual-layer-app-engine-0.0.3.tar.gz
+[2023-04-18 04:29:01] INFO root fetch - processPackages [xh-dual-layer-app-engine]: Downloading https://files.pythonhosted.org/packages/a5/8b/346b9cd845aafc756bed9d35de07002cb5276b682a6ab32b461c3d2e9770/xh-dual-layer-app-engine-0.0.3.tar.gz
+[2023-04-18 04:29:01] INFO root fetch - processPackages [forked-authomatic]: Downloading https://files.pythonhosted.org/packages/65/ef/654a07b5a8df6461a4a17b04c0c8c35d8ae267b4be6c0a3aa3bb1d02f44e/forked-authomatic-1.2.3.dev0.tar.gz
+[2023-04-18 04:29:01] INFO root fetch - processPackages [baselib]: executing diffoscope
+[2023-04-18 04:29:01] INFO root fetch - processPackages [baselib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baselib-1.0.7.1.tar.gz tmp/baselib-1.0.7.2.tar.gz --markdown 20230418/b/baselib/1.0.7.1-1.0.7.2/diff.md --exclude *.pyd
+[2023-04-18 04:29:01] INFO root fetch - processPackages [efax]: Downloading https://files.pythonhosted.org/packages/45/ae/9fd314ec092ce76a4044da94da01a98a1ff79c6ede08742ef86a83aea5be/efax-1.9.1.tar.gz
+[2023-04-18 04:29:01] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-04-18 04:29:01] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230417.tar.gz tmp/iam_actions-1.2.20230418.tar.gz --markdown 20230418/i/iam-actions/1.2.20230417-1.2.20230418/diff.md --exclude *.pyd
+[2023-04-18 04:29:01] INFO root fetch - processPackages [simple-function-cache]: executing diffoscope
+[2023-04-18 04:29:01] INFO root fetch - processPackages [simple-function-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple-function-cache-0.0.3.tar.gz tmp/simple-function-cache-0.0.4.tar.gz --markdown 20230418/s/simple-function-cache/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-04-18 04:29:01] INFO root fetch - processPackages [xh-dual-layer-app-engine]: executing diffoscope
+[2023-04-18 04:29:01] INFO root fetch - processPackages [xh-dual-layer-app-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xh-dual-layer-app-engine-0.0.2.tar.gz tmp/xh-dual-layer-app-engine-0.0.3.tar.gz --markdown 20230418/x/xh-dual-layer-app-engine/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-18 04:29:01] INFO root fetch - processPackages [xh-dual-layer-app-engine]: executing diffoscope
+[2023-04-18 04:29:01] INFO root fetch - processPackages [xh-dual-layer-app-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xh-dual-layer-app-engine-0.0.2.tar.gz tmp/xh-dual-layer-app-engine-0.0.3.tar.gz --markdown 20230418/x/xh-dual-layer-app-engine/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-18 04:29:01] INFO root fetch - processPackages [forked-authomatic]: executing diffoscope
+[2023-04-18 04:29:01] INFO root fetch - processPackages [forked-authomatic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forked-authomatic-1.2.2.dev0.tar.gz tmp/forked-authomatic-1.2.3.dev0.tar.gz --markdown 20230418/f/forked-authomatic/1.2.2.dev0-1.2.3.dev0/diff.md --exclude *.pyd
+[2023-04-18 04:29:02] INFO root fetch - processPackages [efax]: executing diffoscope
+[2023-04-18 04:29:02] INFO root fetch - processPackages [efax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efax-1.9.0.tar.gz tmp/efax-1.9.1.tar.gz --markdown 20230418/e/efax/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-04-18 04:29:03] INFO root fetch - main [MainThread]: End processing [baselib]: success
+[2023-04-18 04:29:03] INFO root fetch - main [MainThread]: End processing [xh-dual-layer-app-engine]: success
+[2023-04-18 04:29:03] INFO root fetch - main [MainThread]: End processing [simple-function-cache]: success
+[2023-04-18 04:29:03] INFO root fetch - main [MainThread]: End processing [xh-dual-layer-app-engine]: success
+[2023-04-18 04:29:03] INFO root fetch - main [MainThread]: End processing [forked-authomatic]: success
+[2023-04-18 04:29:03] INFO root fetch - main [MainThread]: End processing [efax]: success
+[2023-04-18 04:29:04] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-04-18 04:29:04] INFO root fetch - main [MainThread]: Store serial: [17748723]
