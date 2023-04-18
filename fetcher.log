@@ -20995,3 +20995,140 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-04-18 15:12:24] INFO root fetch - main [MainThread]: End processing [datamol]: success
 [2023-04-18 15:12:47] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2023-04-18 15:12:47] INFO root fetch - main [MainThread]: Store serial: [17756114]
+[2023-04-18 15:17:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [17756114]
+[2023-04-18 15:17:56] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-04-18 15:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Products.MeetingLalouviere
+[2023-04-18 15:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-pytorch
+[2023-04-18 15:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: composer-csv-ingestion
+[2023-04-18 15:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: voici
+[2023-04-18 15:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: drb-driver-s3
+[2023-04-18 15:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dask-geomodeling
+[2023-04-18 15:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-scipy
+[2023-04-18 15:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bemserver-api
+[2023-04-18 15:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: barbell2-bodycomp
+[2023-04-18 15:17:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbdev-sphinx
+[2023-04-18 15:17:56] INFO root fetch - processPackages [Products.MeetingLalouviere]: New version: [4.2.0rc3] Old Version: [4.2.0rc2]
+[2023-04-18 15:17:56] INFO root fetch - processPackages [voici]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-04-18 15:17:56] WARNING root fetch - processPackages [composer-csv-ingestion]: Skipping, unable to determine old version
+[2023-04-18 15:17:56] INFO root fetch - processPackages [composer-csv-ingestion]: Start processing: stringhandling
+[2023-04-18 15:17:56] INFO root fetch - main [MainThread]: End processing [composer-csv-ingestion] error
+[2023-04-18 15:17:56] INFO root fetch - processPackages [dask-geomodeling]: New version: [2.4.1] Old Version: [2.4.0]
+[2023-04-18 15:17:56] INFO root fetch - processPackages [drb-driver-s3]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-04-18 15:17:56] INFO root fetch - processPackages [bemserver-api]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-04-18 15:17:56] INFO root fetch - processPackages [barbell2-bodycomp]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-04-18 15:17:56] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-18 15:17:56] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-18 15:17:56] INFO root fetch - processPackages [stringhandling]: New version: [0.3] Old Version: [0.2]
+[2023-04-18 15:17:56] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-18 15:17:56] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-04-18 15:17:56] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230418/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-18 15:17:56] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-04-18 15:17:56] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230418/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-18 15:17:56] INFO root fetch - processPackages [bemserver-api]: Downloading https://files.pythonhosted.org/packages/d1/96/d63eab3b697c60441c8e4773f0f7e4f7ae0cc4ac6c9b80c1b861c1726f94/bemserver-api-0.8.0.tar.gz
+[2023-04-18 15:17:56] INFO root fetch - processPackages [drb-driver-s3]: Downloading https://files.pythonhosted.org/packages/c0/cd/0888b13c661eba698fd8b13c663f0fce53673280917244c1406a20d221dd/drb-driver-s3-1.1.0.tar.gz
+[2023-04-18 15:17:56] INFO root fetch - processPackages [stringhandling]: Downloading https://files.pythonhosted.org/packages/c0/85/f6c8a653f1e785b7eae505728c9d3956cef75409e5fffcd72fe61394307e/stringhandling-0.3.tar.gz
+[2023-04-18 15:17:56] INFO root fetch - processPackages [dask-geomodeling]: Downloading https://files.pythonhosted.org/packages/af/90/69df71393cf40706e13e5e6c7de72e7225b48d849909453be305018fee0d/dask-geomodeling-2.4.0.tar.gz
+[2023-04-18 15:17:56] INFO root fetch - processPackages [Products.MeetingLalouviere]: Downloading https://files.pythonhosted.org/packages/b9/e4/5ee09bd27e5093e5e38ac81767d8b7abc3a3f62feba9bb333b55ed79a416/Products.MeetingLalouviere-4.2.0rc3.tar.gz
+[2023-04-18 15:17:57] INFO root fetch - processPackages [voici]: Downloading https://files.pythonhosted.org/packages/2c/03/aa08ca18fc303d3ef1da3a49e22053f5cdaebace96ed1c3465e5dfdbc8c8/voici-0.3.3.tar.gz
+[2023-04-18 15:17:57] INFO root fetch - processPackages [barbell2-bodycomp]: Downloading https://files.pythonhosted.org/packages/c7/f6/c826013ad08f4680dea132986855d7a00b6fdae4735786522e14c0ed0c7e/barbell2_bodycomp-0.6.0.tar.gz
+[2023-04-18 15:17:57] INFO root fetch - processPackages [stringhandling]: executing diffoscope
+[2023-04-18 15:17:57] INFO root fetch - processPackages [stringhandling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stringhandling-0.2.tar.gz tmp/stringhandling-0.3.tar.gz --markdown 20230418/s/stringhandling/0.2-0.3/diff.md --exclude *.pyd
+[2023-04-18 15:17:57] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-04-18 15:17:57] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230418/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-18 15:17:57] INFO root fetch - processPackages [drb-driver-s3]: Downloading https://files.pythonhosted.org/packages/50/12/3573b303fe6c7326b35cf5ecf78c8132f3608e686e5d075b72e493f88ea1/drb-driver-s3-1.2.0.tar.gz
+[2023-04-18 15:17:57] INFO root fetch - processPackages [bemserver-api]: Downloading https://files.pythonhosted.org/packages/5c/e7/77a339a63998e92a93bf92e8d87de9152b25180a76f0d202f8550beef516/bemserver-api-0.9.0.tar.gz
+[2023-04-18 15:17:57] INFO root fetch - processPackages [dask-geomodeling]: Downloading https://files.pythonhosted.org/packages/8b/fa/84f419db190e90d98f5a994a22a101df1bd8a8a28d88889ec9c023e3e183/dask-geomodeling-2.4.1.tar.gz
+[2023-04-18 15:17:57] INFO root fetch - processPackages [barbell2-bodycomp]: executing diffoscope
+[2023-04-18 15:17:57] INFO root fetch - processPackages [barbell2-bodycomp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/barbell2_bodycomp-0.5.0.tar.gz tmp/barbell2_bodycomp-0.6.0.tar.gz --markdown 20230418/b/barbell2-bodycomp/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-04-18 15:17:57] INFO root fetch - processPackages [Products.MeetingLalouviere]: executing diffoscope
+[2023-04-18 15:17:57] INFO root fetch - processPackages [Products.MeetingLalouviere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Products.MeetingLalouviere-4.2.0rc2.tar.gz tmp/Products.MeetingLalouviere-4.2.0rc3.tar.gz --markdown 20230418/P/Products.MeetingLalouviere/4.2.0rc2-4.2.0rc3/diff.md --exclude *.pyd
+[2023-04-18 15:17:57] INFO root fetch - processPackages [bemserver-api]: executing diffoscope
+[2023-04-18 15:17:57] INFO root fetch - processPackages [bemserver-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bemserver-api-0.8.0.tar.gz tmp/bemserver-api-0.9.0.tar.gz --markdown 20230418/b/bemserver-api/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-04-18 15:17:57] INFO root fetch - processPackages [voici]: Downloading https://files.pythonhosted.org/packages/8f/f3/66c24bb1c73d750782a3eca0ba5e3fee1afb01538773d1a175766f2c5e85/voici-0.4.0.tar.gz
+[2023-04-18 15:17:57] INFO root fetch - processPackages [drb-driver-s3]: executing diffoscope
+[2023-04-18 15:17:57] INFO root fetch - processPackages [drb-driver-s3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drb-driver-s3-1.1.0.tar.gz tmp/drb-driver-s3-1.2.0.tar.gz --markdown 20230418/d/drb-driver-s3/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-04-18 15:17:57] INFO root fetch - processPackages [dask-geomodeling]: executing diffoscope
+[2023-04-18 15:17:57] INFO root fetch - processPackages [dask-geomodeling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-geomodeling-2.4.0.tar.gz tmp/dask-geomodeling-2.4.1.tar.gz --markdown 20230418/d/dask-geomodeling/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2023-04-18 15:17:57] INFO root fetch - processPackages [voici]: executing diffoscope
+[2023-04-18 15:17:57] INFO root fetch - processPackages [voici]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voici-0.3.3.tar.gz tmp/voici-0.4.0.tar.gz --markdown 20230418/v/voici/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-04-18 15:17:58] INFO root fetch - processPackages [nbdev-sphinx]: Start processing: zeno-evals
+[2023-04-18 15:17:58] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-04-18 15:17:58] INFO root fetch - processPackages [zeno-evals]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-04-18 15:17:58] INFO root fetch - processPackages [stringhandling]: Start processing: cdk-aws-lambda-powertools-layer
+[2023-04-18 15:17:58] INFO root fetch - main [MainThread]: End processing [stringhandling]: success
+[2023-04-18 15:17:58] INFO root fetch - processPackages [cdk-aws-lambda-powertools-layer]: New version: [3.5.0] Old Version: [3.4.0]
+[2023-04-18 15:17:58] INFO root fetch - processPackages [zeno-evals]: Downloading https://files.pythonhosted.org/packages/ae/60/3b2f8fd0bfa1b579138bb19653fcc598a9294191e5ab68631e35e2b6aa9c/zeno_evals-0.1.4.tar.gz
+[2023-04-18 15:17:58] INFO root fetch - processPackages [cdk-aws-lambda-powertools-layer]: Downloading https://files.pythonhosted.org/packages/7e/e0/f897d45f1450493a2927938b3bbbb2969c931e664d07d9aa4681a6e19f39/cdk-aws-lambda-powertools-layer-3.4.0.tar.gz
+[2023-04-18 15:17:58] INFO root fetch - processPackages [barbell2-bodycomp]: Start processing: ebyte-lora-e32
+[2023-04-18 15:17:58] INFO root fetch - main [MainThread]: End processing [barbell2-bodycomp]: success
+[2023-04-18 15:17:58] INFO root fetch - processPackages [ebyte-lora-e32]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-04-18 15:17:58] INFO root fetch - processPackages [zeno-evals]: Downloading https://files.pythonhosted.org/packages/7c/99/0783f28601058e47edbc5f5717dd8f35881c650d369c683d63adbcdb120e/zeno_evals-0.1.5.tar.gz
+[2023-04-18 15:17:58] INFO root fetch - processPackages [ebyte-lora-e32]: Downloading https://files.pythonhosted.org/packages/3e/d9/38724c4d4df8c5205093b6bc15f7542035cc90a383c97e5fd9158126a626/ebyte-lora-e32-0.0.3.tar.gz
+[2023-04-18 15:17:58] INFO root fetch - processPackages [cdk-aws-lambda-powertools-layer]: Downloading https://files.pythonhosted.org/packages/e7/57/735b79667cd1bf70d8cecdc06e3f8310c8ac67f9125786e5f6eee93a8665/cdk-aws-lambda-powertools-layer-3.5.0.tar.gz
+[2023-04-18 15:17:59] INFO root fetch - processPackages [zeno-evals]: executing diffoscope
+[2023-04-18 15:17:59] INFO root fetch - processPackages [zeno-evals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeno_evals-0.1.4.tar.gz tmp/zeno_evals-0.1.5.tar.gz --markdown 20230418/z/zeno-evals/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-04-18 15:17:59] INFO root fetch - processPackages [ebyte-lora-e32]: executing diffoscope
+[2023-04-18 15:17:59] INFO root fetch - processPackages [ebyte-lora-e32]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebyte-lora-e32-0.0.2.tar.gz tmp/ebyte-lora-e32-0.0.3.tar.gz --markdown 20230418/e/ebyte-lora-e32/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-04-18 15:17:59] INFO root fetch - processPackages [cdk-aws-lambda-powertools-layer]: executing diffoscope
+[2023-04-18 15:17:59] INFO root fetch - processPackages [cdk-aws-lambda-powertools-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aws-lambda-powertools-layer-3.4.0.tar.gz tmp/cdk-aws-lambda-powertools-layer-3.5.0.tar.gz --markdown 20230418/c/cdk-aws-lambda-powertools-layer/3.4.0-3.5.0/diff.md --exclude *.pyd
+[2023-04-18 15:17:59] INFO root fetch - processPackages [nbdev-scipy]: Start processing: mechanical-bull
+[2023-04-18 15:17:59] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-04-18 15:17:59] INFO root fetch - processPackages [mechanical-bull]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-04-18 15:17:59] INFO root fetch - processPackages [drb-driver-s3]: Start processing: nbdev-django
+[2023-04-18 15:17:59] INFO root fetch - main [MainThread]: End processing [drb-driver-s3]: success
+[2023-04-18 15:17:59] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-18 15:17:59] INFO root fetch - processPackages [Products.MeetingLalouviere]: Start processing: syngen
+[2023-04-18 15:17:59] INFO root fetch - main [MainThread]: End processing [Products.MeetingLalouviere]: success
+[2023-04-18 15:17:59] INFO root fetch - processPackages [syngen]: New version: [0.0.90] Old Version: [0.0.9]
+[2023-04-18 15:17:59] INFO root fetch - processPackages [syngen]: executing diffoscope
+[2023-04-18 15:17:59] INFO root fetch - processPackages [syngen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syngen-0.0.9.tar.gz tmp/syngen-0.0.90.tar.gz --markdown 20230418/s/syngen/0.0.9-0.0.90/diff.md --exclude *.pyd
+[2023-04-18 15:17:59] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-04-18 15:17:59] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230418/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-18 15:17:59] INFO root fetch - processPackages [mechanical-bull]: Downloading https://files.pythonhosted.org/packages/2b/9b/5dd5f39dda9e0ed3976d5baae07349e2517eedb56deecbb00437d10c6685/mechanical_bull-0.0.5.tar.gz
+[2023-04-18 15:17:59] INFO root fetch - processPackages [nbdev-pytorch]: Start processing: sdc11073
+[2023-04-18 15:17:59] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-04-18 15:17:59] INFO root fetch - processPackages [sdc11073]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-04-18 15:18:00] INFO root fetch - processPackages [mechanical-bull]: executing diffoscope
+[2023-04-18 15:18:00] INFO root fetch - processPackages [mechanical-bull]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mechanical_bull-0.0.4.tar.gz tmp/mechanical_bull-0.0.5.tar.gz --markdown 20230418/m/mechanical-bull/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-04-18 15:18:00] INFO root fetch - processPackages [sdc11073]: Downloading https://files.pythonhosted.org/packages/1e/00/d07da9e7945be10e41336f3a0b70cbc96637e78b8590e63263cf0056b486/sdc11073-1.1.8-py3-none-any.whl
+[2023-04-18 15:18:00] INFO root fetch - processPackages [zeno-evals]: Start processing: renovosolutions.aws-ses-smtp-credentials
+[2023-04-18 15:18:00] INFO root fetch - main [MainThread]: End processing [zeno-evals]: success
+[2023-04-18 15:18:00] INFO root fetch - processPackages [renovosolutions.aws-ses-smtp-credentials]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-04-18 15:18:00] INFO root fetch - processPackages [bemserver-api]: Start processing: anyon
+[2023-04-18 15:18:00] INFO root fetch - main [MainThread]: End processing [bemserver-api]: success
+[2023-04-18 15:18:00] INFO root fetch - processPackages [ebyte-lora-e32]: Start processing: pysarcat
+[2023-04-18 15:18:00] INFO root fetch - main [MainThread]: End processing [ebyte-lora-e32]: success
+[2023-04-18 15:18:00] INFO root fetch - processPackages [cdk-aws-lambda-powertools-layer]: Start processing: axion
+[2023-04-18 15:18:00] INFO root fetch - main [MainThread]: End processing [cdk-aws-lambda-powertools-layer]: success
+[2023-04-18 15:18:00] INFO root fetch - processPackages [anyon]: New version: [3.1.19] Old Version: [3.1.18]
+[2023-04-18 15:18:00] INFO root fetch - processPackages [renovosolutions.aws-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/a6/f8/9128a0141a51f455fd03ad91705b7563d56faef0826b4d10389550f5601a/renovosolutions.aws-ses-smtp-credentials-0.0.98.tar.gz
+[2023-04-18 15:18:00] INFO root fetch - processPackages [pysarcat]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-04-18 15:18:00] INFO root fetch - processPackages [sdc11073]: Downloading https://files.pythonhosted.org/packages/a3/04/909d69a9e0aa33d48b6cc21951d88eea95467c0d2fa6371850e05ffa1d9c/sdc11073-1.1.9-py3-none-any.whl
+[2023-04-18 15:18:00] INFO root fetch - processPackages [axion]: New version: [3.2.21] Old Version: [3.2.20]
+[2023-04-18 15:18:00] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/2d/58/a8bdc9ac64f6cc0965d9f5a3e93143ec52e0834962922c00c2cdffe084c3/anyon-3.1.18-cp311-cp311-win_amd64.whl
+[2023-04-18 15:18:00] INFO root fetch - processPackages [sdc11073]: executing diffoscope
+[2023-04-18 15:18:00] INFO root fetch - processPackages [sdc11073]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdc11073-1.1.8-py3-none-any.whl.zip tmp/sdc11073-1.1.9-py3-none-any.whl.zip --markdown 20230418/s/sdc11073/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-04-18 15:18:00] INFO root fetch - main [MainThread]: End processing [dask-geomodeling]: success
+[2023-04-18 15:18:00] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/c1/6a/6c401b9f8d58502148dd53f27f20862a57f14cd8b8887b043ef3e5877a6f/axion-3.2.20-cp311-cp311-win_amd64.whl
+[2023-04-18 15:18:00] INFO root fetch - processPackages [renovosolutions.aws-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/4d/1b/51feb9e0c4c81efe14442b2a817b0ee3267935e1f1b0e7a71ded5bae4acc/renovosolutions.aws-ses-smtp-credentials-0.0.99.tar.gz
+[2023-04-18 15:18:01] INFO root fetch - processPackages [pysarcat]: Downloading https://files.pythonhosted.org/packages/16/86/60927f0422bd82efa089a86ac3e5d5046c139ed59d815e5cde53b8bd8f0c/pysarcat-1.0.4-py3-none-any.whl
+[2023-04-18 15:18:01] INFO root fetch - main [MainThread]: End processing [mechanical-bull]: success
+[2023-04-18 15:18:01] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/a6/57/cfb01e94c9e098c1e4a5e956541e5f8a06d0a8d77a28f590939b5ad6e8c2/anyon-3.1.19-cp311-cp311-macosx_10_9_universal2.whl
+[2023-04-18 15:18:01] INFO root fetch - processPackages [renovosolutions.aws-ses-smtp-credentials]: executing diffoscope
+[2023-04-18 15:18:01] INFO root fetch - processPackages [renovosolutions.aws-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renovosolutions.aws-ses-smtp-credentials-0.0.98.tar.gz tmp/renovosolutions.aws-ses-smtp-credentials-0.0.99.tar.gz --markdown 20230418/r/renovosolutions.aws-ses-smtp-credentials/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-04-18 15:18:01] INFO root fetch - processPackages [pysarcat]: executing diffoscope
+[2023-04-18 15:18:01] INFO root fetch - processPackages [pysarcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysarcat-1.0.3-py3-none-any.whl.zip tmp/pysarcat-1.0.4-py3-none-any.whl.zip --markdown 20230418/p/pysarcat/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-04-18 15:18:01] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/e5/69/6ca7fad55190f846aa8d6793d87f7288f6276c0e0b9be916ff3857e57b83/axion-3.2.21-cp311-cp311-macosx_10_9_universal2.whl
+[2023-04-18 15:18:01] INFO root fetch - processPackages [anyon]: executing diffoscope
+[2023-04-18 15:18:01] INFO root fetch - processPackages [anyon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyon-3.1.18-cp311-cp311-win_amd64.whl.zip tmp/anyon-3.1.19-cp311-cp311-macosx_10_9_universal2.whl.zip --markdown 20230418/a/anyon/3.1.18-3.1.19/diff.md --exclude *.pyd
+[2023-04-18 15:18:01] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-04-18 15:18:01] INFO root fetch - main [MainThread]: End processing [syngen]: success
+[2023-04-18 15:18:02] INFO root fetch - processPackages [axion]: executing diffoscope
+[2023-04-18 15:18:02] INFO root fetch - processPackages [axion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230418:/home/abi/fetcher/20230418:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axion-3.2.20-cp311-cp311-win_amd64.whl.zip tmp/axion-3.2.21-cp311-cp311-macosx_10_9_universal2.whl.zip --markdown 20230418/a/axion/3.2.20-3.2.21/diff.md --exclude *.pyd
+[2023-04-18 15:18:02] INFO root fetch - main [MainThread]: End processing [renovosolutions.aws-ses-smtp-credentials]: success
+[2023-04-18 15:18:02] INFO root fetch - main [MainThread]: End processing [pysarcat]: success
+[2023-04-18 15:18:02] INFO root fetch - main [MainThread]: End processing [anyon]: success
+[2023-04-18 15:18:02] INFO root fetch - main [MainThread]: End processing [sdc11073]: success
+[2023-04-18 15:18:03] INFO root fetch - main [MainThread]: End processing [axion]: success
+[2023-04-18 15:18:03] INFO root fetch - main [MainThread]: End processing [voici]: success
+[2023-04-18 15:18:03] INFO root fetch - main [MainThread]: Store serial: [17756178]
